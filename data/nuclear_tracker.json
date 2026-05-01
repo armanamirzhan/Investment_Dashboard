@@ -1,0 +1,68 @@
+[
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
+    "technology": "Light-water SMR",
+    "capacity": "77 MWe per module",
+    "nrc_status": "Full NRC design certification (Jan 2023) - only SMR with this",
+    "first_commercial": "2029-2030 (Idaho site cancelled; seeking new)",
+    "dc_partners": "Exploring DC applications",
+    "report": "reports/SMR_NuScale.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "technology": "Fast reactor (Aurora)",
+    "capacity": "15-50 MWe",
+    "nrc_status": "License application expected 2026",
+    "first_commercial": "Late 2027 / Early 2028 at INL",
+    "dc_partners": "Meta (part of 6.6 GW deal)",
+    "report": "reports/OKLO_Oklo.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "TerraPower",
+    "ticker": null,
+    "technology": "Natrium (sodium-cooled)",
+    "capacity": "345 MWe",
+    "nrc_status": "Construction started (Wyoming)",
+    "first_commercial": "2030-2031",
+    "dc_partners": "Meta (part of 6.6 GW deal)",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Kairos Power",
+    "ticker": null,
+    "technology": "Fluoride salt-cooled (Hermes)",
+    "capacity": "140 MWe (commercial)",
+    "nrc_status": "Construction permit for Hermes test reactor (Dec 2023)",
+    "first_commercial": "2030+",
+    "dc_partners": "Google (agreement signed)",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "X-energy",
+    "ticker": "XE",
+    "technology": "HTGR (Xe-100)",
+    "capacity": "80 MWe per module",
+    "nrc_status": "NRC review underway, 18-mo target",
+    "first_commercial": "~2028-2029 (DOE demo)",
+    "dc_partners": "AWS partnership",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Last Energy",
+    "ticker": null,
+    "technology": "Micro PWR",
+    "capacity": "20 MWe",
+    "nrc_status": "European pathway",
+    "first_commercial": "2026-2027 (Wales) - fastest timeline",
+    "dc_partners": "European DC operators",
+    "report": null,
+    "updated": "2026-04-24"
+  }
+]

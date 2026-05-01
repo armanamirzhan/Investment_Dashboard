@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Grid Interconnection Queue",
+    "severity": "high",
+    "description": "US queue at 2,600 GW backlog. Median wait: ~5 years, some projects facing 12-year delays. PJM and ERCOT most constrained.",
+    "impact": "Primary reason hyperscalers are pursuing behind-the-meter (BTM) solutions. ExxonMobil, Enchanted Rock, Solaris bypassing grid entirely.",
+    "mitigation": null,
+    "source": "Source: RMI, Utility Dive, ENR",
+    "updated": "2026-04-24"
+  },
+  {
+    "title": "Power Transformer Shortage",
+    "severity": "high",
+    "description": "30% supply deficit for power transformers in 2025. Lead times: 128 weeks (power), 144 weeks (GSU). Prices up 60-70% since 2020.",
+    "impact": null,
+    "mitigation": "Eaton ($340M SC plant by 2027), Siemens ($150M NC plant by 2027), Hitachi expanding VA/PA. Deficit expected to ease by 2030.",
+    "source": "Source: Wood Mackenzie, POWER Magazine",
+    "updated": "2026-04-24"
+  },
+  {
+    "title": "Gas Turbine Backlog",
+    "severity": "high",
+    "description": "GE Vernova sold out through 2030. Siemens backlog extends 5+ years. Mitsubishi doubling manufacturing but still catching up.",
+    "impact": "Hyperscalers using older aeroderivative models as bridge power. Order lead times pushing projects to 2028+.",
+    "mitigation": null,
+    "source": "Source: GE Vernova, Siemens Energy earnings",
+    "updated": "2026-04-24"
+  },
+  {
+    "title": "HALEU Fuel Scarcity",
+    "severity": "medium",
+    "description": "Required for most SMRs (Oklo, X-energy, Kairos). Centrus (LEU) only commercial US source. Could delay SMR deployments beyond 2030.",
+    "impact": null,
+    "mitigation": null,
+    "source": "Source: DOE, NRC filings",
+    "updated": "2026-04-24"
+  },
+  {
+    "title": "Regulatory & Permitting Risk",
+    "severity": "medium",
+    "description": "Ireland, Netherlands blocking new DC connections. Parts of Virginia restricting growth. Pennsylvania governor threatened grid withdrawal. NRC reviews for SMRs taking 18+ months.",
+    "impact": null,
+    "mitigation": null,
+    "source": "Source: MultiState, industry reports",
+    "updated": "2026-04-24"
+  },
+  {
+    "title": "Hyperscaler Demand Pullback",
+    "severity": "medium",
+    "description": "Microsoft froze 1.5 GW self-build and cancelled 2 GW leases. Only ~5 GW of promised 16 GW for 2026 actually being built. AI inference efficiency gains could reduce power needs.",
+    "impact": null,
+    "mitigation": "Overall CapEx still rising. Demand acceleration from Goldman Sachs revised up to 220% growth by 2030.",
+    "source": "Source: SemiAnalysis, Benzinga",
+    "updated": "2026-04-24"
+  }
+]

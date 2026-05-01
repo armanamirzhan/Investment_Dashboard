@@ -1,0 +1,186 @@
+[
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "capex_2024": 56,
+    "capex_2025": 78,
+    "capex_2026e": 120,
+    "current_power": "~2 GW added FY25",
+    "target_power": "34 GW contracted clean",
+    "target_year": "2027-2030",
+    "energy_badges": [
+      "Nuclear PPA (TMI)",
+      "Solar"
+    ],
+    "energy_types": [
+      "nuclear",
+      "solar"
+    ],
+    "detail_title": "Microsoft - Crane Clean Energy Center",
+    "detail_html": "Microsoft tracking toward $120B+ capex. $80B in unfulfilled Azure orders due to power constraints. Building worlds most powerful AI data center.",
+    "detail_source": "Source: Constellation Energy, Microsoft Azure Blog",
+    "chart_current_gw": 2,
+    "chart_target_gw": 34,
+    "updated": "2026-04-27",
+    "report": "reports/MSFT_Microsoft.html",
+    "capex_2026": "120B+",
+    "notes": "Japan $10B investment announced (2026-2029)"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon / AWS",
+    "capex_2024": 75,
+    "capex_2025": 100,
+    "capex_2026e": 200,
+    "current_power": "~15 GW (Q3 2025)",
+    "target_power": "31 GW",
+    "target_year": "End 2027",
+    "energy_badges": [
+      "Nuclear (Susquehanna)",
+      "Solar",
+      "Gas"
+    ],
+    "energy_types": [
+      "nuclear",
+      "solar",
+      "gas"
+    ],
+    "detail_title": "Amazon - Multi-GW Indiana & Virginia",
+    "detail_html": "Amazon leading hyperscalers at $200B capex in 2026. Most directed to AI datacenter infrastructure.",
+    "detail_source": "Source: AWS press releases, Benzinga",
+    "chart_current_gw": 15,
+    "chart_target_gw": 31,
+    "updated": "2026-04-27",
+    "report": "reports/AMZN_Amazon.html",
+    "capex_2026": "200B",
+    "notes": "Negative FCF expected -$17B to -$28B in 2026"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Google / Alphabet",
+    "capex_2024": 33,
+    "capex_2025": 75,
+    "capex_2026e": 180,
+    "current_power": "Growing rapidly",
+    "target_power": "2.7 GW (Michigan alone)",
+    "target_year": "2026-2028",
+    "energy_badges": [
+      "Nuclear (Duane Arnold)",
+      "1.6 GW Solar",
+      "Fusion PPA (CFS)"
+    ],
+    "energy_types": [
+      "nuclear",
+      "solar",
+      "fusion"
+    ],
+    "detail_title": "Google - Nuclear + Fusion Pioneer",
+    "detail_html": "Alphabet capex now estimated at $175-185B for 2026. First corporate fusion PPA (CFS). 2.7 GW Michigan campus. Duane Arnold nuclear restart.",
+    "detail_source": "Source: Google announcements, NextEra filings",
+    "chart_current_gw": 5,
+    "chart_target_gw": 25,
+    "updated": "2026-04-27",
+    "report": "reports/GOOGL_Alphabet.html",
+    "capex_2026": "175-185B",
+    "notes": "Kairos Power 500MW molten salt reactor deal by 2035"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta",
+    "capex_2024": 37,
+    "capex_2025": 72.2,
+    "capex_2026e": 125,
+    "current_power": "~1.3M GPUs",
+    "target_power": "5 GW (Hyperion)",
+    "target_year": "2030",
+    "energy_badges": [
+      "6.6 GW Nuclear deals",
+      "Solar PPAs"
+    ],
+    "energy_types": [
+      "nuclear",
+      "solar"
+    ],
+    "detail_title": "Meta - 5 GW Hyperion (Louisiana)",
+    "detail_html": "Meta capex $115-135B for 2026. Expanded $21B CoreWeave cloud deal through 2032. NVIDIA Vera Rubin deployments planned.",
+    "detail_source": "Source: IEEE Spectrum, Meta announcements",
+    "chart_current_gw": 1.5,
+    "chart_target_gw": 5,
+    "updated": "2026-04-27",
+    "report": "reports/META_Meta.html",
+    "capex_2026": "115-135B",
+    "notes": "$60B AMD MI450 deal; nuclear PPAs with CEG, VST, OKLO"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle / Stargate",
+    "capex_2024": 6.9,
+    "capex_2025": 21.2,
+    "capex_2026e": 50,
+    "current_power": "Growing",
+    "target_power": "7 GW (Stargate total)",
+    "target_year": "2027-2029",
+    "energy_badges": [
+      "Grid + BTM",
+      "Gas"
+    ],
+    "energy_types": [
+      "grid",
+      "gas"
+    ],
+    "detail_title": "Oracle/Stargate - 7 GW Multi-Site",
+    "detail_html": "Oracle targeting $50B capex in 2026. Capex-to-revenue ratio ~86%, highest among hyperscalers.",
+    "detail_source": "Source: OpenAI blog, Oracle earnings",
+    "chart_current_gw": 1,
+    "chart_target_gw": 7,
+    "updated": "2026-04-27",
+    "report": "reports/ORCL_Oracle.html"
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "capex_2024": 5,
+    "capex_2025": 16,
+    "capex_2026e": 32,
+    "current_power": "0.85 GW",
+    "target_power": "3.1 GW contracted, +5 GW",
+    "target_year": "2027 / 2030",
+    "energy_badges": [
+      "Grid",
+      "Gas"
+    ],
+    "energy_types": [
+      "grid",
+      "gas"
+    ],
+    "detail_title": "CoreWeave - Rapid Scale",
+    "detail_html": "850 MW active power across 43 DCs (end 2025). Contracted 3.1 GW, virtually all online by 2027. Targeting 1.7 GW active by end-2026. $6B Pennsylvania campus (100-300 MW). Adding 5 GW more by 2030. CapEx doubling to $30-35B in 2026.",
+    "detail_source": "Source: CoreWeave blog, DCD",
+    "chart_current_gw": 0.85,
+    "chart_target_gw": 8.1,
+    "updated": "2026-04-24",
+    "report": "reports/CRWV_CoreWeave.html"
+  },
+  {
+    "ticker": "XAI",
+    "name": "xAI (Colossus)",
+    "capex_2024": 3,
+    "capex_2025": 8,
+    "capex_2026e": 15,
+    "current_power": "~0.45 GW live",
+    "target_power": "2 GW",
+    "target_year": "Q2 2027",
+    "energy_badges": [
+      "Gas turbines (Solaris)"
+    ],
+    "energy_types": [
+      "gas"
+    ],
+    "detail_title": "xAI - Colossus Memphis",
+    "detail_html": "Expanded from 250 MW to 2 GW across three buildings. Solaris Energy Infrastructure supplying ~400 MW gas turbines now, targeting 1.1 GW by Q2 2027. 200 MW live within 6 months of site acquisition. Acquired former Duke Energy plant (245 MW).",
+    "detail_source": "Source: SemiAnalysis, NextBigFuture",
+    "chart_current_gw": 0.45,
+    "chart_target_gw": 2,
+    "updated": "2026-04-24"
+  }
+]

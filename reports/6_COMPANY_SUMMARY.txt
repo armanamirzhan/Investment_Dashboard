@@ -1,0 +1,233 @@
+============================================================================
+AI DATACENTER INVESTMENT LANDSCAPE - 6 COMPANY RESEARCH SUMMARY
+Generated: April 23, 2026
+============================================================================
+
+INVESTMENT REPORT GENERATION COMPLETE
+
+The following 6 company investment reports have been created with comprehensive
+April 2026 market data, latest quarterly earnings, valuation metrics, AI 
+datacenter exposure analysis, analyst consensus, and investment ratings.
+
+============================================================================
+SUMMARY TABLE - QUICK REFERENCE
+============================================================================
+
+COMPANY                | TICKER  | RATING         | MARKET CAP  | P/E FWD | REVENUE GROWTH | KEY METRIC
+-----------------------+---------+----------------+-------------+---------+----------------+---------------------------------
+NuScale Power          | SMR     | 🟡 HOLD        | $4.54B      | N/A     | N/A (Pre-rev)  | +53% analyst upside; timing risk
+Oklo Inc.              | OKLO    | 🔴 SELL/AVOID  | $10.87B     | N/A     | N/A (Pre-rev)  | $2.5B cash; 2030 first power
+Delta Electronics      | 2308.TW | 🟡 BUY (Hold)  | $34B USD    | N/A     | +34% YoY       | 60% AI PSU market share
+Amphenol Corp          | APH     | 🟢 STRONG BUY  | $187.8B     | 29.2x   | +49% YoY       | Exceptional datacom growth
+Foxconn / Hon Hai      | 2317.TW | 🟢 STRONG BUY  | $91.5B USD  | 11-16x  | +29.7% YoY     | +42% analyst upside; Nvidia supplier
+Asetek A/S             | ASTK    | 🟡 SPECULATIVE | $84.6M      | N/A     | +33% (2026E)   | Micro-cap liquid cooling play
+
+============================================================================
+DETAILED FINANCIAL SNAPSHOT (Q1 2026 or Latest Available)
+============================================================================
+
+1. NUSCALE POWER (SMR)
+   • Stock Price: $13.57 | Market Cap: $4.54B
+   • Q4 2025 Revenue: $1.81M (minimal, engineering contracts)
+   • EPS: -$0.31 | Status: PRE-REVENUE (no commercial reactors)
+   • P/E: N/A (unprofitable) | Analyst Target: $20.75 (+53% upside)
+   • Rating: HOLD | Consensus: 45% Hold, 18% Buy, 18% Strong Buy
+   • Key Challenge: NRC Design Certification delays; no near-term revenue
+
+2. OKLO INC. (OKLO)
+   • Stock Price: $64.55 | Market Cap: $10.87B
+   • Q4 2025 EPS: -$0.27 | Status: PRE-REVENUE (no operating reactors)
+   • Annual Burn: $80-100M | Cash Runway: 25+ years ($2.5B from Jan 2026 raise)
+   • NRC Status: Materials license approved March 2026; Design Certification ongoing
+   • Meta Deal: 1.2 GW commitment; first power 2030 (4 years away)
+   • Rating: SELL/AVOID | Valuation: $10.87B for pre-revenue is excessive
+
+3. DELTA ELECTRONICS (2308.TW)
+   • Stock Price: TWD 1,840 | Market Cap: ~$34B USD
+   • Q1 2026 Revenue: NT$159.35B (+34% YoY, record quarter)
+   • AI Server PSU Market Share: ~60% | Liquid Cooling Growth: 140% YoY (est.)
+   • P/E: 47.4x (premium) | Forward guidance: Double-digit growth 2026
+   • Analyst Rating: BUY (18 analysts) | Analyst Target: TWD 1,380 (-25% from current)
+   • Rating: BUY with HOLD | Valuation stretched but growth justifies premium
+
+4. AMPHENOL CORP (APH)
+   • Stock Price: ~$245 | Market Cap: $187.8B
+   • Q1 2026 Revenue: $6.439B (+49% YoY, beat estimates)
+   • EPS: $0.97 (beat $0.933) | Q2 2026 Guidance: $6.90-7.00B (+43% YoY)
+   • P/E TTM: 38.3x | Forward: 29.2x | EV/EBITDA: 23.24-27.6x
+   • Analyst Rating: BUY (19 Buy, 1 Hold) | Strong IT Datacom segment momentum
+   • Rating: STRONG BUY | High-quality compounder with secular tailwinds
+
+5. FOXCONN / HON HAI (2317.TW)
+   • Stock Price: TWD 207.50 | Market Cap: $91.5B USD
+   • Q1 2026 Revenue: TWD 2.13T (+29.7% YoY, record Q1)
+   • Nvidia Largest Supplier | AI Server Racks: Peak demand in March (+45.6% YoY)
+   • P/E: 11.43-15.70x (undervalued) | Analyst Target: TWD 294.44 (+42% upside)
+   • Analyst Rating: BUY (18 of 24 analysts)
+   • Rating: STRONG BUY | Exceptional value at 11-16x P/E with 30%+ growth
+
+6. ASETEK A/S (ASTK)
+   • Stock Price: DKK 1.71 | Market Cap: $84.6M
+   • TTM Revenue: $41.5M | Net Loss (latest Q): -$2.29M
+   • 2026 Revenue Guidance: $55-60M (+33% implied growth)
+   • Status: Unprofitable micro-cap | Analyst Coverage: Minimal
+   • Focus: Liquid cooling for AI datacenters (early-stage adoption)
+   • Rating: SPECULATIVE BUY | High risk/reward; requires perfect execution
+
+============================================================================
+INVESTMENT RATINGS DISTRIBUTION
+============================================================================
+
+STRONG BUY (🟢):           2 companies (Amphenol, Foxconn)
+BUY/HOLD (🟡):             2 companies (NuScale, Delta Electronics)
+SPECULATIVE BUY (🟡):      1 company (Asetek)
+SELL/AVOID (🔴):           1 company (Oklo)
+
+============================================================================
+AI DATACENTER EXPOSURE RANKING (Current + Forward)
+============================================================================
+
+1. Amphenol (APH)        → 50%+ IT datacom revenue, exceptional YoY growth
+2. Foxconn (2317.TW)     → Nvidia's largest supplier, AI racks core business
+3. Delta Electronics     → 60% market share in AI server PSUs, 140% liquid cooling growth
+4. Asetek (ASTK)         → Pure-play liquid cooling, early datacenter adoption
+5. NuScale (SMR)         → Strategic long-term (no near-term revenue)
+6. Oklo (OKLO)           → Strategic long-term (2030+ timeline)
+
+============================================================================
+VALUATION ASSESSMENT (April 2026)
+============================================================================
+
+EXPENSIVE:
+  • Delta Electronics: 47.4x P/E (2x industry average, 157% above 10-yr median)
+  • Amphenol: 38.3x P/E TTM (but 29.2x forward justified by 49% growth)
+
+FAIR VALUE:
+  • Foxconn: 11-16x P/E (undervalued vs. 30%+ growth)
+  • NuScale: N/A (pre-revenue) but -70% drawdown in 6 months provides some valuation cushion
+
+EXPENSIVE RELATIVE TO COMMERCIALIZATION RISK:
+  • Oklo: $10.87B market cap for pre-revenue with 4-year timeline to first power
+
+MICRO-CAP DISCOUNT:
+  • Asetek: $84.6M market cap; limited liquidity and analyst coverage
+
+============================================================================
+ANALYST CONSENSUS SUMMARY
+============================================================================
+
+AMPHENOL:     Buy/Overweight (19/20 analysts) - Very bullish
+FOXCONN:      Buy (18/24 analysts) - Majority bullish; 42% upside to targets
+DELTA ELEC:   Buy (18/19 analysts) - Overwhelming consensus; -25% to targets
+NUSCALE:      Hold (majority) - 53% upside but mixed sentiment
+OKLO:          Minimal coverage - Speculative stage
+ASETEK:       No consensus - Copenhagen-listed; limited coverage
+
+============================================================================
+KEY CATALYSTS - NEXT 12 MONTHS
+============================================================================
+
+Q2 2026 (MAY-JUNE):
+  • NuScale Q1 2026 earnings (May 7)
+  • Amphenol Q1 2026 earnings (late April)
+  • Delta Electronics, Foxconn, Asetek earnings
+
+Q2-Q3 2026 (SUMMER):
+  • NRC Design Certification decisions (NuScale, Oklo)
+  • Hyperscaler capex guidance updates
+  • Analyst conference season
+
+Q4 2026 (FALL):
+  • Full-year earnings and 2027 guidance
+  • Potential analyst upgrades if AI capex momentum sustained
+  • Strategic announcements (partnerships, M&A)
+
+============================================================================
+RISK SUMMARY
+============================================================================
+
+MACRO RISKS (All Companies):
+  • Hyperscaler capex cycle timing / potential slowdown 2027+
+  • Geopolitical tensions (Taiwan conflict, China trade war)
+  • Rising interest rates / AI valuation correction
+
+COMPANY-SPECIFIC RISKS:
+  • NuScale: Regulatory delays, no commercial reactor built
+  • Oklo: $10.87B valuation excessive for timeline/risk
+  • Delta: Valuation compression risk (47x P/E)
+  • Amphenol: Customer concentration, margin pressure
+  • Foxconn: Nvidia dependency, geopolitical exposure, competition
+  • Asetek: Execution risk, funding needs, micro-cap liquidity
+
+============================================================================
+RECOMMENDED READING ORDER
+============================================================================
+
+For Datacenter Infrastructure Focus:
+1. APH_Amphenol.html          (Best-in-class interconnect provider)
+2. Foxconn_Hon_Hai.html        (Nvidia's largest server manufacturer)
+3. Delta_Electronics.html       (Dominant AI PSU supplier)
+
+For Emerging Thermal Solutions:
+4. ASTK_Asetek.html            (Speculative liquid cooling play)
+
+For Nuclear Power / Long-Term Infrastructure:
+5. SMR_NuScale.html            (Advanced but pre-revenue)
+6. OKLO_Oklo.html              (Speculative; avoid current valuation)
+
+============================================================================
+METHODOLOGY NOTES
+============================================================================
+
+• All data sourced from WebSearch (April 2026 real-time market data)
+• Financial metrics: Latest quarterly earnings + TTM trailing data
+• Valuation multiples: P/E (TTM & forward), P/S, EV/EBITDA where applicable
+• Analyst consensus: Aggregated from Yahoo Finance, TipRanks, MarketBeat
+• AI datacenter exposure: Estimated from company guidance + market share data
+• Ratings reflect risk/reward at current market prices (April 23, 2026)
+
+============================================================================
+IMPORTANT DISCLAIMERS
+============================================================================
+
+These reports are for informational purposes only and do not constitute 
+investment advice, recommendation, or solicitation to buy/sell securities.
+
+Past performance does not guarantee future results. All equity investments 
+carry substantial risk of loss. Technology and semiconductor sectors are 
+particularly volatile.
+
+Micro-cap stocks (Asetek) involve additional liquidity and execution risks.
+
+Pre-revenue companies (NuScale, Oklo) are highly speculative.
+
+Geopolitical events could impact Taiwan-listed companies (Delta, Foxconn).
+
+Consult a qualified financial advisor before making investment decisions.
+
+============================================================================
+FILE INVENTORY
+============================================================================
+
+Complete investment reports created:
+  ✓ SMR_NuScale.html           (19 KB)
+  ✓ OKLO_Oklo.html             (20 KB)
+  ✓ Delta_Electronics.html      (21 KB)
+  ✓ APH_Amphenol.html          (20 KB)
+  ✓ Foxconn_Hon_Hai.html        (21 KB)
+  ✓ ASTK_Asetek.html           (20 KB)
+
+All reports include:
+  • Dark theme HTML styling (consistent with existing reports)
+  • KPI grid with key metrics
+  • Financial summary tables
+  • Valuation analysis
+  • AI datacenter exposure breakdown
+  • Catalysts, risks, analyst consensus
+  • Investment thesis (bull/bear cases)
+  • Recommendation with rating emoji
+  • Back link to dashboard
+
+Location: /sessions/wonderful-sleepy-carson/mnt/Investment landscape/reports/
+
+============================================================================

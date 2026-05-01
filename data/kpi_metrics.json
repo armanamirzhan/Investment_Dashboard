@@ -1,0 +1,56 @@
+[
+  {
+    "key": "dc_capacity",
+    "label": "Total Planned DC Capacity",
+    "value": "~1,000 TWh",
+    "subtitle": "2026 projected DC electricity consumption (IEA), doubling from 2022",
+    "numeric": 1000,
+    "highlight": true,
+    "updated": "2026-04-24"
+  },
+  {
+    "key": "hscaler_capex",
+    "label": "2026 Hyperscaler CapEx",
+    "value": "$660-690B",
+    "subtitle": "Top 5 hyperscaler 2026E capex revised up; ~75% for AI infra (CNBC/CreditSights)",
+    "numeric": 690,
+    "highlight": true,
+    "updated": "2026-04-27"
+  },
+  {
+    "key": "grid_queue",
+    "label": "US Grid Queue Backlog",
+    "value": "2,600 GW",
+    "subtitle": "Median wait: ~5 years",
+    "numeric": 2600,
+    "highlight": true,
+    "updated": "2026-04-24"
+  },
+  {
+    "key": "transformer_lead",
+    "label": "Power Transformer Lead",
+    "value": "128 wks",
+    "subtitle": "30% supply deficit in 2025",
+    "numeric": 128,
+    "highlight": true,
+    "updated": "2026-04-24"
+  },
+  {
+    "key": "gev_backlog",
+    "label": "GE Vernova Turbine Backlog",
+    "value": "100 GW",
+    "subtitle": "Sold out through 2030",
+    "numeric": 100,
+    "highlight": false,
+    "updated": "2026-04-24"
+  },
+  {
+    "key": "btm_projects",
+    "label": "Behind-the-Meter Projects",
+    "value": "48 GW",
+    "subtitle": "~40 projects announced by end 2025",
+    "numeric": 48,
+    "highlight": false,
+    "updated": "2026-04-24"
+  }
+]

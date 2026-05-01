@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2026-04-27",
+    "headline": "Hyperscaler 2026 CapEx estimates surge to $660-690B",
+    "summary": "The five largest US cloud/AI providers — Microsoft, Alphabet, Amazon, Meta, Oracle — are now collectively committing $660-690B in 2026 capex, up from ~$443B in 2025. Roughly 75% ($450B+) is directly tied to AI infrastructure. Amazon leads at $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+, Oracle $50B.",
+    "sector": "infrastructure",
+    "sentiment": "bullish",
+    "source_name": "CNBC / CreditSights / Futurum",
+    "source_url": "https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "CoreWeave expands Meta AI cloud deal to $21B through 2032",
+    "summary": "CoreWeave and Meta announced a $21B expanded long-term agreement for AI cloud capacity through December 2032, including initial deployments of the NVIDIA Vera Rubin platform. CoreWeave Q1 2026 revenue doubled to $1.9B. Revenue backlog now $87.8B.",
+    "sector": "infrastructure",
+    "sentiment": "bullish",
+    "source_name": "CoreWeave IR",
+    "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-and-Meta-Announce-21-Billion-Expanded-AI-Infrastructure-Agreement/default.aspx"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "CoreWeave signs €4.2B deal with Anthropic for EU GPU capacity",
+    "summary": "CoreWeave committed €1.8B to new facilities in Germany, France, and Netherlands. Construction starting in Frankfurt and Paris. Anthropic secures dedicated GPU capacity for its AI models in Europe.",
+    "sector": "infrastructure",
+    "sentiment": "bullish",
+    "source_name": "Europe World News",
+    "source_url": "https://europeworldnews.com/articles/coreweave-anthropic-deal-boosts-eu-ai-data-centres-by-4-2b"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Intel Q1 2026 beats estimates: EPS $0.29 vs $0.01 expected, DC revenue +22%",
+    "summary": "Intel reported Q1 revenue of $13.58B (vs $12.42B expected) and adjusted EPS of $0.29 (vs $0.01). Data center business climbed 22% to $5.1B. Q2 guidance: $13.8-14.8B revenue, $0.20 EPS — both well above consensus.",
+    "sector": "semiconductors",
+    "sentiment": "bullish",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/04/23/intel-intc-q1-2026-earnings-report.html"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "TSMC unveils A13/N2U nodes, plans Arizona GigaFab — 3nm sold out through 2028",
+    "summary": "TSMC debuted A13 and N2U process technologies for 2029. Facing severe 3nm capacity shortage with fabs sold out through 2028. Planning massive GigaFab expansion in Arizona plus 3nm production in Japan. 2026 capex $52-56B.",
+    "sector": "semiconductors",
+    "sentiment": "bullish",
+    "source_name": "Seeking Alpha / Digitimes",
+    "source_url": "https://seekingalpha.com/news/4578186-tsmc-debuts-new-a13-n2u-chip-manufacturing-technology"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "FERC targets June 2026 action on datacenter large-load interconnection rules",
+    "summary": "FERC will act by June 2026 on large-load interconnection ANOPR. Already ordered PJM to implement three new transmission services for co-located generation. Using 100% participant funding model requiring large-load customers to pay full grid upgrade costs.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "FERC",
+    "source_url": "https://www.ferc.gov/news-events/news/ferc-act-large-load-interconnection-docket-june-2026"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "NRC finalizes Part 53 — new risk-informed framework for advanced reactors and SMRs",
+    "summary": "On March 25, 2026, the NRC approved a final rule establishing a technology-inclusive regulatory framework (Part 53) as an optional alternative for licensing advanced reactors including SMRs and microreactors. Major milestone for nuclear datacenter power.",
+    "sector": "nuclear",
+    "sentiment": "bullish",
+    "source_name": "NRC / Perkins Coie",
+    "source_url": "https://perkinscoie.com/insights/blog/nrc-finalizes-new-risk-informed-technology-inclusive-regulatory-framework-advanced"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Nuclear stocks surge 4-10% on White House space nuclear mandate",
+    "summary": "OKLO, SMR, NNE, LEU all surged after White House mandated space nuclear deployment by 2028 and lunar reactors by 2030. OKLO up 32% over past week to ~$64, up 192% YoY. NuScale TVA deal covers up to 6 GW of SMR deployment.",
+    "sector": "nuclear",
+    "sentiment": "bullish",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/04/16/oklo-nano-nuclear-centrus-nuscale-surge-as-white-house-space-nuclear-mandate-electrifies-the-sector/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Blackstone Q1: Record $1.3T AUM, $160B datacenter pipeline, distributable earnings +25%",
+    "summary": "Blackstone reported record AUM of $1.3T with distributable earnings up 25% to $1.8B. AI infrastructure portfolio exceeds $150B in data centers with $160B additional pipeline. Filing to launch Blackstone Digital Infrastructure Trust for stabilized DCs.",
+    "sector": "financing",
+    "sentiment": "bullish",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4578924-blackstone-outlines-160b-data-center-development-pipeline-as-q1-inflows-reach-69b"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "MISO expects peak load to jump 35% to 163 GW by 2035 on datacenter growth",
+    "summary": "MISO forecasts 8-14 GW of new datacenters coming online in 2026-2027 alone. Peak load expected to grow from 121 GW (2025) to 163 GW by 2035. Distributed power solutions (on-prem microgrids, modular generation) gaining traction ahead of utility interconnection.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "Utility Dive",
+    "source_url": "https://www.utilitydive.com/news/miso-long-range-forecast-data-center/817917/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "NVIDIA crosses $5 trillion market cap as Blackwell demand exceeds supply",
+    "summary": "NVIDIA shares surged 4.3% on April 24 to a record close of $208.27, pushing market capitalization above $5 trillion. Blackwell GPU systems are sold out through mid-2026 at approximately $40,000 per unit. The semiconductor rally reflects sustained AI infrastructure spending.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "Motley Fool / Intellectia",
+    "source_url": "https://www.fool.com/coverage/stock-market-today/2026/04/24/stock-market-today-april-24-nvidia-surges-on-soaring-ai-chip-demand/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "AMD secures estimated $60B multi-year Meta deal for Instinct MI450 GPUs",
+    "summary": "AMD won a landmark commitment from Meta for custom Instinct MI450 GPUs covering up to 6 GW of datacenter capacity. AMD shares surged 14% to $349.54 following a DA Davidson upgrade. Analysts project NVIDIA datacenter GPU market share declining from 87% to ~75% by late 2026 as total addressable market expands.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "Techi / DA Davidson",
+    "source_url": "https://www.techi.com/amd-meta-60b-deal-nvidia-ai-monopoly/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "TSMC delays ASML High-NA EUV adoption until 2029 to control costs",
+    "summary": "TSMC announced it will not deploy ASML high numerical aperture EUV lithography machines (priced at ~$410M each) for production until at least 2029. TSMC will instead maximize existing EUV tools with its A13 and N2U nodes. ASML shares fell 3% ($16.7B market cap loss) on the news.",
+    "sector": "semiconductors",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg / Reuters",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-04-22/tsmc-says-asml-s-latest-chipmaking-gear-is-too-pricey-to-use"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "GE Vernova Q1 2026 blowout: EPS $17.44, raises FY guidance to $44.5-45.5B",
+    "summary": "GE Vernova crushed Q1 expectations with EPS of $17.44 (vs $1.97 consensus) on revenue of $9.3B. Datacenter equipment orders hit $2.4B in Q1 alone — more than all of 2025. The company expects to reach 110 GW of combined gas turbine backlog by year-end. Stock jumped 14%.",
+    "sector": "energy",
+    "sentiment": "bullish",
+    "source_name": "Reuters / Startup Fortune",
+    "source_url": "https://startupfortune.com/ge-vernova-raises-its-2026-outlook-as-ai-data-centers-send-power-equipment-demand-surging/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Vertiv Q1 2026 beats on earnings, revenue up 30% to $2.65B",
+    "summary": "Vertiv reported Q1 EPS of $1.17 (vs $1.00 consensus) with revenue of $2.65B, up 30% year-over-year. Despite the beat, shares dipped 2.3% as Q2 guidance came in slightly below some analyst expectations. Datacenter cooling and power management remain key growth drivers.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "Yahoo Finance / Techi",
+    "source_url": "https://www.techi.com/ge-vernova-vertiv-ai-data-center/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "Q1 2026 foundational AI startup funding doubles all of 2025 — $300B record quarter",
+    "summary": "Venture investors poured $300B into startups globally in Q1 2026, up 150%+ quarter-over-quarter. Four of the five largest venture rounds ever recorded closed in Q1: OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). Cognition AI is in talks at $25B valuation.",
+    "sector": "software",
+    "sentiment": "bullish",
+    "source_name": "Crunchbase News",
+    "source_url": "https://news.crunchbase.com/venture/foundational-ai-startup-funding-doubled-openai-anthropic-xai-q1-2026/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "FERC large-load interconnection rulemaking faces April 30 deadline",
+    "summary": "The DOE-directed FERC rulemaking to standardize and accelerate interconnection of large datacenter loads to the transmission grid faces an April 30, 2026 deadline. The proposed rules would allow joint co-located load and generation interconnection requests and reduce study times. US datacenter power demand drove a 22% load increase in 2025.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "DOE / Gibson Dunn / Utility Dive",
+    "source_url": "https://www.gibsondunn.com/secretary-of-energy-directs-ferc-to-initiate-rulemaking-to-expedite-data-center-and-large-load-interconnection/"
+  },
+  {
+    "date": "2026-04-27",
+    "headline": "KLA upgraded to Overweight by Barclays on China export control insulation",
+    "summary": "Barclays upgraded KLA Corporation (KLAC) to Overweight, citing the companys insulation from China export control headwinds relative to peers. ASML showed 13.3% Y/Y Q1 revenue growth driven by AI demand. Lam Research guided Q3 FY2026 revenue to $5.70B, continuing acceleration.",
+    "sector": "semiconductors",
+    "sentiment": "bullish",
+    "source_name": "Barclays / Seeking Alpha",
+    "source_url": "https://seekingalpha.com/article/4855014-semi-equipment-showdown-amat-vs-asml"
+  }
+]

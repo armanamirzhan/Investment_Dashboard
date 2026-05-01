@@ -1,0 +1,1959 @@
+[
+  {
+    "ticker": null,
+    "name": "OpenAI",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI",
+    "report": null,
+    "public": false,
+    "thesis": "Leading frontier AI developer (GPT-4, o1). $80B+ valuation, $3.4B+ revenue run-rate. Exclusive Microsoft infrastructure partnership.",
+    "catalysts": [
+      "GPT-5 / next-gen models",
+      "Enterprise adoption acceleration",
+      "Microsoft partnership deepening"
+    ],
+    "risks": [
+      "Heavy infrastructure costs",
+      "Regulatory scrutiny",
+      "Competition from open-source models"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Anthropic",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI",
+    "report": null,
+    "public": false,
+    "thesis": "Constitutional AI developer behind Claude models. $20B+ valuation with significant backing from Google and Amazon.",
+    "catalysts": [
+      "Claude model improvements",
+      "Enterprise adoption",
+      "Safety-first differentiation"
+    ],
+    "risks": [
+      "Capital intensity",
+      "Competition from OpenAI/Google",
+      "Path to profitability"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "xAI",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI",
+    "report": null,
+    "public": false,
+    "thesis": "Elon Musk's AI venture developing Grok models. $24B valuation. Building massive Colossus datacenter in Memphis.",
+    "catalysts": [
+      "Grok model development",
+      "Colossus infrastructure scale",
+      "X platform integration"
+    ],
+    "risks": [
+      "Late market entry",
+      "Execution risk on infrastructure",
+      "Talent competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Mistral AI",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI",
+    "report": null,
+    "public": false,
+    "thesis": "French LLM developer with competitive open models (Mistral, Mixtral). $2B valuation, strong EU backing.",
+    "catalysts": [
+      "European AI sovereignty demand",
+      "Open-weight model adoption",
+      "Enterprise partnerships"
+    ],
+    "risks": [
+      "Funding vs US competitors",
+      "Market share challenges",
+      "EU regulatory complexity"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "DeepSeek",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI",
+    "report": null,
+    "public": false,
+    "thesis": "Chinese LLM developer with high-performance models rivaling Western frontier labs. ~$5B+ estimated valuation.",
+    "catalysts": [
+      "Cost-efficient training methods",
+      "Chinese market dominance",
+      "Open-source model releases"
+    ],
+    "risks": [
+      "US-China tensions",
+      "Export controls impact",
+      "Government policy risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Cohere",
+    "sector": "software",
+    "sub_sector": "AI Model Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Enterprise AI",
+    "report": null,
+    "public": false,
+    "thesis": "Enterprise-focused LLM APIs with multilingual models. $5.5B valuation, IPO pending.",
+    "catalysts": [
+      "Enterprise AI adoption",
+      "IPO catalyst",
+      "Multilingual differentiation"
+    ],
+    "risks": [
+      "Competition from bigger labs",
+      "Enterprise sales cycle",
+      "Pricing pressure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Core AI",
+    "report": null,
+    "public": true,
+    "thesis": "AI/ML-powered data analytics for enterprise & government. AIP platform driving rapid commercial growth. $77B market cap, $2.2B revenue.",
+    "catalysts": [
+      "AIP platform commercial adoption",
+      "Government AI contract wins",
+      "Revenue acceleration"
+    ],
+    "risks": [
+      "Premium valuation",
+      "Government spending uncertainty",
+      "Competition from cloud providers"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "AI Integration",
+    "report": null,
+    "public": true,
+    "thesis": "Enterprise CRM leader with Einstein AI and Agentforce. $282B market cap, $38B+ revenue. AI features driving upsell.",
+    "catalysts": [
+      "Agentforce AI agent platform",
+      "Einstein AI monetization",
+      "Data Cloud growth"
+    ],
+    "risks": [
+      "AI feature commoditization",
+      "Enterprise spending slowdown",
+      "Competition from Microsoft"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "AI Integration",
+    "report": null,
+    "public": true,
+    "thesis": "Enterprise workflow platform with deep AI/ML integration. $265B market cap, $10B+ revenue. AI driving workflow automation.",
+    "catalysts": [
+      "Now Assist AI features",
+      "Platform workflow expansion",
+      "Enterprise AI adoption"
+    ],
+    "risks": [
+      "Premium valuation",
+      "Macro sensitivity",
+      "Competition intensifying"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "AI Data Platform",
+    "report": null,
+    "public": true,
+    "thesis": "Cloud data platform enabling AI/ML workloads. $56B market cap, $3.7B revenue. Cortex AI features driving data-native AI.",
+    "catalysts": [
+      "Cortex AI platform adoption",
+      "Data sharing network growth",
+      "Consumption model upside"
+    ],
+    "risks": [
+      "Databricks competition",
+      "Consumption model volatility",
+      "Path to profitability"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Databricks",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Data Platform",
+    "report": null,
+    "public": false,
+    "thesis": "Lakehouse platform unifying data + AI infrastructure. $43B valuation, $1B+ ARR. MLflow ecosystem leader.",
+    "catalysts": [
+      "IPO potential",
+      "Enterprise AI workload growth",
+      "Unity Catalog adoption"
+    ],
+    "risks": [
+      "Snowflake competition",
+      "Cloud provider competition",
+      "IPO timing"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "PATH",
+    "name": "UiPath",
+    "sector": "software",
+    "sub_sector": "AI Platforms & Enterprise",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "AI Automation",
+    "report": null,
+    "public": true,
+    "thesis": "RPA leader integrating AI/ML for enterprise automation. $20B market cap, $1.3B revenue.",
+    "catalysts": [
+      "AI-powered automation demand",
+      "Enterprise workflow integration",
+      "Platform expansion"
+    ],
+    "risks": [
+      "Competition from Microsoft Power Automate",
+      "Growth deceleration",
+      "Market saturation"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Hugging Face",
+    "sector": "software",
+    "sub_sector": "AI Infrastructure & MLOps",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Core AI Infra",
+    "report": null,
+    "public": false,
+    "thesis": "Central hub for open-source ML models, datasets, and inference. $2B valuation. Essential infrastructure for AI development.",
+    "catalysts": [
+      "Model hub dominance",
+      "Enterprise tier growth",
+      "Inference endpoints monetization"
+    ],
+    "risks": [
+      "Monetization challenges",
+      "Competition from cloud providers",
+      "Open-source sustainability"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Scale AI",
+    "sector": "software",
+    "sub_sector": "AI Infrastructure & MLOps",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Data",
+    "report": null,
+    "public": false,
+    "thesis": "Data labeling and AI platform for autonomous systems and LLM training. $7.3B valuation. Government + enterprise contracts.",
+    "catalysts": [
+      "LLM training data demand",
+      "Government AI contracts",
+      "Platform expansion"
+    ],
+    "risks": [
+      "Automated labeling competition",
+      "Customer concentration",
+      "Margin pressure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Weights & Biases",
+    "sector": "software",
+    "sub_sector": "AI Infrastructure & MLOps",
+    "rating": null,
+    "emoji": null,
+    "exposure": "MLOps",
+    "report": null,
+    "public": false,
+    "thesis": "ML experiment tracking and model optimization platform. $1B+ valuation, $200M+ ARR.",
+    "catalysts": [
+      "Enterprise MLOps adoption",
+      "Platform stickiness",
+      "AI development tool demand"
+    ],
+    "risks": [
+      "Open-source alternatives",
+      "Cloud provider competition",
+      "Market size ceiling"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Groq",
+    "sector": "software",
+    "sub_sector": "AI Inference Platforms",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Inference",
+    "report": null,
+    "public": false,
+    "thesis": "Inference optimization with custom LPU chip architecture. $2.8B valuation. Ultra-low latency inference.",
+    "catalysts": [
+      "LPU chip production scale",
+      "Inference demand growth",
+      "Enterprise adoption"
+    ],
+    "risks": [
+      "NVIDIA competition",
+      "Hardware production scaling",
+      "Capital requirements"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Together AI",
+    "sector": "software",
+    "sub_sector": "AI Inference Platforms",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Inference",
+    "report": null,
+    "public": false,
+    "thesis": "Open-source model inference & optimization platform. $200M+ Series B funding.",
+    "catalysts": [
+      "Open-source model hosting demand",
+      "Inference cost optimization",
+      "Enterprise adoption"
+    ],
+    "risks": [
+      "Hyperscaler competition",
+      "Margin pressure",
+      "Market fragmentation"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Fireworks AI",
+    "sector": "software",
+    "sub_sector": "AI Inference Platforms",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Inference",
+    "report": null,
+    "public": false,
+    "thesis": "Optimized LLM inference API platform. $130M+ Series B funding.",
+    "catalysts": [
+      "Inference optimization leadership",
+      "Enterprise API adoption",
+      "Cost efficiency"
+    ],
+    "risks": [
+      "Competition from cloud providers",
+      "Pricing pressure",
+      "Scale challenges"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "SNPS",
+    "name": "Synopsys",
+    "sector": "software",
+    "sub_sector": "EDA & Chip Design",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "AI Chip Design",
+    "report": null,
+    "public": true,
+    "thesis": "Dominant EDA tools provider critical to AI chip design. $80B market cap, $6.6B revenue. AI-powered chip design tools.",
+    "catalysts": [
+      "AI chip design complexity driving EDA demand",
+      "Ansys acquisition synergies",
+      "IP licensing growth"
+    ],
+    "risks": [
+      "Regulatory scrutiny on Ansys deal",
+      "Customer concentration",
+      "Cyclical chip design budgets"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems",
+    "sector": "software",
+    "sub_sector": "EDA & Chip Design",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "AI Chip Design",
+    "report": null,
+    "public": true,
+    "thesis": "Leading EDA tools for chip design, simulation, and verification. $53B market cap, $3.9B revenue.",
+    "catalysts": [
+      "AI accelerator design demand",
+      "System design expansion",
+      "Simulation workload growth"
+    ],
+    "risks": [
+      "Premium valuation",
+      "Competition from Synopsys",
+      "R&D spending pressure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike",
+    "sector": "software",
+    "sub_sector": "AI Security",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "AI Security",
+    "report": null,
+    "public": true,
+    "thesis": "Cybersecurity leader with AI/ML-powered threat detection. $84B market cap, $3.1B revenue. Charlotte AI platform.",
+    "catalysts": [
+      "Charlotte AI adoption",
+      "Platform consolidation trend",
+      "Module cross-sell"
+    ],
+    "risks": [
+      "Outage reputation impact",
+      "Competition from Microsoft/Palo Alto",
+      "Valuation premium"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Harvey",
+    "sector": "software",
+    "sub_sector": "Vertical AI Applications",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Legal AI",
+    "report": null,
+    "public": false,
+    "thesis": "AI legal assistant for corporate law firms. $765M valuation. Deep integration with major law firms.",
+    "catalysts": [
+      "Law firm AI adoption",
+      "Enterprise contract expansion",
+      "Use case expansion"
+    ],
+    "risks": [
+      "Legal industry conservatism",
+      "Competition from incumbents",
+      "Regulatory risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Cursor",
+    "sector": "software",
+    "sub_sector": "Vertical AI Applications",
+    "rating": null,
+    "emoji": null,
+    "exposure": "AI Dev Tools",
+    "report": null,
+    "public": false,
+    "thesis": "AI-native code editor gaining rapid developer adoption. ~$100M+ valuation. Competing with GitHub Copilot.",
+    "catalysts": [
+      "Developer adoption acceleration",
+      "Enterprise tier growth",
+      "AI coding revolution"
+    ],
+    "risks": [
+      "GitHub Copilot competition",
+      "Monetization uncertainty",
+      "Platform risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "sector": "hyperscaler",
+    "sub_sector": "Integrated Cloud Operators",
+    "rating": "STRONG_BUY",
+    "emoji": "🟢",
+    "exposure": "Operator",
+    "report": "reports/MSFT_Microsoft.html",
+    "public": true,
+    "thesis": "Largest cloud infrastructure operator (Azure) with massive AI datacenter buildout. $80B+ annual CapEx planned. Azure AI revenue accelerating at 39% YoY.",
+    "catalysts": [
+      "$120B+ 2026 CapEx investment",
+      "Azure AI revenue acceleration",
+      "Copilot enterprise adoption",
+      "OpenAI partnership"
+    ],
+    "risks": [
+      "CapEx magnitude vs returns timing",
+      "Cloud competition intensifying",
+      "AI monetization uncertainty"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon / AWS",
+    "sector": "hyperscaler",
+    "sub_sector": "Integrated Cloud Operators",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Operator",
+    "report": "reports/AMZN_Amazon.html",
+    "public": true,
+    "thesis": "AWS leads cloud infrastructure with Trainium custom AI chips and massive global datacenter footprint. $200B 2026 CapEx planned.",
+    "catalysts": [
+      "Trainium AI chip deployment at scale",
+      "$200B annual CapEx for expansion",
+      "AWS AI services growth",
+      "Custom chip cost advantage"
+    ],
+    "risks": [
+      "Free cash flow compression (down 71% YoY)",
+      "Margin pressure from CapEx",
+      "Cloud market share competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Google / Alphabet",
+    "sector": "hyperscaler",
+    "sub_sector": "Integrated Cloud Operators",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Operator",
+    "report": "reports/GOOGL_Alphabet.html",
+    "public": true,
+    "thesis": "TPU custom silicon leader with vertically integrated AI infrastructure. GCP growing 48% YoY. $175-185B 2026 CapEx guidance.",
+    "catalysts": [
+      "GCP 50%+ growth guidance",
+      "$240B backlog (+55% QoQ)",
+      "Gemini enterprise adoption",
+      "TPU v5/v6 ramp"
+    ],
+    "risks": [
+      "Depreciation pressure from massive CapEx",
+      "Search disruption from AI",
+      "GCP execution risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta",
+    "sector": "hyperscaler",
+    "sub_sector": "Integrated Cloud Operators",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Operator",
+    "report": "reports/META_Meta.html",
+    "public": true,
+    "thesis": "Massive AI infrastructure investor with open-source Llama strategy. $115-135B 2026 CapEx. 5 GW Hyperion campus planned.",
+    "catalysts": [
+      "Llama open-source ecosystem growth",
+      "AI-powered advertising (+25% revenue)",
+      "Nuclear power commitments",
+      "Peak CapEx year → margin expansion post-2026"
+    ],
+    "risks": [
+      "CapEx magnitude with uncertain returns",
+      "$600B 5-year commitment",
+      "Regulatory risks globally"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "sector": "hyperscaler",
+    "sub_sector": "Integrated Cloud Operators",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Operator",
+    "report": "reports/ORCL_Oracle.html",
+    "public": true,
+    "thesis": "Aggressive OCI expansion with Stargate partnership. AI infrastructure revenue +243% YoY. $553B RPO backlog.",
+    "catalysts": [
+      "OCI +84% YoY growth",
+      "$553B RPO backlog (+325% YoY)",
+      "Innovative BYOH financing model",
+      "Multicloud database +531% growth"
+    ],
+    "risks": [
+      "Late entrant to hyperscale cloud (<5% share)",
+      "CapEx-to-revenue ratio ~86%",
+      "OCI growth sustainability"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "sector": "hyperscaler",
+    "sub_sector": "GPU Cloud Providers",
+    "rating": "SELL",
+    "emoji": "🔴",
+    "exposure": "100%",
+    "report": "reports/CRWV_CoreWeave.html",
+    "public": true,
+    "thesis": "Pure-play GPU cloud provider. $66.8B backlog but $29.8B debt with 8.94x leverage. FY2025 revenue $5.13B (+168%).",
+    "catalysts": [
+      "$66.8B backlog (+342% YoY)",
+      "FY2026 revenue guidance $12-13B (+140%)",
+      "Meta + OpenAI commitments"
+    ],
+    "risks": [
+      "Debt refinancing crisis risk",
+      "Customer concentration (OpenAI+Meta = 54%)",
+      "Path to profitability uncertain",
+      "Hyperscaler competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Lambda",
+    "sector": "hyperscaler",
+    "sub_sector": "GPU Cloud Providers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "GPU Cloud",
+    "report": null,
+    "public": false,
+    "thesis": "GPU cloud provider focused on AI/ML workloads. Growing enterprise customer base for training and inference.",
+    "catalysts": [
+      "GPU cloud demand growth",
+      "Enterprise AI training workloads",
+      "Inference market expansion"
+    ],
+    "risks": [
+      "Hyperscaler competition",
+      "GPU supply access",
+      "Capital intensity"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "EQIX",
+    "name": "Equinix",
+    "sector": "hyperscaler",
+    "sub_sector": "Colocation & Datacenter REITs",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Datacenter REIT",
+    "report": null,
+    "public": true,
+    "thesis": "Largest global colocation provider with 260+ datacenters in 72 metros. Critical interconnection hub for AI workloads.",
+    "catalysts": [
+      "AI-driven demand for colocation",
+      "xScale program for hyperscalers",
+      "Interconnection revenue growth",
+      "Global footprint advantage"
+    ],
+    "risks": [
+      "REIT structure limits reinvestment",
+      "Power availability constraints",
+      "Competition from hyperscaler self-build"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "DLR",
+    "name": "Digital Realty",
+    "sector": "hyperscaler",
+    "sub_sector": "Colocation & Datacenter REITs",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Datacenter REIT",
+    "report": null,
+    "public": true,
+    "thesis": "Major datacenter REIT with global portfolio. PlatformDIGITAL for AI workloads. Strong leasing momentum from hyperscaler demand.",
+    "catalysts": [
+      "Record leasing volumes",
+      "AI-driven capacity demand",
+      "Land bank for development",
+      "Interconnection growth"
+    ],
+    "risks": [
+      "Power procurement challenges",
+      "Construction cost inflation",
+      "Interest rate sensitivity"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CEG",
+    "name": "Constellation Energy",
+    "sector": "electricity",
+    "sub_sector": "Nuclear Utilities",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "30-40%",
+    "report": "reports/CEG_Constellation.html",
+    "public": true,
+    "thesis": "Largest US nuclear fleet operator. Premium clean baseload provider to hyperscalers. Nuclear PPAs with major tech companies.",
+    "catalysts": [
+      "Nuclear PPA pipeline with hyperscalers",
+      "Largest US nuclear fleet",
+      "Clean energy premium pricing",
+      "TMI restart for Microsoft"
+    ],
+    "risks": [
+      "Regulatory and policy risks",
+      "Nuclear plant operational risks",
+      "PPA pricing volatility"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "VST",
+    "name": "Vistra Energy",
+    "sector": "electricity",
+    "sub_sector": "Nuclear Utilities",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "High",
+    "report": "reports/VST_Vistra.html",
+    "public": true,
+    "thesis": "Diversified power generator with nuclear fleet. Comanche Peak nuclear assets positioned for datacenter PPAs.",
+    "catalysts": [
+      "Nuclear PPA opportunities",
+      "Power price tailwinds",
+      "Datacenter demand in ERCOT"
+    ],
+    "risks": [
+      "ERCOT market volatility",
+      "Regulatory changes",
+      "Nuclear operational risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "NEE",
+    "name": "NextEra Energy",
+    "sector": "electricity",
+    "sub_sector": "IPPs & Generators",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "15-20%",
+    "report": "reports/NEE_NextEra.html",
+    "public": true,
+    "thesis": "Largest US renewable energy generator with growing datacenter power supply portfolio. Solar, wind, and battery storage.",
+    "catalysts": [
+      "Largest US renewable portfolio",
+      "Growing datacenter power contracts",
+      "Battery storage deployment",
+      "IRA incentives"
+    ],
+    "risks": [
+      "Interest rate sensitivity",
+      "Renewable intermittency",
+      "Regulatory changes"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AES",
+    "name": "AES Corporation",
+    "sector": "electricity",
+    "sub_sector": "IPPs & Generators",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Medium",
+    "report": null,
+    "public": true,
+    "thesis": "Global power company with growing renewable portfolio and datacenter energy supply contracts.",
+    "catalysts": [
+      "Datacenter PPA pipeline",
+      "Renewable energy growth",
+      "Energy storage deployment"
+    ],
+    "risks": [
+      "International exposure risk",
+      "Debt levels",
+      "Execution on renewables pipeline"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "sector": "electricity",
+    "sub_sector": "Gas Turbine OEMs",
+    "rating": "STRONG_BUY",
+    "emoji": "🟢",
+    "exposure": "25-30%",
+    "report": "reports/GEV_GE_Vernova.html",
+    "public": true,
+    "thesis": "Leading gas turbine manufacturer benefiting from massive datacenter power demand. Record backlog as hyperscalers secure reliable baseload generation.",
+    "catalysts": [
+      "Record gas turbine backlog",
+      "Hyperscaler power purchase agreements",
+      "Grid infrastructure upgrade cycle",
+      "Natural gas bridge to clean energy"
+    ],
+    "risks": [
+      "Turbine delivery lead times",
+      "Supply chain constraints",
+      "Transition risk to renewables"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ENR.DE",
+    "name": "Siemens Energy",
+    "sector": "electricity",
+    "sub_sector": "Gas Turbine OEMs",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "High",
+    "report": "reports/ENR_Siemens_Energy.html",
+    "public": true,
+    "thesis": "Major gas turbine OEM with growing datacenter power demand. Gamesa wind issues being resolved. Grid infrastructure exposure.",
+    "catalysts": [
+      "Gas turbine demand from datacenters",
+      "Grid equipment backlog growth",
+      "Gamesa turnaround"
+    ],
+    "risks": [
+      "Gamesa wind turbine legacy issues",
+      "Execution risk",
+      "Competition from GE Vernova"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "sector": "electricity",
+    "sub_sector": "Grid Equipment & Power Distribution",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "30-35%",
+    "report": "reports/ETN_Eaton.html",
+    "public": true,
+    "thesis": "Diversified electrical infrastructure leader. $9.5B Boyd acquisition strengthens integrated power/cooling portfolio. 11-year datacenter backlog.",
+    "catalysts": [
+      "$9.5B Boyd acquisition integration",
+      "11-year datacenter backlog",
+      "Integrated power + cooling portfolio",
+      "2026E +12.9% revenue growth"
+    ],
+    "risks": [
+      "Boyd integration execution risk",
+      "Macro sensitivity in non-DC segments",
+      "Premium multiple"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "SNEXF",
+    "name": "Schneider Electric",
+    "sector": "electricity",
+    "sub_sector": "Grid Equipment & Power Distribution",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "30%+",
+    "report": "reports/Schneider_Electric.html",
+    "public": true,
+    "thesis": "Global leader in power management and automation for datacenters. Galaxy UPS systems, PDUs, and building management.",
+    "catalysts": [
+      "Datacenter power management demand",
+      "Edge computing deployments",
+      "Sustainability solutions",
+      "Digital twin technology"
+    ],
+    "risks": [
+      "Currency exposure",
+      "Integration complexity",
+      "Competition from Eaton/Vertiv"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "FLNC",
+    "name": "Fluence Energy",
+    "sector": "electricity",
+    "sub_sector": "Renewables & Storage",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Medium",
+    "report": "reports/FLNC_Fluence.html",
+    "public": true,
+    "thesis": "Battery energy storage solutions provider. Growing demand from datacenter backup power and grid storage applications.",
+    "catalysts": [
+      "Battery storage demand from datacenters",
+      "Grid-scale storage deployments",
+      "IRA incentives"
+    ],
+    "risks": [
+      "Battery cost volatility",
+      "Competition intensifying",
+      "Project execution risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla Energy",
+    "sector": "electricity",
+    "sub_sector": "Renewables & Storage",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Indirect",
+    "report": null,
+    "public": true,
+    "thesis": "Megapack utility-scale battery storage gaining traction for datacenter backup and grid stabilization. Energy segment growing rapidly.",
+    "catalysts": [
+      "Megapack production scaling",
+      "Grid storage demand growth",
+      "Energy segment revenue acceleration"
+    ],
+    "risks": [
+      "Core auto business overshadows energy",
+      "Battery supply constraints",
+      "Competition from Fluence/BYD"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "LEU",
+    "name": "Centrus Energy",
+    "sector": "electricity",
+    "sub_sector": "Nuclear Fuel",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Medium",
+    "report": "reports/LEU_Centrus_Energy.html",
+    "public": true,
+    "thesis": "Only US company licensed to produce HALEU fuel needed for advanced nuclear reactors (SMRs). Critical bottleneck position.",
+    "catalysts": [
+      "HALEU production scale-up",
+      "SMR fuel supply monopoly",
+      "Government funding support",
+      "Growing nuclear demand"
+    ],
+    "risks": [
+      "Production scaling challenges",
+      "Regulatory hurdles",
+      "Uranium price volatility"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CCJ",
+    "name": "Cameco",
+    "sector": "electricity",
+    "sub_sector": "Nuclear Fuel",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Uranium Supply",
+    "report": null,
+    "public": true,
+    "thesis": "Largest Western uranium producer. Nuclear renaissance driven by datacenter power demand creates structural uranium demand.",
+    "catalysts": [
+      "Nuclear renaissance demand",
+      "Uranium price appreciation",
+      "Long-term contract book",
+      "Westinghouse JV benefits"
+    ],
+    "risks": [
+      "Uranium price cyclicality",
+      "Production restart execution",
+      "Geopolitical supply risks"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "SMR",
+    "name": "NuScale Power",
+    "sector": "electricity",
+    "sub_sector": "SMR Developers",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Pre-revenue",
+    "report": "reports/SMR_NuScale.html",
+    "public": true,
+    "thesis": "Only SMR with full NRC design certification. 77 MWe per module. Pre-revenue with minimal engineering income.",
+    "catalysts": [
+      "NRC Design Certification (achieved Jan 2023)",
+      "53% analyst upside target",
+      "Growing datacenter nuclear demand"
+    ],
+    "risks": [
+      "Pre-revenue with no commercial reactors",
+      "Idaho site cancelled, seeking new",
+      "Capital-intensive development"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "OKLO",
+    "name": "Oklo",
+    "sector": "electricity",
+    "sub_sector": "SMR Developers",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Pre-revenue",
+    "report": "reports/OKLO_Oklo.html",
+    "public": true,
+    "thesis": "Fast reactor developer with Meta 1.2 GW commitment. Materials license approved March 2026. $2.5B cash provides 25+ year runway.",
+    "catalysts": [
+      "Meta 1.2 GW commitment",
+      "NRC Materials license approved March 2026",
+      "$2.5B cash from January 2026 raise"
+    ],
+    "risks": [
+      "$10.87B valuation for pre-revenue company",
+      "First power 4 years away (2030)",
+      "Design certification ongoing"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "TerraPower",
+    "sector": "electricity",
+    "sub_sector": "SMR Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Pre-revenue",
+    "report": null,
+    "public": false,
+    "thesis": "Bill Gates-backed Natrium sodium-cooled reactor. 345 MWe. Construction started in Wyoming. Meta partnership.",
+    "catalysts": [
+      "Wyoming construction progress",
+      "Meta datacenter power deal",
+      "DOE funding support"
+    ],
+    "risks": [
+      "First-of-kind construction risk",
+      "Long timeline to commercial",
+      "Technology risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Kairos Power",
+    "sector": "electricity",
+    "sub_sector": "SMR Developers",
+    "rating": null,
+    "emoji": null,
+    "exposure": "Pre-revenue",
+    "report": null,
+    "public": false,
+    "thesis": "Fluoride salt-cooled reactor (Hermes). Construction permit for test reactor. Google agreement signed.",
+    "catalysts": [
+      "Google partnership",
+      "Hermes test reactor construction",
+      "NRC construction permit (Dec 2023)"
+    ],
+    "risks": [
+      "Novel technology risk",
+      "Long development timeline",
+      "Funding requirements"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "XE",
+    "name": "X-energy",
+    "sector": "electricity",
+    "sub_sector": "SMR Developers",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Pre-revenue",
+    "report": null,
+    "public": true,
+    "thesis": "HTGR (Xe-100) developer with 80 MWe per module. AWS partnership. NRC review underway.",
+    "catalysts": [
+      "AWS partnership",
+      "DOE demo project ~2028-2029",
+      "NRC review progress"
+    ],
+    "risks": [
+      "Pre-revenue",
+      "NRC approval timeline",
+      "Competition from other SMR designs"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "sector": "dc_hardware",
+    "sub_sector": "GPUs & AI Accelerators",
+    "rating": "STRONG_BUY",
+    "emoji": "🟢",
+    "exposure": "80%+",
+    "report": "reports/NVDA_Nvidia.html",
+    "public": true,
+    "thesis": "Dominant AI GPU provider powering the datacenter buildout. Blackwell architecture driving unprecedented demand. Data center 80%+ of revenue.",
+    "catalysts": [
+      "Blackwell GPU ramp",
+      "Enterprise AI adoption acceleration",
+      "Sovereign AI builds",
+      "Networking (Spectrum-X) growth"
+    ],
+    "risks": [
+      "Export restrictions to China",
+      "Customer ASIC competition",
+      "Supply constraints",
+      "Cyclical demand risk"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AMD",
+    "name": "AMD",
+    "sector": "dc_hardware",
+    "sub_sector": "GPUs & AI Accelerators",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "50%+",
+    "report": "reports/AMD_AMD.html",
+    "public": true,
+    "thesis": "Growing AI GPU challenger with MI300X/MI350 ramp. Data center revenue accelerating as hyperscalers diversify GPU supply.",
+    "catalysts": [
+      "MI300X/MI350 GPU ramp",
+      "Hyperscaler diversification trend",
+      "EPYC server CPU gains",
+      "ROCm ecosystem maturation"
+    ],
+    "risks": [
+      "CUDA ecosystem moat",
+      "Execution risk on GPU roadmap",
+      "Gross margin pressure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "sector": "dc_hardware",
+    "sub_sector": "GPUs & AI Accelerators",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "40%+",
+    "report": "reports/AVGO_Broadcom.html",
+    "public": true,
+    "thesis": "Custom AI ASIC leader (Google TPU, Meta MTIA). Networking infrastructure critical for datacenter interconnect.",
+    "catalysts": [
+      "Custom ASIC revenue acceleration",
+      "800G/1.6T networking switch demand",
+      "VMware synergies",
+      "Hyperscaler ASIC design wins"
+    ],
+    "risks": [
+      "ASIC customer concentration",
+      "Competition from merchant GPUs",
+      "VMware integration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "sector": "dc_hardware",
+    "sub_sector": "GPUs & AI Accelerators",
+    "rating": "SELL",
+    "emoji": "🔴",
+    "exposure": "30%",
+    "report": "reports/INTC_Intel.html",
+    "public": true,
+    "thesis": "Turnaround play with Gaudi AI accelerators and 18A process node. Foundry services ambitions. CHIPS Act beneficiary.",
+    "catalysts": [
+      "18A process node progress",
+      "Gaudi AI accelerator adoption",
+      "CHIPS Act funding",
+      "Foundry customer wins"
+    ],
+    "risks": [
+      "Execution risk on turnaround",
+      "Market share losses continuing",
+      "Foundry competitiveness uncertain"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "sector": "dc_hardware",
+    "sub_sector": "Memory (HBM/DRAM)",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "50%+",
+    "report": "reports/MU_Micron.html",
+    "public": true,
+    "thesis": "HBM leader benefiting from AI GPU memory demand. HBM3E supply sold out through 2025-2026.",
+    "catalysts": [
+      "HBM3E demand exceeding supply",
+      "AI-driven memory content increase per server",
+      "Data center DRAM pricing power",
+      "HBM4 development"
+    ],
+    "risks": [
+      "Memory cycle volatility",
+      "HBM yield challenges",
+      "Competition from Samsung, SK Hynix"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "000660.KS",
+    "name": "SK Hynix",
+    "sector": "dc_hardware",
+    "sub_sector": "Memory (HBM/DRAM)",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "50%+",
+    "report": "reports/SK_Hynix.html",
+    "public": true,
+    "thesis": "Leading HBM manufacturer and NVIDIA's primary HBM supplier. HBM3E production leader with strong pricing power.",
+    "catalysts": [
+      "HBM3E leadership",
+      "NVIDIA primary supplier status",
+      "AI memory demand growth",
+      "HBM4 early development"
+    ],
+    "risks": [
+      "Cyclical memory pricing",
+      "Samsung catching up",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "005930.KS",
+    "name": "Samsung Electronics",
+    "sector": "dc_hardware",
+    "sub_sector": "Memory (HBM/DRAM)",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "40%+",
+    "report": "reports/Samsung_Electronics.html",
+    "public": true,
+    "thesis": "World's largest memory manufacturer catching up in HBM. Foundry + memory combination unique in industry.",
+    "catalysts": [
+      "HBM3E qualification progress",
+      "Foundry + memory vertical integration",
+      "DRAM pricing recovery"
+    ],
+    "risks": [
+      "HBM quality gap vs SK Hynix",
+      "Foundry competitiveness vs TSMC",
+      "Organizational restructuring"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "sector": "dc_hardware",
+    "sub_sector": "Networking",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "60%+",
+    "report": "reports/ANET_Arista.html",
+    "public": true,
+    "thesis": "Premium datacenter networking leader. 400G/800G switch demand from AI clusters. CloudVision AI-driven network management.",
+    "catalysts": [
+      "400G/800G switch upgrade cycle",
+      "AI cluster networking demand",
+      "CloudVision platform adoption"
+    ],
+    "risks": [
+      "Premium valuation",
+      "Competition from Cisco, Broadcom",
+      "Hyperscaler in-house networking"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems",
+    "sector": "dc_hardware",
+    "sub_sector": "Networking",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "25%+",
+    "report": "reports/Cisco_Systems.html",
+    "public": true,
+    "thesis": "Networking giant with Splunk acquisition expanding AI observability. Silicon One chips for AI datacenter fabric.",
+    "catalysts": [
+      "Silicon One AI datacenter switches",
+      "Splunk AI observability integration",
+      "Enterprise networking refresh"
+    ],
+    "risks": [
+      "Market share loss to Arista",
+      "Slow transition to AI networking",
+      "Enterprise spending uncertainty"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "APH",
+    "name": "Amphenol",
+    "sector": "dc_hardware",
+    "sub_sector": "Connectors & Cabling",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "High",
+    "report": "reports/APH_Amphenol.html",
+    "public": true,
+    "thesis": "High-quality electrical connector compounder with exceptional datacom growth. Q1 2026 revenue +49% YoY.",
+    "catalysts": [
+      "+49% YoY revenue growth Q1 2026",
+      "IT Datacom segment acceleration",
+      "AI infrastructure connector demand"
+    ],
+    "risks": [
+      "Premium valuation",
+      "Growth deceleration risk",
+      "Acquisition integration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "GLW",
+    "name": "Corning",
+    "sector": "dc_hardware",
+    "sub_sector": "Optical & Fiber",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "20-25%",
+    "report": "reports/GLW_Corning.html",
+    "public": true,
+    "thesis": "Optical fiber and connectivity solutions leader. Datacenter fiber demand surging from AI cluster interconnects.",
+    "catalysts": [
+      "AI datacenter fiber demand surge",
+      "Optical connectivity growth",
+      "Enterprise network upgrades"
+    ],
+    "risks": [
+      "Cyclical fiber demand",
+      "Display segment weakness",
+      "Competition in optical solutions"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "SMCI",
+    "name": "Super Micro Computer",
+    "sector": "dc_hardware",
+    "sub_sector": "Servers & Racks",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "70%+",
+    "report": "reports/SMCI_Supermicro.html",
+    "public": true,
+    "thesis": "Leading AI server/rack manufacturer with direct liquid cooling. Building Block architecture for rapid custom configurations.",
+    "catalysts": [
+      "Direct liquid cooling leadership",
+      "Building Block architecture",
+      "AI server demand acceleration"
+    ],
+    "risks": [
+      "Accounting concerns and audit issues",
+      "Margin pressure from competition",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "sector": "dc_hardware",
+    "sub_sector": "Servers & Racks",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "40%",
+    "report": "reports/DELL_Dell.html",
+    "public": true,
+    "thesis": "Leading AI server OEM with PowerEdge platform. Infrastructure Solutions Group driving growth from enterprise AI deployments.",
+    "catalysts": [
+      "AI server order backlog growth",
+      "Enterprise AI refresh cycle",
+      "PowerEdge AI server platform"
+    ],
+    "risks": [
+      "Low-margin server hardware",
+      "Competition from Super Micro, HPE",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "HPE",
+    "name": "HPE",
+    "sector": "dc_hardware",
+    "sub_sector": "Servers & Racks",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "30%",
+    "report": "reports/HPE_HPE.html",
+    "public": true,
+    "thesis": "Enterprise AI infrastructure provider with Juniper Networks acquisition expanding networking portfolio.",
+    "catalysts": [
+      "Juniper acquisition synergies",
+      "GreenLake cloud platform growth",
+      "AI server demand"
+    ],
+    "risks": [
+      "Juniper integration risk",
+      "Lower AI server margins",
+      "Competition from Dell"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "sector": "dc_hardware",
+    "sub_sector": "Contract Manufacturing",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "78%",
+    "report": "reports/CLS_Celestica.html",
+    "public": true,
+    "thesis": "Pure-play datacenter hardware manufacturer. 1.6T networking platform. $17B 2026E revenue guidance (+37%).",
+    "catalysts": [
+      "1.6T networking platform ramp",
+      "$17B 2026E revenue (+37%)",
+      "78% DC revenue concentration"
+    ],
+    "risks": [
+      "Customer concentration in 3-4 hyperscalers",
+      "Margin pressure",
+      "Technology transition risks"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "sector": "dc_hardware",
+    "sub_sector": "Cooling & Thermal",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "45-50%",
+    "report": "reports/VRT_Vertiv.html",
+    "public": true,
+    "thesis": "Dominant thermal management and power distribution leader for AI datacenters. $13.75B revenue guidance (+34%). 11+ year backlog.",
+    "catalysts": [
+      "$13.75B revenue guidance (+34%)",
+      "11+ year datacenter backlog",
+      "AI liquid cooling demand",
+      "Next-gen thermal solutions"
+    ],
+    "risks": [
+      "Premium valuation at 42.5x fwd P/E",
+      "Execution risk on rapid growth",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": null,
+    "name": "Asetek",
+    "sector": "dc_hardware",
+    "sub_sector": "Cooling & Thermal",
+    "rating": null,
+    "emoji": null,
+    "exposure": "High",
+    "report": "reports/Asetek.html",
+    "public": true,
+    "thesis": "Liquid cooling specialist for AI datacenters. Direct-to-chip and rear-door heat exchanger solutions.",
+    "catalysts": [
+      "Liquid cooling adoption acceleration",
+      "AI GPU power density driving demand",
+      "OEM partnerships"
+    ],
+    "risks": [
+      "Small market cap",
+      "Competition from Vertiv/CoolIT",
+      "Scaling challenges"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "TSM",
+    "name": "TSMC",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Foundries",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "50%+",
+    "report": "reports/TSM_TSMC.html",
+    "public": true,
+    "thesis": "Sole advanced node manufacturer for AI chips. 3nm/2nm process leadership. Arizona fab expansion for US supply chain.",
+    "catalysts": [
+      "3nm/2nm process ramp for AI chips",
+      "Arizona fab expansion",
+      "CoWoS advanced packaging capacity",
+      "AI chip demand driving ASP increases"
+    ],
+    "risks": [
+      "Geopolitical risk (Taiwan)",
+      "CapEx intensity",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel Foundry Services",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Foundries",
+    "rating": "SELL",
+    "emoji": "🔴",
+    "exposure": "Foundry",
+    "report": "reports/INTC_Intel.html",
+    "public": true,
+    "thesis": "Intel's foundry division pursuing external customers with 18A process. CHIPS Act funding. Execution challenges significant.",
+    "catalysts": [
+      "18A process node",
+      "CHIPS Act funding ($8.5B+)",
+      "External customer wins",
+      "US reshoring demand"
+    ],
+    "risks": [
+      "Process node competitiveness vs TSMC",
+      "Operating losses in foundry",
+      "Customer trust building"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "UMC",
+    "name": "UMC",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Foundries",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Mature Nodes",
+    "report": null,
+    "public": true,
+    "thesis": "Mature-node foundry serving power management, analog chips used in datacenter infrastructure.",
+    "catalysts": [
+      "Datacenter power IC demand",
+      "Mature node capacity value",
+      "Automotive + industrial"
+    ],
+    "risks": [
+      "Limited advanced node capability",
+      "Pricing pressure",
+      "China competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "GFS",
+    "name": "GlobalFoundries",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Foundries",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Specialty Nodes",
+    "report": null,
+    "public": true,
+    "thesis": "Specialty foundry for RF, analog, and power chips used in datacenter and networking infrastructure.",
+    "catalysts": [
+      "Specialty node demand growth",
+      "US manufacturing premium",
+      "Defense/aerospace applications"
+    ],
+    "risks": [
+      "No advanced node capability",
+      "Customer concentration",
+      "Growth ceiling"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Lithography & Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Critical Enabler",
+    "report": null,
+    "public": true,
+    "thesis": "Monopoly on EUV lithography systems essential for advanced AI chips. Every AI chip passes through ASML equipment.",
+    "catalysts": [
+      "High-NA EUV (0.55 NA) deployment",
+      "AI chip demand driving fab expansion",
+      "Irreplaceable position in supply chain"
+    ],
+    "risks": [
+      "Export controls to China",
+      "Customer CapEx cycles",
+      "High-NA adoption timing"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Lithography & Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Broad Equipment",
+    "report": null,
+    "public": true,
+    "thesis": "Largest semiconductor equipment maker. Deposition, etch, and inspection tools critical for AI chip manufacturing.",
+    "catalysts": [
+      "ICAPS (IoT, Comm, Auto, Power, Sensors) growth",
+      "Advanced packaging equipment",
+      "Gate-all-around transistor tools"
+    ],
+    "risks": [
+      "China export restrictions",
+      "Cyclical equipment spending",
+      "Competition from Lam/Tokyo Electron"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Lithography & Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Etch & Deposition",
+    "report": null,
+    "public": true,
+    "thesis": "Leading etch and deposition equipment provider. Critical for HBM and advanced memory manufacturing.",
+    "catalysts": [
+      "HBM manufacturing equipment demand",
+      "3D NAND layer increases",
+      "Advanced node etch complexity"
+    ],
+    "risks": [
+      "China revenue exposure",
+      "Memory CapEx cyclicality",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Lithography & Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Inspection & Metrology",
+    "report": null,
+    "public": true,
+    "thesis": "Dominant semiconductor inspection and metrology equipment. Defect detection critical as AI chip yields drive profitability.",
+    "catalysts": [
+      "Advanced node defect detection demand",
+      "AI chip yield optimization",
+      "EUV inspection tools"
+    ],
+    "risks": [
+      "China export controls",
+      "Customer CapEx cycles",
+      "Competition from Applied Materials"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "8035.T",
+    "name": "Tokyo Electron",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Lithography & Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Broad Equipment",
+    "report": null,
+    "public": true,
+    "thesis": "Major semiconductor equipment maker (coater/developer, etch, deposition). Key supplier to TSMC, Samsung, Intel fabs.",
+    "catalysts": [
+      "AI-driven fab expansion",
+      "Advanced packaging tools",
+      "Japan semiconductor renaissance"
+    ],
+    "risks": [
+      "Yen currency exposure",
+      "China restrictions",
+      "Cyclical demand"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ASX",
+    "name": "ASE Technology",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Advanced Packaging",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Packaging",
+    "report": null,
+    "public": true,
+    "thesis": "Largest OSAT (outsourced assembly and test) provider. Advanced packaging critical for AI chip performance (CoWoS, 2.5D/3D).",
+    "catalysts": [
+      "Advanced packaging demand from AI chips",
+      "CoWoS capacity expansion",
+      "Chiplet packaging growth"
+    ],
+    "risks": [
+      "TSMC in-house packaging competition",
+      "Technology transition risk",
+      "Customer concentration"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AMKR",
+    "name": "Amkor Technology",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Advanced Packaging",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Packaging",
+    "report": null,
+    "public": true,
+    "thesis": "Major OSAT provider with growing advanced packaging capabilities. Apple, Qualcomm, and AI chip packaging.",
+    "catalysts": [
+      "Advanced packaging revenue growth",
+      "AI chip packaging demand",
+      "Arizona facility expansion"
+    ],
+    "risks": [
+      "Competition from ASE and TSMC",
+      "Customer concentration",
+      "Margin pressure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ENTG",
+    "name": "Entegris",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Materials & Chemicals",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Critical Materials",
+    "report": null,
+    "public": true,
+    "thesis": "Specialty materials and contamination control for semiconductor manufacturing. Critical consumable supplier as yields matter more.",
+    "catalysts": [
+      "Advanced node materials demand",
+      "Contamination control importance growing",
+      "CMC Materials integration"
+    ],
+    "risks": [
+      "Cyclical semiconductor spending",
+      "Competition",
+      "Integration execution"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "4063.T",
+    "name": "Shin-Etsu Chemical",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Materials & Chemicals",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "Silicon Wafers",
+    "report": null,
+    "public": true,
+    "thesis": "World's largest silicon wafer manufacturer. Every semiconductor starts with a wafer. Pricing power from oligopoly position.",
+    "catalysts": [
+      "Wafer demand from fab expansion",
+      "300mm wafer pricing power",
+      "AI chip volume growth"
+    ],
+    "risks": [
+      "Cyclical wafer demand",
+      "Capacity overinvestment risk",
+      "SUMCO competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Test Equipment",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "15-20%",
+    "report": "reports/AEHR_Aehr_Test.html",
+    "public": true,
+    "thesis": "Niche test equipment maker with SiC wafer-level burn-in systems. Benefits from SiC adoption in datacenter power conversion.",
+    "catalysts": [
+      "SiC power device adoption in datacenters",
+      "FOX-XP multi-wafer test platform",
+      "Growing EV + DC power demand"
+    ],
+    "risks": [
+      "Small market cap ($350M)",
+      "Customer concentration",
+      "SiC adoption pace uncertainty"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "ON",
+    "name": "onsemi",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Power Semiconductors",
+    "rating": "BUY",
+    "emoji": "🟡",
+    "exposure": "20-25%",
+    "report": "reports/ON_onsemi.html",
+    "public": true,
+    "thesis": "Power semiconductor enabler for AI datacenter infrastructure. SiC devices for power conversion. $6B buyback authorization.",
+    "catalysts": [
+      "AI DC revenue expanding at high-teens rate",
+      "$6B share buyback",
+      "SiC adoption in datacenter power",
+      "Hyperscaler power management IC demand"
+    ],
+    "risks": [
+      "Stock momentum ahead of fundamentals",
+      "Cyclical exposure",
+      "Competition from Infineon, STM"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "IFX.DE",
+    "name": "Infineon",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Power Semiconductors",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "Medium",
+    "report": "reports/IFX_Infineon.html",
+    "public": true,
+    "thesis": "European power semiconductor leader with growing datacenter power management exposure. SiC and GaN technologies.",
+    "catalysts": [
+      "Datacenter power IC demand",
+      "SiC/GaN technology leadership",
+      "European reshoring support"
+    ],
+    "risks": [
+      "Auto market weakness",
+      "Competition from onsemi/STM",
+      "Currency exposure"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "STM",
+    "name": "STMicroelectronics",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Power Semiconductors",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "$500M+ 2026E",
+    "report": "reports/STM_STMicroelectronics.html",
+    "public": true,
+    "thesis": "Infrastructure semiconductor play with AWS partnership and NVIDIA 800V DC power collaboration. Revenue ramping $500M to $1B+ in DC.",
+    "catalysts": [
+      "AWS partnership",
+      "NVIDIA 800V power collaboration",
+      "$500M→$1B+ DC revenue 2026-2027"
+    ],
+    "risks": [
+      "Extreme trailing P/E (181x)",
+      "Manufacturing inefficiency",
+      "Competition"
+    ],
+    "updated": "2026-04-27"
+  },
+  {
+    "ticker": "WOLF",
+    "name": "Wolfspeed",
+    "sector": "semiconductor_fab",
+    "sub_sector": "Power Semiconductors",
+    "rating": "HOLD",
+    "emoji": "🟠",
+    "exposure": "10-15%",
+    "report": "reports/WOLF_Wolfspeed.html",
+    "public": true,
+    "thesis": "SiC wafer and device manufacturer. Mohawk Valley fab challenges but long-term SiC demand strong for datacenter power.",
+    "catalysts": [
+      "Mohawk Valley fab ramp",
+      "SiC adoption for datacenter power supplies"
+    ],
+    "risks": [
+      "Operational execution challenges",
+      "Cash burn and balance sheet stress",
+      "Competition"
+    ],
+    "updated": "2026-04-27"
+  }
+]

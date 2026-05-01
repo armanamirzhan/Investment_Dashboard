@@ -1,0 +1,303 @@
+[
+  {
+    "date": "2026-04-24",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Q1 EPS of $17.44 smashed estimates. $2.4B DC equipment orders in Q1 > all of 2025. Stock up 246% in 1Y. Raised FY guide to $44.5-45.5B.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "Meta now 40.1% of $87.8B backlog. Heavy customer concentration despite strong demand. $30-35B capex plan for 2026.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "VRT",
+    "signal_type": "earnings_miss",
+    "description": "Q1 beat on revenue (+30%) and EPS but Q2 guidance below consensus. May signal cooling in near-term equipment orders.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "Q1 revenue +41% YoY, gross margin 66%. New A13/N2U processes. 3nm at 25% of revenue. Stock +5%.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "DELL",
+    "signal_type": "undervalued",
+    "description": "Forward P/E of 13.5x vs 17% EPS growth. $43B AI server backlog. Gaining share from SMCI. 30%+ upside to analyst consensus $150 PT.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "CEG",
+    "signal_type": "undervalued",
+    "description": "Down 25% from 52-week high post-Calpine acquisition. Morgan Stanley Overweight, $385 PT (27% upside). Largest US clean energy fleet with nuclear + gas + geothermal.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "SMCI",
+    "signal_type": "legal_risk",
+    "description": "Co-founder indicted for smuggling Nvidia servers to China. Stock -27%. Short interest at 22%. Governance crisis driving customer defections to Dell.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "OKLO",
+    "signal_type": "overvalued",
+    "description": "$16B market cap with zero revenue and no NRC-approved design yet. SMR capacity not meaningful until 2035 per BofA. High short interest at 15%.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "SMR",
+    "signal_type": "overvalued",
+    "description": "$3.2B market cap, only NRC-certified SMR but commercialization timeline pushed out. Trading 20% above analyst targets. 18% short interest.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "BE",
+    "signal_type": "momentum",
+    "description": "Oracle 2.8 GW deal is transformational. Stock +31% on deal. Fastest DC power deployment (55-day install). But 12% short interest and no profitability.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "NVDA",
+    "signal_type": "undervalued",
+    "description": "Trading at 17x forward earnings with 66% revenue growth. 85-92% AI accelerator market share. $1T chip opportunity in 2026-27 per Jensen Huang. Supply constraints support pricing power.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Q1 2026 massive beat: EPS bash.29 vs bash.01 expected. DC revenue +22%. Q2 guidance well above consensus.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Q1 revenue doubled to $1.9B. Meta deal $21B. Anthropic EU deal €4.2B. Jane Street $6B cloud + $1B equity. Backlog $87.8B.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Up 32% in one week, 192% YoY on White House space nuclear mandate. Still pre-revenue — high-risk.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "SMR",
+    "signal_type": "legal_risk",
+    "description": "Securities fraud class action filed against NuScale executives re: ENTRA1 misrepresentations. Stock dropped 12.4%.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "TSM",
+    "signal_type": "undervalued",
+    "description": "TSMC 3nm sold out through 2028. Capex $52-56B. New GigaFab in Arizona. A13/N2U nodes unveiled. Demand far exceeds supply.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Crossed $5T market cap; Blackwell sold out through mid-2026; record close at $208.27",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Surged 14% on DA Davidson upgrade and $60B Meta deal for MI450 GPUs; challenging NVDA dominance",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "GEV",
+    "signal_type": "earnings_beat",
+    "description": "Q1 EPS $17.44 vs $1.97 est; datacenter orders $2.4B in Q1 alone (>all 2025); raised FY guidance",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q1 EPS $1.17 vs $1.00 est; revenue +30% YoY to $2.65B; but Q2 guidance slightly soft",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "Revenue backlog $87.8B but heavy concentration in few hyperscaler clients; short interest 8.5%",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "SMCI",
+    "signal_type": "short_squeeze",
+    "description": "Short interest at 12%; valuation compressed at 12x PE; accounting concerns lingering but revenue growth strong",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "SMR",
+    "signal_type": "undervalued",
+    "description": "Trading at $12.74 vs avg analyst target $22.18 (74% upside); HSBC initiated Hold at $13; pre-revenue risk",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Buy consensus from 14 analysts; HSBC initiated Buy at $96 target (25.6% upside); Meta partnership catalyst",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "ASML",
+    "signal_type": "overvalued",
+    "description": "TSMC delays High-NA EUV adoption to 2029; $16.7B market cap loss on announcement; near-term revenue risk from delayed tool adoption",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "Hit all-time high $402.46 on April 24; 3nm sold out through 2028; A13 node roadmap strong",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Crossed $5T market cap; Vera Rubin platform in production with 3-4x compute density improvement over Blackwell",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Surged 14% on $60B Meta GPU deal and DA Davidson upgrade; MI450 execution risk remains key concern",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "GEV",
+    "signal_type": "overvalued",
+    "description": "Stock at $1,003, up 200% in one year; P/E of 62x ahead of earnings growth; Q1 beat but high expectations priced in",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Up 50%+ in April from $48 to $75 on Meta partnership and DOE loan visibility; no revenue yet, speculative premium",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "CRWV",
+    "signal_type": "insider_sell",
+    "description": "CEO sold $35.8M in stock under pre-set plan; stock near highs at $111 with $66B backlog but pre-revenue concerns",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "CEG",
+    "signal_type": "undervalued",
+    "description": "Trading 30% below October peak at $318; Buy consensus maintained; Calpine acquisition adds gas/geothermal diversification",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "SMR",
+    "signal_type": "momentum",
+    "description": "Surged ~16% on DOE loan support; HSBC started coverage at Hold/$13; B.Riley trimmed target but kept Buy",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q1 sales up 30% YoY to $2.65B; raised FY26 guidance to $13.25-13.75B; datacenter cooling demand accelerating",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "AMZN",
+    "signal_type": "concentration_risk",
+    "description": "$200B CapEx plan may drive FCF to -$17B to -$28B in 2026; heavy AI infrastructure bet with uncertain ROI timeline",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "TSM",
+    "signal_type": "earnings_beat",
+    "description": "Q1 profits up 58% beating estimates; 4th consecutive record quarter; delayed High-NA EUV saves costs",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "ORCL",
+    "signal_type": "momentum",
+    "description": "Oracle dropped ~4% on OpenAI growth concerns; AI infrastructure demand sustainability questioned",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave dropped ~6% on OpenAI growth fears despite $21B Meta deal; high sensitivity to AI narrative",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "PLTR",
+    "signal_type": "momentum",
+    "description": "Palantir fell to $137 range as Citi cut target to $210; AI software multiple compression ongoing",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Vertiv profit-taking after strong Q1 results (30% revenue growth); acquired Strategic Thermal Labs for liquid cooling",
+    "severity": "low"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "TSM",
+    "signal_type": "earnings_beat",
+    "description": "TSMC Q1 revenue up 39% to $35.9B, net profit up 58%, gross margin 66.2%. Guides 30%+ full-year growth",
+    "severity": "high"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "Corning stock up 321% in 12 months on datacenter fiber demand; plans $11B revenue add by 2028",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "CBRS",
+    "signal_type": "momentum",
+    "description": "Cerebras filed S-1 for mid-May IPO at $22-25B valuation; potential new entrant to AI accelerator market",
+    "severity": "medium"
+  }
+]

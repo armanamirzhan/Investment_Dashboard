@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-04-24",
+    "ticker": "TXN",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Hold",
+    "old_target": 215
+  },
+  {
+    "date": "2026-04-24",
+    "ticker": "CEG",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 385,
+    "old_rating": "Not Rated",
+    "old_target": 0
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "AMD",
+    "firm": "DA Davidson",
+    "new_rating": "Buy",
+    "new_target": 380,
+    "old_rating": "Neutral",
+    "old_target": 320
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "KLAC",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": "Equal Weight",
+    "old_target": null
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "OKLO",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 96,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-04-27",
+    "ticker": "SMR",
+    "firm": "HSBC",
+    "new_rating": "Hold",
+    "new_target": 13,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "AMD",
+    "firm": "DA Davidson",
+    "new_rating": "Buy",
+    "new_target": 380,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "SMR",
+    "firm": "HSBC",
+    "new_rating": "Hold",
+    "new_target": 13,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "SMR",
+    "firm": "B. Riley",
+    "new_rating": "Buy",
+    "new_target": 19,
+    "old_rating": "Buy",
+    "old_target": 24
+  },
+  {
+    "date": "2026-04-28",
+    "ticker": "CRWV",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 100,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-04-29",
+    "ticker": "PLTR",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 210,
+    "old_rating": "Buy",
+    "old_target": 260
+  }
+]

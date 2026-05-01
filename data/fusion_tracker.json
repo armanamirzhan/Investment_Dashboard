@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Commonwealth Fusion Systems (CFS)",
+    "technology": "Tokamak with high-temperature superconducting magnets (SPARC)",
+    "timeline": "Magnet ring completion: Summer 2026. First plasma (SPARC): 2027. Net power demo (Q>1): 2027. Commercial plant (ARC) at James River, VA: Early 2030s.",
+    "dc_connection": "Google signed first-of-kind corporate fusion PPA (July 2025)",
+    "funding": "$2B+ raised. Backed by Google, Bill Gates, Tiger Global",
+    "source": "Source: CFS website, TechCrunch, Wikipedia",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Helion Energy",
+    "technology": "Field-reversed configuration (FRC) - pulsed fusion for direct electricity",
+    "timeline": "Polaris prototype: 150M C achieved (Feb 2026) - 75% of target. Orion (commercial reactor): Under construction. Microsoft PPA: Electricity delivery targeted 2028.",
+    "dc_connection": "Direct contract with Microsoft to supply fusion electricity starting 2028",
+    "funding": "$577M+ raised. Backed by Sam Altman (OpenAI), $500M from Sam Altman personally",
+    "source": "Source: TechCrunch (Feb 2026), Fortune",
+    "updated": "2026-04-24"
+  }
+]

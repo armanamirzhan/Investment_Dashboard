@@ -1,0 +1,112 @@
+[
+  {
+    "company": "Eaton",
+    "ticker": "ETN",
+    "category": "Power Distribution",
+    "product": "UPS, switchgear, PDUs, transformers",
+    "relevance": "End-to-end DC power distribution. $1.5B incremental capacity investment",
+    "metrics": "New SC transformer plant by 2027. $340M expansion",
+    "report": "reports/ETN_Eaton.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Schneider Electric",
+    "ticker": "SU.PA",
+    "category": "Power Distribution",
+    "product": "EcoStruxure platform, UPS, PDUs, switchgear",
+    "relevance": "18% share of DC switchgear market. End-to-end energy management",
+    "metrics": "Mkt Cap: ~EUR 154B",
+    "report": "reports/SU_Schneider_Electric.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Vertiv",
+    "ticker": "VRT",
+    "category": "Power & Cooling",
+    "product": "UPS, thermal management, power conversion",
+    "relevance": "Critical DC infrastructure. Liquid cooling solutions",
+    "metrics": "Major beneficiary of DC buildout",
+    "report": "reports/VRT_Vertiv.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Hitachi Energy",
+    "ticker": "6501.T",
+    "category": "Transformers",
+    "product": "Large power transformers, grid equipment",
+    "relevance": "Expanding VA and PA transformer manufacturing",
+    "metrics": "Lead times: 128 weeks (power), 144 weeks (GSU)",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "onsemi",
+    "ticker": "ON",
+    "category": "SiC Power Electronics",
+    "product": "SiC MOSFETs, power modules, vertical power delivery",
+    "relevance": "~25% SiC market share. AI accelerator power delivery modules",
+    "metrics": "Rev ~$9B FY26E. Transitioned to 200mm SiC wafers (80% yield gain)",
+    "report": "reports/ON_onsemi.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Wolfspeed",
+    "ticker": "WOLF",
+    "category": "SiC Substrates",
+    "product": "SiC wafers, MOSFETs, Gen 4 platform",
+    "relevance": "~11% SiC market share. Supplies wafers to Infineon et al",
+    "metrics": "300mm SiC wafer breakthrough. Restructuring underway",
+    "report": "reports/WOLF_Wolfspeed.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Infineon",
+    "ticker": "IFX.DE",
+    "category": "Power Semiconductors",
+    "product": "SiC & Si power modules, IGBTs",
+    "relevance": "~15% SiC market share. Key supplier for inverters/converters",
+    "metrics": "Long-term Wolfspeed wafer supply agreement",
+    "report": "reports/IFX_Infineon.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "STMicroelectronics",
+    "ticker": "STM",
+    "category": "Power Semiconductors",
+    "product": "SiC MOSFETs, diodes",
+    "relevance": "~35% SiC market share (leader). DC power conversion",
+    "metrics": "Largest SiC revenue base globally",
+    "report": "reports/STM_STMicroelectronics.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Aehr Test Systems",
+    "ticker": "AEHR",
+    "category": "Test Equipment",
+    "product": "Wafer-level & package-level burn-in",
+    "relevance": "Testing SiC devices + AI processors for DCs",
+    "metrics": "$37.2M quarterly bookings (3.5x book-to-bill). Hyperscaler AI processor orders",
+    "report": "reports/AEHR_Aehr_Test.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Fluence Energy",
+    "ticker": "FLNC",
+    "category": "Battery Storage",
+    "product": "BESS systems, grid-scale storage",
+    "relevance": "DC peak shaving, grid stabilization",
+    "metrics": "Global BESS market: $76.7B (2025) to $172.2B (2030)",
+    "report": "reports/FLNC_Fluence.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Tesla Energy",
+    "ticker": "TSLA",
+    "category": "Battery Storage",
+    "product": "Megapack BESS",
+    "relevance": "DC backup power, grid-scale storage",
+    "metrics": "Leading utility-scale BESS deployments",
+    "report": null,
+    "updated": "2026-04-24"
+  }
+]

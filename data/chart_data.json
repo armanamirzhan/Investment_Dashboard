@@ -1,0 +1,429 @@
+{
+  "demand_projections": {
+    "type": "line",
+    "title": "Global Datacenter Power Demand Projections (GW)",
+    "source": "Sources: Goldman Sachs Research (Apr 2026), IEA Energy & AI Report",
+    "labels": [
+      "2023",
+      "2024",
+      "2025",
+      "2026E",
+      "2027E",
+      "2028E",
+      "2029E",
+      "2030E"
+    ],
+    "datasets": [
+      {
+        "label": "Goldman Sachs Base (GW)",
+        "data": [
+          55,
+          62,
+          80,
+          92,
+          110,
+          130,
+          145,
+          165
+        ],
+        "color": "#4C8BF5",
+        "fill": true,
+        "tension": 0.3
+      },
+      {
+        "label": "Goldman Sachs High (GW)",
+        "data": [
+          55,
+          65,
+          85,
+          100,
+          125,
+          150,
+          175,
+          200
+        ],
+        "color": "#A142F4",
+        "fill": false,
+        "tension": 0.3,
+        "borderDash": [
+          5,
+          5
+        ]
+      },
+      {
+        "label": "IEA Estimate (TWh to GW equiv)",
+        "data": [
+          50,
+          58,
+          72,
+          85,
+          100,
+          115,
+          125,
+          135
+        ],
+        "color": "#34A853",
+        "fill": false,
+        "tension": 0.3,
+        "borderDash": [
+          3,
+          3
+        ]
+      }
+    ],
+    "y_title": "Gigawatts (GW)",
+    "y_begin_zero": true
+  },
+  "energy_mix": {
+    "type": "doughnut",
+    "title": "US Datacenter Energy Mix (2025)",
+    "source": "Source: S&P Global, Yale Clean Energy Forum",
+    "labels": [
+      "Natural Gas (43%)",
+      "Renewables (24%)",
+      "Coal (15%)",
+      "Nuclear (12%)",
+      "Other (6%)"
+    ],
+    "data": [
+      43,
+      24,
+      15,
+      12,
+      6
+    ],
+    "colors": [
+      "#F9AB00",
+      "#34A853",
+      "#9E9E9E",
+      "#A142F4",
+      "#24C1E0"
+    ],
+    "cutout": "55%"
+  },
+  "capex_trajectory": {
+    "type": "bar",
+    "title": "Hyperscaler Capital Expenditure Trajectory ($B)",
+    "source": "Sources: Company earnings reports, SEC filings",
+    "full_width": true,
+    "y_title": "Capital Expenditure ($B)",
+    "y_begin_zero": true
+  },
+  "clean_energy": {
+    "type": "bar",
+    "title": "Hyperscaler Contracted Clean Energy (GW)",
+    "source": "Source: ESG Today, company announcements (end-2025 data)",
+    "labels": [
+      "Microsoft",
+      "Amazon",
+      "Google",
+      "Meta"
+    ],
+    "data": [
+      34.7,
+      30,
+      25,
+      15
+    ],
+    "colors": [
+      "#4C8BF5CC",
+      "#F9AB00CC",
+      "#34A853CC",
+      "#A142F4CC"
+    ],
+    "indexAxis": "y",
+    "y_title": "GW"
+  },
+  "power_timeline": {
+    "type": "bar",
+    "title": "Power Delivery Timeline - When Capacity Arrives",
+    "source": "Source: Company announcements, analyst estimates",
+    "labels": [
+      "Natural Gas (BTM)",
+      "Grid Expansion",
+      "Solar/Wind PPAs",
+      "Existing Nuclear PPAs",
+      "SMRs (Advanced Nuclear)",
+      "Fusion"
+    ],
+    "datasets": [
+      {
+        "label": "Available Now",
+        "data": [
+          48,
+          5,
+          15,
+          10,
+          0,
+          0
+        ],
+        "color": "#34A853CC"
+      },
+      {
+        "label": "2027-2028",
+        "data": [
+          20,
+          10,
+          20,
+          5,
+          0.5,
+          0
+        ],
+        "color": "#4C8BF5CC"
+      },
+      {
+        "label": "2029-2030+",
+        "data": [
+          15,
+          15,
+          25,
+          5,
+          5,
+          0.5
+        ],
+        "color": "#A142F4CC"
+      }
+    ],
+    "stacked": true,
+    "indexAxis": "y",
+    "x_title": "Estimated GW"
+  },
+  "turbine_backlog": {
+    "type": "bar",
+    "title": "Gas Turbine OEM Order Backlog Comparison",
+    "source": "Source: GE Vernova, Siemens Energy, MHI earnings reports (Q1 2026)",
+    "labels": [
+      "GE Vernova",
+      "Siemens Energy",
+      "Mitsubishi Power"
+    ],
+    "data": [
+      163,
+      138,
+      15
+    ],
+    "colors": [
+      "#4C8BF5CC",
+      "#24C1E0CC",
+      "#F9AB00CC"
+    ],
+    "tooltips": [
+      "$163B total / 100 GW turbines",
+      "EUR 138B total / 194 units sold in FY25",
+      "48 turbines, doubling capacity"
+    ],
+    "y_title": "Backlog ($B / EUR B)"
+  },
+  "nuclear_ppas": {
+    "type": "bar",
+    "title": "Key Nuclear PPAs for Datacenters",
+    "source": "Source: Company announcements, press releases",
+    "labels": [
+      "Meta-Vistra (3 plants)",
+      "Meta-Constellation (Clinton)",
+      "Microsoft-Constellation (TMI)",
+      "Google-NextEra (Duane Arnold)",
+      "CyrusOne-Constellation (Freestone)",
+      "Meta-TerraPower/Oklo (SMR future)"
+    ],
+    "data": [
+      2609,
+      1100,
+      835,
+      615,
+      380,
+      3000
+    ],
+    "colors": [
+      "#A142F4CC",
+      "#A142F4AA",
+      "#4C8BF5CC",
+      "#34A853CC",
+      "#24C1E0CC",
+      "#E8548C80"
+    ],
+    "indexAxis": "y",
+    "x_title": "Megawatts (MW)"
+  },
+  "sic_market": {
+    "type": "doughnut",
+    "title": "SiC Power Electronics Market Share (%)",
+    "source": "Source: Industry estimates, company reports (2025)",
+    "labels": [
+      "STMicroelectronics (35%)",
+      "onsemi (25%)",
+      "Infineon (15%)",
+      "Wolfspeed (11%)",
+      "Others (14%)"
+    ],
+    "data": [
+      35,
+      25,
+      15,
+      11,
+      14
+    ],
+    "colors": [
+      "#4C8BF5CC",
+      "#34A853CC",
+      "#F9AB00CC",
+      "#A142F4CC",
+      "#9E9E9ECC"
+    ],
+    "cutout": "55%"
+  },
+  "lead_times": {
+    "type": "bar",
+    "title": "Equipment Lead Times (Weeks) - 2025/2026",
+    "source": "Source: Wood Mackenzie, NEMA, industry surveys",
+    "labels": [
+      "Generator Step-Up Transformers",
+      "Power Transformers",
+      "Pad-Mount Transformers",
+      "Gas Turbines (large frame)",
+      "Switchgear (HV)",
+      "BESS Systems"
+    ],
+    "data": [
+      144,
+      128,
+      78,
+      156,
+      52,
+      36
+    ],
+    "colors": [
+      "#EA4335CC",
+      "#EA4335AA",
+      "#F9AB00CC",
+      "#F9AB00AA",
+      "#4C8BF5CC",
+      "#34A853CC"
+    ],
+    "y_title": "Weeks"
+  },
+  "nuclear_timeline": {
+    "type": "bar",
+    "title": "Nuclear / SMR / Fusion - Expected Commercial Deployment Timeline",
+    "source": "Source: Company announcements, NRC filings, analyst estimates.",
+    "full_width": true,
+    "labels": [
+      "Last Energy (Wales PWR)",
+      "Oklo (Aurora, INL)",
+      "TerraPower (Natrium, WY)",
+      "NuScale (new site TBD)",
+      "X-energy (Xe-100 demo)",
+      "Kairos Power (Hermes)",
+      "CFS - SPARC (net power demo)",
+      "CFS - ARC (commercial)",
+      "Helion - Orion (Microsoft PPA)"
+    ],
+    "datasets": [
+      {
+        "label": "Construction / Dev",
+        "data": [
+          2026,
+          2026,
+          2025,
+          2027,
+          2026,
+          2024,
+          2024,
+          2028,
+          2025
+        ],
+        "color": "#4C8BF580"
+      },
+      {
+        "label": "First Power Target",
+        "data": [
+          2027,
+          2028,
+          2031,
+          2030,
+          2029,
+          2030,
+          2027,
+          2032,
+          2028
+        ],
+        "color": "#34A853CC"
+      }
+    ],
+    "indexAxis": "y",
+    "x_min": 2024,
+    "x_max": 2034,
+    "x_title": "Year"
+  },
+  "supply_demand_gap": {
+    "type": "line",
+    "title": "Supply vs Demand Gap - US Datacenter Power (GW Estimate)",
+    "source": "Source: Goldman Sachs, IEA, company announcements.",
+    "full_width": true,
+    "labels": [
+      "2024",
+      "2025",
+      "2026E",
+      "2027E",
+      "2028E",
+      "2029E",
+      "2030E"
+    ],
+    "datasets": [
+      {
+        "label": "Projected DC Power Demand (GW)",
+        "data": [
+          62,
+          80,
+          92,
+          110,
+          130,
+          145,
+          165
+        ],
+        "color": "#EA4335",
+        "fill": true,
+        "tension": 0.3,
+        "borderWidth": 3
+      },
+      {
+        "label": "Estimated Available Supply (GW)",
+        "data": [
+          60,
+          72,
+          82,
+          95,
+          115,
+          135,
+          155
+        ],
+        "color": "#34A853",
+        "fill": true,
+        "tension": 0.3,
+        "borderWidth": 3
+      },
+      {
+        "label": "Supply Gap (GW)",
+        "data": [
+          2,
+          8,
+          10,
+          15,
+          15,
+          10,
+          10
+        ],
+        "color": "#F9AB00",
+        "fill": false,
+        "tension": 0.3,
+        "borderWidth": 2,
+        "borderDash": [
+          5,
+          5
+        ]
+      }
+    ],
+    "y_title": "Gigawatts (GW)",
+    "y_begin_zero": true
+  }
+}

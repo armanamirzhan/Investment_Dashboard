@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-04-28</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-04-28</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert bullish"><div class="alert-text"><strong>NVIDIA Crosses $5 Trillion Market Cap as AI Chip Demand Surges</strong> &mdash; NVIDIA hit a $5 trillion market cap on April 24, surging 4.3% to $208.27. The data center segment generated $62.3B in Q4 FY2026 alone, up 75% YoY. The Vera Rubin platform, announced at GTC 2026, promises 3-4x improvement in AI compute density over Blackwell.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>AMD Secures $60B Multi-Year GPU Deal with Meta Platforms</strong> &mdash; AMD locked down a deal for up to 6 gigawatts of custom AMD Instinct MI450 GPUs from Meta, worth an estimated $60B. The warrant structure hands Meta roughly 10% of AMD equity if both sides deliver. AMD surged 14% to $349.54 following a DA Davidson upgrade.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Hyperscaler CapEx Approaches $700B for 2026, Free Cash Flow Under Pressure</strong> &mdash; Combined capex for the big five hyperscalers (Amazon, Alphabet, Microsoft, Meta, Oracle) is forecast to exceed $630B in 2026, up 36% from 2025. Amazon projects $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+. Morgan Stanley projects Amazon turning FCF-negative at -$17B.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>TSMC Delays ASML High-NA EUV Adoption Through 2029 to Cut Costs</strong> &mdash; TSMC will hold off deploying ASML's most cutting-edge High-NA EUV lithography machines through 2029, citing costs of €350M+ per unit. TSMC showed its A13 node can achieve smaller, faster chips without the new machines. ASML stock dropped ~10% on the news despite raising its overall 2026 outlook.</div><span class="alert-tag tag-energy">SEMICONDUCTORS</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>TSMC Reports Record Q1 Profits, Up 58% Year-over-Year</strong> &mdash; Taiwan Semiconductor reported a 58% increase in Q1 2026 profits, beating estimates and marking the fourth consecutive quarter of record profits. AI chip demand continues to drive the world's largest contract chip manufacturer.</div><span class="alert-tag tag-energy">SEMICONDUCTORS</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Nuclear SMR Stocks Rally on DOE Loan Support and White House Space Nuclear Mandate</strong> &mdash; NuScale Power (SMR) surged ~16% to $11.90 after securing a DOE-backed SMR project contract. Oklo (OKLO) jumped over 50% in April from $48 to $74.68 on AI-power hype and Meta partnerships. The DOE told Congress the first 5-10 new reactors will almost certainly receive federal loans.</div><span class="alert-tag tag-energy">NUCLEAR</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Vertiv Delivers Blockbuster Q1 2026 Beat, Raises Full-Year Guidance</strong> &mdash; Vertiv reported Q1 net sales of $2.65B (up 30% YoY) with adjusted operating margin of 20.8%. Full-year 2026 guidance raised to $13.25-13.75B in sales with 22-23% adjusted operating margin. Stock trading around $322.</div><span class="alert-tag tag-energy">INFRASTRUCTURE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>GE Vernova Beats Revenue Estimates, Stock Surpasses $1,000</strong> &mdash; GE Vernova reported Q1 revenue of $9.34B vs $9.25B estimates, with over $2B in datacenter electrification orders signed in 2025 (3x prior year). Stock closed at $1,002.75, up ~200% in a year. Gas turbines remain critical for bridging datacenter power gaps.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert bearish"><div class="alert-text"><strong>OpenAI Misses Revenue Targets, Revamps Microsoft Partnership</strong> &mdash; OpenAI CFO reportedly at odds with Sam Altman over missed revenue targets despite $24B annualized run rate. OpenAI and Microsoft revamped their partnership to cap revenue share payments and allow multi-cloud serving. Anthropic reportedly passed OpenAI in revenue at $30B ARR.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Q1 2026 Venture Funding Shatters Records at $300B, AI Dominates</strong> &mdash; Global venture investment hit $300B in Q1 2026 across 6,000 startups, up 150%+ QoQ and YoY. OpenAI ($122B), Anthropic ($30B), xAI ($20B), and Waymo ($16B) accounted for 65% of all funding. In April alone, 764 of 1,314 deals involved AI companies.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>CoreWeave CEO Sells $35.8M in Stock as GPU Cloud Rally Raises Questions</strong> &mdash; CoreWeave (CRWV) CEO sold $35.8M in stock under a pre-set plan as shares traded around $111. The company recently signed a $21B deal with Meta and secured $6B from Jane Street. Market cap at ~$58B with $66B AI backlog, but insider selling raises sentiment concerns.</div><span class="alert-tag tag-energy">INFRASTRUCTURE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Constellation Energy Shares Pull Back 30% from Peak as AI-Utility Hype Cools</strong> &mdash; Constellation Energy (CEG) trading around $318, down from October peak of $413. Following the $16.4B Calpine acquisition, CEG's portfolio now includes gas and geothermal assets. Analysts maintain Buy consensus but tone has shifted from "euphoric" to "rational" on AI-power trade.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Eaton Datacenter Backlog Equals 11 Years of Construction, Orders Up 200%</strong> &mdash; Eaton's datacenter orders accelerated 200% in Q4 2025, with the total backlog equaling 11 years of 2025-level construction activity. Every megawatt hyperscalers add translates into electrical distribution equipment orders. Stock trading around $406.</div><span class="alert-tag tag-energy">INFRASTRUCTURE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Broadcom AI Chip Revenue Doubles to $8.4B in Q1 FY2026</strong> &mdash; Broadcom (AVGO) reported Q1 FY2026 AI chip revenue of $8.4B, up 106% year-over-year. The company continues to benefit from custom ASIC AI accelerator demand from hyperscalers alongside its networking portfolio. Stock trading around $402.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>GE Vernova Beats Revenue Estimates, Stock Surpasses $1,000</h3><p>GE Vernova reported Q1 revenue of $9.34B vs $9.25B estimates, with over $2B in datacenter electrification orders signed in 2025 (3x prior year). Stock closed at $1,002.75, up ~200% in a year. Gas turbines remain critical for bridging datacenter power gaps.</p><div class="source"><a href="https://www.cnbc.com/2026/04/22/stocks-making-the-biggest-moves-premarket-gev-vrt-bby.html">CNBC</a></div></div>
+<div class="card"><h3>Constellation Energy Shares Pull Back 30% from Peak as AI-Utility Hype Cools</h3><p>Constellation Energy (CEG) trading around $318, down from October peak of $413. Following the $16.4B Calpine acquisition, CEG's portfolio now includes gas and geothermal assets. Analysts maintain Buy consensus but tone has shifted from "euphoric" to "rational" on AI-power trade.</p><div class="source"><a href="https://markets.financialcontent.com/stocks/article/finterra-2026-4-1-the-energy-ai-nexus-a-deep-dive-into-constellation-energy-ceg-as-of-april-2026">FinancialContent</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>NVIDIA Crosses $5 Trillion Market Cap as AI Chip Demand Surges</h3><p>NVIDIA hit a $5 trillion market cap on April 24, surging 4.3% to $208.27. The data center segment generated $62.3B in Q4 FY2026 alone, up 75% YoY. The Vera Rubin platform, announced at GTC 2026, promises 3-4x improvement in AI compute density over Blackwell.</p><div class="source"><a href="https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform">Intellectia / NVIDIA Newsroom</a></div></div>
+<div class="card"><h3>AMD Secures $60B Multi-Year GPU Deal with Meta Platforms</h3><p>AMD locked down a deal for up to 6 gigawatts of custom AMD Instinct MI450 GPUs from Meta, worth an estimated $60B. The warrant structure hands Meta roughly 10% of AMD equity if both sides deliver. AMD surged 14% to $349.54 following a DA Davidson upgrade.</p><div class="source"><a href="https://www.techi.com/amd-meta-60b-deal-nvidia-ai-monopoly/">Techi</a></div></div>
+<div class="card"><h3>Broadcom AI Chip Revenue Doubles to $8.4B in Q1 FY2026</h3><p>Broadcom (AVGO) reported Q1 FY2026 AI chip revenue of $8.4B, up 106% year-over-year. The company continues to benefit from custom ASIC AI accelerator demand from hyperscalers alongside its networking portfolio. Stock trading around $402.</p><div class="source"><a href="https://247wallst.com/investing/2026/04/22/micron-soars-6-amd-rallies-4-broadcom-climbs-4-on-reignited-ai-chip-demand/">24/7 Wall St</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>OpenAI Misses Revenue Targets, Revamps Microsoft Partnership</h3><p>OpenAI CFO reportedly at odds with Sam Altman over missed revenue targets despite $24B annualized run rate. OpenAI and Microsoft revamped their partnership to cap revenue share payments and allow multi-cloud serving. Anthropic reportedly passed OpenAI in revenue at $30B ARR.</p><div class="source"><a href="https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/">Fortune / CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Hyperscaler CapEx Approaches $700B for 2026, Free Cash Flow Under Pressure</h3><p>Combined capex for the big five hyperscalers (Amazon, Alphabet, Microsoft, Meta, Oracle) is forecast to exceed $630B in 2026, up 36% from 2025. Amazon projects $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+. Morgan Stanley projects Amazon turning FCF-negative at -$17B.</p><div class="source"><a href="https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html">CNBC / Fortune</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Q1 2026 Venture Funding Shatters Records at $300B, AI Dominates</h3><p>Global venture investment hit $300B in Q1 2026 across 6,000 startups, up 150%+ QoQ and YoY. OpenAI ($122B), Anthropic ($30B), xAI ($20B), and Waymo ($16B) accounted for 65% of all funding. In April alone, 764 of 1,314 deals involved AI companies.</p><div class="source"><a href="https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/">Crunchbase</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Valuation Tracker - Daily Snapshot</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Price</th><th>P/E</th><th>P/S</th><th>EV/EBITDA</th><th>Mkt Cap</th><th>Short Int</th><th>Avg Target</th><th>Upside</th></tr></thead><tbody>
+<tr><td><span class="ticker">NVDA</span></td><td>$210.23</td><td>55</td><td>35</td><td>48</td><td>$5.1T</td><td>1.2%</td><td>$240</td><td class="val-up">+14.2%</td></tr>
+<tr><td><span class="ticker">TSM</span></td><td>$404.94</td><td>28</td><td>14</td><td>20</td><td>$2.1T</td><td>0.8%</td><td>$450</td><td class="val-up">+11.1%</td></tr>
+<tr><td><span class="ticker">MSFT</span></td><td>$424.81</td><td>34</td><td>13</td><td>26</td><td>$3.15T</td><td>0.6%</td><td>$480</td><td class="val-up">+13.0%</td></tr>
+<tr><td><span class="ticker">AMZN</span></td><td>$261.14</td><td>42</td><td>4.2</td><td>22</td><td>$2.75T</td><td>0.9%</td><td>$290</td><td class="val-up">+11.1%</td></tr>
+<tr><td><span class="ticker">GOOGL</span></td><td>$349.14</td><td>22</td><td>8.5</td><td>16</td><td>$2.15T</td><td>0.7%</td><td>$390</td><td class="val-up">+11.7%</td></tr>
+<tr><td><span class="ticker">META</span></td><td>$660.32</td><td>26</td><td>10</td><td>18</td><td>$1.68T</td><td>0.8%</td><td>$720</td><td class="val-up">+9.0%</td></tr>
+<tr><td><span class="ticker">AMD</span></td><td>$334.48</td><td>48</td><td>12</td><td>38</td><td>$542B</td><td>3.1%</td><td>$380</td><td class="val-up">+13.6%</td></tr>
+<tr><td><span class="ticker">GEV</span></td><td>$1002.75</td><td>62</td><td>22</td><td>45</td><td>$275B</td><td>2.5%</td><td>$950</td><td class="val-down">-5.3%</td></tr>
+<tr><td><span class="ticker">CEG</span></td><td>$318.00</td><td>28</td><td>3.8</td><td>14</td><td>$101B</td><td>3.2%</td><td>$384</td><td class="val-up">+20.8%</td></tr>
+<tr><td><span class="ticker">VRT</span></td><td>$322.44</td><td>52</td><td>9.8</td><td>35</td><td>$120B</td><td>2.8%</td><td>$350</td><td class="val-up">+8.5%</td></tr>
+<tr><td><span class="ticker">ANET</span></td><td>$166.00</td><td>48</td><td>16</td><td>38</td><td>$52B</td><td>2.0%</td><td>$180</td><td class="val-up">+8.4%</td></tr>
+<tr><td><span class="ticker">CRWV</span></td><td>$111.52</td><td>N/A</td><td>18</td><td>N/A</td><td>$58B</td><td>4.5%</td><td>$100</td><td class="val-down">-10.3%</td></tr>
+<tr><td><span class="ticker">SMCI</span></td><td>$0.00</td><td>12</td><td>1.2</td><td>10</td><td>N/A</td><td>8.5%</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">OKLO</span></td><td>$74.68</td><td>N/A</td><td>N/A</td><td>N/A</td><td>$17B</td><td>6.2%</td><td>$55</td><td class="val-down">-26.4%</td></tr>
+<tr><td><span class="ticker">SMR</span></td><td>$11.90</td><td>N/A</td><td>N/A</td><td>N/A</td><td>$3.0B</td><td>12.5%</td><td>$16</td><td class="val-up">+34.5%</td></tr>
+<tr><td><span class="ticker">ETN</span></td><td>$406.21</td><td>35</td><td>6.5</td><td>25</td><td>$162B</td><td>1.1%</td><td>$430</td><td class="val-up">+5.9%</td></tr>
+<tr><td><span class="ticker">VST</span></td><td>$161.48</td><td>18</td><td>3.5</td><td>11</td><td>$56B</td><td>4.0%</td><td>$190</td><td class="val-up">+17.7%</td></tr>
+<tr><td><span class="ticker">CCJ</span></td><td>$122.15</td><td>32</td><td>10</td><td>22</td><td>$53B</td><td>2.1%</td><td>$124</td><td class="val-flat">+1.5%</td></tr>
+<tr><td><span class="ticker">AVGO</span></td><td>$402.17</td><td>38</td><td>18</td><td>28</td><td>$188B</td><td>1.5%</td><td>$440</td><td class="val-up">+9.4%</td></tr>
+<tr><td><span class="ticker">MU</span></td><td>$449.38</td><td>22</td><td>8</td><td>14</td><td>$50B</td><td>2.8%</td><td>$480</td><td class="val-up">+6.8%</td></tr>
+</tbody></table></div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">AMD</span> DA Davidson: None &rarr; <strong>Buy</strong> | PT: N/A &rarr; $380 </p>
+<p><span class="ticker">SMR</span> HSBC: None &rarr; <strong>Hold</strong> | PT: N/A &rarr; $13 </p>
+<p><span class="ticker">SMR</span> B. Riley: Buy &rarr; <strong>Buy</strong> | PT: $24 &rarr; $19 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">CRWV</span> Bank of America: None &rarr; <strong>Buy</strong> | PT: N/A &rarr; $100 </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Momentum</span> Crossed $5T market cap; Vera Rubin platform in production with 3-4x compute density improvement over Blackwell</p>
+<p><span class="ticker">AMD</span> <span class="signal-badge signal-neutral">Momentum</span> Surged 14% on $60B Meta GPU deal and DA Davidson upgrade; MI450 execution risk remains key concern</p>
+<p><span class="ticker">GEV</span> <span class="signal-badge signal-bearish">Overvalued</span> Stock at $1,003, up 200% in one year; P/E of 62x ahead of earnings growth; Q1 beat but high expectations priced in</p>
+<p><span class="ticker">OKLO</span> <span class="signal-badge signal-neutral">Momentum</span> Up 50%+ in April from $48 to $75 on Meta partnership and DOE loan visibility; no revenue yet, speculative premium</p>
+<p><span class="ticker">CRWV</span> <span class="signal-badge signal-bearish">Insider Sell</span> CEO sold $35.8M in stock under pre-set plan; stock near highs at $111 with $66B backlog but pre-revenue concerns</p>
+<p><span class="ticker">CEG</span> <span class="signal-badge signal-bullish">Undervalued</span> Trading 30% below October peak at $318; Buy consensus maintained; Calpine acquisition adds gas/geothermal diversification</p>
+<p><span class="ticker">SMR</span> <span class="signal-badge signal-neutral">Momentum</span> Surged ~16% on DOE loan support; HSBC started coverage at Hold/$13; B.Riley trimmed target but kept Buy</p>
+<p><span class="ticker">VRT</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 sales up 30% YoY to $2.65B; raised FY26 guidance to $13.25-13.75B; datacenter cooling demand accelerating</p>
+<p><span class="ticker">AMZN</span> <span class="signal-badge signal-neutral">Concentration Risk</span> $200B CapEx plan may drive FCF to -$17B to -$28B in 2026; heavy AI infrastructure bet with uncertain ROI timeline</p>
+<p><span class="ticker">TSM</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 profits up 58% beating estimates; 4th consecutive record quarter; delayed High-NA EUV saves costs</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Crossed $5T market cap; Vera Rubin in production</td></tr>
+<tr><td><span class="ticker up">AMD</span></td><td>Up</td><td>$60B Meta GPU deal; surged 14%</td></tr>
+<tr><td><span class="ticker ">META</span></td><td>Neutral</td><td>Massive CapEx $115-135B; AMD/CoreWeave deals</td></tr>
+<tr><td><span class="ticker down">AMZN</span></td><td>Down</td><td>$200B CapEx may drive FCF negative</td></tr>
+<tr><td><span class="ticker ">MSFT</span></td><td>Neutral</td><td>OpenAI partnership revamped; CapEx $120B+</td></tr>
+<tr><td><span class="ticker ">GOOGL</span></td><td>Neutral</td><td>CapEx $175-185B; earnings Wed</td></tr>
+<tr><td><span class="ticker up">TSM</span></td><td>Up</td><td>Q1 profits +58%; delayed High-NA EUV saves costs</td></tr>
+<tr><td><span class="ticker down">ASML</span></td><td>Down</td><td>TSMC delays High-NA EUV; stock -10%</td></tr>
+<tr><td><span class="ticker up">GEV</span></td><td>Up</td><td>Q1 beat; stock tops $1000; +200% in a year</td></tr>
+<tr><td><span class="ticker up">VRT</span></td><td>Up</td><td>Q1 sales +30% YoY; raised FY26 guidance</td></tr>
+<tr><td><span class="ticker up">ETN</span></td><td>Up</td><td>Datacenter backlog = 11 years; orders +200%</td></tr>
+<tr><td><span class="ticker down">CEG</span></td><td>Down</td><td>Down 30% from peak; Calpine acquisition digestion</td></tr>
+<tr><td><span class="ticker ">VST</span></td><td>Neutral</td><td>Trading at $161; nuclear fleet + retail scale</td></tr>
+<tr><td><span class="ticker up">OKLO</span></td><td>Up</td><td>Up 50%+ in April; Meta partnership; DOE loans</td></tr>
+<tr><td><span class="ticker up">SMR</span></td><td>Up</td><td>Surged 16% on DOE contract; $11.90</td></tr>
+<tr><td><span class="ticker ">CRWV</span></td><td>Neutral</td><td>CEO sold $35.8M; $66B backlog; $111 stock</td></tr>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>AI chip revenue doubled to $8.4B</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>Surged 6% on AI chip demand</td></tr>
+<tr><td><span class="ticker ">CCJ</span></td><td>Neutral</td><td>Uranium sentiment improving; $122</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-04-28 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

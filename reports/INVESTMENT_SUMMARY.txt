@@ -1,0 +1,224 @@
+================================================================================
+AI DATACENTER INFRASTRUCTURE INVESTMENT LANDSCAPE - COMPANY SUMMARY
+Generated: April 23, 2026
+================================================================================
+
+COMPANY RATINGS & KEY METRICS
+================================================================================
+
+1. VERTIV HOLDINGS (VRT)
+   Rating: 🟢 STRONG BUY
+   Stock Price: $305.14
+   Market Cap: $117.2B
+   P/E (Forward): 42.5x
+   Revenue Growth: +30.1% YoY (Q1 2026)
+   AI DC Exposure: 45-50%
+   Key Metric: $13.75B revenue guidance (+34% growth), 11+ years DC backlog
+
+2. EATON CORPORATION (ETN)
+   Rating: 🟡 BUY
+   Stock Price: $357.36
+   Market Cap: $105B+
+   P/E (Forward): 27.0x
+   Revenue Growth: +12.9% 2026E
+   AI DC Exposure: 30-35%
+   Key Metric: $9.5B Boyd acquisition, 11-year DC backlog, 2026E guidance +12.9%
+
+3. SCHNEIDER ELECTRIC (SU.PA)
+   Rating: 🟡 BUY
+   Stock Price: €271.15
+   Market Cap: €154.4B
+   P/E (Forward): 27.0x
+   Revenue Growth: +8.9% 2025, 7-10% 2026E
+   AI DC Exposure: 25-30%
+   Key Metric: Digital Flywheel (€25B, 62%), hyperscale DC partnerships
+
+4. ECOLAB (ECL)
+   Rating: 🟠 HOLD
+   Stock Price: $277.60
+   Market Cap: $78.7B
+   P/E (Forward): 31.2x
+   Revenue Growth: +3.6% organic (core), $550M CoolIT acquisition
+   AI DC Exposure: ~20% post-CoolIT (2028)
+   Key Metric: $4.75B CoolIT deal (Q3 2026 close), liquid cooling market play
+
+5. CELESTICA (CLS)
+   Rating: 🟢 STRONG BUY
+   Stock Price: $403.03
+   Market Cap: $46.1B
+   P/E (Forward): 32.9x
+   Revenue Growth: +51% YoY Q1, +37% 2026E
+   AI DC Exposure: 78% (CCS segment)
+   Key Metric: 1.6T networking platform, $17B 2026E revenue guidance
+
+6. ONSEMI (ON)
+   Rating: 🟢 STRONG BUY
+   Stock Price: $86.04
+   Market Cap: $35.0B
+   P/E (Forward): 22.7x
+   Revenue Growth: +High-teens Q1 2026 (first YoY growth)
+   AI DC Exposure: 20-25% growing ($250M+ 2025)
+   Key Metric: AI DC revenue expanding at high-teens rate, $6B buyback auth
+
+7. STMICROELECTRONICS (STM)
+   Rating: 🟠 HOLD
+   Stock Price: $47.31
+   Market Cap: $42.0B
+   P/E (Forward): 29.4x
+   Revenue Growth: +23.0% YoY Q1, +24.9% YoY Q2E
+   AI DC Exposure: $500M+ 2026E → $1B+ 2027E
+   Key Metric: AWS partnership, NVIDIA 800V DC power conversion collaboration
+
+================================================================================
+INVESTMENT RANKINGS BY CATEGORY
+================================================================================
+
+BEST VALUE (P/E Forward):
+1. onsemi (ON) - 22.7x
+2. Eaton (ETN) - 27.0x
+3. Schneider (SU) - 27.0x
+4. STMicroelectronics (STM) - 29.4x
+5. Ecolab (ECL) - 31.2x
+6. Celestica (CLS) - 32.9x
+7. Vertiv (VRT) - 42.5x
+
+HIGHEST GROWTH (Revenue YoY/Guidance):
+1. Celestica (CLS) - +37% 2026E
+2. Vertiv (VRT) - +34% guidance
+3. onsemi (ON) - High-teens growth
+4. STMicroelectronics (STM) - +24.9% Q2E
+5. Eaton (ETN) - +12.9% 2026E
+6. Schneider (SU) - +7-10% 2026E
+7. Ecolab (ECL) - +3.6% core organic
+
+STRONGEST AI DC POSITIONING:
+1. Celestica (CLS) - 78% of revenue
+2. Vertiv (VRT) - 45-50%, specialized cooling/power
+3. Eaton (ETN) - 30-35%, integrated power/cooling
+4. Schneider (SU) - 25-30%, global power/automation
+5. STMicroelectronics (STM) - $500M→$1B ramp
+6. onsemi (ON) - 20-25%, power/sensing focus
+7. Ecolab (ECL) - 20% post-acquisition (2028+)
+
+BEST RISK/REWARD (P/E vs Growth):
+1. Vertiv (VRT) - PEG ~0.95 (premium growth justifies)
+2. Celestica (CLS) - PEG ~0.73 (attractive for growth)
+3. onsemi (ON) - 22.7x P/E, high-teens growth
+4. Eaton (ETN) - 27x P/E, diversified exposure
+
+================================================================================
+SECTOR POSITIONING SUMMARY
+================================================================================
+
+PURE PLAY AI DC PLAYS:
+- Vertiv (VRT): Power/Cooling leader, 45-50% DC exposure
+- Celestica (CLS): Manufacturing/hardware, 78% DC revenue
+- CoolIT (via Ecolab): Liquid cooling specialist
+
+INFRASTRUCTURE PLATFORMS:
+- Eaton (ETN): Diversified power/electrical/cooling, 30-35% DC
+- Schneider Electric (SU): Global energy/automation, 25-30% DC
+
+SEMICONDUCTOR ENABLERS:
+- STMicroelectronics (STM): Power/infrastructure chips, $500M→$1B ramp
+- onsemi (ON): Power/sensing solutions, 20-25% DC, high-teens growth
+
+ANCILLARY PLAYS:
+- Ecolab (ECL): Liquid cooling acquisition, 2028+ EPS accretion
+
+================================================================================
+CATALYST TIMELINE (Next 12 Months)
+================================================================================
+
+IMMEDIATE (May 2026):
+- Eaton Q1 2026 earnings (May 5)
+- onsemi Q1 2026 earnings (May 7)
+- Schneider Electric Q1 2026 earnings (Apr 30)
+- Ecolab Q1 2026 earnings (Apr 28)
+
+Q2 2026 (Jun-Aug):
+- Continued hyperscaler capex announcements
+- 1.6T networking platform ramp (Celestica)
+- Data center utilization/pricing trends
+- CoolIT deal integration begins
+
+Q3 2026 (Sep-Nov):
+- CoolIT deal close (Ecolab, Q3 2026 target)
+- Mid-year guidance updates
+- H2 data center demand visibility
+- Next-gen infrastructure platform announcements
+
+Q4 2026 (Dec-Feb 2027):
+- Full-year 2026 results and 2027 guidance
+- CoolIT integration progress updates
+- 2027 data center capex forecasts
+- Competitive positioning updates
+
+================================================================================
+INVESTOR PORTFOLIO RECOMMENDATIONS
+================================================================================
+
+AGGRESSIVE GROWTH (3+ year horizon):
+- Celestica (CLS) - Pure-play DC manufacturing
+- Vertiv (VRT) - Dominant thermal/power position
+- onsemi (ON) - Early-stage AI DC revenue ramp
+
+BALANCED GROWTH + INCOME:
+- Eaton (ETN) - Diversified exposure, 1.15% dividend
+- Schneider Electric (SU) - Global platform, 1.64% dividend
+
+VALUE + QUALITY:
+- onsemi (ON) - 22.7x forward P/E, high-teens growth
+- STMicroelectronics (STM) - $500M→$1B AWS ramp
+
+SELECTIVE POSITIONING (Higher Risk):
+- Ecolab (ECL) - CoolIT acquisition play, 2028 EPS accretion
+- STMicroelectronics (STM) - Valuation stretched at 181x trailing
+
+================================================================================
+KEY RISKS TO MONITOR
+================================================================================
+
+MACRO:
+- Interest rate environment (capex financing)
+- Hyperscaler spending normalization
+- GPU/AI chip cycle maturation
+- Recession/economic slowdown
+
+COMPANY-SPECIFIC:
+- Vertiv: Valuation at 42.5x P/E
+- Eaton: Boyd integration execution
+- Schneider: Global macro exposure
+- Ecolab: CoolIT integration, 2028 EPS accretion delay
+- Celestica: Customer concentration (3-4 hyperscalers)
+- onsemi: Stock momentum ahead of fundamentals
+- STM: Extreme valuation (181x trailing), manufacturing inefficiencies
+
+================================================================================
+REPORT DETAILS
+================================================================================
+
+Each company has a detailed HTML investment report with:
+- KPI Dashboard (8 metrics cards)
+- Financial Summary & Valuation Analysis
+- AI Datacenter Exposure Assessment
+- Key Catalysts & Risks
+- Analyst Consensus & Price Targets
+- Investment Thesis & Recommendations
+- Sourced Footnotes
+
+Reports available at:
+/Investment landscape/reports/
+- VRT_Vertiv.html
+- ETN_Eaton.html
+- SU_Schneider_Electric.html
+- ECL_Ecolab.html
+- CLS_Celestica.html
+- ON_onsemi.html
+- STM_STMicro.html
+
+================================================================================
+Generated: April 23, 2026
+Last Updated: April 23, 2026
+Data Source: Yahoo Finance, Company Investor Relations, Analyst Consensus
+================================================================================

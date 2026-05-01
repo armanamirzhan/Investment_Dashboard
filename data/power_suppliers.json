@@ -1,0 +1,112 @@
+[
+  {
+    "company": "GE Vernova",
+    "ticker": "GEV",
+    "segment": "Gas Turbine OEM",
+    "exposure": "High - Electrification segment",
+    "deals": "$2.4B DC equipment orders Q1 26 alone",
+    "backlog": "100 GW turbine backlog, targeting 110 GW by YE 26. $163B total backlog",
+    "outlook": "Rev $44.5-45.5B in 2026. Sold out through 2030. Backlog to $200B by 2027",
+    "report": "reports/GEV_GE_Vernova.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Constellation Energy",
+    "ticker": "CEG",
+    "segment": "Nuclear Utility",
+    "exposure": "High - Nuclear PPAs",
+    "deals": "Microsoft TMI (835 MW, 20yr), Meta Clinton (1.1 GW, 20yr), CyrusOne 380 MW",
+    "backlog": "55 GW total capacity (post-Calpine). Largest US nuclear fleet",
+    "outlook": "Rev ~$30B in 2026. 13%+ EPS growth through 2030. Calpine 20%+ EPS accretive",
+    "report": "reports/CEG_Constellation.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Vistra Energy",
+    "ticker": "VST",
+    "segment": "IPP / Nuclear",
+    "exposure": "High - Nuclear + Gas",
+    "deals": "Meta: 2,609 MW from 3 nuclear plants. Cogentrix acquisition ($4.7B, 5.5 GW gas)",
+    "backlog": "Large nuclear + gas fleet across PJM",
+    "outlook": "Long-term PPA discussions with hyperscalers for new gas plants",
+    "report": "reports/VST_Vistra.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "NextEra Energy",
+    "ticker": "NEE",
+    "segment": "Utility / Renewables",
+    "exposure": "High - Solar + Nuclear",
+    "deals": "Google: Duane Arnold restart (615 MW, 25yr). Meta: 2.5 GW clean (11 PPAs). 10 GW gas in TX/PA",
+    "backlog": "Largest global renewables developer",
+    "outlook": "Strong contracted pipeline through 2028",
+    "report": "reports/NEE_NextEra.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "AES Corporation",
+    "ticker": "AES",
+    "segment": "Utility / Renewables",
+    "exposure": "Medium-High",
+    "deals": "Part of NVIDIA/Emerald AI initiative",
+    "backlog": "Large renewables + storage portfolio",
+    "outlook": "Partnering on flexible AI factories as grid assets",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Siemens Energy",
+    "ticker": "ENR.DE",
+    "segment": "Gas Turbine OEM",
+    "exposure": "High - Gas Services",
+    "deals": "Record gas turbine orders for DC power",
+    "backlog": "EUR 138B order backlog. Nearly doubled turbine sales: 100 to 194 units in 2025",
+    "outlook": "Record fiscal year. Mid-term outlook raised. Backlog extends 5+ years",
+    "report": "reports/ENR_Siemens_Energy.html",
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Mitsubishi Power",
+    "ticker": "7011.T",
+    "segment": "Gas Turbine OEM",
+    "exposure": "High",
+    "deals": "US market turbine orders",
+    "backlog": "48 turbine backlog. Doubling manufacturing capacity",
+    "outlook": "Backlog scheduled through 2028-2030",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "segment": "BTM Gas Power",
+    "exposure": "New / Growing",
+    "deals": "1.5 GW dedicated gas plant (off-grid). 1.2 GW JV with NextEra",
+    "backlog": "Entering DC power market",
+    "outlook": "Bypasses grid queue via behind-the-meter. 2,500-acre campus in SE US",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Enchanted Rock",
+    "ticker": null,
+    "segment": "Modular Gas Gen",
+    "exposure": "High",
+    "deals": "Meta El Paso: 813 modular generators stacked",
+    "backlog": "Modular gas-fired microgrids",
+    "outlook": "Key enabler of fast BTM deployments",
+    "report": null,
+    "updated": "2026-04-24"
+  },
+  {
+    "company": "Solaris Energy Infra",
+    "ticker": null,
+    "segment": "BTM Gas Power",
+    "exposure": "Very High",
+    "deals": "xAI Colossus: ~400 MW active, 1.1 GW by Q2 27",
+    "backlog": "600 MW fleet currently",
+    "outlook": "Primary power supplier for xAI rapid buildout",
+    "report": null,
+    "updated": "2026-04-24"
+  }
+]

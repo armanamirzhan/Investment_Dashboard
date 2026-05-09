@@ -299,5 +299,236 @@
     "signal_type": "momentum",
     "description": "Cerebras filed S-1 for mid-May IPO at $22-25B valuation; potential new entrant to AI accelerator market",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "META",
+    "signal_type": "concentration_risk",
+    "description": "JPMorgan downgrades on massive AI capex; expects negative FCF of -$4B in 2026, -$24B in 2027. Stock fell 10%+ post-Q1 earnings.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "PLTR",
+    "signal_type": "overvalued",
+    "description": "Software multiple compression catching up; Citi cuts target 19%. Down 22% YTD but still trades at premium valuation.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "SNOW",
+    "signal_type": "undervalued",
+    "description": "Down 33% YTD despite record deal sizes ($400M+ TCV). Trading at 10x sales — potential value entry point.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "NOW",
+    "signal_type": "overvalued",
+    "description": "UBS downgrades on AI disruption risk; 41% target cut signals concerns about competitive moat durability.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "GOOGL",
+    "signal_type": "momentum",
+    "description": "Cloud revenue growth accelerating: 34% → 48% → 63% over three quarters. Market cap passed $4.5T. Shares +9% on Q1 earnings.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "TSM",
+    "signal_type": "earnings_beat",
+    "description": "Q1 profit +58% YoY, fourth consecutive record quarter. Raised full-year growth guidance to 30%+. Advanced packaging capacity is key constraint.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "Raised 2026 revenue forecast to €36-40B. Planning 25% more EUV tool shipments. Strong validation of AI infrastructure spending cycle.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Developing 800 VDC power portfolio aligned with NVIDIA roadmap. Record order book. Strong Buy consensus with $336 average target.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q1 2026 datacenter revenue surged 57% to $5.8B. EPS beat. Q2 guidance above consensus at $11.2B. Record FCF of $2.6B.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q1 EPS $1.17 vs $1.01 est. Revenue +30% YoY. Backlog $15B (+109%). FY guidance EPS 12-14% above consensus.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Q1 orders $18.3B (+71% YoY). Electrification datacenter orders $2.4B in one quarter, exceeding all 2025. Raised FY guidance.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "NVIDIA partnership worth up to $3.2B. Stock up 12% on announcement. 10x US optical manufacturing capacity expansion.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "PLTR",
+    "signal_type": "overvalued",
+    "description": "Stock down 19% YTD. Citi cut price target to $210 from $260. AI software sector repricing underway.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "NOW",
+    "signal_type": "undervalued",
+    "description": "Down 41% YTD despite Now Assist tracking toward $1B ACV. $15B subscription revenue guidance. Potential rotation opportunity.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "SNOW",
+    "signal_type": "undervalued",
+    "description": "Down 33% YTD, now at 10x sales. Signed largest deal in company history ($400M+ TCV). Potential value entry point.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "CEG",
+    "signal_type": "concentration_risk",
+    "description": "Guided 2026 earnings below expectations. Stock down 13% YTD. Integration risk from Calpine acquisition. Forward P/E 26x prices in flawless execution.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q1 revenue beat consensus by 4.6%, datacenter segment +57% YoY. Stock surged 18% post-earnings. Meta deal de-risks revenue visibility through 2030.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "PLTR",
+    "signal_type": "momentum",
+    "description": "Q1 revenue +85% YoY with 60% adjusted operating margin. However, stock trades at ~100x forward P/E — valuation risk remains elevated despite exceptional growth.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q1 revenue +30%, adjusted EPS +83%, free cash flow +147%. Raised full-year guidance. Datacenter cooling demand accelerating as rack density exceeds 100 kW.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "ANET",
+    "signal_type": "earnings_beat",
+    "description": "Q1 revenue beat and EPS beat, raised AI networking target to $3.5B. But stock sold off on margin pressure concerns — potential buying opportunity.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "VST",
+    "signal_type": "momentum",
+    "description": "Record Q1 adjusted EBITDA of $1.494B. Nuclear fleet benefits from datacenter PPAs. Reaffirmed strong full-year guidance. Well-positioned for continued AI power demand.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "Stock lagging broader chip sector despite 19% 30-day rally. Earnings May 20 is major catalyst — consensus expects $78.8B revenue. Key risk: MI450 competition from AMD-Meta deal.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Q1 earnings May 11 is critical test for Calpine integration thesis. Consensus expects EBITDA +189% YoY. Stock down 13% YTD — potential catch-up if earnings confirm integration progress.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "Q1 revenue $35.9B, full-year growth guided >30%. Capex raised to $52-56B. 3nm/5nm nodes at 74% of wafer revenue. Stock at $416 — premium but supported by AI-driven demand.",
+    "severity": "low"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "US-China tariff truce delays new semiconductor tariffs to 2027; positive for chip exporters",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "QCOM",
+    "signal_type": "momentum",
+    "description": "QCOM surged 10.8% on US-China tariff pause — China handset inventory concerns eased",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "NRC approves Aurora Principal Design Criteria — stock up 12%, commercial ops targeted late 2027",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "SMR",
+    "signal_type": "earnings_miss",
+    "description": "Q1 revenue plunged 96% to $0.57M, well below $5.57M consensus — down 27% YTD",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "ETN",
+    "signal_type": "earnings_beat",
+    "description": "Record Q1 revenue $7.5B, datacenter orders +240% YoY, 228 GW backlog",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "GEV",
+    "signal_type": "earnings_beat",
+    "description": "Q1 orders $18.3B (+71% YoY), datacenter Electrification orders $2.4B exceeded all of 2025",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "EQIX",
+    "signal_type": "earnings_beat",
+    "description": "Record Q1 revenue $2.44B, record 51% EBITDA margin, raised FY guidance",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "PLTR",
+    "signal_type": "earnings_beat",
+    "description": "Q1 revenue $1.63B (+85% YoY), US commercial revenue +133%, raised FY guidance to 71% growth",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "Raised 2026 capex to $52-56B, considering angstrom-scale fab at Taoyuan for 1.6nm process",
+    "severity": "medium"
   }
 ]

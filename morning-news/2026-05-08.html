@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-08</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-08</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert bullish"><div class="alert-text"><strong>Palantir Q1 2026: Revenue surges 85% to $1.63B, raises FY guidance to 71% growth</strong> &mdash; Palantir reported Q1 revenue of $1.63B (+85% YoY), beating consensus of $1.5B. US revenue up 104% YoY to $1.28B. Adjusted EPS of $0.34 beat by 18%. Raised FY2026 revenue guidance to $7.65-7.66B (71% growth). US commercial revenue guidance raised to 120%+ growth. Adjusted operating margin reached 60%.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert bearish"><div class="alert-text"><strong>Enterprise SaaS sector repriced on AI agent disruption fears — NET -12%, SNOW -9%, NOW -7%</strong> &mdash; Cloudflare, Snowflake, and ServiceNow sold off sharply as investors fear AI agents from OpenAI and Anthropic could natively handle data orchestration and IT service management, threatening traditional SaaS moats and premium pricing models.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>AMD Q1 2026: Revenue $10.3B (+38% YoY), datacenter segment surges 57% — stock jumps 18%</strong> &mdash; AMD reported Q1 revenue of $10.3B beating consensus of $9.85B. Datacenter revenue was $5.8B (+57% YoY) driven by EPYC server CPUs and Instinct GPU ramp. Non-GAAP EPS of $1.37 beat estimates of $1.27. Guided Q2 revenue to ~$11.2B (+46% YoY). Morgan Stanley raised price target.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>AMD-Meta $60B+ partnership: 6 GW of custom MI450 GPUs, shipments begin H2 2026</strong> &mdash; AMD and Meta formalized a multi-year 6-gigawatt agreement worth an estimated $60B+ to deploy custom Instinct MI450 GPUs. The MI450 features 432 GB HBM4, 19.6 TB/s bandwidth, 20 PFLOPS FP8. Deal includes Meta warrant for ~10% AMD equity stake. First GW deployment begins H2 2026.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>NVIDIA reports Q1 May 20 — analysts expect $78.8B revenue (+79% YoY), stock lagging chip peers</strong> &mdash; NVIDIA is scheduled to report Q1 FY2027 earnings on May 20. Consensus expects $78.8B revenue (+78.6% YoY) and $1.77 EPS (+118.5% YoY). Stock has rallied 19% in 30 days but underperforms broader chip sector as Intel and Micron surged 30%+. Announced 5 GW AI infrastructure partnership with IREN.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>TSMC Q1 revenue $35.9B, April revenue $12.6B (+17.5% YoY), raises capex to $52-56B</strong> &mdash; TSMC reported Q1 2026 revenue of $35.9B and guided full-year growth above 30%. April 2026 revenue was NT$410.73B (~$12.6B). Capital spending plan raised to $52-56B for 2026. Advanced nodes (3nm, 5nm, 7nm) account for 74% of wafer revenue. AI accelerator revenue forecast to grow 54-56% CAGR through 2029.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Vertiv Q1 2026: Revenue $2.65B (+30% YoY), adjusted EPS up 83%, raises full-year guidance</strong> &mdash; Vertiv reported Q1 net sales of $2.65B (+30% YoY) with 23% organic growth. Adjusted operating margin expanded 430bps to 20.8%. Adjusted EPS of $1.17 (+83% YoY). Adjusted free cash flow of $653M (+147% YoY). Raised full-year 2026 guidance across all metrics. Rack density exceeding 100 kW is driving order strength.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Arista Networks Q1 2026: Revenue $2.71B (+35% YoY), raises AI networking target to $3.5B</strong> &mdash; Arista reported Q1 revenue of $2.71B (+35.1% YoY) with EPS of $0.87 beating consensus of $0.79. Raised FY2026 revenue outlook to $11.5B. AI networking revenue target increased from $2.75B to $3.5B. Stock sold off post-earnings despite double beat on margin and supply chain concerns.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Vistra Q1 2026: Record $1.494B adjusted EBITDA, reaffirms $6.8-7.6B full-year guidance</strong> &mdash; Vistra reported Q1 net income of $1.029B and record adjusted EBITDA of $1.494B. Reaffirmed FY2026 adjusted EBITDA guidance of $6.8-7.6B and adjusted FCF guidance of $3.925-4.725B. Continues to benefit from datacenter power purchase agreements and strong generation revenues.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Constellation Energy Q1 2026 earnings May 11 — consensus EBITDA $2.02B (+189% YoY) on Calpine integration</strong> &mdash; Constellation Energy reports Q1 2026 earnings on May 11. Consensus expects EBITDA of $2.02B, a 189% YoY increase driven by Calpine natural gas and geothermal earnings integration. Key question is whether the Calpine merger is delivering at required pace. Trades at ~26x forward P/E and ~13x EV/EBITDA.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Hyperscaler 2026 capex reaches $700B+ — Amazon $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+</strong> &mdash; Total hyperscaler capex for 2026 now estimated at $700-750B with ~75% funding AI infrastructure (~$450B in AI-specific spending). Capex-to-revenue ratios reaching historically unprecedented levels: Oracle 86%, Meta 54%, Microsoft 47%, Alphabet 46%. Hyperscalers increasingly leaning on debt markets to bridge funding gaps.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert bullish"><div class="alert-text"><strong>Meta secures 6.6 GW nuclear power from Vistra, TerraPower, Oklo — largest corporate nuclear deal</strong> &mdash; Meta signed agreements to purchase 6.6 GW of nuclear power, becoming one of the largest corporate nuclear purchasers in history. Includes 2.1 GW from Vistra existing plants (Perry and Davis-Besse in Ohio) plus 300 MW SMR option, and commitments from TerraPower and Oklo for new advanced reactors.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Vistra Q1 2026: Record $1.494B adjusted EBITDA, reaffirms $6.8-7.6B full-year guidance</h3><p>Vistra reported Q1 net income of $1.029B and record adjusted EBITDA of $1.494B. Reaffirmed FY2026 adjusted EBITDA guidance of $6.8-7.6B and adjusted FCF guidance of $3.925-4.725B. Continues to benefit from datacenter power purchase agreements and strong generation revenues.</p><div class="source"><a href="https://www.prnewswire.com/news-releases/vistra-reports-first-quarter-2026-results-302765015.html">Vistra Press Release</a></div></div>
+<div class="card"><h3>Constellation Energy Q1 2026 earnings May 11 — consensus EBITDA $2.02B (+189% YoY) on Calpine integration</h3><p>Constellation Energy reports Q1 2026 earnings on May 11. Consensus expects EBITDA of $2.02B, a 189% YoY increase driven by Calpine natural gas and geothermal earnings integration. Key question is whether the Calpine merger is delivering at required pace. Trades at ~26x forward P/E and ~13x EV/EBITDA.</p><div class="source"><a href="https://www.tikr.com/blog/constellation-energy-stock-is-down-13-in-2026-what-the-q1-2026-earnings-must-show">TIKR</a></div></div>
+<div class="card"><h3>Meta secures 6.6 GW nuclear power from Vistra, TerraPower, Oklo — largest corporate nuclear deal</h3><p>Meta signed agreements to purchase 6.6 GW of nuclear power, becoming one of the largest corporate nuclear purchasers in history. Includes 2.1 GW from Vistra existing plants (Perry and Davis-Besse in Ohio) plus 300 MW SMR option, and commitments from TerraPower and Oklo for new advanced reactors.</p><div class="source"><a href="https://techcrunch.com/2026/01/09/meta-signs-deals-with-three-nuclear-companies-for-6-plus-gw-of-power/">TechCrunch</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>AMD Q1 2026: Revenue $10.3B (+38% YoY), datacenter segment surges 57% — stock jumps 18%</h3><p>AMD reported Q1 revenue of $10.3B beating consensus of $9.85B. Datacenter revenue was $5.8B (+57% YoY) driven by EPYC server CPUs and Instinct GPU ramp. Non-GAAP EPS of $1.37 beat estimates of $1.27. Guided Q2 revenue to ~$11.2B (+46% YoY). Morgan Stanley raised price target.</p><div class="source"><a href="https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results">AMD Investor Relations</a></div></div>
+<div class="card"><h3>AMD-Meta $60B+ partnership: 6 GW of custom MI450 GPUs, shipments begin H2 2026</h3><p>AMD and Meta formalized a multi-year 6-gigawatt agreement worth an estimated $60B+ to deploy custom Instinct MI450 GPUs. The MI450 features 432 GB HBM4, 19.6 TB/s bandwidth, 20 PFLOPS FP8. Deal includes Meta warrant for ~10% AMD equity stake. First GW deployment begins H2 2026.</p><div class="source"><a href="https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html">AMD Newsroom</a></div></div>
+<div class="card"><h3>NVIDIA reports Q1 May 20 — analysts expect $78.8B revenue (+79% YoY), stock lagging chip peers</h3><p>NVIDIA is scheduled to report Q1 FY2027 earnings on May 20. Consensus expects $78.8B revenue (+78.6% YoY) and $1.77 EPS (+118.5% YoY). Stock has rallied 19% in 30 days but underperforms broader chip sector as Intel and Micron surged 30%+. Announced 5 GW AI infrastructure partnership with IREN.</p><div class="source"><a href="https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html">CNBC</a></div></div>
+<div class="card"><h3>TSMC Q1 revenue $35.9B, April revenue $12.6B (+17.5% YoY), raises capex to $52-56B</h3><p>TSMC reported Q1 2026 revenue of $35.9B and guided full-year growth above 30%. April 2026 revenue was NT$410.73B (~$12.6B). Capital spending plan raised to $52-56B for 2026. Advanced nodes (3nm, 5nm, 7nm) account for 74% of wafer revenue. AI accelerator revenue forecast to grow 54-56% CAGR through 2029.</p><div class="source"><a href="https://www.digitimes.com/news/a20260508VL206/tsmc-revenue-2026-nyse-growth.html">DigiTimes</a></div></div>
+<div class="card"><h3>Vertiv Q1 2026: Revenue $2.65B (+30% YoY), adjusted EPS up 83%, raises full-year guidance</h3><p>Vertiv reported Q1 net sales of $2.65B (+30% YoY) with 23% organic growth. Adjusted operating margin expanded 430bps to 20.8%. Adjusted EPS of $1.17 (+83% YoY). Adjusted free cash flow of $653M (+147% YoY). Raised full-year 2026 guidance across all metrics. Rack density exceeding 100 kW is driving order strength.</p><div class="source"><a href="https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136">Vertiv Investor Relations</a></div></div>
+<div class="card"><h3>Arista Networks Q1 2026: Revenue $2.71B (+35% YoY), raises AI networking target to $3.5B</h3><p>Arista reported Q1 revenue of $2.71B (+35.1% YoY) with EPS of $0.87 beating consensus of $0.79. Raised FY2026 revenue outlook to $11.5B. AI networking revenue target increased from $2.75B to $3.5B. Stock sold off post-earnings despite double beat on margin and supply chain concerns.</p><div class="source"><a href="https://public.com/stocks/anet/earnings">Arista Networks</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Palantir Q1 2026: Revenue surges 85% to $1.63B, raises FY guidance to 71% growth</h3><p>Palantir reported Q1 revenue of $1.63B (+85% YoY), beating consensus of $1.5B. US revenue up 104% YoY to $1.28B. Adjusted EPS of $0.34 beat by 18%. Raised FY2026 revenue guidance to $7.65-7.66B (71% growth). US commercial revenue guidance raised to 120%+ growth. Adjusted operating margin reached 60%.</p><div class="source"><a href="https://investors.palantir.com/news-details/2026/Palantir-Reports-Q1-2026-U-S--Revenue-Growth-of-104-YY">Palantir Investor Relations</a></div></div>
+<div class="card"><h3>Enterprise SaaS sector repriced on AI agent disruption fears — NET -12%, SNOW -9%, NOW -7%</h3><p>Cloudflare, Snowflake, and ServiceNow sold off sharply as investors fear AI agents from OpenAI and Anthropic could natively handle data orchestration and IT service management, threatening traditional SaaS moats and premium pricing models.</p><div class="source"><a href="https://247wallst.com/investing/2026/04/09/net-down-12-snow-down-9-now-down-7-the-market-just-repriced-the-entire-software-sector-on-ai-agent-fears/">24/7 Wall St</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Hyperscaler 2026 capex reaches $700B+ — Amazon $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+</h3><p>Total hyperscaler capex for 2026 now estimated at $700-750B with ~75% funding AI infrastructure (~$450B in AI-specific spending). Capex-to-revenue ratios reaching historically unprecedented levels: Oracle 86%, Meta 54%, Microsoft 47%, Alphabet 46%. Hyperscalers increasingly leaning on debt markets to bridge funding gaps.</p><div class="source"><a href="https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/">Fortune</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Valuation Tracker - Daily Snapshot</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Price</th><th>P/E</th><th>P/S</th><th>EV/EBITDA</th><th>Mkt Cap</th><th>Short Int</th><th>Avg Target</th><th>Upside</th></tr></thead><tbody>
+<tr><td><span class="ticker">PLTR</span></td><td>$115.00</td><td>100</td><td>65</td><td>N/A</td><td>$265</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">NVDA</span></td><td>$152.00</td><td>55</td><td>28</td><td>N/A</td><td>$5170</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">AMD</span></td><td>$148.00</td><td>48</td><td>5.7</td><td>N/A</td><td>$240</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">TSM</span></td><td>$416.00</td><td>34</td><td>14</td><td>N/A</td><td>$2150</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">VRT</span></td><td>$155.00</td><td>65</td><td>7.5</td><td>N/A</td><td>$62</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">ANET</span></td><td>$150.00</td><td>45</td><td>15</td><td>N/A</td><td>$48</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">VST</span></td><td>$195.00</td><td>22</td><td>N/A</td><td>12</td><td>$65</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">CEG</span></td><td>$265.00</td><td>26</td><td>N/A</td><td>13</td><td>$95</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">AVGO</span></td><td>$260.00</td><td>38</td><td>18</td><td>N/A</td><td>$1200</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+</tbody></table></div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">AMD</span> Morgan Stanley: Equal Weight &rarr; <strong>Overweight</strong> | PT: $135 &rarr; $175 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">PLTR</span> Wedbush: Outperform &rarr; <strong>Outperform</strong> | PT: $120 &rarr; $140 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">AMD</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 revenue beat consensus by 4.6%, datacenter segment +57% YoY. Stock surged 18% post-earnings. Meta deal de-risks revenue visibility through 2030.</p>
+<p><span class="ticker">PLTR</span> <span class="signal-badge signal-neutral">Momentum</span> Q1 revenue +85% YoY with 60% adjusted operating margin. However, stock trades at ~100x forward P/E — valuation risk remains elevated despite exceptional growth.</p>
+<p><span class="ticker">VRT</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 revenue +30%, adjusted EPS +83%, free cash flow +147%. Raised full-year guidance. Datacenter cooling demand accelerating as rack density exceeds 100 kW.</p>
+<p><span class="ticker">ANET</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 revenue beat and EPS beat, raised AI networking target to $3.5B. But stock sold off on margin pressure concerns — potential buying opportunity.</p>
+<p><span class="ticker">VST</span> <span class="signal-badge signal-neutral">Momentum</span> Record Q1 adjusted EBITDA of $1.494B. Nuclear fleet benefits from datacenter PPAs. Reaffirmed strong full-year guidance. Well-positioned for continued AI power demand.</p>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Concentration Risk</span> Stock lagging broader chip sector despite 19% 30-day rally. Earnings May 20 is major catalyst — consensus expects $78.8B revenue. Key risk: MI450 competition from AMD-Meta deal.</p>
+<p><span class="ticker">CEG</span> <span class="signal-badge signal-neutral">Momentum</span> Q1 earnings May 11 is critical test for Calpine integration thesis. Consensus expects EBITDA +189% YoY. Stock down 13% YTD — potential catch-up if earnings confirm integration progress.</p>
+<p><span class="ticker">TSM</span> <span class="signal-badge signal-neutral">Momentum</span> Q1 revenue $35.9B, full-year growth guided >30%. Capex raised to $52-56B. 3nm/5nm nodes at 74% of wafer revenue. Stock at $416 — premium but supported by AI-driven demand.</p>
+</div>
+</div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-08 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

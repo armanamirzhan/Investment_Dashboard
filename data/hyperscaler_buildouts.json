@@ -21,10 +21,10 @@
     "detail_source": "Source: Constellation Energy, Microsoft Azure Blog",
     "chart_current_gw": 2,
     "chart_target_gw": 34,
-    "updated": "2026-04-27",
+    "updated": "2026-05-09",
     "report": "reports/MSFT_Microsoft.html",
-    "capex_2026": "120B+",
-    "notes": "Japan $10B investment announced (2026-2029)"
+    "capex_2026": "110-120B",
+    "notes": "Set calendar-year 2026 capex at $190B, well above $152B consensus. $25B attributed to rising memory chip costs."
   },
   {
     "ticker": "AMZN",
@@ -50,10 +50,10 @@
     "detail_source": "Source: AWS press releases, Benzinga",
     "chart_current_gw": 15,
     "chart_target_gw": 31,
-    "updated": "2026-04-27",
+    "updated": "2026-05-09",
     "report": "reports/AMZN_Amazon.html",
     "capex_2026": "200B",
-    "notes": "Negative FCF expected -$17B to -$28B in 2026"
+    "notes": "Projected $200B in capex for 2026, most for datacenter infrastructure."
   },
   {
     "ticker": "GOOGL",
@@ -79,10 +79,11 @@
     "detail_source": "Source: Google announcements, NextEra filings",
     "chart_current_gw": 5,
     "chart_target_gw": 25,
-    "updated": "2026-04-27",
+    "updated": "2026-05-09",
     "report": "reports/GOOGL_Alphabet.html",
-    "capex_2026": "175-185B",
-    "notes": "Kairos Power 500MW molten salt reactor deal by 2035"
+    "capex_2026": "180-190B",
+    "notes": "Raised capex guidance by $5B to up to $190B, matching Microsoft.",
+    "power_target_gw": null
   },
   {
     "ticker": "META",
@@ -106,10 +107,10 @@
     "detail_source": "Source: IEEE Spectrum, Meta announcements",
     "chart_current_gw": 1.5,
     "chart_target_gw": 5,
-    "updated": "2026-04-27",
+    "updated": "2026-05-09",
     "report": "reports/META_Meta.html",
-    "capex_2026": "115-135B",
-    "notes": "$60B AMD MI450 deal; nuclear PPAs with CEG, VST, OKLO"
+    "capex_2026": "125-145B",
+    "notes": "Increased FY projection by $10B. 6 GW AMD deal ($60B over 5yr). Nuclear agreements with Vistra, TerraPower, Oklo, Constellation."
   },
   {
     "ticker": "ORCL",
@@ -133,8 +134,10 @@
     "detail_source": "Source: OpenAI blog, Oracle earnings",
     "chart_current_gw": 1,
     "chart_target_gw": 7,
-    "updated": "2026-04-27",
-    "report": "reports/ORCL_Oracle.html"
+    "updated": "2026-05-07",
+    "report": "reports/ORCL_Oracle.html",
+    "capex_2026": "~$50B",
+    "notes": "Capex-to-revenue ratio reaching 86%, highest among hyperscalers."
   },
   {
     "ticker": "CRWV",

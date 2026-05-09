@@ -1,11 +1,11 @@
 [
   {
     "ticker": "VRT",
-    "date": "2026-04-24",
-    "stock_price": 305.14,
-    "market_cap": 117200000000.0,
+    "date": "2026-05-09",
+    "stock_price": 340.60,
+    "market_cap": 130560000000.0,
     "pe_ratio": 42.5,
-    "revenue_growth": 30.1
+    "revenue_growth": 30.0
   },
   {
     "ticker": "ETN",
@@ -69,11 +69,11 @@
   },
   {
     "ticker": "CEG",
-    "date": "2026-04-24",
-    "stock_price": 280.0,
-    "market_cap": 90000000000.0,
-    "pe_ratio": 35.0,
-    "revenue_growth": 10.0
+    "date": "2026-05-09",
+    "stock_price": 306.85,
+    "market_cap": 107310000000.0,
+    "pe_ratio": 32.7,
+    "revenue_growth": 8.3
   },
   {
     "ticker": "NEE",
@@ -232,5 +232,29 @@
     "market_cap": 140000000000.0,
     "pe_ratio": 45.0,
     "revenue_growth": 25.0
+  },
+  {
+    "ticker": "BE",
+    "date": "2026-05-09",
+    "stock_price": 264.22,
+    "market_cap": 82100000000.0,
+    "pe_ratio": null,
+    "revenue_growth": 130.4
+  },
+  {
+    "ticker": "PLUG",
+    "date": "2026-05-09",
+    "stock_price": 3.08,
+    "market_cap": 4360000000.0,
+    "pe_ratio": null,
+    "revenue_growth": 12.9
+  },
+  {
+    "ticker": "FCEL",
+    "date": "2026-05-09",
+    "stock_price": 12.94,
+    "market_cap": 685590000.0,
+    "pe_ratio": null,
+    "revenue_growth": 41.0
   }
 ]

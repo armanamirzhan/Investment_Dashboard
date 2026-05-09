@@ -308,15 +308,49 @@
 
 ---
 
-## 8. BEHIND-THE-METER & MODULAR GAS GENERATION - 3 Companies
+## 8. BEHIND-THE-METER & MODULAR POWER GENERATION - 6 Companies
 
-### Bloom Energy (BE)
-- **Technology:** Solid oxide fuel cell (SOFC)
-- **Design:** Modular 325 kW building blocks scalable to 100+ MW
-- **Fuel Flexibility:** Natural gas, hydrogen, biogas
-- **Advantages:** Non-combustion direct electricity conversion
-- **Use Case:** Equinix South San Jose datacenter
-- **Status:** Growing adoption for on-site datacenter power generation
+### 8A. HYDROGEN & FUEL CELLS — 3 Companies
+
+### Bloom Energy (BE) — Market Leader
+- **Technology:** Solid Oxide Fuel Cell (SOFC) — modular 325 kW building blocks scalable to 100+ MW
+- **Fuel Flexibility:** Natural gas, hydrogen, biogas — enables transition path to clean hydrogen
+- **Key Advantage:** 55-day deployment speed (vs. 3-5 years for grid connections); non-combustion direct electricity conversion
+- **Key Deals:**
+  - Oracle: Master agreement expanded to 2.8 GW — initial 1.2 GW contracted, deployment underway
+  - Equinix: South San Jose datacenter (operational)
+- **Key Metrics:** Q1 2026 revenue $751M (+130% YoY); FY2025 revenue $2.02B (+37%); first GAAP profit Q1 2026 ($70.7M net income); gross margin 31.5%
+- **Market Cap:** $82.1B; Stock up ~240% YTD 2026
+- **2026 Guidance:** $3.4-3.8B revenue (~80% growth)
+- **Status:** Dominant datacenter fuel cell provider. Oracle deal is largest fuel cell procurement in history. Profitability inflection achieved. High valuation risk.
+
+### Plug Power (PLUG)
+- **Technology:** PEM (Proton Exchange Membrane) fuel cells for stationary power
+- **Core Products:** Hydrogen fuel cell systems for datacenter backup and auxiliary power; electrolyzers for green hydrogen production
+- **Datacenter Strategy:** Pivoting from material handling to datacenter backup power, replacing diesel generators with zero-emission fuel cells
+- **Key Deals:**
+  - Stream Data Centers: LOI for $132.5M+ asset monetization supporting US datacenter buildout
+  - $275M+ monetization of electricity rights to support major US datacenter build-out
+  - Testing fuel cell systems with all three major hyperscalers (Microsoft, Amazon, Google)
+- **Key Metrics:** FY2025 revenue $710M (+12.9% YoY); first positive gross margin in Q4 2025; electrolyzer sales $187M
+- **Financial Position:** $368.5M unrestricted cash; operating cash outflow -$535.8M (improving 26.5% YoY)
+- **Profitability Target:** Positive EBITDAS Q4 2026; positive operating income end of 2027; full profitability end of 2028
+- **Status:** Emerging datacenter play — hyperscaler testing underway, but significant cash burn risk. Hydrogen fuel cells expected to reach cost parity with diesel for backup in 3-5 years.
+
+### FuelCell Energy (FCEL)
+- **Technology:** Molten Carbonate Fuel Cells (MCFC) for stationary baseload power
+- **Core Products:** Tri-gen platforms (electricity + hydrogen + heat from single fuel source); standardized 12.5 MW power blocks for datacenter deployment
+- **Datacenter Strategy:** On-site baseload power for grid-constrained datacenter locations; absorption cooling reduces DC thermal load (100 MW model increases usable power from 69.5 MW to 77.2 MW)
+- **Key Deals:**
+  - SDCL Partnership: Up to 450 MW of identified datacenter and mission-critical power projects (announced Jan 2026)
+  - ExxonMobil: Carbon capture pilot in Rotterdam, two modules shipping Q2 2026
+  - 1.5+ GW datacenter pipeline (275% growth since Feb 2025)
+- **Key Metrics:** FY2025 revenue $158.2M (+41% YoY); Q1 FY2026 revenue $30.5M (+61% YoY); backlog $1.17B
+- **Financial Position:** $379.6M cash; total debt $118M; D/E ratio 0.15x; operating loss -$192M FY2025
+- **Manufacturing:** Torrington, CT facility — expansion planned from 100 MW to 350 MW annual capacity
+- **Status:** Aggressive datacenter pivot with compelling tri-gen technology. Smaller scale than Bloom Energy but differentiated by integrated cooling and carbon capture. Revenue accelerating but still deeply unprofitable.
+
+### 8B. MODULAR GAS & ON-SITE GENERATION — 3 Companies
 
 ### Enchanted Rock (Private)
 - **Product:** Advanced natural gas generators
@@ -327,6 +361,11 @@
 ### ExxonMobil (XOM)
 - **Strategic Shift:** Entering modular power generation for datacenters
 - **Status:** Diversifying beyond traditional oil/gas into datacenter power services
+
+### Caterpillar (CAT)
+- **Products:** Diesel and natural gas generator sets for datacenter backup and prime power
+- **Market Position:** Leading global manufacturer of standby and prime power generators
+- **Status:** Traditional diesel backup provider; exploring gas and hybrid solutions for datacenter operators
 
 ---
 

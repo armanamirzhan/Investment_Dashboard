@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2026-05-08",
+    "headline": "Palantir Q1 2026: Revenue surges 85% to $1.63B, raises FY guidance to 71% growth",
+    "summary": "Palantir reported Q1 revenue of $1.63B (+85% YoY), beating consensus of $1.5B. US revenue up 104% YoY to $1.28B. Adjusted EPS of $0.34 beat by 18%. Raised FY2026 revenue guidance to $7.65-7.66B (71% growth). US commercial revenue guidance raised to 120%+ growth. Adjusted operating margin reached 60%.",
+    "sector": "software",
+    "sentiment": "bullish",
+    "source_name": "Palantir Investor Relations",
+    "source_url": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q1-2026-U-S--Revenue-Growth-of-104-YY"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Enterprise SaaS sector repriced on AI agent disruption fears — NET -12%, SNOW -9%, NOW -7%",
+    "summary": "Cloudflare, Snowflake, and ServiceNow sold off sharply as investors fear AI agents from OpenAI and Anthropic could natively handle data orchestration and IT service management, threatening traditional SaaS moats and premium pricing models.",
+    "sector": "software",
+    "sentiment": "bearish",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/04/09/net-down-12-snow-down-9-now-down-7-the-market-just-repriced-the-entire-software-sector-on-ai-agent-fears/"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "AMD Q1 2026: Revenue $10.3B (+38% YoY), datacenter segment surges 57% — stock jumps 18%",
+    "summary": "AMD reported Q1 revenue of $10.3B beating consensus of $9.85B. Datacenter revenue was $5.8B (+57% YoY) driven by EPYC server CPUs and Instinct GPU ramp. Non-GAAP EPS of $1.37 beat estimates of $1.27. Guided Q2 revenue to ~$11.2B (+46% YoY). Morgan Stanley raised price target.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "AMD Investor Relations",
+    "source_url": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "AMD-Meta $60B+ partnership: 6 GW of custom MI450 GPUs, shipments begin H2 2026",
+    "summary": "AMD and Meta formalized a multi-year 6-gigawatt agreement worth an estimated $60B+ to deploy custom Instinct MI450 GPUs. The MI450 features 432 GB HBM4, 19.6 TB/s bandwidth, 20 PFLOPS FP8. Deal includes Meta warrant for ~10% AMD equity stake. First GW deployment begins H2 2026.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "AMD Newsroom",
+    "source_url": "https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "NVIDIA reports Q1 May 20 — analysts expect $78.8B revenue (+79% YoY), stock lagging chip peers",
+    "summary": "NVIDIA is scheduled to report Q1 FY2027 earnings on May 20. Consensus expects $78.8B revenue (+78.6% YoY) and $1.77 EPS (+118.5% YoY). Stock has rallied 19% in 30 days but underperforms broader chip sector as Intel and Micron surged 30%+. Announced 5 GW AI infrastructure partnership with IREN.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "TSMC Q1 revenue $35.9B, April revenue $12.6B (+17.5% YoY), raises capex to $52-56B",
+    "summary": "TSMC reported Q1 2026 revenue of $35.9B and guided full-year growth above 30%. April 2026 revenue was NT$410.73B (~$12.6B). Capital spending plan raised to $52-56B for 2026. Advanced nodes (3nm, 5nm, 7nm) account for 74% of wafer revenue. AI accelerator revenue forecast to grow 54-56% CAGR through 2029.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "DigiTimes",
+    "source_url": "https://www.digitimes.com/news/a20260508VL206/tsmc-revenue-2026-nyse-growth.html"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Vertiv Q1 2026: Revenue $2.65B (+30% YoY), adjusted EPS up 83%, raises full-year guidance",
+    "summary": "Vertiv reported Q1 net sales of $2.65B (+30% YoY) with 23% organic growth. Adjusted operating margin expanded 430bps to 20.8%. Adjusted EPS of $1.17 (+83% YoY). Adjusted free cash flow of $653M (+147% YoY). Raised full-year 2026 guidance across all metrics. Rack density exceeding 100 kW is driving order strength.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "Vertiv Investor Relations",
+    "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Arista Networks Q1 2026: Revenue $2.71B (+35% YoY), raises AI networking target to $3.5B",
+    "summary": "Arista reported Q1 revenue of $2.71B (+35.1% YoY) with EPS of $0.87 beating consensus of $0.79. Raised FY2026 revenue outlook to $11.5B. AI networking revenue target increased from $2.75B to $3.5B. Stock sold off post-earnings despite double beat on margin and supply chain concerns.",
+    "sector": "hardware",
+    "sentiment": "bullish",
+    "source_name": "Arista Networks",
+    "source_url": "https://public.com/stocks/anet/earnings"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Vistra Q1 2026: Record $1.494B adjusted EBITDA, reaffirms $6.8-7.6B full-year guidance",
+    "summary": "Vistra reported Q1 net income of $1.029B and record adjusted EBITDA of $1.494B. Reaffirmed FY2026 adjusted EBITDA guidance of $6.8-7.6B and adjusted FCF guidance of $3.925-4.725B. Continues to benefit from datacenter power purchase agreements and strong generation revenues.",
+    "sector": "energy",
+    "sentiment": "bullish",
+    "source_name": "Vistra Press Release",
+    "source_url": "https://www.prnewswire.com/news-releases/vistra-reports-first-quarter-2026-results-302765015.html"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Constellation Energy Q1 2026 earnings May 11 — consensus EBITDA $2.02B (+189% YoY) on Calpine integration",
+    "summary": "Constellation Energy reports Q1 2026 earnings on May 11. Consensus expects EBITDA of $2.02B, a 189% YoY increase driven by Calpine natural gas and geothermal earnings integration. Key question is whether the Calpine merger is delivering at required pace. Trades at ~26x forward P/E and ~13x EV/EBITDA.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "TIKR",
+    "source_url": "https://www.tikr.com/blog/constellation-energy-stock-is-down-13-in-2026-what-the-q1-2026-earnings-must-show"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Hyperscaler 2026 capex reaches $700B+ — Amazon $200B, Alphabet $175-185B, Meta $115-135B, Microsoft $120B+",
+    "summary": "Total hyperscaler capex for 2026 now estimated at $700-750B with ~75% funding AI infrastructure (~$450B in AI-specific spending). Capex-to-revenue ratios reaching historically unprecedented levels: Oracle 86%, Meta 54%, Microsoft 47%, Alphabet 46%. Hyperscalers increasingly leaning on debt markets to bridge funding gaps.",
+    "sector": "integration",
+    "sentiment": "bullish",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/"
+  },
+  {
+    "date": "2026-05-08",
+    "headline": "Meta secures 6.6 GW nuclear power from Vistra, TerraPower, Oklo — largest corporate nuclear deal",
+    "summary": "Meta signed agreements to purchase 6.6 GW of nuclear power, becoming one of the largest corporate nuclear purchasers in history. Includes 2.1 GW from Vistra existing plants (Perry and Davis-Besse in Ohio) plus 300 MW SMR option, and commitments from TerraPower and Oklo for new advanced reactors.",
+    "sector": "energy",
+    "sentiment": "bullish",
+    "source_name": "TechCrunch",
+    "source_url": "https://techcrunch.com/2026/01/09/meta-signs-deals-with-three-nuclear-companies-for-6-plus-gw-of-power/"
+  }
+]

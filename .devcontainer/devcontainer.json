@@ -1,13 +1,14 @@
 {
   "name": "AI Investment Landscape",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install --break-system-packages requests",
+  "postCreateCommand": "pip install --break-system-packages requests && npm install -g @anthropic-ai/claude-code",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ritwickdey.LiveServer"
+        "ritwickdey.LiveServer",
+        "anthropic.claude-code"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python"

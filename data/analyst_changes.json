@@ -97,5 +97,113 @@
     "new_target": 210,
     "old_rating": "Buy",
     "old_target": 260
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "PLTR",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 210,
+    "old_rating": "Buy",
+    "old_target": 260
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "META",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 725,
+    "old_rating": "Overweight",
+    "old_target": 825
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "NOW",
+    "firm": "UBS",
+    "new_rating": "Neutral",
+    "new_target": 100,
+    "old_rating": "Buy",
+    "old_target": 170
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "CLS",
+    "firm": "RBC Capital",
+    "new_rating": "Outperform",
+    "new_target": 440,
+    "old_rating": "Outperform",
+    "old_target": 400
+  },
+  {
+    "date": "2026-05-02",
+    "ticker": "CEG",
+    "firm": "BNP Paribas",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "PLTR",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 210,
+    "old_rating": "Buy",
+    "old_target": 260
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "AMD",
+    "firm": "BofA",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-07",
+    "ticker": "GLW",
+    "firm": "Multiple",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "AMD",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 175,
+    "old_rating": "Equal Weight",
+    "old_target": 135
+  },
+  {
+    "date": "2026-05-08",
+    "ticker": "PLTR",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 140,
+    "old_rating": "Outperform",
+    "old_target": 120
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "NVDA",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Buy",
+    "old_target": 220
+  },
+  {
+    "date": "2026-05-09",
+    "ticker": "NVDA",
+    "firm": "DBS",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Buy",
+    "old_target": 220
   }
 ]

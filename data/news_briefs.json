@@ -446,5 +446,198 @@
       }
     ],
     "file": "morning-news/2026-04-29.html"
+  },
+  {
+    "date": "2026-05-02",
+    "top_headlines": "Hyperscaler capex surges to $630B+ for 2026 | JPMorgan downgrades Meta on AI spending | Alphabet Cloud +63% YoY to $20B | TSMC Q1 profit +58% record | ASML raises 2026 outlook | Software sector sell-off: PLTR/SNOW/CRM down 20-33% | SMCI expands Arm platforms | Vertiv 800VDC for NVIDIA",
+    "sectors": [
+      "Software",
+      "Hardware",
+      "Energy",
+      "Semiconductors",
+      "Integration"
+    ],
+    "tickers": [
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "+9% on cloud beat"
+      },
+      {
+        "ticker": "META",
+        "direction": "down",
+        "note": "-10% JPM downgrade"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Q1 record profit"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "raised outlook"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "down",
+        "note": "-22% YTD, Citi cut"
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "down",
+        "note": "-33% YTD"
+      },
+      {
+        "ticker": "NOW",
+        "direction": "down",
+        "note": "UBS downgrade"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "800VDC for NVDA"
+      },
+      {
+        "ticker": "CLS",
+        "direction": "up",
+        "note": "RBC raises target"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "up",
+        "note": "Arm expansion"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "AI rev $30B+"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Strong Buy consensus"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "META",
+        "signal": "concentration_risk — negative FCF outlook"
+      },
+      {
+        "ticker": "NOW",
+        "signal": "overvalued — UBS AI disruption concern"
+      },
+      {
+        "ticker": "SNOW",
+        "signal": "undervalued — 10x sales, record deals"
+      },
+      {
+        "ticker": "GOOGL",
+        "signal": "momentum — cloud growth accelerating"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "earnings_beat — 4th record quarter"
+      }
+    ],
+    "file": "morning-news/2026-05-02.html"
+  },
+  {
+    "date": "2026-05-09",
+    "tickers": [
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "+240% datacenter orders"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "+71% orders"
+      },
+      {
+        "ticker": "EQIX",
+        "direction": "up",
+        "note": "record margins"
+      },
+      {
+        "ticker": "DLR",
+        "direction": "up",
+        "note": "capex raised"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "+85% rev"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "NRC approval"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "-96% rev miss"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Q1 May 20"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "capex raised"
+      },
+      {
+        "ticker": "QCOM",
+        "direction": "up",
+        "note": "+10.8% trade truce"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Q1 May 11"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "Cloud +63%"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ETN",
+        "signal": "earnings_beat: datacenter orders +240%"
+      },
+      {
+        "ticker": "GEV",
+        "signal": "earnings_beat: datacenter electrification orders exceed 2025"
+      },
+      {
+        "ticker": "OKLO",
+        "signal": "momentum: NRC Aurora approval"
+      },
+      {
+        "ticker": "SMR",
+        "signal": "earnings_miss: Q1 revenue -96%"
+      },
+      {
+        "ticker": "PLTR",
+        "signal": "earnings_beat: revenue +85% YoY"
+      }
+    ],
+    "file": "morning-news/2026-05-09.html",
+    "top_headlines": "US-China tariff truce delays chip tariffs to 2027 • Oklo NRC Aurora approval • Eaton datacenter orders +240% • GE Vernova orders +71% • NuScale revenue miss -96%",
+    "sectors": [
+      "energy",
+      "hardware",
+      "software",
+      "policy",
+      "integration",
+      "finance"
+    ]
   }
 ]

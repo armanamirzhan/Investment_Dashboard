@@ -39,7 +39,6 @@ jobs:
         if: steps.tz_check.outputs.skip != 'true'
         with:
           python-version: "3.11"
-          cache: pip
 
       - name: Install deps
         if: steps.tz_check.outputs.skip != 'true'
@@ -50,7 +49,6 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          allowed_tools: "Bash,Read,Edit,Write,WebSearch,WebFetch,Grep,Glob"
           prompt: |
             You are the daily AI investment research agent for the "Investment Landscape" project. This is the **pre-open** run (9 AM ET, Mon-Fri) — your job is to research overnight news and update the dashboard's data before US markets open at 9:30 AM ET.
 

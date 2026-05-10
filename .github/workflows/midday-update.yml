@@ -1,0 +1,125 @@
+name: Mid-day update
+
+# Runs at 12 PM ET, every day.
+# Two cron entries handle EDT/EST shift; the TZ check below ensures only the
+# 12-PM-ET firing actually runs.
+on:
+  schedule:
+    - cron: "0 16 * * *"  # 16:00 UTC = 12 PM EDT / 11 AM EST
+    - cron: "0 17 * * *"  # 17:00 UTC = 1 PM EDT / 12 PM EST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: midday-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: DST-aware time gate
+        id: tz_check
+        run: |
+          export TZ="America/New_York"
+          ET_HOUR=$(date +'%H')
+          if [ "$ET_HOUR" != "12" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Skipping: current ET hour is $ET_HOUR (need 12)."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Proceeding: ET hour is $ET_HOUR (or manual dispatch)."
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.tz_check.outputs.skip != 'true'
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        if: steps.tz_check.outputs.skip != 'true'
+        run: pip install requests yfinance
+
+      - name: Capture intraday signals (Claude Code)
+        if: steps.tz_check.outputs.skip != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash,Read,Edit,Write,WebSearch,WebFetch,Grep,Glob"
+          prompt: |
+            You are the daily AI investment research agent for the "Investment Landscape" project. This is the **mid-day** run (12 PM ET, every day) — your job is to capture intraday moves, breaking analyst desk updates, and watchlist signals from the morning US session.
+
+            **Critical**: Do NOT write fresh news entries. The morning brief's narrative was finalized by the 9 AM ET pre-open run. This run only updates analyst changes and watchlist signals.
+
+            ## Project structure
+
+            - Data store: JSON files in `data/`, loaded via `scripts/db_init.py`.
+            - Update helpers: `scripts/update_data.py` — every function APPENDS to history; never overwrite past entries.
+            - Live market data (price, P/E, P/S, EV/EBITDA, market_cap, Wall St rating, upside %) is auto-refreshed hourly by `fetch_prices.py`. Do NOT touch those fields.
+
+            ## Step 1 — Research (use WebSearch and WebFetch)
+
+            Focus narrowly on:
+            - **Intraday analyst rating changes** — fresh upgrades / downgrades / target changes published this morning, especially after the open.
+            - **Material intraday moves** — any tracked ticker up or down >5% on news; identify the catalyst.
+            - **Pre-noon earnings reactions** — companies that reported pre-market and are now trading on the news.
+            - **Breaking deals or rulings** — datacenter PPAs, hyperscaler deals, regulatory rulings, court decisions issued during US morning.
+
+            Use Reuters, Bloomberg, WSJ, FT, official company releases. Skip speculation.
+
+            ## Step 2 — Update data (analyst changes and signals only)
+
+            ```python
+            import sys
+            sys.path.insert(0, 'scripts')
+            from update_data import (
+                add_analyst_change,       # ticker, firm, new_rating, new_target, old_rating, old_target
+                add_watchlist_signal,     # ticker, signal_type, description, severity
+                update_company,           # ticker, **kwargs — for editorial House Rating changes only, when news is thesis-altering
+                regenerate_all,
+            )
+            ```
+
+            DO NOT call `add_news_entry`. DO NOT modify `news_entries_*.json` files.
+
+            - `signal_type` ∈ {`momentum`, `undervalued`, `overvalued`, `earnings_beat`, `earnings_miss`, `insider_buy`, `insider_sell`, `legal_risk`, `concentration_risk`, `short_squeeze`}
+            - `severity` ∈ {`high`, `medium`, `low`}
+
+            Be selective. If no material analyst moves or signals surfaced, that's fine — record nothing and proceed to Step 3 to refresh `last_updated`.
+
+            ## Step 3 — Regenerate
+
+            ```python
+            regenerate_all()
+            ```
+
+            The workflow handles deploy and commit. Do not call `deploy_invest.py` or git yourself.
+
+            ## Hard rules
+
+            - NEVER call `add_news_entry`. This run is for analyst changes and signals only.
+            - NEVER touch live-market fields.
+            - NEVER write "DC" — always "datacenter" in full.
+            - End with a brief summary: count of analyst changes added, count of signals added, any HIGH-severity items, or "no material moves" if nothing surfaced.
+
+      - name: Stage deploy artifact
+        if: steps.tz_check.outputs.skip != 'true'
+        run: python scripts/deploy_invest.py
+
+      - name: Commit and push if changed
+        if: steps.tz_check.outputs.skip != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add data AI_Datacenter_Power_Landscape.html reports morning-news invest
+            git commit -m "auto: midday update $(TZ='America/New_York' date '+%Y-%m-%d %H:%M ET')"
+            git push
+          else
+            echo "No changes to commit."
+          fi

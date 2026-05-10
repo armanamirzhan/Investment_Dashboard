@@ -6,7 +6,7 @@
       "version": "20"
     }
   },
-  "postCreateCommand": "pip install --break-system-packages requests && npm install -g @anthropic-ai/claude-code",
+  "postCreateCommand": "pip install --break-system-packages requests yfinance && npm install -g @anthropic-ai/claude-code",
   "customizations": {
     "vscode": {
       "extensions": [

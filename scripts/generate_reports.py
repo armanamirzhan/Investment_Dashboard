@@ -1,8 +1,20 @@
 #!/usr/bin/env python3
 """Generate individual company report HTML files from JSON data."""
-import json, os, sys
+import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from db_init import load, today
+
+# Matches the kpi-row block (8 KPI cards) up to the next <div class="section">.
+KPI_BLOCK_RE = re.compile(r'<div class="kpi-row">.*?</div></div>(?=<div class="section">)', re.DOTALL)
+
+
+def splice_kpi_block(existing_html, new_html):
+    """Replace the kpi-row block in existing_html with the one from new_html.
+    Returns the patched HTML, or None if either side lacks the marker."""
+    new_match = KPI_BLOCK_RE.search(new_html)
+    if not new_match or not KPI_BLOCK_RE.search(existing_html):
+        return None
+    return KPI_BLOCK_RE.sub(new_match.group(0), existing_html, count=1)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
@@ -142,15 +154,24 @@ def generate_report(company_data, financials_data=None):
     html += f'''<footer>{name} ({ticker}) - Investment Report &bull; Data as of {updated or "N/A"} &bull; Not investment advice.</footer>
 </div></body></html>'''
 
-    # Write — but don't overwrite existing files that are richer
+    # Write — but don't overwrite existing files that are richer.
+    # report_file may be stored as "reports/X.html" (for dashboard links) or just "X.html".
     os.makedirs(REPORTS_DIR, exist_ok=True)
-    out_path = os.path.join(REPORTS_DIR, report_file)
+    out_path = os.path.join(REPORTS_DIR, os.path.basename(report_file))
     new_size = len(html.encode("utf-8"))
 
     if os.path.exists(out_path):
         existing_size = os.path.getsize(out_path)
         if existing_size > new_size and "--force" not in sys.argv:
-            print(f"  SKIP {report_file}: existing {existing_size}B > generated {new_size}B")
+            with open(out_path, "r", encoding="utf-8") as fh:
+                existing = fh.read()
+            patched = splice_kpi_block(existing, html)
+            if patched and patched != existing:
+                with open(out_path, "w", encoding="utf-8") as fh:
+                    fh.write(patched)
+                print(f"  PATCHED {report_file}: KPI block refreshed")
+                return out_path
+            print(f"  SKIP {report_file}: existing {existing_size}B > generated {new_size}B (no KPI marker)")
             return out_path
 
     with open(out_path, "w", encoding="utf-8") as f:

@@ -15,10 +15,17 @@ def deploy():
     # Ensure invest/ dirs exist
     os.makedirs(os.path.join(INVEST_DIR, "morning-news"), exist_ok=True)
     os.makedirs(os.path.join(INVEST_DIR, "reports"), exist_ok=True)
+    os.makedirs(os.path.join(INVEST_DIR, "data"), exist_ok=True)
 
     # 1. Copy dashboard as index.html
     shutil.copy2(DASHBOARD_SRC, os.path.join(INVEST_DIR, "index.html"))
     print(f"  Copied dashboard -> invest/index.html")
+
+    # 1b. Copy financials.json — dashboard fetches it client-side for live KPIs
+    fin_src = os.path.join(BASE_DIR, "data", "financials.json")
+    if os.path.exists(fin_src):
+        shutil.copy2(fin_src, os.path.join(INVEST_DIR, "data", "financials.json"))
+        print(f"  Copied data/financials.json -> invest/data/financials.json")
 
     # 2. Copy all morning news HTML files
     count = 0

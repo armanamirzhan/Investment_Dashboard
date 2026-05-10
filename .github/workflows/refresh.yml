@@ -1,0 +1,47 @@
+name: Refresh market data
+
+on:
+  schedule:
+    # Hourly Mon-Fri, 14:00-21:00 UTC. Covers US market hours under both EST
+    # (09:30-16:00 ET = 14:30-21:00 UTC) and EDT (13:30-20:00 UTC).
+    - cron: "0 14-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-market-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install requests yfinance
+
+      - name: Fetch prices and regenerate
+        run: python scripts/fetch_prices.py
+
+      - name: Stage deploy artifact
+        run: python scripts/deploy_invest.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add data AI_Datacenter_Power_Landscape.html reports morning-news invest
+            git commit -m "auto: refresh market data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "No changes to commit."
+          fi

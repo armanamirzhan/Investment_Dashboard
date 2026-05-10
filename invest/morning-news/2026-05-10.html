@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-10</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-10</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="section"><div class="section-title">Valuation Tracker - Daily Snapshot</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Price</th><th>P/E</th><th>P/S</th><th>EV/EBITDA</th><th>Mkt Cap</th><th>Short Int</th><th>Avg Target</th><th>Upside</th></tr></thead><tbody>
+<tr><td><span class="ticker">PLTR</span></td><td>$137.80</td><td>153.11111</td><td>63.234802</td><td>159.862</td><td>$330B</td><td>0.0248%</td><td>$182</td><td class="val-up">+31.9%</td></tr>
+<tr><td><span class="ticker">CRM</span></td><td>$181.82</td><td>23.310257</td><td>3.5819037</td><td>14.023</td><td>$149B</td><td>0.1047%</td><td>$268</td><td class="val-up">+47.5%</td></tr>
+<tr><td><span class="ticker">NOW</span></td><td>$91.18</td><td>54.27381</td><td>6.7360077</td><td>31.608</td><td>$94B</td><td>0.0378%</td><td>$145</td><td class="val-up">+59.3%</td></tr>
+<tr><td><span class="ticker">SNOW</span></td><td>$152.45</td><td>N/A</td><td>11.2516165</td><td>-39.925</td><td>$53B</td><td>0.0535%</td><td>$233</td><td class="val-up">+52.7%</td></tr>
+<tr><td><span class="ticker">PATH</span></td><td>$10.79</td><td>20.75</td><td>3.5100057</td><td>56.422</td><td>$6B</td><td>0.2969%</td><td>$14</td><td class="val-up">+26.3%</td></tr>
+<tr><td><span class="ticker">SNPS</span></td><td>$516.48</td><td>79.3364</td><td>12.3554125</td><td>66.624</td><td>$99B</td><td>0.0235%</td><td>$535</td><td class="val-flat">+3.5%</td></tr>
+<tr><td><span class="ticker">CDNS</span></td><td>$362.70</td><td>84.74299</td><td>18.094677</td><td>50.429</td><td>$100B</td><td>0.0215%</td><td>$380</td><td class="val-flat">+4.6%</td></tr>
+<tr><td><span class="ticker">CRWD</span></td><td>$527.77</td><td>N/A</td><td>27.917002</td><td>-2774.817</td><td>$134B</td><td>0.026199998%</td><td>$492</td><td class="val-down">-6.8%</td></tr>
+<tr><td><span class="ticker">MSFT</span></td><td>$415.12</td><td>24.753725</td><td>9.688827</td><td>16.974</td><td>$3084B</td><td>0.0112%</td><td>$562</td><td class="val-up">+35.3%</td></tr>
+<tr><td><span class="ticker">AMZN</span></td><td>$272.68</td><td>32.578255</td><td>3.9490352</td><td>19.413</td><td>$2933B</td><td>0.0095%</td><td>$312</td><td class="val-up">+14.3%</td></tr>
+<tr><td><span class="ticker">GOOGL</span></td><td>$400.80</td><td>30.572083</td><td>11.493237</td><td>29.911</td><td>$4856B</td><td>0.0134000005%</td><td>$428</td><td class="val-up">+6.8%</td></tr>
+<tr><td><span class="ticker">META</span></td><td>$609.63</td><td>22.176428</td><td>7.1989083</td><td>14.208</td><td>$1547B</td><td>0.0121%</td><td>$827</td><td class="val-up">+35.6%</td></tr>
+<tr><td><span class="ticker">ORCL</span></td><td>$195.95</td><td>35.242805</td><td>8.795199</td><td>25.222</td><td>$564B</td><td>0.0171%</td><td>$242</td><td class="val-up">+23.6%</td></tr>
+<tr><td><span class="ticker">CRWV</span></td><td>$114.15</td><td>N/A</td><td>9.682679</td><td>31.468</td><td>$60B</td><td>0.2187%</td><td>$140</td><td class="val-up">+22.3%</td></tr>
+<tr><td><span class="ticker">EQIX</span></td><td>$1072.08</td><td>74.089836</td><td>11.099421</td><td>29.829</td><td>$106B</td><td>0.021%</td><td>$1197</td><td class="val-up">+11.7%</td></tr>
+<tr><td><span class="ticker">DLR</span></td><td>$195.31</td><td>51.806366</td><td>11.064567</td><td>30.596</td><td>$70B</td><td>0.0%</td><td>$218</td><td class="val-up">+11.5%</td></tr>
+<tr><td><span class="ticker">CEG</span></td><td>$303.63</td><td>40.97571</td><td>4.3082886</td><td>20.615</td><td>$110B</td><td>0.0318%</td><td>$368</td><td class="val-up">+21.1%</td></tr>
+<tr><td><span class="ticker">VST</span></td><td>$147.72</td><td>24.702341</td><td>2.5601256</td><td>10.54</td><td>$50B</td><td>0.038399998%</td><td>$229</td><td class="val-up">+55.1%</td></tr>
+<tr><td><span class="ticker">NEE</span></td><td>$93.10</td><td>23.62944</td><td>6.967103</td><td>21.75</td><td>$194B</td><td>0.0001%</td><td>$99</td><td class="val-up">+6.3%</td></tr>
+<tr><td><span class="ticker">AES</span></td><td>$14.33</td><td>7.463542</td><td>0.8184151</td><td>12.837</td><td>$10B</td><td>0.0336%</td><td>$15</td><td class="val-up">+5.5%</td></tr>
+<tr><td><span class="ticker">GEV</span></td><td>$1040.15</td><td>30.395967</td><td>7.0986443</td><td>80.42</td><td>$280B</td><td>0.0294%</td><td>$1207</td><td class="val-up">+16.0%</td></tr>
+<tr><td><span class="ticker">ENR.DE</span></td><td>$210.02</td><td>82.47222</td><td>3.827456</td><td>44.866</td><td>$180B</td><td>N/A</td><td>$211</td><td class="val-flat">+0.3%</td></tr>
+<tr><td><span class="ticker">ETN</span></td><td>$401.51</td><td>39.20996</td><td>5.4661784</td><td>27.91</td><td>$156B</td><td>0.020499999%</td><td>$445</td><td class="val-up">+10.9%</td></tr>
+<tr><td><span class="ticker">FLNC</span></td><td>$24.16</td><td>N/A</td><td>1.7229104</td><td>-179.572</td><td>$4B</td><td>0.37330002%</td><td>$17</td><td class="val-down">-28.2%</td></tr>
+<tr><td><span class="ticker">TSLA</span></td><td>$428.35</td><td>400.3271</td><td>16.436256</td><td>142.473</td><td>$1609B</td><td>0.021300001%</td><td>$412</td><td class="val-flat">-3.8%</td></tr>
+<tr><td><span class="ticker">LEU</span></td><td>$207.33</td><td>75.11957</td><td>9.017821</td><td>99.098</td><td>$4B</td><td>0.2289%</td><td>$279</td><td class="val-up">+34.4%</td></tr>
+<tr><td><span class="ticker">CCJ</span></td><td>$116.75</td><td>106.13636</td><td>14.372641</td><td>56.773</td><td>$51B</td><td>N/A</td><td>$139</td><td class="val-up">+18.7%</td></tr>
+<tr><td><span class="ticker">SMR</span></td><td>$12.55</td><td>N/A</td><td>232.66527</td><td>-16.743</td><td>$4B</td><td>0.2352%</td><td>$17</td><td class="val-up">+32.6%</td></tr>
+<tr><td><span class="ticker">OKLO</span></td><td>$72.51</td><td>N/A</td><td>N/A</td><td>-81.853</td><td>$13B</td><td>0.1884%</td><td>$91</td><td class="val-up">+26.0%</td></tr>
+<tr><td><span class="ticker">XE</span></td><td>$30.18</td><td>N/A</td><td>87.55034</td><td>N/A</td><td>$8B</td><td>N/A</td><td>N/A</td><td class="val-flat">N/A</td></tr>
+<tr><td><span class="ticker">NVDA</span></td><td>$215.20</td><td>43.828922</td><td>24.221933</td><td>38.867</td><td>$5230B</td><td>0.012200001%</td><td>$269</td><td class="val-up">+25.1%</td></tr>
+<tr><td><span class="ticker">AMD</span></td><td>$455.19</td><td>151.73</td><td>19.817192</td><td>98.756</td><td>$742B</td><td>0.022%</td><td>$445</td><td class="val-flat">-2.2%</td></tr>
+<tr><td><span class="ticker">AVGO</span></td><td>$430.00</td><td>83.984375</td><td>29.816166</td><td>56.096</td><td>$2036B</td><td>0.0117999995%</td><td>$475</td><td class="val-up">+10.6%</td></tr>
+<tr><td><span class="ticker">MU</span></td><td>$746.81</td><td>35.21028</td><td>14.491011</td><td>22.781</td><td>$842B</td><td>0.0323%</td><td>$556</td><td class="val-down">-25.5%</td></tr>
+<tr><td><span class="ticker">000660.KS</span></td><td>$1153.63</td><td>N/A</td><td>9.061039</td><td>12.598</td><td>$819B</td><td>N/A</td><td>$1225</td><td class="val-up">+6.2%</td></tr>
+<tr><td><span class="ticker">005930.KS</span></td><td>$183.72</td><td>N/A</td><td>4.53938</td><td>11.821</td><td>$1206B</td><td>N/A</td><td>$215</td><td class="val-up">+17.0%</td></tr>
+<tr><td><span class="ticker">ANET</span></td><td>$141.77</td><td>48.718212</td><td>18.384583</td><td>39.216</td><td>$179B</td><td>0.0166%</td><td>$189</td><td class="val-up">+33.0%</td></tr>
+<tr><td><span class="ticker">CSCO</span></td><td>$96.57</td><td>34.73741</td><td>6.459193</td><td>24.394</td><td>$381B</td><td>0.0147%</td><td>$90</td><td class="val-down">-7.3%</td></tr>
+<tr><td><span class="ticker">APH</span></td><td>$128.03</td><td>36.79023</td><td>6.0804563</td><td>21.023</td><td>$158B</td><td>0.0127%</td><td>$182</td><td class="val-up">+41.9%</td></tr>
+<tr><td><span class="ticker">GLW</span></td><td>$186.94</td><td>89.87501</td><td>9.857707</td><td>43.408</td><td>$161B</td><td>0.0207%</td><td>$196</td><td class="val-flat">+4.7%</td></tr>
+<tr><td><span class="ticker">SMCI</span></td><td>$35.37</td><td>18.61579</td><td>0.63023484</td><td>18.449</td><td>$21B</td><td>0.1933%</td><td>$37</td><td class="val-flat">+3.9%</td></tr>
+<tr><td><span class="ticker">DELL</span></td><td>$260.46</td><td>30.041521</td><td>1.4915549</td><td>16.489</td><td>$169B</td><td>0.083100006%</td><td>$190</td><td class="val-down">-27.2%</td></tr>
+<tr><td><span class="ticker">HPE</span></td><td>$31.35</td><td>N/A</td><td>1.163777</td><td>11.958</td><td>$42B</td><td>0.0631%</td><td>$27</td><td class="val-down">-13.6%</td></tr>
+<tr><td><span class="ticker">CLS</span></td><td>$375.55</td><td>45.4661</td><td>3.1312792</td><td>31.69</td><td>$43B</td><td>0.0227%</td><td>$443</td><td class="val-up">+18.0%</td></tr>
+<tr><td><span class="ticker">VRT</span></td><td>$339.97</td><td>85.4196</td><td>12.042852</td><td>55.12</td><td>$131B</td><td>0.035%</td><td>$330</td><td class="val-flat">-3.0%</td></tr>
+<tr><td><span class="ticker">TSM</span></td><td>$411.68</td><td>35.216423</td><td>0.5202699</td><td>2.923</td><td>$2135B</td><td>0.0053%</td><td>$463</td><td class="val-up">+12.6%</td></tr>
+<tr><td><span class="ticker">INTC</span></td><td>$124.92</td><td>N/A</td><td>11.678067</td><td>46.119</td><td>$628B</td><td>0.0287%</td><td>$83</td><td class="val-down">-33.9%</td></tr>
+<tr><td><span class="ticker">UMC</span></td><td>$15.42</td><td>24.47619</td><td>0.16108909</td><td>1.305</td><td>$39B</td><td>0.011%</td><td>$10</td><td class="val-down">-32.8%</td></tr>
+<tr><td><span class="ticker">GFS</span></td><td>$74.12</td><td>53.323742</td><td>5.9427824</td><td>19.392</td><td>$41B</td><td>0.2859%</td><td>$78</td><td class="val-flat">+4.8%</td></tr>
+<tr><td><span class="ticker">ASML</span></td><td>$1592.02</td><td>52.35186</td><td>18.211441</td><td>47.849</td><td>$614B</td><td>0.0019%</td><td>$1680</td><td class="val-up">+5.5%</td></tr>
+<tr><td><span class="ticker">AMAT</span></td><td>$435.44</td><td>44.660515</td><td>12.248157</td><td>38.727</td><td>$346B</td><td>0.0172%</td><td>$438</td><td class="val-flat">+0.6%</td></tr>
+<tr><td><span class="ticker">LRCX</span></td><td>$294.05</td><td>55.58601</td><td>16.96029</td><td>46.728</td><td>$368B</td><td>0.0233%</td><td>$310</td><td class="val-up">+5.6%</td></tr>
+<tr><td><span class="ticker">KLAC</span></td><td>$1869.19</td><td>52.90659</td><td>18.643503</td><td>41.939</td><td>$244B</td><td>0.028499998%</td><td>$1836</td><td class="val-flat">-1.8%</td></tr>
+<tr><td><span class="ticker">8035.T</span></td><td>$334.88</td><td>42.016804</td><td>9.805499</td><td>33.061</td><td>$153B</td><td>N/A</td><td>$326</td><td class="val-flat">-2.6%</td></tr>
+<tr><td><span class="ticker">ASX</span></td><td>$34.23</td><td>52.66154</td><td>0.1119379</td><td>2.778</td><td>$75B</td><td>0.0034999999%</td><td>$39</td><td class="val-up">+12.9%</td></tr>
+<tr><td><span class="ticker">AMKR</span></td><td>$76.61</td><td>44.028736</td><td>2.6855078</td><td>15.725</td><td>$19B</td><td>0.1425%</td><td>$76</td><td class="val-flat">-1.4%</td></tr>
+<tr><td><span class="ticker">ENTG</span></td><td>$149.11</td><td>86.19075</td><td>7.0192723</td><td>29.583</td><td>$23B</td><td>0.0849%</td><td>$160</td><td class="val-up">+7.4%</td></tr>
+<tr><td><span class="ticker">4063.T</span></td><td>$47.76</td><td>29.586266</td><td>5.395639</td><td>14.397</td><td>$89B</td><td>N/A</td><td>$46</td><td class="val-flat">-3.3%</td></tr>
+<tr><td><span class="ticker">AEHR</span></td><td>$97.23</td><td>N/A</td><td>67.577065</td><td>-254.134</td><td>$3B</td><td>0.1864%</td><td>$64</td><td class="val-down">-34.5%</td></tr>
+<tr><td><span class="ticker">ON</span></td><td>$103.20</td><td>75.88235</td><td>6.6706924</td><td>20.171</td><td>$40B</td><td>0.1046%</td><td>$103</td><td class="val-flat">+0.2%</td></tr>
+<tr><td><span class="ticker">IFX.DE</span></td><td>$72.70</td><td>75.19512</td><td>5.298363</td><td>21.476</td><td>$94B</td><td>N/A</td><td>$76</td><td class="val-flat">+4.3%</td></tr>
+<tr><td><span class="ticker">STM</span></td><td>$59.17</td><td>369.8125</td><td>4.2486625</td><td>20.564</td><td>$53B</td><td>0.0173%</td><td>$54</td><td class="val-down">-9.0%</td></tr>
+<tr><td><span class="ticker">WOLF</span></td><td>$46.60</td><td>N/A</td><td>3.1615167</td><td>-78.564</td><td>$2B</td><td>N/A</td><td>$40</td><td class="val-down">-14.2%</td></tr>
+<tr><td><span class="ticker">BE</span></td><td>$261.03</td><td>N/A</td><td>30.317501</td><td>322.71</td><td>$74B</td><td>0.0934%</td><td>$234</td><td class="val-down">-10.3%</td></tr>
+<tr><td><span class="ticker">PLUG</span></td><td>$3.12</td><td>N/A</td><td>6.1300735</td><td>-7.395</td><td>$4B</td><td>0.2784%</td><td>$3</td><td class="val-down">-9.3%</td></tr>
+<tr><td><span class="ticker">FCEL</span></td><td>$13.70</td><td>N/A</td><td>4.277041</td><td>-8.402</td><td>$1B</td><td>0.0739%</td><td>$8</td><td class="val-down">-39.8%</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-10 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

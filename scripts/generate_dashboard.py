@@ -107,12 +107,14 @@ def link_wrap(text, report, ticker=None):
     return f'<strong>{text}</strong>{tk}'
 
 def rating_html(rating, emoji):
+    """House rating cell. Clickable — switches to the Methodology tab."""
+    click = ' onclick="switchTab(\'methodology\');return false;" style="cursor:pointer" title="Click for rating methodology"'
     if not rating:
-        return '<span style="color:var(--text-secondary)">—</span>'
+        return f'<span style="color:var(--text-secondary)"{click}>—</span>'
     cls = f"rating-{rating.lower()}"
     label = rating.replace("_"," ").title()
     e = emoji or ""
-    return f'{e} <span class="{cls}">{label}</span>'
+    return f'<span{click}>{e} <span class="{cls}">{label}</span></span>'
 
 def ticker_html(ticker, public):
     if ticker:
@@ -141,10 +143,24 @@ def company_table(companies, sector, extra_cols=None):
     count = len(rows)
     html.append(f'<div class="sector-header"><span class="sector-icon">{sm.get("icon","")}</span><h2>{sm.get("label",sector)}</h2><span class="sector-count">{count} companies tracked</span></div>')
     html.append(f'<table class="data-table" id="table-{sector}"><thead><tr>')
-    headers = ["Company","Ticker","Price","Change","Mkt Cap","P/E","Rating","Thesis"]
+    headers = [
+        ("Company", None),
+        ("Ticker", None),
+        ("Price", None),
+        ("Change", None),
+        ("Mkt Cap", None),
+        ("P/E", None),
+        ("Wall St", "methodology"),
+        ("Upside", "methodology"),
+        ("Rating", "methodology"),
+        ("Thesis", None),
+    ]
     ncols = len(headers)
-    for h in headers:
-        html.append(f'<th>{h}</th>')
+    for h, target in headers:
+        if target:
+            html.append(f'<th onclick="switchTab(\'{target}\')" title="Click for methodology" style="cursor:pointer">{h} ⓘ</th>')
+        else:
+            html.append(f'<th>{h}</th>')
     html.append('</tr></thead><tbody>')
 
     for ss in sub_sectors:
@@ -161,6 +177,7 @@ def company_table(companies, sector, extra_cols=None):
                 thesis = thesis[:180] + "…"
             # data-ticker attribute enables live JS updates
             row_attr = f' data-ticker="{ticker}"' if ticker else ''
+            click_meth = ' onclick="switchTab(\'methodology\')" style="cursor:pointer"'
             html.append(f'<tr{row_attr}>'
                 f'<td>{name}</td>'
                 f'<td>{tk}</td>'
@@ -168,6 +185,8 @@ def company_table(companies, sector, extra_cols=None):
                 f'<td class="live-change" data-field="change">—</td>'
                 f'<td class="live-mcap" data-field="mktCap">—</td>'
                 f'<td class="live-pe" data-field="pe">—</td>'
+                f'<td class="live-wsrating" data-field="wsRating"{click_meth}>—</td>'
+                f'<td class="live-upside" data-field="upside"{click_meth}>—</td>'
                 f'<td>{rat}</td>'
                 f'<td style="max-width:360px;font-size:12px;color:var(--text-secondary)">{thesis}</td>'
                 f'</tr>')
@@ -264,6 +283,7 @@ def generate():
 <div class="tab" onclick="switchTab('semiconductor_fab')">🏭 Semicond Fab</div>
 <div class="tab" onclick="switchTab('nuclear')">☢️ Nuclear & Fusion</div>
 <div class="tab" onclick="switchTab('risks')">⚠️ Risks</div>
+<div class="tab" onclick="switchTab('methodology')">📋 Methodology</div>
 <div class="tab" onclick="switchTab('morningnews')" style="margin-left:auto;background:var(--accent-purple);color:#fff;border-color:var(--accent-purple);">📰 Morning News</div>
 </div>''')
 
@@ -408,6 +428,55 @@ def generate():
     html.append('</div>')
     sgc = charts.get("supply_demand_gap",{})
     html.append(f'<div class="chart-row"><div class="chart-container full-width"><h3>{sgc.get("title","")}</h3><canvas id="chart-gap"></canvas><div class="source-note">{sgc.get("source","")}</div></div></div>')
+    html.append('</div>')
+
+    # ── TAB: Methodology ──
+    html.append('<div class="tab-content" id="tab-methodology">')
+    html.append('''<div style="max-width:880px;margin:0 auto">
+<div style="margin-bottom:var(--gap)">
+<h2 style="font-size:20px;font-weight:700;color:var(--text-on-dark);margin-bottom:8px">Rating Methodology</h2>
+<p style="font-size:13px;color:var(--text-secondary)">Three independent rating signals shown for each public company. Each has a different source, refresh cadence, and what it measures.</p>
+</div>
+
+<div class="info-card" style="margin-bottom:var(--gap)">
+<h4>🟢 House Rating <span style="font-size:11px;color:var(--text-secondary);font-weight:400;margin-left:8px">Editorial · updated manually</span></h4>
+<p>The "Rating" column reflects an internal editorial view, set by hand for each company in <code>data/companies.json</code>. It is <strong>not</strong> produced by a quantitative model. Replace this section with your actual rubric — the placeholder below lists the criteria typically considered.</p>
+<p><strong>Scale:</strong> 🟢 Strong Buy · 🟡 Buy · 🟠 Hold · 🔴 Sell</p>
+<p><strong>Criteria considered (placeholder — please edit):</strong></p>
+<p>&bull; <strong>AI/datacenter exposure</strong> — what share of revenue or growth depends on AI infrastructure buildout</p>
+<p>&bull; <strong>Competitive position</strong> — moat, switching costs, technology lead, customer concentration</p>
+<p>&bull; <strong>Fundamentals</strong> — revenue growth, operating margins, free cash flow trajectory</p>
+<p>&bull; <strong>Valuation</strong> — relative to peers and to historical multiples; quality of growth at the price</p>
+<p>&bull; <strong>Balance sheet</strong> — leverage, liquidity, dilution risk for pre-profit names</p>
+<p>&bull; <strong>Catalysts</strong> — near-term events that could re-rate the stock (product launches, contracts, regulation)</p>
+<p>&bull; <strong>Key risks</strong> — sector, regulatory, technology, execution</p>
+<p class="source-note"><em>Edit the criteria above to match your actual process. Each rating in <code>companies.json</code> should ideally have a "last reviewed" date alongside the thesis/catalysts/risks fields, which already exist.</em></p>
+</div>
+
+<div class="info-card" style="margin-bottom:var(--gap)">
+<h4>📊 Wall St (Analyst Consensus) <span style="font-size:11px;color:var(--text-secondary);font-weight:400;margin-left:8px">Yahoo Finance · refreshed hourly</span></h4>
+<p>Aggregated rating from sell-side equity analysts at major banks and brokerages, normalized into a five-bucket scale. Sourced via <code>yfinance</code>'s <code>recommendationKey</code> field, which Yahoo computes from the underlying analyst recommendations submitted by covering firms.</p>
+<p><strong>Scale:</strong> Strong Buy · Buy · Hold · Sell · Strong Sell</p>
+<p>The badge displays the consensus label and, in parentheses, the number of analysts contributing to it. A consensus from 50+ analysts is typically more robust than one from a handful. Hovering shows the numeric mean (1.0 = Strong Buy, 5.0 = Strong Sell).</p>
+<p class="source-note">Source: Yahoo Finance via yfinance (<code>recommendationKey</code>, <code>numberOfAnalystOpinions</code>, <code>recommendationMean</code>)</p>
+</div>
+
+<div class="info-card" style="margin-bottom:var(--gap)">
+<h4>📈 Upside (Analyst Price Target) <span style="font-size:11px;color:var(--text-secondary);font-weight:400;margin-left:8px">Yahoo Finance · refreshed hourly</span></h4>
+<p>Implied percentage upside (or downside) to the consensus 12-month price target, computed as: <code>(target ÷ current price − 1) × 100</code>. Positive values mean analysts collectively see room to run; negative values mean the stock is trading above where they expect it in 12 months.</p>
+<p>Useful as a quick read on how stretched a stock is versus where the Street thinks it should be — but note that targets lag fundamentals and tend to anchor near current prices for widely-covered names.</p>
+<p class="source-note">Source: Yahoo Finance via yfinance (<code>targetMeanPrice</code> ÷ <code>currentPrice</code>)</p>
+</div>
+
+<div class="info-card">
+<h4>⚠️ Caveats</h4>
+<p>&bull; The three signals can disagree. Disagreement is information — investigate why.</p>
+<p>&bull; Wall Street ratings carry well-known sell-side biases: more Buys than Sells, slow downgrades.</p>
+<p>&bull; Upside targets cluster around current prices for large caps; they are most informative for under-followed names with fewer analysts.</p>
+<p>&bull; The House Rating may lag market events between editorial reviews. Date of last review should be added to companies.json entries.</p>
+<p>&bull; None of the above is investment advice.</p>
+</div>
+</div>''')
     html.append('</div>')
 
     # ── TAB: Morning News ──
@@ -613,7 +682,6 @@ Chart.defaults.color='#9aa0a6';Chart.defaults.borderColor='#2d3140';Chart.defaul
     # Live Financial Data Fetching
     js.append("""
 (function(){
-  var WORKER_URL = window.FINANCE_WORKER_URL || '';
   var REFRESH_INTERVAL = 15 * 60 * 1000;
 
   var statusEl = document.createElement('div');
@@ -660,23 +728,39 @@ Chart.defaults.color='#9aa0a6';Chart.defaults.borderColor='#2d3140';Chart.defaul
     return '$' + n.toLocaleString();
   }
   function fmtPE(v){ return v != null && v > 0 ? Number(v).toFixed(1) + 'x' : String.fromCharCode(8212); }
+  var WS_LABEL = {strong_buy:'Strong Buy', buy:'Buy', hold:'Hold', sell:'Sell', strong_sell:'Strong Sell'};
+  var WS_CLASS = {strong_buy:'rating-strong_buy', buy:'rating-buy', hold:'rating-hold', sell:'rating-sell', strong_sell:'rating-sell'};
+  function fmtWS(key, count){
+    if(!key || !WS_LABEL[key]) return String.fromCharCode(8212);
+    var n = count ? ' <span style="color:var(--text-secondary);font-size:11px">('+count+')</span>' : '';
+    return '<span class="'+WS_CLASS[key]+'">'+WS_LABEL[key]+'</span>'+n;
+  }
+  function fmtUpside(v){
+    if(v == null) return String.fromCharCode(8212);
+    var n = Number(v);
+    var sign = n >= 0 ? '+' : '';
+    return '<span class="'+(n>=0?'val-up':'val-down')+'">'+sign+n.toFixed(1)+'%</span>';
+  }
 
   function populateRow(row, quote){
     var fields = {
-      'price': fmtPrice(quote.price),
-      'change': fmtChange(quote.changesPercentage),
-      'mktCap': fmtMcap(quote.marketCap),
-      'pe': fmtPE(quote.pe)
+      'price':    {html: false, value: fmtPrice(quote.price)},
+      'change':   {html: false, value: fmtChange(quote.changesPercentage)},
+      'mktCap':   {html: false, value: fmtMcap(quote.marketCap)},
+      'pe':       {html: false, value: fmtPE(quote.pe)},
+      'wsRating': {html: true,  value: fmtWS(quote.wsRating, quote.wsCount), title: quote.wsMean ? 'Mean: '+Number(quote.wsMean).toFixed(2)+' (1=Strong Buy, 5=Strong Sell)' : ''},
+      'upside':   {html: true,  value: fmtUpside(quote.upside)}
     };
     Object.keys(fields).forEach(function(field){
       var cell = row.querySelector('[data-field="' + field + '"]');
-      if(cell){
-        cell.textContent = fields[field];
-        cell.classList.remove('live-loading');
-        if(field === 'change' && quote.changesPercentage != null){
-          cell.classList.remove('positive','negative');
-          cell.classList.add(quote.changesPercentage >= 0 ? 'positive' : 'negative');
-        }
+      if(!cell) return;
+      var f = fields[field];
+      if(f.html) cell.innerHTML = f.value; else cell.textContent = f.value;
+      if(f.title) cell.setAttribute('title', f.title);
+      cell.classList.remove('live-loading');
+      if(field === 'change' && quote.changesPercentage != null){
+        cell.classList.remove('positive','negative');
+        cell.classList.add(quote.changesPercentage >= 0 ? 'positive' : 'negative');
       }
     });
   }
@@ -691,38 +775,40 @@ Chart.defaults.color='#9aa0a6';Chart.defaults.borderColor='#2d3140';Chart.defaul
   }
 
   function fetchLiveData(){
-    if(!WORKER_URL){
-      showStatus('No API configured', 'err');
-      return;
-    }
     var tickers = collectTickers();
     if(tickers.length === 0){ showStatus('No tickers found', 'err'); return; }
 
     setLoading();
-    showStatus('Fetching ' + tickers.length + ' quotes...', 'loading');
+    showStatus('Loading data...', 'loading');
 
-    var chunks = [];
-    for(var i = 0; i < tickers.length; i += 30){
-      chunks.push(tickers.slice(i, i + 30));
-    }
-
-    var allQuotes = [];
-    var pending = chunks.length;
-
-    chunks.forEach(function(chunk){
-      var url = WORKER_URL + '/quotes?symbols=' + chunk.join(',');
-      fetch(url).then(function(resp){
-        if(!resp.ok) throw new Error('HTTP ' + resp.status);
-        return resp.json();
-      }).then(function(data){
-        if(Array.isArray(data)) allQuotes = allQuotes.concat(data);
-        pending--;
-        if(pending === 0) applyQuotes(allQuotes, tickers.length);
-      }).catch(function(err){
-        console.error('Live data fetch error:', err);
-        pending--;
-        if(pending === 0) applyQuotes(allQuotes, tickers.length);
+    fetch('data/financials.json', {cache: 'no-store'}).then(function(resp){
+      if(!resp.ok) throw new Error('HTTP ' + resp.status);
+      return resp.json();
+    }).then(function(rows){
+      var latest = {};
+      rows.forEach(function(r){
+        var t = r.ticker;
+        if(!t) return;
+        if(!latest[t] || (r.date || '') > (latest[t].date || '')) latest[t] = r;
       });
+      var quotes = Object.keys(latest).map(function(t){
+        var r = latest[t];
+        return {
+          symbol: t,
+          price: r.stock_price,
+          marketCap: r.market_cap,
+          pe: r.pe_ratio,
+          changesPercentage: r.price_change_pct,
+          wsRating: r.wallstreet_rating,
+          wsCount: r.wallstreet_count,
+          wsMean: r.wallstreet_mean,
+          upside: r.upside_pct
+        };
+      });
+      applyQuotes(quotes, tickers.length);
+    }).catch(function(err){
+      console.error('Live data fetch error:', err);
+      showStatus('Load failed: ' + err.message, 'err');
     });
   }
 

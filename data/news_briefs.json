@@ -639,5 +639,78 @@
       "integration",
       "finance"
     ]
+  },
+  {
+    "date": "2026-05-11",
+    "tickers": [
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "GS+Bernstein upgrade; 20+ targets up"
+      },
+      {
+        "ticker": "ON",
+        "direction": "up",
+        "note": "Q1 beat; AI DC +30% q/q"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung $1T cap milestone"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Asia chip rally extends"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "Rotation; AMD/INTC/MU lead"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "down",
+        "note": "Kenya $1B datacenter stalled"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "flat",
+        "note": "Q3 Wed; AI orders >$5B watch"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "flat",
+        "note": "Q2 Thu; +25% WFE guide eyed"
+      },
+      {
+        "ticker": "GFS",
+        "direction": "up",
+        "note": "MS target $47→$58"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AMD",
+        "signal": "earnings_beat"
+      },
+      {
+        "ticker": "ON",
+        "signal": "earnings_beat"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "MSFT",
+        "signal": "legal_risk"
+      }
+    ],
+    "file": "morning-news/2026-05-11.html"
   }
 ]

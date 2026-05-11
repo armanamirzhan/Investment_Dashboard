@@ -205,5 +205,41 @@
     "new_target": 250,
     "old_rating": "Buy",
     "old_target": 220
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "AMD",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "AMD",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": "Market Perform",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "GFS",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 58,
+    "old_rating": "Overweight",
+    "old_target": 47
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "MSFT",
+    "firm": "Tigress Financial",
+    "new_rating": "Buy",
+    "new_target": 680,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

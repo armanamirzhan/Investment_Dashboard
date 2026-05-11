@@ -530,5 +530,40 @@
     "signal_type": "momentum",
     "description": "Raised 2026 capex to $52-56B, considering angstrom-scale fab at Taoyuan for 1.6nm process",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q1 datacenter revenue +57% YoY; Q2 guide $11.2B implies +46% YoY. 20+ desks raised targets; GS and Bernstein upgraded to Buy. Server CPU TAM growth target lifted to 35%+ through 2030.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "ON",
+    "signal_type": "earnings_beat",
+    "description": "Q1 beat on revenue ($1.513B vs $1.49B) and EPS ($0.64 vs $0.61); AI datacenter revenue +30% sequential and guided to roughly double in FY26.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Scarcity-premium compression as Wall Street rotates into AMD/INTC/MU and Alphabet TPUs are tested as credible inference alternative. Still 81% AI datacenter chip share per IDC, but multiple normalization risk near-term.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "MSFT",
+    "signal_type": "legal_risk",
+    "description": "Kenya $1B G42 datacenter project stalled over sovereign payment guarantees; not cancelled but underscores offshore hyperscaler buildout friction. Watch for similar dynamics in other emerging-market Azure regions.",
+    "severity": "low"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung Electronics crossed $1T market cap on HBM4 ramp for NVIDIA Rubin. KOSPI at record. Custom HBM4E design completing May–June 2026.",
+    "severity": "medium"
   }
 ]

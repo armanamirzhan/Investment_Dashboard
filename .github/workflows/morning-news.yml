@@ -52,6 +52,7 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: |
             --allowedTools "Bash,Read,Edit,Write,WebSearch,WebFetch,Grep,Glob"
+            --model claude-opus-4-7
           prompt: |
             You are the daily AI investment research agent for the "Investment Landscape" project. This is the **pre-open** run (9 AM ET, Mon-Fri) — your job is to research overnight news and update the dashboard's data before US markets open at 9:30 AM ET.
 

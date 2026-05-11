@@ -1,1 +1,84 @@
-[]
+[
+  {
+    "date": "2026-05-10",
+    "tickers": [
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Q1 print Mon pre-market"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "Capex hike, financing watch"
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "DC orders +240%"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "20+ PT raises post-Q1"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "April rev +17.5% YoY"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "neutral",
+        "note": "Beat-and-raise, multiple debated"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "Q1 revenue miss"
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "up",
+        "note": "Strong Q1; U at $86/lb"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "HBM4 ramp catching SK Hynix"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "neutral",
+        "note": "Capex $190B - memory call-out"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CEG",
+        "signal": "earnings event"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "financing risk"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "target raises"
+      },
+      {
+        "ticker": "ETN",
+        "signal": "orders accelerating"
+      },
+      {
+        "ticker": "SMR",
+        "signal": "earnings miss"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "AI demand intact"
+      }
+    ],
+    "file": "morning-news/2026-05-10.html"
+  }
+]

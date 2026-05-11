@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-05-10",
+    "headline": "Constellation Energy Q1 earnings Monday: first print post-Calpine close",
+    "summary": "Constellation reports Monday May 11 pre-market, the first full quarter since closing the Calpine acquisition Jan 7. Street is at $2.56 EPS (+19.6% YoY) and $8.21B revenue (+20.9% YoY), with EBITDA the swing factor at consensus $2.02B. Stock is down 13% YTD into the print; bulls watching for any named hyperscaler datacenter PPA disclosure to confirm the 55 GW combined platform thesis. CEG has beaten EPS 75% of the time over the past two years.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Zacks via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energys-q1-earnings-ahead-134600297.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "TSMC April revenue NT$410.7B, +17.5% YoY; YTD growth 29.9%",
+    "summary": "TSMC reported April 2026 sales of NT$410.73B on Friday — down 1.1% sequentially but up 17.5% year-over-year, extending an AI-led run where January-April revenue is up 29.9% versus the prior-year period. The slight MoM dip raised brief concerns but is within typical seasonality; HPC remains 61%+ of mix. Confirms TSMC's >30% USD growth full-year guide and supports the foundry thesis into 2H launches (N2, advanced packaging capacity tightness).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TSMC Investor Relations",
+    "source_url": "https://pr.tsmc.com/english/news/3305"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "CoreWeave Q1: revenue doubled, backlog $99.4B, 2026 capex raised to $31-35B",
+    "summary": "CoreWeave printed Q1 revenue doubling YoY with $99.4B backlog (more than $40B of new commitments in the quarter). Management raised full-year 2026 capex to $31-35B (from $20-23B) — financing intensity is now the central debate. Q2 revenue guide $2.45-2.6B was light vs whispers, but FY revenue reaffirmed at $12-13B and FY exit annualized run rate raised $1B to $18-19B. EPS missed; stock dipped on guidance/dilution worries despite the backlog flex.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Investing.com / CoreWeave IR",
+    "source_url": "https://www.investing.com/news/earnings/coreweave-q1-revenue-doubles-but-ai-expansion-deepens-losses-4669875"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Eaton Q1 record: datacenter orders +240%, electrical backlog +48% YoY",
+    "summary": "Eaton printed record Q1 revenue of $7.5B and $2.81 adjusted EPS, with datacenter orders up 240% and electrical segment backlog up 48% YoY. Management raised FY organic growth guide by 200 bps to a 10% midpoint and lifted adjusted EPS to $13.28 midpoint. Newly closed Boyd Thermal liquid-cooling deal more than doubled YoY in its first quarter inside Eaton. Electrical Americas margins (25.6%) lagged on input inflation and 12-factory ramp costs — the lone soft spot in an otherwise strongly positive print for the power-infra trade.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Eaton Q1 2026 earnings release",
+    "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Palantir Q1 beat: 11th straight quarter of accelerating revenue, FY guide raised",
+    "summary": "Palantir reported Friday May 8 with quarterly revenue growth accelerating for the 11th consecutive quarter. Q2 revenue guided to $1.797-1.801B (~79% growth at midpoint); FY26 revenue raised to $7.65-7.662B (~71% midpoint growth) from a prior $7.18-7.20B. US commercial remains the engine. Despite the beat-and-raise, shares traded down post-print on already-stretched multiple, reinforcing the 'great company, debated valuation' setup that has defined PLTR all year.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/05/08/whats-going-on-with-palantir-stock/"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Big Tech 2026 capex now tracking $725B - up 77% YoY",
+    "summary": "Following the Mag-7 prints on April 29-30, collective 2026 capex from MSFT/GOOGL/META/AMZN is now tracking ~$725B vs $410B in 2025, +77% YoY. Microsoft raised its CY26 number to $190B (with $25B attributed by CFO Hood to rising memory chip and component costs). Alphabet lifted its range to $180-190B (from $175-185B), helped by Google Cloud +63% YoY at $20B. Meta lifted to $125-145B. The memory-cost call-out from Microsoft is a tailwind read-through for SK Hynix, Samsung and Micron pricing power on HBM.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2026/04/29/microsoft-meta-google-ai-capex-spending-billions/"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "AMD analyst targets ratchet higher after Q1 datacenter +57%",
+    "summary": "AMD's May 5 Q1 print - $10.25B revenue with datacenter +57% YoY - has triggered an unusually broad target-raise cycle: 20+ analysts lifted PTs in the week that followed. Bernstein flipped to Outperform at $525, KeyBanc to $530, DA Davidson to Buy at $375, Goldman reiterated Buy. HSBC notably cut to Hold (lone downgrade). Street is gravitating toward the view that MI350/MI400 ramp can sustain mid-50%+ DC growth into FY26 even as Nvidia retains the hyperscaler training majority.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/04/16/amd-gains-6-ahead-of-may-earnings-is-the-ai-chip-challenger-finally-ready-to-rival-nvidia/"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "NuScale Q1 revenue $0.57M, well below $5.57M consensus",
+    "summary": "NuScale (SMR) printed Q1 revenue of just $0.57M vs $5.57M consensus and $13.38M in the year-ago quarter - a sharp negative surprise that has pushed the stock down ~58% over the past six months. NuScale targets a first reactor online by 2030, behind Oklo's late-2027 / early-2028 commercial-ops guidance. Oklo retains stronger commercial momentum (Meta partnership disclosed January, Nvidia research tie-up, Centrus JV talks for HALEU enrichment). SMR-as-power-for-AI thesis intact, but timing risk is widening.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/05/08/better-nuclear-energy-stock-nuscale-power-vs-oklo/"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Cameco Q1: net earnings $131M, EBITDA $509M; uranium spot at $86/lb",
+    "summary": "Cameco printed Q1 on May 5 with net earnings of $131M and adjusted EBITDA of $509M on higher uranium and fuel-services volumes plus stronger realized prices. FY26 production and financial guidance unchanged; Westinghouse integration tracking. Uranium spot ended April at $86.35/lb and sat at $86.20 on May 8 - up 22.7% YoY despite a sequential dip. Cameco borrowed 750k lb in Q1 versus buying just 200k, signaling spot-price-sensitive procurement. Nuclear momentum is being underwritten by hyperscaler PPAs (Meta 7.8 GW, Microsoft 800+ MW recommitment).",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Cameco IR",
+    "source_url": "https://www.cameco.com/media/news/cameco-reports-2026-first-quarter-results"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "SK Hynix completes world-first HBM4 development, prepares mass production",
+    "summary": "SK Hynix has completed development of the industry's first HBM4 and is ready for mass production, with 16-layer 48GB HBM4 shown at CES 2026 and a sixth-gen HBM ramp pulled forward into 1H26. Samsung is racing to close the gap (P5 fab targeting 2028 operational); Micron is competing for the new 16-Hi 2H26 Nvidia slots. SK Hynix capex is stepping up >4x prior plan; Samsung +50% in 2026. Microsoft's $25B memory-cost call-out on its capex print last week confirms pricing power is real, not a 2025 hangover.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "SK Hynix Newsroom",
+    "source_url": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+  }
+]

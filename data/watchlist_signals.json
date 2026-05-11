@@ -607,5 +607,12 @@
     "signal_type": "momentum",
     "description": "CoreWeave shares up ~80% YTD vs S&P +7%; $99.4B backlog and S&P credit outlook upgrade to positive on Q1 print. Capex stepping up to $31-35B — watch for any signs the financing path strains margins.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "CoreWeave raised FY26 capex by ~$10B (now $31-35B) on its May 7 print while Q2 revenue guide ($2.45-2.6B) came in light versus whispers. With backlog at $99.4B and revenue still scaling, the funding gap is the central debate - watch for incremental ABL/term-loan announcements or equity issuance signals before next print.",
+    "severity": "medium"
   }
 ]

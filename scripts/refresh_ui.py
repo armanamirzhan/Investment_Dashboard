@@ -4,6 +4,8 @@ Both generate_dashboard.py and generate_reports.py embed REFRESH_JS + REFRESH_CS
 The repo identity (OWNER/NAME) is read by the JS from a <meta> tag emitted by
 each generator so the same code works in dev and on Pages.
 """
+import json
+from html import escape
 
 REPO_OWNER = "armanamirzhan"
 REPO_NAME = "Investment_Dashboard"
@@ -218,20 +220,27 @@ def refresh_modal_skeleton() -> str:
     return ""
 
 
-def section_button(section: str, label: str, ticker: str, last_updated: str = "") -> str:
-    """Render a per-section refresh button + status label."""
-    status_id = f"refresh-status-{section}-{ticker}"
-    btn_id = f"refresh-btn-{section}-{ticker}"
-    inputs = '{"ticker":"' + ticker + '","section":"' + section + '"}'
+def section_button(section: str, label: str, ticker, last_updated: str = "") -> str:
+    """Render a per-section refresh button + status label.
+
+    Returns only the status span (no clickable button) when the company has no
+    ticker — the refresh-section workflow requires a ticker as input, so a
+    button would be unusable.
+    """
     last_html = (
         f'<span class="ok">Last refreshed {last_updated}</span>'
         if last_updated
         else '<span style="opacity:0.6">Not yet refreshed via button</span>'
     )
+    status_id = f"refresh-status-{section}-{ticker or 'none'}"
+    if not ticker:
+        return f'<span class="refresh-status" id="{status_id}">{last_html}</span>'
+    btn_id = f"refresh-btn-{section}-{ticker}"
+    inputs = escape(json.dumps({"ticker": ticker, "section": section}), quote=True)
     return (
         f'<button class="refresh-btn" id="{btn_id}" '
         f'data-workflow="refresh-section.yml" '
-        f"data-inputs='{inputs}' "
+        f'data-inputs="{inputs}" '
         f'data-status-id="{status_id}" '
         f'title="Refresh {label} via Claude agent">'
         f'<span class="refresh-label">↻ Refresh {label}</span></button>'

@@ -1,463 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asetek - Investment Report</title>
-    <style>
-        :root {
-            --bg-dark: #0f1419;
-            --bg-card: #1a1f2e;
-            --bg-input: #252d3d;
-            --border-color: #3a4551;
-            --text-primary: #e4e6eb;
-            --text-secondary: #b0b3b8;
-            --accent-green: #31a24c;
-            --accent-red: #d32f2f;
-            --accent-yellow: #ffc107;
-            --accent-blue: #1f88d4;
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
+<title>Asetek (ASTK.OL) - Investment Report</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1000px;margin:0 auto;padding:var(--gap)}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.header{background:linear-gradient(135deg,#1a1d28,#0f1117);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .ticker{font-size:14px;padding:4px 12px;border-radius:6px;background:rgba(76,139,245,0.15);color:var(--accent-blue);font-weight:700}
+.header .rating{font-size:18px}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
+.kpi-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;text-align:center}
+.kpi-label{font-size:10px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
+.kpi-value{font-size:20px;font-weight:700;color:var(--text-on-dark)}
+.section{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:var(--gap)}
+.section h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--accent-blue)}
+.section p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.staleness-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;margin-left:12px}
+.stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
+.stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
+.stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
+.source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
+footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
+
+.refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
+.refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
+.refresh-btn:disabled{opacity:.7;cursor:wait}
+.refresh-btn.status-success{background:rgba(58,184,103,0.15);color:#3AB867;border-color:#3AB867}
+.refresh-btn.status-failed{background:rgba(232,84,84,0.15);color:#E85454;border-color:#E85454}
+.refresh-btn.status-running{background:rgba(75,134,255,0.15);color:#4B86FF;border-color:#4B86FF}
+.refresh-spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:rspin .8s linear infinite}
+@keyframes rspin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:11px;color:var(--text-secondary);margin-left:8px}
+.refresh-status .ok{color:#3AB867}
+.refresh-status .err{color:#E85454}
+.refresh-modal{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:9999}
+.refresh-modal.open{display:flex}
+.refresh-modal-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;max-width:520px;width:90%;color:var(--text-primary)}
+.refresh-modal-box h3{margin:0 0 12px}
+.refresh-modal-box p{font-size:13px;color:var(--text-secondary);margin:8px 0}
+.refresh-modal-box input{width:100%;padding:8px 10px;background:var(--bg-primary);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-family:monospace;font-size:12px;margin:8px 0 16px}
+.refresh-modal-box .actions{display:flex;gap:8px;justify-content:flex-end}
+.refresh-modal-box button{padding:8px 14px;font-size:13px;border:none;border-radius:6px;cursor:pointer}
+.refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
+.refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
+.refresh-modal-box a{color:var(--accent-blue)}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<div><h1>None Asetek</h1></div>
+<div style="display:flex;align-items:center;gap:12px">
+<span class="ticker">ASTK.OL</span>
+<span class="rating">N/A</span>
+<span class="staleness-badge stale-aging">Updated 14d ago</span>
+</div></div>
+<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">N/A</div></div></div><div class="section">
+<h3>Company Profile</h3>
+<p><strong>Sector:</strong> Dc Hardware</p>
+<p><strong>Sub-sector:</strong> Cooling & Thermal</p>
+<p><strong>DC Revenue Exposure:</strong> High</p>
+<p><strong>Rating:</strong> None N/A</p>
+</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-ASTK.OL" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;ASTK.OL&quot;, &quot;section&quot;: &quot;thesis&quot;}" data-status-id="refresh-status-thesis-ASTK.OL" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-ASTK.OL"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Liquid cooling specialist for AI datacenters. Direct-to-chip and rear-door heat exchanger solutions.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-ASTK.OL" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;ASTK.OL&quot;, &quot;section&quot;: &quot;catalysts&quot;}" data-status-id="refresh-status-catalysts-ASTK.OL" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-ASTK.OL"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Liquid cooling adoption acceleration</p><p>&bull; AI GPU power density driving demand</p><p>&bull; OEM partnerships</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-ASTK.OL" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;ASTK.OL&quot;, &quot;section&quot;: &quot;risks&quot;}" data-status-id="refresh-status-risks-ASTK.OL" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-ASTK.OL"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Small market cap</p><p>&bull; Competition from Vertiv/CoolIT</p><p>&bull; Scaling challenges</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-ASTK.OL" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;ASTK.OL&quot;, &quot;section&quot;: &quot;sources&quot;}" data-status-id="refresh-status-sources-ASTK.OL" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-ASTK.OL"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>Asetek (ASTK.OL) - Investment Report &bull; Data as of 2026-04-27 &bull; Not investment advice.</footer>
+<script>
+(function(){
+  const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
+  const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
+  const API="https://api.github.com";
+  const PAT_KEY="gh_pat_v1";
+
+  function getPAT(){return localStorage.getItem(PAT_KEY)||"";}
+  function setPAT(v){if(v)localStorage.setItem(PAT_KEY,v);else localStorage.removeItem(PAT_KEY);}
+
+  function ensureModal(){
+    if(document.getElementById('refresh-modal'))return;
+    const m=document.createElement('div');
+    m.id='refresh-modal';m.className='refresh-modal';
+    m.innerHTML=`<div class="refresh-modal-box">
+      <h3>GitHub Personal Access Token</h3>
+      <p>To trigger refresh workflows from this page, paste a fine-grained PAT with <strong>Actions: read & write</strong> permission on <code>${OWNER}/${REPO}</code>.</p>
+      <p>Create one at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a> &mdash; scope to this repo only.</p>
+      <input id="refresh-pat-input" type="password" placeholder="github_pat_..." autocomplete="off">
+      <div class="actions">
+        <button class="secondary" id="refresh-pat-clear">Clear stored token</button>
+        <button class="secondary" id="refresh-pat-cancel">Cancel</button>
+        <button class="primary" id="refresh-pat-save">Save & continue</button>
+      </div></div>`;
+    document.body.appendChild(m);
+    document.getElementById('refresh-pat-cancel').onclick=()=>closeModal(null);
+    document.getElementById('refresh-pat-clear').onclick=()=>{setPAT("");closeModal(null);};
+    document.getElementById('refresh-pat-save').onclick=()=>{
+      const v=document.getElementById('refresh-pat-input').value.trim();
+      if(v){setPAT(v);closeModal(v);}else closeModal(null);
+    };
+  }
+  let modalResolve=null;
+  function openModal(){
+    ensureModal();
+    const cur=getPAT();
+    document.getElementById('refresh-pat-input').value=cur;
+    document.getElementById('refresh-modal').classList.add('open');
+    return new Promise(r=>{modalResolve=r;});
+  }
+  function closeModal(v){
+    document.getElementById('refresh-modal').classList.remove('open');
+    if(modalResolve){modalResolve(v);modalResolve=null;}
+  }
+
+  async function requirePAT(){
+    let pat=getPAT();
+    if(pat)return pat;
+    pat=await openModal();
+    return pat;
+  }
+
+  async function ghFetch(path,opts={}){
+    const pat=getPAT();
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})};
+    if(pat)headers['Authorization']='Bearer '+pat;
+    const r=await fetch(API+path,{...opts,headers});
+    return r;
+  }
+
+  async function dispatch(workflow,inputs){
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/dispatches`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:inputs||{}})
+    });
+    if(!r.ok){const t=await r.text();throw new Error(`Dispatch failed: ${r.status} ${t}`);}
+    return true;
+  }
+
+  async function findLatestRun(workflow){
+    // Look for the most recent run of this workflow within the last 60s
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/runs?per_page=5&event=workflow_dispatch`);
+    if(!r.ok)return null;
+    const j=await r.json();
+    if(!j.workflow_runs||!j.workflow_runs.length)return null;
+    // Pick the run we likely just triggered: created within the last 90s
+    const now=Date.now();
+    for(const run of j.workflow_runs){
+      if(now-new Date(run.created_at).getTime()<90000)return run;
+    }
+    return j.workflow_runs[0];
+  }
+
+  async function pollRun(runId,onUpdate){
+    while(true){
+      const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/runs/${runId}`);
+      if(!r.ok)throw new Error('Poll failed');
+      const j=await r.json();
+      onUpdate&&onUpdate(j);
+      if(j.status==='completed')return j;
+      await new Promise(res=>setTimeout(res,4000));
+    }
+  }
+
+  function fmtTime(d){
+    const dt=(typeof d==='string')?new Date(d):d;
+    return dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
+
+  function setBtnState(btn,state,text){
+    btn.classList.remove('status-running','status-success','status-failed');
+    if(state)btn.classList.add('status-'+state);
+    const label=btn.querySelector('.refresh-label');
+    if(label)label.textContent=text||label.dataset.idle||'Refresh';
+    btn.disabled=(state==='running');
+  }
+
+  async function onClick(btn){
+    const wf=btn.dataset.workflow;
+    const inputs=btn.dataset.inputs?JSON.parse(btn.dataset.inputs):{};
+    const statusEl=btn.dataset.statusId?document.getElementById(btn.dataset.statusId):null;
+    const idleText=btn.querySelector('.refresh-label')?.textContent||'Refresh';
+    btn.querySelector('.refresh-label')&&(btn.querySelector('.refresh-label').dataset.idle=idleText);
+
+    const pat=await requirePAT();
+    if(!pat){if(statusEl)statusEl.innerHTML='<span class="err">No token, cancelled.</span>';return;}
+
+    try{
+      setBtnState(btn,'running','Dispatching…');
+      if(statusEl)statusEl.innerHTML='Triggering workflow…';
+      await dispatch(wf,inputs);
+      // Wait for run to appear
+      await new Promise(r=>setTimeout(r,2500));
+      const run=await findLatestRun(wf);
+      if(!run){throw new Error('Run not found after dispatch');}
+      setBtnState(btn,'running','Running…');
+      if(statusEl)statusEl.innerHTML=`Run <a href="${run.html_url}" target="_blank">#${run.run_number}</a> queued…`;
+
+      const final=await pollRun(run.id,(j)=>{
+        if(statusEl){
+          const status=j.status==='in_progress'?'Running':j.status;
+          statusEl.innerHTML=`Run <a href="${j.html_url}" target="_blank">#${j.run_number}</a>: ${status}`;
         }
+      });
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      const ok=(final.conclusion==='success');
+      setBtnState(btn,ok?'success':'failed',ok?'✓ Done':'✗ Failed');
+      if(statusEl){
+        statusEl.innerHTML=ok
+          ? `<span class="ok">Updated ${fmtTime(final.updated_at)}</span> &middot; <a href="${final.html_url}" target="_blank">log</a>`
+          : `<span class="err">Failed — see <a href="${final.html_url}" target="_blank">log</a></span>`;
+      }
+      // After success, reload after a short delay so the user sees fresh content
+      if(ok)setTimeout(()=>location.reload(),3000);
+    }catch(e){
+      setBtnState(btn,'failed','✗ Error');
+      if(statusEl)statusEl.innerHTML=`<span class="err">${e.message}</span>`;
+      console.error(e);
+    }
+  }
 
-        body {
-            background-color: var(--bg-dark);
-            color: var(--text-primary);
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .header {
-            margin-bottom: 30px;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 20px;
-        }
-
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 5px;
-        }
-
-        .company-meta {
-            font-size: 14px;
-            color: var(--text-secondary);
-        }
-
-        .rating-badge {
-            display: inline-block;
-            padding: 8px 16px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        .rating-hold {
-            background-color: rgba(255, 193, 7, 0.15);
-            color: var(--accent-yellow);
-            border: 1px solid var(--accent-yellow);
-        }
-
-        .back-link {
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-size: 14px;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-
-        .back-link:hover {
-            text-decoration: underline;
-        }
-
-        .kpi-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .kpi-card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px;
-        }
-
-        .kpi-label {
-            font-size: 12px;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 8px;
-        }
-
-        .kpi-value {
-            font-size: 20px;
-            font-weight: 600;
-        }
-
-        .positive {
-            color: var(--accent-green);
-        }
-
-        .negative {
-            color: var(--accent-red);
-        }
-
-        .neutral {
-            color: var(--text-primary);
-        }
-
-        .section {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 25px;
-            margin-bottom: 20px;
-        }
-
-        .section h2 {
-            font-size: 20px;
-            margin-bottom: 15px;
-            color: var(--text-primary);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-        }
-
-        .section h3 {
-            font-size: 16px;
-            margin-top: 15px;
-            margin-bottom: 10px;
-            color: var(--text-primary);
-        }
-
-        .metrics-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 15px;
-        }
-
-        .metrics-table tr {
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .metrics-table tr:last-child {
-            border-bottom: none;
-        }
-
-        .metrics-table td {
-            padding: 12px 0;
-            font-size: 14px;
-        }
-
-        .metrics-table td:first-child {
-            color: var(--text-secondary);
-            width: 50%;
-        }
-
-        .metrics-table td:last-child {
-            text-align: right;
-            font-weight: 500;
-        }
-
-        .bullet-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .bullet-list li {
-            padding: 8px 0 8px 20px;
-            position: relative;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-
-        .bullet-list li:before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: var(--accent-blue);
-            font-weight: bold;
-        }
-
-        .risk-list li:before {
-            content: "⚠";
-            color: var(--accent-red);
-        }
-
-        .catalyst-list li:before {
-            content: "→";
-            color: var(--accent-green);
-        }
-
-        .footnotes {
-            background-color: var(--bg-input);
-            border-left: 3px solid var(--accent-blue);
-            padding: 15px;
-            margin-top: 30px;
-            border-radius: 4px;
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-
-        .thesis-box {
-            background-color: rgba(31, 136, 212, 0.1);
-            border-left: 4px solid var(--accent-blue);
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 4px;
-            font-size: 14px;
-            line-height: 1.7;
-        }
-
-        .analyst-consensus {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-bottom: 15px;
-        }
-
-        .consensus-item {
-            text-align: center;
-            padding: 15px;
-            background-color: var(--bg-input);
-            border-radius: 6px;
-        }
-
-        .consensus-label {
-            font-size: 12px;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            margin-bottom: 8px;
-        }
-
-        .consensus-value {
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .highlight-box {
-            background-color: rgba(49, 162, 76, 0.1);
-            border-left: 4px solid var(--accent-green);
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <a href="../AI_Datacenter_Investment_Landscape.html" class="back-link">← Back to Dashboard</a>
-
-        <div class="header">
-            <div class="header-top">
-                <div>
-                    <h1>Asetek A/S</h1>
-                    <div class="company-meta">CSE: ASTK | Liquid Cooling Solutions</div>
-                </div>
-                <div class="rating-badge rating-hold">🟡 SPECULATIVE BUY</div>
-            </div>
-        </div>
-
-        <div class="kpi-grid">
-            <div class="kpi-card">
-                <div class="kpi-label">Market Cap</div>
-                <div class="kpi-value">$84.6M USD</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Stock Price (DKK)</div>
-                <div class="kpi-value">1.71</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">TTM Revenue</div>
-                <div class="kpi-value">$41.5M</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">2026 Guidance</div>
-                <div class="kpi-value">$55-60M</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Revenue Growth</div>
-                <div class="kpi-value positive">+33% YoY (expected)</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-label">Analyst Coverage</div>
-                <div class="kpi-value">Limited</div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Financial Summary</h2>
-            <h3>Recent Financial Performance</h3>
-            <table class="metrics-table">
-                <tr>
-                    <td>TTM Revenue</td>
-                    <td>$41.5M USD</td>
-                </tr>
-                <tr>
-                    <td>Latest Quarter Revenue</td>
-                    <td>$9.84M</td>
-                </tr>
-                <tr>
-                    <td>Prior Quarter Revenue</td>
-                    <td>$11.21M</td>
-                </tr>
-                <tr>
-                    <td>Net Loss (Latest Quarter)</td>
-                    <td>-$2.29M</td>
-                </tr>
-                <tr>
-                    <td>Operating Status</td>
-                    <td>Unprofitable</td>
-                </tr>
-                <tr>
-                    <td>2026 Revenue Guidance</td>
-                    <td>$55-60M (midpoint +33%)</td>
-                </tr>
-            </table>
-            <p style="font-size: 14px; color: var(--text-secondary); margin-top: 10px;">
-                <strong>Note:</strong> Asetek is small-cap, unprofitable company with quarterly volatility in revenue. Latest quarter showed sequential decline, but company guidance implies acceleration in 2026.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Business Overview</h2>
-            <h3>Product Portfolio & Market Focus</h3>
-            <ul class="bullet-list">
-                <li><strong>Liquid Cooling Solutions:</strong> Asetek specializes in custom liquid cooling systems for high-performance computing</li>
-                <li><strong>Data Center Segment:</strong> Direct-to-chip and immersion cooling for enterprise and hyperscaler servers</li>
-                <li><strong>PC Gaming:</strong> High-end liquid cooling systems for enthusiast and professional builds</li>
-                <li><strong>SimSports:</strong> Specialty hardware for esports and racing simulation (niche but growing)</li>
-                <li><strong>Target Markets:</strong> Data centers, gaming PCs, simulation equipment, emerging AI thermal solutions</li>
-            </ul>
-
-            <h3>Market Positioning</h3>
-            <ul class="bullet-list">
-                <li>Niche player in liquid cooling vs. air cooling incumbents (CoolIT, Lytx, others)</li>
-                <li>Strong brand recognition in enthusiast PC gaming market (mainstream consumer adoption)</li>
-                <li>Early mover in data center liquid cooling; pursuing partnerships with hyperscalers and OEMs</li>
-                <li>Patent portfolio in direct-to-chip and immersion cooling technologies</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>AI Datacenter Exposure & Opportunity</h2>
-            <div class="highlight-box">
-                <strong>Strategic Opportunity:</strong> As AI accelerators (GPUs, TPUs) increase power density and heat output, liquid cooling becomes mission-critical thermal management solution. Asetek's core competencies position company well for datacenter buildout if adoption accelerates.
-            </div>
-
-            <h3>Datacenter Liquid Cooling Market Dynamics</h3>
-            <ul class="bullet-list">
-                <li><strong>Market Growth:</strong> Direct-to-chip liquid cooling for servers expected to achieve 40%+ CAGR through 2026-2028</li>
-                <li><strong>AI Server Thermal Challenge:</strong> GPU clusters running at 400W+ per accelerator; air cooling insufficient for high-density racks</li>
-                <li><strong>Hyperscaler Interest:</strong> Major cloud providers actively testing/deploying liquid cooling solutions to improve power efficiency and chip performance</li>
-                <li><strong>OEM Integration:</strong> Dell, HP, Supermicro and other ODMs evaluating liquid cooling integration in next-gen server designs</li>
-                <li><strong>Asetek's Positioning:</strong> Company targeting enterprise data center segment; competing with larger suppliers but offering differentiated direct-to-chip approach</li>
-            </ul>
-
-            <h3>2026 Guidance Implications</h3>
-            <ul class="bullet-list">
-                <li><strong>$55-60M 2026 Guidance:</strong> Implies +33% YoY growth from 2025 baseline (~$41.5M)</li>
-                <li><strong>Growth Drivers:</strong> Dataenter liquid cooling adoption, PC gaming demand continuation, new OEM partnerships</li>
-                <li><strong>Path to Profitability:</strong> At current $84.6M market cap, company would need to achieve profitability to justify valuation</li>
-                <li><strong>Margin Expansion:</strong> Scale from $60M+ revenue should drive improving unit economics and path to EBITDA breakeven</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Investment Catalysts (Next 12-24 Months)</h2>
-            <ul class="catalyst-list">
-                <li><strong>2026 Quarterly Results:</strong> Evidence of $55-60M revenue guidance being met or exceeded</li>
-                <li><strong>Hyperscaler Design Wins:</strong> Announcements of major customer partnerships or deployments in data center segment</li>
-                <li><strong>OEM Integration Wins:</strong> Dell, HP, Supermicro or other ODM partnerships for liquid cooling in next-gen servers</li>
-                <li><strong>Profitability Milestone:</strong> Path to positive EBITDA with margin expansion from scale</li>
-                <li><strong>Analyst Initiation:</strong> Coverage from Nordic or tech research teams could expand investor base</li>
-                <li><strong>Acquisition Interest:</strong> Larger cooling/thermal management players (Aquacomputer, CoolIT parent, etc.) could pursue strategic acquisition</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Key Risks & Headwinds</h2>
-            <ul class="risk-list">
-                <li><strong>Small Cap Liquidity Risk:</strong> DKK 1.71 stock on Copenhagen Exchange; very limited trading volume and analyst coverage</li>
-                <li><strong>Currently Unprofitable:</strong> -$2.29M net loss in latest quarter; company has not demonstrated sustainable profitability</li>
-                <li><strong>Execution Risk:</strong> Can company achieve $55-60M 2026 guidance? Recent quarters show volatility (Q3 $11.21M, Q4 $9.84M)</li>
-                <li><strong>Customer Concentration:</strong> Limited disclosure on customer base; likely dependent on few large OEM/hyperscaler relationships</li>
-                <li><strong>Competition Intensifying:</strong> Major cooling suppliers (Corsair, NZXT) and new entrants ramping liquid cooling offerings</li>
-                <li><strong>Capex Requirements:</strong> Manufacturing scaling may require significant capital investment; funding source unclear</li>
-                <li><strong>Adoption Uncertainty:</strong> Liquid cooling in data centers still in early stages; customer adoption timelines uncertain</li>
-                <li><strong>Valuation Risk:</strong> $84.6M market cap for $41.5M revenue ($2B+ sales multiple); valuation assumes perfect execution</li>
-                <li><strong>Negative Cash Flow:</strong> Company burning cash; will require additional financing to fund growth</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Analyst Consensus & Price Targets</h2>
-            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 15px;">
-                <strong>Limited Coverage:</strong> Asetek trades on Copenhagen Stock Exchange with minimal analyst coverage. Most research comes from Danish/Nordic equity research teams. No consensus price target available from major international research providers. Stock is largely ignored by U.S. institutional investors.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Investment Thesis</h2>
-            <div class="thesis-box">
-                <strong>Bull Case:</strong> Asetek is a pure-play liquid cooling provider positioned at the inflection point of AI datacenter thermal management adoption. If $55-60M 2026 revenue guidance is achieved, company could reach profitability by 2027-2028. At $84.6M market cap and strong growth profile, stock offers significant upside if liquid cooling adoption accelerates and company executes on partnerships. Smaller market cap implies lower institutional ownership and potential for significant revaluation if company becomes more visible to mainstream tech investors.
-            </div>
-            <div class="thesis-box" style="background-color: rgba(211, 47, 47, 0.1); border-left-color: var(--accent-red);">
-                <strong>Bear Case:</strong> Asetek is a micro-cap, unprofitable company with limited analyst coverage and execution risk. Recent quarterly volatility (declining revenue) suggests guidance may be aggressive. Larger competitors are ramping liquid cooling offerings, commoditizing the market. Company may require additional capital raises, creating shareholder dilution. Early-stage datacenter liquid cooling adoption means customer pipelines are uncertain. Copenhagen listing creates liquidity and information barriers for international investors.
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Recommendation</h2>
-            <p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">
-                <strong>Rating: SPECULATIVE BUY (🟡)</strong><br>
-                Asetek represents a high-risk, high-reward opportunity for investors willing to accept micro-cap volatility. The company is positioned at the intersection of AI datacenter thermal challenges and emerging liquid cooling adoption. If execution succeeds and hyperscaler partnerships materialize, valuation upside could be substantial.
-            </p>
-            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 15px;">
-                <strong>For Venture/Speculative Investors:</strong> Consider a small position (1-2% of portfolio) with 3-5 year time horizon. Focus on catalysts: 2026 revenue guidance achievement, major customer design wins, path to profitability. Exit if guidance is missed or competitive dynamics deteriorate.
-            </p>
-            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.8;">
-                <strong>Risk/Reward Profile:</strong> Potential 5-10x upside if all catalysts align, but 50%+ downside if execution falters or funding becomes constrained. Not suitable for conservative or institutional portfolios. Position sizing critical—treat as venture-stage investment rather than traditional equity.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Additional Notes</h2>
-            <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.7;">
-                <strong>Liquidity Considerations:</strong> Asetek trades on Copenhagen Stock Exchange (ticker: ASTK). International investors should be aware of limited liquidity and potential spreads. Consider using limit orders and allow for wider bid-ask spreads than U.S.-listed stocks. Dividend is unlikely given unprofitability.
-            </p>
-        </div>
-
-        <div class="footnotes">
-            <strong>Data Sources & Disclaimers:</strong><br>
-            • Latest financial data: Q4 2025 / 2026 guidance<br>
-            • Stock price: April 15, 2026 at DKK 1.71<br>
-            • Market data from Yahoo Finance, Investing.com<br>
-            • This report is for informational purposes only and does not constitute investment advice<br>
-            • Asetek is a micro-cap stock with limited analyst coverage<br>
-            • This investment is suitable only for speculative, venture-stage portfolios<br>
-            • Report generated: April 23, 2026
-        </div>
-    </div>
-</body>
-</html>
+  function wire(){
+    document.querySelectorAll('.refresh-btn').forEach(btn=>{
+      if(btn.dataset.wired)return;
+      btn.dataset.wired='1';
+      btn.addEventListener('click',()=>onClick(btn));
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire);
+  else wire();
+  window.__refreshUIWire=wire;
+})();
+</script>
+</div></body></html>

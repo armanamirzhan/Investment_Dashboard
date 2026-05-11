@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
 <title>Bloom Energy (BE) - Investment Report</title>
 <style>
 :root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
@@ -23,11 +24,31 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
 .stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
 .stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
-.rating-source{background:var(--bg-hover);border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-top:12px}
-.rating-source .label{font-size:10px;color:var(--accent-purple);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
-.rating-source .detail{font-size:12px;color:var(--text-secondary);line-height:1.5}
 .source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
 footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
+
+.refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
+.refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
+.refresh-btn:disabled{opacity:.7;cursor:wait}
+.refresh-btn.status-success{background:rgba(58,184,103,0.15);color:#3AB867;border-color:#3AB867}
+.refresh-btn.status-failed{background:rgba(232,84,84,0.15);color:#E85454;border-color:#E85454}
+.refresh-btn.status-running{background:rgba(75,134,255,0.15);color:#4B86FF;border-color:#4B86FF}
+.refresh-spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:rspin .8s linear infinite}
+@keyframes rspin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:11px;color:var(--text-secondary);margin-left:8px}
+.refresh-status .ok{color:#3AB867}
+.refresh-status .err{color:#E85454}
+.refresh-modal{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:9999}
+.refresh-modal.open{display:flex}
+.refresh-modal-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;max-width:520px;width:90%;color:var(--text-primary)}
+.refresh-modal-box h3{margin:0 0 12px}
+.refresh-modal-box p{font-size:13px;color:var(--text-secondary);margin:8px 0}
+.refresh-modal-box input{width:100%;padding:8px 10px;background:var(--bg-primary);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-family:monospace;font-size:12px;margin:8px 0 16px}
+.refresh-modal-box .actions{display:flex;gap:8px;justify-content:flex-end}
+.refresh-modal-box button{padding:8px 14px;font-size:13px;border:none;border-radius:6px;cursor:pointer}
+.refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
+.refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
+.refresh-modal-box a{color:var(--accent-blue)}
 </style></head><body>
 <div class="container">
 <a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
@@ -36,101 +57,177 @@ footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px
 <div style="display:flex;align-items:center;gap:12px">
 <span class="ticker">BE</span>
 <span class="rating">Buy</span>
-<span class="staleness-badge stale-fresh">Updated 0d ago</span>
+<span class="staleness-badge stale-fresh">Updated 2d ago</span>
 </div></div>
-
-<div class="kpi-row">
-<div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$82.1B</div></div>
-<div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$264.22</div></div>
-<div class="kpi-card"><div class="kpi-label">Q1 2026 EPS</div><div class="kpi-value">$0.44</div></div>
-<div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$2.45B</div></div>
-<div class="kpi-card"><div class="kpi-label">Q1 Rev Growth</div><div class="kpi-value">+130.4%</div></div>
-<div class="kpi-card"><div class="kpi-label">Gross Margin</div><div class="kpi-value">31.5%</div></div>
-<div class="kpi-card"><div class="kpi-label">Cash</div><div class="kpi-value">$2.5B</div></div>
-<div class="kpi-card"><div class="kpi-label">LT Debt</div><div class="kpi-value">$2.6B</div></div>
-</div>
-
-<div class="section">
+<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$74B</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$261.03</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$2.4B</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">130.4%</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">9.6%</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">322.7x</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">3.11</div></div></div><div class="section">
 <h3>Company Profile</h3>
 <p><strong>Sector:</strong> Electricity</p>
 <p><strong>Sub-sector:</strong> Hydrogen & Fuel Cells</p>
 <p><strong>DC Revenue Exposure:</strong> High</p>
 <p><strong>Rating:</strong> 🟡 Buy</p>
-<div class="rating-source">
-<div class="label">Rating Attribution</div>
-<div class="detail"><strong>Source:</strong> Claude fundamental analysis based on official Bloom Energy 10-K (FY2025), Q1 2026 earnings release, and IR filings.<br>
-<strong>Wall Street Consensus:</strong> Buy (20 analysts). Average 12-month price target: $234.18 (range $55–$335). Stock up ~240% YTD 2026.<br>
-<strong>Assessment Date:</strong> May 9, 2026.<br>
-<strong>Methodology:</strong> Fundamental analysis of revenue acceleration, Oracle mega-deal, margin expansion, profitability inflection, deployment speed, and competitive moat in datacenter fuel cells. Note: current price above analyst avg PT suggests some price risk near-term, but BUY reflects dominant market position and structural demand.</div>
-</div>
-</div>
+</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-BE" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;BE&quot;, &quot;section&quot;: &quot;thesis&quot;}" data-status-id="refresh-status-thesis-BE" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-BE"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Market-leading solid oxide fuel cell (SOFC) manufacturer with dominant datacenter power positioning. Q1 2026 revenue $751M (+130% YoY) — record quarter. Oracle expanded master agreement to 2.8 GW. FY2025 revenue $2.02B (+37%). First GAAP net income achieved in Q1 2026 ($70.7M). 2026 guidance raised to $3.4-3.8B (~80% growth). Fuel flexibility (natural gas, hydrogen, biogas) and rapid deployment (55-day installation for Oracle) are key differentiators for grid-constrained datacenter sites.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-BE" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;BE&quot;, &quot;section&quot;: &quot;catalysts&quot;}" data-status-id="refresh-status-catalysts-BE" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-BE"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Oracle 2.8 GW master agreement — initial 1.2 GW contracted, deployment underway</p><p>&bull; Q1 2026 revenue $751M (+130% YoY) — first GAAP profit ($70.7M net income)</p><p>&bull; 2026 guidance raised to $3.4-3.8B revenue (~80% growth at midpoint)</p><p>&bull; 55-day deployment speed for Oracle — month ahead of schedule</p><p>&bull; Gross margin expanded to 31.5% (+280bps YoY)</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-BE" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;BE&quot;, &quot;section&quot;: &quot;risks&quot;}" data-status-id="refresh-status-risks-BE" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-BE"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Stock up ~240% YTD — valuation stretched at $82B market cap</p><p>&bull; Oracle customer concentration risk in near-term</p><p>&bull; Long-term debt of $2.6B vs $2.5B cash — elevated leverage</p><p>&bull; Competition from grid power, gas turbines for baseload datacenter</p><p>&bull; Hydrogen transition timeline uncertain for SOFC platform</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-BE" data-workflow="refresh-section.yml" data-inputs="{&quot;ticker&quot;: &quot;BE&quot;, &quot;section&quot;: &quot;sources&quot;}" data-status-id="refresh-status-sources-BE" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-BE"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>Bloom Energy (BE) - Investment Report &bull; Data as of 2026-05-09 &bull; Not investment advice.</footer>
+<script>
+(function(){
+  const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
+  const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
+  const API="https://api.github.com";
+  const PAT_KEY="gh_pat_v1";
 
-<div class="section">
-<h3>Investment Thesis</h3>
-<p>Bloom Energy is the clear market leader in stationary fuel cells for datacenters, and has emerged as one of the most consequential power infrastructure plays of the AI buildout cycle. Q1 2026 was transformational: revenue surged 130% YoY to $751M (record quarter), the company achieved its first GAAP net income ($70.7M), and Oracle expanded its master agreement to 2.8 GW — making it the largest single fuel cell procurement in history.</p>
-<p>FY2025 revenue reached $2.02B (+37% YoY) and 2026 guidance has been raised to $3.4-3.8B (~80% growth). The key differentiator is deployment speed: Bloom delivered a fully operational system to Oracle in 55 days, over a month ahead of schedule. For grid-constrained datacenter sites where utility connections take 3-5 years, this is a game-changer. Gross margins have expanded to 31.5% and the company is now generating free cash flow ($57M in FY2025).</p>
-<p>Key risks center on valuation — the stock is up ~240% YTD and trades at $82B market cap, above analyst consensus targets — and Oracle customer concentration in the near term.</p>
-</div>
+  function getPAT(){return localStorage.getItem(PAT_KEY)||"";}
+  function setPAT(v){if(v)localStorage.setItem(PAT_KEY,v);else localStorage.removeItem(PAT_KEY);}
 
-<div class="section">
-<h3>Key Financial Data (Official Filings)</h3>
-<p><strong>FY2025 Revenue:</strong> $2.02B (+37.3% YoY from $1.47B) — record year</p>
-<p><strong>Q1 2026 Revenue:</strong> $751.1M (+130.4% YoY from $326M) — record quarter</p>
-<p><strong>Q1 2026 Product Revenue:</strong> $653.3M (all-time quarterly high)</p>
-<p><strong>Q1 2026 GAAP Net Income:</strong> $70.7M (first quarterly profit; prior year was a loss)</p>
-<p><strong>Q1 2026 EPS:</strong> $0.44 (beat consensus of $0.10 by 340%)</p>
-<p><strong>Gross Margin:</strong> 31.5% Q1 2026 (+280bps YoY); 29.0% FY2025 (+160bps YoY)</p>
-<p><strong>FY2025 Free Cash Flow:</strong> $57.2M (+72.5% YoY)</p>
-<p><strong>Cash:</strong> $2.5B; Long-term Debt: $2.6B</p>
-<p><strong>2026 Revenue Guidance:</strong> $3.4-3.8B (~80% growth at midpoint)</p>
-<p class="source-note">Source: Bloom Energy Q1 2026 8-K, FY2025 10-K via investor.bloomenergy.com</p>
-</div>
+  function ensureModal(){
+    if(document.getElementById('refresh-modal'))return;
+    const m=document.createElement('div');
+    m.id='refresh-modal';m.className='refresh-modal';
+    m.innerHTML=`<div class="refresh-modal-box">
+      <h3>GitHub Personal Access Token</h3>
+      <p>To trigger refresh workflows from this page, paste a fine-grained PAT with <strong>Actions: read & write</strong> permission on <code>${OWNER}/${REPO}</code>.</p>
+      <p>Create one at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a> &mdash; scope to this repo only.</p>
+      <input id="refresh-pat-input" type="password" placeholder="github_pat_..." autocomplete="off">
+      <div class="actions">
+        <button class="secondary" id="refresh-pat-clear">Clear stored token</button>
+        <button class="secondary" id="refresh-pat-cancel">Cancel</button>
+        <button class="primary" id="refresh-pat-save">Save & continue</button>
+      </div></div>`;
+    document.body.appendChild(m);
+    document.getElementById('refresh-pat-cancel').onclick=()=>closeModal(null);
+    document.getElementById('refresh-pat-clear').onclick=()=>{setPAT("");closeModal(null);};
+    document.getElementById('refresh-pat-save').onclick=()=>{
+      const v=document.getElementById('refresh-pat-input').value.trim();
+      if(v){setPAT(v);closeModal(v);}else closeModal(null);
+    };
+  }
+  let modalResolve=null;
+  function openModal(){
+    ensureModal();
+    const cur=getPAT();
+    document.getElementById('refresh-pat-input').value=cur;
+    document.getElementById('refresh-modal').classList.add('open');
+    return new Promise(r=>{modalResolve=r;});
+  }
+  function closeModal(v){
+    document.getElementById('refresh-modal').classList.remove('open');
+    if(modalResolve){modalResolve(v);modalResolve=null;}
+  }
 
-<div class="section">
-<h3>Datacenter Power Strategy</h3>
-<p><strong>Technology:</strong> Solid Oxide Fuel Cell (SOFC) — modular 325 kW building blocks scalable to 100+ MW</p>
-<p><strong>Fuel Flexibility:</strong> Natural gas, hydrogen, biogas — enables transition path to clean hydrogen</p>
-<p><strong>Key Advantage:</strong> Non-combustion direct electricity conversion; 55-day deployment (vs. 3-5 years for utility grid connections)</p>
-<p><strong>Oracle Partnership:</strong> Master agreement expanded to 2.8 GW — initial 1.2 GW contracted, deployment underway. 55-day installation delivered a month ahead of 90-day schedule.</p>
-<p><strong>Existing Customers:</strong> Equinix (South San Jose datacenter), Oracle, and growing pipeline</p>
-<p><strong>Advantages over Diesel:</strong> Zero local NOx/SOx emissions, continuous baseload power (not just backup), lower noise, no clean air permit constraints</p>
-<p class="source-note">Source: Bloom Energy IR press releases, Oracle partnership announcements via investor.bloomenergy.com</p>
-</div>
+  async function requirePAT(){
+    let pat=getPAT();
+    if(pat)return pat;
+    pat=await openModal();
+    return pat;
+  }
 
-<div class="section">
-<h3>Growth Catalysts</h3>
-<p>&bull; Oracle 2.8 GW master agreement — largest fuel cell deal in history, deployment underway</p>
-<p>&bull; Q1 2026 revenue +130% YoY, first GAAP profit — inflection point proven</p>
-<p>&bull; 2026 guidance raised to $3.4-3.8B revenue (~80% growth)</p>
-<p>&bull; 55-day deployment speed — critical advantage for grid-constrained AI datacenter sites</p>
-<p>&bull; Gross margin expanding (31.5% Q1 2026) with operating leverage scaling</p>
-<p>&bull; Hydrogen-ready platform positions for future clean energy transition</p>
-</div>
+  async function ghFetch(path,opts={}){
+    const pat=getPAT();
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})};
+    if(pat)headers['Authorization']='Bearer '+pat;
+    const r=await fetch(API+path,{...opts,headers});
+    return r;
+  }
 
-<div class="section">
-<h3>Risks &amp; Concerns</h3>
-<p>&bull; <strong>Valuation:</strong> Stock up ~240% YTD to $82B market cap — trading above $234 analyst avg PT</p>
-<p>&bull; <strong>Customer concentration:</strong> Oracle dominates near-term revenue pipeline</p>
-<p>&bull; <strong>Leverage:</strong> $2.6B long-term debt vs $2.5B cash — net debt position</p>
-<p>&bull; <strong>Competition:</strong> Gas turbines proven and cheaper per kW for large-scale baseload</p>
-<p>&bull; <strong>Natural gas dependency:</strong> Current systems run primarily on natural gas — not zero-carbon without hydrogen transition</p>
-<p>&bull; <strong>Scale limits:</strong> Modular approach excellent for grid-constrained sites but may not compete with utility-scale solutions for greenfield builds</p>
-</div>
+  async function dispatch(workflow,inputs){
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/dispatches`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:inputs||{}})
+    });
+    if(!r.ok){const t=await r.text();throw new Error(`Dispatch failed: ${r.status} ${t}`);}
+    return true;
+  }
 
-<div class="section">
-<h3>Peer Comparison</h3>
-<p><strong>vs. Plug Power (PLUG):</strong> Bloom is far more advanced commercially ($2B+ revenue vs $710M), profitable in Q1 2026, and has major datacenter deployments underway. PLUG focuses on PEM fuel cells and is earlier-stage in datacenter strategy.</p>
-<p><strong>vs. FuelCell Energy (FCEL):</strong> Bloom has ~13x FCEL's revenue and proven datacenter deployments. FCEL's tri-gen offering (power + hydrogen + cooling) is differentiated but unproven at scale. Bloom's SOFC technology has a clear commercial lead.</p>
-<p><strong>vs. Gas Turbines (GE Vernova, Siemens Energy):</strong> Fuel cells offer faster deployment and lower emissions but higher cost per kW. Gas turbines dominate large-scale baseload. Fuel cells excel in grid-constrained, behind-the-meter applications.</p>
-</div>
+  async function findLatestRun(workflow){
+    // Look for the most recent run of this workflow within the last 60s
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/runs?per_page=5&event=workflow_dispatch`);
+    if(!r.ok)return null;
+    const j=await r.json();
+    if(!j.workflow_runs||!j.workflow_runs.length)return null;
+    // Pick the run we likely just triggered: created within the last 90s
+    const now=Date.now();
+    for(const run of j.workflow_runs){
+      if(now-new Date(run.created_at).getTime()<90000)return run;
+    }
+    return j.workflow_runs[0];
+  }
 
-<div class="section">
-<h3>Sources</h3>
-<p><a href="https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-with-Record-Full-Year-Revenues/default.aspx" style="color:var(--accent-blue)">Bloom Energy FY2025 Results (Official IR)</a></p>
-<p><a href="https://www.indexbox.io/blog/bloom-energy-stock-surges-on-strong-q1-2026-earnings-and-raised-outlook/" style="color:var(--accent-blue)">Bloom Energy Q1 2026 Earnings Analysis</a></p>
-<p><a href="https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx" style="color:var(--accent-blue)">Oracle 2.8 GW Expansion (Official IR)</a></p>
-<p><a href="https://www.bloomenergy.com/industries/data-center-power/" style="color:var(--accent-blue)">Bloom Energy Data Center Solutions (Official Website)</a></p>
-</div>
+  async function pollRun(runId,onUpdate){
+    while(true){
+      const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/runs/${runId}`);
+      if(!r.ok)throw new Error('Poll failed');
+      const j=await r.json();
+      onUpdate&&onUpdate(j);
+      if(j.status==='completed')return j;
+      await new Promise(res=>setTimeout(res,4000));
+    }
+  }
 
-<footer>Bloom Energy (BE) - Investment Report &bull; Data as of 2026-05-09 &bull; Not investment advice.</footer>
+  function fmtTime(d){
+    const dt=(typeof d==='string')?new Date(d):d;
+    return dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
+
+  function setBtnState(btn,state,text){
+    btn.classList.remove('status-running','status-success','status-failed');
+    if(state)btn.classList.add('status-'+state);
+    const label=btn.querySelector('.refresh-label');
+    if(label)label.textContent=text||label.dataset.idle||'Refresh';
+    btn.disabled=(state==='running');
+  }
+
+  async function onClick(btn){
+    const wf=btn.dataset.workflow;
+    const inputs=btn.dataset.inputs?JSON.parse(btn.dataset.inputs):{};
+    const statusEl=btn.dataset.statusId?document.getElementById(btn.dataset.statusId):null;
+    const idleText=btn.querySelector('.refresh-label')?.textContent||'Refresh';
+    btn.querySelector('.refresh-label')&&(btn.querySelector('.refresh-label').dataset.idle=idleText);
+
+    const pat=await requirePAT();
+    if(!pat){if(statusEl)statusEl.innerHTML='<span class="err">No token, cancelled.</span>';return;}
+
+    try{
+      setBtnState(btn,'running','Dispatching…');
+      if(statusEl)statusEl.innerHTML='Triggering workflow…';
+      await dispatch(wf,inputs);
+      // Wait for run to appear
+      await new Promise(r=>setTimeout(r,2500));
+      const run=await findLatestRun(wf);
+      if(!run){throw new Error('Run not found after dispatch');}
+      setBtnState(btn,'running','Running…');
+      if(statusEl)statusEl.innerHTML=`Run <a href="${run.html_url}" target="_blank">#${run.run_number}</a> queued…`;
+
+      const final=await pollRun(run.id,(j)=>{
+        if(statusEl){
+          const status=j.status==='in_progress'?'Running':j.status;
+          statusEl.innerHTML=`Run <a href="${j.html_url}" target="_blank">#${j.run_number}</a>: ${status}`;
+        }
+      });
+
+      const ok=(final.conclusion==='success');
+      setBtnState(btn,ok?'success':'failed',ok?'✓ Done':'✗ Failed');
+      if(statusEl){
+        statusEl.innerHTML=ok
+          ? `<span class="ok">Updated ${fmtTime(final.updated_at)}</span> &middot; <a href="${final.html_url}" target="_blank">log</a>`
+          : `<span class="err">Failed — see <a href="${final.html_url}" target="_blank">log</a></span>`;
+      }
+      // After success, reload after a short delay so the user sees fresh content
+      if(ok)setTimeout(()=>location.reload(),3000);
+    }catch(e){
+      setBtnState(btn,'failed','✗ Error');
+      if(statusEl)statusEl.innerHTML=`<span class="err">${e.message}</span>`;
+      console.error(e);
+    }
+  }
+
+  function wire(){
+    document.querySelectorAll('.refresh-btn').forEach(btn=>{
+      if(btn.dataset.wired)return;
+      btn.dataset.wired='1';
+      btn.addEventListener('click',()=>onClick(btn));
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire);
+  else wire();
+  window.__refreshUIWire=wire;
+})();
+</script>
 </div></body></html>

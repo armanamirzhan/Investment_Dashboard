@@ -20,6 +20,8 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
+    env:
+      TZ: America/New_York
     steps:
       - uses: actions/checkout@v4
 

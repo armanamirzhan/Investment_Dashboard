@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   id-token: write
+  actions: write
 
 concurrency:
   group: morning-news
@@ -149,7 +150,10 @@ jobs:
         run: python scripts/deploy_invest.py
 
       - name: Commit and push if changed
+        id: commit
         if: steps.tz_check.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -158,6 +162,14 @@ jobs:
             git add data AI_Datacenter_Power_Landscape.html reports morning-news invest
             git commit -m "auto: morning news $(TZ='America/New_York' date '+%Y-%m-%d %H:%M ET')"
             git push
+            echo "pushed=true" >> $GITHUB_OUTPUT
           else
             echo "No changes to commit."
+            echo "pushed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Trigger Pages deploy
+        if: steps.tz_check.outputs.skip != 'true' && steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main

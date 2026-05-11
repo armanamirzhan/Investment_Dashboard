@@ -1,32 +1,14 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
-<title>Cameco (CCJ) - Investment Report</title>
-<style>
-:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
-.container{max-width:1000px;margin:0 auto;padding:var(--gap)}
-.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
-.back-link:hover{text-decoration:underline}
-.header{background:linear-gradient(135deg,#1a1d28,#0f1117);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
-.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
-.header .ticker{font-size:14px;padding:4px 12px;border-radius:6px;background:rgba(76,139,245,0.15);color:var(--accent-blue);font-weight:700}
-.header .rating{font-size:18px}
-.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
-.kpi-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;text-align:center}
-.kpi-label{font-size:10px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
-.kpi-value{font-size:20px;font-weight:700;color:var(--text-on-dark)}
-.section{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:var(--gap)}
-.section h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--accent-blue)}
-.section p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
-.staleness-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;margin-left:12px}
-.stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
-.stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
-.stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
-.source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
-footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
+"""Shared UI snippets for in-browser workflow dispatch (PAT-based).
 
+Both generate_dashboard.py and generate_reports.py embed REFRESH_JS + REFRESH_CSS.
+The repo identity (OWNER/NAME) is read by the JS from a <meta> tag emitted by
+each generator so the same code works in dev and on Pages.
+"""
+
+REPO_OWNER = "armanamirzhan"
+REPO_NAME = "Investment_Dashboard"
+
+REFRESH_CSS = r"""
 .refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
 .refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
 .refresh-btn:disabled{opacity:.7;cursor:wait}
@@ -49,24 +31,18 @@ footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px
 .refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
 .refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
 .refresh-modal-box a{color:var(--accent-blue)}
-</style></head><body>
-<div class="container">
-<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
-<div class="header">
-<div><h1>🟡 Cameco</h1></div>
-<div style="display:flex;align-items:center;gap:12px">
-<span class="ticker">CCJ</span>
-<span class="rating">Buy</span>
-<span class="staleness-badge stale-aging">Updated 14d ago</span>
-</div></div>
-<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$51B</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$116.75</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">106.1x</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$3.5B</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">7.1%</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">18.2%</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">56.8x</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">0.14</div></div></div><div class="section">
-<h3>Company Profile</h3>
-<p><strong>Sector:</strong> Electricity</p>
-<p><strong>Sub-sector:</strong> Nuclear Fuel</p>
-<p><strong>DC Revenue Exposure:</strong> Uranium Supply</p>
-<p><strong>Rating:</strong> 🟡 Buy</p>
-</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-CCJ" data-workflow="refresh-section.yml" data-inputs='{"ticker":"CCJ","section":"thesis"}' data-status-id="refresh-status-thesis-CCJ" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-CCJ"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Largest Western uranium producer. Nuclear renaissance driven by datacenter power demand creates structural uranium demand.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-CCJ" data-workflow="refresh-section.yml" data-inputs='{"ticker":"CCJ","section":"catalysts"}' data-status-id="refresh-status-catalysts-CCJ" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-CCJ"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Nuclear renaissance demand</p><p>&bull; Uranium price appreciation</p><p>&bull; Long-term contract book</p><p>&bull; Westinghouse JV benefits</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-CCJ" data-workflow="refresh-section.yml" data-inputs='{"ticker":"CCJ","section":"risks"}' data-status-id="refresh-status-risks-CCJ" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-CCJ"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Uranium price cyclicality</p><p>&bull; Production restart execution</p><p>&bull; Geopolitical supply risks</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-CCJ" data-workflow="refresh-section.yml" data-inputs='{"ticker":"CCJ","section":"sources"}' data-status-id="refresh-status-sources-CCJ" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-CCJ"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>Cameco (CCJ) - Investment Report &bull; Data as of 2026-04-27 &bull; Not investment advice.</footer>
-<script>
+"""
+
+
+def refresh_js() -> str:
+    """JS that handles PAT capture, workflow dispatch, and run polling.
+
+    Each refresh button declares its target via data attributes:
+      data-workflow   workflow filename (e.g. refresh-section.yml)
+      data-inputs     JSON string of inputs to send
+      data-status-id  optional id of a status label element to update
+    """
+    return r"""
 (function(){
   const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
   const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
@@ -229,5 +205,53 @@ footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px
   else wire();
   window.__refreshUIWire=wire;
 })();
-</script>
-</div></body></html>
+"""
+
+
+def refresh_meta_tags() -> str:
+    """Meta tags so the JS knows which repo to talk to."""
+    return f'<meta name="gh-owner" content="{REPO_OWNER}"><meta name="gh-repo" content="{REPO_NAME}">'
+
+
+def refresh_modal_skeleton() -> str:
+    """Empty div the JS will populate; kept here so HTML structure is explicit."""
+    return ""
+
+
+def section_button(section: str, label: str, ticker: str, last_updated: str = "") -> str:
+    """Render a per-section refresh button + status label."""
+    status_id = f"refresh-status-{section}-{ticker}"
+    btn_id = f"refresh-btn-{section}-{ticker}"
+    inputs = '{"ticker":"' + ticker + '","section":"' + section + '"}'
+    last_html = (
+        f'<span class="ok">Last refreshed {last_updated}</span>'
+        if last_updated
+        else '<span style="opacity:0.6">Not yet refreshed via button</span>'
+    )
+    return (
+        f'<button class="refresh-btn" id="{btn_id}" '
+        f'data-workflow="refresh-section.yml" '
+        f"data-inputs='{inputs}' "
+        f'data-status-id="{status_id}" '
+        f'title="Refresh {label} via Claude agent">'
+        f'<span class="refresh-label">↻ Refresh {label}</span></button>'
+        f'<span class="refresh-status" id="{status_id}">{last_html}</span>'
+    )
+
+
+def metrics_button(last_updated: str = "") -> str:
+    """Render the dashboard-level Refresh All Metrics button + status label."""
+    last_html = (
+        f'<span class="ok">Last refreshed {last_updated}</span>'
+        if last_updated
+        else '<span style="opacity:0.6">Awaiting first refresh</span>'
+    )
+    return (
+        '<button class="refresh-btn" id="refresh-btn-metrics" '
+        'data-workflow="refresh.yml" '
+        "data-inputs='{}' "
+        'data-status-id="refresh-status-metrics" '
+        'title="Refresh all market data (price, P/E, market cap, etc.) for every public ticker">'
+        '<span class="refresh-label">↻ Refresh All Metrics</span></button>'
+        f'<span class="refresh-status" id="refresh-status-metrics">{last_html}</span>'
+    )

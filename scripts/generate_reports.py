@@ -3,6 +3,7 @@
 import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from db_init import load, today
+from refresh_ui import REFRESH_CSS, refresh_js, refresh_meta_tags, section_button
 
 # Matches the kpi-row block (8 KPI cards) up to the next <div class="section">.
 KPI_BLOCK_RE = re.compile(r'<div class="kpi-row">.*?</div></div>(?=<div class="section">)', re.DOTALL)
@@ -86,8 +87,9 @@ def generate_report(company_data, financials_data=None):
 
     html = f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+{refresh_meta_tags()}
 <title>{name} ({ticker}) - Investment Report</title>
-<style>{CSS}</style></head><body>
+<style>{CSS}{REFRESH_CSS}</style></head><body>
 <div class="container">
 <a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
 <div class="header">
@@ -123,35 +125,48 @@ def generate_report(company_data, financials_data=None):
 <p><strong>Rating:</strong> {emoji} {rating_label}</p>
 </div>'''
 
+    def section_header(title, section_key):
+        last = company_data.get(f"{section_key}_updated", "")
+        btn = section_button(section_key, title, ticker, last)
+        return f'<h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">{title} {btn}</h3>'
+
     thesis = company_data.get("thesis","")
-    if thesis:
-        html += f'<div class="section"><h3>Investment Thesis</h3><p>{thesis}</p></div>'
+    html += f'<div class="section">{section_header("Investment Thesis", "thesis")}'
+    html += f'<p>{thesis}</p>' if thesis else '<p style="opacity:0.6;font-style:italic">No thesis yet — click Refresh to generate.</p>'
+    html += '</div>'
 
     catalysts = company_data.get("catalysts",[])
+    html += f'<div class="section">{section_header("Growth Catalysts", "catalysts")}'
     if catalysts:
-        html += '<div class="section"><h3>Growth Catalysts</h3>'
         for cat in catalysts:
             html += f'<p>&bull; {cat}</p>'
-        html += '</div>'
+    else:
+        html += '<p style="opacity:0.6;font-style:italic">No catalysts yet — click Refresh to generate.</p>'
+    html += '</div>'
 
     co_risks = company_data.get("risks",[])
+    html += f'<div class="section">{section_header("Risks &amp; Concerns", "risks")}'
     if co_risks:
-        html += '<div class="section"><h3>Risks &amp; Concerns</h3>'
         for r in co_risks:
             html += f'<p>&bull; {r}</p>'
-        html += '</div>'
+    else:
+        html += '<p style="opacity:0.6;font-style:italic">No risks yet — click Refresh to generate.</p>'
+    html += '</div>'
 
     sources = company_data.get("sources",[])
+    html += f'<div class="section">{section_header("Sources", "sources")}'
     if sources:
-        html += '<div class="section"><h3>Sources</h3>'
         for s in sources:
             if isinstance(s, dict):
                 html += f'<p><a href="{s.get("url","#")}" style="color:var(--accent-blue)">{s.get("name","Source")}</a></p>'
             else:
                 html += f'<p>{s}</p>'
-        html += '</div>'
+    else:
+        html += '<p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p>'
+    html += '</div>'
 
     html += f'''<footer>{name} ({ticker}) - Investment Report &bull; Data as of {updated or "N/A"} &bull; Not investment advice.</footer>
+<script>{refresh_js()}</script>
 </div></body></html>'''
 
     # Write — but don't overwrite existing files that are richer.

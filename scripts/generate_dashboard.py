@@ -3,6 +3,7 @@
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from db_init import load, today, DATA_DIR
+from refresh_ui import REFRESH_CSS, refresh_js, refresh_meta_tags, metrics_button
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(BASE_DIR, "AI_Datacenter_Power_Landscape.html")
@@ -225,9 +226,10 @@ def generate():
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+{refresh_meta_tags()}
 <title>{meta.get("title","AI Investment Landscape Dashboard")}</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
-<style>{CSS}</style>
+<style>{CSS}{REFRESH_CSS}</style>
 </head>
 <body>
 <div class="dashboard-container">
@@ -235,6 +237,7 @@ def generate():
 <div>
 <h1>{meta.get("title","AI Investment Landscape")}</h1>
 <div class="subtitle">{meta.get("subtitle","")} &bull; Data as of {meta.get("last_updated","")} &bull; 5-Category Investment Taxonomy</div>
+<div style="margin-top:10px">{metrics_button(meta.get("last_updated",""))}</div>
 </div>
 <div class="filters">
 <div class="filter-group"><label>Filter</label>
@@ -531,7 +534,9 @@ def generate():
     # ── JavaScript ──
     html.append('<script>')
     html.append(generate_js(charts, buildouts, companies))
-    html.append('</script></body></html>')
+    html.append('</script>')
+    html.append(f'<script>{refresh_js()}</script>')
+    html.append('</body></html>')
 
     output = "\n".join(html)
     with open(OUT_PATH, "w", encoding="utf-8") as f:

@@ -1,0 +1,126 @@
+name: Refresh report section
+
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Company ticker (e.g. NVDA)"
+        required: true
+        type: string
+      section:
+        description: "Section to refresh"
+        required: true
+        type: choice
+        options:
+          - thesis
+          - catalysts
+          - risks
+          - sources
+
+permissions:
+  contents: write
+  id-token: write
+  actions: write
+
+concurrency:
+  group: refresh-section-${{ inputs.ticker }}-${{ inputs.section }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/New_York
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests yfinance
+
+      - name: Refresh section (Claude Code)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: |
+            --allowedTools "Bash,Read,Edit,Write,WebSearch,WebFetch,Grep,Glob"
+            --model claude-opus-4-7
+          prompt: |
+            You are refreshing the **${{ inputs.section }}** section of the **${{ inputs.ticker }}** company report in the "Investment Landscape" project.
+
+            ## Section semantics
+
+            - **thesis** — Investment Thesis (`thesis` string field on the company entry). 1-3 sentences. The core investment case in the AI / datacenter landscape: why this company matters, what they sell into the buildout, and the pivotal mechanism that drives the upside.
+            - **catalysts** — Growth Catalysts (`catalysts` list of bullet strings). 3-6 entries. Near-to-medium-term drivers (next 6-18 months) that could move the stock: order books, capacity ramps, design wins, regulatory milestones, contract signings, product launches.
+            - **risks** — Risks & Concerns (`risks` list of bullet strings). 3-6 entries. Material risks to the thesis: competition, supply, geopolitics, financing, demand cyclicality, regulatory, technology.
+            - **sources** — Sources (`sources` list of `{"name": "...", "url": "..."}` dicts). 3-8 trustworthy citations: SEC filings, earnings transcripts, Reuters, Bloomberg, WSJ, FT, official company releases.
+
+            ## Step 1 — Inspect current state
+
+            Run this to see the current company entry:
+            ```bash
+            python3 -c "import sys, json; sys.path.insert(0,'scripts'); from db_init import load; c=[c for c in load('companies',[]) if c['ticker']=='${{ inputs.ticker }}'][0]; print(json.dumps(c, indent=2))"
+            ```
+
+            ## Step 2 — Research
+
+            Use WebSearch / WebFetch to gather the latest material information for the **${{ inputs.section }}** specifically. Skip speculation blogs; use trustworthy sources only (Reuters, Bloomberg, WSJ, FT, SEC filings, earnings transcripts, official releases).
+
+            ## Step 3 — Update
+
+            Apply the update via the helper, then regenerate. Use heredoc-quoted Python to keep multi-line strings safe:
+            ```bash
+            python3 <<'PY'
+            import sys; sys.path.insert(0, 'scripts')
+            from update_data import update_company, regenerate_all
+            from db_init import today
+
+            # For thesis: a string. For catalysts / risks: a list of bullet strings.
+            # For sources: a list of {"name": "...", "url": "..."} dicts.
+            new_value = ...  # Fill in based on research
+
+            update_company(
+                "${{ inputs.ticker }}",
+                ${{ inputs.section }}=new_value,
+                ${{ inputs.section }}_updated=today(),
+            )
+            regenerate_all()
+            PY
+            ```
+
+            ## Hard rules
+
+            - Update ONLY the `${{ inputs.section }}` field plus its `${{ inputs.section }}_updated` timestamp. Do not touch any other section, do not touch live-market fields, do not modify `house Rating` unless news clearly demands it (and even then, prefer to leave rating alone and just update narrative).
+            - If you can't find any new material to justify changes, write the same content back (idempotent) but still bump the `_updated` timestamp.
+            - Never write "DC" — always "datacenter" in full.
+            - End with a one-sentence summary of what changed.
+
+      - name: Stage deploy artifact
+        run: python scripts/deploy_invest.py
+
+      - name: Commit and push if changed
+        id: commit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add data AI_Datacenter_Power_Landscape.html reports morning-news invest
+            git commit -m "auto: refresh ${{ inputs.ticker }} ${{ inputs.section }} $(date '+%Y-%m-%d %H:%M ET')"
+            git push
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          else
+            echo "pushed=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit."
+          fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main

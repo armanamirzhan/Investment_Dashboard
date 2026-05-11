@@ -1,136 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Schneider Electric (SU.PA) — Investment Report</title>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
+<title>Schneider Electric (SNEXF) - Investment Report</title>
 <style>
-:root {
-    --bg-primary: #0f1117; --bg-card: #1a1d28; --bg-hover: #252836;
-    --text-primary: #e8eaed; --text-secondary: #9aa0a6; --text-on-dark: #fff;
-    --border: #2d3140; --accent-blue: #4C8BF5; --accent-green: #34A853;
-    --accent-orange: #F9AB00; --accent-red: #EA4335; --accent-purple: #A142F4;
-    --positive: #34A853; --negative: #EA4335; --radius: 10px; --gap: 16px;
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--bg-primary); color:var(--text-primary); line-height:1.6; }
-.container { max-width:1100px; margin:0 auto; padding:24px; }
-.back-link { color:var(--accent-blue); text-decoration:none; font-size:13px; display:inline-block; margin-bottom:16px; }
-.back-link:hover { text-decoration:underline; }
-.header { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:28px; margin-bottom:var(--gap); }
-.header h1 { font-size:28px; font-weight:700; margin-bottom:4px; }
-.header .ticker-badge { display:inline-block; background:rgba(76,139,245,0.15); color:var(--accent-blue); padding:4px 12px; border-radius:6px; font-size:14px; font-weight:600; margin-right:12px; }
-.header .segment-badge { display:inline-block; background:rgba(161,66,244,0.15); color:var(--accent-purple); padding:4px 12px; border-radius:6px; font-size:12px; }
-.header .subtitle { color:var(--text-secondary); font-size:14px; margin-top:8px; }
-.rating-box { display:inline-flex; align-items:center; gap:8px; margin-top:12px; padding:8px 16px; border-radius:8px; font-weight:700; font-size:18px; }
-.rating-box.strong-buy { background:rgba(52,168,83,0.15); color:var(--accent-green); border:1px solid rgba(52,168,83,0.3); }
-.rating-box.buy { background:rgba(76,139,245,0.15); color:var(--accent-blue); border:1px solid rgba(76,139,245,0.3); }
-.rating-box.hold { background:rgba(249,171,0,0.15); color:var(--accent-orange); border:1px solid rgba(249,171,0,0.3); }
-.rating-box.sell { background:rgba(234,67,53,0.15); color:var(--accent-red); border:1px solid rgba(234,67,53,0.3); }
-.score-bar { display:flex; gap:4px; margin-top:12px; }
-.score-dot { width:20px; height:8px; border-radius:4px; background:var(--border); }
-.score-dot.filled { background:var(--accent-blue); }
-.score-dot.filled.green { background:var(--accent-green); }
-.score-dot.filled.orange { background:var(--accent-orange); }
-.score-dot.filled.red { background:var(--accent-red); }
-.metrics-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:var(--gap); margin-bottom:var(--gap); }
-.metric-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; }
-.metric-card .label { font-size:11px; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:4px; }
-.metric-card .value { font-size:22px; font-weight:700; color:var(--text-on-dark); }
-.metric-card .sub { font-size:12px; color:var(--text-secondary); margin-top:2px; }
-.section { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px; margin-bottom:var(--gap); }
-.section h2 { font-size:16px; font-weight:600; margin-bottom:16px; color:var(--accent-blue); }
-.section h3 { font-size:14px; font-weight:600; margin:16px 0 8px; }
-.section p { font-size:14px; color:var(--text-secondary); margin-bottom:10px; }
-.section ul { margin-left:20px; margin-bottom:12px; }
-.section li { font-size:14px; color:var(--text-secondary); margin-bottom:6px; }
-.section li strong { color:var(--text-primary); }
-table.fin-table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; }
-table.fin-table th { text-align:left; padding:8px 12px; border-bottom:2px solid var(--border); color:var(--text-secondary); font-size:11px; text-transform:uppercase; }
-table.fin-table td { padding:8px 12px; border-bottom:1px solid var(--border); }
-table.fin-table tr:hover { background:var(--bg-hover); }
-.pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:var(--gap); }
-.pros h3 { color:var(--accent-green); }
-.cons h3 { color:var(--accent-red); }
-.footnotes { font-size:11px; color:var(--text-secondary); margin-top:24px; padding-top:16px; border-top:1px solid var(--border); }
-.footnotes a { color:var(--accent-blue); text-decoration:none; }
-.footnotes a:hover { text-decoration:underline; }
-.footnotes ol { margin-left:20px; }
-.footnotes li { margin-bottom:4px; }
-footer { text-align:center; padding:16px; color:var(--text-secondary); font-size:11px; margin-top:24px; }
-@media (max-width:768px) { .metrics-grid { grid-template-columns:repeat(2,1fr); } .pros-cons { grid-template-columns:1fr; } }
-</style>
-</head>
-<body>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1000px;margin:0 auto;padding:var(--gap)}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.header{background:linear-gradient(135deg,#1a1d28,#0f1117);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .ticker{font-size:14px;padding:4px 12px;border-radius:6px;background:rgba(76,139,245,0.15);color:var(--accent-blue);font-weight:700}
+.header .rating{font-size:18px}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
+.kpi-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;text-align:center}
+.kpi-label{font-size:10px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
+.kpi-value{font-size:20px;font-weight:700;color:var(--text-on-dark)}
+.section{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:var(--gap)}
+.section h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--accent-blue)}
+.section p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.staleness-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;margin-left:12px}
+.stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
+.stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
+.stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
+.source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
+footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
+
+.refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
+.refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
+.refresh-btn:disabled{opacity:.7;cursor:wait}
+.refresh-btn.status-success{background:rgba(58,184,103,0.15);color:#3AB867;border-color:#3AB867}
+.refresh-btn.status-failed{background:rgba(232,84,84,0.15);color:#E85454;border-color:#E85454}
+.refresh-btn.status-running{background:rgba(75,134,255,0.15);color:#4B86FF;border-color:#4B86FF}
+.refresh-spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:rspin .8s linear infinite}
+@keyframes rspin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:11px;color:var(--text-secondary);margin-left:8px}
+.refresh-status .ok{color:#3AB867}
+.refresh-status .err{color:#E85454}
+.refresh-modal{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:9999}
+.refresh-modal.open{display:flex}
+.refresh-modal-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;max-width:520px;width:90%;color:var(--text-primary)}
+.refresh-modal-box h3{margin:0 0 12px}
+.refresh-modal-box p{font-size:13px;color:var(--text-secondary);margin:8px 0}
+.refresh-modal-box input{width:100%;padding:8px 10px;background:var(--bg-primary);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-family:monospace;font-size:12px;margin:8px 0 16px}
+.refresh-modal-box .actions{display:flex;gap:8px;justify-content:flex-end}
+.refresh-modal-box button{padding:8px 14px;font-size:13px;border:none;border-radius:6px;cursor:pointer}
+.refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
+.refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
+.refresh-modal-box a{color:var(--accent-blue)}
+</style></head><body>
 <div class="container">
-<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">← Back to Dashboard</a>
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
 <div class="header">
-<div><span class="ticker-badge">SU.PA</span><span class="segment-badge">Power Distribution / Energy Mgmt</span></div>
-<h1>Schneider Electric</h1>
-<div class="subtitle">Global leader in energy management and automation. EcoStruxure platform for DC power management. €40.2B revenue (record). 18% DC switchgear market share.</div>
-<div class="rating-box buy">
-Analyst Consensus: Buy — Avg Target: €276-305 (avg)
-</div>
-<div style="margin-top:12px;">
-<span style="font-size:12px;color:var(--text-secondary);">DC Power Investment Attractiveness Score: 7/10</span>
-<div class="score-bar"><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot filled green"></div><div class="score-dot"></div><div class="score-dot"></div><div class="score-dot"></div></div>
-</div>
-</div>
+<div><h1>🟡 Schneider Electric</h1></div>
+<div style="display:flex;align-items:center;gap:12px">
+<span class="ticker">SNEXF</span>
+<span class="rating">Buy</span>
+<span class="staleness-badge stale-aging">Updated 14d ago</span>
+</div></div>
+<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">N/A</div></div></div><div class="section">
+<h3>Company Profile</h3>
+<p><strong>Sector:</strong> Electricity</p>
+<p><strong>Sub-sector:</strong> Grid Equipment & Power Distribution</p>
+<p><strong>DC Revenue Exposure:</strong> 30%+</p>
+<p><strong>Rating:</strong> 🟡 Buy</p>
+</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-SNEXF" data-workflow="refresh-section.yml" data-inputs='{"ticker":"SNEXF","section":"thesis"}' data-status-id="refresh-status-thesis-SNEXF" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-SNEXF"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Global leader in power management and automation for datacenters. Galaxy UPS systems, PDUs, and building management.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-SNEXF" data-workflow="refresh-section.yml" data-inputs='{"ticker":"SNEXF","section":"catalysts"}' data-status-id="refresh-status-catalysts-SNEXF" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-SNEXF"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Datacenter power management demand</p><p>&bull; Edge computing deployments</p><p>&bull; Sustainability solutions</p><p>&bull; Digital twin technology</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-SNEXF" data-workflow="refresh-section.yml" data-inputs='{"ticker":"SNEXF","section":"risks"}' data-status-id="refresh-status-risks-SNEXF" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-SNEXF"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Currency exposure</p><p>&bull; Integration complexity</p><p>&bull; Competition from Eaton/Vertiv</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-SNEXF" data-workflow="refresh-section.yml" data-inputs='{"ticker":"SNEXF","section":"sources"}' data-status-id="refresh-status-sources-SNEXF" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-SNEXF"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>Schneider Electric (SNEXF) - Investment Report &bull; Data as of 2026-04-27 &bull; Not investment advice.</footer>
+<script>
+(function(){
+  const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
+  const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
+  const API="https://api.github.com";
+  const PAT_KEY="gh_pat_v1";
 
-<div class="metrics-grid"><div class="metric-card">
-            <div class="label">Revenue (2025)</div>
-            <div class="value">€40.2B</div>
-            <div class="sub">+8.9% organic</div>
-        </div><div class="metric-card">
-            <div class="label">Adj. EBITA</div>
-            <div class="value">€7.52B</div>
-            <div class="sub">Margin: 18.7%</div>
-        </div><div class="metric-card">
-            <div class="label">Net Income</div>
-            <div class="value">€4.16B</div>
-            <div class="sub">FCF: €4.6B (111% conv.)</div>
-        </div><div class="metric-card">
-            <div class="label">Trailing P/E</div>
-            <div class="value">34.1x</div>
-            <div class="sub">Forward: 28.1x</div>
-        </div><div class="metric-card">
-            <div class="label">Mkt Cap</div>
-            <div class="value">~€154B</div>
-            <div class="sub"></div>
-        </div><div class="metric-card">
-            <div class="label">Dividend</div>
-            <div class="value">€4.20/sh</div>
-            <div class="sub">+8% YoY</div>
-        </div></div>
+  function getPAT(){return localStorage.getItem(PAT_KEY)||"";}
+  function setPAT(v){if(v)localStorage.setItem(PAT_KEY,v);else localStorage.removeItem(PAT_KEY);}
 
-<div class="section">
-<h2>Financial Overview</h2>
-<table class="fin-table"><thead><tr><th>Metric</th><th>2024</th><th>2025</th><th>2026E</th></tr></thead><tbody><tr><td><strong>Revenue</strong></td><td>€36.9B</td><td>€40.2B</td><td>€43-44B (+7-10% org.)</td></tr><tr><td><strong>Adj. EBITA</strong></td><td>€6.7B</td><td>€7.52B</td><td>+10-15% growth</td></tr><tr><td><strong>EBITA Margin</strong></td><td>18.2%</td><td>18.7%</td><td>19.2-19.5%</td></tr><tr><td><strong>EPS</strong></td><td>€8.00</td><td>€8.59</td><td>~€9.5</td></tr><tr><td><strong>Free Cash Flow</strong></td><td>€4.0B</td><td>€4.6B</td><td>Growing</td></tr><tr><td><strong>Dividend/Share</strong></td><td>€3.90</td><td>€4.20</td><td>~€4.55</td></tr></tbody></table>
-</div>
+  function ensureModal(){
+    if(document.getElementById('refresh-modal'))return;
+    const m=document.createElement('div');
+    m.id='refresh-modal';m.className='refresh-modal';
+    m.innerHTML=`<div class="refresh-modal-box">
+      <h3>GitHub Personal Access Token</h3>
+      <p>To trigger refresh workflows from this page, paste a fine-grained PAT with <strong>Actions: read & write</strong> permission on <code>${OWNER}/${REPO}</code>.</p>
+      <p>Create one at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a> &mdash; scope to this repo only.</p>
+      <input id="refresh-pat-input" type="password" placeholder="github_pat_..." autocomplete="off">
+      <div class="actions">
+        <button class="secondary" id="refresh-pat-clear">Clear stored token</button>
+        <button class="secondary" id="refresh-pat-cancel">Cancel</button>
+        <button class="primary" id="refresh-pat-save">Save & continue</button>
+      </div></div>`;
+    document.body.appendChild(m);
+    document.getElementById('refresh-pat-cancel').onclick=()=>closeModal(null);
+    document.getElementById('refresh-pat-clear').onclick=()=>{setPAT("");closeModal(null);};
+    document.getElementById('refresh-pat-save').onclick=()=>{
+      const v=document.getElementById('refresh-pat-input').value.trim();
+      if(v){setPAT(v);closeModal(v);}else closeModal(null);
+    };
+  }
+  let modalResolve=null;
+  function openModal(){
+    ensureModal();
+    const cur=getPAT();
+    document.getElementById('refresh-pat-input').value=cur;
+    document.getElementById('refresh-modal').classList.add('open');
+    return new Promise(r=>{modalResolve=r;});
+  }
+  function closeModal(v){
+    document.getElementById('refresh-modal').classList.remove('open');
+    if(modalResolve){modalResolve(v);modalResolve=null;}
+  }
 
-<div class="section">
-<h2>Business Overview & DC Power Thesis</h2>
+  async function requirePAT(){
+    let pat=getPAT();
+    if(pat)return pat;
+    pat=await openModal();
+    return pat;
+  }
 
-    <p><strong>Core thesis:</strong> Schneider is the global leader in energy management with the broadest product portfolio for datacenter power — from medium-voltage switchgear to UPS to intelligent PDUs. Its EcoStruxure platform provides software-defined energy management that hyperscalers increasingly demand.</p>
-    
-</div>
+  async function ghFetch(path,opts={}){
+    const pat=getPAT();
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})};
+    if(pat)headers['Authorization']='Bearer '+pat;
+    const r=await fetch(API+path,{...opts,headers});
+    return r;
+  }
 
-<div class="section">
-<h2>Investment Attractiveness — Pros & Cons</h2>
-<div class="pros-cons">
-<div class="pros"><h3>Bull Case</h3><ul><li>Broadest DC power product portfolio globally</li><li>18.7% EBITA margin with 50-80bp expansion guided</li><li>€4.6B FCF with 111% conversion rate</li><li>Strong dividend growth (8% YoY)</li><li>18% DC switchgear market share — #1 position</li></ul></div>
-<div class="cons"><h3>Bear Case</h3><ul><li>European-listed, less accessible for US investors</li><li>Broad industrial conglomerate — DC is part of larger business</li><li>Forward P/E of 28x not cheap for diversified industrial</li><li>Currency risk (EUR-denominated)</li></ul></div>
-</div>
-</div>
+  async function dispatch(workflow,inputs){
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/dispatches`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:inputs||{}})
+    });
+    if(!r.ok){const t=await r.text();throw new Error(`Dispatch failed: ${r.status} ${t}`);}
+    return true;
+  }
 
-<div class="section">
-<h2>Peer Comparison & Relative Valuation</h2>
-<p>See Eaton report for peer comparison table. Schneider trades at a similar P/E to Eaton (34x) with higher absolute revenue but slightly lower margin. Both are well-positioned for DC power demand.</p>
-</div>
+  async function findLatestRun(workflow){
+    // Look for the most recent run of this workflow within the last 60s
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/runs?per_page=5&event=workflow_dispatch`);
+    if(!r.ok)return null;
+    const j=await r.json();
+    if(!j.workflow_runs||!j.workflow_runs.length)return null;
+    // Pick the run we likely just triggered: created within the last 90s
+    const now=Date.now();
+    for(const run of j.workflow_runs){
+      if(now-new Date(run.created_at).getTime()<90000)return run;
+    }
+    return j.workflow_runs[0];
+  }
 
-<div class="footnotes">
-<h3>Sources</h3>
-<ol><li><a href="https://www.se.com/ww/en/about-us/investor-relations/financial-results.jsp" target="_blank">Schneider FY2025 Results</a></li><li><a href="https://finance.yahoo.com/quote/SU.PA/" target="_blank">SU.PA Stock - Yahoo Finance</a></li></ol>
-</div>
-<footer>AI Datacenter Electricity Supply — Investment Landscape • Research compiled April 2026 • Not investment advice</footer>
-</div>
-</body></html>
+  async function pollRun(runId,onUpdate){
+    while(true){
+      const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/runs/${runId}`);
+      if(!r.ok)throw new Error('Poll failed');
+      const j=await r.json();
+      onUpdate&&onUpdate(j);
+      if(j.status==='completed')return j;
+      await new Promise(res=>setTimeout(res,4000));
+    }
+  }
+
+  function fmtTime(d){
+    const dt=(typeof d==='string')?new Date(d):d;
+    return dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
+
+  function setBtnState(btn,state,text){
+    btn.classList.remove('status-running','status-success','status-failed');
+    if(state)btn.classList.add('status-'+state);
+    const label=btn.querySelector('.refresh-label');
+    if(label)label.textContent=text||label.dataset.idle||'Refresh';
+    btn.disabled=(state==='running');
+  }
+
+  async function onClick(btn){
+    const wf=btn.dataset.workflow;
+    const inputs=btn.dataset.inputs?JSON.parse(btn.dataset.inputs):{};
+    const statusEl=btn.dataset.statusId?document.getElementById(btn.dataset.statusId):null;
+    const idleText=btn.querySelector('.refresh-label')?.textContent||'Refresh';
+    btn.querySelector('.refresh-label')&&(btn.querySelector('.refresh-label').dataset.idle=idleText);
+
+    const pat=await requirePAT();
+    if(!pat){if(statusEl)statusEl.innerHTML='<span class="err">No token, cancelled.</span>';return;}
+
+    try{
+      setBtnState(btn,'running','Dispatching…');
+      if(statusEl)statusEl.innerHTML='Triggering workflow…';
+      await dispatch(wf,inputs);
+      // Wait for run to appear
+      await new Promise(r=>setTimeout(r,2500));
+      const run=await findLatestRun(wf);
+      if(!run){throw new Error('Run not found after dispatch');}
+      setBtnState(btn,'running','Running…');
+      if(statusEl)statusEl.innerHTML=`Run <a href="${run.html_url}" target="_blank">#${run.run_number}</a> queued…`;
+
+      const final=await pollRun(run.id,(j)=>{
+        if(statusEl){
+          const status=j.status==='in_progress'?'Running':j.status;
+          statusEl.innerHTML=`Run <a href="${j.html_url}" target="_blank">#${j.run_number}</a>: ${status}`;
+        }
+      });
+
+      const ok=(final.conclusion==='success');
+      setBtnState(btn,ok?'success':'failed',ok?'✓ Done':'✗ Failed');
+      if(statusEl){
+        statusEl.innerHTML=ok
+          ? `<span class="ok">Updated ${fmtTime(final.updated_at)}</span> &middot; <a href="${final.html_url}" target="_blank">log</a>`
+          : `<span class="err">Failed — see <a href="${final.html_url}" target="_blank">log</a></span>`;
+      }
+      // After success, reload after a short delay so the user sees fresh content
+      if(ok)setTimeout(()=>location.reload(),3000);
+    }catch(e){
+      setBtnState(btn,'failed','✗ Error');
+      if(statusEl)statusEl.innerHTML=`<span class="err">${e.message}</span>`;
+      console.error(e);
+    }
+  }
+
+  function wire(){
+    document.querySelectorAll('.refresh-btn').forEach(btn=>{
+      if(btn.dataset.wired)return;
+      btn.dataset.wired='1';
+      btn.addEventListener('click',()=>onClick(btn));
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire);
+  else wire();
+  window.__refreshUIWire=wire;
+})();
+</script>
+</div></body></html>

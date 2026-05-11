@@ -1,284 +1,233 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SK Hynix — AI DC Investment Report</title>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
+<title>SK Hynix (000660.KS) - Investment Report</title>
 <style>
-:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#fff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--radius:10px;--gap:16px;}
-*{margin:0;padding:0;box-sizing:border-box;}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6;padding:var(--gap);}.container{max-width:1200px;margin:0 auto;}.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px;}.back-link:hover{text-decoration:underline;}.header{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px 28px;margin-bottom:var(--gap);}.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark);}.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:4px;}.ticker-badge{display:inline-block;background:rgba(76,139,245,0.15);color:var(--accent-blue);padding:4px 12px;border-radius:6px;font-weight:700;font-size:14px;margin-left:12px;}.rating-badge{display:inline-block;padding:6px 16px;border-radius:8px;font-weight:700;font-size:14px;margin-top:12px;}.rating-strong-buy{background:rgba(52,168,83,0.2);color:#34A853;}.rating-buy{background:rgba(52,168,83,0.15);color:#66BB6A;}.rating-hold{background:rgba(249,171,0,0.2);color:#F9AB00;}.rating-sell{background:rgba(234,67,53,0.2);color:#EA4335;}.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:var(--gap);margin-bottom:var(--gap);}.kpi-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;}.kpi-label{font-size:11px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;}.kpi-value{font-size:24px;font-weight:700;color:var(--text-on-dark);}.kpi-sub{font-size:12px;color:var(--text-secondary);margin-top:2px;}.section{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:var(--gap);}.section h2{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid var(--border);}.section h3{font-size:14px;font-weight:600;color:var(--accent-blue);margin:16px 0 8px;}.section p{font-size:13px;color:var(--text-secondary);margin-bottom:8px;}.data-table{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0;}.data-table th{text-align:left;padding:8px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-size:11px;text-transform:uppercase;}.data-table td{padding:8px 12px;border-bottom:1px solid var(--border);}.data-table tr:hover{background:var(--bg-hover);}.positive{color:var(--accent-green);}.negative{color:var(--accent-red);}.footnotes{margin-top:24px;padding-top:16px;border-top:1px solid var(--border);}.footnotes h3{font-size:13px;color:var(--text-secondary);margin-bottom:8px;}.footnotes ol{font-size:11px;color:var(--text-secondary);padding-left:20px;}.footnotes li{margin-bottom:4px;}.footnotes a{color:var(--accent-blue);text-decoration:none;}.footnotes a:hover{text-decoration:underline;}footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;margin-top:24px;border-top:1px solid var(--border);}
-</style></head><body><div class="container">
-<a href="../AI_Datacenter_Investment_Landscape.html" class="back-link">← Back to Dashboard</a>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1000px;margin:0 auto;padding:var(--gap)}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.header{background:linear-gradient(135deg,#1a1d28,#0f1117);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .ticker{font-size:14px;padding:4px 12px;border-radius:6px;background:rgba(76,139,245,0.15);color:var(--accent-blue);font-weight:700}
+.header .rating{font-size:18px}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--gap);margin-bottom:var(--gap)}
+.kpi-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;text-align:center}
+.kpi-label{font-size:10px;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
+.kpi-value{font-size:20px;font-weight:700;color:var(--text-on-dark)}
+.section{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:var(--gap)}
+.section h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--accent-blue)}
+.section p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.staleness-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;margin-left:12px}
+.stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
+.stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
+.stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
+.source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
+footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
 
+.refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
+.refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
+.refresh-btn:disabled{opacity:.7;cursor:wait}
+.refresh-btn.status-success{background:rgba(58,184,103,0.15);color:#3AB867;border-color:#3AB867}
+.refresh-btn.status-failed{background:rgba(232,84,84,0.15);color:#E85454;border-color:#E85454}
+.refresh-btn.status-running{background:rgba(75,134,255,0.15);color:#4B86FF;border-color:#4B86FF}
+.refresh-spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:rspin .8s linear infinite}
+@keyframes rspin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:11px;color:var(--text-secondary);margin-left:8px}
+.refresh-status .ok{color:#3AB867}
+.refresh-status .err{color:#E85454}
+.refresh-modal{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:9999}
+.refresh-modal.open{display:flex}
+.refresh-modal-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;max-width:520px;width:90%;color:var(--text-primary)}
+.refresh-modal-box h3{margin:0 0 12px}
+.refresh-modal-box p{font-size:13px;color:var(--text-secondary);margin:8px 0}
+.refresh-modal-box input{width:100%;padding:8px 10px;background:var(--bg-primary);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-family:monospace;font-size:12px;margin:8px 0 16px}
+.refresh-modal-box .actions{display:flex;gap:8px;justify-content:flex-end}
+.refresh-modal-box button{padding:8px 14px;font-size:13px;border:none;border-radius:6px;cursor:pointer}
+.refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
+.refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
+.refresh-modal-box a{color:var(--accent-blue)}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
 <div class="header">
-  <h1>SK Hynix <span class="ticker-badge">000660.KS</span></h1>
-  <p class="subtitle">High-Bandwidth Memory leader driving AI datacenter boom</p>
-  <div class="rating-badge rating-strong-buy">🟢 STRONG BUY</div>
-</div>
+<div><h1>🟡 SK Hynix</h1></div>
+<div style="display:flex;align-items:center;gap:12px">
+<span class="ticker">000660.KS</span>
+<span class="rating">Buy</span>
+<span class="staleness-badge stale-aging">Updated 14d ago</span>
+</div></div>
+<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$819B</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$1153.66</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">N/A</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$90.4B</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">198.1%</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">71.5%</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">12.6x</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">0.12</div></div></div><div class="section">
+<h3>Company Profile</h3>
+<p><strong>Sector:</strong> Dc Hardware</p>
+<p><strong>Sub-sector:</strong> Memory (HBM/DRAM)</p>
+<p><strong>DC Revenue Exposure:</strong> 50%+</p>
+<p><strong>Rating:</strong> 🟡 Buy</p>
+</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-000660.KS" data-workflow="refresh-section.yml" data-inputs='{"ticker":"000660.KS","section":"thesis"}' data-status-id="refresh-status-thesis-000660.KS" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-000660.KS"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Leading HBM manufacturer and NVIDIA's primary HBM supplier. HBM3E production leader with strong pricing power.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-000660.KS" data-workflow="refresh-section.yml" data-inputs='{"ticker":"000660.KS","section":"catalysts"}' data-status-id="refresh-status-catalysts-000660.KS" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-000660.KS"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; HBM3E leadership</p><p>&bull; NVIDIA primary supplier status</p><p>&bull; AI memory demand growth</p><p>&bull; HBM4 early development</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-000660.KS" data-workflow="refresh-section.yml" data-inputs='{"ticker":"000660.KS","section":"risks"}' data-status-id="refresh-status-risks-000660.KS" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-000660.KS"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Cyclical memory pricing</p><p>&bull; Samsung catching up</p><p>&bull; Customer concentration</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-000660.KS" data-workflow="refresh-section.yml" data-inputs='{"ticker":"000660.KS","section":"sources"}' data-status-id="refresh-status-sources-000660.KS" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-000660.KS"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>SK Hynix (000660.KS) - Investment Report &bull; Data as of 2026-04-27 &bull; Not investment advice.</footer>
+<script>
+(function(){
+  const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
+  const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
+  const API="https://api.github.com";
+  const PAT_KEY="gh_pat_v1";
 
-<div class="kpi-row">
-  <div class="kpi-card">
-    <div class="kpi-label">Market Cap</div>
-    <div class="kpi-value">$465B</div>
-    <div class="kpi-sub">₩698T (KRW)</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Stock Price</div>
-    <div class="kpi-value">$780</div>
-    <div class="kpi-sub">₩1,166K (22 Apr)</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">P/E (TTM)</div>
-    <div class="kpi-value">17.8x</div>
-    <div class="kpi-sub">Forward: ~12x est.</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Revenue TTM</div>
-    <div class="kpi-value">$155B</div>
-    <div class="kpi-sub">52.6T won (Q1)</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Revenue Growth</div>
-    <div class="kpi-value"><span class="positive">+198% YoY</span></div>
-    <div class="kpi-sub">Q1 2026 vs Q1 2025</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Gross Margin</div>
-    <div class="kpi-value"><span class="positive">~72%</span></div>
-    <div class="kpi-sub">Operating margin Q1</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Dividend Yield</div>
-    <div class="kpi-value">~2.1%</div>
-    <div class="kpi-sub">Regular + special</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-label">Upside Potential</div>
-    <div class="kpi-value"><span class="positive">+22.4%</span></div>
-    <div class="kpi-sub">Analyst target</div>
-  </div>
-</div>
+  function getPAT(){return localStorage.getItem(PAT_KEY)||"";}
+  function setPAT(v){if(v)localStorage.setItem(PAT_KEY,v);else localStorage.removeItem(PAT_KEY);}
 
-<div class="section">
-  <h2>Financial Summary</h2>
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th>Metric</th>
-        <th>Q1 2026</th>
-        <th>Q1 2025</th>
-        <th>YoY Change</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Revenue (KRW)</td>
-        <td>52.6T</td>
-        <td>17.6T</td>
-        <td><span class="positive">+198%</span></td>
-      </tr>
-      <tr>
-        <td>Operating Profit (KRW)</td>
-        <td>37.6T</td>
-        <td>1.2T</td>
-        <td><span class="positive">+3,033%</span></td>
-      </tr>
-      <tr>
-        <td>Net Income (KRW)</td>
-        <td>40.4T</td>
-        <td>1.0T</td>
-        <td><span class="positive">+3,935%</span></td>
-      </tr>
-      <tr>
-        <td>Operating Margin</td>
-        <td>72%</td>
-        <td>7%</td>
-        <td><span class="positive">+65 pts</span></td>
-      </tr>
-      <tr>
-        <td>Net Margin</td>
-        <td>77%</td>
-        <td>6%</td>
-        <td><span class="positive">+71 pts</span></td>
-      </tr>
-    </tbody>
-  </table>
-  <p style="margin-top: 12px; font-size: 12px;">All KRW figures converted to USD at ~1,390 KRW/USD for comparison. Highest quarterly profits on record for the company.</p>
-</div>
+  function ensureModal(){
+    if(document.getElementById('refresh-modal'))return;
+    const m=document.createElement('div');
+    m.id='refresh-modal';m.className='refresh-modal';
+    m.innerHTML=`<div class="refresh-modal-box">
+      <h3>GitHub Personal Access Token</h3>
+      <p>To trigger refresh workflows from this page, paste a fine-grained PAT with <strong>Actions: read & write</strong> permission on <code>${OWNER}/${REPO}</code>.</p>
+      <p>Create one at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a> &mdash; scope to this repo only.</p>
+      <input id="refresh-pat-input" type="password" placeholder="github_pat_..." autocomplete="off">
+      <div class="actions">
+        <button class="secondary" id="refresh-pat-clear">Clear stored token</button>
+        <button class="secondary" id="refresh-pat-cancel">Cancel</button>
+        <button class="primary" id="refresh-pat-save">Save & continue</button>
+      </div></div>`;
+    document.body.appendChild(m);
+    document.getElementById('refresh-pat-cancel').onclick=()=>closeModal(null);
+    document.getElementById('refresh-pat-clear').onclick=()=>{setPAT("");closeModal(null);};
+    document.getElementById('refresh-pat-save').onclick=()=>{
+      const v=document.getElementById('refresh-pat-input').value.trim();
+      if(v){setPAT(v);closeModal(v);}else closeModal(null);
+    };
+  }
+  let modalResolve=null;
+  function openModal(){
+    ensureModal();
+    const cur=getPAT();
+    document.getElementById('refresh-pat-input').value=cur;
+    document.getElementById('refresh-modal').classList.add('open');
+    return new Promise(r=>{modalResolve=r;});
+  }
+  function closeModal(v){
+    document.getElementById('refresh-modal').classList.remove('open');
+    if(modalResolve){modalResolve(v);modalResolve=null;}
+  }
 
-<div class="section">
-  <h2>Valuation Analysis</h2>
-  <h3>Multiples vs Semiconductor Peers</h3>
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th>Metric</th>
-        <th>SK Hynix</th>
-        <th>Micron</th>
-        <th>Samsung DS</th>
-        <th>Sector Avg</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>P/E (Trailing)</td>
-        <td>17.8x</td>
-        <td>21.1x</td>
-        <td>29.6x</td>
-        <td>22.8x</td>
-      </tr>
-      <tr>
-        <td>P/E (Forward Est.)</td>
-        <td>~12x</td>
-        <td>8.5x</td>
-        <td>~8.5x</td>
-        <td>~9.7x</td>
-      </tr>
-      <tr>
-        <td>P/S (TTM)</td>
-        <td>3.0x</td>
-        <td>6.8x</td>
-        <td>2.1x</td>
-        <td>4.0x</td>
-      </tr>
-      <tr>
-        <td>EV/EBITDA</td>
-        <td>~4.5x</td>
-        <td>7.2x</td>
-        <td>~5.8x</td>
-        <td>5.8x</td>
-      </tr>
-    </tbody>
-  </table>
-  <p style="margin-top: 12px;"><strong>Valuation Assessment:</strong> SK Hynix trades at a discount to Micron on P/E despite superior margins, reflecting some market caution. The forward P/E of ~12x is reasonable given 100%+ revenue growth and industry-leading 72% operating margins. Significant upside optionality as HBM4 ramps.</p>
-</div>
+  async function requirePAT(){
+    let pat=getPAT();
+    if(pat)return pat;
+    pat=await openModal();
+    return pat;
+  }
 
-<div class="section">
-  <h2>AI Datacenter Exposure</h2>
+  async function ghFetch(path,opts={}){
+    const pat=getPAT();
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})};
+    if(pat)headers['Authorization']='Bearer '+pat;
+    const r=await fetch(API+path,{...opts,headers});
+    return r;
+  }
 
-  <h3>HBM Market Leadership</h3>
-  <p>SK Hynix commands <strong>62% market share</strong> of High-Bandwidth Memory (HBM) as of Q2 2025, with Micron at 21% and Samsung at 17%. The company is projected to secure approximately <strong>70% of NVIDIA Rubin (HBM4) platform</strong> volume in 2026—an unprecedented concentration of the fastest-growing AI memory segment.</p>
+  async function dispatch(workflow,inputs){
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/dispatches`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:inputs||{}})
+    });
+    if(!r.ok){const t=await r.text();throw new Error(`Dispatch failed: ${r.status} ${t}`);}
+    return true;
+  }
 
-  <h3>Product Roadmap & Capacity Ramp</h3>
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th>Generation</th>
-        <th>Status (Apr 2026)</th>
-        <th>Bandwidth/Key Feature</th>
-        <th>Ramp Timeline</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>HBM3E</td>
-        <td>Mass production</td>
-        <td>6.4 Tbps, 36GB</td>
-        <td>~2/3 of 2026 volumes</td>
-      </tr>
-      <tr>
-        <td>HBM4</td>
-        <td>Ramping Q1/Q2 2026</td>
-        <td>11.7 Gbps, industry-leading perf</td>
-        <td>Accelerating through 2026</td>
-      </tr>
-      <tr>
-        <td>HBM4E</td>
-        <td>Announced, targeting 2027</td>
-        <td>1c-nanometer node</td>
-        <td>Next-gen leadership position</td>
-      </tr>
-    </tbody>
-  </table>
+  async function findLatestRun(workflow){
+    // Look for the most recent run of this workflow within the last 60s
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/runs?per_page=5&event=workflow_dispatch`);
+    if(!r.ok)return null;
+    const j=await r.json();
+    if(!j.workflow_runs||!j.workflow_runs.length)return null;
+    // Pick the run we likely just triggered: created within the last 90s
+    const now=Date.now();
+    for(const run of j.workflow_runs){
+      if(now-new Date(run.created_at).getTime()<90000)return run;
+    }
+    return j.workflow_runs[0];
+  }
 
-  <h3>Competitive Moat</h3>
-  <ul style="margin: 12px 0; padding-left: 20px; color: var(--text-secondary); font-size: 13px;">
-    <li style="margin-bottom: 6px;"><strong>Technology leadership:</strong> First to market with advanced HBM4E node using 1c-nanometer process</li>
-    <li style="margin-bottom: 6px;"><strong>Supply lock-in:</strong> Major AI GPU customers (NVIDIA, AMD) have long-term supply agreements; capacity fully sold through 2026</li>
-    <li style="margin-bottom: 6px;"><strong>Capacity constraints:</strong> Demand far exceeds supply over next 3 years; industry shortage dynamics support pricing power</li>
-    <li style="margin-bottom: 6px;"><strong>Customer diversification:</strong> Serving all major GPU/AI chipmakers (NVIDIA, AMD, custom chips)</li>
-  </ul>
+  async function pollRun(runId,onUpdate){
+    while(true){
+      const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/runs/${runId}`);
+      if(!r.ok)throw new Error('Poll failed');
+      const j=await r.json();
+      onUpdate&&onUpdate(j);
+      if(j.status==='completed')return j;
+      await new Promise(res=>setTimeout(res,4000));
+    }
+  }
 
-  <h3>HBM Business Impact</h3>
-  <p>HBM now represents the largest driver of Q1 2026 profitability surge, with DRAM and NAND also benefiting from AI datacenter demand. Management stated that HBM demand over next 3 years will "far exceed current capacity"—a rare statement indicating structural supply shortage.</p>
-</div>
+  function fmtTime(d){
+    const dt=(typeof d==='string')?new Date(d):d;
+    return dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
 
-<div class="section">
-  <h2>Growth Catalysts</h2>
-  <ul style="margin: 12px 0; padding-left: 20px; color: var(--text-secondary); font-size: 13px;">
-    <li style="margin-bottom: 8px;"><strong>HBM4 ramp acceleration:</strong> Ramping Q1-Q2 2026; expected to grow from low volumes to material percentage of revenue by H2 2026</li>
-    <li style="margin-bottom: 8px;"><strong>DRAM pricing resilience:</strong> AI server demand sustaining elevated DRAM prices; inventory normalization slower than feared</li>
-    <li style="margin-bottom: 8px;"><strong>NAND recovery:</strong> AI storage and enterprise data center upgrades driving NAND demand; ASP improvement from AI workloads</li>
-    <li style="margin-bottom: 8px;"><strong>Capacity expansion:</strong> Investing in new lines to relieve bottleneck; multi-year visibility on demand supports CapEx ROI</li>
-    <li style="margin-bottom: 8px;"><strong>ASP expansion:</strong> HBM commands 10-15x premium pricing vs. standard DRAM; mix shift drives margins higher</li>
-  </ul>
-</div>
+  function setBtnState(btn,state,text){
+    btn.classList.remove('status-running','status-success','status-failed');
+    if(state)btn.classList.add('status-'+state);
+    const label=btn.querySelector('.refresh-label');
+    if(label)label.textContent=text||label.dataset.idle||'Refresh';
+    btn.disabled=(state==='running');
+  }
 
-<div class="section">
-  <h2>Risks & Concerns</h2>
-  <ul style="margin: 12px 0; padding-left: 20px; color: var(--text-secondary); font-size: 13px;">
-    <li style="margin-bottom: 8px;"><strong>Valuation compression risk:</strong> If AI capex growth slows or HBM supply improves faster than expected, multiples could re-rate lower</li>
-    <li style="margin-bottom: 8px;"><strong>Competitive catch-up:</strong> Micron and Samsung improving HBM quality; Samsung first to ship HBM4, competing on price/performance</li>
-    <li style="margin-bottom: 8px;"><strong>Customer concentration:</strong> NVIDIA GPUs dominate AI datacenter; if NVIDIA faces demand shock, major headwind for HBM suppliers</li>
-    <li style="margin-bottom: 8px;"><strong>Geopolitical risks:</strong> South Korean memory manufacturer exposed to US-China tensions, export controls, tariffs</li>
-    <li style="margin-bottom: 8px;"><strong>Cyclicality:</strong> Memory chip pricing history shows boom/bust cycles; current supercycle could reverse if demand softens</li>
-    <li style="margin-bottom: 8px;"><strong>CapEx requirements:</strong> Maintaining market share requires massive fab investments; profitability supports this but competition from Samsung, Micron pressure margins</li>
-  </ul>
-</div>
+  async function onClick(btn){
+    const wf=btn.dataset.workflow;
+    const inputs=btn.dataset.inputs?JSON.parse(btn.dataset.inputs):{};
+    const statusEl=btn.dataset.statusId?document.getElementById(btn.dataset.statusId):null;
+    const idleText=btn.querySelector('.refresh-label')?.textContent||'Refresh';
+    btn.querySelector('.refresh-label')&&(btn.querySelector('.refresh-label').dataset.idle=idleText);
 
-<div class="section">
-  <h2>Analyst Consensus</h2>
-  <table class="data-table">
-    <thead>
-      <tr>
-        <th>Metric</th>
-        <th>Value</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Buy Recommendations</td>
-        <td>36 analysts</td>
-      </tr>
-      <tr>
-        <td>Hold Recommendations</td>
-        <td>0 analysts</td>
-      </tr>
-      <tr>
-        <td>Sell Recommendations</td>
-        <td>1 analyst</td>
-      </tr>
-      <tr>
-        <td>Consensus Rating</td>
-        <td><strong>STRONG BUY</strong></td>
-      </tr>
-      <tr>
-        <td>Average Price Target</td>
-        <td>₩1,428K (~$1,026 USD)</td>
-      </tr>
-      <tr>
-        <td>Upside from Current</td>
-        <td><span class="positive">+22.4%</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    const pat=await requirePAT();
+    if(!pat){if(statusEl)statusEl.innerHTML='<span class="err">No token, cancelled.</span>';return;}
 
-<div class="section">
-  <h2>Investment Thesis</h2>
+    try{
+      setBtnState(btn,'running','Dispatching…');
+      if(statusEl)statusEl.innerHTML='Triggering workflow…';
+      await dispatch(wf,inputs);
+      // Wait for run to appear
+      await new Promise(r=>setTimeout(r,2500));
+      const run=await findLatestRun(wf);
+      if(!run){throw new Error('Run not found after dispatch');}
+      setBtnState(btn,'running','Running…');
+      if(statusEl)statusEl.innerHTML=`Run <a href="${run.html_url}" target="_blank">#${run.run_number}</a> queued…`;
 
-  <p><strong>SK Hynix is the premier play on the AI datacenter memory supercycle.</strong> With 62% HBM market share and a projected 70% of the next-gen Rubin platform, the company is positioned to capture the vast majority of incremental AI memory demand. Q1 2026 results demonstrate the magnitude of the opportunity: 198% YoY revenue growth, 72% operating margins, and record profits despite starting from a profitable base in 2025.</p>
+      const final=await pollRun(run.id,(j)=>{
+        if(statusEl){
+          const status=j.status==='in_progress'?'Running':j.status;
+          statusEl.innerHTML=`Run <a href="${j.html_url}" target="_blank">#${j.run_number}</a>: ${status}`;
+        }
+      });
 
-  <p><strong>Valuation is compelling on a forward basis.</strong> At 12x forward P/E with 100%+ revenue growth and margins expanding toward 70%, SK Hynix trades at a discount to Micron despite superior fundamentals. The company's capacity is fully sold through 2026, with management guiding that demand will exceed supply for years. This supply constraint is rare and valuable in cyclical memory markets, supporting pricing power and margin sustainability.</p>
+      const ok=(final.conclusion==='success');
+      setBtnState(btn,ok?'success':'failed',ok?'✓ Done':'✗ Failed');
+      if(statusEl){
+        statusEl.innerHTML=ok
+          ? `<span class="ok">Updated ${fmtTime(final.updated_at)}</span> &middot; <a href="${final.html_url}" target="_blank">log</a>`
+          : `<span class="err">Failed — see <a href="${final.html_url}" target="_blank">log</a></span>`;
+      }
+      // After success, reload after a short delay so the user sees fresh content
+      if(ok)setTimeout(()=>location.reload(),3000);
+    }catch(e){
+      setBtnState(btn,'failed','✗ Error');
+      if(statusEl)statusEl.innerHTML=`<span class="err">${e.message}</span>`;
+      console.error(e);
+    }
+  }
 
-  <p><strong>Execution risks are manageable, but entry timing matters.</strong> Competitive threats from Samsung (first to ship HBM4) and Micron (ramp acceleration) are real, but SK Hynix's process technology leadership (1c-nanometer HBM4E in 2027) and customer lock-in via long-term agreements provide durable competitive advantages. A re-rating upward is likely if management can demonstrate sustained 70%+ operating margins and successful HBM4E transition. However, memory cycles do reverse—valuation support from continued demand growth is critical to the bull thesis.</p>
-</div>
-
-<div class="footnotes">
-  <h3>Sources & References</h3>
-  <ol>
-    <li><a href="https://news.skhynix.com/q1-2026-business-results/">SK hynix Q1 2026 Financial Results</a> — SK Hynix News</li>
-    <li><a href="https://www.digitimes.com/news/a20260423VL200/sk-hynix-profit-revenue-2026-operating-profit.html">SK hynix hits 72% operating margin in Q1</a> — DigiTimes</li>
-    <li><a href="https://finance.yahoo.com/quote/000660.KS/key-statistics/">SK Hynix Inc Valuation Measures</a> — Yahoo Finance</li>
-    <li><a href="https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/">SK hynix holds 62% of HBM market share</a> — Astute Group</li>
-    <li><a href="https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/">2026 Market Outlook: HBM-led Memory Supercycle</a> — SK Hynix</li>
-  </ol>
-</div>
-
-</div><footer>AI Datacenter Investment Landscape — Company Report • April 2026 • Not investment advice.</footer></body></html>
+  function wire(){
+    document.querySelectorAll('.refresh-btn').forEach(btn=>{
+      if(btn.dataset.wired)return;
+      btn.dataset.wired='1';
+      btn.addEventListener('click',()=>onClick(btn));
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire);
+  else wire();
+  window.__refreshUIWire=wire;
+})();
+</script>
+</div></body></html>

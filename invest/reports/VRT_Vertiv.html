@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="gh-owner" content="armanamirzhan"><meta name="gh-repo" content="Investment_Dashboard">
 <title>Vertiv (VRT) - Investment Report</title>
 <style>
 :root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--gap:16px;--radius:10px}
@@ -23,120 +24,210 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .stale-fresh{background:rgba(52,168,83,0.15);color:#34A853}
 .stale-aging{background:rgba(249,171,0,0.15);color:#F9AB00}
 .stale-old{background:rgba(234,67,53,0.15);color:#EA4335}
-.rating-source{background:var(--bg-hover);border:1px solid var(--border);border-radius:8px;padding:12px 16px;margin-top:12px}
-.rating-source .label{font-size:10px;color:var(--accent-purple);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px}
-.rating-source .detail{font-size:12px;color:var(--text-secondary);line-height:1.5}
 .source-note{font-size:11px;color:var(--text-secondary);margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
 footer{text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px}
+
+.refresh-btn{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;font-size:11px;font-weight:500;background:var(--bg-hover);color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s;vertical-align:middle}
+.refresh-btn:hover:not(:disabled){background:var(--accent-blue);color:#fff;border-color:var(--accent-blue)}
+.refresh-btn:disabled{opacity:.7;cursor:wait}
+.refresh-btn.status-success{background:rgba(58,184,103,0.15);color:#3AB867;border-color:#3AB867}
+.refresh-btn.status-failed{background:rgba(232,84,84,0.15);color:#E85454;border-color:#E85454}
+.refresh-btn.status-running{background:rgba(75,134,255,0.15);color:#4B86FF;border-color:#4B86FF}
+.refresh-spinner{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:rspin .8s linear infinite}
+@keyframes rspin{to{transform:rotate(360deg)}}
+.refresh-status{font-size:11px;color:var(--text-secondary);margin-left:8px}
+.refresh-status .ok{color:#3AB867}
+.refresh-status .err{color:#E85454}
+.refresh-modal{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:9999}
+.refresh-modal.open{display:flex}
+.refresh-modal-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;max-width:520px;width:90%;color:var(--text-primary)}
+.refresh-modal-box h3{margin:0 0 12px}
+.refresh-modal-box p{font-size:13px;color:var(--text-secondary);margin:8px 0}
+.refresh-modal-box input{width:100%;padding:8px 10px;background:var(--bg-primary);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-family:monospace;font-size:12px;margin:8px 0 16px}
+.refresh-modal-box .actions{display:flex;gap:8px;justify-content:flex-end}
+.refresh-modal-box button{padding:8px 14px;font-size:13px;border:none;border-radius:6px;cursor:pointer}
+.refresh-modal-box .primary{background:var(--accent-blue);color:#fff}
+.refresh-modal-box .secondary{background:var(--bg-hover);color:var(--text-primary);border:1px solid var(--border)}
+.refresh-modal-box a{color:var(--accent-blue)}
 </style></head><body>
 <div class="container">
 <a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
 <div class="header">
-<div><h1>🟡 Vertiv Holdings</h1></div>
+<div><h1>🟡 Vertiv</h1></div>
 <div style="display:flex;align-items:center;gap:12px">
 <span class="ticker">VRT</span>
 <span class="rating">Buy</span>
-<span class="staleness-badge stale-fresh">Updated 0d ago</span>
+<span class="staleness-badge stale-fresh">Updated 2d ago</span>
 </div></div>
-
-<div class="kpi-row">
-<div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$131B</div></div>
-<div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$340.60</div></div>
-<div class="kpi-card"><div class="kpi-label">Q1 2026 EPS</div><div class="kpi-value">$1.17</div></div>
-<div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$12.9B</div></div>
-<div class="kpi-card"><div class="kpi-label">Q1 Rev Growth</div><div class="kpi-value">+30%</div></div>
-<div class="kpi-card"><div class="kpi-label">Adj Op Margin</div><div class="kpi-value">20.8%</div></div>
-<div class="kpi-card"><div class="kpi-label">Backlog</div><div class="kpi-value">$15.0B</div></div>
-<div class="kpi-card"><div class="kpi-label">Net Leverage</div><div class="kpi-value">0.2x</div></div>
-</div>
-
-<div class="section">
+<div class="kpi-row"><div class="kpi-card"><div class="kpi-label">Market Cap</div><div class="kpi-value">$131B</div></div><div class="kpi-card"><div class="kpi-label">Stock Price</div><div class="kpi-value">$339.97</div></div><div class="kpi-card"><div class="kpi-label">P/E Ratio</div><div class="kpi-value">85.4x</div></div><div class="kpi-card"><div class="kpi-label">Revenue (TTM)</div><div class="kpi-value">$10.8B</div></div><div class="kpi-card"><div class="kpi-label">Rev Growth</div><div class="kpi-value">30.1%</div></div><div class="kpi-card"><div class="kpi-label">Op Margin</div><div class="kpi-value">16.4%</div></div><div class="kpi-card"><div class="kpi-label">EV/EBITDA</div><div class="kpi-value">55.1x</div></div><div class="kpi-card"><div class="kpi-label">D/E Ratio</div><div class="kpi-value">0.77</div></div></div><div class="section">
 <h3>Company Profile</h3>
-<p><strong>Sector:</strong> Datacenter Hardware</p>
-<p><strong>Sub-sector:</strong> Cooling & Thermal Management</p>
+<p><strong>Sector:</strong> Dc Hardware</p>
+<p><strong>Sub-sector:</strong> Cooling & Thermal</p>
 <p><strong>DC Revenue Exposure:</strong> 45-50%</p>
 <p><strong>Rating:</strong> 🟡 Buy</p>
-<div class="rating-source">
-<div class="label">Rating Attribution</div>
-<div class="detail"><strong>Source:</strong> Claude fundamental analysis based on official Vertiv 10-K (FY2025), Q1 2026 earnings release (April 22, 2026), and IR filings.<br>
-<strong>Wall Street Consensus:</strong> Strong Buy (22 Buy, 3 Hold, 0 Sell out of 25 analysts). Average 12-month price target: $339 (range $155–$414).<br>
-<strong>Assessment Date:</strong> May 9, 2026.<br>
-<strong>Methodology:</strong> Fundamental analysis of revenue acceleration, backlog growth, margin expansion, liquid cooling positioning, cash flow inflection, and AI datacenter infrastructure demand. Current price near analyst avg PT — BUY reflects structural multi-year demand tailwind and execution track record.</div>
-</div>
-</div>
+</div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Investment Thesis <button class="refresh-btn" id="refresh-btn-thesis-VRT" data-workflow="refresh-section.yml" data-inputs='{"ticker":"VRT","section":"thesis"}' data-status-id="refresh-status-thesis-VRT" title="Refresh Investment Thesis via Claude agent"><span class="refresh-label">↻ Refresh Investment Thesis</span></button><span class="refresh-status" id="refresh-status-thesis-VRT"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>Dominant datacenter thermal management and power distribution leader riding the AI infrastructure supercycle. Q1 2026 revenue $2.65B (+30% YoY) with adjusted EPS of $1.17 (+83% YoY). FY2025 revenue reached $10.2B (+28% YoY) with $1.3B net income (+169%). Backlog surged to $15.0B (+109% YoY) with Q4 2025 book-to-bill of 2.9x driven by 252% organic orders growth. Adjusted operating margin expanded to 20.8% in Q1 2026 (+430bps YoY). Raised 2026 guidance to $13.5-14.0B revenue (+34% growth) with adj. EPS of $6.30-6.40 (+51%). Net leverage at 0.2x with $5.0B liquidity. CoolPhase Flex hybrid cooling and 800VDC power solutions position Vertiv at the center of the liquid cooling transition for 100+ kW AI racks.</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Growth Catalysts <button class="refresh-btn" id="refresh-btn-catalysts-VRT" data-workflow="refresh-section.yml" data-inputs='{"ticker":"VRT","section":"catalysts"}' data-status-id="refresh-status-catalysts-VRT" title="Refresh Growth Catalysts via Claude agent"><span class="refresh-label">↻ Refresh Growth Catalysts</span></button><span class="refresh-status" id="refresh-status-catalysts-VRT"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; $15.0B backlog (+109% YoY) with book-to-bill of 2.9x — orders accelerating, not decelerating</p><p>&bull; 2026 guidance raised to $13.5-14.0B revenue (+34% growth), adj. EPS $6.30-6.40 (+51%)</p><p>&bull; Q1 2026 adjusted free cash flow $653M (+147% YoY) — cash generation inflecting sharply</p><p>&bull; Liquid cooling supercycle: CoolPhase Flex and 800VDC solutions for NVIDIA next-gen GPU racks</p><p>&bull; Adjusted operating margin expansion to 22.8-23.8% guided for FY2026 (+290bps vs FY2025)</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Risks &amp; Concerns <button class="refresh-btn" id="refresh-btn-risks-VRT" data-workflow="refresh-section.yml" data-inputs='{"ticker":"VRT","section":"risks"}' data-status-id="refresh-status-risks-VRT" title="Refresh Risks &amp; Concerns via Claude agent"><span class="refresh-label">↻ Refresh Risks &amp; Concerns</span></button><span class="refresh-status" id="refresh-status-risks-VRT"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p>&bull; Premium valuation at ~42x forward P/E and $131B market cap — priced for perfection</p><p>&bull; Hyperscaler customer concentration — top customers drive outsized revenue share</p><p>&bull; Execution risk on 34% revenue growth with simultaneous margin expansion</p><p>&bull; STL acquisition integration risk alongside organic growth demands</p><p>&bull; Potential demand moderation if hyperscaler capex cycle decelerates</p></div><div class="section"><h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px">Sources <button class="refresh-btn" id="refresh-btn-sources-VRT" data-workflow="refresh-section.yml" data-inputs='{"ticker":"VRT","section":"sources"}' data-status-id="refresh-status-sources-VRT" title="Refresh Sources via Claude agent"><span class="refresh-label">↻ Refresh Sources</span></button><span class="refresh-status" id="refresh-status-sources-VRT"><span style="opacity:0.6">Not yet refreshed via button</span></span></h3><p style="opacity:0.6;font-style:italic">No sources yet — click Refresh to generate.</p></div><footer>Vertiv (VRT) - Investment Report &bull; Data as of 2026-05-09 &bull; Not investment advice.</footer>
+<script>
+(function(){
+  const OWNER=document.querySelector('meta[name="gh-owner"]')?.content;
+  const REPO=document.querySelector('meta[name="gh-repo"]')?.content;
+  const API="https://api.github.com";
+  const PAT_KEY="gh_pat_v1";
 
-<div class="section">
-<h3>Investment Thesis</h3>
-<p>Vertiv is the dominant thermal management and power distribution leader for AI datacenters, positioned at the intersection of two megatrends: exploding AI compute demand and the resulting thermal challenge of 100+ kW per-rack power density. Q1 2026 delivered exceptional results: revenue of $2.65B (+30% YoY, 23% organic), adjusted EPS of $1.17 (+83% YoY), and adjusted free cash flow of $653M (+147% YoY).</p>
-<p>FY2025 was a breakout year with $10.2B revenue (+28% YoY), $1.3B net income (+169%), and backlog surging to $15.0B (+109% YoY). The Q4 2025 book-to-bill ratio of 2.9x with 252% organic orders growth signals massive forward demand. The company has raised 2026 guidance to $13.5-14.0B revenue with adjusted operating margin of 22.8-23.8% and adjusted EPS of $6.30-6.40.</p>
-<p>Key differentiators include CoolPhase Flex hybrid cooling (air + liquid in one system), 800VDC power distribution for NVIDIA next-gen GPU racks, and a global service network. Net leverage at 0.2x with $5.0B liquidity provides financial flexibility for both organic investment and M&A.</p>
-</div>
+  function getPAT(){return localStorage.getItem(PAT_KEY)||"";}
+  function setPAT(v){if(v)localStorage.setItem(PAT_KEY,v);else localStorage.removeItem(PAT_KEY);}
 
-<div class="section">
-<h3>Key Financial Data (Official Filings)</h3>
-<p><strong>FY2025 Revenue:</strong> $10.2B (+27.7% YoY) — record year</p>
-<p><strong>FY2025 Net Income:</strong> $1.3B (+168.8% YoY)</p>
-<p><strong>FY2025 EBITDA:</strong> $2.1B (+30.0% YoY)</p>
-<p><strong>Q1 2026 Revenue:</strong> $2.65B (+30% YoY, 23% organic + 4% acquisitions + 3% FX)</p>
-<p><strong>Q1 2026 Adjusted Diluted EPS:</strong> $1.17 (+83% YoY; beat guidance by $0.19)</p>
-<p><strong>Q1 2026 GAAP EPS:</strong> Growth of 136% YoY; net income $390.1M (+137%)</p>
-<p><strong>Q1 2026 Adjusted Operating Profit:</strong> $551M (+64% YoY); margin 20.8% (+430bps)</p>
-<p><strong>Q1 2026 Adjusted Free Cash Flow:</strong> $653M (+147% YoY)</p>
-<p><strong>Backlog:</strong> $15.0B (+109% YoY); Q4 2025 book-to-bill 2.9x</p>
-<p><strong>Trailing 12-Month Organic Orders Growth:</strong> +81%</p>
-<p><strong>Liquidity:</strong> $5.0B; Net leverage 0.2x; Cash $2.15B; Total debt $2.9B</p>
-<p><strong>2026 Revenue Guidance:</strong> $13.5-14.0B (+34% growth at midpoint)</p>
-<p><strong>2026 Adjusted EPS Guidance:</strong> $6.30-6.40 (+51% at midpoint)</p>
-<p><strong>2026 Adjusted Operating Margin Guidance:</strong> 22.8-23.8% (+290bps vs FY2025)</p>
-<p><strong>2026 Adjusted Free Cash Flow Guidance:</strong> $2.1-2.3B (+17% YoY)</p>
-<p class="source-note">Source: Vertiv Q1 2026 earnings release (April 22, 2026), Q4/FY2025 earnings release via investors.vertiv.com</p>
-</div>
+  function ensureModal(){
+    if(document.getElementById('refresh-modal'))return;
+    const m=document.createElement('div');
+    m.id='refresh-modal';m.className='refresh-modal';
+    m.innerHTML=`<div class="refresh-modal-box">
+      <h3>GitHub Personal Access Token</h3>
+      <p>To trigger refresh workflows from this page, paste a fine-grained PAT with <strong>Actions: read & write</strong> permission on <code>${OWNER}/${REPO}</code>.</p>
+      <p>Create one at <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a> &mdash; scope to this repo only.</p>
+      <input id="refresh-pat-input" type="password" placeholder="github_pat_..." autocomplete="off">
+      <div class="actions">
+        <button class="secondary" id="refresh-pat-clear">Clear stored token</button>
+        <button class="secondary" id="refresh-pat-cancel">Cancel</button>
+        <button class="primary" id="refresh-pat-save">Save & continue</button>
+      </div></div>`;
+    document.body.appendChild(m);
+    document.getElementById('refresh-pat-cancel').onclick=()=>closeModal(null);
+    document.getElementById('refresh-pat-clear').onclick=()=>{setPAT("");closeModal(null);};
+    document.getElementById('refresh-pat-save').onclick=()=>{
+      const v=document.getElementById('refresh-pat-input').value.trim();
+      if(v){setPAT(v);closeModal(v);}else closeModal(null);
+    };
+  }
+  let modalResolve=null;
+  function openModal(){
+    ensureModal();
+    const cur=getPAT();
+    document.getElementById('refresh-pat-input').value=cur;
+    document.getElementById('refresh-modal').classList.add('open');
+    return new Promise(r=>{modalResolve=r;});
+  }
+  function closeModal(v){
+    document.getElementById('refresh-modal').classList.remove('open');
+    if(modalResolve){modalResolve(v);modalResolve=null;}
+  }
 
-<div class="section">
-<h3>Datacenter Infrastructure Strategy</h3>
-<p><strong>Core Products:</strong> Thermal management (precision cooling, liquid cooling), power distribution (UPS, PDUs, switchgear, busbar), IT management software (Trellis, Vertiv Intelligence)</p>
-<p><strong>Liquid Cooling:</strong> CoolPhase Flex — first-of-its-kind hybrid solution combining refrigerant-based air and liquid cooling in a single flexible system. Critical for 100+ kW per-rack AI GPU deployments.</p>
-<p><strong>800VDC Power:</strong> Next-generation power distribution architecture designed specifically for NVIDIA AI GPU racks — eliminates AC/DC conversion losses, improves efficiency</p>
-<p><strong>Customer Base:</strong> All major hyperscalers (MSFT, AMZN, GOOGL, META), colocation providers, enterprise datacenters globally</p>
-<p><strong>Market Position:</strong> #1 or #2 in all core product categories globally. Orders growth broad-based across Americas, EMEA, and APAC regions</p>
-<p><strong>STL Acquisition:</strong> Strategic acquisition to strengthen integrated power and cooling portfolio</p>
-<p class="source-note">Source: Vertiv Q1 2026 earnings call, investor presentations via investors.vertiv.com</p>
-</div>
+  async function requirePAT(){
+    let pat=getPAT();
+    if(pat)return pat;
+    pat=await openModal();
+    return pat;
+  }
 
-<div class="section">
-<h3>Growth Catalysts</h3>
-<p>&bull; $15.0B backlog (+109% YoY) with Q4 2025 book-to-bill of 2.9x — orders accelerating, not decelerating</p>
-<p>&bull; 2026 guidance raised to $13.5-14.0B revenue (+34% growth), adj. EPS $6.30-6.40 (+51%)</p>
-<p>&bull; Q1 2026 adjusted free cash flow $653M (+147% YoY) — cash generation inflecting sharply upward</p>
-<p>&bull; Liquid cooling supercycle: CoolPhase Flex and 800VDC solutions for next-gen NVIDIA GPU racks</p>
-<p>&bull; Adjusted operating margin expanding to 22.8-23.8% guided for FY2026 (+290bps vs FY2025)</p>
-<p>&bull; Trailing 12-month organic orders growth of 81% — demand visibility extends multiple years</p>
-</div>
+  async function ghFetch(path,opts={}){
+    const pat=getPAT();
+    const headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opts.headers||{})};
+    if(pat)headers['Authorization']='Bearer '+pat;
+    const r=await fetch(API+path,{...opts,headers});
+    return r;
+  }
 
-<div class="section">
-<h3>Risks &amp; Concerns</h3>
-<p>&bull; <strong>Valuation:</strong> ~42x forward P/E and $131B market cap — stock trading near analyst avg PT of $339, priced for sustained execution</p>
-<p>&bull; <strong>Hyperscaler concentration:</strong> Top customers drive outsized revenue share — any single customer pullback would be felt</p>
-<p>&bull; <strong>Execution risk:</strong> Delivering 34% revenue growth with simultaneous 290bps margin expansion is demanding</p>
-<p>&bull; <strong>STL integration:</strong> Recent acquisition needs to be integrated while organic growth demands full management attention</p>
-<p>&bull; <strong>Cycle risk:</strong> If hyperscaler capex cycle decelerates (e.g., Microsoft's 1.5 GW freeze), demand could moderate</p>
-<p>&bull; <strong>Competition:</strong> Schneider Electric, Eaton, and niche liquid cooling players competing for the same hyperscaler budgets</p>
-</div>
+  async function dispatch(workflow,inputs){
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/dispatches`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:inputs||{}})
+    });
+    if(!r.ok){const t=await r.text();throw new Error(`Dispatch failed: ${r.status} ${t}`);}
+    return true;
+  }
 
-<div class="section">
-<h3>Peer Comparison</h3>
-<p><strong>vs. Eaton (ETN):</strong> Both are critical datacenter infrastructure plays but Eaton focuses on electrical distribution (switchgear, transformers, PDUs) while Vertiv leads in thermal management. Vertiv has higher DC revenue exposure (45-50% vs Eaton's ~25%) and faster revenue growth (+30% vs +12.9%), but trades at a higher P/E multiple. Eaton's datacenter backlog is 11 years.</p>
-<p><strong>vs. Schneider Electric (SNEXF):</strong> Schneider competes across UPS, PDUs, and building management but Vertiv has stronger positioning in next-gen liquid cooling. Schneider is more diversified (industrial automation, building efficiency) while Vertiv is a purer datacenter play.</p>
-<p><strong>vs. niche liquid cooling (Asetek, CoolIT):</strong> Vertiv's CoolPhase Flex hybrid approach offers flexibility that pure-play liquid cooling companies lack. Scale, global service network, and hyperscaler relationships are significant moats.</p>
-</div>
+  async function findLatestRun(workflow){
+    // Look for the most recent run of this workflow within the last 60s
+    const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/workflows/${workflow}/runs?per_page=5&event=workflow_dispatch`);
+    if(!r.ok)return null;
+    const j=await r.json();
+    if(!j.workflow_runs||!j.workflow_runs.length)return null;
+    // Pick the run we likely just triggered: created within the last 90s
+    const now=Date.now();
+    for(const run of j.workflow_runs){
+      if(now-new Date(run.created_at).getTime()<90000)return run;
+    }
+    return j.workflow_runs[0];
+  }
 
-<div class="section">
-<h3>Sources</h3>
-<p><a href="https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136-Adjusted-Diluted-EPS-Growth-of-83-Raises-Full-Year-Guidance/default.aspx" style="color:var(--accent-blue)">Vertiv Q1 2026 Earnings Release (Official IR)</a></p>
-<p><a href="https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Fourth-Quarter-with-Organic-Orders-Growth-of-252-and-Diluted-EPS-Growth-of-200-Adjusted-Diluted-EPS-37/default.aspx" style="color:var(--accent-blue)">Vertiv Q4/FY2025 Earnings Release (Official IR)</a></p>
-<p><a href="https://investors.vertiv.com/financials/quarterly-results/default.aspx" style="color:var(--accent-blue)">Vertiv Quarterly Results (Official IR)</a></p>
-<p><a href="https://investors.vertiv.com/financials/annual-reports/default.aspx" style="color:var(--accent-blue)">Vertiv Annual Reports (Official IR)</a></p>
-</div>
+  async function pollRun(runId,onUpdate){
+    while(true){
+      const r=await ghFetch(`/repos/${OWNER}/${REPO}/actions/runs/${runId}`);
+      if(!r.ok)throw new Error('Poll failed');
+      const j=await r.json();
+      onUpdate&&onUpdate(j);
+      if(j.status==='completed')return j;
+      await new Promise(res=>setTimeout(res,4000));
+    }
+  }
 
-<footer>Vertiv Holdings (VRT) - Investment Report &bull; Data as of 2026-05-09 &bull; Not investment advice.</footer>
+  function fmtTime(d){
+    const dt=(typeof d==='string')?new Date(d):d;
+    return dt.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  }
+
+  function setBtnState(btn,state,text){
+    btn.classList.remove('status-running','status-success','status-failed');
+    if(state)btn.classList.add('status-'+state);
+    const label=btn.querySelector('.refresh-label');
+    if(label)label.textContent=text||label.dataset.idle||'Refresh';
+    btn.disabled=(state==='running');
+  }
+
+  async function onClick(btn){
+    const wf=btn.dataset.workflow;
+    const inputs=btn.dataset.inputs?JSON.parse(btn.dataset.inputs):{};
+    const statusEl=btn.dataset.statusId?document.getElementById(btn.dataset.statusId):null;
+    const idleText=btn.querySelector('.refresh-label')?.textContent||'Refresh';
+    btn.querySelector('.refresh-label')&&(btn.querySelector('.refresh-label').dataset.idle=idleText);
+
+    const pat=await requirePAT();
+    if(!pat){if(statusEl)statusEl.innerHTML='<span class="err">No token, cancelled.</span>';return;}
+
+    try{
+      setBtnState(btn,'running','Dispatching…');
+      if(statusEl)statusEl.innerHTML='Triggering workflow…';
+      await dispatch(wf,inputs);
+      // Wait for run to appear
+      await new Promise(r=>setTimeout(r,2500));
+      const run=await findLatestRun(wf);
+      if(!run){throw new Error('Run not found after dispatch');}
+      setBtnState(btn,'running','Running…');
+      if(statusEl)statusEl.innerHTML=`Run <a href="${run.html_url}" target="_blank">#${run.run_number}</a> queued…`;
+
+      const final=await pollRun(run.id,(j)=>{
+        if(statusEl){
+          const status=j.status==='in_progress'?'Running':j.status;
+          statusEl.innerHTML=`Run <a href="${j.html_url}" target="_blank">#${j.run_number}</a>: ${status}`;
+        }
+      });
+
+      const ok=(final.conclusion==='success');
+      setBtnState(btn,ok?'success':'failed',ok?'✓ Done':'✗ Failed');
+      if(statusEl){
+        statusEl.innerHTML=ok
+          ? `<span class="ok">Updated ${fmtTime(final.updated_at)}</span> &middot; <a href="${final.html_url}" target="_blank">log</a>`
+          : `<span class="err">Failed — see <a href="${final.html_url}" target="_blank">log</a></span>`;
+      }
+      // After success, reload after a short delay so the user sees fresh content
+      if(ok)setTimeout(()=>location.reload(),3000);
+    }catch(e){
+      setBtnState(btn,'failed','✗ Error');
+      if(statusEl)statusEl.innerHTML=`<span class="err">${e.message}</span>`;
+      console.error(e);
+    }
+  }
+
+  function wire(){
+    document.querySelectorAll('.refresh-btn').forEach(btn=>{
+      if(btn.dataset.wired)return;
+      btn.dataset.wired='1';
+      btn.addEventListener('click',()=>onClick(btn));
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wire);
+  else wire();
+  window.__refreshUIWire=wire;
+})();
+</script>
 </div></body></html>

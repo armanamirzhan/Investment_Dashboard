@@ -26,17 +26,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: DST-aware time gate
+      - name: Skip if midday already ran today
         id: tz_check
         run: |
           export TZ="America/New_York"
-          ET_HOUR=$(date +'%H')
-          if [ "$ET_HOUR" != "12" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          MIDDAY_LAST=$(python3 -c "import json; print(json.load(open('data/meta.json')).get('midday_last',''))" 2>/dev/null || echo "")
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Manual dispatch — proceeding regardless of state."
+          elif [ "$MIDDAY_LAST" = "$TODAY" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Skipping: current ET hour is $ET_HOUR (need 12)."
+            echo "Skipping: midday already ran for $TODAY (meta.midday_last=$MIDDAY_LAST)."
           else
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "Proceeding: ET hour is $ET_HOUR (or manual dispatch)."
+            echo "Proceeding: midday hasn't run yet for $TODAY (ET)."
           fi
 
       - uses: actions/setup-python@v5
@@ -85,6 +89,7 @@ jobs:
                 add_analyst_change,       # ticker, firm, new_rating, new_target, old_rating, old_target
                 add_watchlist_signal,     # ticker, signal_type, description, severity
                 update_company,           # ticker, **kwargs — for editorial House Rating changes only, when news is thesis-altering
+                update_meta,              # always call update_meta(midday_last=today()) at the very end so the workflow's idempotency check skips redundant cron firings later today
                 regenerate_all,
             )
             ```
@@ -96,9 +101,11 @@ jobs:
 
             Be selective. If no material analyst moves or signals surfaced, that's fine — record nothing and proceed to Step 3 to refresh `last_updated`.
 
-            ## Step 3 — Regenerate
+            ## Step 3 — Mark today as done and regenerate
 
             ```python
+            from db_init import today
+            update_meta(midday_last=today())  # required: lets later cron firings skip
             regenerate_all()
             ```
 

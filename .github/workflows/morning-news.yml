@@ -26,17 +26,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: DST-aware time gate
+      - name: Skip if news already published today
         id: tz_check
         run: |
           export TZ="America/New_York"
-          ET_HOUR=$(date +'%H')
-          if [ "$ET_HOUR" != "09" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          NEWS_FILE="data/news_entries_${TODAY}.json"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Manual dispatch — proceeding regardless of state."
+          elif [ -f "$NEWS_FILE" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Skipping: current ET hour is $ET_HOUR (need 09)."
+            echo "Skipping: $NEWS_FILE already exists. Morning news for $TODAY already published."
           else
             echo "skip=false" >> $GITHUB_OUTPUT
-            echo "Proceeding: ET hour is $ET_HOUR (or manual dispatch)."
+            echo "Proceeding: no news yet for $TODAY (ET)."
           fi
 
       - uses: actions/setup-python@v5

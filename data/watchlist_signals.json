@@ -614,5 +614,54 @@
     "signal_type": "concentration_risk",
     "description": "CoreWeave raised FY26 capex by ~$10B (now $31-35B) on its May 7 print while Q2 revenue guide ($2.45-2.6B) came in light versus whispers. With backlog at $99.4B and revenue still scaling, the funding gap is the central debate - watch for incremental ABL/term-loan announcements or equity issuance signals before next print.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "CEG",
+    "signal_type": "earnings_beat",
+    "description": "Q1 EPS $2.74 vs $2.59 est; revenue $11.12B vs ~$9B est; FY26 guide reaffirmed $11-$12; framework targets 20%+ EPS growth 2026-2029.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "VST",
+    "signal_type": "earnings_beat",
+    "description": "Q1 EPS $2.87 vs $1.32 est; EBITDA $1.49B; dividend hiked; FY26 EBITDA guide $6.8-$7.6B reaffirmed.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "Shares +15% intraday to all-time high; market cap >$900B; UBS PT KRW 1.55M -> 1.7M citing HBM super-cycle. Risk: late-cycle entry.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "HBM4 qualified by both Nvidia and AMD; full-scale supply June; 4nm HBM4 logic die pricing +40-50%. Catch-up vs SK Hynix accelerating.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "CRWV",
+    "signal_type": "earnings_miss",
+    "description": "Q1 net loss widened to $740M; capex guide raised to $31-$35B. Backlog +$32.6B QoQ to $99.4B but financing burden growing. Shares -11% on print.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "ENR.DE",
+    "signal_type": "momentum",
+    "description": "FY26 guidance raised across all metrics; backlog at record EUR 146B; orders +29.5% YoY. Q2 full report May 12.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Apple preliminary foundry deal + Nvidia 'exciting products' tease lift sentiment; foundry thesis gaining customers.",
+    "severity": "medium"
   }
 ]

@@ -277,5 +277,23 @@
     "new_target": null,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "000660.KS",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 1700000,
+    "old_rating": "Buy",
+    "old_target": 1550000
+  },
+  {
+    "date": "2026-05-11",
+    "ticker": "CCJ",
+    "firm": "Scotiabank",
+    "new_rating": "Outperform",
+    "new_target": 175,
+    "old_rating": null,
+    "old_target": null
   }
 ]

@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-05-11",
+    "headline": "Constellation Energy Q1 beats: EPS $2.74 vs $2.59; reaffirms FY26 guide $11-$12, targets 20%+ growth through 2029",
+    "summary": "CEG posted Q1 adj EPS of $2.74 on revenue of $11.12B (vs ~$9B consensus), boosted by the Calpine acquisition that closed in January. Reaffirmed FY26 adj operating earnings guidance of $11.00-$12.00. Outlined a strategic framework targeting base EPS growth of more than 20% from 2026 through 2029, with long-term three-year rolling growth of 10%+. Shares rose ~4% pre-market.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Constellation Energy IR",
+    "source_url": "https://www.stocktitan.net/news/CEG/constellation-reports-first-quarter-2026-djifmhf7ey7x.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "SK Hynix surges 15% to all-time high; market cap tops $900B as UBS lifts target to KRW 1.7M",
+    "summary": "005930.KS rival SK Hynix (000660.KS) hit a record intraday on a UBS upgrade. UBS raised PT from KRW 1.55M to KRW 1.7M and lifted 2026/27 EPS estimates by 22%/29%, citing a memory super-cycle 'unseen in nearly 30 years' with HBM capacity sold out. The move pulls the whole memory complex higher (MU, 005930.KS).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Digitimes / TrendForce",
+    "source_url": "https://www.digitimes.com/news/a20260511PD200/demand-samsung-market-sk-hynix-hbm.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Samsung passes Nvidia and AMD final HBM4 qualification; full-scale supply begins June, 4nm HBM4 logic die prices up 40-50%",
+    "summary": "Samsung Electronics (005930.KS) has cleared the last quality gate for HBM4 with both NVIDIA and AMD and is set to begin full-scale shipments in June. The company raised foundry pricing for the 4nm HBM4 logic die by 40-50%, signaling pricing power in a tight market and validating Samsung's catch-up vs SK Hynix. Samsung is also targeting ~50% HBM capacity expansion in 2026.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Digitimes",
+    "source_url": "https://www.digitimes.com/news/a20260511PD200/demand-samsung-market-sk-hynix-hbm.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Intel CEO Tan teases 'exciting new products' with Nvidia; Apple foundry deal lifts INTC pre-market",
+    "summary": "Intel (INTC) shares rose Monday after CEO Lip-Bu Tan publicly teased new datacenter and PC products with Nvidia at a Carnegie Mellon ceremony, building on the $5B Nvidia equity investment and joint x86-RTX SOC roadmap announced last year. Separately, Apple has signed a preliminary foundry agreement with Intel for some chip manufacturing, the strongest signal yet that Intel Foundry is scaling. Both items support the INTC AI/foundry thesis.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TrendForce",
+    "source_url": "https://www.trendforce.com/news/2026/05/11/news-intel-ceo-lip-bu-tan-hints-at-exciting-new-products-with-nvidia-as-foundry-collaboration-rumors-grow/"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Nvidia + IREN: $2.1B equity right plus $3.4B 5-year cloud contract, up to 5 GW DSX-aligned datacenter buildout",
+    "summary": "NVDA's wave of strategic AI-infra investments crossed $40B in commitments YTD with the IREN deal announced last week: a five-year right to purchase 30M IREN shares at $70 (up to $2.1B) and a separate $3.4B five-year cloud services contract anchored by air-cooled Blackwell at IREN's Childress, TX campus. The pair are targeting up to 5 GW of DSX-aligned AI infrastructure, with IREN's 2 GW Sweetwater, TX campus as the primary build site. Reinforces NVDA's role as both supplier and investor in the neocloud layer.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Newsroom",
+    "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "CoreWeave Q1: $40B in new commitments, backlog jumps to $99.4B, but net loss widens to $740M; capex guide raised to $31-$35B",
+    "summary": "CRWV signed >$40B of new contracts in Q1, lifting contracted revenue backlog from $66.8B to $99.4B. Capex hit $6.8B in the quarter alone and full-year capex was nudged up to $31-$35B. Net loss widened to $740M from $452M in Q4 and $315M a year earlier. Shares fell ~11% Friday on the print as financing-cost and burn-rate concerns offset the backlog growth. Mirrors the CRWV financing-watch flag from yesterday's brief.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Vistra Q1 crushes: EPS $2.87 vs $1.32, EBITDA $1.49B, dividend hiked, FY26 EBITDA guide $6.8-$7.6B reaffirmed",
+    "summary": "VST reported Q1 net income of $1.03B and ongoing-ops adj EBITDA of $1.494B (vs $5.22B revenue consensus, actual $5.64B). The board hiked the quarterly dividend to $0.229/share. ~$6.3B of buybacks since Nov 2021 (~30% of shares retired); ~$1.5B authorization remaining through year-end 2027. Reaffirmed FY26 EBITDA $6.8-$7.6B and FCFbG $3.925-$4.725B. Confirms AI-power thesis is converting to cash.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Vistra IR / PR Newswire",
+    "source_url": "https://investor.vistracorp.com/2026-05-07-Vistra-Reports-First-Quarter-2026-Results"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Siemens Energy raises FY26 outlook: revenue growth to 14-16%, net income ~EUR 4B, order backlog at record EUR 146B",
+    "summary": "ENR.DE pre-released Q2 FY26 results and raised full-year guidance: comparable revenue growth 14-16% (vs 11-13%), margin 10-12% (vs 9-11%), net income ~EUR 4B (vs EUR 3-4B), free cash flow pre-tax ~EUR 8B (vs EUR 4-5B). Q2 orders EUR 17.75B (+29.5%), driven by AI-driven grid and gas turbine demand. Backlog at EUR 146B covers ~90% of FY26 and >70% of FY27 revenue. Full Q2 report due May 12.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Siemens Energy",
+    "source_url": "https://www.siemens-energy.com/global/en/home/press-releases/ad-hoc--siemens-energy-ag-raises-full-year-outlook-and-releases-.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "White House designates power grid a national defense priority; ETN, GEV, NEE, VRT seen as primary beneficiaries",
+    "summary": "A Trump executive order elevates power generation and grid networks to a national-security category, opening the door to expedited permitting and likely public co-investment in transmission. Eaton (ETN), GE Vernova (GEV), Vertiv (VRT) and NextEra (NEE) flagged as direct beneficiaries via grid manufacturing, gas/wind/nuclear gear, and renewables capacity. Reinforces the multi-year US grid capex narrative.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "Stocktwits",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/etn-gev-nee-pwr-vrt-stocks-stand-to-gain-after-us-flags-power-grid-as-defense-priority/cZBN1XwRe2m"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Rambus -23% on Baird downgrade; HBM diversion squeezes RDIMM supply, signaling severe DRAM tightness through 2027",
+    "summary": "Baird cut RMBS to Neutral with a $120 PT, flagging that the bulk of incoming DRAM capacity is being routed to HBM, leaving conventional RDIMM/MRDIMM increasingly supply-constrained. Implication for the dashboard: bullish for memory makers with HBM exposure (000660.KS, 005930.KS, MU) and supports the AI-memory super-cycle thesis, but bearish for unit-leveraged business models. Baird models RDIMM unit growth slowing from 20% in 2026 to 12-15% in 2027.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/rambus-shares-crater-revenue-miss-173700183.html"
+  },
+  {
+    "date": "2026-05-11",
+    "headline": "Nebius (NBIS) Q1 due Wednesday; consensus expects 600%+ YoY revenue growth to ~$388M, focus on ARR run-rate and Microsoft/Meta deployments",
+    "summary": "Neocloud peer Nebius reports Q1 pre-market Wednesday May 13. Street expects ~$388.6M revenue (+600% YoY) and a $0.77 loss per share. Key watch items: trajectory toward $7-9B FY26 ARR target, capex run-rate ($16-20B), and progress on the Meta/Microsoft hyperscaler builds plus the $643M Eigen AI integration. Read-through for CRWV and the broader neocloud trade given Friday's CRWV sell-off.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/article/4902370-nebius-q1-earnings-preview-18b-capex-question"
+  }
+]

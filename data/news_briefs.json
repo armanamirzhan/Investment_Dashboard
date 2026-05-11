@@ -80,5 +80,95 @@
       }
     ],
     "file": "morning-news/2026-05-10.html"
+  },
+  {
+    "date": "2026-05-11",
+    "tickers": [
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Q1 beat; 20%+ EPS growth target 2026-29"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+15% ATH on UBS PT raise, HBM super-cycle"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "HBM4 qualified at NVDA+AMD"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "Apple foundry deal + NVDA product tease"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Q1 EPS $2.87 vs $1.32; dividend hike"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "FY26 guide raised, EUR 146B backlog"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "Q1 net loss $740M; capex raised to $31-35B"
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "Grid named national defense priority"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Grid policy tailwind"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "IREN $5.5B deal; commitments cross $40B YTD"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CEG",
+        "signal": "earnings beat"
+      },
+      {
+        "ticker": "VST",
+        "signal": "earnings beat + buyback"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "memory super-cycle"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "HBM4 qualified"
+      },
+      {
+        "ticker": "INTC",
+        "signal": "foundry traction"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "financing risk"
+      },
+      {
+        "ticker": "ENR.DE",
+        "signal": "guide raise"
+      },
+      {
+        "ticker": "ETN/GEV",
+        "signal": "grid policy tailwind"
+      }
+    ],
+    "file": "morning-news/2026-05-11.html"
   }
 ]

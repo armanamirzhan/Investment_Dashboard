@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """JSON data store helpers for AI Datacenter Investment Landscape."""
 import json, os
-from datetime import date
+from datetime import date, datetime
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    ZoneInfo = None
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -28,6 +32,11 @@ def save(name, data):
 
 def today():
     return date.today().isoformat()
+
+def now():
+    """Current timestamp in US Eastern, e.g. '2026-05-11 14:35 ET'."""
+    tz = ZoneInfo("America/New_York") if ZoneInfo else None
+    return datetime.now(tz).strftime("%Y-%m-%d %H:%M ET")
 
 def list_data_files():
     ensure_data_dir()

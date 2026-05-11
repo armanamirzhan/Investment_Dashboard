@@ -17,7 +17,7 @@ try:
 except ImportError:
     sys.exit("yfinance not installed. Run: pip install --break-system-packages yfinance")
 
-from db_init import load, today
+from db_init import load, today, now
 from update_data import add_financials, add_valuation_snapshot, update_meta
 
 _FX_CACHE = {}
@@ -132,7 +132,7 @@ def fetch_all(tickers=None):
             print(f"  FAIL {c['ticker']}: {e}")
         time.sleep(0.2)
     print(f"Done: {ok}/{len(public)} succeeded")
-    update_meta(last_updated=today())
+    update_meta(last_updated=now())
     return ok
 
 

@@ -76,7 +76,7 @@ jobs:
             python3 <<'PY'
             import sys; sys.path.insert(0, 'scripts')
             from update_data import update_company, regenerate_all
-            from db_init import today
+            from db_init import now
 
             # For thesis: a string. For catalysts / risks: a list of bullet strings.
             # For sources: a list of {"name": "...", "url": "..."} dicts.
@@ -85,7 +85,7 @@ jobs:
             update_company(
                 "${{ inputs.ticker }}",
                 ${{ inputs.section }}=new_value,
-                ${{ inputs.section }}_updated=today(),
+                ${{ inputs.section }}_updated=now(),
             )
             regenerate_all()
             PY

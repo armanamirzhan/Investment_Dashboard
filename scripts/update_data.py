@@ -6,7 +6,7 @@ The scheduled task calls these after researching.
 """
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from db_init import load, save, today
+from db_init import load, save, today, now
 
 def update_kpi(key, value=None, subtitle=None, numeric=None):
     """Update a single KPI metric."""
@@ -128,7 +128,7 @@ def regenerate_all():
     from generate_news import generate_news as gen_news
     from generate_reports import generate_all as gen_reports
 
-    update_meta(last_updated=today())
+    update_meta(last_updated=now())
     gen_dash()
     gen_news(today())
     gen_reports()

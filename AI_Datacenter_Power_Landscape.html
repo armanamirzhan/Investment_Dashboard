@@ -402,6 +402,25 @@ footer.dashboard-footer{text-align:center;padding:16px;color:var(--text-secondar
 </tbody></table></div>
 </div>
 <div class="tab-content" id="tab-nuclear">
+<div class="table-section">
+<div class="sector-header"><span class="sector-icon">☢️</span><h2>Nuclear & Fusion Companies</h2><span class="sector-count">3 companies tracked</span></div>
+<table class="data-table" id="table-nuclear-companies"><thead><tr>
+<th>Company</th>
+<th>Ticker</th>
+<th>Price</th>
+<th>Change</th>
+<th>Mkt Cap</th>
+<th>P/E</th>
+<th onclick="switchTab('methodology')" title="Click for methodology" style="cursor:pointer">Wall St ⓘ</th>
+<th onclick="switchTab('methodology')" title="Click for methodology" style="cursor:pointer">Upside ⓘ</th>
+<th onclick="switchTab('methodology')" title="Click for methodology" style="cursor:pointer">Rating ⓘ</th>
+<th>Thesis</th>
+</tr></thead><tbody>
+<tr data-separator="1"><td colspan="10" style="background:var(--bg-hover);padding:8px 12px;font-weight:600;color:#A142F4;font-size:12px;text-transform:uppercase;letter-spacing:0.5px">SMR Developers (3)</td></tr>
+<tr data-ticker="SMR"><td><a href="reports/SMR_NuScale.html" style="color:var(--text-on-dark);text-decoration:none;border-bottom:1px dashed var(--accent-blue)"><strong>NuScale Power</strong></a></td><td><span class="ticker">SMR</span></td><td class="live-price" data-field="price">—</td><td class="live-change" data-field="change">—</td><td class="live-mcap" data-field="mktCap">—</td><td class="live-pe" data-field="pe">—</td><td class="live-wsrating" data-field="wsRating" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td class="live-upside" data-field="upside" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td><span onclick="switchTab('methodology');return false;" style="cursor:pointer" title="Click for rating methodology">🟠 <span class="rating-hold">Hold</span></span></td><td style="max-width:360px;font-size:12px;color:var(--text-secondary)">Only SMR with full NRC design certification. 77 MWe per module. Pre-revenue with minimal engineering income.</td></tr>
+<tr data-ticker="OKLO"><td><a href="reports/OKLO_Oklo.html" style="color:var(--text-on-dark);text-decoration:none;border-bottom:1px dashed var(--accent-blue)"><strong>Oklo</strong></a></td><td><span class="ticker">OKLO</span></td><td class="live-price" data-field="price">—</td><td class="live-change" data-field="change">—</td><td class="live-mcap" data-field="mktCap">—</td><td class="live-pe" data-field="pe">—</td><td class="live-wsrating" data-field="wsRating" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td class="live-upside" data-field="upside" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td><span onclick="switchTab('methodology');return false;" style="cursor:pointer" title="Click for rating methodology">🟠 <span class="rating-hold">Hold</span></span></td><td style="max-width:360px;font-size:12px;color:var(--text-secondary)">Fast reactor developer with Meta 1.2 GW commitment. Materials license approved March 2026. $2.5B cash provides 25+ year runway.</td></tr>
+<tr data-ticker="XE"><td><strong>X-energy</strong></td><td><span class="ticker">XE</span></td><td class="live-price" data-field="price">—</td><td class="live-change" data-field="change">—</td><td class="live-mcap" data-field="mktCap">—</td><td class="live-pe" data-field="pe">—</td><td class="live-wsrating" data-field="wsRating" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td class="live-upside" data-field="upside" onclick="switchTab('methodology')" style="cursor:pointer">—</td><td><span onclick="switchTab('methodology');return false;" style="cursor:pointer" title="Click for rating methodology">🟠 <span class="rating-hold">Hold</span></span></td><td style="max-width:360px;font-size:12px;color:var(--text-secondary)">HTGR (Xe-100) developer with 80 MWe per module. AWS partnership. NRC review underway.</td></tr>
+</tbody></table></div>
 <div class="section-divider">Small Modular Reactors (SMRs) &amp; Advanced Nuclear</div>
 <div class="table-section"><h3>SMR &amp; Advanced Nuclear Developer Tracker</h3>
 <table class="data-table" id="table-smr"><thead><tr><th>Company</th><th>Ticker</th><th>Technology</th><th>Capacity</th><th>NRC Status</th><th>First Commercial</th><th>Key Datacenter Partners</th></tr></thead><tbody>

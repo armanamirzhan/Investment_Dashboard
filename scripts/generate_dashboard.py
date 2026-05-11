@@ -123,12 +123,10 @@ def ticker_html(ticker, public):
         return '<span class="private-badge">Private</span>'
     return '—'
 
-def company_table(companies, sector, extra_cols=None):
-    """Generate a company table for a given sector with live data columns."""
-    rows = [c for c in companies if c["sector"] == sector]
+def _render_company_rows(rows, label, icon, color, table_id):
+    """Render the company info table for a pre-filtered list of rows."""
     if not rows:
         return ""
-    # Group by sub_sector
     sub_sectors = []
     seen = set()
     for c in rows:
@@ -139,10 +137,9 @@ def company_table(companies, sector, extra_cols=None):
 
     html = []
     html.append('<div class="table-section">')
-    sm = SECTOR_META.get(sector, {})
     count = len(rows)
-    html.append(f'<div class="sector-header"><span class="sector-icon">{sm.get("icon","")}</span><h2>{sm.get("label",sector)}</h2><span class="sector-count">{count} companies tracked</span></div>')
-    html.append(f'<table class="data-table" id="table-{sector}"><thead><tr>')
+    html.append(f'<div class="sector-header"><span class="sector-icon">{icon}</span><h2>{label}</h2><span class="sector-count">{count} companies tracked</span></div>')
+    html.append(f'<table class="data-table" id="table-{table_id}"><thead><tr>')
     headers = [
         ("Company", None),
         ("Ticker", None),
@@ -166,7 +163,7 @@ def company_table(companies, sector, extra_cols=None):
     for ss in sub_sectors:
         ss_rows = [c for c in rows if c.get("sub_sector","Other") == ss]
         # Sub-sector separator row
-        html.append(f'<tr data-separator="1"><td colspan="{ncols}" style="background:var(--bg-hover);padding:8px 12px;font-weight:600;color:{sm.get("color","var(--accent-blue)")};font-size:12px;text-transform:uppercase;letter-spacing:0.5px">{ss} ({len(ss_rows)})</td></tr>')
+        html.append(f'<tr data-separator="1"><td colspan="{ncols}" style="background:var(--bg-hover);padding:8px 12px;font-weight:600;color:{color};font-size:12px;text-transform:uppercase;letter-spacing:0.5px">{ss} ({len(ss_rows)})</td></tr>')
         for c in ss_rows:
             ticker = c.get("ticker","")
             name = link_wrap(c["name"], c.get("report"), None)
@@ -193,6 +190,20 @@ def company_table(companies, sector, extra_cols=None):
 
     html.append('</tbody></table></div>')
     return "\n".join(html)
+
+
+def company_table(companies, sector, extra_cols=None):
+    """Company table filtered by sector (uses SECTOR_META for label/icon/color)."""
+    rows = [c for c in companies if c["sector"] == sector]
+    sm = SECTOR_META.get(sector, {})
+    return _render_company_rows(rows, sm.get("label", sector), sm.get("icon", ""), sm.get("color", "var(--accent-blue)"), sector)
+
+
+def company_table_by_tickers(companies, tickers, label, icon="", color="var(--accent-blue)", table_id="custom"):
+    """Company table filtered by an explicit ticker list."""
+    ticker_set = {t for t in tickers if t}
+    rows = [c for c in companies if c.get("ticker") in ticker_set]
+    return _render_company_rows(rows, label, icon, color, table_id)
 
 
 def generate():
@@ -385,6 +396,9 @@ def generate():
 
     # ── TAB: Nuclear ──
     html.append('<div class="tab-content" id="tab-nuclear">')
+    # Public nuclear/fusion-exposed companies with live financials
+    nf_tickers = [n.get("ticker") for n in nuclear] + [f.get("ticker") for f in fusion]
+    html.append(company_table_by_tickers(companies, nf_tickers, "Nuclear & Fusion Companies", "☢️", "#A142F4", "nuclear-companies"))
     html.append('<div class="section-divider">Small Modular Reactors (SMRs) &amp; Advanced Nuclear</div>')
     html.append('<div class="table-section"><h3>SMR &amp; Advanced Nuclear Developer Tracker</h3>')
     html.append('<table class="data-table" id="table-smr"><thead><tr><th>Company</th><th>Ticker</th><th>Technology</th><th>Capacity</th><th>NRC Status</th><th>First Commercial</th><th>Key Datacenter Partners</th></tr></thead><tbody>')

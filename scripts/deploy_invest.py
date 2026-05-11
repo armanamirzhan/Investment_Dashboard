@@ -52,7 +52,18 @@ def deploy():
     if os.path.isdir(REPORTS_SRC):
         for f in os.listdir(REPORTS_SRC):
             if f.endswith(".html"):
-                shutil.copy2(os.path.join(REPORTS_SRC, f), os.path.join(INVEST_DIR, "reports", f))
+                src = os.path.join(REPORTS_SRC, f)
+                dst = os.path.join(INVEST_DIR, "reports", f)
+                shutil.copy2(src, dst)
+                # Fix back-link to dashboard (dashboard is index.html in invest/)
+                with open(dst, "r", encoding="utf-8") as fh:
+                    content = fh.read()
+                content = content.replace(
+                    "../AI_Datacenter_Power_Landscape.html",
+                    "../index.html"
+                )
+                with open(dst, "w", encoding="utf-8") as fh:
+                    fh.write(content)
                 count += 1
     print(f"  Copied {count} company reports -> invest/reports/")
 

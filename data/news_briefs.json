@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "date": "2026-05-10",
+    "tickers": [
+      "MU",
+      "NVDA",
+      "AMD",
+      "INTC",
+      "CRWV",
+      "CEG",
+      "ENR.DE",
+      "SMCI"
+    ],
+    "signals": [
+      "Memory supercycle goes parabolic",
+      "Wall Street rotates from NVDA to Intel/AMD/Micron",
+      "Hyperscaler power demand lifts Siemens Energy guide",
+      "Constellation Q1 earnings preview (Mon pre-open)"
+    ],
+    "file": "morning-news/2026-05-10.html"
+  }
+]

@@ -565,5 +565,47 @@
     "signal_type": "momentum",
     "description": "Samsung Electronics crossed $1T market cap on HBM4 ramp for NVIDIA Rubin. KOSPI at record. Custom HBM4E design completing May–June 2026.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Micron up ~38% on the week, ~124% YTD, crossed $700B market cap Friday. Order books stretch into 2027 and HBM3E pricing is up 20% for 2026 orders. Parabolic move warrants caution on chasing — watch for any sign of memory pricing fatigue or hyperscaler inventory build.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Intel up well over 200% YTD as the foundry thesis gains traction: Microsoft anchor on 18A, Apple reportedly evaluating 18A-P, and VLSI Symposium showcase shows 18% power savings vs standard 18A. Wall Street's 'changing of the guard' rotation favoring INTC over NVDA continues.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "NVDA up only ~15% YTD versus 200%+ for INTC and triple-digit gains across AMD/MU/AVGO. Strategic equity bets now top $40B (IREN, Corning, Intel, et al.), but stock is lagging despite the buildout. May 20 Q1 print is a critical re-validation event for the thesis.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "SMCI",
+    "signal_type": "earnings_beat",
+    "description": "Super Micro reported fiscal Q3 on May 6 with an earnings beat, gross margin recovery and strong AI datacenter demand; stock closed up 24.5% on the print. Forward guidance also impressed. Momentum following through into the new week.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "CEG",
+    "signal_type": "earnings_miss",
+    "description": "CEG Q1 earnings Monday May 11 pre-market is the catalyst event — first report post-Calpine close. Risk skewed both ways: street looking for $8.21B revenue, ~$2.02B EBITDA, and any named hyperscaler datacenter customer. Stock down 13% YTD heading into print, so beats can fuel a rebound. Flagging as event risk, not a directional call.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave shares up ~80% YTD vs S&P +7%; $99.4B backlog and S&P credit outlook upgrade to positive on Q1 print. Capex stepping up to $31-35B — watch for any signs the financing path strains margins.",
+    "severity": "medium"
   }
 ]

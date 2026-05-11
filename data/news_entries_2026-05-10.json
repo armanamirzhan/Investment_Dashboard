@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-05-10",
+    "headline": "Memory mega-rally: Micron +11%, SanDisk +12% Friday as AI memory supercycle goes parabolic",
+    "summary": "Micron crossed a $700B market cap for the first time on Friday, capping a week in which the stock surged nearly 38%. SanDisk leapt 11-12% on the same session. Order books reportedly stretch into 2027, HBM3E pricing is up 20% for 2026 orders, and DRAM contract prices are projected to rise another 58-63% in Q2 on top of the 90-95% Q1 jump. Memory is now the hottest trade in tech.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/08/micron-surges-more-than-30percent-on-week-as-memory-chip-rally-goes-parabolic.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "NVIDIA's strategic equity bets top $40B as IREN, Corning agreements added",
+    "summary": "NVIDIA disclosed it now has the right to invest up to $2.1B in datacenter operator IREN and up to $3.2B in Corning, taking cumulative AI-ecosystem equity commitments past $40B. The original $5B Intel stake is now worth more than $25B. NVDA closed Friday near $215 after touching an intraday high of $217.80; the pivotal Q1 earnings print lands May 20.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Wall Street flags 'changing of the guard' as Intel, AMD, Micron lead while NVIDIA lags",
+    "summary": "CNBC reports the AI-chip leadership baton is rotating: Intel, AMD, Micron and Broadcom have all more than doubled YTD, with Intel up well over 200%, while NVDA is up only ~15% and trailing the Nasdaq. Lisa Su flagged 35% server-CPU growth expectations over the next 3-5 years; Microsoft is the anchor 18A customer for its Maia 2 AI accelerator.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Samsung, SK Hynix deepen long-term memory agreements as buyers pay premiums for 2026 supply",
+    "summary": "TrendForce reports Samsung and SK Hynix are signing longer-dated LTAs at premium pricing as hyperscalers race to lock in HBM and DRAM volumes through 2026. HBM3E pricing is up ~20% for next year's orders. Samsung Q1 operating profit hit 57.2 trillion won (~$39B), SK Hynix is on pace for >200% YoY net-profit growth in Q1.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TrendForce",
+    "source_url": "https://www.trendforce.com/news/2026/05/04/news-samsung-sk-hynix-deepen-ltas-as-buyers-pay-premiums-to-secure-supply-may-drive-memory-prices-higher"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Apple reportedly evaluates Samsung and Intel U.S. foundries amid TSMC capacity squeeze",
+    "summary": "TrendForce reports Apple is exploring Samsung Foundry and Intel Foundry Services for core silicon production as TSMC capacity at leading nodes remains constrained. Intel's 18A enters mass production in H2 2026 and Microsoft is already the anchor customer; the report is a significant validation signal for INTC's foundry pivot and a moderate positive for Samsung's foundry segment.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TrendForce",
+    "source_url": "https://www.trendforce.com/news/2026/05/05/news-apple-reportedly-eyes-samsung-intel-u-s-foundry-for-core-chips-amid-tsmc-constraints-supply-diversification/"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Siemens Energy raises FY26 outlook again citing strong datacenter demand",
+    "summary": "Siemens Energy issued an ad-hoc release ahead of its May 12 Q2 print, lifting FY26 revenue growth to 14-16% (from 11-13%), profit margin to 10-12%, net income to ~€4B and free cash flow to ~€8B. Grid Technologies is now projected to grow 25-27% (was 19-21%) with margins to 18-20%, driven by broad-based datacenter and grid expansion demand.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Siemens Energy",
+    "source_url": "https://www.siemens-energy.com/global/en/home/press-releases/ad-hoc--siemens-energy-ag-raises-full-year-outlook-and-releases-.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "CoreWeave Q1: revenue guide reaffirmed at $12-13B, backlog hits $99.4B, S&P revises outlook to positive",
+    "summary": "CoreWeave reported Q1 on May 7, ending the quarter with ~3.5 GW of contracted power and a $99.4B revenue backlog. FY26 sales guidance was reaffirmed at $12-13B and the capex range was nudged to $31-35B. S&P revised the credit outlook to positive from stable. Management reiterated >$30B annualized revenue by end of 2027 and 1.7 GW of online capacity by year-end.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Constellation Energy Q1 earnings Monday — first report post-Calpine integration",
+    "summary": "CEG reports Q1 before the open Monday May 11. The Street is watching for any named hyperscaler datacenter customer, signed term sheet, or site disclosure following the $16.4B Calpine close in January. Zacks consensus revenue is $8.21B (+20.9% YoY) and Q1 EBITDA around $2.02B. Investors also looking for an update on the $5B buyback authorization and full-year guidance.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/earnings/constellation-energy-earnings-up-next-can-data-center-deals-deliver-93CH-4673061"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "Pentagon awards classified-network AI deals to 8 firms, excludes Anthropic",
+    "summary": "The Pentagon disclosed AI contracts with OpenAI, Google, Microsoft, NVIDIA, AWS, Oracle, SpaceX and Reflection to deploy AI on classified networks. Anthropic was excluded by name following a designation as a supply-chain risk after refusing autonomous-weapons use cases; a judge has issued an injunction on related offloading orders. A meaningful federal revenue stream for the included names; ongoing legal/political overhang for ANTH.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNN Business",
+    "source_url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"
+  },
+  {
+    "date": "2026-05-10",
+    "headline": "S&P 500 and Nasdaq close at fresh records Friday on strong April payrolls",
+    "summary": "The S&P 500 rose 0.84% to 7,398.93 and the Nasdaq jumped 1.71% to 26,247.08 on Friday, both setting all-time closing highs. The Nasdaq added 4.5% on the week, the S&P 500 2.3%, marking six straight winning weeks — the longest streak since 2024. April nonfarm payrolls came in at +115k against forecasts, with unemployment steady at 4.3%.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/latest-news/stock-market-today-may-8-2026-updates"
+  }
+]

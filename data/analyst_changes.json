@@ -241,5 +241,41 @@
     "new_target": 680,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "AMD",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 525,
+    "old_rating": "Market Perform",
+    "old_target": 265
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "AMD",
+    "firm": "DA Davidson",
+    "new_rating": "Buy",
+    "new_target": 375,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "AMD",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 530,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-10",
+    "ticker": "AMD",
+    "firm": "HSBC",
+    "new_rating": "Hold",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

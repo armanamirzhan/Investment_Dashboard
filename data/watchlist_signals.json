@@ -691,5 +691,33 @@
     "signal_type": "overvalued",
     "description": "MU up +30% over the past five sessions on AI memory shortage narrative; hot CPI print (3.8% YoY) and energy shock raise odds of multiple compression across high-beta AI names.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "INTC",
+    "signal_type": "overvalued",
+    "description": "Down ~9% intraday on profit-taking and hot April CPI print (3.8% YoY); stock hit all-time high ~$113 on May 8 after +430% trailing-year gain and Apple foundry talks. Macro risk-off is triggering sector-wide reversal.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Down ~7-8% intraday ahead of Q1 2026 earnings release after the close; consensus expects a $0.19/share loss vs $0.07 year-ago. Stock had surged >30% since NRC Aurora PDC approval (May 6) and Nvidia partnership announcement; JPMorgan initiated Neutral at $83 (May 11). Investors watching cash burn and whether Switch/Equinix LOIs convert to binding contracts.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "ASML",
+    "signal_type": "legal_risk",
+    "description": "US MATCH Act (Multilateral Alignment of Technology Controls on Hardware) bill active in Congress would ban DUV lithography tool sales and service to China, extending existing EUV-only restrictions. China represents ~25-30% of ASML revenue; no vote date set but bill is live. Compounded by TSMC's delay of High-NA EUV adoption to 2029.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "FLNC",
+    "signal_type": "insider_sell",
+    "description": "Controlling stockholders announced underwritten secondary offering of 20M Class A shares (company receives no proceeds); Barclays, Goldman Sachs, and JPMorgan book-running. Creates near-term dilution overhang despite RBC/UBS PT raises today and earlier hyperscaler master supply agreement wins.",
+    "severity": "medium"
   }
 ]

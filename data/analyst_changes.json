@@ -313,5 +313,41 @@
     "new_target": 500,
     "old_rating": "Buy",
     "old_target": 475
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "AVGO",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 475
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "FLNC",
+    "firm": "RBC Capital",
+    "new_rating": null,
+    "new_target": 16,
+    "old_rating": null,
+    "old_target": 12
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "FLNC",
+    "firm": "UBS",
+    "new_rating": "Neutral",
+    "new_target": 9,
+    "old_rating": "Neutral",
+    "old_target": 8
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "OKLO",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 83,
+    "old_rating": null,
+    "old_target": null
   }
 ]

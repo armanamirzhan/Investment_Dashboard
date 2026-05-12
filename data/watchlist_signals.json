@@ -663,5 +663,33 @@
     "signal_type": "momentum",
     "description": "Apple preliminary foundry deal + Nvidia 'exciting products' tease lift sentiment; foundry thesis gaining customers.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "ENR.DE",
+    "signal_type": "earnings_beat",
+    "description": "Record €17.7B Q2 orders (book-to-bill 1.72); FY26 outlook raised across revenue, margin, net income and FCF; €6B buyback accelerated. Datacenter demand seen through 2030s.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Multiple sell-side hikes into May 20 print (Susquehanna $275, Goldman calling 'meaningfully undervalued'). Beat-and-raise expectations set high; CPI/macro setup adds two-way risk.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "CSCO",
+    "signal_type": "momentum",
+    "description": "Q3 FY26 reports tomorrow after-close. Implied options move ~10%. Key prints: AI infra order pace vs $5B FY target, Silicon One G300 traction, Splunk attach.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "MU",
+    "signal_type": "overvalued",
+    "description": "MU up +30% over the past five sessions on AI memory shortage narrative; hot CPI print (3.8% YoY) and energy shock raise odds of multiple compression across high-beta AI names.",
+    "severity": "medium"
   }
 ]

@@ -295,5 +295,23 @@
     "new_target": 175,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "NVDA",
+    "firm": "Susquehanna",
+    "new_rating": "Buy",
+    "new_target": 275,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-12",
+    "ticker": "AVGO",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 475
   }
 ]

@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-05-12",
+    "headline": "Siemens Energy Q2 FY26: record €17.7B orders, raises FY guide to 14-16% revenue growth; accelerates €6B buyback",
+    "summary": "Q2 orders hit all-time high €17.7B (book-to-bill 1.72) led by Gas Services and Grid Technologies. Revenue +8.9% YoY to €10.3B; profit doubled to €1.11B; net income €835m vs €501m. FCF pre-tax surged to €1.98B. Backlog €154B. FY26 outlook raised: revenue growth 14-16% (prior 12-14%), profit margin 10-12%, net income ~€4B, FCF pre-tax ~€8B. First €2B tranche of €6B buyback substantially complete (11.6M shares at avg €157.1); up to €1B more this FY. CEO Bruch flagged datacenter-driven demand running into the 2030s.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Siemens Energy",
+    "source_url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q2-fy-2026.html"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Susquehanna lifts Nvidia PT to $275 from $250 ahead of May 20 print; raises Blackwell+Rubin '24-'27 rev to ~$1T",
+    "summary": "Christopher Rolland reiterated Buy, citing accelerating Blackwell ramps and hyperscaler capex nearly doubling in 2026. Updated Blackwell + Rubin cumulative revenue through 2027 to ~$1T from $940B prior. Top-5 hyperscaler capex now expected at $725B for 2026 (+77% YoY). Sets up beat-and-raise expectations into the May 20 FY27 Q1 report.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com (Reuters)",
+    "source_url": "https://ca.investing.com/news/stock-market-news/susquehanna-raises-nvidia-stock-price-target-to-275-on-ai-demand-93CH-4629992"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Citi raises Broadcom PT to $500 from $475; custom-silicon and AI networking thesis intact",
+    "summary": "Citi lifted AVGO target to $500 (~26% upside from prior close ~$396) on continued hyperscaler ASIC pipeline strength and VMware integration ramp. Consensus PT $451; 28 analysts at Strong Buy. Setup follows AMD/MU rally driving 'changing of the guard' AI narrative into NVDA earnings next week.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/stocks/avgo/forecast"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "April CPI +0.6% MoM / +3.8% YoY hotter than expected on energy shock; chip rally stalls pre-market",
+    "summary": "Headline CPI +0.6% MoM vs +0.5% expected; YoY 3.8%, highest since May 2023. Energy +3.8% MoM / +17.9% YoY drove >40% of the increase. Core +2.7% YoY, six-month high. Print pushes back rate-cut bets and pressures long-duration AI multiples; Nasdaq 100 futures -0.82%, S&P -0.38% pre-bell. AI-rally leaders (NVDA, AMD, MU, AVGO) all indicated lower into the open.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "BLS",
+    "source_url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Oklo reports Q1 after-close today; NRC Principal Design Criteria approval and Nvidia partnership underpin SMR thesis",
+    "summary": "Street expects ~$(0.19) EPS loss. Catalysts: NRC approved Aurora PDC topical report May 6 (set safety/performance basis for all future Aurora variants); strategic AI-datacenter partnership with Nvidia disclosed earlier in May. Stock up >30% in past month into the print. Consensus PT $92.38, Moderate Buy (10 Buy / 5 Hold).",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/05/06/oklo-advances-12-on-nrc-aurora-approval-is-this-the-ai-infrastructure-nuclear-play/"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Cisco Q3 FY26 prints tomorrow after-close; AI infra orders milestone and Silicon One G300 momentum in focus",
+    "summary": "Guided rev $15.4-$15.6B, EPS $1.02-$1.04 (vs street $1.04 / $15.54B). AI infra orders ran $2.1B in Q2; FY26 AI-order target raised to >$5B with ~$3B converting to hyperscaler revenue. Street expects Q3 AI hyperscaler orders of ~$1.5B (vs conservative $1B bogey). Silicon One shipped its millionth chip; G300 targets 102.4 Tbps for hyperscalers/neoclouds. Splunk on pace to 1,000 new logos by year-end.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TECHi",
+    "source_url": "https://www.techi.com/cisco-csco-q3-fy26-earnings-preview-may-13/"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "GE Vernova Q1 datacenter orders hit $2.4B — already above all of 2025; 100 GW gas-turbine contracts on the books",
+    "summary": "GEV signed 21 GW of new gas-turbine agreements in Q1, lifting cumulative GW under contract from 83 to 100; slot reservation agreements climbed from 43 to 56 GW. Roughly 20% explicitly tied to datacenter load; ~80% utility/IPP/industrial. Blue Energy + GEV separately announced a 2.5 GW gas-plus-nuclear hybrid project pairing BWRX-300 SMRs with gas turbines in Texas (first power ~2030).",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/"
+  },
+  {
+    "date": "2026-05-12",
+    "headline": "Goldman previews Nvidia May 20: expects beat-and-raise, lifts FY26/27 EPS 14%/34% above consensus; $1T DC TAM",
+    "summary": "James Schneider expects management to reiterate mid-70% GM for CY26 and update the $1T cumulative datacenter revenue framework. Goldman raised revenue/EPS by ~12%; FY26 EPS now 14% above Street, FY27 34% above. Calls NVDA 'meaningfully undervalued' into the print with sequential upside from non-guided product lines (networking, Spectrum-X, sovereign).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/tech/26/05/52388278/nvidia-q1-fy27-earnings-preview-goldman-sachs-1-trillion-datacenter"
+  }
+]

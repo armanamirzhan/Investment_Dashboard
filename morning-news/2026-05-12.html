@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-12</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-12</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Siemens Energy Q2 FY26: record €17.7B orders, raises FY guide to 14-16% revenue growth; accelerates €6B buyback</strong> &mdash; Q2 orders hit all-time high €17.7B (book-to-bill 1.72) led by Gas Services and Grid Technologies. Revenue +8.9% YoY to €10.3B; profit doubled to €1.11B; net income €835m vs €501m. FCF pre-tax surged to €1.98B. Backlog €154B. FY26 outlook raised: revenue growth 14-16% (prior 12-14%), profit margin 10-12%, net income ~€4B, FCF pre-tax ~€8B. First €2B tranche of €6B buyback substantially complete (11.6M shares at avg €157.1); up to €1B more this FY. CEO Bruch flagged datacenter-driven demand running into the 2030s.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Susquehanna lifts Nvidia PT to $275 from $250 ahead of May 20 print; raises Blackwell+Rubin '24-'27 rev to ~$1T</strong> &mdash; Christopher Rolland reiterated Buy, citing accelerating Blackwell ramps and hyperscaler capex nearly doubling in 2026. Updated Blackwell + Rubin cumulative revenue through 2027 to ~$1T from $940B prior. Top-5 hyperscaler capex now expected at $725B for 2026 (+77% YoY). Sets up beat-and-raise expectations into the May 20 FY27 Q1 report.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Citi raises Broadcom PT to $500 from $475; custom-silicon and AI networking thesis intact</strong> &mdash; Citi lifted AVGO target to $500 (~26% upside from prior close ~$396) on continued hyperscaler ASIC pipeline strength and VMware integration ramp. Consensus PT $451; 28 analysts at Strong Buy. Setup follows AMD/MU rally driving 'changing of the guard' AI narrative into NVDA earnings next week.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>April CPI +0.6% MoM / +3.8% YoY hotter than expected on energy shock; chip rally stalls pre-market</strong> &mdash; Headline CPI +0.6% MoM vs +0.5% expected; YoY 3.8%, highest since May 2023. Energy +3.8% MoM / +17.9% YoY drove >40% of the increase. Core +2.7% YoY, six-month high. Print pushes back rate-cut bets and pressures long-duration AI multiples; Nasdaq 100 futures -0.82%, S&P -0.38% pre-bell. AI-rally leaders (NVDA, AMD, MU, AVGO) all indicated lower into the open.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Oklo reports Q1 after-close today; NRC Principal Design Criteria approval and Nvidia partnership underpin SMR thesis</strong> &mdash; Street expects ~$(0.19) EPS loss. Catalysts: NRC approved Aurora PDC topical report May 6 (set safety/performance basis for all future Aurora variants); strategic AI-datacenter partnership with Nvidia disclosed earlier in May. Stock up >30% in past month into the print. Consensus PT $92.38, Moderate Buy (10 Buy / 5 Hold).</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Cisco Q3 FY26 prints tomorrow after-close; AI infra orders milestone and Silicon One G300 momentum in focus</strong> &mdash; Guided rev $15.4-$15.6B, EPS $1.02-$1.04 (vs street $1.04 / $15.54B). AI infra orders ran $2.1B in Q2; FY26 AI-order target raised to >$5B with ~$3B converting to hyperscaler revenue. Street expects Q3 AI hyperscaler orders of ~$1.5B (vs conservative $1B bogey). Silicon One shipped its millionth chip; G300 targets 102.4 Tbps for hyperscalers/neoclouds. Splunk on pace to 1,000 new logos by year-end.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GE Vernova Q1 datacenter orders hit $2.4B — already above all of 2025; 100 GW gas-turbine contracts on the books</strong> &mdash; GEV signed 21 GW of new gas-turbine agreements in Q1, lifting cumulative GW under contract from 83 to 100; slot reservation agreements climbed from 43 to 56 GW. Roughly 20% explicitly tied to datacenter load; ~80% utility/IPP/industrial. Blue Energy + GEV separately announced a 2.5 GW gas-plus-nuclear hybrid project pairing BWRX-300 SMRs with gas turbines in Texas (first power ~2030).</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Goldman previews Nvidia May 20: expects beat-and-raise, lifts FY26/27 EPS 14%/34% above consensus; $1T DC TAM</strong> &mdash; James Schneider expects management to reiterate mid-70% GM for CY26 and update the $1T cumulative datacenter revenue framework. Goldman raised revenue/EPS by ~12%; FY26 EPS now 14% above Street, FY27 34% above. Calls NVDA 'meaningfully undervalued' into the print with sequential upside from non-guided product lines (networking, Spectrum-X, sovereign).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Siemens Energy Q2 FY26: record €17.7B orders, raises FY guide to 14-16% revenue growth; accelerates €6B buyback</h3><p>Q2 orders hit all-time high €17.7B (book-to-bill 1.72) led by Gas Services and Grid Technologies. Revenue +8.9% YoY to €10.3B; profit doubled to €1.11B; net income €835m vs €501m. FCF pre-tax surged to €1.98B. Backlog €154B. FY26 outlook raised: revenue growth 14-16% (prior 12-14%), profit margin 10-12%, net income ~€4B, FCF pre-tax ~€8B. First €2B tranche of €6B buyback substantially complete (11.6M shares at avg €157.1); up to €1B more this FY. CEO Bruch flagged datacenter-driven demand running into the 2030s.</p><div class="source"><a href="https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q2-fy-2026.html">Siemens Energy</a></div></div>
+<div class="card"><h3>Oklo reports Q1 after-close today; NRC Principal Design Criteria approval and Nvidia partnership underpin SMR thesis</h3><p>Street expects ~$(0.19) EPS loss. Catalysts: NRC approved Aurora PDC topical report May 6 (set safety/performance basis for all future Aurora variants); strategic AI-datacenter partnership with Nvidia disclosed earlier in May. Stock up >30% in past month into the print. Consensus PT $92.38, Moderate Buy (10 Buy / 5 Hold).</p><div class="source"><a href="https://247wallst.com/investing/2026/05/06/oklo-advances-12-on-nrc-aurora-approval-is-this-the-ai-infrastructure-nuclear-play/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>GE Vernova Q1 datacenter orders hit $2.4B — already above all of 2025; 100 GW gas-turbine contracts on the books</h3><p>GEV signed 21 GW of new gas-turbine agreements in Q1, lifting cumulative GW under contract from 83 to 100; slot reservation agreements climbed from 43 to 56 GW. Roughly 20% explicitly tied to datacenter load; ~80% utility/IPP/industrial. Blue Energy + GEV separately announced a 2.5 GW gas-plus-nuclear hybrid project pairing BWRX-300 SMRs with gas turbines in Texas (first power ~2030).</p><div class="source"><a href="https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/">Power Engineering</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Susquehanna lifts Nvidia PT to $275 from $250 ahead of May 20 print; raises Blackwell+Rubin '24-'27 rev to ~$1T</h3><p>Christopher Rolland reiterated Buy, citing accelerating Blackwell ramps and hyperscaler capex nearly doubling in 2026. Updated Blackwell + Rubin cumulative revenue through 2027 to ~$1T from $940B prior. Top-5 hyperscaler capex now expected at $725B for 2026 (+77% YoY). Sets up beat-and-raise expectations into the May 20 FY27 Q1 report.</p><div class="source"><a href="https://ca.investing.com/news/stock-market-news/susquehanna-raises-nvidia-stock-price-target-to-275-on-ai-demand-93CH-4629992">Investing.com (Reuters)</a></div></div>
+<div class="card"><h3>Citi raises Broadcom PT to $500 from $475; custom-silicon and AI networking thesis intact</h3><p>Citi lifted AVGO target to $500 (~26% upside from prior close ~$396) on continued hyperscaler ASIC pipeline strength and VMware integration ramp. Consensus PT $451; 28 analysts at Strong Buy. Setup follows AMD/MU rally driving 'changing of the guard' AI narrative into NVDA earnings next week.</p><div class="source"><a href="https://www.tipranks.com/stocks/avgo/forecast">TipRanks</a></div></div>
+<div class="card"><h3>Cisco Q3 FY26 prints tomorrow after-close; AI infra orders milestone and Silicon One G300 momentum in focus</h3><p>Guided rev $15.4-$15.6B, EPS $1.02-$1.04 (vs street $1.04 / $15.54B). AI infra orders ran $2.1B in Q2; FY26 AI-order target raised to >$5B with ~$3B converting to hyperscaler revenue. Street expects Q3 AI hyperscaler orders of ~$1.5B (vs conservative $1B bogey). Silicon One shipped its millionth chip; G300 targets 102.4 Tbps for hyperscalers/neoclouds. Splunk on pace to 1,000 new logos by year-end.</p><div class="source"><a href="https://www.techi.com/cisco-csco-q3-fy26-earnings-preview-may-13/">TECHi</a></div></div>
+<div class="card"><h3>Goldman previews Nvidia May 20: expects beat-and-raise, lifts FY26/27 EPS 14%/34% above consensus; $1T DC TAM</h3><p>James Schneider expects management to reiterate mid-70% GM for CY26 and update the $1T cumulative datacenter revenue framework. Goldman raised revenue/EPS by ~12%; FY26 EPS now 14% above Street, FY27 34% above. Calls NVDA 'meaningfully undervalued' into the print with sequential upside from non-guided product lines (networking, Spectrum-X, sovereign).</p><div class="source"><a href="https://www.benzinga.com/markets/tech/26/05/52388278/nvidia-q1-fy27-earnings-preview-goldman-sachs-1-trillion-datacenter">Benzinga</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>April CPI +0.6% MoM / +3.8% YoY hotter than expected on energy shock; chip rally stalls pre-market</h3><p>Headline CPI +0.6% MoM vs +0.5% expected; YoY 3.8%, highest since May 2023. Energy +3.8% MoM / +17.9% YoY drove >40% of the increase. Core +2.7% YoY, six-month high. Print pushes back rate-cut bets and pressures long-duration AI multiples; Nasdaq 100 futures -0.82%, S&P -0.38% pre-bell. AI-rally leaders (NVDA, AMD, MU, AVGO) all indicated lower into the open.</p><div class="source"><a href="https://www.bls.gov/news.release/archives/cpi_05122026.htm">BLS</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">NVDA</span> Susquehanna: Buy &rarr; <strong>Buy</strong> | PT: $250 &rarr; $275 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">AVGO</span> Citi: Buy &rarr; <strong>Buy</strong> | PT: $475 &rarr; $500 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">ENR.DE</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Record €17.7B Q2 orders (book-to-bill 1.72); FY26 outlook raised across revenue, margin, net income and FCF; €6B buyback accelerated. Datacenter demand seen through 2030s.</p>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Momentum</span> Multiple sell-side hikes into May 20 print (Susquehanna $275, Goldman calling 'meaningfully undervalued'). Beat-and-raise expectations set high; CPI/macro setup adds two-way risk.</p>
+<p><span class="ticker">CSCO</span> <span class="signal-badge signal-neutral">Momentum</span> Q3 FY26 reports tomorrow after-close. Implied options move ~10%. Key prints: AI infra order pace vs $5B FY target, Silicon One G300 traction, Splunk attach.</p>
+<p><span class="ticker">MU</span> <span class="signal-badge signal-bearish">Overvalued</span> MU up +30% over the past five sessions on AI memory shortage narrative; hot CPI print (3.8% YoY) and energy shock raise odds of multiple compression across high-beta AI names.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">ENR.DE</span></td><td>Up</td><td>Record €17.7B Q2 orders; FY26 guide raised</td></tr>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Susquehanna PT $275; Goldman 'beat-and-raise'</td></tr>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>Citi PT $500</td></tr>
+<tr><td><span class="ticker ">OKLO</span></td><td>Neutral</td><td>Q1 after-close; NRC PDC tailwind</td></tr>
+<tr><td><span class="ticker up">GEV</span></td><td>Up</td><td>100 GW gas-turbine book; $2.4B Q1 DC orders</td></tr>
+<tr><td><span class="ticker ">CSCO</span></td><td>Neutral</td><td>Q3 FY26 tomorrow after-close</td></tr>
+<tr><td><span class="ticker down">MU</span></td><td>Down</td><td>Hot CPI risks AI-memory multiple</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-12 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

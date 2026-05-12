@@ -170,5 +170,68 @@
       }
     ],
     "file": "morning-news/2026-05-11.html"
+  },
+  {
+    "date": "2026-05-12",
+    "tickers": [
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Susquehanna PT $275; Goldman 'beat-and-raise'"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Citi PT $500"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "neutral",
+        "note": "Q1 after-close; NRC PDC tailwind"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "100 GW gas-turbine book; $2.4B Q1 DC orders"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "neutral",
+        "note": "Q3 FY26 tomorrow after-close"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "Hot CPI risks AI-memory multiple"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ENR.DE",
+        "signal": "earnings beat + raise"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "momentum into print"
+      },
+      {
+        "ticker": "CPI",
+        "signal": "macro: 3.8% YoY"
+      },
+      {
+        "ticker": "GEV",
+        "signal": "order book milestone"
+      },
+      {
+        "ticker": "OKLO",
+        "signal": "earnings catalyst"
+      }
+    ],
+    "file": "morning-news/2026-05-12.html"
   }
 ]

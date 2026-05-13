@@ -367,5 +367,68 @@
     "new_target": 515,
     "old_rating": "Buy",
     "old_target": 415
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "NVDA",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 320,
+    "old_rating": "Buy",
+    "old_target": 300
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "AMD",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 450
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "AMD",
+    "firm": "Daiwa",
+    "new_rating": "Outperform",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "MU",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 950,
+    "old_rating": "Buy",
+    "old_target": 500
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "VRT",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 414,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "VRT",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 425,
+    "old_rating": "Outperform",
+    "old_target": 350
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "AMAT",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 454,
+    "old_rating": "Overweight",
+    "old_target": null
   }
 ]

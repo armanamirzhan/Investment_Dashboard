@@ -740,5 +740,33 @@
     "signal_type": "momentum",
     "description": "Q3 FY26 reports today after-close; options imply ~9.9% move. AI hyperscaler orders bogey $1B, bulls expect $1.5B+ given hyperscaler capex revisions.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "WOLF",
+    "signal_type": "momentum",
+    "description": "Wolfspeed surged +24.65% after research firm Citrini named WOLF its single-stock AI infrastructure highlight, citing post-bankruptcy restructuring and SiC power electronics as critical for high-density AI datacenter power. Stock at ~$67, up ~180% YTD since debt restructuring.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "ON",
+    "signal_type": "momentum",
+    "description": "ON Semiconductor +10.77% intraday as narrative shifts from EV-only story to high-voltage AI datacenter power infrastructure play. Continuation of B. Riley (Buy, $115 PT) and BofA upgrades from April. Stock trading $99-106 range.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Vertiv +8.45% continuing post-Q1 earnings rally: full-year 2026 outlook raised, liquid cooling and high-density AI datacenter power driving demand. Citigroup raised PT to $414, Evercore ISI raised PT to $425 from $350.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "CEG",
+    "signal_type": "earnings_miss",
+    "description": "Constellation Energy -7.8% as Q1 2026 earnings revealed FY2026 EPS guidance midpoint $11.50 missed consensus $11.69. Net interest expense surged 73.3% YoY to $253M from $16.4B Calpine acquisition debt; cash fell from $3.64B to $0.8B; nuclear capacity factor declined to 92.3% from 94.1%.",
+    "severity": "high"
   }
 ]

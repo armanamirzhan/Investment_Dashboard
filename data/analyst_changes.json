@@ -349,5 +349,23 @@
     "new_target": 83,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "NVDA",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 315,
+    "old_rating": "Overweight",
+    "old_target": 265
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "AMD",
+    "firm": "Mizuho",
+    "new_rating": "Buy",
+    "new_target": 515,
+    "old_rating": "Buy",
+    "old_target": 415
   }
 ]

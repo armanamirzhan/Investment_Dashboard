@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
+        "note": "Record €17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -233,5 +233,77 @@
       }
     ],
     "file": "morning-news/2026-05-12.html"
+  },
+  {
+    "date": "2026-05-13",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "WFC PT $315 (+19% raise)"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Mizuho PT $515 (+24% raise)"
+      },
+      {
+        "ticker": "TSEM",
+        "direction": "up",
+        "note": "Q1 beat, +14% pre-market"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "Q1 in line, -6% AH"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "neutral",
+        "note": "Q3 FY26 today AC"
+      },
+      {
+        "ticker": "PLUG",
+        "direction": "up",
+        "note": "Q1 beat, margin +42pts"
+      },
+      {
+        "ticker": "CBRS",
+        "direction": "up",
+        "note": "$4.8B IPO trades Thu"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "Hot PPI/CPI tandem"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "PPI",
+        "signal": "macro: +6.0% YoY shock"
+      },
+      {
+        "ticker": "NVDA/AMD",
+        "signal": "PT raise wave"
+      },
+      {
+        "ticker": "OKLO",
+        "signal": "earnings reaction"
+      },
+      {
+        "ticker": "TSEM",
+        "signal": "foundry beat + SiPho"
+      },
+      {
+        "ticker": "SIEGY",
+        "signal": "DC orders +35%"
+      },
+      {
+        "ticker": "CSCO",
+        "signal": "AI orders catalyst"
+      }
+    ],
+    "file": "morning-news/2026-05-13.html"
   }
 ]

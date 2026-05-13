@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-05-13",
+    "headline": "April PPI shocks +1.4% MoM / +6.0% YoY — largest 12-month jump since Dec 2022; stagflation risk to AI multiples",
+    "summary": "BLS released April PPI at 8:30 AM ET: headline final demand +1.4% MoM (vs +0.5% expected), the biggest monthly print since Mar 2022. YoY +6.0%, highest since Dec 2022. Print follows yesterday's hot CPI (+0.6% MoM / +3.8% YoY). Tandem inflation surprise pushes rate-cut bets out and pressures long-duration AI growth multiples. Nasdaq 100 futures volatile pre-bell as Treasury yields back up; NVDA/AMD/MU/AVGO indicated mixed.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "BLS",
+    "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Oklo Q1 FY26: EPS -$0.19 beats by 1c; pipeline expands to ~14 GW including 12 GW Switch deal; shares -6% AH",
+    "summary": "Loss per share -$0.19 vs -$0.20 consensus; net loss $33.1M on $51.2M opex partially offset by $21.3M interest/dividend income. $2.5B cash position. Customer pipeline grew to ~14 GW non-binding (anchored by Meta 1.2 GW Ohio prepayment, 12 GW Switch LOI, Equinix LOI, multiple government/defense). Broke ground at Idaho National Lab; submitted PJM Interconnection applications. Stock down 5.76% in aftermarket to $75.83 as investors balanced widening losses against pipeline scale.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "Oklo IR",
+    "source_url": "https://oklo.com/newsroom/news-details/2026/Oklo-Publishes-First-Quarter-2026-Financial-Results-and-Business-Update/default.aspx"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Tower Semiconductor Q1 beat: rev $414M (+15% YoY), EPS $0.65 vs $0.56; Q2 record $455M guide; $1.3B SiPho contracts for 2027",
+    "summary": "Foundry beat top and bottom — revenue $414M vs $358M YoY (+15%); GAAP gross profit $111M (+52%), operating profit $65M (+96%). Adjusted EPS $0.65 vs $0.45 prior year, beating $0.56 estimate. Guided Q2 to record $455M (+22% YoY / +10% QoQ). Backed by $1.3B contracted silicon-photonics revenue scheduled for 2027 — direct AI-datacenter pull-through. Shares +14% pre-market. Adjacent read-through to GFS, UMC, ASX, AMKR on advanced-packaging and SiPho demand.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Tower Semiconductor",
+    "source_url": "https://towersemi.com/2026/05/13/05132026/"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Siemens AG Q2 FY26: Smart Infrastructure orders +35% on record €7.53B as datacenter vertical sees triple-digit growth",
+    "summary": "Group orders €24.1B (+11% nominal / +18% comparable); book-to-bill 1.22 lifting backlog to record €124B. Smart Infrastructure (datacenter electrical gear) hit quarterly record €7.53B orders, +35% comparable, with CEO Roland Busch flagging 'unprecedented triple-digit percentage order growth' from datacenter customers. FCF +71% to €1.72B. Q2 EPS €2.60 (€2.81 pre-PPA). Raised Digital Industries guide: revenue growth 7-10% (prior 5-10%), segment margin 17-19% (prior 15-19%). Read-across positive for Schneider Electric and ABB on the same datacenter electrification trend.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Siemens AG",
+    "source_url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q2-fy-2026"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Wells Fargo lifts Nvidia PT to $315 from $265 ahead of May 20 print on gigawatt-driven datacenter model",
+    "summary": "Aaron Rakers raised NVDA target to $315 (~44% upside from May 11 close), maintaining Overweight. Built a new gigawatt-capacity model treating AI compute as a physical-infra problem: AI deployment scaling from 9.2 GW in FY26 to 15.7 GW FY27, 20.8 GW FY28, 25.2 GW FY29. Implied datacenter revenue: $354.5B FY27, $504.5B FY28, $628B FY29. New PT is 21x CY28 EPS estimate of $14.85. Sets up bullish setup into May 20 FY27 Q1 report; follows Susquehanna $275 and Goldman beat-and-raise calls.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/12/ai-will-drive-nvidia-higher-by-more-than-40percent-from-here-says-wells-fargo.html"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Mizuho lifts AMD PT to $515 from $415; cites agentic AI driving both server CPU and accelerator demand",
+    "summary": "Vijay Rakesh of Mizuho maintained Buy and raised AMD target to $515 (24% above the consensus), citing agentic AI as the structural driver for both EPYC server CPUs and Instinct accelerators. Follows AMD's Q1 print of $10.25B revenue (+38% YoY) with Data Center segment $5.78B (+57%). Adds to a wall of post-Q1 PT raises (Bernstein $525 May 6, KeyBanc $530 May 6). Reinforces the 'changing of the guard' narrative as AMD/MU rally while NVDA digests pre-print expectations.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/05/12/mizuho-just-hiked-amd-price-target-to-515-agentic-ai-server-demand-powers-the-bull-case/"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Cerebras upsizes IPO to $4.8B at $48.8B valuation; pricing above range, trades Thursday as CBRS",
+    "summary": "AI chipmaker Cerebras Systems lifted its IPO to 30M shares at $150-$160 (from 28M at $115-$125), targeting up to $4.8B raise — the largest IPO of 2026. Bloomberg reports book is ~20x oversubscribed; pricing now guided above range. Implied fully-diluted valuation up to $48.8B. WSE-3 wafer-scale chip is the alternative AI architecture to Nvidia's clustered-GPU approach. Customers include OpenAI, Amazon. Begins trading on Nasdaq under CBRS on Thursday May 14. Watch for read-through to NVDA narrative if the float prices well — public-comp competition risk vs validation of AI-chip TAM.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-05-11/ai-chipmaker-cerebras-systems-seeks-4-8-billion-in-upsized-ipo"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Cisco Q3 FY26 reports after close today; AI hyperscaler orders ~$1.5B expected vs $1B bogey, Silicon One G300 in focus",
+    "summary": "Cisco reports Q3 FY26 after the bell. Guided rev $15.4-$15.6B, EPS $1.02-$1.04 (above prior Street). AI infrastructure orders ran $2.1B in Q2 with FY26 AI-order target raised to >$5B; UBS conservative at $1B for Q3, bulls expect ~$1.5B given Meta/MSFT/AMZN capex revisions. Silicon One G300 (102.4 Tbps) ramp into hyperscaler/neocloud bids and Splunk's pace to 1,000 new logos by year-end are key swing factors. Options imply ~9.9% move into the print. Read-through to ANET, AVGO, JNPR (networking AI ASIC competition).",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/cisco-will-report-q3-earnings-today-heres-what-to-expect-from-csco-stock"
+  },
+  {
+    "date": "2026-05-13",
+    "headline": "Plug Power Q1 FY26 beats; revenue $163.5M (+22% YoY), gross margin improves 42pts; on-site DC power thesis intact",
+    "summary": "PLUG reported Q1 ahead of expectations: revenue $163.5M vs $148M consensus, EPS -$0.08 vs -$0.10. Gross margin improved from -55% to -13% YoY. Electrolyzer platform revenue +343%. Cash $223M unrestricted + $579M restricted ($802M total); ~$50M/qtr expected release. Targets EBITDAS positive Q4 FY26. Fuel-cell complex rallied Monday as datacenter operators face 5-7 year interconnection queues, driving on-site generation demand — FCEL +18%, PLUG +13%, BE +12% intraday May 11. 30% ITC through 2032 supports unit economics.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Plug Power IR",
+    "source_url": "https://www.ir.plugpower.com/press-releases/news-details/2026/Plug-Power-Reports-Strong-Q1-2026-Results-with-22-Revenue-Growth-and-71-Margin-Improvement-Year-over-Year/default.aspx"
+  }
+]

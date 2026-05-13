@@ -719,5 +719,26 @@
     "signal_type": "insider_sell",
     "description": "Controlling stockholders announced underwritten secondary offering of 20M Class A shares (company receives no proceeds); Barclays, Goldman Sachs, and JPMorgan book-running. Creates near-term dilution overhang despite RBC/UBS PT raises today and earlier hyperscaler master supply agreement wins.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "OKLO",
+    "signal_type": "earnings_miss",
+    "description": "Q1 print after-close May 12: EPS -$0.19 beat by 1c but stock -5.76% AH on widening loss; pipeline expanded to ~14 GW but contracts remain non-binding LOIs.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Three major desks (Wells Fargo $315, Susquehanna $275, Goldman beat-and-raise) all moved bullish into May 20 print. PT raises now 14-44% above current.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-13",
+    "ticker": "CSCO",
+    "signal_type": "momentum",
+    "description": "Q3 FY26 reports today after-close; options imply ~9.9% move. AI hyperscaler orders bogey $1B, bulls expect $1.5B+ given hyperscaler capex revisions.",
+    "severity": "medium"
   }
 ]

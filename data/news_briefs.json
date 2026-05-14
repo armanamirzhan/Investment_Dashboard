@@ -305,5 +305,82 @@
       }
     ],
     "file": "morning-news/2026-05-13.html"
+  },
+  {
+    "date": "2026-05-14",
+    "tickers": [
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "+15% pre-market; AI orders target to $9B"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "H200 export licenses to 10 China firms; +3% overnight"
+      },
+      {
+        "ticker": "CBRS",
+        "direction": "up",
+        "note": "Cerebras IPO opens today; indicated ~$350 vs $185 issue"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Cisco/Marvell AI-networking read-across"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "neutral",
+        "note": "Q2 FY26 after-bell tonight"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Crossed KRW 2M intraday — near $1T cap"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +4.5% to ATH KRW 299,500"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Jane Street $6B compute + $1B equity"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "FY26 guide raised after record orders"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CSCO",
+        "signal": "earnings blowout + AI orders raise"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "China H200 export clearance"
+      },
+      {
+        "ticker": "CBRS",
+        "signal": "Nasdaq debut today"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Trump-Xi Beijing summit"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "HBM memory supercycle"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "networking AI read-across"
+      }
+    ],
+    "file": "morning-news/2026-05-14.html"
   }
 ]

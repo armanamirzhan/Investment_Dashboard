@@ -768,5 +768,40 @@
     "signal_type": "earnings_miss",
     "description": "Constellation Energy -7.8% as Q1 2026 earnings revealed FY2026 EPS guidance midpoint $11.50 missed consensus $11.69. Net interest expense surged 73.3% YoY to $253M from $16.4B Calpine acquisition debt; cash fell from $3.64B to $0.8B; nuclear capacity factor declined to 92.3% from 94.1%.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 record: rev $15.8B, EPS $1.06; FY26 AI infra orders target lifted to $9B from $5B; stock +15% pre-market on 9 PT raises (MS $120, GS $116, WF $130, PSC $132, UBS $132, BNP $132, JPM $120, BCS $121, BAC $114).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "H200 export licenses cleared for ~10 Chinese tech firms (Alibaba, Tencent, ByteDance, JD.com) up to 75k chips each as Trump-Xi summit opens. NVDA +3% overnight, into May 20 FY27 Q1 print. Risk: Beijing pressuring domestic buyers to defer.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix touched KRW 2M intraday — first time ever; on cusp of $1T market cap. KOSPI200 concentration with Samsung now >50%.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "AMAT",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY26 reports after-bell tonight; consensus $2.68 EPS on $7.69B revenue. HBM equipment, advanced packaging, leading-edge logic in focus. Read-through for LRCX/KLAC/ASML.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Jane Street committing ~$6B for AI cloud capacity plus $1B equity at $109/share — quant validation of neocloud pricing power. Watch debt-exposure offloading at the banks as offsetting risk.",
+    "severity": "medium"
   }
 ]

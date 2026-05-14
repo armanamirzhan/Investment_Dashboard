@@ -430,5 +430,86 @@
     "new_target": 454,
     "old_rating": "Overweight",
     "old_target": null
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 120,
+    "old_rating": "Overweight",
+    "old_target": 91
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 114,
+    "old_rating": "Buy",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 116,
+    "old_rating": "Buy",
+    "old_target": 75
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 130,
+    "old_rating": "Overweight",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 132,
+    "old_rating": "Overweight",
+    "old_target": 86
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 120,
+    "old_rating": "Overweight",
+    "old_target": 96
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 121,
+    "old_rating": "Overweight",
+    "old_target": 76
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 132,
+    "old_rating": "Buy",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "BNP Paribas",
+    "new_rating": "Outperform",
+    "new_target": 132,
+    "old_rating": "Outperform",
+    "old_target": 87
   }
 ]

@@ -511,5 +511,122 @@
     "new_target": 132,
     "old_rating": "Outperform",
     "old_target": 87
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 132,
+    "old_rating": "Overweight",
+    "old_target": 86
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 150,
+    "old_rating": "Outperform",
+    "old_target": 110
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 125,
+    "old_rating": "Overweight",
+    "old_target": 87
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 132,
+    "old_rating": "Buy",
+    "old_target": 100
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 130,
+    "old_rating": "Overweight",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 121,
+    "old_rating": "Overweight",
+    "old_target": 76
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 116,
+    "old_rating": "Buy",
+    "old_target": 75
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 120,
+    "old_rating": "Overweight",
+    "old_target": 96
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "firm": "BofA",
+    "new_rating": "Buy",
+    "new_target": 114,
+    "old_rating": "Buy",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "NVDA",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 275,
+    "old_rating": "Buy",
+    "old_target": 245
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "INTC",
+    "firm": "HSBC",
+    "new_rating": "Reduce",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "AMAT",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 520,
+    "old_rating": "Buy",
+    "old_target": 420
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "AMAT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 550,
+    "old_rating": "Overweight",
+    "old_target": 500
   }
 ]

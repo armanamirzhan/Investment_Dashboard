@@ -803,5 +803,33 @@
     "signal_type": "momentum",
     "description": "Jane Street committing ~$6B for AI cloud capacity plus $1B equity at $109/share — quant validation of neocloud pricing power. Watch debt-exposure offloading at the banks as offsetting risk.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "CSCO",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY2026 blowout: revenue $15.84B (+12% YoY), adj. EPS $1.06, both beat; Q4 guide $16.7-16.9B vs $15.56B est. AI infrastructure orders $1.9B, tripled YoY. Stock +17-20% intraday — largest post-earnings move of the session.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "HSBC downgraded to Reduce citing rally based on one-off deals, not fundamental improvement. UBS server share data: Intel at 54.9% (-370 bps QoQ), AMD gained 230 bps to 27.4%, ARM gained 140 bps to 17.7%. Foundry Q1 operating loss $2.3B; 18A/14A yield concerns persist. Stock -5.2% at open.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "US Commerce Dept. cleared H200 chip sales to ~10 Chinese companies (Alibaba, Tencent, ByteDance, JD.com among recipients). Jensen Huang joined Trump-Xi summit delegation in Beijing. Huang estimates China AI market at $50B. Deliveries pending Beijing guidance. Stock +4% intraday.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-14",
+    "ticker": "ANET",
+    "signal_type": "momentum",
+    "description": "Arista Networks +4.5% intraday on Cisco earnings read-through: CSCO AI networking orders tripled YoY to $1.9B, confirming hyperscaler networking capex cycle Arista participates in. Arista Q1 already beat with upward guidance revision.",
+    "severity": "medium"
   }
 ]

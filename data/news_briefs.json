@@ -382,5 +382,87 @@
       }
     ],
     "file": "morning-news/2026-05-14.html"
+  },
+  {
+    "date": "2026-05-15",
+    "tickers": [
+      {
+        "ticker": "AMAT",
+        "direction": "up",
+        "note": "Record Q2; CY26 WFE >30%; +8% AH"
+      },
+      {
+        "ticker": "CBRS",
+        "direction": "neutral",
+        "note": "Debut closed +68% at $311; ~$95B cap"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-7.66% as KOSPI craters 6.12%"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-8.6% on 18-day strike confirmed"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "-2.6% pre-market; H200 China stall"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "HSBC upgrade to Buy, PT $137"
+      },
+      {
+        "ticker": "ANET",
+        "direction": "up",
+        "note": "Raymond James Outperform, PT $164"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "Daiwa downgrade caps run on valuation"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "GS PT to EUR 1,600 on EUV/AI demand"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "April rev +17.5% YoY; YTD ~30%"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AMAT",
+        "signal": "WFE supercycle confirmed"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "HBM strike risk"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "H200 China revenue stall"
+      },
+      {
+        "ticker": "CSCO",
+        "signal": "AI-networking re-rate"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "Valuation downgrades"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "KOSPI profit-take"
+      }
+    ],
+    "file": "morning-news/2026-05-15.html"
   }
 ]

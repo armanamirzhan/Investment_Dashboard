@@ -831,5 +831,40 @@
     "signal_type": "momentum",
     "description": "Arista Networks +4.5% intraday on Cisco earnings read-through: CSCO AI networking orders tripled YoY to $1.9B, confirming hyperscaler networking capex cycle Arista participates in. Arista Q1 already beat with upward guidance revision.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "Confirmed 18-day Samsung union strike starting May 21; HBM/foundry capacity at risk during peak AI memory qualification window. ~$700M/day cost estimate; industry impact estimates KRW 40T base, KRW 100T worst-case.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "signal_type": "earnings_beat",
+    "description": "Record Q2 FY26: rev $7.91B vs $7.82B consensus, GAAP EPS $3.51 vs $2.71. Raised CY26 WFE growth to >30% from >20%. Q3 guide $8.95B vs $8.09B Street. Lynx Equity target to $540.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -7.66% Friday after briefly touching KRW 2M earlier in week. KOSPI -6.12% on foreign profit-taking on HBM winners. Memory-cycle bull thesis intact but positioning vulnerable.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMD",
+    "signal_type": "overvalued",
+    "description": "Third sell-side rating cut in two weeks (Daiwa May 13 to Outperform; HSBC May 4 to Hold). Forward P/E ~33x 2027 EPS; insider selling $54.6M past 90 days; H2 gaming guide -20% on memory cost inflation.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "China H200 export framework reportedly requires 25% revenue remittance to US Treasury; Beijing pressuring approved buyers to defer orders. Zero shipments executed despite licenses.",
+    "severity": "medium"
   }
 ]

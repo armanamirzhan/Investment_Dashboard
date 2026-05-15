@@ -628,5 +628,59 @@
     "new_target": 550,
     "old_rating": "Overweight",
     "old_target": 500
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "CSCO",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 137,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "ANET",
+    "firm": "Raymond James",
+    "new_rating": "Outperform",
+    "new_target": 164,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Lynx Equity",
+    "new_rating": null,
+    "new_target": 540,
+    "old_rating": null,
+    "old_target": 440
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "ASML",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 1600,
+    "old_rating": "Buy",
+    "old_target": 1570
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMD",
+    "firm": "Daiwa Capital",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "CSCO",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 132,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

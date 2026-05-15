@@ -682,5 +682,59 @@
     "new_target": 132,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "NVDA",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 275.0,
+    "old_rating": "Buy",
+    "old_target": 235.0
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 502.0,
+    "old_rating": "Overweight",
+    "old_target": 454.0
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 500.0,
+    "old_rating": "Overweight",
+    "old_target": 450.0
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 510.0,
+    "old_rating": "Buy",
+    "old_target": 415.0
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 520.0,
+    "old_rating": "Buy",
+    "old_target": 420.0
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 550.0,
+    "old_rating": "Overweight",
+    "old_target": 500.0
   }
 ]

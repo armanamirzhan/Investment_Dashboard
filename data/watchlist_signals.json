@@ -866,5 +866,19 @@
     "signal_type": "legal_risk",
     "description": "China H200 export framework reportedly requires 25% revenue remittance to US Treasury; Beijing pressuring approved buyers to defer orders. Zero shipments executed despite licenses.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "AMAT",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY2026 record revenue $7.91B (consensus ~$7.7B), adj. EPS $2.86 vs consensus $2.68; Q3 guidance $8.95B (above estimates); chip equipment growth outlook raised to >30% YoY; stock +5% on five+ analyst PT raises.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-15",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Stock down ~5% May 15 as UBS data shows Intel server CPU market share fell 370 bps to 54.9% in Q1 2026 while AMD gained 230 bps (to 27.4%) and Arm gained 140 bps (to 17.7%). Broad foundry execution concerns persist; yield-driven sector weakness amplifies the move.",
+    "severity": "medium"
   }
 ]

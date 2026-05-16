@@ -880,5 +880,12 @@
     "signal_type": "momentum",
     "description": "Stock down ~5% May 15 as UBS data shows Intel server CPU market share fell 370 bps to 54.9% in Q1 2026 while AMD gained 230 bps (to 27.4%) and Arm gained 140 bps (to 17.7%). Broad foundry execution concerns persist; yield-driven sector weakness amplifies the move.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "BTIG raises target to $621 (from $499) and RBC Capital raises to $650 (from $550) on May 14-15, citing platform consolidation momentum and expanding threat detection TAM.",
+    "severity": "medium"
   }
 ]

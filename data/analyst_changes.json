@@ -736,5 +736,122 @@
     "new_target": 550.0,
     "old_rating": "Overweight",
     "old_target": 500.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 520.0,
+    "old_rating": "Buy",
+    "old_target": 390.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 550.0,
+    "old_rating": "Buy",
+    "old_target": 450.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 520.0,
+    "old_rating": "Overweight",
+    "old_target": 435.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 540.0,
+    "old_rating": "Buy",
+    "old_target": 465.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 515.0,
+    "old_rating": "Overweight",
+    "old_target": 400.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 515.0,
+    "old_rating": "Buy",
+    "old_target": 480.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 525.0,
+    "old_rating": "Buy",
+    "old_target": 450.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 525.0,
+    "old_rating": "Outperform",
+    "old_target": 425.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 500.0,
+    "old_rating": "Outperform",
+    "old_target": 410.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Needham",
+    "new_rating": "Buy",
+    "new_target": 530.0,
+    "old_rating": "Buy",
+    "old_target": 440.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "AMAT",
+    "firm": "Wolfe Research",
+    "new_rating": "Outperform",
+    "new_target": 550.0,
+    "old_rating": "Outperform",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "CRWD",
+    "firm": "BTIG",
+    "new_rating": "Buy",
+    "new_target": 621.0,
+    "old_rating": "Buy",
+    "old_target": 499.0
+  },
+  {
+    "date": "2026-05-16",
+    "ticker": "CRWD",
+    "firm": "RBC Capital",
+    "new_rating": "Outperform",
+    "new_target": 650.0,
+    "old_rating": "Outperform",
+    "old_target": 550.0
   }
 ]

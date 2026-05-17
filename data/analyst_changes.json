@@ -853,5 +853,32 @@
     "new_target": 650.0,
     "old_rating": "Outperform",
     "old_target": 550.0
+  },
+  {
+    "date": "2026-05-17",
+    "ticker": "SNPS",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 505.0,
+    "old_rating": "Overweight",
+    "old_target": 450.0
+  },
+  {
+    "date": "2026-05-17",
+    "ticker": "SNPS",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 600.0,
+    "old_rating": "Buy",
+    "old_target": 580.0
+  },
+  {
+    "date": "2026-05-17",
+    "ticker": "HPE",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 40.0,
+    "old_rating": "Outperform",
+    "old_target": 30.0
   }
 ]

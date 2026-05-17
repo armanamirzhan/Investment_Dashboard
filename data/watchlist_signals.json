@@ -887,5 +887,19 @@
     "signal_type": "momentum",
     "description": "BTIG raises target to $621 (from $499) and RBC Capital raises to $650 (from $550) on May 14-15, citing platform consolidation momentum and expanding threat detection TAM.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-17",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Applied Materials down ~4.7% intraday May 17 after surging post-Q2 earnings (May 15), as April CPI 3.8% print eliminates 2026 Fed rate-cut expectations and pushes yields higher. Macro headwind compressing high-multiple semiconductor equipment names despite strong fundamentals; prior earnings analyst PT cluster at $500-$550 intact.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-17",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "KLA Corp down ~4.5% intraday May 17 alongside semiconductor equipment peers (AMAT -4.7%, LRCX -4.1%) as April CPI 3.8% drives risk-off rotation out of high-multiple growth names. Brent crude elevated at ~$107 adds inflation persistence concern. No company-specific catalyst; macro driven.",
+    "severity": "medium"
   }
 ]

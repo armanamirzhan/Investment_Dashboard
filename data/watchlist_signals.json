@@ -936,5 +936,19 @@
     "signal_type": "momentum",
     "description": "-3% pre-market on Samsung strike spillover concerns; HBM/DDR cycle tightness a Q1 margin tailwind if strike proceeds.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "VRT",
+    "signal_type": "overvalued",
+    "description": "-9% intraday on valuation reset; Q2 EPS guidance came in below consensus and sector-wide AI infrastructure multiple compression accelerated. Revenue and backlog growth remain intact.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "CRWV",
+    "signal_type": "insider_sell",
+    "description": "CEO sold 200K shares (May 12) and CSO sold 374K shares (May 11). DA Davidson cut Buy -> Neutral, PT $175->$100, citing thin margins, debt-heavy structure, operating costs doubling YoY to $2.2B, and Q2 revenue guidance miss.",
+    "severity": "high"
   }
 ]

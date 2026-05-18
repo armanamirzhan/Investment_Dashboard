@@ -880,5 +880,77 @@
     "new_target": 40.0,
     "old_rating": "Outperform",
     "old_target": 30.0
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "NVDA",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 300,
+    "old_rating": "Overweight",
+    "old_target": 275
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 285,
+    "old_rating": "Overweight",
+    "old_target": 260
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "INTC",
+    "firm": "Benchmark",
+    "new_rating": "Buy",
+    "new_target": 140,
+    "old_rating": "Buy",
+    "old_target": 105
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "INTC",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 130,
+    "old_rating": "Buy",
+    "old_target": 95
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "AMD",
+    "firm": "Citi",
+    "new_rating": "Neutral",
+    "new_target": 460,
+    "old_rating": "Neutral",
+    "old_target": 358
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "CRWD",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 700,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "CRWV",
+    "firm": "DA Davidson",
+    "new_rating": "Neutral",
+    "new_target": 100,
+    "old_rating": "Buy",
+    "old_target": 175
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "AMAT",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-Weight",
+    "new_target": 502,
+    "old_rating": "Overweight",
+    "old_target": 502
   }
 ]

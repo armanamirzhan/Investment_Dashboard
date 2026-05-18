@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record €17.7B Q2 orders; FY26 guide raised"
+        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -337,7 +337,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "Crossed KRW 2M intraday — near $1T cap"
+        "note": "Crossed KRW 2M intraday \u2014 near $1T cap"
       },
       {
         "ticker": "005930.KS",
@@ -464,5 +464,63 @@
       }
     ],
     "file": "morning-news/2026-05-15.html"
+  },
+  {
+    "date": "2026-05-18",
+    "tickers": [
+      {
+        "ticker": "NEE",
+        "direction": "down",
+        "note": "-5.4% on $66.8B Dominion deal"
+      },
+      {
+        "ticker": "D",
+        "direction": "up",
+        "note": "+9.8% takeout, ~23% premium"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "neutral",
+        "note": "Strike injunction partial; talks to May 19"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-3% pre-market, HBM spillover"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Q1 FY27 Wed AMC; $78B guide"
+      },
+      {
+        "ticker": "STX",
+        "direction": "down",
+        "note": "-7% pre-market on Samsung risk"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NEE/D",
+        "signal": "Utility mega-merger"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "HBM strike binary"
+      },
+      {
+        "ticker": "MU",
+        "signal": "Memory selloff"
+      },
+      {
+        "ticker": "OIL",
+        "signal": "Iran/Hormuz risk"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Earnings Wed AMC"
+      }
+    ],
+    "file": "morning-news/2026-05-18.html"
   }
 ]

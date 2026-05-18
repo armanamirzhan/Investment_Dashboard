@@ -901,5 +901,40 @@
     "signal_type": "momentum",
     "description": "KLA Corp down ~4.5% intraday May 17 alongside semiconductor equipment peers (AMAT -4.7%, LRCX -4.1%) as April CPI 3.8% drives risk-off rotation out of high-multiple growth names. Brent crude elevated at ~$107 adds inflation persistence concern. No company-specific catalyst; macro driven.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "D",
+    "signal_type": "momentum",
+    "description": "NextEra $66.8B all-stock takeout at ~23% premium; +9.8% Monday. Arb spread will compress only after FERC + VA/NC/SC approvals (12-18mo).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "NEE",
+    "signal_type": "legal_risk",
+    "description": "Largest US power M&A ever — concentrates 110 GW + 51 GW contracted DC capacity. Multi-state PUC approval risk; -5.4% Monday on size/integration concern.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "Court partially granted strike injunction (safety/wafer ops must run); 18-day strike still scheduled May 21 absent deal by May 19. HBM4 + foundry yields at risk.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 Wednesday May 20 AMC — guide $78B +/- 2%, GM >74%. Blackwell mix + China commentary the print's swing factors.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-18",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "-3% pre-market on Samsung strike spillover concerns; HBM/DDR cycle tightness a Q1 margin tailwind if strike proceeds.",
+    "severity": "medium"
   }
 ]

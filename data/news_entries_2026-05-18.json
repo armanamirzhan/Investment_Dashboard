@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-05-18",
+    "headline": "NextEra to acquire Dominion in $66.8B all-stock mega-merger; creates largest US utility with 110 GW and 51 GW of contracted datacenter capacity",
+    "summary": "NextEra Energy (NEE) announced Monday a $66.8B all-stock acquisition of Dominion Energy (D) at ~$76/share — a ~23% premium to Friday's close. The combined company would own ~110 GW of generation and serve ~10M customers across FL, VA, NC, SC, with Dominion's Virginia footprint giving NextEra direct access to Data Center Alley. Dominion holds 51 GW of contracted datacenter capacity tied to AMZN, MSFT, GOOGL, META, EQIX and CRWV — the strategic centerpiece of the deal. Expected close 12-18 months pending FERC plus VA/NC/SC commission approvals. Customer bill credits of $2.25B committed across the three states. Stock reaction: D +9.8% (+$5.8B mkt cap), NEE -5.4% (-$9.9B), net -$5B combined — investor skepticism on size and integration. The largest power-sector M&A on record; sets a precedent for utility consolidation around hyperscaler load growth and could draw scrutiny on concentration of AI grid supply.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/18/nextera-nee-dominion-energy-d-data-center-ai.html"
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Samsung-union talks extended through May 19 ahead of Friday strike; court partially grants Samsung injunction requiring safety/wafer operations to run normally",
+    "summary": "South Korea's National Labor Relations Commission extended post-mediation talks to Tuesday May 19, with the 18-day strike still scheduled to begin Friday May 21 absent a deal. A Korean court Monday partially granted Samsung Electronics' (005930.KS) injunction against the National Samsung Electronics Union (~90,000 members): the strike is not blocked, but the union must keep safety facilities and wafer-protection operations running normally — a meaningful carve-out for fabs. President Lee Jae-myung intervened publicly urging a deal; business groups warned the strike could drag the entire KOSPI down and accelerate foreign outflows. Samsung shares traded -9% pre-market then V-recovered to +3.88% on the injunction news; KOSPI 200 futures tripped a circuit breaker at -5% before closing +0.77%. Sticking points: union demands 15% of operating profit into bonus pool and removal of the 50%-of-base bonus cap. Read-through: HBM4 (sold-out 2026 production) and foundry yields remain the AI-supply tail risk into Friday; positive marginal for SK Hynix (000660.KS) and Micron (MU) on diversion risk.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/18/samsung-strike-lee-jae-myung-labor-deal.html"
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Memory names sell off pre-market on Samsung strike worry: MU -3%, STX -7%; Nasdaq futures -0.7% with 10Y yield testing 4.6%",
+    "summary": "Memory and storage names led pre-market weakness Monday on concerns the Samsung strike — even if narrowed — extends an already-tight HBM/DDR cycle. Micron (MU) -3%, Seagate (STX) -7%, with Broadcom (AVGO) and Intel (INTC) also lower in sympathy. Macro backdrop unhelpful: Nasdaq futures -0.7%, S&P 500 -0.3%, with the 10-year Treasury yield briefly topping 4.60% (highest since February 2025) on renewed inflation worry. Setup ahead of Wednesday's Nvidia print: memory tightness is a Q1 FY27 margin tailwind for HBM4 suppliers but a cost headwind for accelerator OEMs — watch NVDA gross-margin guide (>74% expected) versus consensus for resolution.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-18-earnings-nvidia-232705005.html"
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Brent tops $111/bbl as Washington rejects Iran proposal as 'insufficient'; weekend strike on UAE nuclear site escalates Gulf risk",
+    "summary": "Brent July futures rose >1% to $111.04 Monday after Axios reported a senior US official called Tehran's latest peace proposal 'not a meaningful improvement and insufficient for a deal.' Over the weekend, drone strikes hit energy infrastructure across the Persian Gulf including a nuclear facility in the UAE, with President Trump warning the 'clock is ticking' on Iran. The Strait of Hormuz remains largely closed and the IEA warned that global oil inventories are depleting at a record pace — 'rapidly shrinking buffers' could herald future spikes. Implication for the AI/datacenter complex: persistent $100+ crude lifts industrial input costs and re-injects inflation risk (today's 10Y yield move above 4.6% is partly this), tightening the macro window for hyperscaler capex execution. Watch utility/genco names with gas-peaker exposure (VST, CEG, NRG) and any datacenter PPA renegotiation chatter.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/18/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude-.html"
+  },
+  {
+    "date": "2026-05-18",
+    "headline": "Nvidia Q1 FY27 print Wednesday May 20 AMC; consensus $78B rev / $1.77 EPS / $73B datacenter; Blackwell mix, gross margin, and China commentary the key tells",
+    "summary": "Nvidia (NVDA) reports fiscal Q1 2027 after the close Wednesday May 20, conference call 5:00 PM ET. Consensus: revenue ~$78B (NVDA guide $78B +/- 2%), non-GAAP EPS ~$1.77, datacenter ~$73B, gross margin >74%. Key items: (1) Blackwell shipment cadence and yields — Blackwell was ~70% of datacenter compute last quarter, (2) Blackwell Ultra deployment timeline and any early Rubin commentary, (3) China — Beijing's pressure on H200 buyers (Alibaba/Tencent/ByteDance/JD per Friday's reporting) and the 25% Treasury remit mechanic; consensus appears to model near-zero China contribution, (4) sovereign AI / Stargate ramp, (5) custom-ASIC commentary vs Google TPU and AWS Trainium. Setup: NVDA -2.6% pre-market Friday, BofA's $320 PT (May 13) and now $1.7T accelerator TAM call are the bull anchor; bear case centers on accelerator commoditization and the Cerebras IPO re-rating of wafer-scale economics.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/05/13/nvidia-reports-its-fiscal-2027-q1-earnings-may-20/"
+  }
+]

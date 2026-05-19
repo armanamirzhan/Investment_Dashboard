@@ -522,5 +522,75 @@
       }
     ],
     "file": "morning-news/2026-05-18.html"
+  },
+  {
+    "date": "2026-05-19",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "-1% pre-mkt; HSBC $325, MS $285"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-2.0% on strike risk"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-5.2% Asia memory selloff"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "down",
+        "note": "-1.6% NVDA de-risk"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "Rate-duration squeeze"
+      },
+      {
+        "ticker": "BE",
+        "direction": "down",
+        "note": "Yield-spike sympathy"
+      },
+      {
+        "ticker": "VST",
+        "direction": "neutral",
+        "note": "Gas baseload bid vs renewables"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "legal_risk"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "overvalued"
+      },
+      {
+        "ticker": "BE",
+        "signal": "overvalued"
+      }
+    ],
+    "file": "morning-news/2026-05-19.html",
+    "sectors": [
+      "hardware",
+      "finance",
+      "policy",
+      "energy"
+    ],
+    "top_headlines": "HSBC raises NVDA PT to $325 ahead of Wed print; 30Y yields hit 19-yr high 5.198%; Asia memory tumbles (Hynix -5%, TSMC -1.6%) into NVDA Q1 FY27"
   }
 ]

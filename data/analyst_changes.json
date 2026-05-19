@@ -952,5 +952,14 @@
     "new_target": 502,
     "old_rating": "Overweight",
     "old_target": 502
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "NVDA",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 325.0,
+    "old_rating": "Buy",
+    "old_target": 295.0
   }
 ]

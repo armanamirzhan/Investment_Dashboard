@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-05-19",
+    "headline": "HSBC raises Nvidia price target to $325 from $295 on day before print; models Q1 FY27 rev $81.1B vs guide $78B and Q2 at $91.1B vs Street $85.6B",
+    "summary": "HSBC's Frank Lee lifted his NVDA price target to $325 from $295 (Buy reiterated) on Tuesday May 19 — the highest mainstream target on the Street alongside BofA's $320 — and raised FY28 EPS to $13.01, ~27% above consensus. HSBC models Q1 FY27 revenue at $81.1B, ~4% above NVDA's $78B guide and ~3% above Visible Alpha's $78.6B, and projects Q2 at $91.1B vs Street $85.6B, citing sustained Blackwell datacenter momentum and Rubin pull-in. Comes one day after Morgan Stanley raised its target to $285 from $260, naming NVDA its top semi pick at 22x CY27 EPS of $12.99. Setup: NVDA prints Wednesday May 20 AMC; options market pricing an 8-10% implied move. Pre-market NVDA -1%.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://au.investing.com/news/stock-market-news/hsbc-raises-nvidia-stock-price-target-to-325-on-earnings-outlook-93CH-4444106"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "30-year Treasury yield tops 5.198%, highest since July 2007; Fed-cut probabilities collapse and 48% now price a hike by December",
+    "summary": "The long-bond sell-off accelerated Tuesday: 30Y yields hit 5.198% (highest in ~19 years) and the 10Y added 6 bps to 4.687% (highest since January 2025) as rising oil from the Iran conflict reignited inflation worry. Fed funds futures now price a 48% chance of a Fed hike by December (up from 14% a week ago) and <1% odds of a near-term cut; BofA fund-manager survey shows 62% of respondents expect 30Y at 6%. BofA's own house view is no cuts until H2 2027. Read-through for AI infrastructure: higher discount rate compresses multiples on long-duration names (CRWV, OKLO, SMR, NVDA's terminal); raises hyperscaler bond costs financing the $527B 2026 capex stack; squeezes regulated-utility allowed returns just as datacenter loads escalate. Net: macro headwind across the entire AI-power complex.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Trump calls off Tuesday strike on Iran citing 'serious negotiations'; oil eases to ~$108 Brent but Hormuz risk unresolved",
+    "summary": "President Trump announced Tuesday morning he had cancelled a planned military strike on Iran scheduled for the day, citing Gulf-state appeals and 'serious negotiations' toward a deal — but warned forces remain 'prepared to go forward with a full, large scale assault on a moment's notice.' Brent eased ~$1 to $108.09 and US crude near $102, though the Strait of Hormuz remains effectively blocked (CENTCOM redirecting 85 commercial vessels) and IEA continues to warn on record-pace inventory drawdown. Market take: short-term relief rally faded fast — S&P -0.55%, Nasdaq -0.70%, Dow -0.85% as bond yields and growth concerns outweighed the de-escalation. For the AI complex this matters via two channels: (1) sustained $100+ crude keeps inflation/yield pressure on; (2) any genuine peace deal could collapse oil $20+, easing the macro tax on hyperscaler capex.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "CBS News",
+    "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-warning-oil-stock-prices-futures-ceasefire-diplomacy/"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Asia sells off into NVDA print: KOSPI -3.25%, Taiwan -1.75%, SK Hynix -5.16%, TSMC -1.56%, Samsung -1.96%",
+    "summary": "Asia-Pacific equities posted broad declines Tuesday on Samsung-strike contagion and pre-NVDA de-risking. KOSPI fell 3.25% to 7,271.66 — the steepest single-day drop in three months — with SK Hynix (000660.KS) -5.16% to KRW 1,745,000 leading memory weakness and Samsung Electronics (005930.KS) -1.96% to KRW 275,500 even after Monday's injunction win. Taiwan's TAIEX closed -1.75% at 40,175.56 with TSMC (TSM) -1.56% to TWD 2,205; Nikkei -0.44%. JPM had previously called for KOSPI 10,000 on the AI/memory cycle; today's move trims YTD gains. Read-through: setup into NVDA Q1 FY27 print Wednesday is risk-off; HBM4/foundry concentration in two strike-exposed names is being repriced. Watch MU (memory diversion winner) and AVGO (China custom-ASIC pricing) for sympathy moves.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/more/261909610-asia-sox-nvidia-samsung-sk-hynix-ni225-kospi-stock-tradingkey"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Samsung-union mediation enters Tuesday final day; 18-day strike still set for May 21 absent agreement on bonus formula",
+    "summary": "South Korea's National Labor Relations Commission held what officials described as 'final day' mediation Tuesday May 19 between Samsung Electronics (005930.KS) and the National Samsung Electronics Union (~90,000 members), with the 18-day strike still scheduled to begin Thursday May 21 if no deal is struck. NLRC chair said both sides were 'making concessions' and 'some possibility of an agreement' exists; the commission can impose a proposal and extend talks to Wednesday. Sticking points unchanged: union wants 15% of semiconductor-division operating profit into bonuses (plus removal of the 50%-of-base cap) versus Samsung's 10% offer with special-compensation top-up. Korean PM has called emergency meeting; estimated cost of full strike ~$700M/day. The court's Monday injunction protects safety/wafer operations regardless — so HBM4 throughput is partially insulated but R&D and equipment moves are exposed. Critical 48-hour window for KOSPI sentiment and AI-supply chain.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "The Korea Herald",
+    "source_url": "https://www.koreaherald.com/article/10741049"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "Power and DC-power names lead pre-market declines on rate spike: Generac -4.76%, Enphase -5.76%, First Solar -4.41%, Coterra -8.62%",
+    "summary": "The bond-yield repricing hit rate-sensitive power and energy names hardest Tuesday: Generac (GNRC) -4.76%, Enphase (ENPH) -5.76%, First Solar (FSLR) -4.41%, Akamai (AKAM) -5.31%, Coterra (CTRA) -8.62%. Pattern is consistent with the duration trade unwinding — high-multiple growth and rate-discount-sensitive utilities/renewables underperforming while defensives (KR +4.33%, AMT +3.75%) bid. For tracked dashboard names this likely means BE/PLUG/FCEL pressure, and incremental headwind for the renewables tilt at NEE/AES vs. gas-heavy VST/CEG. Gas peakers and nuclear baseload (VST, CEG, OKLO) are relative beneficiaries if oil stays elevated and the renewables-financing math gets worse. Watch GEV/ETN — order books are insulated but multiples compress.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/05/19/stock-market-live-may-19-2026-sp-500-spy-still-slipping-on-uncertainty/"
+  },
+  {
+    "date": "2026-05-19",
+    "headline": "NVDA earnings desk roundup: GS, MS, BofA, HSBC all $285-$325 PTs into Wednesday print; consensus rev $78B / EPS $1.77 / DC $73B / GM 74-75%",
+    "summary": "The pre-print desk lineup for Nvidia's fiscal Q1 2027 (reports Wednesday May 20 AMC, call 5pm ET): Morgan Stanley $285 (top semi pick, 22x CY27 $12.99), HSBC $325 (modeling $81.1B rev, FY28 EPS $13.01), BofA $320 ($1.7T accelerator TAM), Goldman Sachs (>$1T datacenter framing). Consensus: rev ~$78B (= NVDA guide $78B +/-2%), EPS $1.77 non-GAAP, datacenter ~$73B, gross margin 74-75%. Bull case items: Blackwell shipment cadence (already ~70% of DC compute), Blackwell Ultra/Rubin early commentary, sovereign-AI/Stargate ramp, custom-silicon defense vs Google TPU/AWS Trainium. Bear case: China commentary (Beijing pressure on H200 buyers, near-zero China rev modeled), accelerator commoditization, Cerebras IPO re-rating. Implied move ~8-10% per options market. NVDA -1% pre-market.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/tech/26/05/52388278/nvidia-q1-fy27-earnings-preview-goldman-sachs-1-trillion-datacenter"
+  }
+]

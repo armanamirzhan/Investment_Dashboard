@@ -950,5 +950,40 @@
     "signal_type": "insider_sell",
     "description": "CEO sold 200K shares (May 12) and CSO sold 374K shares (May 11). DA Davidson cut Buy -> Neutral, PT $175->$100, citing thin margins, debt-heavy structure, operating costs doubling YoY to $2.2B, and Q2 revenue guidance miss.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "HSBC raises to $325 (from $295); Morgan Stanley to $285 (from $260) day-before print. Sell-side modeling Q1 rev $81B vs guide $78B; options imply 8-10% move on Wednesday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "Samsung-union mediation in final day Tuesday May 19; 18-day strike still set for May 21 absent agreement on 15%-of-OP bonus formula. PM called emergency meeting; estimated $700M/day strike cost. HBM4 production partly insulated by court injunction on wafer ops.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -5.16% to KRW 1,745,000 on broad Asia memory sell-off into NVDA print. Diversion-winner narrative still intact if Samsung strike proceeds Thursday.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "30Y Treasury yield at 5.198% (19-yr high), Fed-hike probability for Dec at 48%. Long-duration neocloud financing economics deteriorating; rate-sensitive valuation under pressure.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "BE",
+    "signal_type": "overvalued",
+    "description": "Rate-sensitive renewables/fuel-cell complex hit hard by yield spike (FSLR -4.4%, ENPH -5.8%, GNRC -4.8% Tuesday); read-through to Bloom. Barclays PT $254 equal-weight is the most recent rating (May 12).",
+    "severity": "medium"
   }
 ]

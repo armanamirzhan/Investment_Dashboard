@@ -961,5 +961,41 @@
     "new_target": 325.0,
     "old_rating": "Buy",
     "old_target": 295.0
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "LRCX",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 331,
+    "old_rating": "Equal-Weight",
+    "old_target": 293
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "CRM",
+    "firm": "Bank of America",
+    "new_rating": "Underperform",
+    "new_target": 160,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "NVDA",
+    "firm": "Susquehanna",
+    "new_rating": "Buy",
+    "new_target": 275,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "AVGO",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 582,
+    "old_rating": "Outperform",
+    "old_target": 490
   }
 ]

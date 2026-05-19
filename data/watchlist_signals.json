@@ -985,5 +985,19 @@
     "signal_type": "overvalued",
     "description": "Rate-sensitive renewables/fuel-cell complex hit hard by yield spike (FSLR -4.4%, ENPH -5.8%, GNRC -4.8% Tuesday); read-through to Bloom. Barclays PT $254 equal-weight is the most recent rating (May 12).",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "CRM",
+    "signal_type": "overvalued",
+    "description": "BofA reinstates at Underperform ($160 target) citing structural AI-driven reset: agents and cheaper competitors eroding CRM platform lock-in; thesis-level bear case from major institution.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-19",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "CoreWeave launches HPC infrastructure-backed loan facility, adding to already stretched balance sheet: ~1% EBIT margins, 9%+ borrowing costs on existing debt, and now new collateralized facility — triple-leverage structure ahead of rate-sensitive environment.",
+    "severity": "high"
   }
 ]

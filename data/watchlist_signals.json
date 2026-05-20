@@ -1034,5 +1034,26 @@
     "signal_type": "momentum",
     "description": "Memory supercycle reinforced — Hood cited MU as marginal memory cost driver in MSFT $190B capex; Samsung strike disruption is incremental tailwind for MU/Hynix share.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY26 blowout: revenue 0.25B (+38% YoY), datacenter segment .8B (+57% YoY). Q2 guide raised to 1.2B vs 0.7B consensus. Stock +8% intraday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Stock +6.7% after Bloomberg reported Intel held preliminary acquisition talks with AI chip startup Tenstorrent (RISC-V architecture, valuation >B). No deal announced.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "CRM",
+    "signal_type": "overvalued",
+    "description": "BofA reinstated Underperform with $160 PT. Stock near 52-week lows, -35% YTD. Analysts cite sluggish new-customer growth, weak pricing power, and limited Agentforce AI monetization traction.",
+    "severity": "high"
   }
 ]

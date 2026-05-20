@@ -1033,5 +1033,50 @@
     "new_target": 285,
     "old_rating": "Overweight",
     "old_target": 260
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 300,
+    "old_rating": "Overweight",
+    "old_target": 275
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 285,
+    "old_rating": "Overweight",
+    "old_target": 260
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 325,
+    "old_rating": "Buy",
+    "old_target": 280
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "CRM",
+    "firm": "Bank of America",
+    "new_rating": "Underperform",
+    "new_target": 160,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "ANET",
+    "firm": "Raymond James",
+    "new_rating": "Outperform",
+    "new_target": 164,
+    "old_rating": "Market Perform",
+    "old_target": null
   }
 ]

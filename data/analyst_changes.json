@@ -997,5 +997,41 @@
     "new_target": 582,
     "old_rating": "Outperform",
     "old_target": 490
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "ASML",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 1400,
+    "old_rating": "Overweight",
+    "old_target": 1000
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "ASML",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 1900,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 325,
+    "old_rating": "Buy",
+    "old_target": 295
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 285,
+    "old_rating": "Overweight",
+    "old_target": 260
   }
 ]

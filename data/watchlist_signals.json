@@ -999,5 +999,40 @@
     "signal_type": "concentration_risk",
     "description": "CoreWeave launches HPC infrastructure-backed loan facility, adding to already stretched balance sheet: ~1% EBIT margins, 9%+ borrowing costs on existing debt, and now new collateralized facility — triple-leverage structure ahead of rate-sensitive environment.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Q1 FY27 print today AMC; consensus $78B rev / $1.77 EPS / $73B datacenter; Street PTs $285-$325 cluster; options price 8% implied move.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "47,000-worker 18-day strike begins Thursday May 21 through June 7 after mediation collapse; up to 12% quarterly operating-profit hit (JPM); HBM4 partially insulated by injunction but R&D/node migration exposed.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "Memory complex repricing post Samsung strike confirmation — SK Hynix gains foundry/memory share if strike runs full 18 days; HBM4 deliveries to NVDA Rubin remain on critical path.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "UBS top-European-pick PT EUR 1,900; Morgan Stanley raises 40% to EUR 1,400; TSMC 2026 capex hike pulls through EUV/High-NA orders.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-20",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Memory supercycle reinforced — Hood cited MU as marginal memory cost driver in MSFT $190B capex; Samsung strike disruption is incremental tailwind for MU/Hynix share.",
+    "severity": "medium"
   }
 ]

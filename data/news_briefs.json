@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
+        "note": "Record €17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -337,7 +337,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "Crossed KRW 2M intraday \u2014 near $1T cap"
+        "note": "Crossed KRW 2M intraday — near $1T cap"
       },
       {
         "ticker": "005930.KS",
@@ -592,5 +592,77 @@
       "energy"
     ],
     "top_headlines": "HSBC raises NVDA PT to $325 ahead of Wed print; 30Y yields hit 19-yr high 5.198%; Asia memory tumbles (Hynix -5%, TSMC -1.6%) into NVDA Q1 FY27"
+  },
+  {
+    "date": "2026-05-20",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Q1 FY27 today AMC; HSBC $325, MS $285"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "18-day strike confirmed for May 21"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Share-gain bid on Samsung disruption"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "MS +40% to EUR 1,400; UBS top pick EUR 1,900"
+      },
+      {
+        "ticker": "ADI",
+        "direction": "up",
+        "note": "$1.5B Empower buy; AI-power M&A"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "MSFT capex cites memory cost driver"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "ASML PT raises imply TSM capex pull-through"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Yield pullback relief into NVDA print"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "Earnings Wed AMC"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "Strike begins May 21"
+      },
+      {
+        "ticker": "ASML",
+        "signal": "PT raise wave"
+      },
+      {
+        "ticker": "ADI",
+        "signal": "AI-power M&A"
+      },
+      {
+        "ticker": "macro",
+        "signal": "FOMC minutes 2pm ET"
+      },
+      {
+        "ticker": "OIL",
+        "signal": "Brent -2% to $109"
+      }
+    ],
+    "file": "morning-news/2026-05-20.html"
   }
 ]

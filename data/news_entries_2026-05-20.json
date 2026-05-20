@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-05-20",
+    "headline": "NVDA Q1 FY27 prints Wednesday AMC: consensus $78B rev / $1.77 EPS / $73B datacenter; options pricing ~8% implied move, stock ~$224 into print",
+    "summary": "Nvidia reports fiscal Q1 2027 after the close Wed May 20 (call 5pm ET). Street consensus: revenue ~$78B (in line with NVDA guide), EPS $1.77 non-GAAP, datacenter rev ~$73B, gross margin 74.5% vs guide ~75%. Q2 FY27 guide is the bigger swing factor — consensus $85-87B, whispers near $90B; above $87B confirms Blackwell ramp, below $85B hands bears a deceleration narrative. Pre-print desk: HSBC $325 (highest mainstream target), BofA $320, Morgan Stanley $285 (top semi pick, models $884B combined CY26-27 datacenter rev vs Street $785B), Goldman framing $1T datacenter TAM. Blackwell already ~70% of datacenter compute last quarter; Hopper transition complete. China commentary, Rubin/Blackwell Ultra cadence, and gross-margin direction are the three key watchpoints. S&P futures opened higher into the print after Tuesday's 3-day selloff; NVDA last around $224.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/https-www-thestreet-com-stock-market-today-stock-market-today-nasdaq-dow-jones-sp-500-updates-may-20-2026"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Samsung strike confirmed: 47,000+ workers walk off Thursday May 21 for 18 days through June 7 after mediation collapses",
+    "summary": "Samsung Electronics (005930.KS) union talks broke down Wednesday May 20 — Labor Minister Kim Young-hoon's last-ditch intervention failed after the NLRC mediation proposal was accepted by the union but rejected by management on the bonus formula. ~47,000 of ~50,000 targeted workers will begin an 18-day walkout Thursday running through June 7. Sticking points: union wants 70/30 equal/performance split on bonuses with the 50%-of-base cap removed and 15% of semi-division operating profit allocated; Samsung counter-offered 40/60 favoring performance with one-time top-up. JPMorgan models a full walkout compressing Samsung quarterly operating profit by up to 12%; industry estimates put the cost at ~$700M/day, with worst-case scenarios near KRW 100T ($67B). Samsung has been running 'warm-down' wafer cuts since May 14 and shifting product mix toward HBM. The Monday injunction protects 7,087 safety/wafer-line staff so HBM4 throughput is partially insulated, but R&D, equipment moves, and node migrations are exposed. KOSPI -3.25% Tuesday on contagion; watch 005930.KS/000660.KS/MU/STX sympathy and TSM relative bid on potential foundry/memory market-share gains.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/20/samsung-electronics-strike-workers-union-wage-talks-shares.html"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "ADI to acquire Empower Semiconductor for $1.5B all-cash to bolster AI datacenter power-management portfolio",
+    "summary": "Analog Devices (ADI) announced Tuesday a definitive agreement to acquire Empower Semiconductor for $1.5B in cash, expected to close H2 2026. Empower's integrated voltage regulator (IVR) and silicon-capacitor tech delivers power closer to the processor in AI/HPC systems — claims 20% datacenter-power reduction. CEO Tim Phillips stays on to run the IVR business inside ADI. Strategic read: power density is now the binding constraint on AI compute scaling, and the M&A premium for point-of-load power IP is widening. Direct read-across to Vertiv (VRT), Eaton (ETN), Schneider (SBGSY), Vicor (private) and the broader datacenter-power complex — IVR/silicon-cap technology is the leading edge of the rack-level efficiency race that Nvidia, Broadcom and the hyperscalers are pushing. ADI also printed strong Q2 FY26 on Wednesday morning: revenue $3.62B (+37.1% YoY) and EPS $2.45-2.75 vs Street $2.23; shares roughly flat to slightly down post-print as the M&A take-out cap looms. ADI up 0.44% pre-market on the deal news.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Analog Devices Press Release",
+    "source_url": "https://www.analog.com/en/newsroom/press-releases/2026/5-19-2026-adi-to-acquire-empower-semiconductor.html"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Morgan Stanley raises ASML to EUR 1,400 (+40%); UBS names ASML top European semi pick at EUR 1,900",
+    "summary": "Morgan Stanley's Lee Simpson lifted ASML's price target 40% to EUR 1,400 from EUR 1,000 (Overweight, 'Top Pick' reiterated), citing the EUV/High-NA EUV pull-through from TSMC's 2026 capex hike and Intel/Samsung roadmaps. UBS independently named ASML its top European semiconductor pick with PT EUR 1,900 — the most bullish desk target — keyed off the same TSMC capex setup and growing AI fab demand. Read-through: AMAT/LRCX/KLAC also benefit on WFE supercycle commentary already validated by AMAT's Q2 print (record orders, CY26 WFE >30%). Setup into NVDA Wed and the AI-fab capex narrative remains intact even as macro yields pressure multiples. ASML last ~EUR 970.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-top-2026-pick-asml-gets-big-price-target-hike-4453176"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "S&P futures rise into NVDA print; Brent eases to $109.10 (-2%), 30Y yields pull back from 19-year high 5.198%",
+    "summary": "US equity futures opened Wednesday May 20 higher as oil prices fell and bond yields paused their multi-day spike. S&P 500 was up 0.32%, Dow +0.16%, Nasdaq +0.55% in early trading; Russell 2000 -1.01% lagged. WTI crude -1.83% to $102.20, Brent -2% to $109.10 on continued de-escalation signals — US and Iran reportedly close to a 14-point MOU framework that would reopen Hormuz with sanctions relief and a nuclear-enrichment moratorium. Silver +1.1% to $75.97; gold -0.34% to $4,495.70. 10Y/30Y yields pulled back modestly from Tuesday's 4.687%/5.198% highs but the 30Y still pricing 5%+ structurally. FOMC minutes from the April 28-29 meeting hit 2pm ET — read for sequencing on whether the 'hike-by-December' tail risk (futures: 48%) is shared by FOMC participants. Net: macro tone marginally constructive into NVDA print; rate-sensitive complex (CRWV, OKLO, SMR, BE) catches a bounce.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/https-www-thestreet-com-stock-market-today-stock-market-today-nasdaq-dow-jones-sp-500-updates-may-20-2026"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "Big-tech 2026 capex now $725B combined (+77% YoY): MSFT $190B, AMZN $200B, META $145B+, GOOGL ramps cloud to $20B/qtr",
+    "summary": "FT/Statista compilation of Q1 2026 earnings calls confirms FAANG-ex datacenter capex now totals $725B for 2026 vs $410B prior year — a 77% YoY increase. Breakdown: Microsoft $190B (CFO Hood: $25B of that is memory/component price), Amazon $200B (vs $125B 2025), Meta $145B+ (raised guide by $10B citing memory cost and land/power scarcity), Google cloud rev hit $20B/qtr growing faster than AWS adds. Underlying: hyperscaler procurement is now competing for the same memory wafers, transformer slots, gas turbines and grid interconnects as utilities and industrials. Most direct beneficiaries on dashboard: 000660.KS (HBM supply), TSM (foundry), AMAT/ASML/LRCX (WFE), GEV/ETN/VRT (power/grid), CEG/VST/OKLO/SMR (baseload). MU specifically called out by Hood as the marginal memory cost driver.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Tom's Hardware",
+    "source_url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion"
+  },
+  {
+    "date": "2026-05-20",
+    "headline": "FOMC minutes (April 28-29) due 2pm ET; market needs to see if June 'hold' was unanimous or contested before Sept policy reset",
+    "summary": "The April 28-29 FOMC minutes drop Wednesday 2pm ET — first detailed look at internal Fed thinking since long-end yields broke 5%. Fed funds futures now price 48% odds of a hike by December (up from 14% a week ago) and <1% odds of a near-term cut; BofA house view is no cuts until H2 2027. Watch for: (1) range of inflation forecasts among participants — any clustering above 3.5% strengthens 30Y bid, (2) reaction-function language on oil-driven supply shocks vs demand inflation, (3) any reference to a balance-sheet pivot if long-end pressure continues. Read-through to AI complex: longer high-rate regime keeps the discount-rate cap on long-duration names (CRWV, OKLO, SMR, NVDA's terminal value, hyperscaler bond-financed capex). Conversely a dovish surprise — explicit nod to growth slowdown — could unlock a relief bid in rate-sensitive power/datacenter peers (BE, PLUG, FCEL, FSLR).",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html"
+  }
+]

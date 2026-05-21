@@ -1150,5 +1150,41 @@
     "new_target": 270,
     "old_rating": "Outperform",
     "old_target": 250
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "RBC Capital",
+    "new_rating": "Buy",
+    "new_target": 270,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "Wedbush",
+    "new_rating": "Buy",
+    "new_target": 330,
+    "old_rating": "Buy",
+    "old_target": 300
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 288,
+    "old_rating": "Overweight",
+    "old_target": 285
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 285,
+    "old_rating": "Buy",
+    "old_target": 250
   }
 ]

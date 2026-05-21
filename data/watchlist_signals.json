@@ -1090,5 +1090,26 @@
     "signal_type": "momentum",
     "description": "Q1 datacenter electrification orders ($2.4B) exceed all of 2025; 21 GW new gas-turbine agreements; lead times to 7 years",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2027: Revenue $81.6B (beat $79.2B est.), EPS $1.87 (beat $1.76 est.), Q2 guide $91B (above $86.8B est.), $80B buyback announced. Stock declined ~2% at open — fourth consecutive post-earnings drop despite a beat-and-raise. Bulge-bracket PT raises (RBC, Wedbush, MS, GS) insufficient to hold price. Expectations fully priced; watch for rotation.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "DLR",
+    "signal_type": "momentum",
+    "description": "Applied Digital announced a $18.2B long-term lease for its Polaris Forge 3 AI campus (stock +16% today). Largest AI infrastructure lease on record signals sustained hyperscaler demand for colocation and wholesale datacenter capacity — positive read-through for Digital Realty and the broader datacenter REIT thesis.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Applied Digital $18.2B AI campus megadeal (announced May 21) underscores accelerating hyperscaler datacenter buildout pace. Positive demand signal for datacenter power and thermal management infrastructure suppliers.",
+    "severity": "medium"
   }
 ]

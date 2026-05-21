@@ -1055,5 +1055,40 @@
     "signal_type": "overvalued",
     "description": "BofA reinstated Underperform with $160 PT. Stock near 52-week lows, -35% YTD. Analysts cite sluggish new-customer growth, weak pricing power, and limited Agentforce AI monetization traction.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27: $81.6B rev (+85% YoY, beat $78.9B), datacenter $75.2B (+92%), Q2 guide $91B vs $86.8B, $80B buyback, dividend 25x to $0.25",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "Day 1 of 18-day strike (May 21–June 7): 45,000+ workers off; JPM models $14-20.8B OP hit, ~$700M/day in sales",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "Share-gain bid as Samsung strike begins: 3-4% of global DRAM at risk; Jefferies sees order migration",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Memory share-gain beneficiary from Samsung strike; MSFT Q1 call flagged MU as marginal memory-cost driver in $190B capex",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Q1 datacenter electrification orders ($2.4B) exceed all of 2025; 21 GW new gas-turbine agreements; lead times to 7 years",
+    "severity": "medium"
   }
 ]

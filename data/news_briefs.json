@@ -664,5 +664,68 @@
       }
     ],
     "file": "morning-news/2026-05-20.html"
+  },
+  {
+    "date": "2026-05-21",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Q1 FY27 beat; Q2 guide $91B; $80B buyback; PT wave"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Day 1 of 18-day strike — 45k+ off"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Memory share-gain bid"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Share-gain beneficiary"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "TEL appeal dropped; capex pull-through intact"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "$2.4B Q1 datacenter orders > all 2025"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "neutral",
+        "note": "$3.1B GPU-backed term loan"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "Q1 FY27 blowout"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "Strike Day 1"
+      },
+      {
+        "ticker": "macro",
+        "signal": "FOMC 8-4 dissent"
+      },
+      {
+        "ticker": "OIL",
+        "signal": "Iran uranium directive; Brent +1%"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "8 PT raises"
+      }
+    ],
+    "file": "morning-news/2026-05-21.html"
   }
 ]

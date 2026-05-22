@@ -1186,5 +1186,23 @@
     "new_target": 285,
     "old_rating": "Buy",
     "old_target": 250
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "NVDA",
+    "firm": "Truist",
+    "new_rating": "Buy",
+    "new_target": 307.0,
+    "old_rating": "Buy",
+    "old_target": 287.0
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "MU",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 950.0,
+    "old_rating": "Buy",
+    "old_target": 500.0
   }
 ]

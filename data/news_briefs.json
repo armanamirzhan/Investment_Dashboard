@@ -727,5 +727,77 @@
       }
     ],
     "file": "morning-news/2026-05-21.html"
+  },
+  {
+    "date": "2026-05-22",
+    "tickers": [
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Strike averted — 10.5% profit-share deal; +7.6% Seoul"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "Share-gain trade unwinds with Samsung supply risk gone"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "Same — memory tightness tailwind eases"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "WSJ: preliminary Apple 18A foundry agreement"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Vera Rubin NVL72 sweeps Computex awards; PT raises continue (Truist $307)"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "$3.1B DDTL rated Ba2/BB+; pricing tightened 50bp"
+      },
+      {
+        "ticker": "NEE",
+        "direction": "up",
+        "note": "$67B Dominion deal: 130 GW datacenter pipeline"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Grid orders >€7B Q2; 2026 outlook raised"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "005930.KS",
+        "signal": "Strike averted"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "Supply-disruption premium fades"
+      },
+      {
+        "ticker": "INTC",
+        "signal": "Apple foundry talks"
+      },
+      {
+        "ticker": "NEE",
+        "signal": "Utility mega-merger"
+      },
+      {
+        "ticker": "GRID",
+        "signal": "Multi-year lead-time tightness"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "GPU-collateral debt deepens"
+      }
+    ],
+    "file": "morning-news/2026-05-22.html"
   }
 ]

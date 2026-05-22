@@ -1111,5 +1111,33 @@
     "signal_type": "momentum",
     "description": "Applied Digital $18.2B AI campus megadeal (announced May 21) underscores accelerating hyperscaler datacenter buildout pace. Positive demand signal for datacenter power and thermal management infrastructure suppliers.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Strike averted via 10.5% profit-share deal; shares +7.6% in Seoul; HBM lines stay full-staffed into Q3.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "MU",
+    "signal_type": "overvalued",
+    "description": "Samsung supply-disruption tailwind that fueled rally now removed; recent BofA $950 PT predicated partly on share-gain optionality that's now weaker.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Apple 18A foundry talks reportedly preliminary-agreed per WSJ/Yahoo. Tier-1 external customer would re-rate the foundry segment; awaiting volume/process confirmation.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "DDTL 5.0 rated Ba2/BB+; first publicly syndicated HPC infrastructure-backed financing. Demonstrates that GPU-collateralized debt now has institutional bid depth.",
+    "severity": "medium"
   }
 ]

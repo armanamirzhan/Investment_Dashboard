@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-05-22",
+    "headline": "Samsung union deal averts 18-day chip strike: 10.5% profit-share in stock + 1.5% cash; shares +7.6% in Seoul",
+    "summary": "Late Wed Samsung Electronics reached a tentative wage agreement with its 48,000-member union, suspending the strike that began Thursday. Deal pledges 10.5% of operating profit as stock bonuses plus 1.5% cash; targets >KRW 200T chip operating profit 2026-2028. Union vote May 22-27. Samsung shares jumped as much as 7.6% in Seoul; Kospi +6%. Removes the 3% global memory supply risk that was lifting spot DRAM prices.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/21/samsung-electronics-union-strike-suspended-wage-deal-bonuses.html"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Memory share-gain trade reverses as Samsung strike risk lifts: MU, SK Hynix give back rally fuel",
+    "summary": "With the Samsung strike suspended ahead of US open, the bullish supply-disruption case Jefferies and BofA leaned on this week loses force. Memory spot prices had been climbing — 64GB DDR5 RDIMM hit $1,350 mid-May, +11% MoM — partly on Samsung outage fears. BofA's Vivek Arya had recently bumped MU PT to $950 citing share-gain optionality; that thesis component is now weaker, though the underlying DRAM tightness (Gartner: +47% 2026 price growth) is intact.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Tom's Hardware",
+    "source_url": "https://www.tomshardware.com/tech-industry/big-tech/samsung-narrowly-avoids-18-day-chip-strike-after-last-minute-wage-deal-with-48-000-worker-union-tentative-deal-subject-to-workers-vote-suspends-billions-of-dollars-worth-of-potential-losses"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Intel and Apple in advanced foundry talks for 18A; deal would anchor Intel's external-customer pipeline",
+    "summary": "WSJ/Yahoo report Apple and Intel reached a preliminary agreement for Intel to manufacture some Apple chips on Intel 18A, after >1 year of discussions. Would mark the first Tier-1 external customer for Intel Foundry beyond the US government stake (10%). INTC fell 3.24% on May 21 on profit-taking after the year's run-up. Open questions: which silicon, what volume, packaging vs. wafer, and whether the work touches leading-edge 14A.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/apple-talks-put-intel-foundry-221413260.html"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "NVIDIA Vera Rubin NVL72 wins Computex Golden Award + Sustainable Tech award; claims 10x inference/W vs Blackwell",
+    "summary": "Ahead of Jensen Huang's June 1 Taipei keynote, NVIDIA's Vera Rubin NVL72 rack platform was honored across four Computex categories. 36 Vera CPUs + 72 Rubin GPUs unified by Gen-6 NVLink Switch, ConnectX-9 SuperNICs, Spectrum-X co-packaged optics, BlueField-4 DPUs. NVIDIA touts 10x inference performance/watt and 10x lower $/token vs. prior generation — central to the FY27/FY28 capex story Goldman now models at $410B/$635B revenue.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Blog",
+    "source_url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "CoreWeave $3.1B DDTL 5.0 GPU-backed loan gets Moody's Ba2 / Fitch BB+; pricing tightened 50bp on oversubscription",
+    "summary": "Following Mon's announcement, full deal terms posted: SOFR+450, draws to Sep 2026, final maturity Nov 2031, MS + MUFG joint-lead. Moody's Ba2 and Fitch BB+ ratings are a notch below investment grade but mark the first publicly syndicated HPC-backed financing vehicle, broadening institutional access to AI-infrastructure debt. Investor demand let pricing tighten 50bp from initial talk. Proceeds back two large non-investment-grade customer contracts.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CoreWeave IR",
+    "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-3-1-Billion-Loan-Facility-Expanding-Access-to-Public-Markets-for-GPU-Backed-Financing/default.aspx"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "NextEra-Dominion $67B all-stock merger reshapes datacenter power map: 130 GW of large-load pipeline",
+    "summary": "Mon's NEE bid for D combines the largest US clean-energy developer with the local utility for Northern Virginia datacenter alley. Combined pipeline disclosed: 130 GW of 'large-load' (read: datacenter) opportunities, ~10M utility customers across FL/VA/NC/SC. Deal expected to close mid-to-late 2027. Creates the largest regulated electric utility globally and a single counterparty for hyperscalers siting in PJM/Dominion footprint. Watch FERC and state PUC tone over the next two weeks.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Washington Post",
+    "source_url": "https://www.washingtonpost.com/business/2026/05/18/dominion-nextera-merger-fueled-by-ai-data-center-demand-would-create-huge-utility/"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Siemens Energy raises 2026 outlook on datacenter pull-through; Grid Technologies orders past €7B in Q2",
+    "summary": "ENR.DE Grid Technologies booked record €7B+ in Q2; total Q2 orders €17.7B with 'triple-digit percentage' growth from datacenter customers per CEO Busch. Echoes the Q1 GE Vernova print ($2.4B datacenter orders > all of 2025). Gas-turbine and HV transformer lead times now multi-year. Positive read-across to ETN, VRT, ABB and the broader US grid-equipment complex; pressures hyperscaler buildout schedules.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Finimize",
+    "source_url": "https://finimize.com/content/siemens-energy-raised-its-2026-forecast-as-data-centers-drive-demand"
+  },
+  {
+    "date": "2026-05-22",
+    "headline": "Workday Q1 FY27 revenue $2.54B (+13.5% YoY), op margin 13.3% vs 1.8% prior year — enterprise software demand intact",
+    "summary": "WDAY (not in our tracker but a key enterprise SaaS demand-tape signal) printed Q1 FY27 subscription rev $2.35B (+14.3% YoY) and operating income $338M vs $39M prior year. Positive read-through for CRM, NOW, SNOW: enterprise budgets for HR/finance/agentic-AI applications still expanding even as IT teams prioritize GPU/datacenter capex.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Motley Fool",
+    "source_url": "https://www.fool.com/earnings/call-transcripts/2026/05/21/workday-wday-q4-2026-earnings-transcript/"
+  }
+]

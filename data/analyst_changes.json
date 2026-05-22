@@ -1204,5 +1204,59 @@
     "new_target": 950.0,
     "old_rating": "Buy",
     "old_target": 500.0
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "Mizuho",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": "Buy",
+    "old_target": 260
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 280,
+    "old_rating": "Overweight",
+    "old_target": 205
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 290,
+    "old_rating": "Buy",
+    "old_target": 235
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 280,
+    "old_rating": "Buy",
+    "old_target": 246
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 270,
+    "old_rating": "Overweight",
+    "old_target": 180
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 170,
+    "old_rating": "Overweight",
+    "old_target": 110
   }
 ]

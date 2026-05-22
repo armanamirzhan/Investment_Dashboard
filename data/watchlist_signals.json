@@ -1139,5 +1139,33 @@
     "signal_type": "momentum",
     "description": "DDTL 5.0 rated Ba2/BB+; first publicly syndicated HPC infrastructure-backed financing. Demonstrates that GPU-collateralized debt now has institutional bid depth.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "+15% intraday surge on six coordinated analyst price-target raises (Mizuho $300, JPMorgan $280, Citi $290, BofA $280, Wells Fargo $270, Morgan Stanley $170); $43B AI server backlog exiting FY2026 with FY2027 revenue guide ~$50B (+100% YoY); Q1 FY27 earnings due May 28 is next near-term catalyst.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "HPE",
+    "signal_type": "momentum",
+    "description": "+9% intraday sector read-through from Dell's AI server momentum; no independent catalyst but coordinated analyst upgrade wave on Dell lifted all AI server hardware names; HPE reports its own AI infrastructure traction in upcoming earnings.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "+5% intraday sector rally lift alongside Dell and HPE; company-specific governance review and export-control scrutiny are limiting outperformance relative to peers; AI server demand tailwind is real but execution risk remains elevated.",
+    "severity": "low"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "VST",
+    "signal_type": "momentum",
+    "description": "+5.4% today on continued AI datacenter electrification sentiment; no single confirmed intraday catalyst; power demand narrative sustains as hyperscaler capital expenditure guidance (MSFT, AMZN, META) remains at record levels through 2027.",
+    "severity": "medium"
   }
 ]

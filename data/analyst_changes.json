@@ -1258,5 +1258,23 @@
     "new_target": 170,
     "old_rating": "Overweight",
     "old_target": 110
+  },
+  {
+    "date": "2026-05-23",
+    "ticker": "NVDA",
+    "firm": "Aletheia Capital",
+    "new_rating": "Buy",
+    "new_target": 270,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-23",
+    "ticker": "CCJ",
+    "firm": "Barclays",
+    "new_rating": "Equal-Weight",
+    "new_target": 108,
+    "old_rating": null,
+    "old_target": null
   }
 ]

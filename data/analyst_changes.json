@@ -1276,5 +1276,41 @@
     "new_target": 108,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 280,
+    "old_rating": "Overweight",
+    "old_target": 265
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "NVDA",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 280,
+    "old_rating": "Buy",
+    "old_target": 275
+  },
+  {
+    "date": "2026-05-21",
+    "ticker": "CEG",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 359,
+    "old_rating": "Overweight",
+    "old_target": 361
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "OKLO",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 80,
+    "old_rating": null,
+    "old_target": null
   }
 ]

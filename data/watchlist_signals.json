@@ -1167,5 +1167,26 @@
     "signal_type": "momentum",
     "description": "+5.4% today on continued AI datacenter electrification sentiment; no single confirmed intraday catalyst; power demand narrative sustains as hyperscaler capital expenditure guidance (MSFT, AMZN, META) remains at record levels through 2027.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "WOLF",
+    "signal_type": "momentum",
+    "description": "Wolfspeed surged ~175% from late-April (~$25) to $71.74 by May 21 on Citrini Research bullish note (May 13) calling WOLF the SiC power-chip winner for AI datacenter power density. Stock +20% pre-market May 13. Fundamentals remain challenged: -27% GAAP gross margin, negative operating income, recently emerged from bankruptcy. Speculative momentum only — no earnings inflection confirmed.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "SNPS",
+    "signal_type": "momentum",
+    "description": "Synopsys +5.26% on May 22 ahead of Q2 FY2026 earnings scheduled May 27 after close; options pricing ~8% implied move. Catalyst: $125M semiconductor research consortium announced at UCLA (Synopsys, Meta, Broadcom, Applied Materials, GlobalFoundries). Consensus: 15 Strong Buy / 4 Hold; avg target ~$480. Key watch: EDA licensing trends and AI-chip design tool adoption.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-22",
+    "ticker": "CEG",
+    "signal_type": "undervalued",
+    "description": "Constellation Energy sold off ~12.6% post-Q1 2026 earnings despite a strong beat (revenue +64% YoY to $11.12B, EPS $2.74 vs $2.54 est.) and reaffirmed 2026 adj. EPS guidance of $11-12/share. FCF outlook of $8.4B over 2026-2027, expanding to $11.5-13B in 2028-2029 with 20%+ earnings growth guided through 2029. Selloff appears driven by completion of buyback and elevated pre-earnings expectations, not fundamentals — potential re-entry level.",
+    "severity": "medium"
   }
 ]

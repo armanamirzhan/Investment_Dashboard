@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-25</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-25</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Nvidia's standalone Vera CPU adds a new pressure point to tight DRAM supply</strong> &mdash; Nvidia's decision to sell its Vera CPU as a standalone chip (not only bundled in Vera Rubin NVL72 boards) is expected to create fresh demand for low-power DRAM, lifting the LPDDR/SOCAMM2 outlook for Samsung, SK Hynix and Micron into an already supply-constrained memory market.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung set to supply roughly half of Nvidia's 2026 SOCAMM2 modules</strong> &mdash; Reports indicate Nvidia has asked memory makers for up to ~20 billion GB of SOCAMM2 modules for 2026, with Samsung in line to supply about half (~10 billion GB). SOCAMM2 debuts with the Vera CPU, offering ~50% higher capacity and ~20% better power efficiency than the first generation; SK Hynix and Micron are also ramping competing modules.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GE Vernova emerges as the preferred AI-power trade as quarterly orders top all of last year</strong> &mdash; Commentary frames GE Vernova as displacing pure-play generators like Vistra in the AI-power trade: GEV's signed multi-year backlog, written guidance raises and visible margin expansion contrast with generators whose upside leans on not-yet-signed hyperscaler PPAs. Vertiv organic orders reportedly grew ~81%, underscoring equipment-maker order strength.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Power, not chips, remains the gating factor for AI datacenter buildouts</strong> &mdash; Industry trackers continue to flag that a large share of announced AI datacenter projects face delays tied to power-infrastructure bottlenecks rather than chip supply, keeping grid equipment, turbines and baseload generation (including nuclear) central to the buildout. Europe's datacenter association similarly cites energy availability as the main growth constraint.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>GE Vernova emerges as the preferred AI-power trade as quarterly orders top all of last year</h3><p>Commentary frames GE Vernova as displacing pure-play generators like Vistra in the AI-power trade: GEV's signed multi-year backlog, written guidance raises and visible margin expansion contrast with generators whose upside leans on not-yet-signed hyperscaler PPAs. Vertiv organic orders reportedly grew ~81%, underscoring equipment-maker order strength.</p><div class="source"><a href="https://247wallst.com/investing/2026/05/19/forget-vistra-one-quarter-of-orders-at-ge-vernova-exceeded-all-of-last-year-that-is-the-ai-power-trade-worth-owning/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>Power, not chips, remains the gating factor for AI datacenter buildouts</h3><p>Industry trackers continue to flag that a large share of announced AI datacenter projects face delays tied to power-infrastructure bottlenecks rather than chip supply, keeping grid equipment, turbines and baseload generation (including nuclear) central to the buildout. Europe's datacenter association similarly cites energy availability as the main growth constraint.</p><div class="source"><a href="https://about.bnef.com/insights/commodities/ai-data-center-build-advances-at-full-speed-five-things-to-know/">BloombergNEF</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Nvidia's standalone Vera CPU adds a new pressure point to tight DRAM supply</h3><p>Nvidia's decision to sell its Vera CPU as a standalone chip (not only bundled in Vera Rubin NVL72 boards) is expected to create fresh demand for low-power DRAM, lifting the LPDDR/SOCAMM2 outlook for Samsung, SK Hynix and Micron into an already supply-constrained memory market.</p><div class="source"><a href="https://www.digitimes.com/news/a20260525VL208/nvidia-cpu-samsung-sk-hynix-outlook.html">DigiTimes</a></div></div>
+<div class="card"><h3>Samsung set to supply roughly half of Nvidia's 2026 SOCAMM2 modules</h3><p>Reports indicate Nvidia has asked memory makers for up to ~20 billion GB of SOCAMM2 modules for 2026, with Samsung in line to supply about half (~10 billion GB). SOCAMM2 debuts with the Vera CPU, offering ~50% higher capacity and ~20% better power efficiency than the first generation; SK Hynix and Micron are also ramping competing modules.</p><div class="source"><a href="https://www.sammobile.com/news/samsung-supply-half-socamm2-dram-chips-nvidia/">SamMobile</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">GEV</span> <span class="signal-badge signal-neutral">Momentum</span> Quarterly order intake reportedly exceeded all of last year's; multi-year backlog and written guidance raises support continued AI-power order momentum.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>In line to supply ~half of Nvidia's 2026 SOCAMM2 (~10B GB)</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SOCAMM2/HBM4 ramp for Vera Rubin</td></tr>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>Standalone Vera CPU broadens LPDDR/SOCAMM2 demand</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>48-256GB SOCAMM2 lineup for Vera Rubin + standalone Vera</td></tr>
+<tr><td><span class="ticker up">GEV</span></td><td>Up</td><td>Quarterly orders reportedly topped all of last year</td></tr>
+<tr><td><span class="ticker up">VRT</span></td><td>Up</td><td>Organic orders ~+81% on datacenter power/cooling demand</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-25 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -799,5 +799,63 @@
       }
     ],
     "file": "morning-news/2026-05-22.html"
+  },
+  {
+    "date": "2026-05-25",
+    "tickers": [
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "In line to supply ~half of Nvidia's 2026 SOCAMM2 (~10B GB)"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SOCAMM2/HBM4 ramp for Vera Rubin"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Standalone Vera CPU broadens LPDDR/SOCAMM2 demand"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "48-256GB SOCAMM2 lineup for Vera Rubin + standalone Vera"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Quarterly orders reportedly topped all of last year"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Organic orders ~+81% on datacenter power/cooling demand"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "MEMORY",
+        "signal": "Supply tightness / SOCAMM2 ramp"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "SOCAMM2 share win"
+      },
+      {
+        "ticker": "GEV",
+        "signal": "Order-backlog momentum"
+      },
+      {
+        "ticker": "GRID",
+        "signal": "Power = gating factor for buildouts"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US markets closed — Memorial Day"
+      }
+    ],
+    "file": "morning-news/2026-05-25.html"
   }
 ]

@@ -1188,5 +1188,12 @@
     "signal_type": "undervalued",
     "description": "Constellation Energy sold off ~12.6% post-Q1 2026 earnings despite a strong beat (revenue +64% YoY to $11.12B, EPS $2.74 vs $2.54 est.) and reaffirmed 2026 adj. EPS guidance of $11-12/share. FCF outlook of $8.4B over 2026-2027, expanding to $11.5-13B in 2028-2029 with 20%+ earnings growth guided through 2029. Selloff appears driven by completion of buyback and elevated pre-earnings expectations, not fundamentals — potential re-entry level.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Quarterly order intake reportedly exceeded all of last year's; multi-year backlog and written guidance raises support continued AI-power order momentum.",
+    "severity": "medium"
   }
 ]

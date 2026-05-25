@@ -1195,5 +1195,12 @@
     "signal_type": "momentum",
     "description": "Quarterly order intake reportedly exceeded all of last year's; multi-year backlog and written guidance raises support continued AI-power order momentum.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "Divergent analyst views ahead of June 3 Q2 FY2027 earnings: DZ Bank downgraded to Sell (target $500) on valuation stretch and July 2024 outage overhang, while KeyBanc ($700), Barclays ($650), and Stifel ($660) all raised targets on Mythos conference demand signals and channel-check bullishness. $200 spread between bear and bull targets indicates high uncertainty.",
+    "severity": "medium"
   }
 ]

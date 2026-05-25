@@ -1312,5 +1312,32 @@
     "new_target": 80,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "CRWD",
+    "firm": "DZ Bank",
+    "new_rating": "Sell",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "CRWD",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 650,
+    "old_rating": "Overweight",
+    "old_target": 550
+  },
+  {
+    "date": "2026-05-25",
+    "ticker": "CRWD",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 660,
+    "old_rating": "Buy",
+    "old_target": 480
   }
 ]

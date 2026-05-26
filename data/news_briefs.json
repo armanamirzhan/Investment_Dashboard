@@ -857,5 +857,69 @@
       }
     ],
     "file": "morning-news/2026-05-25.html"
+  },
+  {
+    "date": "2026-05-26",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Broke 2M won (+6.85%); Korea/Asia chip rally"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "301k won (+2.91%); record ~42% of KOSPI"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Memory supercycle; AI DC TAM revisions"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "neutral",
+        "note": "Reports May 27 AMC"
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "neutral",
+        "note": "Reports May 27 AMC"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "neutral",
+        "note": "Reports May 28 AMC"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "Project Jupiter shifts to fuel-cell microgrid"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "Beneficiary of Oracle behind-the-meter fuel cells"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "OPENAI",
+        "signal": "Confidential IPO filing — AI capex validation"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "Memory supercycle"
+      },
+      {
+        "ticker": "market",
+        "signal": "Big earnings week (CRM/SNOW/DELL)"
+      },
+      {
+        "ticker": "GRID",
+        "signal": "Datacenter power buildout"
+      }
+    ],
+    "file": "morning-news/2026-05-26.html"
   }
 ]

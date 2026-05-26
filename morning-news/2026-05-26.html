@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-26</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-26</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>OpenAI confidentially files for IPO, targeting up to $1T valuation</strong> &mdash; OpenAI filed a confidential S-1 with the SEC on May 22, 2026, targeting a Q4 2026 listing at an $852B-$1T valuation and aiming to raise about $60B, with Goldman Sachs and Morgan Stanley leading. The company is at a ~$25B annualized revenue run rate but burned ~$9B in 2025 and estimates it needs ~$207B more capital through 2030 to honor compute commitments. A landmark validation of the AI capital cycle that underpins demand for GPUs, datacenters, and power.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Asia chip rally extends: KOSPI tops 8,100, SK Hynix breaks 2M won, Nikkei clears 65,000</strong> &mdash; Korea's KOSPI surpassed 8,100 for the first time on May 26, 2026 as SK Hynix broke above 2,000,000 won (+6.85%) and Samsung Electronics hit 301,000 won (+2.91%); the two now make up a record ~42% of the index. Japan's Nikkei 225 closed above 65,000 for the first time (+2.87% May 25) and Taiwan's Taiex rose 3.26%. Drivers: easing Middle East tensions (a mooted US-Iran ceasefire and Strait of Hormuz reopening sent oil ~7% lower), foreign buyers returning after 13 sessions of selling, and continued AI memory demand. Nomura raised its KOSPI target to 11,000.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Big earnings week for tracked names: Salesforce, Snowflake, Dell report</strong> &mdash; A heavy AI-infrastructure earnings week kicks off after the Memorial Day holiday. Salesforce (CRM) and Snowflake (SNOW) report after the close Wednesday, May 27, and Dell Technologies (DELL) reports after the close Thursday, May 28. Focus will be on the durability of enterprise AI software spend (CRM, SNOW) and AI server demand and margins (DELL). Marvell also reports May 27.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Oracle reworks New Mexico AI campus to fuel-cell microgrid, bypassing the grid</strong> &mdash; Oracle is rethinking on-site power at its planned Project Jupiter campus in New Mexico, replacing gas turbines and diesel backup with a fuel-cell-based microgrid to support high-density AI workloads. The move underscores hyperscalers turning to behind-the-meter generation to skip multi-year grid interconnection queues, a tailwind for fuel-cell suppliers such as Bloom Energy (BE).</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Microsoft to acquire ~3,200 acres in Cheyenne, Wyoming for datacenter expansion</strong> &mdash; Microsoft plans to acquire roughly 3,200 acres in Cheyenne, Wyoming, expanding its long-standing datacenter footprint in the region as it races to add AI compute capacity. The land bank adds to the broader hyperscaler buildout that is straining power and equipment supply chains.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Oracle reworks New Mexico AI campus to fuel-cell microgrid, bypassing the grid</h3><p>Oracle is rethinking on-site power at its planned Project Jupiter campus in New Mexico, replacing gas turbines and diesel backup with a fuel-cell-based microgrid to support high-density AI workloads. The move underscores hyperscalers turning to behind-the-meter generation to skip multi-year grid interconnection queues, a tailwind for fuel-cell suppliers such as Bloom Energy (BE).</p><div class="source"><a href="https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-may-2026">Data Center Knowledge</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Asia chip rally extends: KOSPI tops 8,100, SK Hynix breaks 2M won, Nikkei clears 65,000</h3><p>Korea's KOSPI surpassed 8,100 for the first time on May 26, 2026 as SK Hynix broke above 2,000,000 won (+6.85%) and Samsung Electronics hit 301,000 won (+2.91%); the two now make up a record ~42% of the index. Japan's Nikkei 225 closed above 65,000 for the first time (+2.87% May 25) and Taiwan's Taiex rose 3.26%. Drivers: easing Middle East tensions (a mooted US-Iran ceasefire and Strait of Hormuz reopening sent oil ~7% lower), foreign buyers returning after 13 sessions of selling, and continued AI memory demand. Nomura raised its KOSPI target to 11,000.</p><div class="source"><a href="https://www.asiae.co.kr/en/article/2026052610270802452">Asia Business Daily</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>OpenAI confidentially files for IPO, targeting up to $1T valuation</h3><p>OpenAI filed a confidential S-1 with the SEC on May 22, 2026, targeting a Q4 2026 listing at an $852B-$1T valuation and aiming to raise about $60B, with Goldman Sachs and Morgan Stanley leading. The company is at a ~$25B annualized revenue run rate but burned ~$9B in 2025 and estimates it needs ~$207B more capital through 2030 to honor compute commitments. A landmark validation of the AI capital cycle that underpins demand for GPUs, datacenters, and power.</p><div class="source"><a href="https://www.euronews.com/business/2026/05/22/5-things-to-know-about-openais-potentially-record-breaking-ipo-plans">Euronews</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Microsoft to acquire ~3,200 acres in Cheyenne, Wyoming for datacenter expansion</h3><p>Microsoft plans to acquire roughly 3,200 acres in Cheyenne, Wyoming, expanding its long-standing datacenter footprint in the region as it races to add AI compute capacity. The land bank adds to the broader hyperscaler buildout that is straining power and equipment supply chains.</p><div class="source"><a href="https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-may-2026">Data Center Knowledge</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Big earnings week for tracked names: Salesforce, Snowflake, Dell report</h3><p>A heavy AI-infrastructure earnings week kicks off after the Memorial Day holiday. Salesforce (CRM) and Snowflake (SNOW) report after the close Wednesday, May 27, and Dell Technologies (DELL) reports after the close Thursday, May 28. Focus will be on the durability of enterprise AI software spend (CRM, SNOW) and AI server demand and margins (DELL). Marvell also reports May 27.</p><div class="source"><a href="https://tickeron.com/trading-investing-101/q1-2026-earnings-preview-may-2529-2026--tcom-mrvl-crm-pdd-dell-ry-td-adsk/">Tickeron</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-neutral">Momentum</span> SK Hynix broke above 2,000,000 won for the first time (+6.85% on May 26), leading a Korea/Taiwan/Japan chip rally on AI memory demand; concentration risk rising as Samsung+SK Hynix hit ~42% of the KOSPI.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>Broke 2M won (+6.85%); Korea/Asia chip rally</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>301k won (+2.91%); record ~42% of KOSPI</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>Memory supercycle; AI DC TAM revisions</td></tr>
+<tr><td><span class="ticker ">CRM</span></td><td>Neutral</td><td>Reports May 27 AMC</td></tr>
+<tr><td><span class="ticker ">SNOW</span></td><td>Neutral</td><td>Reports May 27 AMC</td></tr>
+<tr><td><span class="ticker ">DELL</span></td><td>Neutral</td><td>Reports May 28 AMC</td></tr>
+<tr><td><span class="ticker up">ORCL</span></td><td>Up</td><td>Project Jupiter shifts to fuel-cell microgrid</td></tr>
+<tr><td><span class="ticker up">BE</span></td><td>Up</td><td>Beneficiary of Oracle behind-the-meter fuel cells</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-26 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

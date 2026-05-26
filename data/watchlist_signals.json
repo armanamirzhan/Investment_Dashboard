@@ -1202,5 +1202,12 @@
     "signal_type": "momentum",
     "description": "Divergent analyst views ahead of June 3 Q2 FY2027 earnings: DZ Bank downgraded to Sell (target $500) on valuation stretch and July 2024 outage overhang, while KeyBanc ($700), Barclays ($650), and Stifel ($660) all raised targets on Mythos conference demand signals and channel-check bullishness. $200 spread between bear and bull targets indicates high uncertainty.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-26",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix broke above 2,000,000 won for the first time (+6.85% on May 26), leading a Korea/Taiwan/Japan chip rally on AI memory demand; concentration risk rising as Samsung+SK Hynix hit ~42% of the KOSPI.",
+    "severity": "medium"
   }
 ]

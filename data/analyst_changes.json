@@ -1339,5 +1339,32 @@
     "new_target": 660,
     "old_rating": "Buy",
     "old_target": 480
+  },
+  {
+    "date": "2026-05-26",
+    "ticker": "MU",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 1625,
+    "old_rating": "Buy",
+    "old_target": 535
+  },
+  {
+    "date": "2026-05-26",
+    "ticker": "INTC",
+    "firm": "Northland",
+    "new_rating": "Market Perform",
+    "new_target": null,
+    "old_rating": "Outperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-26",
+    "ticker": "OKLO",
+    "firm": "Texas Capital",
+    "new_rating": "Buy",
+    "new_target": 93,
+    "old_rating": "Buy",
+    "old_target": 93
   }
 ]

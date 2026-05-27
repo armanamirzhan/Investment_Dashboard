@@ -1237,5 +1237,12 @@
     "signal_type": "momentum",
     "description": "Memory supercycle: Counterpoint sees DRAM/HBM prices +~40% through Q2 2026; SK Hynix flags sustained HBM upcycle. Structural AI-driven demand tailwind.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-27",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "Cybersecurity sector pressure: peer Zscaler (ZS) sold off ~23% on May 27 after Q3 earnings showed strong revenue growth (+25% YoY) but FCF margin guidance cut due to elevated AI infrastructure capex. Investor caution on margin compression from AI spending is a read-through for CRWD valuation multiples.",
+    "severity": "medium"
   }
 ]

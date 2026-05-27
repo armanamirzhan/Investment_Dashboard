@@ -921,5 +921,59 @@
       }
     ],
     "file": "morning-news/2026-05-26.html"
+  },
+  {
+    "date": "2026-05-27",
+    "tickers": [
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Taiwan now world's 5th-largest market"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "neutral",
+        "note": "Reports today AMC"
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "neutral",
+        "note": "Reports today AMC"
+      },
+      {
+        "ticker": "MRVL",
+        "direction": "neutral",
+        "note": "Reports today AMC; +100% YTD"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "HA turbine fleet tops 4M hours"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Memory supercycle"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "market",
+        "signal": "AI earnings gauntlet (CRM/SNOW/MRVL)"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "Taiwan market milestone"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "Memory supercycle"
+      },
+      {
+        "ticker": "GRID",
+        "signal": "Datacenter power demand"
+      }
+    ],
+    "file": "morning-news/2026-05-27.html"
   }
 ]

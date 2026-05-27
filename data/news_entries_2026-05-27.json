@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-05-27",
+    "headline": "Taiwan overtakes India as world's 5th-largest stock market on TSMC surge",
+    "summary": "Taiwan's market capitalization climbed to about $4.95T, edging past India's $4.92T to become the world's fifth-largest equity market behind the US, mainland China, Japan and Hong Kong. TSMC, up roughly 49% year-to-date and ~42% of the TAIEX, drove the benchmark to an all-time intraday high near 44,100. Foreign investors have pulled nearly $24B from Indian equities this year while rotating into Asia's AI-chip complex.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india"
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "AI earnings gauntlet today: Salesforce, Snowflake and Marvell report after the close",
+    "summary": "A heavy slate of tracked names reports after the bell. Salesforce is seen at ~$11.06B revenue (+12.5% YoY) and $3.13 adjusted EPS, with focus on cRPO and Agentforce/Data Cloud monetization. Snowflake is expected at ~$1.32B revenue (+27% YoY). Marvell, up over 100% in 2026, is seen at ~$2.41B revenue and $0.79 EPS, with custom AI silicon (XPUs for AWS Trainium) now ~25% of datacenter revenue. Results land after today's session.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Tickeron",
+    "source_url": "https://tickeron.com/trading-investing-101/q1-2026-earnings-preview-may-2529-2026--tcom-mrvl-crm-pdd-dell-ry-td-adsk/"
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "GE Vernova HA gas turbine fleet tops 4 million operating hours as shares jump",
+    "summary": "GE Vernova's HA-class gas turbine fleet surpassed four million cumulative commercial operating hours worldwide, underscoring reliability as datacenter-driven power demand tightens turbine slots through 2030. The milestone, alongside raised full-year guidance and a robust electrification backlog, helped lift the stock about 5.3% on May 26. The company booked $2.4B of datacenter electrification equipment orders in Q1 — more than all of last year.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/"
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "Memory supercycle deepens: DRAM and HBM prices seen rising another ~40% through Q2",
+    "summary": "Counterpoint Research projects memory prices climbing roughly 40% through the second quarter of 2026, reinforcing views that the cycle is structural rather than a short-term bounce. SK Hynix commentary pointing to a sustained HBM supercycle has buoyed the memory complex, a core enabler of AI accelerator buildouts and a tailwind for Micron, SK Hynix and Samsung.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html"
+  },
+  {
+    "date": "2026-05-27",
+    "headline": "BofA reiterates Buy on TSMC, says 'recent concerns are overdone'",
+    "summary": "Bank of America reiterated its Buy rating on TSMC with a NT$2,560 price target, arguing recent concerns around the stock are overdone given durable AI-driven demand for leading-edge nodes. The call comes as TSMC's rally powers Taiwan past India in total market value.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/buy-tsmc-stock-as-recent-concerns-are-overdone-bofa-4692914"
+  }
+]

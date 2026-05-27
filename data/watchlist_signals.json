@@ -1223,5 +1223,19 @@
     "signal_type": "momentum",
     "description": "DOE selected Oklo to negotiate entry into the Surplus Plutonium Utilization Program on May 26, enabling conversion of Cold War-era weapons-grade plutonium into advanced reactor fuel. This de-risks Oklo fuel supply constraints and builds on the October 2025 newcleo partnership (up to $2 billion potential investment). Stock rose 10.4% to $72.72. Texas Capital reaffirmed Buy / $93 on the catalyst.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-27",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "HA turbine fleet tops 4M operating hours; +5.3% on May 26 amid record Q1 datacenter electrification orders ($2.4B, > all of 2025). Turbine slots tight through 2030.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-27",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Memory supercycle: Counterpoint sees DRAM/HBM prices +~40% through Q2 2026; SK Hynix flags sustained HBM upcycle. Structural AI-driven demand tailwind.",
+    "severity": "medium"
   }
 ]

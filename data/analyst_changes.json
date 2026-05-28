@@ -1465,5 +1465,95 @@
     "new_target": 425,
     "old_rating": "Strong Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNPS",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": "Buy",
+    "old_target": 515
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNPS",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-weight",
+    "new_target": 525,
+    "old_rating": "Equal-weight",
+    "old_target": 480
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNPS",
+    "firm": "Berenberg",
+    "new_rating": "Buy",
+    "new_target": 633,
+    "old_rating": "Buy",
+    "old_target": 540
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "CRWD",
+    "firm": "Benchmark",
+    "new_rating": "Buy",
+    "new_target": 700,
+    "old_rating": "Buy",
+    "old_target": 500
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "META",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 1015,
+    "old_rating": "Buy",
+    "old_target": 1144
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "AMAT",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 540,
+    "old_rating": "Outperform",
+    "old_target": 500
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "LRCX",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 380,
+    "old_rating": "Outperform",
+    "old_target": 330
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "ON",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 150,
+    "old_rating": "Outperform",
+    "old_target": 130
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "BE",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 267,
+    "old_rating": "Overweight",
+    "old_target": 231
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "BE",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 293,
+    "old_rating": "Positive",
+    "old_target": 173
   }
 ]

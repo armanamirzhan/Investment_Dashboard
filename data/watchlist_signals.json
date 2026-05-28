@@ -1251,5 +1251,19 @@
     "signal_type": "earnings_beat",
     "description": "Q1 FY27 product revenue +34% YoY to $1.33B (record sequential growth); FY27 guide raised to $5.84B; NRR 126%; $6B five-year AWS pact. Shares +~37% premarket with desk targets lifted to $272–$325.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNPS",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY2026 beat: EPS $3.35 vs $3.15 est, revenue $2.28B vs $2.25B est, full-year guidance raised. Stock dropped ~8% on sell-the-news reaction — narrow guidance raise and restructuring cost concerns weighed. Largest S&P 500 decliner on May 28 despite the beat.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "PLUG",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2026 revenue $163.5M (+22% YoY, beat consensus by 17%) with sharply improving gross margins. CEO reiterated EBITDAS-positive target for Q4 2026; $275M expected from hydrogen asset monetization including $142M Stream Data Centers deal closing June 2026. Stock +~6%.",
+    "severity": "medium"
   }
 ]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-28</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-28</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Snowflake blows past estimates, lifts FY27 guide and signs $6B AWS pact; shares surge ~37%</strong> &mdash; Snowflake reported Q1 FY27 product revenue of $1.33B, up 34% YoY — its strongest sequential dollar growth ever — with total revenue of $1.39B (+33%) and adjusted EPS of $0.39 versus the ~$0.32 consensus. Net revenue retention held at 126% and remaining performance obligations reached $9.21B (+38%). Management raised full-year product-revenue guidance to $5.84B (from $5.66B) and disclosed a five-year, $6B commitment to AWS to expand AI and data workloads. Shares jumped roughly 37% premarket and a string of desks lifted targets into the $272–$325 range.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Salesforce beats and unveils $25B buyback, but soft Q2 guide and AI skepticism cap the stock</strong> &mdash; Salesforce posted record Q1 FY27 revenue of $11.1B (+13% YoY) and non-GAAP EPS of $3.88 (+50%), with Agentforce ARR reaching $1.2B (up more than 200% YoY) and combined AI + Data Cloud ARR of $3.4B. It raised the FY27 revenue-guidance midpoint to $45.9–46.2B and launched a $25B accelerated share repurchase (103M shares delivered upfront). However, Q2 revenue guidance of $11.27–11.35B sat just below the ~$11.36B consensus, and several desks trimmed targets, leaving shares modestly lower premarket. CRM is down roughly 33% year-to-date.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Marvell posts record quarter and raises AI outlook, but shares slip on 'sell-the-news'</strong> &mdash; Marvell reported record Q1 FY27 revenue of $2.418B (+28% YoY) and non-GAAP EPS of $0.80, and guided Q2 to ~$2.70B (+35% YoY) with growth expected to accelerate each quarter on datacenter strength. Management cited exceptional AI bookings, raised its FY27 and FY28 revenue outlooks, and flagged more than 20 custom-silicon (XPU) design wins entering production in FY28–29 across hyperscalers including AWS Trainium and Azure. Despite the beat-and-raise, shares fell about 3% premarket after doubling in 2026 — a mixed read-through for the custom-AI-silicon complex (AVGO, ANET).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Dell reports after the close today with AI-server margins in focus</strong> &mdash; Dell reports Q1 FY27 results after today's close, with consensus near $35.2B revenue (~+51% YoY) and ~$2.90 non-GAAP EPS. Investors are watching whether the AI-optimized server backlog — $43B entering FY27 after more than $64B booked in FY26 — sets another record and prompts a guidance raise, and crucially whether margins hold as GPU- and memory-heavy systems dilute profitability amid the ongoing memory supercycle. The stock has risen sharply in 2026.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>HP Inc tops estimates as AI PCs drive 13% Personal Systems growth despite higher component costs</strong> &mdash; HP Inc reported fiscal Q2 2026 revenue of $14.4B (+9% YoY) and non-GAAP EPS of $0.86 (+21%), with Personal Systems revenue up 13% on double-digit growth in AI PCs, advanced compute and commercial demand. Personal Systems operating margin of 5.2% beat expectations as the company accelerated mitigation of higher input costs — a notable signal given the memory-price supercycle pressuring DRAM/NAND buyers. The print is a positive read-through for AI-PC demand and component-cost management across the hardware chain (MU, Samsung, SK Hynix).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Futures soft as US-Iran tensions lift oil and a hot April inflation print tempers risk appetite</strong> &mdash; Equity futures were under mild pressure premarket as renewed US-Iran tensions pushed crude higher — WTI up roughly 1.8% near $90 and Brent near $96 — and an April PCE reading (headline +0.4% MoM, 3.8% YoY, per TheStreet) kept inflation worries in view. The backdrop is a modest headwind for rate-sensitive AI/datacenter growth names even as single-stock earnings dominate the tape, with the prior session leaving the S&P 500 roughly flat and the Dow lagging.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Marvell posts record quarter and raises AI outlook, but shares slip on 'sell-the-news'</h3><p>Marvell reported record Q1 FY27 revenue of $2.418B (+28% YoY) and non-GAAP EPS of $0.80, and guided Q2 to ~$2.70B (+35% YoY) with growth expected to accelerate each quarter on datacenter strength. Management cited exceptional AI bookings, raised its FY27 and FY28 revenue outlooks, and flagged more than 20 custom-silicon (XPU) design wins entering production in FY28–29 across hyperscalers including AWS Trainium and Azure. Despite the beat-and-raise, shares fell about 3% premarket after doubling in 2026 — a mixed read-through for the custom-AI-silicon complex (AVGO, ANET).</p><div class="source"><a href="https://www.cnbc.com/2026/05/27/stocks-making-the-biggest-moves-after-hours-snow-mrvl-a.html">CNBC</a></div></div>
+<div class="card"><h3>HP Inc tops estimates as AI PCs drive 13% Personal Systems growth despite higher component costs</h3><p>HP Inc reported fiscal Q2 2026 revenue of $14.4B (+9% YoY) and non-GAAP EPS of $0.86 (+21%), with Personal Systems revenue up 13% on double-digit growth in AI PCs, advanced compute and commercial demand. Personal Systems operating margin of 5.2% beat expectations as the company accelerated mitigation of higher input costs — a notable signal given the memory-price supercycle pressuring DRAM/NAND buyers. The print is a positive read-through for AI-PC demand and component-cost management across the hardware chain (MU, Samsung, SK Hynix).</p><div class="source"><a href="https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Second-Quarter-Results/default.aspx">HP Inc</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Snowflake blows past estimates, lifts FY27 guide and signs $6B AWS pact; shares surge ~37%</h3><p>Snowflake reported Q1 FY27 product revenue of $1.33B, up 34% YoY — its strongest sequential dollar growth ever — with total revenue of $1.39B (+33%) and adjusted EPS of $0.39 versus the ~$0.32 consensus. Net revenue retention held at 126% and remaining performance obligations reached $9.21B (+38%). Management raised full-year product-revenue guidance to $5.84B (from $5.66B) and disclosed a five-year, $6B commitment to AWS to expand AI and data workloads. Shares jumped roughly 37% premarket and a string of desks lifted targets into the $272–$325 range.</p><div class="source"><a href="https://www.cnbc.com/2026/05/27/stocks-making-the-biggest-moves-after-hours-snow-mrvl-a.html">CNBC</a></div></div>
+<div class="card"><h3>Salesforce beats and unveils $25B buyback, but soft Q2 guide and AI skepticism cap the stock</h3><p>Salesforce posted record Q1 FY27 revenue of $11.1B (+13% YoY) and non-GAAP EPS of $3.88 (+50%), with Agentforce ARR reaching $1.2B (up more than 200% YoY) and combined AI + Data Cloud ARR of $3.4B. It raised the FY27 revenue-guidance midpoint to $45.9–46.2B and launched a $25B accelerated share repurchase (103M shares delivered upfront). However, Q2 revenue guidance of $11.27–11.35B sat just below the ~$11.36B consensus, and several desks trimmed targets, leaving shares modestly lower premarket. CRM is down roughly 33% year-to-date.</p><div class="source"><a href="https://www.salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings/">Salesforce</a></div></div>
+<div class="card"><h3>Dell reports after the close today with AI-server margins in focus</h3><p>Dell reports Q1 FY27 results after today's close, with consensus near $35.2B revenue (~+51% YoY) and ~$2.90 non-GAAP EPS. Investors are watching whether the AI-optimized server backlog — $43B entering FY27 after more than $64B booked in FY26 — sets another record and prompts a guidance raise, and crucially whether margins hold as GPU- and memory-heavy systems dilute profitability amid the ongoing memory supercycle. The stock has risen sharply in 2026.</p><div class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/dell-gears-report-q1-earnings-164200152.html">Yahoo Finance / Zacks</a></div></div>
+<div class="card"><h3>Futures soft as US-Iran tensions lift oil and a hot April inflation print tempers risk appetite</h3><p>Equity futures were under mild pressure premarket as renewed US-Iran tensions pushed crude higher — WTI up roughly 1.8% near $90 and Brent near $96 — and an April PCE reading (headline +0.4% MoM, 3.8% YoY, per TheStreet) kept inflation worries in view. The backdrop is a modest headwind for rate-sensitive AI/datacenter growth names even as single-stock earnings dominate the tape, with the prior session leaving the S&P 500 roughly flat and the Dow lagging.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-28-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">SNOW</span> Goldman Sachs: Buy &rarr; <strong>Buy</strong> | PT: $216 &rarr; $278 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">SNOW</span> Barclays: Overweight &rarr; <strong>Overweight</strong> | PT: $192 &rarr; $272 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">SNOW</span> Scotiabank: None &rarr; <strong>Sector Outperform</strong> | PT: N/A &rarr; $285 </p>
+<p><span class="ticker">SNOW</span> Stifel: None &rarr; <strong>Buy</strong> | PT: N/A &rarr; $300 </p>
+<p><span class="ticker">SNOW</span> Needham: None &rarr; <strong>Buy</strong> | PT: N/A &rarr; $300 </p>
+<p><span class="ticker">SNOW</span> JMP Securities: Market Outperform &rarr; <strong>Market Outperform</strong> | PT: N/A &rarr; $325 </p>
+<p><span class="ticker">CRM</span> BofA Securities: None &rarr; <strong>Underperform</strong> | PT: N/A &rarr; $160 </p>
+<p><span class="ticker">CRM</span> Wells Fargo: None &rarr; <strong>Equal Weight</strong> | PT: $210 &rarr; $200 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">CRM</span> Baird: None &rarr; <strong>Outperform</strong> | PT: $250 &rarr; $225 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">CRM</span> Barclays: None &rarr; <strong>Overweight</strong> | PT: $252 &rarr; $236 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">NVDA</span> Tigress Financial: Strong Buy &rarr; <strong>Strong Buy</strong> | PT: N/A &rarr; $425 </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">SNOW</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 FY27 product revenue +34% YoY to $1.33B (record sequential growth); FY27 guide raised to $5.84B; NRR 126%; $6B five-year AWS pact. Shares +~37% premarket with desk targets lifted to $272–$325.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">SNOW</span></td><td>Up</td><td>Q1 blowout (+34% product rev), FY27 guide raised, $6B AWS deal; +~37% premarket</td></tr>
+<tr><td><span class="ticker down">CRM</span></td><td>Down</td><td>Beat + $25B buyback, but light Q2 guide; desks cut PTs (BofA Underperform $160)</td></tr>
+<tr><td><span class="ticker down">MRVL</span></td><td>Down</td><td>Record quarter, raised AI outlook, but ~-3% on sell-the-news</td></tr>
+<tr><td><span class="ticker ">DELL</span></td><td>Neutral</td><td>Reports AMC; $43B AI-server backlog and margins in focus</td></tr>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>Tigress reiterates Strong Buy, PT $425; custom-AI-silicon complex in focus</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-28 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -1244,5 +1244,12 @@
     "signal_type": "momentum",
     "description": "Cybersecurity sector pressure: peer Zscaler (ZS) sold off ~23% on May 27 after Q3 earnings showed strong revenue growth (+25% YoY) but FCF margin guidance cut due to elevated AI infrastructure capex. Investor caution on margin compression from AI spending is a read-through for CRWD valuation multiples.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 product revenue +34% YoY to $1.33B (record sequential growth); FY27 guide raised to $5.84B; NRR 126%; $6B five-year AWS pact. Shares +~37% premarket with desk targets lifted to $272–$325.",
+    "severity": "high"
   }
 ]

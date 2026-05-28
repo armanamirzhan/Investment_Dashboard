@@ -1366,5 +1366,104 @@
     "new_target": 93,
     "old_rating": "Buy",
     "old_target": 93
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 278,
+    "old_rating": "Buy",
+    "old_target": 216
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 272,
+    "old_rating": "Overweight",
+    "old_target": 192
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "Scotiabank",
+    "new_rating": "Sector Outperform",
+    "new_target": 285,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "Needham",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "SNOW",
+    "firm": "JMP Securities",
+    "new_rating": "Market Outperform",
+    "new_target": 325,
+    "old_rating": "Market Outperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "CRM",
+    "firm": "BofA Securities",
+    "new_rating": "Underperform",
+    "new_target": 160,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "CRM",
+    "firm": "Wells Fargo",
+    "new_rating": "Equal Weight",
+    "new_target": 200,
+    "old_rating": null,
+    "old_target": 210
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "CRM",
+    "firm": "Baird",
+    "new_rating": "Outperform",
+    "new_target": 225,
+    "old_rating": null,
+    "old_target": 250
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "CRM",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 236,
+    "old_rating": null,
+    "old_target": 252
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "NVDA",
+    "firm": "Tigress Financial",
+    "new_rating": "Strong Buy",
+    "new_target": 425,
+    "old_rating": "Strong Buy",
+    "old_target": null
   }
 ]

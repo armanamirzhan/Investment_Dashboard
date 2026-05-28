@@ -975,5 +975,58 @@
       }
     ],
     "file": "morning-news/2026-05-27.html"
+  },
+  {
+    "date": "2026-05-28",
+    "tickers": [
+      {
+        "ticker": "SNOW",
+        "direction": "up",
+        "note": "Q1 blowout (+34% product rev), FY27 guide raised, $6B AWS deal; +~37% premarket"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "down",
+        "note": "Beat + $25B buyback, but light Q2 guide; desks cut PTs (BofA Underperform $160)"
+      },
+      {
+        "ticker": "MRVL",
+        "direction": "down",
+        "note": "Record quarter, raised AI outlook, but ~-3% on sell-the-news"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "neutral",
+        "note": "Reports AMC; $43B AI-server backlog and margins in focus"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Tigress reiterates Strong Buy, PT $425; custom-AI-silicon complex in focus"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "SNOW",
+        "signal": "AI data-platform consumption surge"
+      },
+      {
+        "ticker": "CRM",
+        "signal": "Agentforce monetization vs. AI skepticism"
+      },
+      {
+        "ticker": "MRVL",
+        "signal": "Custom AI silicon (XPU) ramp"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "AI server demand / margin watch"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Oil spike on US-Iran tension"
+      }
+    ],
+    "file": "morning-news/2026-05-28.html"
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-05-29",
+    "headline": "Dell delivers blowout Q1 with AI server revenue up 757%, lifts FY27 to ~$167B; lands $9.7B Pentagon-Microsoft deal; shares +35%",
+    "summary": "Dell reported record Q1 FY27 revenue of $43.8B (+88% YoY) and diluted EPS of $4.86 (+214%), crushing the Street. Infrastructure Solutions Group revenue hit a record $29.0B (+181%), with AI-optimized server revenue of $16.1B (+757% YoY) and $24.4B of new AI orders booked in the quarter, lifting AI server backlog to $51.3B. Active AI customers topped 5,000 (+50% in six months). Management raised its FY27 AI-server revenue target to $60B and the full-year revenue outlook to ~$165-169B (~+50% YoY). Dell also disclosed a five-year, $9.7B blanket purchase agreement with the Pentagon to consolidate Microsoft licensing across defense and intelligence agencies. Shares jumped ~35% premarket and a wave of desks raised targets. The print is a strong read-through for the AI-server and memory-component complex (HPE, MU, AVGO, ANET).",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Dell Technologies (SEC 8-K)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000021/exhibit991earnings8kq1fy27.htm"
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "HPE rallies ~16% in sympathy with Dell's AI-server blowout",
+    "summary": "Hewlett Packard Enterprise climbed roughly 16% premarket in a sympathy move after Dell's record AI-server quarter and raised FY27 guidance reignited enthusiasm for the AI-infrastructure server complex. The move underscores how Dell's $51.3B AI backlog and $60B FY27 AI-server target are being read across to peers, even though HPE has not reported. House Rating on HPE remains HOLD pending its own results.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026"
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "NetApp posts record Q4 with all-flash up 18%, launches Nvidia-co-engineered AI Data Engine; shares +17.6%",
+    "summary": "NetApp reported Q4 FY26 revenue of $1.95B (+12% YoY) and non-GAAP EPS of $2.43, with record all-flash array revenue of $1.2B (+18%) and record public-cloud revenue of $182M (+11%). The company launched new EF50/EF80 high-performance systems for AI/HPC and an end-to-end AI Data Engine co-engineered with Nvidia, and reported record FY26 billings of $7.21B. Shares rose ~17.6% premarket. A positive read-through for AI-storage demand and the broader Nvidia AI data-platform ecosystem (NVDA).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "NetApp (SEC 8-K)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001002047/000119312526245196/ntap-ex99_1.htm"
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Autodesk to acquire maintenance platform MaintainX for $3.6B all-cash; shares slip ~7% despite Q1 beat",
+    "summary": "Autodesk agreed to acquire MaintainX, a modern maintenance-and-operations software platform, in an all-cash deal worth about $3.6B, funded with cash and new debt plus $150M in RSUs to MaintainX staff. MaintainX is expected to carry $135M+ ARR for 2026 with 50%+ growth, and will anchor a new Autodesk Operations Solutions unit converging design-make-operate workflows. The deal targets a close as early as Aug 3, 2026. Shares fell ~7% premarket even as Autodesk posted a stronger-than-expected fiscal Q1, reflecting investor caution on the price tag and added debt. A sign of continued enterprise-software M&A appetite around operational AI/data platforms.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Autodesk",
+    "source_url": "https://adsknews.autodesk.com/en/news/autodesk-to-acquire-maintainx-advancing-unified-platform-in-operations/"
+  },
+  {
+    "date": "2026-05-29",
+    "headline": "Futures edge up and oil falls as tentative US-Iran ceasefire eases the geopolitical premium",
+    "summary": "Equity futures firmed premarket (S&P 500 +~0.2%, Nasdaq 100 +~0.15%, Dow +~0.27%) as tentative US-Iran ceasefire negotiations reversed the prior session's risk-off tone. Crude retreated — WTI -1.4% to ~$87.66 and Brent -1.3% to ~$92.47 — unwinding part of the spike driven by earlier US-Iran tensions and modestly easing the cost backdrop for rate-sensitive AI/datacenter growth names. With no major data on the calendar, the tape stayed focused on single-stock earnings and AI/defense leadership.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026"
+  }
+]

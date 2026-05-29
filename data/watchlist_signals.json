@@ -1265,5 +1265,12 @@
     "signal_type": "earnings_beat",
     "description": "Q1 FY2026 revenue $163.5M (+22% YoY, beat consensus by 17%) with sharply improving gross margins. CEO reiterated EBITDAS-positive target for Q4 2026; $275M expected from hydrogen asset monetization including $142M Stream Data Centers deal closing June 2026. Stock +~6%.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "DELL",
+    "signal_type": "earnings_beat",
+    "description": "Record Q1 FY27: revenue $43.8B (+88%), EPS $4.86 (+214%), AI server revenue +757% to $16.1B, $24.4B AI orders, $51.3B backlog; FY27 guide raised to ~$167B midpoint and AI-server target to $60B; plus $9.7B Pentagon-Microsoft deal.",
+    "severity": "high"
   }
 ]

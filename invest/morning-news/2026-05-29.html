@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-05-29</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-05-29</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Dell delivers blowout Q1 with AI server revenue up 757%, lifts FY27 to ~$167B; lands $9.7B Pentagon-Microsoft deal; shares +35%</strong> &mdash; Dell reported record Q1 FY27 revenue of $43.8B (+88% YoY) and diluted EPS of $4.86 (+214%), crushing the Street. Infrastructure Solutions Group revenue hit a record $29.0B (+181%), with AI-optimized server revenue of $16.1B (+757% YoY) and $24.4B of new AI orders booked in the quarter, lifting AI server backlog to $51.3B. Active AI customers topped 5,000 (+50% in six months). Management raised its FY27 AI-server revenue target to $60B and the full-year revenue outlook to ~$165-169B (~+50% YoY). Dell also disclosed a five-year, $9.7B blanket purchase agreement with the Pentagon to consolidate Microsoft licensing across defense and intelligence agencies. Shares jumped ~35% premarket and a wave of desks raised targets. The print is a strong read-through for the AI-server and memory-component complex (HPE, MU, AVGO, ANET).</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>HPE rallies ~16% in sympathy with Dell's AI-server blowout</strong> &mdash; Hewlett Packard Enterprise climbed roughly 16% premarket in a sympathy move after Dell's record AI-server quarter and raised FY27 guidance reignited enthusiasm for the AI-infrastructure server complex. The move underscores how Dell's $51.3B AI backlog and $60B FY27 AI-server target are being read across to peers, even though HPE has not reported. House Rating on HPE remains HOLD pending its own results.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>NetApp posts record Q4 with all-flash up 18%, launches Nvidia-co-engineered AI Data Engine; shares +17.6%</strong> &mdash; NetApp reported Q4 FY26 revenue of $1.95B (+12% YoY) and non-GAAP EPS of $2.43, with record all-flash array revenue of $1.2B (+18%) and record public-cloud revenue of $182M (+11%). The company launched new EF50/EF80 high-performance systems for AI/HPC and an end-to-end AI Data Engine co-engineered with Nvidia, and reported record FY26 billings of $7.21B. Shares rose ~17.6% premarket. A positive read-through for AI-storage demand and the broader Nvidia AI data-platform ecosystem (NVDA).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Autodesk to acquire maintenance platform MaintainX for $3.6B all-cash; shares slip ~7% despite Q1 beat</strong> &mdash; Autodesk agreed to acquire MaintainX, a modern maintenance-and-operations software platform, in an all-cash deal worth about $3.6B, funded with cash and new debt plus $150M in RSUs to MaintainX staff. MaintainX is expected to carry $135M+ ARR for 2026 with 50%+ growth, and will anchor a new Autodesk Operations Solutions unit converging design-make-operate workflows. The deal targets a close as early as Aug 3, 2026. Shares fell ~7% premarket even as Autodesk posted a stronger-than-expected fiscal Q1, reflecting investor caution on the price tag and added debt. A sign of continued enterprise-software M&A appetite around operational AI/data platforms.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Futures edge up and oil falls as tentative US-Iran ceasefire eases the geopolitical premium</strong> &mdash; Equity futures firmed premarket (S&P 500 +~0.2%, Nasdaq 100 +~0.15%, Dow +~0.27%) as tentative US-Iran ceasefire negotiations reversed the prior session's risk-off tone. Crude retreated — WTI -1.4% to ~$87.66 and Brent -1.3% to ~$92.47 — unwinding part of the spike driven by earlier US-Iran tensions and modestly easing the cost backdrop for rate-sensitive AI/datacenter growth names. With no major data on the calendar, the tape stayed focused on single-stock earnings and AI/defense leadership.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>HPE rallies ~16% in sympathy with Dell's AI-server blowout</h3><p>Hewlett Packard Enterprise climbed roughly 16% premarket in a sympathy move after Dell's record AI-server quarter and raised FY27 guidance reignited enthusiasm for the AI-infrastructure server complex. The move underscores how Dell's $51.3B AI backlog and $60B FY27 AI-server target are being read across to peers, even though HPE has not reported. House Rating on HPE remains HOLD pending its own results.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026">TheStreet</a></div></div>
+<div class="card"><h3>NetApp posts record Q4 with all-flash up 18%, launches Nvidia-co-engineered AI Data Engine; shares +17.6%</h3><p>NetApp reported Q4 FY26 revenue of $1.95B (+12% YoY) and non-GAAP EPS of $2.43, with record all-flash array revenue of $1.2B (+18%) and record public-cloud revenue of $182M (+11%). The company launched new EF50/EF80 high-performance systems for AI/HPC and an end-to-end AI Data Engine co-engineered with Nvidia, and reported record FY26 billings of $7.21B. Shares rose ~17.6% premarket. A positive read-through for AI-storage demand and the broader Nvidia AI data-platform ecosystem (NVDA).</p><div class="source"><a href="https://www.sec.gov/Archives/edgar/data/0001002047/000119312526245196/ntap-ex99_1.htm">NetApp (SEC 8-K)</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Autodesk to acquire maintenance platform MaintainX for $3.6B all-cash; shares slip ~7% despite Q1 beat</h3><p>Autodesk agreed to acquire MaintainX, a modern maintenance-and-operations software platform, in an all-cash deal worth about $3.6B, funded with cash and new debt plus $150M in RSUs to MaintainX staff. MaintainX is expected to carry $135M+ ARR for 2026 with 50%+ growth, and will anchor a new Autodesk Operations Solutions unit converging design-make-operate workflows. The deal targets a close as early as Aug 3, 2026. Shares fell ~7% premarket even as Autodesk posted a stronger-than-expected fiscal Q1, reflecting investor caution on the price tag and added debt. A sign of continued enterprise-software M&A appetite around operational AI/data platforms.</p><div class="source"><a href="https://adsknews.autodesk.com/en/news/autodesk-to-acquire-maintainx-advancing-unified-platform-in-operations/">Autodesk</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Dell delivers blowout Q1 with AI server revenue up 757%, lifts FY27 to ~$167B; lands $9.7B Pentagon-Microsoft deal; shares +35%</h3><p>Dell reported record Q1 FY27 revenue of $43.8B (+88% YoY) and diluted EPS of $4.86 (+214%), crushing the Street. Infrastructure Solutions Group revenue hit a record $29.0B (+181%), with AI-optimized server revenue of $16.1B (+757% YoY) and $24.4B of new AI orders booked in the quarter, lifting AI server backlog to $51.3B. Active AI customers topped 5,000 (+50% in six months). Management raised its FY27 AI-server revenue target to $60B and the full-year revenue outlook to ~$165-169B (~+50% YoY). Dell also disclosed a five-year, $9.7B blanket purchase agreement with the Pentagon to consolidate Microsoft licensing across defense and intelligence agencies. Shares jumped ~35% premarket and a wave of desks raised targets. The print is a strong read-through for the AI-server and memory-component complex (HPE, MU, AVGO, ANET).</p><div class="source"><a href="https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000021/exhibit991earnings8kq1fy27.htm">Dell Technologies (SEC 8-K)</a></div></div>
+<div class="card"><h3>Futures edge up and oil falls as tentative US-Iran ceasefire eases the geopolitical premium</h3><p>Equity futures firmed premarket (S&P 500 +~0.2%, Nasdaq 100 +~0.15%, Dow +~0.27%) as tentative US-Iran ceasefire negotiations reversed the prior session's risk-off tone. Crude retreated — WTI -1.4% to ~$87.66 and Brent -1.3% to ~$92.47 — unwinding part of the spike driven by earlier US-Iran tensions and modestly easing the cost backdrop for rate-sensitive AI/datacenter growth names. With no major data on the calendar, the tape stayed focused on single-stock earnings and AI/defense leadership.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">DELL</span> Mizuho: Outperform &rarr; <strong>Outperform</strong> | PT: $350 &rarr; $435 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">DELL</span> JPMorgan: Overweight &rarr; <strong>Overweight</strong> | PT: $205 &rarr; $280 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">DELL</span> Citi: Buy &rarr; <strong>Buy</strong> | PT: $235 &rarr; $290 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">DELL</span> Wells Fargo: Overweight &rarr; <strong>Overweight</strong> | PT: $180 &rarr; $270 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">DELL</span> Morgan Stanley: Underweight &rarr; <strong>Underweight</strong> | PT: $110 &rarr; $170 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">DELL</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Record Q1 FY27: revenue $43.8B (+88%), EPS $4.86 (+214%), AI server revenue +757% to $16.1B, $24.4B AI orders, $51.3B backlog; FY27 guide raised to ~$167B midpoint and AI-server target to $60B; plus $9.7B Pentagon-Microsoft deal.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">DELL</span></td><td>Up</td><td>Blowout Q1 (AI server +757% to $16.1B); FY27 raised to ~$167B; $9.7B Pentagon deal; +~35%</td></tr>
+<tr><td><span class="ticker up">HPE</span></td><td>Up</td><td>+~16% sympathy rally on Dell read-through</td></tr>
+<tr><td><span class="ticker up">NTAP</span></td><td>Up</td><td>Record Q4; Nvidia-co-engineered AI Data Engine; +~17.6%</td></tr>
+<tr><td><span class="ticker down">ADSK</span></td><td>Down</td><td>Buying MaintainX for $3.6B; -~7% despite Q1 beat</td></tr>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>Read-through from NetApp AI Data Engine partnership</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-05-29 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

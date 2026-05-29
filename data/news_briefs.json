@@ -1028,5 +1028,58 @@
       }
     ],
     "file": "morning-news/2026-05-28.html"
+  },
+  {
+    "date": "2026-05-29",
+    "tickers": [
+      {
+        "ticker": "DELL",
+        "direction": "up",
+        "note": "Blowout Q1 (AI server +757% to $16.1B); FY27 raised to ~$167B; $9.7B Pentagon deal; +~35%"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "up",
+        "note": "+~16% sympathy rally on Dell read-through"
+      },
+      {
+        "ticker": "NTAP",
+        "direction": "up",
+        "note": "Record Q4; Nvidia-co-engineered AI Data Engine; +~17.6%"
+      },
+      {
+        "ticker": "ADSK",
+        "direction": "down",
+        "note": "Buying MaintainX for $3.6B; -~7% despite Q1 beat"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Read-through from NetApp AI Data Engine partnership"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "DELL",
+        "signal": "AI server demand surge"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "Federal / sovereign AI"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "Memory-cost concerns easing"
+      },
+      {
+        "ticker": "ADSK",
+        "signal": "Enterprise software M&A"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US-Iran ceasefire / oil down"
+      }
+    ],
+    "file": "morning-news/2026-05-29.html"
   }
 ]

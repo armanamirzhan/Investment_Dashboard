@@ -1600,5 +1600,41 @@
     "new_target": 170,
     "old_rating": "Underweight",
     "old_target": 110
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "DELL",
+    "firm": "Evercore",
+    "new_rating": "Outperform",
+    "new_target": 450,
+    "old_rating": "Outperform",
+    "old_target": 270
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "DELL",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 500,
+    "old_rating": "Overweight",
+    "old_target": 280
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "SNOW",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 280,
+    "old_rating": "Outperform",
+    "old_target": 270
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "SNOW",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 320,
+    "old_rating": "Buy",
+    "old_target": 260
   }
 ]

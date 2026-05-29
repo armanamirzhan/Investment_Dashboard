@@ -1272,5 +1272,47 @@
     "signal_type": "earnings_beat",
     "description": "Record Q1 FY27: revenue $43.8B (+88%), EPS $4.86 (+214%), AI server revenue +757% to $16.1B, $24.4B AI orders, $51.3B backlog; FY27 guide raised to ~$167B midpoint and AI-server target to $60B; plus $9.7B Pentagon-Microsoft deal.",
     "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "DELL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2027: revenue $43.8B (+88% YoY, beat by 23%), EPS $4.86 vs $2.96 est. AI server revenue $16.1B (+757% YoY), $24.4B in new AI orders. FY2027 guide raised to ~$60B AI server revenue. Stock +33% intraday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "SNOW",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2027: product revenue $1.33B (+34% YoY), RPO $4.8B (+28%). EPS $0.39 vs $0.14 est. Announced $6B multi-year AWS commitment. Stock +36%, best single-day gain in company history.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "Sympathy rally +16% driven by Dell Q1 FY2027 AI server blowout (+757% YoY). Validates hyperscaler capex acceleration thesis directly benefiting Super Micro's server addressable market.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "PLTR",
+    "signal_type": "momentum",
+    "description": "+8.75% intraday. Dell Q1 FY2027 blowout validated the Dell AI Factory with NVIDIA partnership, which integrates Palantir Foundry and AIP. Enterprise AI spending acceleration reinforces Palantir's US commercial pipeline.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "NOW",
+    "signal_type": "momentum",
+    "description": "+14.05% intraday. New multi-year Experian global partnership integrating data into ServiceNow AI Platform for agentic workflows; expanded Wipro AI partnership. Snowflake earnings inverted SaaSpocalypse narrative, triggering broad enterprise software re-rating.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "ORCL",
+    "signal_type": "momentum",
+    "description": "+6.7% intraday as Snowflake Q1 FY2027 results reframed AI as a consumption driver for enterprise data platforms, not a replacement. Re-rates Oracle alongside broader enterprise software sector.",
+    "severity": "medium"
   }
 ]

@@ -1314,5 +1314,12 @@
     "signal_type": "momentum",
     "description": "+6.7% intraday as Snowflake Q1 FY2027 results reframed AI as a consumption driver for enterprise data platforms, not a replacement. Re-rates Oracle alongside broader enterprise software sector.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "SNOW",
+    "signal_type": "momentum",
+    "description": "HSBC upgraded Hold to Buy, raising PT from $176 to $289 (64% implied upside). Third sell-side upgrade in five trading days. Q1 FY27 product revenue +34% YoY and accelerating consumption model converging analyst sentiment toward re-rating.",
+    "severity": "medium"
   }
 ]

@@ -1636,5 +1636,50 @@
     "new_target": 320,
     "old_rating": "Buy",
     "old_target": 260
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "DELL",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 700,
+    "old_rating": "Neutral",
+    "old_target": 138
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "DELL",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 550,
+    "old_rating": "Overweight",
+    "old_target": 168
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "DELL",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 500,
+    "old_rating": "Outperform",
+    "old_target": 280
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "DELL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 475,
+    "old_rating": "Buy",
+    "old_target": 290
+  },
+  {
+    "date": "2026-05-30",
+    "ticker": "SNOW",
+    "firm": "HSBC",
+    "new_rating": "Buy",
+    "new_target": 289,
+    "old_rating": "Hold",
+    "old_target": 176
   }
 ]

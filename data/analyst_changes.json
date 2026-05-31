@@ -1681,5 +1681,23 @@
     "new_target": 289,
     "old_rating": "Hold",
     "old_target": 176
+  },
+  {
+    "date": "2026-05-26",
+    "ticker": "CRWV",
+    "firm": "DA Davidson",
+    "new_rating": "Neutral",
+    "new_target": 100,
+    "old_rating": "Buy",
+    "old_target": 175
+  },
+  {
+    "date": "2026-05-28",
+    "ticker": "AVGO",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 490,
+    "old_rating": "Positive",
+    "old_target": null
   }
 ]

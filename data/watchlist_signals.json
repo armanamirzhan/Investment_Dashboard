@@ -1321,5 +1321,12 @@
     "signal_type": "momentum",
     "description": "HSBC upgraded Hold to Buy, raising PT from $176 to $289 (64% implied upside). Third sell-side upgrade in five trading days. Q1 FY27 product revenue +34% YoY and accelerating consumption model converging analyst sentiment toward re-rating.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-05-29",
+    "ticker": "CLS",
+    "signal_type": "earnings_beat",
+    "description": "Q1 2026: revenue $10.25B (+38% YoY), beat consensus; FY guidance raised; new 1.6TbE AI networking switches announced. Stock +8% intraday.",
+    "severity": "high"
   }
 ]

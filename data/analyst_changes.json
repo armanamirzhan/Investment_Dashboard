@@ -1699,5 +1699,50 @@
     "new_target": 490,
     "old_rating": "Positive",
     "old_target": null
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "DELL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-weight",
+    "new_target": 448,
+    "old_rating": "Underweight",
+    "old_target": 170
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "DELL",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 230
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "DELL",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 500,
+    "old_rating": "Outperform",
+    "old_target": 280
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "DELL",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 550,
+    "old_rating": "Overweight",
+    "old_target": 168
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "SMCI",
+    "firm": "Mizuho",
+    "new_rating": "Neutral",
+    "new_target": 44,
+    "old_rating": "Neutral",
+    "old_target": 36
   }
 ]

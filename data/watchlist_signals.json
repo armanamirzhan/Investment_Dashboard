@@ -1349,5 +1349,19 @@
     "signal_type": "momentum",
     "description": "Samsung Electronics +10% to all-time high on AI memory pricing strength; Kospi closed +3.68%. HBM/AI DRAM pricing forecast up to +63% this quarter. Watch for follow-through in SK Hynix and Micron sympathy.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Up ~5% on Computex 2026 keynote: Jensen Huang confirmed Vera Rubin chips in full production with first systems shipping this fall (Anthropic, OpenAI, Dell, Oracle among first customers); also unveiled RTX Spark, an Arm-based laptop/PC chip co-developed with Microsoft marking expansion into consumer compute market.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "DELL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2027 earnings crushed estimates: revenue 3.8B (+88% YoY) vs consensus 5.4B; AI server revenue 6.1B (+757% YoY); 1.3B AI order backlog; FY27 guidance raised to 67B midpoint. Stock up 6% today. Multiple analysts doubled price targets.",
+    "severity": "high"
   }
 ]

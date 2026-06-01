@@ -1081,5 +1081,68 @@
       }
     ],
     "file": "morning-news/2026-05-29.html"
+  },
+  {
+    "date": "2026-06-01",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "RTX Spark Superchip + Microsoft Surface Laptop Ultra debut at GTC Taipei; +2.1% pre-market"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "Pre-market -6.5% on NVDA entry into premium Windows PC silicon"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "Pre-market -3% sympathy on RTX Spark threat to x86 client share"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Surface Laptop Ultra unveiled on NVDA Spark platform"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "up",
+        "note": "Named launch partner for RTX Spark laptops/desktops"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +10% to record; Kospi +3.68% on AI memory pricing"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix continues AI memory leadership"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "NVIDIA expanding into client compute"
+      },
+      {
+        "ticker": "INTC",
+        "signal": "Structural PC share-loss risk"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "AI memory pricing +63% q/q forecast"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Oil +3-4% on Iran tensions"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Spectrum-X annual cadence"
+      }
+    ],
+    "file": "morning-news/2026-06-01.html"
   }
 ]

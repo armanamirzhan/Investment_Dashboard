@@ -1328,5 +1328,26 @@
     "signal_type": "earnings_beat",
     "description": "Q1 2026: revenue $10.25B (+38% YoY), beat consensus; FY guidance raised; new 1.6TbE AI networking switches announced. Stock +8% intraday.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "INTC",
+    "signal_type": "overvalued",
+    "description": "RTX Spark launches NVIDIA directly into premium Windows PC silicon — a market Intel has dominated for decades. Pre-market -6.5%, sympathy losers AMD/Qualcomm. Thesis risk: structural share loss in client compute on top of fab struggles, with no credible counter until 18A-class products ship.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "GTC Taipei + RTX Spark + Spectrum-X annual cadence broadens NVIDIA's TAM into client compute and networking on top of existing datacenter dominance. Pre-market +2.1%, with Broadcom earnings on Jun 3 as the next AI infrastructure read-through.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-01",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung Electronics +10% to all-time high on AI memory pricing strength; Kospi closed +3.68%. HBM/AI DRAM pricing forecast up to +63% this quarter. Watch for follow-through in SK Hynix and Micron sympathy.",
+    "severity": "medium"
   }
 ]

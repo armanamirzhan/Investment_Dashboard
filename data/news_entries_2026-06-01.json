@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-06-01",
+    "headline": "NVIDIA unveils RTX Spark Superchip for Windows PCs at GTC Taipei",
+    "summary": "Jensen Huang's Computex keynote debuted RTX Spark, a Microsoft-co-developed Arm-based Blackwell superchip with 20 Arm CPU cores (Cortex-X925/A725), 6,144 CUDA cores, 128GB unified LPDDR5X and ~1 petaflop of FP4 AI compute. Launch partners include Dell, HP, Lenovo, Asus, MSI and a new Microsoft Surface Laptop Ultra; systems ship fall 2026. NVDA +2.1% pre-market.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Intel, AMD, Qualcomm slide pre-market on NVDA RTX Spark threat to PC silicon",
+    "summary": "NVIDIA's entry into mainstream Windows PCs with the Arm-based RTX Spark hit incumbent x86 and Arm-PC names in pre-market: Intel down ~6.5%, AMD ~3%, Qualcomm ~9.5%. The chip targets premium thin-and-light laptops with a full CUDA stack, putting NVDA directly into Intel/AMD/Qualcomm core PC turf for the first time.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Fast Company",
+    "source_url": "https://www.fastcompany.com/91551586/chip-stocks-today-arm-rises-intel-falls-nvidia-ai-superchip-windows-pcs"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Microsoft unveils Surface Laptop Ultra built on NVIDIA RTX Spark",
+    "summary": "At Computex, Microsoft announced the Surface Laptop Ultra as a flagship Spark device — 15-inch 2,000-nit mini-LED PixelSense Ultra display, 128GB unified RAM, Blackwell GPU, ~4.5 lb. Pricing and exact availability not disclosed; ships later in 2026. Marks Microsoft's deepest co-design with NVIDIA on consumer hardware to date.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Windows Central",
+    "source_url": "https://www.windowscentral.com/hardware/surface/microsoft-surface-laptop-ultra-announced-computex-2026"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Samsung surges >10% to record high; Kospi closes +3.68% on AI memory boom",
+    "summary": "Samsung Electronics jumped more than 10% to an all-time high overnight, helping the Kospi close +3.68% at 8,788.38. Continued read-through from SK Hynix joining the $1T market-cap club last week and forecasts that HBM/AI memory pricing rises up to 63% this quarter. Samsung and SK Hynix now make up a record ~42% of the Kospi.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "NVIDIA commits to annual Spectrum-X Ethernet cadence; positions as 'AI fabric'",
+    "summary": "At GTC Taipei, NVIDIA said it will refresh its Spectrum-X Ethernet networking platform every year, framing it as the first purpose-built Ethernet fabric for AI factories. Reinforces NVDA networking moat versus Broadcom/Arista; reads incrementally positive for hyperscaler buildout volumes through 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "ServeTheHome",
+    "source_url": "https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage/"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Oil surges 3-4% on renewed Iran tensions; risk-asset headwind into open",
+    "summary": "WTI crude +3.7% to ~$90.55 and Brent +3.2% to ~$94 after fresh US-Iran strikes over the weekend, with President Trump signaling 'no hurry' to negotiate. Risk-off impulse trims futures gains even as Nasdaq points up on NVDA. Watch energy-cost passthrough into utility and datacenter operator margins.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "Berkshire Hathaway to buy Taylor Morrison for $6.8B all-cash — first major Abel deal",
+    "summary": "Berkshire agreed to acquire Taylor Morrison Home at $72.50/share, a 24% premium; TMHC +22.3% pre-market. First major M&A move under CEO Greg Abel and a notable vote of confidence in US housing. Not a tracked-ticker event, but a meaningful capital-markets signal as Berkshire deploys its cash pile.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026"
+  },
+  {
+    "date": "2026-06-01",
+    "headline": "GTC Taipei kicks off Jun 1-5; agenda spans AI factories, agentic AI, robotics",
+    "summary": "NVIDIA's GTC Taipei runs alongside Computex this week, with Huang's two-hour keynote framing the next leg of AI infrastructure: AI factories at gigawatt scale, agentic systems on Spectrum-X, physical AI/robotics, and the new RTX Spark client tier. Sets the tone for AI capex narrative into Broadcom and CrowdStrike earnings on Jun 3.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "NVIDIA",
+    "source_url": "https://www.nvidia.com/en-tw/gtc/taipei/keynote/"
+  }
+]

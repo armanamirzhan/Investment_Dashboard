@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-06-01</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-06-01</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>NVIDIA unveils RTX Spark Superchip for Windows PCs at GTC Taipei</strong> &mdash; Jensen Huang's Computex keynote debuted RTX Spark, a Microsoft-co-developed Arm-based Blackwell superchip with 20 Arm CPU cores (Cortex-X925/A725), 6,144 CUDA cores, 128GB unified LPDDR5X and ~1 petaflop of FP4 AI compute. Launch partners include Dell, HP, Lenovo, Asus, MSI and a new Microsoft Surface Laptop Ultra; systems ship fall 2026. NVDA +2.1% pre-market.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Intel, AMD, Qualcomm slide pre-market on NVDA RTX Spark threat to PC silicon</strong> &mdash; NVIDIA's entry into mainstream Windows PCs with the Arm-based RTX Spark hit incumbent x86 and Arm-PC names in pre-market: Intel down ~6.5%, AMD ~3%, Qualcomm ~9.5%. The chip targets premium thin-and-light laptops with a full CUDA stack, putting NVDA directly into Intel/AMD/Qualcomm core PC turf for the first time.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Microsoft unveils Surface Laptop Ultra built on NVIDIA RTX Spark</strong> &mdash; At Computex, Microsoft announced the Surface Laptop Ultra as a flagship Spark device — 15-inch 2,000-nit mini-LED PixelSense Ultra display, 128GB unified RAM, Blackwell GPU, ~4.5 lb. Pricing and exact availability not disclosed; ships later in 2026. Marks Microsoft's deepest co-design with NVIDIA on consumer hardware to date.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung surges >10% to record high; Kospi closes +3.68% on AI memory boom</strong> &mdash; Samsung Electronics jumped more than 10% to an all-time high overnight, helping the Kospi close +3.68% at 8,788.38. Continued read-through from SK Hynix joining the $1T market-cap club last week and forecasts that HBM/AI memory pricing rises up to 63% this quarter. Samsung and SK Hynix now make up a record ~42% of the Kospi.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>NVIDIA commits to annual Spectrum-X Ethernet cadence; positions as 'AI fabric'</strong> &mdash; At GTC Taipei, NVIDIA said it will refresh its Spectrum-X Ethernet networking platform every year, framing it as the first purpose-built Ethernet fabric for AI factories. Reinforces NVDA networking moat versus Broadcom/Arista; reads incrementally positive for hyperscaler buildout volumes through 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Oil surges 3-4% on renewed Iran tensions; risk-asset headwind into open</strong> &mdash; WTI crude +3.7% to ~$90.55 and Brent +3.2% to ~$94 after fresh US-Iran strikes over the weekend, with President Trump signaling 'no hurry' to negotiate. Risk-off impulse trims futures gains even as Nasdaq points up on NVDA. Watch energy-cost passthrough into utility and datacenter operator margins.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Berkshire Hathaway to buy Taylor Morrison for $6.8B all-cash — first major Abel deal</strong> &mdash; Berkshire agreed to acquire Taylor Morrison Home at $72.50/share, a 24% premium; TMHC +22.3% pre-market. First major M&A move under CEO Greg Abel and a notable vote of confidence in US housing. Not a tracked-ticker event, but a meaningful capital-markets signal as Berkshire deploys its cash pile.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GTC Taipei kicks off Jun 1-5; agenda spans AI factories, agentic AI, robotics</strong> &mdash; NVIDIA's GTC Taipei runs alongside Computex this week, with Huang's two-hour keynote framing the next leg of AI infrastructure: AI factories at gigawatt scale, agentic systems on Spectrum-X, physical AI/robotics, and the new RTX Spark client tier. Sets the tone for AI capex narrative into Broadcom and CrowdStrike earnings on Jun 3.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>NVIDIA unveils RTX Spark Superchip for Windows PCs at GTC Taipei</h3><p>Jensen Huang's Computex keynote debuted RTX Spark, a Microsoft-co-developed Arm-based Blackwell superchip with 20 Arm CPU cores (Cortex-X925/A725), 6,144 CUDA cores, 128GB unified LPDDR5X and ~1 petaflop of FP4 AI compute. Launch partners include Dell, HP, Lenovo, Asus, MSI and a new Microsoft Surface Laptop Ultra; systems ship fall 2026. NVDA +2.1% pre-market.</p><div class="source"><a href="https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html">CNBC</a></div></div>
+<div class="card"><h3>Intel, AMD, Qualcomm slide pre-market on NVDA RTX Spark threat to PC silicon</h3><p>NVIDIA's entry into mainstream Windows PCs with the Arm-based RTX Spark hit incumbent x86 and Arm-PC names in pre-market: Intel down ~6.5%, AMD ~3%, Qualcomm ~9.5%. The chip targets premium thin-and-light laptops with a full CUDA stack, putting NVDA directly into Intel/AMD/Qualcomm core PC turf for the first time.</p><div class="source"><a href="https://www.fastcompany.com/91551586/chip-stocks-today-arm-rises-intel-falls-nvidia-ai-superchip-windows-pcs">Fast Company</a></div></div>
+<div class="card"><h3>Microsoft unveils Surface Laptop Ultra built on NVIDIA RTX Spark</h3><p>At Computex, Microsoft announced the Surface Laptop Ultra as a flagship Spark device — 15-inch 2,000-nit mini-LED PixelSense Ultra display, 128GB unified RAM, Blackwell GPU, ~4.5 lb. Pricing and exact availability not disclosed; ships later in 2026. Marks Microsoft's deepest co-design with NVIDIA on consumer hardware to date.</p><div class="source"><a href="https://www.windowscentral.com/hardware/surface/microsoft-surface-laptop-ultra-announced-computex-2026">Windows Central</a></div></div>
+<div class="card"><h3>Samsung surges >10% to record high; Kospi closes +3.68% on AI memory boom</h3><p>Samsung Electronics jumped more than 10% to an all-time high overnight, helping the Kospi close +3.68% at 8,788.38. Continued read-through from SK Hynix joining the $1T market-cap club last week and forecasts that HBM/AI memory pricing rises up to 63% this quarter. Samsung and SK Hynix now make up a record ~42% of the Kospi.</p><div class="source"><a href="https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html">CNBC</a></div></div>
+<div class="card"><h3>NVIDIA commits to annual Spectrum-X Ethernet cadence; positions as 'AI fabric'</h3><p>At GTC Taipei, NVIDIA said it will refresh its Spectrum-X Ethernet networking platform every year, framing it as the first purpose-built Ethernet fabric for AI factories. Reinforces NVDA networking moat versus Broadcom/Arista; reads incrementally positive for hyperscaler buildout volumes through 2027.</p><div class="source"><a href="https://www.servethehome.com/nvidia-computex-2026-keynote-live-coverage/">ServeTheHome</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>GTC Taipei kicks off Jun 1-5; agenda spans AI factories, agentic AI, robotics</h3><p>NVIDIA's GTC Taipei runs alongside Computex this week, with Huang's two-hour keynote framing the next leg of AI infrastructure: AI factories at gigawatt scale, agentic systems on Spectrum-X, physical AI/robotics, and the new RTX Spark client tier. Sets the tone for AI capex narrative into Broadcom and CrowdStrike earnings on Jun 3.</p><div class="source"><a href="https://www.nvidia.com/en-tw/gtc/taipei/keynote/">NVIDIA</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Oil surges 3-4% on renewed Iran tensions; risk-asset headwind into open</h3><p>WTI crude +3.7% to ~$90.55 and Brent +3.2% to ~$94 after fresh US-Iran strikes over the weekend, with President Trump signaling 'no hurry' to negotiate. Risk-off impulse trims futures gains even as Nasdaq points up on NVDA. Watch energy-cost passthrough into utility and datacenter operator margins.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026">TheStreet</a></div></div>
+<div class="card"><h3>Berkshire Hathaway to buy Taylor Morrison for $6.8B all-cash — first major Abel deal</h3><p>Berkshire agreed to acquire Taylor Morrison Home at $72.50/share, a 24% premium; TMHC +22.3% pre-market. First major M&A move under CEO Greg Abel and a notable vote of confidence in US housing. Not a tracked-ticker event, but a meaningful capital-markets signal as Berkshire deploys its cash pile.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-01-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">INTC</span> <span class="signal-badge signal-bearish">Overvalued</span> RTX Spark launches NVIDIA directly into premium Windows PC silicon — a market Intel has dominated for decades. Pre-market -6.5%, sympathy losers AMD/Qualcomm. Thesis risk: structural share loss in client compute on top of fab struggles, with no credible counter until 18A-class products ship.</p>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Momentum</span> GTC Taipei + RTX Spark + Spectrum-X annual cadence broadens NVIDIA's TAM into client compute and networking on top of existing datacenter dominance. Pre-market +2.1%, with Broadcom earnings on Jun 3 as the next AI infrastructure read-through.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-neutral">Momentum</span> Samsung Electronics +10% to all-time high on AI memory pricing strength; Kospi closed +3.68%. HBM/AI DRAM pricing forecast up to +63% this quarter. Watch for follow-through in SK Hynix and Micron sympathy.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>RTX Spark Superchip + Microsoft Surface Laptop Ultra debut at GTC Taipei; +2.1% pre-market</td></tr>
+<tr><td><span class="ticker down">INTC</span></td><td>Down</td><td>Pre-market -6.5% on NVDA entry into premium Windows PC silicon</td></tr>
+<tr><td><span class="ticker down">AMD</span></td><td>Down</td><td>Pre-market -3% sympathy on RTX Spark threat to x86 client share</td></tr>
+<tr><td><span class="ticker up">MSFT</span></td><td>Up</td><td>Surface Laptop Ultra unveiled on NVDA Spark platform</td></tr>
+<tr><td><span class="ticker up">DELL</span></td><td>Up</td><td>Named launch partner for RTX Spark laptops/desktops</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>Samsung +10% to record; Kospi +3.68% on AI memory pricing</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SK Hynix continues AI memory leadership</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-06-01 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

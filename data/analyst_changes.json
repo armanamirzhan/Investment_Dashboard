@@ -1771,5 +1771,86 @@
     "new_target": 110.0,
     "old_rating": "Equal Weight",
     "old_target": 85.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "CRWV",
+    "firm": "BNP Paribas",
+    "new_rating": "Outperform",
+    "new_target": 192.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "firm": "Morgan Stanley",
+    "new_rating": "Hold",
+    "new_target": 71.0,
+    "old_rating": "Hold",
+    "old_target": 33.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "firm": "JPMorgan",
+    "new_rating": "Buy",
+    "new_target": 68.0,
+    "old_rating": "Buy",
+    "old_target": 37.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "firm": "Raymond James",
+    "new_rating": "Buy",
+    "new_target": 74.0,
+    "old_rating": "Buy",
+    "old_target": 29.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 70.0,
+    "old_rating": "Outperform",
+    "old_target": 40.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 80.0,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "ORCL",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 285.0,
+    "old_rating": "Buy",
+    "old_target": 250.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "ORCL",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 235.0,
+    "old_rating": "Outperform",
+    "old_target": 210.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AVGO",
+    "firm": "Mizuho",
+    "new_rating": "Buy",
+    "new_target": 480.0,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

@@ -1391,5 +1391,33 @@
     "signal_type": "momentum",
     "description": "Morgan Stanley OW, PT $485 (from $470). Models AI rev $10.8B Q2 -> $16.9B Q3, $120B by 2027. +6.1% pre-market into Wed AMC earnings.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "BNP Paribas initiated Outperform PT $192; CoreWeave first to validate NVIDIA Vera Rubin NVL72 (72-GPU rack), establishing early-mover advantage in next-gen GPU cluster deployments.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "VST",
+    "signal_type": "momentum",
+    "description": "Meta signed 20-year nuclear PPA with Vistra covering 2,609 MW from PJM nuclear plants; deliveries begin late 2026. Long-term contracted offtake de-risks Vistra's nuclear fleet and extends earnings visibility.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Meta nuclear PPA with Oklo commits up to 1.2 GW of advanced fission capacity by 2034 — largest commercial contract for a next-generation reactor developer, validating the Aurora microreactor commercial pipeline.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "SMCI +5% on sympathy with HPE's Q2 FY2026 AI server beat (+40% revenue YoY, AI backlog $5.9B); no independent catalyst confirmed intraday — momentum driven by sector re-rating of AI server demand.",
+    "severity": "medium"
   }
 ]

@@ -1744,5 +1744,32 @@
     "new_target": 44,
     "old_rating": "Neutral",
     "old_target": 36
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AVGO",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 485.0,
+    "old_rating": "Overweight",
+    "old_target": 470.0
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AMD",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 665.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "INTC",
+    "firm": "Wells Fargo",
+    "new_rating": "Equal Weight",
+    "new_target": 110.0,
+    "old_rating": "Equal Weight",
+    "old_target": 85.0
   }
 ]

@@ -1363,5 +1363,33 @@
     "signal_type": "earnings_beat",
     "description": "Q1 FY2027 earnings crushed estimates: revenue 3.8B (+88% YoY) vs consensus 5.4B; AI server revenue 6.1B (+757% YoY); 1.3B AI order backlog; FY27 guidance raised to 67B midpoint. Stock up 6% today. Multiple analysts doubled price targets.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "HPE",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY26 revenue $10.68B (+40%) vs $9.79B est, EPS $0.79 vs $0.54. Networking (Juniper) +148%, Cloud & AI +23%. FY26 EPS guide raised to $3.35-$3.45 from $2.30-$2.50. Shares +27-30% AH.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "STM",
+    "signal_type": "momentum",
+    "description": "Intra-quarter datacenter guidance raise to ~$1B 2026 revenue (prior >$500M) and possible doubling in 2027 on AWS multi-year deal. +8.2% in Paris.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix chair: double memory wafer capacity in 5 years, AI shortage through 2030, 2026 capex > KRW 30.2T, US ADR filing targeting June-July listing window ($10-14B raise).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-02",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Morgan Stanley OW, PT $485 (from $470). Models AI rev $10.8B Q2 -> $16.9B Q3, $120B by 2027. +6.1% pre-market into Wed AMC earnings.",
+    "severity": "medium"
   }
 ]

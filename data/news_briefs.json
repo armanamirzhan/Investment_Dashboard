@@ -1144,5 +1144,63 @@
       }
     ],
     "file": "morning-news/2026-06-01.html"
+  },
+  {
+    "date": "2026-06-02",
+    "tickers": [
+      {
+        "ticker": "HPE",
+        "direction": "up",
+        "note": "Q2 blow-out: $10.68B (+40%), networking +148%, FY26 EPS guide raised to $3.35-$3.45; +27-30% AH"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "MS PT $485 (from $470); +6.1% pre-market into Wed AMC earnings"
+      },
+      {
+        "ticker": "STM",
+        "direction": "up",
+        "note": "Datacenter revenue ambition doubled to ~$1B on AWS deal; +8.2% in Paris"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Chairman: capacity doubling in 5y; ADR US listing June-July; AI shortage to 2030"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Barclays sets street-high $665 PT; TD Cowen + Mizuho also weigh in"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "Wells Fargo raises PT to $110 from $85 (Equal Weight)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "HPE",
+        "signal": "earnings_beat + FY26 guide raise"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "AI memory shortage to 2030"
+      },
+      {
+        "ticker": "STM",
+        "signal": "Datacenter capex breadth (beyond GPU/HBM)"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "AI ASIC momentum into Wed earnings"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Iran/oil risk premium; export controls tighten"
+      }
+    ],
+    "file": "morning-news/2026-06-02.html"
   }
 ]

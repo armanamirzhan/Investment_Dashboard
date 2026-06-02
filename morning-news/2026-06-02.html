@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-06-02</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-06-02</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>HPE smashes Q2: revenue $10.68B (+40%), networking +148%; FY26 EPS guide nearly doubled</strong> &mdash; Hewlett Packard Enterprise reported fiscal Q2 revenue of $10.68B vs $9.79B est, EPS $0.79 vs $0.54 est. Networking segment (Juniper) +148% YoY, Cloud & AI +23%. Management raised FY26 adjusted EPS guidance to $3.35-$3.45 (prior $2.30-$2.50) and FY26 revenue growth to 29-33%; introduced an FY27 growth framework. Shares +27-30% in after-hours / pre-market, volume ~287% of 3-month average. Read-across positive for AI server/networking demand into Broadcom (Wed AMC), AVGO already +6% pre-market.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>STMicroelectronics nearly doubles datacenter revenue ambition to ~$1B for 2026</strong> &mdash; STM issued an intra-quarter upgrade lifting 2026 datacenter revenue guidance to about $1 billion (prior 'nicely above $500M') and said 2027 revenues could double from there. Cornerstone is the February 2026 multi-year, multi-billion-dollar AWS commercial agreement spanning silicon photonics, mixed-signal, advanced MCUs and power ICs for hyperscale. Shares +8.2% in Paris. Broadens the AI-infrastructure beneficiary list well beyond GPU/HBM names.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>SK Hynix to double memory wafer capacity in 5 years; AI shortage seen lasting to 2030; files US ADR</strong> &mdash; SK Group chairman Chey Tae-won said at Computex on June 2 that SK Hynix will double memory wafer capacity within five years, 2026 capex will exceed the KRW 30.2T (~$20B) spent in 2025, and the AI-driven memory shortage extends through at least 2030. SK Hynix has confidentially filed for a US ADR listing targeting a June-July window, with underwriters modeling a $10-14B raise. Reinforces the structural HBM/AI memory upcycle and adds a US-listed memory pure-play for institutional investors.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Morgan Stanley raises Broadcom target to $485, models $120B AI revenue by 2027 ahead of Wed earnings</strong> &mdash; Morgan Stanley's Joseph Moore maintained Overweight on AVGO and lifted PT to $485 from $470 ahead of fiscal Q2 results after the close Wednesday June 3. Models AI revenue stepping from $10.8B in Q2 to $16.9B in Q3 and reaching $120B by 2027, citing room for upward revisions as ASIC programs ramp and AI networking exceeds expectations. AVGO +6.1% pre-market. Street consensus Q2 EPS $2.32 on $22.1B revenue (vs $1.58 / $15B prior-year).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Asia chip names cool after run; Kospi -0.15% to 8,801 as Samsung/SK Hynix consolidate Monday's record</strong> &mdash; Asia closed mixed on June 2 with the Kospi slipping 0.15% to 8,801.49 after Monday's record on Samsung +10% and the SK Hynix capacity announcement. Nikkei 225 -0.3% at 66,734; Topix -0.42%; ASX flat; Hang Seng +2.41%; CSI 300 +1.45%. Read: memory/HBM rally pausing but not breaking - chairman's 'shortage to 2030' framing keeps multi-year capex narrative intact.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Trump admin moves to close AI chip export loophole for Chinese-parent entities</strong> &mdash; New BIS guidance clarifies that a license is now required to sell advanced AI chips to any firm with a Chinese parent company, tightening the January 2026 framework. Targets re-export workarounds via subsidiaries in third countries. Incremental headwind for NVDA/AMD/AVGO China-rev exposure; broadly anticipated and unlikely to alter US/EU/allied demand picture but worth watching ahead of Broadcom's Wed call.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Futures soft into the open; Iran/oil keeps risk premium as S&P futures dip 0.14%</strong> &mdash; S&P 500 futures -0.14%, Dow -0.09%, Nasdaq -0.25% Tuesday morning after Monday's record close. Continued US-Iran exchanges keep oil bid (WTI ~$90, Brent ~$94) and trim risk sentiment. HPE blow-out is the main pre-market positive; offsets are macro/geopolitical rather than fundamental.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Barclays sets street-high $665 AMD target; TD Cowen and Mizuho also weigh in</strong> &mdash; Barclays set a $665 12-month price target on AMD on June 1 (the highest on the street), joined by fresh notes from TD Cowen and Mizuho. AMD consensus PT sits at $425 across 33 analysts. Bull thesis hinges on MI400/MI500 ramp and 2026 server-CPU share gains; data-center sell-out already cited by multiple desks. Read-through supports the broader AI compute capex narrative into Broadcom and Marvell prints this week.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>HPE smashes Q2: revenue $10.68B (+40%), networking +148%; FY26 EPS guide nearly doubled</h3><p>Hewlett Packard Enterprise reported fiscal Q2 revenue of $10.68B vs $9.79B est, EPS $0.79 vs $0.54 est. Networking segment (Juniper) +148% YoY, Cloud & AI +23%. Management raised FY26 adjusted EPS guidance to $3.35-$3.45 (prior $2.30-$2.50) and FY26 revenue growth to 29-33%; introduced an FY27 growth framework. Shares +27-30% in after-hours / pre-market, volume ~287% of 3-month average. Read-across positive for AI server/networking demand into Broadcom (Wed AMC), AVGO already +6% pre-market.</p><div class="source"><a href="https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000052/ex-991x612026x8k.htm">GuruFocus / HPE 8-K</a></div></div>
+<div class="card"><h3>STMicroelectronics nearly doubles datacenter revenue ambition to ~$1B for 2026</h3><p>STM issued an intra-quarter upgrade lifting 2026 datacenter revenue guidance to about $1 billion (prior 'nicely above $500M') and said 2027 revenues could double from there. Cornerstone is the February 2026 multi-year, multi-billion-dollar AWS commercial agreement spanning silicon photonics, mixed-signal, advanced MCUs and power ICs for hyperscale. Shares +8.2% in Paris. Broadens the AI-infrastructure beneficiary list well beyond GPU/HBM names.</p><div class="source"><a href="https://www.globenewswire.com/news-release/2026/06/02/3304851/0/en/STMicroelectronics-raises-its-revenue-ambition-for-Data-Centers-amidst-continued-strong-demand-for-AI-infrastructure.html">STMicroelectronics (GlobeNewswire)</a></div></div>
+<div class="card"><h3>SK Hynix to double memory wafer capacity in 5 years; AI shortage seen lasting to 2030; files US ADR</h3><p>SK Group chairman Chey Tae-won said at Computex on June 2 that SK Hynix will double memory wafer capacity within five years, 2026 capex will exceed the KRW 30.2T (~$20B) spent in 2025, and the AI-driven memory shortage extends through at least 2030. SK Hynix has confidentially filed for a US ADR listing targeting a June-July window, with underwriters modeling a $10-14B raise. Reinforces the structural HBM/AI memory upcycle and adds a US-listed memory pure-play for institutional investors.</p><div class="source"><a href="https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years">Tom's Hardware</a></div></div>
+<div class="card"><h3>Morgan Stanley raises Broadcom target to $485, models $120B AI revenue by 2027 ahead of Wed earnings</h3><p>Morgan Stanley's Joseph Moore maintained Overweight on AVGO and lifted PT to $485 from $470 ahead of fiscal Q2 results after the close Wednesday June 3. Models AI revenue stepping from $10.8B in Q2 to $16.9B in Q3 and reaching $120B by 2027, citing room for upward revisions as ASIC programs ramp and AI networking exceeds expectations. AVGO +6.1% pre-market. Street consensus Q2 EPS $2.32 on $22.1B revenue (vs $1.58 / $15B prior-year).</p><div class="source"><a href="https://www.gurufocus.com/news/8893579/avgo-maintained-by-morgan-stanley-price-target-raised-to-485">GuruFocus</a></div></div>
+<div class="card"><h3>Barclays sets street-high $665 AMD target; TD Cowen and Mizuho also weigh in</h3><p>Barclays set a $665 12-month price target on AMD on June 1 (the highest on the street), joined by fresh notes from TD Cowen and Mizuho. AMD consensus PT sits at $425 across 33 analysts. Bull thesis hinges on MI400/MI500 ramp and 2026 server-CPU share gains; data-center sell-out already cited by multiple desks. Read-through supports the broader AI compute capex narrative into Broadcom and Marvell prints this week.</p><div class="source"><a href="https://www.marketbeat.com/stocks/NASDAQ/AMD/forecast/">MarketBeat</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Trump admin moves to close AI chip export loophole for Chinese-parent entities</h3><p>New BIS guidance clarifies that a license is now required to sell advanced AI chips to any firm with a Chinese parent company, tightening the January 2026 framework. Targets re-export workarounds via subsidiaries in third countries. Incremental headwind for NVDA/AMD/AVGO China-rev exposure; broadly anticipated and unlikely to alter US/EU/allied demand picture but worth watching ahead of Broadcom's Wed call.</p><div class="source"><a href="https://thehill.com/policy/technology/5903991-us-moves-to-close-potential-ai-chip-sales-loophole/">The Hill</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Asia chip names cool after run; Kospi -0.15% to 8,801 as Samsung/SK Hynix consolidate Monday's record</h3><p>Asia closed mixed on June 2 with the Kospi slipping 0.15% to 8,801.49 after Monday's record on Samsung +10% and the SK Hynix capacity announcement. Nikkei 225 -0.3% at 66,734; Topix -0.42%; ASX flat; Hang Seng +2.41%; CSI 300 +1.45%. Read: memory/HBM rally pausing but not breaking - chairman's 'shortage to 2030' framing keeps multi-year capex narrative intact.</p><div class="source"><a href="https://www.cnbc.com/2026/06/02/asia-pacific-markets-today-kospi-nikkei-225-hang-seng-index.html">CNBC</a></div></div>
+<div class="card"><h3>Futures soft into the open; Iran/oil keeps risk premium as S&P futures dip 0.14%</h3><p>S&P 500 futures -0.14%, Dow -0.09%, Nasdaq -0.25% Tuesday morning after Monday's record close. Continued US-Iran exchanges keep oil bid (WTI ~$90, Brent ~$94) and trim risk sentiment. HPE blow-out is the main pre-market positive; offsets are macro/geopolitical rather than fundamental.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-02-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">AVGO</span> Morgan Stanley: Overweight &rarr; <strong>Overweight</strong> | PT: $470 &rarr; $485 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">AMD</span> Barclays: None &rarr; <strong>Overweight</strong> | PT: N/A &rarr; $665 </p>
+<p><span class="ticker">INTC</span> Wells Fargo: Equal Weight &rarr; <strong>Equal Weight</strong> | PT: $85 &rarr; $110 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">HPE</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 FY26 revenue $10.68B (+40%) vs $9.79B est, EPS $0.79 vs $0.54. Networking (Juniper) +148%, Cloud & AI +23%. FY26 EPS guide raised to $3.35-$3.45 from $2.30-$2.50. Shares +27-30% AH.</p>
+<p><span class="ticker">STM</span> <span class="signal-badge signal-neutral">Momentum</span> Intra-quarter datacenter guidance raise to ~$1B 2026 revenue (prior >$500M) and possible doubling in 2027 on AWS multi-year deal. +8.2% in Paris.</p>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-neutral">Momentum</span> SK Hynix chair: double memory wafer capacity in 5 years, AI shortage through 2030, 2026 capex > KRW 30.2T, US ADR filing targeting June-July listing window ($10-14B raise).</p>
+<p><span class="ticker">AVGO</span> <span class="signal-badge signal-neutral">Momentum</span> Morgan Stanley OW, PT $485 (from $470). Models AI rev $10.8B Q2 -> $16.9B Q3, $120B by 2027. +6.1% pre-market into Wed AMC earnings.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">HPE</span></td><td>Up</td><td>Q2 blow-out: $10.68B (+40%), networking +148%, FY26 EPS guide raised to $3.35-$3.45; +27-30% AH</td></tr>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>MS PT $485 (from $470); +6.1% pre-market into Wed AMC earnings</td></tr>
+<tr><td><span class="ticker up">STM</span></td><td>Up</td><td>Datacenter revenue ambition doubled to ~$1B on AWS deal; +8.2% in Paris</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>Chairman: capacity doubling in 5y; ADR US listing June-July; AI shortage to 2030</td></tr>
+<tr><td><span class="ticker up">AMD</span></td><td>Up</td><td>Barclays sets street-high $665 PT; TD Cowen + Mizuho also weigh in</td></tr>
+<tr><td><span class="ticker up">INTC</span></td><td>Up</td><td>Wells Fargo raises PT to $110 from $85 (Equal Weight)</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-06-02 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -1419,5 +1419,47 @@
     "signal_type": "momentum",
     "description": "SMCI +5% on sympathy with HPE's Q2 FY2026 AI server beat (+40% revenue YoY, AI backlog $5.9B); no independent catalyst confirmed intraday — momentum driven by sector re-rating of AI server demand.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "Quad-PT-raise into Q1 FY27 print tonight: JPM $800 (from $475), Evercore $710 (from $395), Benchmark $700, Baird $490. Stock at fresh 52-wk high $774.93. Setup carries 'sell the news' risk on elevated bar.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Earnings tonight AMC. Citi top semi pick at $500, Wolfe $500, MS $485. AI revenue expected $10.7B Q2 (+140% YoY); switch backlog >$10B. HPE networking +148% sets high read-through bar.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "FERC waiver enables Three Mile Island Unit 1 restart by 2027 (vs prior 2031), under existing 20-yr Microsoft PPA. Pulls forward 835 MW of nuclear capacity into the AI demand window.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Three-bank PT raise post-Computex: Mizuho $128, Wells $110, Barclays $100. Ratings still neutral/hold, but bracket-resetting move (Barclays nearly doubled). +6.86% open Wed.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CSCO",
+    "signal_type": "momentum",
+    "description": "Cisco Live discloses $5.3B AI infra orders, FY26 AI target raised to $9B (from $5B). Silicon One G300 launched for hyperscale AI fabrics. Stock +5% to record highs.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "HPE",
+    "signal_type": "earnings_beat",
+    "description": "Post-Q2 analyst wave: BofA street-high $80 (from $38, +110%), Wells $67 (from $26, +158%), UBS/MS also up. Stock +27-30% in two sessions on FY26 EPS guide nearly doubled and networking +148%.",
+    "severity": "high"
   }
 ]

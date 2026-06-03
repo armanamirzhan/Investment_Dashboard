@@ -1852,5 +1852,113 @@
     "new_target": 480.0,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 800.0,
+    "old_rating": "Overweight",
+    "old_target": 475.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "Evercore ISI",
+    "new_rating": "In-Line",
+    "new_target": 710.0,
+    "old_rating": "In-Line",
+    "old_target": 395.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "Benchmark",
+    "new_rating": "Buy",
+    "new_target": 700.0,
+    "old_rating": "Buy",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "Baird",
+    "new_rating": "Neutral",
+    "new_target": 490.0,
+    "old_rating": "Neutral",
+    "old_target": 460.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "AVGO",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 500.0,
+    "old_rating": "Buy",
+    "old_target": 475.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "AVGO",
+    "firm": "Wolfe Research",
+    "new_rating": "Outperform",
+    "new_target": 500.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "HPE",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 80.0,
+    "old_rating": "Buy",
+    "old_target": 38.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "HPE",
+    "firm": "Wells Fargo",
+    "new_rating": "Equal Weight",
+    "new_target": 67.0,
+    "old_rating": "Equal Weight",
+    "old_target": 26.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "INTC",
+    "firm": "Wells Fargo",
+    "new_rating": "Equal Weight",
+    "new_target": 110.0,
+    "old_rating": "Equal Weight",
+    "old_target": 85.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "INTC",
+    "firm": "Mizuho",
+    "new_rating": "Neutral",
+    "new_target": 128.0,
+    "old_rating": "Neutral",
+    "old_target": 124.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "INTC",
+    "firm": "Barclays",
+    "new_rating": "Hold",
+    "new_target": 100.0,
+    "old_rating": "Hold",
+    "old_target": 65.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "ORCL",
+    "firm": "Scotiabank",
+    "new_rating": "Sector Outperform",
+    "new_target": 290.0,
+    "old_rating": "Sector Outperform",
+    "old_target": 215.0
   }
 ]

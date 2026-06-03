@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-06-03",
+    "headline": "ADP May payrolls +122k beats 110k consensus; strongest print since Jan 2025",
+    "summary": "ADP National Employment Report showed US private payrolls grew 122,000 in May vs Dow Jones consensus 110,000, the strongest month since January 2025. Hiring broadened — 8 of 10 ADP sectors added jobs. Education/health led at +57k; trade/transport/utilities +36k; small business (<50 employees) drove 67k of the total. Annual pay for job-stayers +4.4%, switchers slowed to +6.5%. Modest positive for the AI/datacenter buildout demand backdrop ahead of Friday's NFP; reduces near-term recession-cut catalyst for Fed.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC / ADP",
+    "source_url": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Oil pushes toward $100/bbl after overnight US/Iran exchange; futures soft",
+    "summary": "WTI extending move higher Wednesday morning after US Central Command reported defeating multiple Iranian ballistic missiles and drones and conducting defensive strikes overnight. Trump and Rubio insist talks continue; Iran's Fars news says no messages exchanged for days. Strait of Hormuz remains effectively closed since Feb 28. S&P futures -0.14%, Dow -0.56%, Nasdaq +0.01% pre-open. Sustained $90-100 crude is a tailwind for US gas/power (NEE, VST, CEG) but a margin risk for energy-intensive datacenter operators if pass-through is incomplete.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/amp/2026/06/03/oil-prices-trump-pushes-back-on-reports-us-iran-talks-collapsed.html"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "CrowdStrike reports Q1 FY27 AMC tonight; analyst PT flurry — JPM lifts to $800, Evercore $710",
+    "summary": "CrowdStrike reports fiscal Q1 2027 results after the close Wed June 3. Consensus EPS $1.07 (+47% YoY) on $1.36B revenue (+23.5%); company guided ARR $5.502-$5.504B. JPMorgan's Brian Essex raised PT to $800 from $475 (Overweight) on June 2, Evercore ISI hiked to $710 from $395 (In-Line), Benchmark to $700 from $500 (Buy), Baird to $490 from $460 (Neutral). Stock hit fresh 52-wk high $774.93 Tuesday. Setup carries 'sell the news' risk given the elevated bar and YTD rally.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Benzinga / GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/8896426/crwd-maintained-by-jp-morgan-price-target-raised-to-800"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Broadcom reports Q2 AMC; bull setup with Citi top pick at $500, MS at $485, Wolfe $500",
+    "summary": "AVGO fiscal Q2 results after the close Wed June 3. Consensus EPS $2.40 on $22.1B revenue (vs $1.58/$15B prior-year). AI revenue expected to step from $8.4B Q1 to $10.7B (+140% YoY), with semiconductor revenue +76% YoY to $14.8B and AI switch backlog above $10B. Recent analyst raises: Citi Atif Malik top pick at $500 (from $475), Wolfe to $500, Morgan Stanley to $485 (models $120B AI revenue by 2027). Street wants sequential AI growth ~+25%. Read-through bull from HPE (networking +148%) elevates the bar.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/06/52962219/top-wall-street-forecasters-revamp-broadcom-price-target-ahead-of-q2-earnings"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Constellation Energy gets FERC waiver enabling Three Mile Island 2027 restart for Microsoft",
+    "summary": "CEG +2.6% Tuesday after US energy regulators granted a waiver allowing expedited integration of the Three Mile Island Unit 1 nuclear plant, pulling the targeted restart in to 2027 from the prior 2031 timeline. The 835 MW facility is contracted under a 20-year PPA with Microsoft for AI datacenter load. Material positive for CEG nuclear duration and validates the broader nuclear-for-AI thesis (CEG, VST, OKLO, SMR, LEU). CEG also closed a secondary offering / share repurchase on June 2.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/8896923/constellation-energy-ceg-gains-26-following-ferc-waiver-for-three-mile-island-restart"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Cisco Live: $5.3B AI orders booked, FY26 AI target lifted to $9B from $5B",
+    "summary": "At Cisco Live US (June 2), CSCO disclosed $5.3B of cumulative AI infrastructure orders from hyperscalers and raised its FY26 AI order target to $9B from $5B. Launched Silicon One G300 (+33% network utilization, +28% job completion improvement) for hyperscaler AI clusters, plus new Cloud Control and Live Protect platforms for agentic AI ops. Stock +5% to record highs Tuesday. Validates Cisco's path back into the AI networking conversation alongside ANET/AVGO; positive read for APH on AI connector content.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "SiliconANGLE",
+    "source_url": "https://siliconangle.com/2026/06/02/ciscos-new-cloud-platform-aimed-securing-ai-infrastructure/"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Intel: three banks raise PT post-Computex — Mizuho $128, Wells $110, Barclays $100",
+    "summary": "On June 2, three desks lifted INTC targets on the back of Computex 2026 (Xeon 6+ datacenter, 18A-based PC/edge AI). Mizuho to $128 from $124 (Neutral), Wells Fargo to $110 from $85 (Equal Weight), Barclays to $100 from $65 (Hold). Stock opened +6.86% Wednesday. Ratings remain neutral/hold — the move is bracket-resetting, not a rerating to outperform, but it lifts the floor for tactical exposure. CEO calling TSMC 'a partner, not a rival' adds to the sentiment thaw.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TradingKey / GuruFocus",
+    "source_url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_06_03/"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "HPE post-earnings: BofA to $80, Wells Fargo to $67, UBS/MS join the upgrade wave",
+    "summary": "Following Monday's blow-out (revenue +40%, networking +148%, FY26 EPS guide raised to $3.35-$3.45), the analyst response on June 2 was decisive. BofA hiked PT to $80 from $38 (Buy, new street-high), Wells Fargo to $67 from $26 (Equal Weight), with UBS and Morgan Stanley also moving up. Tuesday session: HPE +27-30%, hitting fresh 52-wk highs alongside MRVL and AVGO. Sets a high bar for Broadcom tonight and supports AI-server-bull read into DELL, SMCI, VRT.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "MarketBeat / Investing.com",
+    "source_url": "https://www.marketbeat.com/instant-alerts/hewlett-packard-enterprise-nysehpe-given-new-6700-price-target-at-wells-fargo-company-2026-06-02/"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Samsung ships first HBM4E samples June 1; HBM4 line for 2026 fully booked",
+    "summary": "Samsung Electronics began sample shipments of HBM4E (the seventh-generation product) to global customers June 1, becoming the first manufacturer to do so. HBM4 already passed NVIDIA quality certification at both 10 Gbps and 11 Gbps and 2026 HBM4 capacity is fully committed. Goldman Sachs forecasts memory supply constraints through 2028. Samsung also crossed $1.56T market cap, displacing Meta from global top-10. NVIDIA's Vera Rubin (in production, fall 2026 shipping) will pull HBM4 from Samsung, SK Hynix and Micron — SK Hynix holds 60-70% volume share at launch.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TechTimes",
+    "source_url": "https://www.techtimes.com/articles/317604/20260602/samsung-electronics-crosses-156t-ai-memory-demand-displaces-meta-top-ten.htm"
+  },
+  {
+    "date": "2026-06-03",
+    "headline": "Vertiv launches Omniverse digital twin and fluid management services for datacenters",
+    "summary": "Vertiv unveiled its first converged physical infrastructure digital twin for NVIDIA Omniverse (June 1) and expanded fluid management services to cut water use during datacenter fluid system commissioning (June 3). Both products target the liquid-cooling buildout for NVL72-class GPU racks (CoreWeave just validated NVL72 on June 1). Backlog stood at >$15B at Q1; service-tied recurring revenue improves operating leverage as the install base grows.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Vertiv (newsroom)",
+    "source_url": "https://www.heygotrade.com/en/blog/vertiv-vrt-data-center-cooling-ai-2026/"
+  }
+]

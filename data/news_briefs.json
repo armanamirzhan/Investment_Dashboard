@@ -1202,5 +1202,78 @@
       }
     ],
     "file": "morning-news/2026-06-02.html"
+  },
+  {
+    "date": "2026-06-03",
+    "tickers": [
+      {
+        "ticker": "CRWD",
+        "direction": "up",
+        "note": "Analyst PT flurry into AMC print: JPM $800, Evercore $710, Benchmark $700, Baird $490; new 52-wk high"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 — bar set high by HPE"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "FERC waiver pulls Three Mile Island restart in to 2027 (vs 2031) for Microsoft PPA"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "up",
+        "note": "BofA street-high $80 (from $38), Wells $67 (from $26); 27-30% rally extended"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "Three-bank PT raise post-Computex: Mizuho $128, Wells $110, Barclays $100; +6.86% open"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "Cisco Live: $5.3B AI orders, FY26 target raised to $9B; record high"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung first to ship HBM4E samples; HBM4 2026 capacity fully booked; $1.56T mcap"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Omniverse digital twin and fluid mgmt service launched into NVL72 buildout"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "WTI nearing $100 on overnight US/Iran exchange; S&P futures -0.14%"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CRWD",
+        "signal": "Earnings tonight + PT flurry — 'sell the news' setup"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Earnings tonight; AI ASIC + networking read from HPE"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "CEG TMI restart pulled to 2027 via FERC waiver"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "HBM4E samples + HBM4 2026 sold out — shortage extends to 2028"
+      },
+      {
+        "ticker": "macro",
+        "signal": "ADP +122k beats 110k; oil at $100 on Iran"
+      }
+    ],
+    "file": "morning-news/2026-06-03.html"
   }
 ]

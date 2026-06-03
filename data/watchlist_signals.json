@@ -1461,5 +1461,26 @@
     "signal_type": "earnings_beat",
     "description": "Post-Q2 analyst wave: BofA street-high $80 (from $38, +110%), Wells $67 (from $26, +158%), UBS/MS also up. Stock +27-30% in two sessions on FY26 EPS guide nearly doubled and networking +148%.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "HPE",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY2026 blowout: revenue 0.68B (+40% YoY vs ~.8B est), adj. EPS /bin/bash.79 vs /bin/bash.53 est. AI server revenue +52% YoY; GreenLake ARR crossed .1B. FY2026 guidance raised to 29-33% revenue growth (was 17-22%). Stock +19-36% on the session.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "BE",
+    "signal_type": "momentum",
+    "description": "Section 232 tariff amendment reduces HVAC/industrial equipment tariffs from 25% to 15% effective June 8 through Dec 31, 2027. Bloom Energy, as a metal-intensive fuel cell manufacturer, is a direct beneficiary. Stock +~10% intraday on the catalyst.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "Heavy pre-earnings analyst price target raises ahead of Q1 FY27 results (reports today after close): JP Morgan 75->00, Jefferies 00->75, Evercore ISI 95->10, Benchmark 00->00. Consensus threshold: Net New ARR >50M. Stock trading well above historical analyst avg, setting a high bar.",
+    "severity": "medium"
   }
 ]

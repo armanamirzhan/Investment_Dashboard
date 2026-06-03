@@ -1960,5 +1960,32 @@
     "new_target": 290.0,
     "old_rating": "Sector Outperform",
     "old_target": 215.0
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "HPE",
+    "firm": "Loop Capital",
+    "new_rating": "Buy",
+    "new_target": 75,
+    "old_rating": "Hold",
+    "old_target": 23
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "JP Morgan",
+    "new_rating": "Overweight",
+    "new_target": 800,
+    "old_rating": "Overweight",
+    "old_target": 475
+  },
+  {
+    "date": "2026-06-03",
+    "ticker": "CRWD",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 775,
+    "old_rating": "Buy",
+    "old_target": 500
   }
 ]

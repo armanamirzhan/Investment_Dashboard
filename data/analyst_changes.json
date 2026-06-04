@@ -1996,5 +1996,104 @@
     "new_target": 437,
     "old_rating": "Outperform",
     "old_target": 513
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "AVGO",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 515,
+    "old_rating": "Buy",
+    "old_target": 430
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "AVGO",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 550,
+    "old_rating": "Buy",
+    "old_target": 500
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "ORCL",
+    "firm": "Scotiabank",
+    "new_rating": null,
+    "new_target": 290,
+    "old_rating": null,
+    "old_target": 215
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "ORCL",
+    "firm": "UBS",
+    "new_rating": null,
+    "new_target": 285,
+    "old_rating": null,
+    "old_target": 250
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "ORCL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 330,
+    "old_rating": "Buy",
+    "old_target": 320
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "INTC",
+    "firm": "Mizuho",
+    "new_rating": null,
+    "new_target": 128,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "INTC",
+    "firm": "Wells Fargo",
+    "new_rating": null,
+    "new_target": 110,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "INTC",
+    "firm": "Barclays",
+    "new_rating": null,
+    "new_target": 100,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "NVDA",
+    "firm": "Needham",
+    "new_rating": "Buy",
+    "new_target": 270,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "HPE",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 39,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "GOOGL",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 445,
+    "old_rating": "Overweight",
+    "old_target": 425
   }
 ]

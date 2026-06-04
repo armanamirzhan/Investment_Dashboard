@@ -1503,5 +1503,26 @@
     "signal_type": "momentum",
     "description": "-6% premarket on AVGO read-through. HBM4 demand thesis unchanged (Samsung HBM4E samples June 1, Goldman sees memory tight through 2028) but AI capex pacing concerns weigh on near-term multiple.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "AVGO",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY26 AI revenue +143% YoY to $10.8B; Q3 revenue guide $29.4B beat $28.5B consensus. Stock -15% because no FY27 $100B AI target raise; analysts (43 Buy, 1 Hold) see selloff as entry opportunity, not thesis break.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "INTC",
+    "signal_type": "overvalued",
+    "description": "Post-Computex analyst PT wave (Mizuho $128, WF $110, Barclays $100) still trails the $109 current price; old consensus PT ~$89 now fully eclipsed. Stock up 250-450% YTD on AI momentum — mean-reversion risk elevated as PT upgrades catch up rather than lead the move.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "CRWD",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 EPS $1.10 vs $0.88 est (+25%); record Q1 net new ARR $255.8M (+32% YoY). Stock -10% on in-line guidance and billings miss vs elevated buy-side models. Business execution solid; selloff driven by valuation reset after 60% YTD run into print.",
+    "severity": "medium"
   }
 ]

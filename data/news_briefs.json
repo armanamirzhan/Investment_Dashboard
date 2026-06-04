@@ -1275,5 +1275,85 @@
       }
     ],
     "file": "morning-news/2026-06-03.html"
+  },
+  {
+    "date": "2026-06-04",
+    "tickers": [
+      {
+        "ticker": "AVGO",
+        "direction": "down",
+        "note": "-15% premarket; Q2 AI rev $10.8B (+143%) but Q3 $16B AI guide below aggressive buy-side; Macquarie cuts to Neutral PT $437"
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "down",
+        "note": "-11% premarket despite beat; billings $1.35B missed; in-line Q2 guide; 4-for-1 split Jul 2 record Jun 25"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-6% premarket on AVGO read-through; HBM4 thesis intact"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "down",
+        "note": "-7% premarket on chip selloff drag"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "-5% premarket; chip-sector beta"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "-4% premarket; gives back Computex bounce"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; €6B buyback accelerated; 5-for-1 split Jun 22"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "Beige Book stable; June cut 36% priced; Israel-Lebanon ceasefire cools oil/yields"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AVGO",
+        "signal": "AI guidance bar reset — buy-side disappointment despite +143% AI"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Google TPU insourcing structural margin risk (Macquarie)"
+      },
+      {
+        "ticker": "CRWD",
+        "signal": "Billings miss + in-line guide post-60% YTD rally"
+      },
+      {
+        "ticker": "SEMIS",
+        "signal": "Sector beta selloff: MU/SMCI/AMD/INTC -4 to -7% premarket"
+      },
+      {
+        "ticker": "ENR.DE",
+        "signal": "European power upcycle: guide raise + buyback + split"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Beige Book moderate; June cut 36%; NFP Friday"
+      }
+    ],
+    "file": "morning-news/2026-06-04.html",
+    "sectors": [
+      "hardware",
+      "software",
+      "energy",
+      "finance",
+      "policy"
+    ],
+    "top_headlines": "AVGO Q2 beat but Q3 AI guide undershoots aggressive bar; -15% premarket. CRWD beats but billings miss + in-line guide; -11% premarket. Macquarie cuts AVGO to Neutral PT $437 on Google TPU insourcing. Siemens Energy raises FY26 guide. Beige Book moderate."
   }
 ]

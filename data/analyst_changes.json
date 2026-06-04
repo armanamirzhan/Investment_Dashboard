@@ -1987,5 +1987,14 @@
     "new_target": 775,
     "old_rating": "Buy",
     "old_target": 500
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "AVGO",
+    "firm": "Macquarie",
+    "new_rating": "Neutral",
+    "new_target": 437,
+    "old_rating": "Outperform",
+    "old_target": 513
   }
 ]

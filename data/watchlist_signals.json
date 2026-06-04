@@ -1482,5 +1482,26 @@
     "signal_type": "momentum",
     "description": "Heavy pre-earnings analyst price target raises ahead of Q1 FY27 results (reports today after close): JP Morgan 75->00, Jefferies 00->75, Evercore ISI 95->10, Benchmark 00->00. Consensus threshold: Net New ARR >50M. Stock trading well above historical analyst avg, setting a high bar.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "-15% premarket post-Q2 print; AI Q3 guide $16B beat consensus but below most aggressive buy-side models. Stock entered print +40% YTD at $481 record. Macquarie downgrade to Neutral PT $437 crystallizes Google-TPU insourcing margin bear case.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "-11% premarket despite beat on ARR/EPS. Billings $1.35B (+17.7%) missed and Q2 guide came in-line not raised. Stock had rallied 60% YTD into the print with JPM PT $800 last week. 4-for-1 split (record date June 25) is a sentiment offset but not a near-term price catalyst.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-04",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "-6% premarket on AVGO read-through. HBM4 demand thesis unchanged (Samsung HBM4E samples June 1, Goldman sees memory tight through 2028) but AI capex pacing concerns weigh on near-term multiple.",
+    "severity": "medium"
   }
 ]

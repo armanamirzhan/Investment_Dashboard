@@ -2149,5 +2149,41 @@
     "new_target": 1900.0,
     "old_rating": "Overweight",
     "old_target": 1515.0
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "firm": "Macquarie",
+    "new_rating": "Neutral",
+    "new_target": 437,
+    "old_rating": "Outperform",
+    "old_target": 513
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "CRWD",
+    "firm": "Berenberg",
+    "new_rating": "Hold",
+    "new_target": 720,
+    "old_rating": "Buy",
+    "old_target": 525
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "TSLA",
+    "firm": "JP Morgan",
+    "new_rating": "Neutral",
+    "new_target": 475,
+    "old_rating": "Underweight",
+    "old_target": 145
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "NVDA",
+    "firm": "China Renaissance",
+    "new_rating": "Buy",
+    "new_target": 319,
+    "old_rating": null,
+    "old_target": null
   }
 ]

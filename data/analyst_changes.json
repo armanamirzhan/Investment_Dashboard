@@ -2095,5 +2095,59 @@
     "new_target": 445,
     "old_rating": "Overweight",
     "old_target": 425
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 550.0,
+    "old_rating": "Buy",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 580.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 525.0,
+    "old_rating": "Buy",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "firm": "Erste Group",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "CRWD",
+    "firm": "Berenberg",
+    "new_rating": "Hold",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "ASML",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 1900.0,
+    "old_rating": "Overweight",
+    "old_target": 1515.0
   }
 ]

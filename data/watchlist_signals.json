@@ -1524,5 +1524,33 @@
     "signal_type": "earnings_beat",
     "description": "Q1 FY27 EPS $1.10 vs $0.88 est (+25%); record Q1 net new ARR $255.8M (+32% YoY). Stock -10% on in-line guidance and billings miss vs elevated buy-side models. Business execution solid; selloff driven by valuation reset after 60% YTD run into print.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "AVGO",
+    "signal_type": "undervalued",
+    "description": "Stock -15% post-print into a backdrop where 8+ desks raised PTs (Jefferies $550, JPM $580, GS $525). At ~$418 the stock trades well below the $511 average analyst PT.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "CRWD",
+    "signal_type": "overvalued",
+    "description": "Berenberg cuts to Hold on valuation after billings miss and in-line Q2 guide; thesis now contested as second material desk cools in two weeks.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Long-duration SMR cohort screens weak as 10Y to 4.54% on hot payrolls; watch for de-rating in OKLO/SMR if June cut keeps getting pushed.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-05",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung hit record high on Huang Seoul visit and HBM4 qualification; now confirmed at ~25-30% share of Vera Rubin HBM4 supply.",
+    "severity": "medium"
   }
 ]

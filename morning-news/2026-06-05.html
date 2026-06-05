@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-06-05</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-06-05</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert negative"><div class="alert-text"><strong>May payrolls +172K vs 80K consensus; jobless rate 4.3%; 10Y to 4.54% as June cut hopes evaporate</strong> &mdash; BLS reported nonfarm payrolls rose 172,000 in May vs Dow Jones consensus of ~80K, with April revised up to 179K. Unemployment held at 4.3% and average hourly earnings rose 0.3% m/m, 3.4% y/y — both in line. The hot print sent the 10Y yield to 4.54% and dragged equity futures lower premarket as traders priced out the June cut and pushed the next move further into H2. "Good news is bad news" for AI-beta names already digesting AVGO's Q3 guide; rate-sensitive utilities and power IPPs led the early-tape pullback.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Wall Street defends Broadcom: Jefferies to $550, JPM to $580, Goldman to $525 after -15% selloff</strong> &mdash; At least eight desks raised AVGO price targets following Tuesday's Q2 print despite a ~13% drop on Thursday. Jefferies (Blayne Curtis) took PT to $550 from $500, JPM led at $580, and Goldman's James Schneider lifted to $525 on an unchanged 30x multiple against a $17.50 normalized EPS. Goldman raised AI semi revenue estimates to $57B / $133B / $193B for FY26/27/28. Of 47 covering analysts, 44 still rate Buy or higher. Macquarie's Wednesday Neutral cut (PT $437, citing Google TPU insourcing) remains the lone material downgrade.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Huang in Seoul: Samsung, SK Hynix and Micron all qualified for Vera Rubin HBM4; SK Hynix takes ~60-70% share</strong> &mdash; NVIDIA CEO Jensen Huang told reporters on arrival in Seoul that all three memory vendors have cleared HBM4 certification for the Vera Rubin platform, ending months of supply-chain uncertainty. Supply-chain analysts estimate SK Hynix at 60-70% of Rubin HBM4 volume, Samsung at 25-30%, and Micron the remainder. Vera Rubin is in full production and ships to AWS, Azure, GCP and Oracle starting this summer with broad availability in H2 2026. Huang's trip also includes meetings with SK, Samsung, LG, Hyundai and Naver leadership on supply and AI partnerships. Samsung shares hit a record earlier in the week on the news.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Berenberg downgrades CrowdStrike to Hold on valuation after billings-miss reaction</strong> &mdash; Berenberg cut CRWD to Hold from Buy on valuation grounds on Friday, following Wednesday's Q1 FY27 print where ARR beat but billings missed and Q2 guidance was in-line. The desk's move comes just days after JPMorgan's Brian Essex raised his target to $800 (Overweight) on June 2. Shares traded in a $699-$716 range Friday morning after the prior session's ~11% drop on the print. The 4-for-1 split announced with earnings is unaffected.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Erste Group upgrades Broadcom to Buy from Hold, citing AI semi growth runway through FY28</strong> &mdash; Erste Group joined the chorus of defending desks Friday morning, taking AVGO to Buy from Hold and pointing to the Q3 sales guide of ~$29.4B (+89% y/y) and the embedded $16B AI semiconductor outlook. Erste flags the post-print pullback as an entry rather than a thesis break, lining up with Goldman, Jefferies and JPM's Thursday PT hikes. Stock down ~2% premarket but well off Thursday's lows.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Yields jump, dollar firms after hot jobs print; utilities and renewables drag on duration</strong> &mdash; The 10Y Treasury yield jumped to 4.54% (~+8 bps) after the payroll surprise, the curve steepened, and the dollar index pushed higher. Long-duration trades in renewables (NEE, AES) and the SMR cohort (OKLO, SMR, LEU, CCJ) screened weak premarket. Power IPPs with locked-in PPAs (CEG, VST) held up better as the cap-rate impact is partially offset by tighter near-term reserve margins. Fed funds futures now price <30% odds of a June cut, with the first full move pushed into Q4.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>ASML now Europe's most valuable company at ~$671B; JPM lifts PT to EUR 1,900 on Rubin-era demand</strong> &mdash; ASML shares are up ~133% over the past 12 months, taking market cap to roughly $671B and making it the most valuable European company by capitalization. JPMorgan raised its price target to EUR 1,900 from EUR 1,515 (Overweight), citing pull-through demand from NVIDIA Vera Rubin and HBM4 capacity additions across Samsung, SK Hynix and Micron. The High-NA EUV ramp at TSMC N2 and Intel 18A fabs supports order book visibility into 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Wall Street defends Broadcom: Jefferies to $550, JPM to $580, Goldman to $525 after -15% selloff</h3><p>At least eight desks raised AVGO price targets following Tuesday's Q2 print despite a ~13% drop on Thursday. Jefferies (Blayne Curtis) took PT to $550 from $500, JPM led at $580, and Goldman's James Schneider lifted to $525 on an unchanged 30x multiple against a $17.50 normalized EPS. Goldman raised AI semi revenue estimates to $57B / $133B / $193B for FY26/27/28. Of 47 covering analysts, 44 still rate Buy or higher. Macquarie's Wednesday Neutral cut (PT $437, citing Google TPU insourcing) remains the lone material downgrade.</p><div class="source"><a href="https://www.benzinga.com/markets/tech/26/06/52997412/broadcom-avgo-stock-plunge-goldman-sachs-525-price-target-buy-the-dip">Benzinga</a></div></div>
+<div class="card"><h3>Huang in Seoul: Samsung, SK Hynix and Micron all qualified for Vera Rubin HBM4; SK Hynix takes ~60-70% share</h3><p>NVIDIA CEO Jensen Huang told reporters on arrival in Seoul that all three memory vendors have cleared HBM4 certification for the Vera Rubin platform, ending months of supply-chain uncertainty. Supply-chain analysts estimate SK Hynix at 60-70% of Rubin HBM4 volume, Samsung at 25-30%, and Micron the remainder. Vera Rubin is in full production and ships to AWS, Azure, GCP and Oracle starting this summer with broad availability in H2 2026. Huang's trip also includes meetings with SK, Samsung, LG, Hyundai and Naver leadership on supply and AI partnerships. Samsung shares hit a record earlier in the week on the news.</p><div class="source"><a href="https://uk.investing.com/news/stock-market-news/nvidia-certifies-samsung-sk-hynix-and-micron-for-vera-rubin-hbm4-supply-4715719">Investing.com</a></div></div>
+<div class="card"><h3>Erste Group upgrades Broadcom to Buy from Hold, citing AI semi growth runway through FY28</h3><p>Erste Group joined the chorus of defending desks Friday morning, taking AVGO to Buy from Hold and pointing to the Q3 sales guide of ~$29.4B (+89% y/y) and the embedded $16B AI semiconductor outlook. Erste flags the post-print pullback as an entry rather than a thesis break, lining up with Goldman, Jefferies and JPM's Thursday PT hikes. Stock down ~2% premarket but well off Thursday's lows.</p><div class="source"><a href="https://www.gurufocus.com/news/8903128/broadcom-avgo-upgraded-to-buy-amid-positive-q3-sales-forecast">GuruFocus</a></div></div>
+<div class="card"><h3>ASML now Europe's most valuable company at ~$671B; JPM lifts PT to EUR 1,900 on Rubin-era demand</h3><p>ASML shares are up ~133% over the past 12 months, taking market cap to roughly $671B and making it the most valuable European company by capitalization. JPMorgan raised its price target to EUR 1,900 from EUR 1,515 (Overweight), citing pull-through demand from NVIDIA Vera Rubin and HBM4 capacity additions across Samsung, SK Hynix and Micron. The High-NA EUV ramp at TSMC N2 and Intel 18A fabs supports order book visibility into 2027.</p><div class="source"><a href="https://finance.yahoo.com/quote/ASML/">Yahoo Finance</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Berenberg downgrades CrowdStrike to Hold on valuation after billings-miss reaction</h3><p>Berenberg cut CRWD to Hold from Buy on valuation grounds on Friday, following Wednesday's Q1 FY27 print where ARR beat but billings missed and Q2 guidance was in-line. The desk's move comes just days after JPMorgan's Brian Essex raised his target to $800 (Overweight) on June 2. Shares traded in a $699-$716 range Friday morning after the prior session's ~11% drop on the print. The 4-for-1 split announced with earnings is unaffected.</p><div class="source"><a href="https://seekingalpha.com/news/4600732-sa-analyst-upgrades-downgrades-aapl-amd-aeo-mrvl">Seeking Alpha</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>May payrolls +172K vs 80K consensus; jobless rate 4.3%; 10Y to 4.54% as June cut hopes evaporate</h3><p>BLS reported nonfarm payrolls rose 172,000 in May vs Dow Jones consensus of ~80K, with April revised up to 179K. Unemployment held at 4.3% and average hourly earnings rose 0.3% m/m, 3.4% y/y — both in line. The hot print sent the 10Y yield to 4.54% and dragged equity futures lower premarket as traders priced out the June cut and pushed the next move further into H2. "Good news is bad news" for AI-beta names already digesting AVGO's Q3 guide; rate-sensitive utilities and power IPPs led the early-tape pullback.</p><div class="source"><a href="https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html">CNBC</a></div></div>
+<div class="card"><h3>Yields jump, dollar firms after hot jobs print; utilities and renewables drag on duration</h3><p>The 10Y Treasury yield jumped to 4.54% (~+8 bps) after the payroll surprise, the curve steepened, and the dollar index pushed higher. Long-duration trades in renewables (NEE, AES) and the SMR cohort (OKLO, SMR, LEU, CCJ) screened weak premarket. Power IPPs with locked-in PPAs (CEG, VST) held up better as the cap-rate impact is partially offset by tighter near-term reserve margins. Fed funds futures now price <30% odds of a June cut, with the first full move pushed into Q4.</p><div class="source"><a href="https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">AVGO</span> Jefferies: Buy &rarr; <strong>Buy</strong> | PT: $500 &rarr; $550 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">AVGO</span> JPMorgan: None &rarr; <strong>Overweight</strong> | PT: N/A &rarr; $580 </p>
+<p><span class="ticker">AVGO</span> Goldman Sachs: Buy &rarr; <strong>Buy</strong> | PT: $500 &rarr; $525 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">AVGO</span> Erste Group: Hold &rarr; <strong>Buy</strong> | PT: N/A &rarr; N/A </p>
+<p><span class="ticker">CRWD</span> Berenberg: Buy &rarr; <strong>Hold</strong> | PT: N/A &rarr; N/A </p>
+<p><span class="ticker">ASML</span> JPMorgan: Overweight &rarr; <strong>Overweight</strong> | PT: $1515 &rarr; $1900 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">AVGO</span> <span class="signal-badge signal-bullish">Undervalued</span> Stock -15% post-print into a backdrop where 8+ desks raised PTs (Jefferies $550, JPM $580, GS $525). At ~$418 the stock trades well below the $511 average analyst PT.</p>
+<p><span class="ticker">CRWD</span> <span class="signal-badge signal-bearish">Overvalued</span> Berenberg cuts to Hold on valuation after billings miss and in-line Q2 guide; thesis now contested as second material desk cools in two weeks.</p>
+<p><span class="ticker">OKLO</span> <span class="signal-badge signal-neutral">Momentum</span> Long-duration SMR cohort screens weak as 10Y to 4.54% on hot payrolls; watch for de-rating in OKLO/SMR if June cut keeps getting pushed.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-neutral">Momentum</span> Samsung hit record high on Huang Seoul visit and HBM4 qualification; now confirmed at ~25-30% share of Vera Rubin HBM4 supply.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>Erste upgrades to Buy; 8+ desks raised PTs (Jeff $550, JPM $580, GS $525) defending Thurs -15%</td></tr>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Huang in Seoul confirms Samsung/SK Hynix/Micron all qualified for Vera Rubin HBM4</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>Samsung at ~25-30% Rubin HBM4 share; recent record high holds</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SK Hynix ~60-70% Rubin HBM4 share — primary HBM4 supplier confirmed</td></tr>
+<tr><td><span class="ticker up">ASML</span></td><td>Up</td><td>Now Europe's most valuable co at ~$671B; JPM lifts PT to EUR 1,900</td></tr>
+<tr><td><span class="ticker down">CRWD</span></td><td>Down</td><td>Berenberg downgrades to Hold on valuation post-billings miss</td></tr>
+<tr><td><span class="ticker down">macro</span></td><td>Down</td><td>May payrolls +172K vs 80K consensus; 10Y to 4.54%; June cut <30% priced</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-06-05 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

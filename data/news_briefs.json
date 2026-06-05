@@ -1355,5 +1355,75 @@
       "policy"
     ],
     "top_headlines": "AVGO Q2 beat but Q3 AI guide undershoots aggressive bar; -15% premarket. CRWD beats but billings miss + in-line guide; -11% premarket. Macquarie cuts AVGO to Neutral PT $437 on Google TPU insourcing. Siemens Energy raises FY26 guide. Beige Book moderate."
+  },
+  {
+    "date": "2026-06-05",
+    "tickers": [
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Erste upgrades to Buy; 8+ desks raised PTs (Jeff $550, JPM $580, GS $525) defending Thurs -15%"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Huang in Seoul confirms Samsung/SK Hynix/Micron all qualified for Vera Rubin HBM4"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung at ~25-30% Rubin HBM4 share; recent record high holds"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix ~60-70% Rubin HBM4 share — primary HBM4 supplier confirmed"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "Now Europe's most valuable co at ~$671B; JPM lifts PT to EUR 1,900"
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "down",
+        "note": "Berenberg downgrades to Hold on valuation post-billings miss"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "May payrolls +172K vs 80K consensus; 10Y to 4.54%; June cut <30% priced"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "NFP +172K vs 80K — hot print pushes June cut out"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Sell-side defends post-print: 8+ PT hikes vs 1 downgrade"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "HBM4 Vera Rubin qualification across all 3 vendors"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "Long-duration SMR cohort vulnerable as rates back up"
+      },
+      {
+        "ticker": "ASML",
+        "signal": "European semi-cap re-rate — JPM PT EUR 1,900"
+      }
+    ],
+    "file": "morning-news/2026-06-05.html",
+    "sectors": [
+      "finance",
+      "hardware",
+      "software",
+      "energy"
+    ],
+    "top_headlines": "Hot May payrolls (+172K vs 80K) pushes Fed cut into H2; 10Y to 4.54%. Sell-side defends AVGO: Jeff $550, JPM $580, GS $525 vs Thurs -15%. Huang in Seoul: Samsung/SK Hynix/Micron all qualified for Vera Rubin HBM4. Berenberg cuts CRWD to Hold."
   }
 ]

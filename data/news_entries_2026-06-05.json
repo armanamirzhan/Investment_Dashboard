@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-06-05",
+    "headline": "May payrolls +172K vs 80K consensus; jobless rate 4.3%; 10Y to 4.54% as June cut hopes evaporate",
+    "summary": "BLS reported nonfarm payrolls rose 172,000 in May vs Dow Jones consensus of ~80K, with April revised up to 179K. Unemployment held at 4.3% and average hourly earnings rose 0.3% m/m, 3.4% y/y — both in line. The hot print sent the 10Y yield to 4.54% and dragged equity futures lower premarket as traders priced out the June cut and pushed the next move further into H2. \"Good news is bad news\" for AI-beta names already digesting AVGO's Q3 guide; rate-sensitive utilities and power IPPs led the early-tape pullback.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Wall Street defends Broadcom: Jefferies to $550, JPM to $580, Goldman to $525 after -15% selloff",
+    "summary": "At least eight desks raised AVGO price targets following Tuesday's Q2 print despite a ~13% drop on Thursday. Jefferies (Blayne Curtis) took PT to $550 from $500, JPM led at $580, and Goldman's James Schneider lifted to $525 on an unchanged 30x multiple against a $17.50 normalized EPS. Goldman raised AI semi revenue estimates to $57B / $133B / $193B for FY26/27/28. Of 47 covering analysts, 44 still rate Buy or higher. Macquarie's Wednesday Neutral cut (PT $437, citing Google TPU insourcing) remains the lone material downgrade.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/tech/26/06/52997412/broadcom-avgo-stock-plunge-goldman-sachs-525-price-target-buy-the-dip"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Huang in Seoul: Samsung, SK Hynix and Micron all qualified for Vera Rubin HBM4; SK Hynix takes ~60-70% share",
+    "summary": "NVIDIA CEO Jensen Huang told reporters on arrival in Seoul that all three memory vendors have cleared HBM4 certification for the Vera Rubin platform, ending months of supply-chain uncertainty. Supply-chain analysts estimate SK Hynix at 60-70% of Rubin HBM4 volume, Samsung at 25-30%, and Micron the remainder. Vera Rubin is in full production and ships to AWS, Azure, GCP and Oracle starting this summer with broad availability in H2 2026. Huang's trip also includes meetings with SK, Samsung, LG, Hyundai and Naver leadership on supply and AI partnerships. Samsung shares hit a record earlier in the week on the news.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://uk.investing.com/news/stock-market-news/nvidia-certifies-samsung-sk-hynix-and-micron-for-vera-rubin-hbm4-supply-4715719"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Berenberg downgrades CrowdStrike to Hold on valuation after billings-miss reaction",
+    "summary": "Berenberg cut CRWD to Hold from Buy on valuation grounds on Friday, following Wednesday's Q1 FY27 print where ARR beat but billings missed and Q2 guidance was in-line. The desk's move comes just days after JPMorgan's Brian Essex raised his target to $800 (Overweight) on June 2. Shares traded in a $699-$716 range Friday morning after the prior session's ~11% drop on the print. The 4-for-1 split announced with earnings is unaffected.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4600732-sa-analyst-upgrades-downgrades-aapl-amd-aeo-mrvl"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Erste Group upgrades Broadcom to Buy from Hold, citing AI semi growth runway through FY28",
+    "summary": "Erste Group joined the chorus of defending desks Friday morning, taking AVGO to Buy from Hold and pointing to the Q3 sales guide of ~$29.4B (+89% y/y) and the embedded $16B AI semiconductor outlook. Erste flags the post-print pullback as an entry rather than a thesis break, lining up with Goldman, Jefferies and JPM's Thursday PT hikes. Stock down ~2% premarket but well off Thursday's lows.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/8903128/broadcom-avgo-upgraded-to-buy-amid-positive-q3-sales-forecast"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "Yields jump, dollar firms after hot jobs print; utilities and renewables drag on duration",
+    "summary": "The 10Y Treasury yield jumped to 4.54% (~+8 bps) after the payroll surprise, the curve steepened, and the dollar index pushed higher. Long-duration trades in renewables (NEE, AES) and the SMR cohort (OKLO, SMR, LEU, CCJ) screened weak premarket. Power IPPs with locked-in PPAs (CEG, VST) held up better as the cap-rate impact is partially offset by tighter near-term reserve margins. Fed funds futures now price <30% odds of a June cut, with the first full move pushed into Q4.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html"
+  },
+  {
+    "date": "2026-06-05",
+    "headline": "ASML now Europe's most valuable company at ~$671B; JPM lifts PT to EUR 1,900 on Rubin-era demand",
+    "summary": "ASML shares are up ~133% over the past 12 months, taking market cap to roughly $671B and making it the most valuable European company by capitalization. JPMorgan raised its price target to EUR 1,900 from EUR 1,515 (Overweight), citing pull-through demand from NVIDIA Vera Rubin and HBM4 capacity additions across Samsung, SK Hynix and Micron. The High-NA EUV ramp at TSMC N2 and Intel 18A fabs supports order book visibility into 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/quote/ASML/"
+  }
+]

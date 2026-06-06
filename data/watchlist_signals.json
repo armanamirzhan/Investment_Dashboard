@@ -1566,5 +1566,19 @@
     "signal_type": "momentum",
     "description": "Down 6%+ on Broadcom AI guidance contagion; Zacks downgraded to Hold from Strong Buy citing extreme valuation (~173x P/E); sector rotation out of AI chip names accelerating",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-06",
+    "ticker": "INTC",
+    "signal_type": "overvalued",
+    "description": "Intel +250% YTD to ~$113; analyst consensus mean price target ~$89 sits ~21% below current price with 31 of 48 analysts at Hold/Underperform/Sell. Street sees turnaround fully priced in after Apple foundry deal and CHIPS Act grants; premarket -2.8% on June 6 as sector sell-off continues to compress stretched multiples.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-06",
+    "ticker": "MU",
+    "signal_type": "concentration_risk",
+    "description": "NVIDIA Rubin NVL72 SOCAMM configuration halved: per-rack capacity cut from 55TB to 28TB by adopting 96GB (vs. 192GB) modules to ease supply constraints. Incremental LPDDR/DRAM volumetric headwind beyond the AVGO-sentiment-driven momentum signal recorded 2026-06-05; HBM4 thesis intact but total DRAM per AI rack shrinks under new architecture, creating uncertainty for memory demand-volume assumptions in 2027-28 Rubin ramp.",
+    "severity": "medium"
   }
 ]

@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026-06-08",
+    "headline": "NVIDIA inks sweeping South Korea AI deals: SK Hynix multi-year memory, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai partnerships",
+    "summary": "Capping Jensen Huang's Seoul visit, NVIDIA on Monday announced a multi-partner AI infrastructure package with South Korea's largest conglomerates. SK Hynix signed a multi-year technology partnership to co-develop next-generation memory for global AI datacenters, with the option to extend; Huang reiterated that 'SK Hynix has been NVIDIA's largest memory partner and will continue to be.' SK Telecom committed to building a gigawatt-scale AI cloud in Korea using NVIDIA platforms, with the first AI datacenter coming online in 2027 and phased expansion to full GW capacity thereafter. Naver and Doosan will deploy NVIDIA tech across their own AI factories — Doosan also supplying materials used in Blackwell and slating its energy-solutions stack for NVIDIA datacenter platforms. LG Group will collaborate on humanoid-robot electronics, mechanicals and physical-AI software; Hyundai will deepen autonomous-mobility and AI-powered manufacturing work. No financial terms disclosed across the agreements.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Reuters / Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/sectors/technology/articles/sk-hynix-announces-multi-tech-232702383.html"
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Corning surges ~10% premarket on multibillion, multi-year Amazon fiber optic deal for AI datacenters",
+    "summary": "Amazon and Corning announced a multi-year, multibillion-dollar agreement Monday for GLW to supply optical fiber, cable and connectivity solutions to power AWS's expanding US AI-datacenter footprint. The deal will create 1,000 new manufacturing jobs at Corning's North Carolina plants and expands a fiber-optic technician training program with Catawba Valley Community College. It is Corning's third hyperscaler-scale optical pact this year, following previously announced deals with Meta and NVIDIA, cementing GLW as a structural pick-and-shovel beneficiary of AI buildouts. GLW jumped ~9-10% in premarket trading to roughly $194. Amazon did not disclose specific dollar amounts.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/08/amazon-taps-corning-for-op.html"
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "KOSPI plunges 8.29% to 7,484, triggering ninth circuit breaker in history; Samsung -10%, SK Hynix -7.7%",
+    "summary": "Korea's KOSPI collapsed 8.29% on Monday — its ninth-ever circuit breaker — as the post-AVGO AI-chip rout converged with Friday's hot US payrolls (10Y to 4.54%) and weekend Israel/Iran strikes. Samsung Electronics closed -10.18%, SK Hynix -7.68%; the two names together represent roughly half of KOSPI capitalization, amplifying the unwind. Retail margin debt at a record 37.74 trillion won set up forced-selling cascades. Foreign outflows accelerated despite the Monday NVIDIA-Korea partnership announcements, which were overshadowed by macro fears. The move is a stark counterpoint to Friday's narrative that HBM4 qualification across all three vendors had de-risked the memory cohort, and revives the EM-fund concentration-risk thesis.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Kaohoon International",
+    "source_url": "https://www.kaohooninternational.com/markets/584193"
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "Israel strikes central and western Iran over weekend; oil bid, dollar firm, global equities risk-off",
+    "summary": "Israel launched airstrikes Monday morning on central and western Iran in retaliation for missile fire, with explosions reported in Isfahan, Tabriz and Tehran per Iranian state TV. The escalation comes despite a tentative US-mediated ceasefire extension reached the prior week. Oil prices rose in early trade, the dollar firmed, and risk assets sold off globally — Nikkei -~4%, Hang Seng -1.2%, Stoxx 600 -0.6% — though US S&P futures pared earlier losses as chip names stabilized. The Strait of Hormuz risk premium is back in focus; rate-sensitive renewables and SMR longs remain pressured by the still-elevated 10Y, while gas-turbine and onshore-power names (GEV, ETN, VRT) benefit from any 'fortress energy' narrative.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Euronews",
+    "source_url": "https://www.euronews.com/business/2026/06/08/oil-prices-rise-as-iran-and-israel-trade-strikes-in-defiance-of-trump"
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "US chip futures stabilize despite Asia rout: MRVL +8.8%, MU +7.1%, IPGP +8.2% premarket on dip-buying",
+    "summary": "S&P 500 and Nasdaq futures climbed Monday morning as US chip names found buyers after the post-AVGO selloff, in sharp divergence from Asia's tech wipeout. Marvell led the premarket up ~8.8%, with Micron +7.1% (aided by its inclusion in NVIDIA Vera Rubin HBM4 supply alongside Samsung and SK Hynix) and IPG Photonics +8.2%. The bounce suggests US desks see the Asia decline as forced-selling and concentration unwind rather than a fundamental break in AI capex demand — though the Iran escalation and post-NFP yield curve keep the tape skittish into the open.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-climb-102103095.html"
+  },
+  {
+    "date": "2026-06-08",
+    "headline": "NVIDIA confirms Vera Rubin in full production; cloud availability via AWS, Azure, GCP, Oracle and CoreWeave/Lambda/Nebius/Nscale in H2",
+    "summary": "NVIDIA reaffirmed at the start of Huang's Korea trip that Vera Rubin (the H300 platform) is in full production, with Rubin-based instances launching across all four US hyperscalers in H2 2026 — AWS EC2 instances late 2026, Azure already running Rubin clusters for OpenAI workloads, Google Cloud hybrid Rubin/TPU 8T deployments, and Oracle Cloud for sovereign-AI. NVIDIA Cloud Partners CoreWeave, Lambda, Nebius and Nscale are also slated for early access. The Rubin NVL72 carries 72 GPUs, 36 CPUs, 260 TB/s scale-up bandwidth — the platform underwriting hyperscaler 2H26-2027 capex and the surge in HBM4 / optical / power orders we've been tracking.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Newsroom",
+    "source_url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory"
+  }
+]

@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record €17.7B Q2 orders; FY26 guide raised"
+        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -337,7 +337,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "Crossed KRW 2M intraday — near $1T cap"
+        "note": "Crossed KRW 2M intraday \u2014 near $1T cap"
       },
       {
         "ticker": "005930.KS",
@@ -676,7 +676,7 @@
       {
         "ticker": "005930.KS",
         "direction": "down",
-        "note": "Day 1 of 18-day strike — 45k+ off"
+        "note": "Day 1 of 18-day strike \u2014 45k+ off"
       },
       {
         "ticker": "000660.KS",
@@ -734,7 +734,7 @@
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Strike averted — 10.5% profit-share deal; +7.6% Seoul"
+        "note": "Strike averted \u2014 10.5% profit-share deal; +7.6% Seoul"
       },
       {
         "ticker": "MU",
@@ -744,7 +744,7 @@
       {
         "ticker": "000660.KS",
         "direction": "down",
-        "note": "Same — memory tightness tailwind eases"
+        "note": "Same \u2014 memory tightness tailwind eases"
       },
       {
         "ticker": "INTC",
@@ -769,7 +769,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Grid orders >€7B Q2; 2026 outlook raised"
+        "note": "Grid orders >\u20ac7B Q2; 2026 outlook raised"
       }
     ],
     "signals": [
@@ -853,7 +853,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "US markets closed — Memorial Day"
+        "signal": "US markets closed \u2014 Memorial Day"
       }
     ],
     "file": "morning-news/2026-05-25.html"
@@ -905,7 +905,7 @@
     "signals": [
       {
         "ticker": "OPENAI",
-        "signal": "Confidential IPO filing — AI capex validation"
+        "signal": "Confidential IPO filing \u2014 AI capex validation"
       },
       {
         "ticker": "MEMORY",
@@ -1214,7 +1214,7 @@
       {
         "ticker": "AVGO",
         "direction": "up",
-        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 — bar set high by HPE"
+        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 \u2014 bar set high by HPE"
       },
       {
         "ticker": "CEG",
@@ -1255,7 +1255,7 @@
     "signals": [
       {
         "ticker": "CRWD",
-        "signal": "Earnings tonight + PT flurry — 'sell the news' setup"
+        "signal": "Earnings tonight + PT flurry \u2014 'sell the news' setup"
       },
       {
         "ticker": "AVGO",
@@ -1267,7 +1267,7 @@
       },
       {
         "ticker": "MEMORY",
-        "signal": "HBM4E samples + HBM4 2026 sold out — shortage extends to 2028"
+        "signal": "HBM4E samples + HBM4 2026 sold out \u2014 shortage extends to 2028"
       },
       {
         "ticker": "macro",
@@ -1312,7 +1312,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; €6B buyback accelerated; 5-for-1 split Jun 22"
+        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; \u20ac6B buyback accelerated; 5-for-1 split Jun 22"
       },
       {
         "ticker": "macro",
@@ -1323,7 +1323,7 @@
     "signals": [
       {
         "ticker": "AVGO",
-        "signal": "AI guidance bar reset — buy-side disappointment despite +143% AI"
+        "signal": "AI guidance bar reset \u2014 buy-side disappointment despite +143% AI"
       },
       {
         "ticker": "AVGO",
@@ -1377,7 +1377,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "SK Hynix ~60-70% Rubin HBM4 share — primary HBM4 supplier confirmed"
+        "note": "SK Hynix ~60-70% Rubin HBM4 share \u2014 primary HBM4 supplier confirmed"
       },
       {
         "ticker": "ASML",
@@ -1398,7 +1398,7 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "NFP +172K vs 80K — hot print pushes June cut out"
+        "signal": "NFP +172K vs 80K \u2014 hot print pushes June cut out"
       },
       {
         "ticker": "AVGO",
@@ -1414,7 +1414,7 @@
       },
       {
         "ticker": "ASML",
-        "signal": "European semi-cap re-rate — JPM PT EUR 1,900"
+        "signal": "European semi-cap re-rate \u2014 JPM PT EUR 1,900"
       }
     ],
     "file": "morning-news/2026-06-05.html",
@@ -1425,5 +1425,74 @@
       "energy"
     ],
     "top_headlines": "Hot May payrolls (+172K vs 80K) pushes Fed cut into H2; 10Y to 4.54%. Sell-side defends AVGO: Jeff $550, JPM $580, GS $525 vs Thurs -15%. Huang in Seoul: Samsung/SK Hynix/Micron all qualified for Vera Rubin HBM4. Berenberg cuts CRWD to Hold."
+  },
+  {
+    "date": "2026-06-08",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Korea megadeal package: SK Hynix multi-year memory, SK Telecom GW-scale AI cloud, Naver/Doosan/LG/Hyundai partnerships"
+      },
+      {
+        "ticker": "GLW",
+        "direction": "up",
+        "note": "+~10% premarket on multibillion multi-year Amazon fiber optic deal; 1,000 NC jobs"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "Locks in Corning fiber for AI buildout \u2014 third hyperscaler-scale optical pact for GLW in 2026"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -10.18% as KOSPI tripped 9th-ever circuit breaker on chip rout + Iran + rate fears"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -7.68% despite same-day NVIDIA partnership extension; Korea margin debt at record 37.74T KRW"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "+7.1% premarket \u2014 HBM4 qualification halo + US-domestic positioning vs Korea weakness"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Israel airstrikes on Iran (Isfahan/Tabriz/Tehran); oil bid, dollar firm, Kospi -8.3%, Nikkei -4%"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "Korea AI partnership package (SK Hynix, SK Telecom GW cloud, Naver, Doosan, LG, Hyundai)"
+      },
+      {
+        "ticker": "GLW",
+        "signal": "Amazon multibillion fiber optic deal \u2014 pick-and-shovel optical re-rate"
+      },
+      {
+        "ticker": "KOREA",
+        "signal": "KOSPI 8.29% circuit breaker \u2014 concentration risk in Samsung/SK Hynix"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Israel-Iran strikes \u2014 risk-off, oil bid, Hormuz premium back"
+      },
+      {
+        "ticker": "CHIP",
+        "signal": "US chip premarket dip-buying (MRVL +8.8%, MU +7.1%, IPGP +8.2%)"
+      }
+    ],
+    "file": "morning-news/2026-06-08.html",
+    "sectors": [
+      "integration",
+      "hardware",
+      "policy"
+    ],
+    "top_headlines": "NVIDIA inks sweeping South Korea AI package (SK Hynix multi-year, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai). Corning +10% on multibillion Amazon fiber deal. KOSPI -8.29% triggers 9th-ever circuit breaker (Samsung -10%, SK Hynix -7.7%). Israel strikes Iran \u2014 oil bid, global risk-off."
   }
 ]

@@ -1580,5 +1580,33 @@
     "signal_type": "concentration_risk",
     "description": "NVIDIA Rubin NVL72 SOCAMM configuration halved: per-rack capacity cut from 55TB to 28TB by adopting 96GB (vs. 192GB) modules to ease supply constraints. Incremental LPDDR/DRAM volumetric headwind beyond the AVGO-sentiment-driven momentum signal recorded 2026-06-05; HBM4 thesis intact but total DRAM per AI rack shrinks under new architecture, creating uncertainty for memory demand-volume assumptions in 2027-28 Rubin ramp.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "005930.KS",
+    "signal_type": "concentration_risk",
+    "description": "Samsung -10.18% on KOSPI circuit-breaker day; ninth in index history. Single-name and EM-fund concentration with SK Hynix forced amplifying moves.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "000660.KS",
+    "signal_type": "concentration_risk",
+    "description": "SK Hynix -7.68% as KOSPI tripped circuit breaker. Korea margin debt at 37.74T KRW record sets up forced-selling cascades despite NVIDIA partnership extension announced same day.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "GLW +~10% premarket on multibillion Amazon fiber optic deal; third hyperscaler-scale optical pact in 2026 after Meta and NVIDIA.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU +7.1% premarket; benefits from NVIDIA Vera Rubin HBM4 qualification and US-domestic positioning vs Korea memory weakness.",
+    "severity": "medium"
   }
 ]

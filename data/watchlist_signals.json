@@ -1608,5 +1608,19 @@
     "signal_type": "momentum",
     "description": "MU +7.1% premarket; benefits from NVIDIA Vera Rubin HBM4 qualification and US-domestic positioning vs Korea memory weakness.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "INTC +11% as Alphabet placed order to manufacture 3M tensor processing units at Intel for 2028; Nvidia also evaluating Intel for GPU packaging. Largest single-day catalyst for INTC in 2026 — validates foundry pivot thesis. Sector rebound following prior week selloff from AVGO soft AI guidance.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "CrowdStrike announced 4-for-1 stock split effective July 2, 2026, alongside strong FQ1 2027 results (revenue $1.39B +26% YoY, ARR $5.5B). Split typically broadens retail access and sustains price momentum near-term.",
+    "severity": "medium"
   }
 ]

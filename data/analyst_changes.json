@@ -2185,5 +2185,14 @@
     "new_target": 319,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-06-08",
+    "ticker": "EQIX",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 1240,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

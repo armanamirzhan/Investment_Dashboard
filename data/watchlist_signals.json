@@ -1650,5 +1650,19 @@
     "signal_type": "momentum",
     "description": "Twin catalysts: $1B/yr Apple-Gemini deal locks in iOS distribution moat for GenAI, and Intel 18A TPU foundry order de-risks the silicon supply chain away from TSMC concentration.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Pre-earnings upgrade cycle accelerating into June 24 report: WFC $1,220 (Jun 8), Goldman $900, Raymond James $1,100, Susquehanna $1,750, Mizuho $1,150. Motley Fool June 9 piece flags Micron as the semiconductor most likely to surge. Q2 revenue already reported at $23.86B (~3x YoY); Q3 consensus expects 260% YoY growth. HBM4 qualification with NVIDIA Vera Rubin is the near-term catalyst.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Q2 FY2026 earnings beat (revenue $22.2B, +48% YoY; AI chip rev +143% YoY) but Q3 AI guidance of $16B missed the $17.2B street estimate, triggering a ~14% post-earnings sell-off. Multiple desks characterised the move as a guidance miss, not a thesis break: JPMorgan (top pick, PT $580), Jefferies (PT $550), Mizuho (PT $530), Goldman (PT $525) all raised targets into the dip. Only Macquarie downgraded to Neutral ($437). 10 GW AI compute delivery plan intact.",
+    "severity": "medium"
   }
 ]

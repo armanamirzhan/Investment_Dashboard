@@ -2230,5 +2230,32 @@
     "new_target": null,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "AVGO",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 550.0,
+    "old_rating": "Buy",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "AVGO",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 580.0,
+    "old_rating": "Overweight",
+    "old_target": 500.0
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "MU",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 1220.0,
+    "old_rating": "Overweight",
+    "old_target": null
   }
 ]

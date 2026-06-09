@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-06-09",
+    "headline": "Intel +9-10% premarket on report Google ordered 3M+ TPUs from Intel Foundry on 18A; NVDA also evaluating 18A for Feynman",
+    "summary": "Intel surged 9-10% premarket Tuesday after multiple outlets reported Google has placed an order for Intel Foundry to manufacture more than 3 million in-house TPUs on the 18A process node for 2028 production, potentially scaling to 6M+ units across 2027-28 depending on yield. The deal — the largest external-customer validation of 18A to date — also coincides with separate reports that NVIDIA is running early trials of 18A and evaluating complex multi-chip designs for the post-Rubin 'Feynman' platform. The news adds to a multi-day PT-raise wave on INTC: Wells Fargo $110 (from $85), Barclays $100 (from $65), Mizuho $128. Read-through is incrementally negative for TSMC at the margin given hyperscaler appetite for second-source capacity, though TSM still holds the lead-node monopoly on Blackwell/Rubin. The order also reflects TSMC capacity tightness as datacenter demand outstrips foundry buildout.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / The Tech Portal",
+    "source_url": "https://finance.yahoo.com/sectors/technology/articles/intel-jumps-reports-breakthrough-foundry-190048049.html"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "KOSPI rebounds +8.18% after Monday's circuit breaker; SK Hynix +15.97%, Samsung +8.97% as Huang's 'buy the dip' calms memory cohort",
+    "summary": "Korea's KOSPI closed up 8.18% at 8,096.93 Tuesday — a near-perfect mirror image of Monday's 8.29% circuit-breaker crash — with memory chipmakers leading the rebound. SK Hynix closed +15.97% at KRW 2,215,000 and Samsung Electronics +8.97% at KRW 322,000. The recovery was triggered by NVIDIA CEO Jensen Huang's comments during his Seoul visit, in which he characterized the recent semiconductor sell-off as a 'discount' opportunity and reiterated that AI infrastructure demand is 'just beginning.' Bottom-fishing capital and US chip strength (SOXX +4% Monday premarket) reinforced the bid. The Tuesday session also saw Kospi 200 futures hit a 5% upside circuit breaker (sidecar). Net foreign flows turned positive after the prior session's record outflows on retail margin debt at KRW 37.74T.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/more/261954974-kospi-samsung-skhynix-dram-mu-nvda-tradingkey"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "OpenAI confidentially files S-1 at $852B post-money valuation; GS and MS lead; September debut targeted",
+    "summary": "OpenAI on Monday confirmed it submitted a confidential S-1 draft to the SEC for an IPO at an $852 billion post-money valuation, joining Anthropic ($965B, filed June 1) and SpaceX (~$1.8T roadshow active) in a frontier-AI IPO cluster spanning under two weeks. Goldman Sachs and Morgan Stanley are lined up as lead underwriters; reports peg the debut at September 2026 though OpenAI said timing is undecided. The company closed a $122B financing round in March at the same valuation and disclosed ARR above $20B for 2025; ChatGPT crossed 900M weekly active users. The cluster is the most explicit market validation yet of the AI capex thesis, with the supply chain (NVDA, MSFT, ORCL, AVGO, ANET, AMD, MU, SK Hynix, Samsung) the primary read-through. NVDA and MSFT are direct beneficiaries — NVDA on compute supply, MSFT on Azure exclusivity and equity stake (~49%).",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Iran says strikes 'over'; Trump signals Hormuz reopen 'in two or three days'; WTI -2.3% to $89.22, S&P futures +0.35%",
+    "summary": "Iran's Foreign Ministry told CNBC overnight that Tehran has ceased strikes against Israel and is open to broader de-escalation talks, contingent on Israel halting attacks on Lebanon. President Trump told reporters Tuesday morning that a final deal could be reached in 'two or three days' and the Strait of Hormuz would reopen 'immediately' once concluded. Oil reversed Monday's risk premium: WTI -2.3% to $89.22, Brent -1.8% to $92.55. S&P 500 futures +0.35% pre-bell; Dow futures +0.67%, Nasdaq futures +0.69%. Easing oil and the Hormuz reopen narrative are unambiguously positive for rate-sensitive AI longs (NVDA, AVGO, MU, CRWV) and SMR/renewables (SMR, OKLO, BE, PLUG) which had been pressured by the post-NFP 10Y back-up. Gas-turbine names (GEV, ETN, VRT) give back some of Monday's 'fortress energy' bid as the macro risk fades.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/08/oil-prices-today-us-iran-missile-middle-east-israel-opec.html"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "Apple-Google ink $1B/yr Gemini deal to power 'Siri AI'; AAPL -1% on no launch date, GOOGL benefits from Gemini distribution",
+    "summary": "At Monday's WWDC keynote Apple unveiled a redesigned 'Siri AI' built on top of Google Gemini under a reported $1B/year commercial agreement. The assistant will roll out in US English 'later this year' with broader languages to follow; EU and China launches remain blocked on regulatory clearance. Apple shares slipped ~1-2% intraday on the absence of a firm launch timeline — investors had expected September alongside iPhone — while Wedbush's Dan Ives raised his AAPL PT, calling the deal 'a weakness turned into a strength.' Read-through is meaningfully positive for Alphabet: a $1B/yr ARR floor for Gemini, validation against OpenAI as the second sovereign LLM stack, and a structural distribution moat (~1.5B active iOS devices). Combined with Google's separate Intel TPU foundry deal, Alphabet's silicon + model stack is materially de-risked.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "BNP Paribas initiates CoreWeave at Outperform with PT implying ~71% upside; cites agentic-AI stack expansion",
+    "summary": "BNP Paribas Monday initiated coverage on CoreWeave with an Outperform rating and a price target implying roughly 71% upside, arguing the GPU-cloud pure play is best-positioned to capture surging hyperscaler-adjacent AI compute demand. The note flagged CRWV's recently launched unified agentic-AI stack and serverless RL platform as evidence the company is moving up the stack from raw GPU rental into higher-margin managed services. CRWV also held its first AGM as a public company on June 8. The initiation follows a multi-week period in which the stock benefited from $3.1B GPU-collateralized DDTL pricing tightening and the Jane Street $6B compute + $1B equity deal. Risks per the note: capex/financing run-rate vs. hyperscaler insourcing (Google TPU + Meta MTIA) and rate-duration sensitivity given negative FCF.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Barchart",
+    "source_url": "https://www.barchart.com/story/news/2289070/bnp-paribas-initiates-coverage-on-coreweave-that-means-crwv-stock-could-soar-71-from-here"
+  },
+  {
+    "date": "2026-06-09",
+    "headline": "US chip futures lead pre-bell rebound; MU +5% on HBM4 halo and Korea recovery; SOXX +4% Monday extends into Tuesday",
+    "summary": "US semiconductor pre-market action remains constructive Tuesday after Monday's mid-session reversal: Micron +5% premarket on the dual tailwinds of confirmed Vera Rubin HBM4 qualification (alongside Samsung and SK Hynix) and a US-domestic positioning bid as Korea memory rallies. Roundhill Magnificent 7 ETF (MAGS) +0.47% to $66.80. The iShares Semiconductor ETF rallied 4% Monday after the worst weekly print since 2024, suggesting buy-side treats the post-AVGO and Korea concentration unwind as forced selling rather than thesis breakage. Key Tuesday watchpoints: TSMC May revenue release expected Wednesday (consensus implies ~+25-30% YoY given Q2 guide $39-40.2B); Oracle reports Wednesday AMC.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-09-2026"
+  }
+]

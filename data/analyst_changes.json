@@ -2194,5 +2194,41 @@
     "new_target": 1240,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INTC",
+    "firm": "Wells Fargo",
+    "new_rating": "Equal Weight",
+    "new_target": 110.0,
+    "old_rating": "Equal Weight",
+    "old_target": 85.0
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INTC",
+    "firm": "Barclays",
+    "new_rating": "Equal Weight",
+    "new_target": 100.0,
+    "old_rating": "Equal Weight",
+    "old_target": 65.0
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INTC",
+    "firm": "Mizuho",
+    "new_rating": "Neutral",
+    "new_target": 128.0,
+    "old_rating": "Neutral",
+    "old_target": 124.0
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "CRWV",
+    "firm": "BNP Paribas",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
   }
 ]

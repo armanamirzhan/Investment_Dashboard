@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
+        "note": "Record €17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -337,7 +337,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "Crossed KRW 2M intraday \u2014 near $1T cap"
+        "note": "Crossed KRW 2M intraday — near $1T cap"
       },
       {
         "ticker": "005930.KS",
@@ -676,7 +676,7 @@
       {
         "ticker": "005930.KS",
         "direction": "down",
-        "note": "Day 1 of 18-day strike \u2014 45k+ off"
+        "note": "Day 1 of 18-day strike — 45k+ off"
       },
       {
         "ticker": "000660.KS",
@@ -734,7 +734,7 @@
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Strike averted \u2014 10.5% profit-share deal; +7.6% Seoul"
+        "note": "Strike averted — 10.5% profit-share deal; +7.6% Seoul"
       },
       {
         "ticker": "MU",
@@ -744,7 +744,7 @@
       {
         "ticker": "000660.KS",
         "direction": "down",
-        "note": "Same \u2014 memory tightness tailwind eases"
+        "note": "Same — memory tightness tailwind eases"
       },
       {
         "ticker": "INTC",
@@ -769,7 +769,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Grid orders >\u20ac7B Q2; 2026 outlook raised"
+        "note": "Grid orders >€7B Q2; 2026 outlook raised"
       }
     ],
     "signals": [
@@ -853,7 +853,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "US markets closed \u2014 Memorial Day"
+        "signal": "US markets closed — Memorial Day"
       }
     ],
     "file": "morning-news/2026-05-25.html"
@@ -905,7 +905,7 @@
     "signals": [
       {
         "ticker": "OPENAI",
-        "signal": "Confidential IPO filing \u2014 AI capex validation"
+        "signal": "Confidential IPO filing — AI capex validation"
       },
       {
         "ticker": "MEMORY",
@@ -1214,7 +1214,7 @@
       {
         "ticker": "AVGO",
         "direction": "up",
-        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 \u2014 bar set high by HPE"
+        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 — bar set high by HPE"
       },
       {
         "ticker": "CEG",
@@ -1255,7 +1255,7 @@
     "signals": [
       {
         "ticker": "CRWD",
-        "signal": "Earnings tonight + PT flurry \u2014 'sell the news' setup"
+        "signal": "Earnings tonight + PT flurry — 'sell the news' setup"
       },
       {
         "ticker": "AVGO",
@@ -1267,7 +1267,7 @@
       },
       {
         "ticker": "MEMORY",
-        "signal": "HBM4E samples + HBM4 2026 sold out \u2014 shortage extends to 2028"
+        "signal": "HBM4E samples + HBM4 2026 sold out — shortage extends to 2028"
       },
       {
         "ticker": "macro",
@@ -1312,7 +1312,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; \u20ac6B buyback accelerated; 5-for-1 split Jun 22"
+        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; €6B buyback accelerated; 5-for-1 split Jun 22"
       },
       {
         "ticker": "macro",
@@ -1323,7 +1323,7 @@
     "signals": [
       {
         "ticker": "AVGO",
-        "signal": "AI guidance bar reset \u2014 buy-side disappointment despite +143% AI"
+        "signal": "AI guidance bar reset — buy-side disappointment despite +143% AI"
       },
       {
         "ticker": "AVGO",
@@ -1377,7 +1377,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "SK Hynix ~60-70% Rubin HBM4 share \u2014 primary HBM4 supplier confirmed"
+        "note": "SK Hynix ~60-70% Rubin HBM4 share — primary HBM4 supplier confirmed"
       },
       {
         "ticker": "ASML",
@@ -1398,7 +1398,7 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "NFP +172K vs 80K \u2014 hot print pushes June cut out"
+        "signal": "NFP +172K vs 80K — hot print pushes June cut out"
       },
       {
         "ticker": "AVGO",
@@ -1414,7 +1414,7 @@
       },
       {
         "ticker": "ASML",
-        "signal": "European semi-cap re-rate \u2014 JPM PT EUR 1,900"
+        "signal": "European semi-cap re-rate — JPM PT EUR 1,900"
       }
     ],
     "file": "morning-news/2026-06-05.html",
@@ -1442,7 +1442,7 @@
       {
         "ticker": "AMZN",
         "direction": "up",
-        "note": "Locks in Corning fiber for AI buildout \u2014 third hyperscaler-scale optical pact for GLW in 2026"
+        "note": "Locks in Corning fiber for AI buildout — third hyperscaler-scale optical pact for GLW in 2026"
       },
       {
         "ticker": "005930.KS",
@@ -1457,7 +1457,7 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "+7.1% premarket \u2014 HBM4 qualification halo + US-domestic positioning vs Korea weakness"
+        "note": "+7.1% premarket — HBM4 qualification halo + US-domestic positioning vs Korea weakness"
       },
       {
         "ticker": "macro",
@@ -1472,15 +1472,15 @@
       },
       {
         "ticker": "GLW",
-        "signal": "Amazon multibillion fiber optic deal \u2014 pick-and-shovel optical re-rate"
+        "signal": "Amazon multibillion fiber optic deal — pick-and-shovel optical re-rate"
       },
       {
         "ticker": "KOREA",
-        "signal": "KOSPI 8.29% circuit breaker \u2014 concentration risk in Samsung/SK Hynix"
+        "signal": "KOSPI 8.29% circuit breaker — concentration risk in Samsung/SK Hynix"
       },
       {
         "ticker": "macro",
-        "signal": "Israel-Iran strikes \u2014 risk-off, oil bid, Hormuz premium back"
+        "signal": "Israel-Iran strikes — risk-off, oil bid, Hormuz premium back"
       },
       {
         "ticker": "CHIP",
@@ -1493,6 +1493,83 @@
       "hardware",
       "policy"
     ],
-    "top_headlines": "NVIDIA inks sweeping South Korea AI package (SK Hynix multi-year, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai). Corning +10% on multibillion Amazon fiber deal. KOSPI -8.29% triggers 9th-ever circuit breaker (Samsung -10%, SK Hynix -7.7%). Israel strikes Iran \u2014 oil bid, global risk-off."
+    "top_headlines": "NVIDIA inks sweeping South Korea AI package (SK Hynix multi-year, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai). Corning +10% on multibillion Amazon fiber deal. KOSPI -8.29% triggers 9th-ever circuit breaker (Samsung -10%, SK Hynix -7.7%). Israel strikes Iran — oil bid, global risk-off."
+  },
+  {
+    "date": "2026-06-09",
+    "tickers": [
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+9-10% premarket on Google 3M TPU foundry order + NVDA 18A evaluation; 3 PT raises (WFC $110, Barc $100, Mizuho $128)"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+15.97% Seoul close on Huang 'buy the dip' rebound"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +8.97% in KOSPI +8.18% recovery"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Huang Seoul comments calm AI cohort; 18A trial for Feynman platform"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "$1B/yr Apple-Gemini Siri AI deal + Intel 18A TPU foundry order"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "+5% premarket; HBM4 halo + US-domestic positioning"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "BNP Paribas initiates Outperform; ~71% implied upside"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Sector rebound bid post-Korea recovery"
+      },
+      {
+        "ticker": "macro",
+        "direction": "up",
+        "note": "Iran says strikes over; Trump: Hormuz reopen in 2-3 days; WTI -2.3% to $89.22"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "INTC",
+        "signal": "Google 3M TPU foundry order — largest 18A external validation"
+      },
+      {
+        "ticker": "KOREA",
+        "signal": "KOSPI +8.18% mirror reversal of Monday's circuit breaker"
+      },
+      {
+        "ticker": "OPENAI",
+        "signal": "Confidential S-1 at $852B — third frontier-AI IPO filing in two weeks"
+      },
+      {
+        "ticker": "GOOGL",
+        "signal": "Apple-Gemini $1B/yr distribution moat"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Iran de-escalation; oil -2.3%, S&P futures +0.35%"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "BNP Paribas Outperform initiation"
+      }
+    ],
+    "file": "morning-news/2026-06-09.html"
   }
 ]

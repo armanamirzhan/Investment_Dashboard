@@ -1622,5 +1622,33 @@
     "signal_type": "momentum",
     "description": "CrowdStrike announced 4-for-1 stock split effective July 2, 2026, alongside strong FQ1 2027 results (revenue $1.39B +26% YoY, ARR $5.5B). Split typically broadens retail access and sustains price momentum near-term.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Google 3M TPU foundry order on Intel 18A + NVDA 18A evaluation drives +9-10% premarket; three sell-side PT raises (WFC $110, Barc $100, Mizuho $128). Largest external 18A validation to date.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix +15.97% Tuesday Seoul close on Huang 'buy the dip' rebound + multi-year NVDA HBM partnership extension. Round-trips Monday's circuit-breaker drawdown.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "BNP Paribas initiates Outperform with PT implying ~71% upside on agentic-AI stack expansion; follows recent DDTL tightening and Jane Street capital commitments.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-09",
+    "ticker": "GOOGL",
+    "signal_type": "momentum",
+    "description": "Twin catalysts: $1B/yr Apple-Gemini deal locks in iOS distribution moat for GenAI, and Intel 18A TPU foundry order de-risks the silicon supply chain away from TSMC concentration.",
+    "severity": "medium"
   }
 ]

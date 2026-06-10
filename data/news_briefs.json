@@ -1571,5 +1571,91 @@
       }
     ],
     "file": "morning-news/2026-06-09.html"
+  },
+  {
+    "date": "2026-06-10",
+    "tickers": [
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "May revenue +30.1% YoY to $13.25B; FY26 USD growth seen >30%"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "down",
+        "note": "-11.5% premarket on $7B equity/linked raise vs $39B AI server orders"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "Q4 FY26 AMC tonight; OCI +90.8% YoY consensus; RPO $589.5B watched"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-4.7% premarket on profit-taking after Tuesday HBM4 rally"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "down",
+        "note": "-1.5% premarket as AI cohort sold into Oracle print and CPI"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "European HY bond roadshow via JPM; USD + EUR tranches"
+      },
+      {
+        "ticker": "FCEL",
+        "direction": "neutral",
+        "note": "Q2 rev -5% YoY; pipeline 4 GW (+267% QoQ); Groton impairment"
+      },
+      {
+        "ticker": "PLUG",
+        "direction": "up",
+        "note": "First $142M hydrogen asset monetization closing in June"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Iran-US re-escalation; Trump warns 'pay the price'; oil bid back"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "May CPI hot headline (+4.2% YoY) but core +0.2% MoM BELOW estimate"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "TSM",
+        "signal": "30%+ growth trajectory confirmed by May print"
+      },
+      {
+        "ticker": "SMCI",
+        "signal": "$39B order book disclosed alongside $7B dilution event"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "RPO plateau / FY27 guide is the post-print pivot"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Core CPI dovish read takes pressure off duration AI longs"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Iran/Hormuz risk premium re-emerges; oil reverses"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "Funding-channel diversification into European HY"
+      },
+      {
+        "ticker": "FCEL",
+        "signal": "Datacenter fuel-cell pipeline +267% QoQ to 4 GW"
+      }
+    ],
+    "file": "morning-news/2026-06-10.html"
   }
 ]

@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-06-10",
+    "headline": "TSMC May revenue +30.1% YoY to NT$416.98B (~$13.25B); YTD +30.0% as AI chip demand sustains",
+    "summary": "Taiwan Semiconductor reported May 2026 consolidated revenue of NT$416.98B (~$13.25B), up 1.5% MoM and 30.1% YoY — its highest May print on record and consistent with the Q2 guide ($39-40.2B). January-May cumulative revenue reached NT$1,961.80B, +30.0% YoY. Management reiterated that FY26 USD revenue growth should exceed 30% on continued AI accelerator demand and customer pull-ins for N3/N2 capacity. The print is incrementally positive for the lead-node monopoly thesis on Blackwell/Rubin and for HBM-adjacent CoWoS volumes (CDX read-through). Pre-bell: TSM ADR roughly flat into the print after running into the release; semiconductor ETFs (SOXX) held bid. Watch CoWoS capacity comments at the July Q2 call given hyperscaler dual-sourcing chatter post the Google-Intel 18A TPU deal.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TSMC Investor Relations / SEC Form 6-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000367/tsm-revenue20260610.htm"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "May CPI hot-but-not-hotter: headline +0.5%/+4.2% YoY (highest in 3 years), but core +0.2% MoM is BELOW the 0.3% estimate",
+    "summary": "May CPI printed in line with expectations on the headline at +0.5% MoM and +4.2% YoY — the first 4% handle since April 2023 — driven by a 3.9% MoM jump in energy (+23.5% YoY) reflecting the Iran/Hormuz risk premium. Critically, core CPI accelerated only 0.2% MoM and 2.9% YoY, BELOW the 0.3% consensus and easing from April's 0.4% print. Treasury yields held flat after the release (10Y near 4.46% vs YTD high 4.48%); S&P futures stayed slightly negative but came off the lows. Markets continue to expect the FOMC to hold June 17, but the dovish core read takes pressure off duration-sensitive AI longs. Semiconductor ETFs were already leading pre-bell strength: MU +5% early before reversing, MRVL +4%, SNDK +4%. The energy component is the swing factor for AI infrastructure margins via electricity input costs.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "SMCI -11.5% premarket on $7B equity/equity-linked financing for $39B in AI server orders from 20+ customers",
+    "summary": "Super Micro announced a $7.0B financing package — $1.25B common stock public offering, $3.75B in depositary shares, and up to $2.0B in an at-the-market common stock program (no earlier than Q3) — to fund component purchases against approximately $39B in AI server orders 'received in recent weeks' from more than 20 customers. JPMorgan, Goldman Sachs and Citigroup are bookrunners. The market read is bifurcated: dilution risk (SMCI fell 11.5% in premarket) versus the order-book disclosure being the largest unit-economics signal SMCI has shared post-restatement (~6x annual revenue cadence). Read-through positive for upstream silicon and components — NVDA (GB300/Rubin GPUs), MU and Hynix/Samsung (HBM4), VRT/CLS (rack integration). Negative tape risk for DELL and HPE on share-of-wallet within the same hyperscaler RFPs.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Supermicro Press Release / Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/supermicro-announces-proposed-7-0-211300983.html"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Oracle reports Q4 FY26 tonight AMC; consensus $1.97 EPS / $19.1B rev with OCI seen +90.8% YoY to $5.17B; RPO $589.5B watched",
+    "summary": "Oracle reports fiscal Q4 2026 after the close Wednesday with consensus calling for $1.97 EPS and $19.1B revenue (+20% YoY), led by OCI growth of ~90.8% YoY to $5.17B. The three buy-side debates: (1) whether RPO grows from the disclosed $553B run-rate toward Street's $589.5B (+327% YoY) or shows the first signs of plateauing now that the OpenAI Stargate contract is fully reflected; (2) FY27 guidance relative to management's $90B revenue target; (3) any credible path to positive FCF given the multi-year capex ramp. ORCL closed Tuesday at $205.81 — well off the $220.50 session high — as AI longs were sold into the print. Prediction markets imply ~91% odds management offers explicit growth commentary on the call. Read-through to MSFT (Azure), GOOGL (TPU), AMZN (Trainium), CRWV (GPU cloud), and the underlying compute stack (NVDA/AVGO).",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Cryptonomist / TradingKey Oracle preview",
+    "source_url": "https://en.cryptonomist.ch/2026/06/10/oracle-stocks-553b-backlog-faces-its-biggest-test-wednesday/"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Iran-US tensions re-escalate; Trump says Iran 'will have to pay the price' for stalled talks, oil reverses Tuesday's drop",
+    "summary": "The Iran de-escalation narrative that drove Tuesday's S&P futures bid reversed overnight: President Trump said Wednesday that Iran 'will have to pay the price' for stalled negotiations after Tehran reportedly walked back the Tuesday Foreign Ministry signal of strike cessation. Commercial traffic through the Strait of Hormuz remains depressed (>90% below pre-conflict baseline per Habtoor). Crude reversed higher off Tuesday's $89.22 WTI close; SPX futures held in negative territory pre-bell before the CPI print pared losses. Risk-off pressure on rate-duration AI longs (NVDA, AVGO, MU, CRWV) and gives back yesterday's relief in datacenter-power names. The bid moves back to 'fortress energy' (GEV, ETN, VRT, CEG, VST, NEE) and oil-linked names. Watch for any Strait reopening signal as the binary swing factor; absent that, the risk premium persists into the June 17 FOMC.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Reuters via CNBC; House of Commons briefing",
+    "source_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10636/"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "CoreWeave (CRWV) launches European bond roadshow via JPMorgan; exploring USD and EUR high-yield tranches",
+    "summary": "CoreWeave kicked off investor calls Tuesday with European high-yield accounts to size potential dollar- AND euro-denominated bond issuance, with JPMorgan arranging the discussions. The roadshow targets diversification away from US HY and DDTL markets where the company has tapped repeatedly in the past 90 days (including the $8.5B GPU-collateralized loan backed by the Meta deal). CRWV already has multiple USD bonds outstanding but has yet to print in euros. The move follows BNP's Outperform initiation Monday and continues the company's pattern of pre-funding the contracted-revenue book (Meta $21B through 2032; $2.2B Chicago BTS; OpenAI). Incremental positive for CRWV on funding-channel resilience; modest tightening signal for the GPU-cloud HY complex. Watch deal pricing as a read on hyperscaler-adjacent compute risk appetite.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Stocktwits",
+    "source_url": "https://stocktwits.com/news-articles/markets/equity/core-weave-turns-to-europe-for-bond-sale-retail-believes-crwv-stock-is-a-good-long-term-buy-above-this-level/cZ0UhTqR7R5"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "FuelCell Energy Q2 FY26: revenue $35.6M (-5% YoY), pipeline 4 GW (+267% QoQ), backlog $1.14B; Groton impairment widens loss",
+    "summary": "FuelCell Energy reported Q2 FY26 (April quarter) revenue of $35.6M, down 5% YoY; adjusted EBITDA improved to -$17.1M from -$19.3M; net loss widened to $77.6M largely on a $42.6M impairment at the Groton Project. The standout disclosure was a sales pipeline of 4 gigawatts, up 267% QoQ, reflecting the datacenter pull on behind-the-meter baseload. Backlog ended at $1.14B (vs $1.26B YoY) — the decline reflects revenue recognition outpacing new orders. Management advanced Torrington manufacturing capacity expansion and shipped the first two carbon capture modules to Rotterdam for the ExxonMobil collaboration. Read-through positive for BE and PLUG on datacenter fuel cell TAM; the pipeline number cushions the headline revenue miss. The Bloom-Oracle 2.8 GW MOU (1.2 GW contracted) remains the comp datapoint.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "FuelCell Energy 8-K via Stocktitan",
+    "source_url": "https://www.stocktitan.net/sec-filings/FCEL/8-k-fuelcell-energy-inc-reports-material-event-8cbbe3d17e58.html"
+  },
+  {
+    "date": "2026-06-10",
+    "headline": "Plug Power monetizes ~$142M of hydrogen project assets in first of 2026 transactions; ~$275M+ total expected",
+    "summary": "Plug Power confirmed first of two hydrogen-project asset monetization transactions, expected to close in June for approximately $142M in proceeds. Total monetization initiatives in 2026 are guided to aggregate more than $275M, reducing financing pressure on the cash-burning fuel cell platform. The disclosure follows fuel-cell sector weakness last week (FCEL -10%, PLUG -6%, BE pressured) on the Q2 print read-across. PLUG's strategy continues to bifurcate: monetize existing assets to fund the hydrogen production buildout while ramping stationary fuel-cell deployments. Positive incremental on liquidity runway; does not change the longer-dated cash-flow inflection thesis. Watch hydrogen production gross margin and PEM electrolyzer order momentum on next print.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Plug Power 8-K (SEC)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001093691/000110465926058615/tm2614034d1_ex99-1.htm"
+  }
+]

@@ -1692,5 +1692,33 @@
     "signal_type": "legal_risk",
     "description": "Iran-US negotiations stalled; Trump warns Iran 'will have to pay the price'. Hormuz traffic >90% below baseline. Energy CPI +23.5% YoY. Geopolitical re-escalation risk back to elevated.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "SMCI",
+    "signal_type": "overvalued",
+    "description": "Stock -18% after announcing $7B equity + equity-linked financing ($1.25B common stock + $3.75B depositary shares + $2B ATM). ~35% dilution of pre-announcement market cap. Funds component purchases for $39B AI server order backlog. SEC Form FWP filed.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "PLTR",
+    "signal_type": "legal_risk",
+    "description": "UK government announced formal review of £330M NHS contract; PM Starmer confirmed review to Parliament. Parliamentary committee urged triggering break clause. Palantir separately said it intends to sue London Mayor over blocked Metropolitan Police contract. Stock -4% on the news.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "Stock +6.7% on June 10 after both Cantor Fitzgerald (PT $2,000→$2,500) and Barclays (PT $1,700→$2,250) raised price targets. Cantor cited early innings of a multi-year supply-constrained WFE upcycle; Barclays raised 2027 WFE estimate to $209.5B.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Stock +5.5% on June 10 after Cantor Fitzgerald (PT $575→$650) and Barclays (PT $500→$590) raised price targets, both citing a multi-year semiconductor equipment upcycle driven by DRAM and NAND capex acceleration.",
+    "severity": "medium"
   }
 ]

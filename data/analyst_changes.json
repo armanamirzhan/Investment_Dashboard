@@ -2257,5 +2257,68 @@
     "new_target": 1220.0,
     "old_rating": "Overweight",
     "old_target": null
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AMAT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 650,
+    "old_rating": "Overweight",
+    "old_target": 575
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "LRCX",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 425,
+    "old_rating": "Overweight",
+    "old_target": 320
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "KLAC",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 2500,
+    "old_rating": "Overweight",
+    "old_target": 2000
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "ASML",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 2000,
+    "old_rating": "Overweight",
+    "old_target": 1600
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "AMAT",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 590,
+    "old_rating": "Overweight",
+    "old_target": 500
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "LRCX",
+    "firm": "Barclays",
+    "new_rating": "Equal-Weight",
+    "new_target": 335,
+    "old_rating": "Equal-Weight",
+    "old_target": 275
+  },
+  {
+    "date": "2026-06-10",
+    "ticker": "KLAC",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 2250,
+    "old_rating": "Overweight",
+    "old_target": 1700
   }
 ]

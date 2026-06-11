@@ -20354,14 +20354,14 @@
   {
     "date": "2026-06-11",
     "ticker": "ENR.DE",
-    "price": 170.25711990000002,
+    "price": 170.2768326,
     "pe_ratio": 57.874016,
     "ps_ratio": 3.1158075,
-    "ev_ebitda": 30.418,
-    "market_cap": 144863031059.92377,
+    "ev_ebitda": 32.395,
+    "market_cap": 144879803582.99976,
     "short_interest": null,
-    "avg_analyst_target": 225.94208529728,
-    "upside_pct": 32.7063945578231
+    "avg_analyst_target": 225.96824531072,
+    "upside_pct": 32.706394557823124
   },
   {
     "date": "2026-06-11",
@@ -20420,8 +20420,8 @@
     "ev_ebitda": 46.19,
     "market_cap": 43104702464.0,
     "short_interest": null,
-    "avg_analyst_target": 128.84792,
-    "upside_pct": 30.188865312721013
+    "avg_analyst_target": 128.90608,
+    "upside_pct": 30.24763059512984
   },
   {
     "date": "2026-06-11",
@@ -20510,26 +20510,26 @@
   {
     "date": "2026-06-11",
     "ticker": "000660.KS",
-    "price": 1386.4509505,
+    "price": 1385.9114137000001,
     "pe_ratio": null,
     "ps_ratio": 11.291354,
     "ev_ebitda": 15.876,
-    "market_cap": 984178980030.6978,
+    "market_cap": 983795987197.5784,
     "short_interest": null,
-    "avg_analyst_target": 1665.2864955909,
-    "upside_pct": 20.111461208948107
+    "avg_analyst_target": 1664.63845005666,
+    "upside_pct": 20.111461208948114
   },
   {
     "date": "2026-06-11",
     "ticker": "005930.KS",
-    "price": 197.3102495,
+    "price": 197.2334663,
     "pe_ratio": null,
     "ps_ratio": 5.0559,
     "ev_ebitda": 13.265,
-    "market_cap": 1295650240926.1423,
+    "market_cap": 1295146039183.8044,
     "short_interest": null,
-    "avg_analyst_target": 272.85493284945,
-    "upside_pct": 38.28725752508361
+    "avg_analyst_target": 272.74875146793005,
+    "upside_pct": 38.28725752508363
   },
   {
     "date": "2026-06-11",
@@ -20822,14 +20822,14 @@
   {
     "date": "2026-06-11",
     "ticker": "IFX.DE",
-    "price": 89.251793602,
+    "price": 89.262127348,
     "pe_ratio": 93.97561,
     "ps_ratio": 6.621665,
     "ev_ebitda": 25.824,
-    "market_cap": 115982673559.71666,
+    "market_cap": 115996102258.91246,
     "short_interest": null,
-    "avg_analyst_target": 85.321599094039,
-    "upside_pct": -4.403490786400213
+    "avg_analyst_target": 85.33147779448599,
+    "upside_pct": -4.403490786400225
   },
   {
     "date": "2026-06-11",

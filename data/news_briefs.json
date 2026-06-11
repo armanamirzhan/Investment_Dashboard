@@ -1657,5 +1657,111 @@
       }
     ],
     "file": "morning-news/2026-06-10.html"
+  },
+  {
+    "date": "2026-06-11",
+    "tickers": [
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "-10-11% premarket below $180 on $70B FY27 capex + $20-25B prepayments + $20B capital raise — despite RPO $638B beat"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+1-2% premarket on Oracle capex disclosure — anchored TAM signal for Blackwell/Rubin"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Premarket bid on Oracle capex read-through"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "up",
+        "note": "AI-server bid recovers after SMCI dilution-driven slide"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "up",
+        "note": "Rebounding from yesterday's $7B raise dilution; $39B order book still in focus"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "+3% premarket on Oracle / HBM4 read-through"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "down",
+        "note": "-3% post WWDC: 'Apple Intelligence' relies on Google Gemini; Tim Cook's final keynote"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "Apple Intelligence + Siri lean on Gemini — distribution moat deepens"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +2.59% Seoul close; equipment suppliers ask 3-4% price hike"
+      },
+      {
+        "ticker": "285A.T",
+        "direction": "up",
+        "note": "Kioxia +7% on NAND tightness + ongoing rerating"
+      },
+      {
+        "ticker": "8035.T",
+        "direction": "up",
+        "note": "Tokyo Electron +2.54% — WFE pricing power confirmed"
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "neutral",
+        "note": "Q2 AMC tonight; -30% YTD — clean test of 'AI eats Photoshop'"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Hormuz remains closed; Trump 'pay the price'; oil bid; BOJ Ueda hospitalized, misses June meeting"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "PPI + jobless claims at 8:30 ET — last macro data before June 17 FOMC blackout"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ORCL",
+        "signal": "$638B RPO beat — AI-cloud thesis vindicated; $70B+ FY27 capex shocks margins"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Oracle capex = anchored TAM for Blackwell/Rubin"
+      },
+      {
+        "ticker": "AAPL",
+        "signal": "Apple Intelligence + Gemini dependency; Cook's final WWDC keynote"
+      },
+      {
+        "ticker": "HBM",
+        "signal": "Hynix equipment vendors push 3-4% price hike — supercycle leaks upstream"
+      },
+      {
+        "ticker": "ADBE",
+        "signal": "Q2 print is the 'AI eats software' acid test"
+      },
+      {
+        "ticker": "macro",
+        "signal": "BOJ Ueda hospitalized, Himino chairs June 15-16; July hike to 1% on track"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Hormuz closure persists; risk-off bid for fortress energy (GEV/ETN/VRT/CEG/VST/NEE)"
+      }
+    ],
+    "file": "morning-news/2026-06-11.html"
   }
 ]

@@ -1720,5 +1720,26 @@
     "signal_type": "momentum",
     "description": "Stock +5.5% on June 10 after Cantor Fitzgerald (PT $575→$650) and Barclays (PT $500→$590) raised price targets, both citing a multi-year semiconductor equipment upcycle driven by DRAM and NAND capex acceleration.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q4 FY26 revenue/EPS/RPO all beat: $19.2B rev (+21%), $2.11 non-GAAP EPS, RPO $638B vs $589.5B Street. But $70B FY27 capex + $20-25B prepayments + $20B capital raise = funding/margin concern. Bifurcated reaction: thesis vindicated, valuation under pressure. Stock -10-11% premarket below $180.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "ORCL",
+    "signal_type": "concentration_risk",
+    "description": "FY27 capex commitment $70B + $20-25B prepayments approaches the company's $90B FY27 revenue target. Free cash flow inflection now pushed further out; funding-channel resilience (HY debt, capital raise) becomes the gating variable for the OpenAI/Stargate buildout.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Oracle FY27 capex guide of $70B + $20-25B component prepayments is a contractually-anchored TAM signal for Blackwell/Rubin shipments. NVDA premarket bid +1-2%; the AI compute capex narrative reinforced ahead of June 17 FOMC and the GTC Paris keynote.",
+    "severity": "medium"
   }
 ]

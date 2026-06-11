@@ -2320,5 +2320,41 @@
     "new_target": 2250,
     "old_rating": "Overweight",
     "old_target": 1700
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "KLAC",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 2500,
+    "old_rating": "Overweight",
+    "old_target": 2000
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "LRCX",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 425,
+    "old_rating": "Overweight",
+    "old_target": 320
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "AMAT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 650,
+    "old_rating": "Overweight",
+    "old_target": 575
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "DLR",
+    "firm": "KeyBanc Capital Markets",
+    "new_rating": "Buy",
+    "new_target": 193,
+    "old_rating": "Hold",
+    "old_target": 187
   }
 ]

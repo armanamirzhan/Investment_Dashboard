@@ -1741,5 +1741,19 @@
     "signal_type": "momentum",
     "description": "Oracle FY27 capex guide of $70B + $20-25B component prepayments is a contractually-anchored TAM signal for Blackwell/Rubin shipments. NVDA premarket bid +1-2%; the AI compute capex narrative reinforced ahead of June 17 FOMC and the GTC Paris keynote.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "PLUG",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY2026 revenue $163.5M (+22% YoY); $275M hydrogen asset monetization program including $142M Stream Data Centers deal expected to close in June. Stock +6% on Annual Meeting day.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-11",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q4 FY2026 EPS $2.11 beat $1.89 consensus. Announced ~$70B datacenter capex plan for next year; stock fell on funding concerns but announcement drove broad AI hardware recovery in pre-market.",
+    "severity": "medium"
   }
 ]

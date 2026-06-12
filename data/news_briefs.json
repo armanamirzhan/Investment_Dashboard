@@ -1763,5 +1763,86 @@
       }
     ],
     "file": "morning-news/2026-06-11.html"
+  },
+  {
+    "date": "2026-06-12",
+    "tickers": [
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "Analyst tape split post-print: Stifel $250→$350 Buy, TD Cowen $300, Oppenheimer $275, Goldman $228→$239; Wedbush CUTS $275→$240 on capital raise concern. Stock -13% Thu."
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "down",
+        "note": "Q2 beat but -5.5% AH; CFO Dan Durn exits June 15 to Marvell on top of CEO search; FY26 organic ARR cut $500M. Stifel→Hold, Evercore→In Line, Goldman PT cut to $190."
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "BofA's Vivek Arya raises PT to $560 (from $500), names AMD top CPU pick; Venice launch at Advancing AI 2026 as catalyst."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+0.5-1% premarket; Sharon AI 6-year 72 MW Australia + 40K GB300 deal validates NVDA-underwritten neocloud TAM."
+      },
+      {
+        "ticker": "SPCX",
+        "direction": "up",
+        "note": "SpaceX IPO debuts on Nasdaq today: $135 fixed, ~$1.77T valuation, $75-86B raised — largest IPO ever; perp markets pricing $150-200 open."
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "+3.73% Thu close; Q1 backlog $163B, FY26 guide $44.5-45.5B; cleanest AI-power picks-and-shovels large-cap."
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "May PPI hot: +1.1% MoM (vs +0.7% est) / +6.5% YoY — largest since Nov 2022; jobless claims 229K (vs 219K est). Fed seen on hold June 17."
+      },
+      {
+        "ticker": "macro",
+        "direction": "up",
+        "note": "Iran/Hormuz de-escalation: ceasefire signaled, Trump says deal '2-3 days away'; oil softens, NDX futures bid."
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Hang Seng -0.7% to 24,249 — 7th consecutive loss, lowest since July 2025."
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ORCL",
+        "signal": "$70B FY27 capex shock vs $638B RPO beat — Street splits between bull (Stifel $350) and bear (Wedbush $240 cut on capital raise)"
+      },
+      {
+        "ticker": "ADBE",
+        "signal": "C-suite vacancies (CFO + CEO) + organic ARR cut overwhelms AI-first ARR triple to >$500M — thesis-altering risk"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "BofA top CPU pick; Venice (Zen 6 EPYC) launch sets up Advancing AI 2026 as near-term catalyst"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Sharon AI 40K GB300 deal — NVDA-underwritten neocloud capacity is the structural TAM-anchor pattern"
+      },
+      {
+        "ticker": "SPCX",
+        "signal": "Largest IPO in history opens today — broad risk-on signal; possible capital rotation from existing AI-infra longs"
+      },
+      {
+        "ticker": "macro",
+        "signal": "PPI hottest in 3.5 yrs but Fed on hold; energy still wedging both CPI/PPI on Hormuz overhang"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Hormuz de-escalation softens fortress-energy bid (CEG/VST/NEE) while bidding NDX/MAGS"
+      }
+    ],
+    "file": "morning-news/2026-06-12.html"
   }
 ]

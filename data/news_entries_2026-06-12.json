@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-06-12",
+    "headline": "Oracle analyst tape after $70B FY27 capex shock: Stifel +$100 to $350 Buy, TD Cowen $300, Oppenheimer $275, Goldman $239; Wedbush CUTS $275→$240 on capital raise",
+    "summary": "The post-print analyst response to Oracle was bifurcated. Bulls re-anchored on the historic RPO ($638B, +363% YoY) and the structural AI-cloud demand signal: Stifel called it a 'blow-out quarter' and raised PT to $350 from $250 (Buy), TD Cowen to $300, Oppenheimer to $275, Evercore ISI to $245 (Outperform), and Goldman's Gabriela Borges to $239 from $228 (Buy). Wedbush's Dan Ives went the other way — CUT PT to $240 from $275 (Outperform maintained) explicitly citing the ~$40B planned debt-and-equity raise ($20B ATM equity + $20B debt) needed to fund the build. Cantor Fitzgerald reiterated Overweight $284. Citi remains Buy after September's 'historic bookings' upgrade. ORCL closed Thursday -13% — the financing-overhang narrative is winning the short-term tape even as long-duration AI-infra thesis is intact. Read-through to NVDA/AMD/AVGO/MU/Hynix/Samsung/DELL/SMCI/VRT remains structurally positive (the capex is going somewhere).",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet / Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/wedbush-lowers-oracle-stock-price-target-on-capital-raise-concerns-93CH-4737286"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Adobe Q2 FY26 beat but stock -5.5% AH: record $6.62B revenue (+13%), AI-first ARR triples to >$500M, FY26 raised to $26.55B — undone by CFO Dan Durn departure (to Marvell, June 15) on top of CEO search",
+    "summary": "Adobe delivered a clean Q2 beat: revenue $6.62B (+13% YoY, record), GAAP EPS $4.25 / non-GAAP $5.96, AI-first ARR >$500M (tripled YoY, doubled QoQ), FY26 revenue guide raised to $26.5-26.6B and non-GAAP EPS to $24.35-24.45 — both above consensus. But organic ARR guide for FY26 was REVISED DOWN by $500M, and CFO Dan Durn announced he's leaving June 15 to take the CFO role at Marvell Technology, with Steve Day (SVP Corp Finance) named interim CFO. Combined with the ongoing CEO search (Shantanu Narayen announced step-down in March), the back-to-back C-suite vacancies are the proximate cause of the -5.5% AH selloff and Friday's downgrade tape (see separate analyst entry). The thesis call is whether AI-first ARR growth (tripling YoY off a now-meaningful base) can offset the legacy Creative Cloud organic deceleration.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Adobe 8-K / Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-06-11/adobe-s-cfo-departs-leaving-company-seeking-top-executives"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Adobe downgraded across the desk: Stifel Buy→Hold $200, Evercore ISI Outperform→In Line $225, Goldman Sell $220→$190, DA Davidson cut $300→$250 — organic-ARR guide-down + leadership vacuum",
+    "summary": "Friday's analyst tape on Adobe was overwhelmingly negative. Stifel's Parker Lane downgraded to Hold from Buy and cut PT to $200 from $350. Evercore ISI moved to In Line from Outperform with PT $225 from $325. Goldman Sachs's Gabriela Borges maintained Sell and cut PT to $190 from $220. DA Davidson's Gil Luria kept Buy but cut PT to $250 from $300. The bear case crystallized: organic ARR FY26 guide CUT by $500M (legacy Creative deceleration), CFO departure 4 days post-announcement to Marvell, CEO search still open — all in the face of AI competitors (Canva, Figma, OpenAI image gen, Midjourney) that increasingly bracket Adobe's core. The AI-first ARR triple (>$500M) is the bull retort but the Street is pricing execution risk, not topline. House Rating remains an open question — this is closer to thesis-altering than a routine post-print reset.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Benzinga / GuruFocus",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/06/53163709/this-sailpoint-analyst-is-no-longer-bullish-here-are-top-3-downgrades-for-friday"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "May PPI +1.1% MoM (vs +0.7% est) / +6.5% YoY — largest 12-month rise since Nov 2022; jobless claims 229K (vs 219K est) — Fed still seen on hold June 17",
+    "summary": "Hot PPI: producer prices for final demand jumped +1.1% MoM seasonally adjusted in May, well above the +0.7% Street estimate, with the unadjusted 12-month index +6.5% — the largest YoY increase since November 2022. Initial jobless claims for the week ending June 6 rose 4K to 229K (vs 219K est), a three-month high; continuing claims +24K to 1.795M (vs 1.78M est). The combined macro print is stagflationary in flavor, BUT markets are still pricing the FOMC to hold rates steady at the June 17-18 meeting per fed-funds futures. Energy is the wedge in both CPI (+3.9% MoM in May, +23.5% YoY) and PPI given the Hormuz overhang. Read-through is mildly negative for duration AI longs but offset by the SpaceX IPO + Iran de-escalation rumor — net premarket bid in NDX futures.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "BLS / TradingEconomics",
+    "source_url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Sharon AI signs 6-year NVIDIA compute deal: 72 MW Australia datacenter buildout, 40,000 GB300 Grace Blackwell GPUs, revenue-share + credit-support model — SHAZ +25% premarket",
+    "summary": "Sharon AI announced a six-year strategic compute collaboration with NVIDIA to deploy 72 MW of new datacenter capacity in Australia using NVIDIA's DSX AI factory reference design and scaling to 40,000 GB300 Grace Blackwell GPUs. The structure is notable: revenue-share + NVIDIA credit support, where NVIDIA collects standard product revenue plus a cut of cloud revenue on the supported capacity. SHAZ +25% on the announcement. This continues the pattern of NVIDIA underwriting/anchoring neocloud capacity (CoreWeave/CRWV, Lambda, Nebius, Crusoe) to lock in long-term GPU placement and downstream cloud economics. Read-through: positive for NVDA (40K-GPU contract locked), CRWV (validates the model), and Australia DC supply chain (VRT, ETN, CSCO networking). Negative-adjacent for hyperscalers if neocloud capacity commits at scale before AWS/Azure/GCP slots come online.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "StreetInsider / Sharon AI press release",
+    "source_url": "https://www.streetinsider.com/Corporate+News/Sharon+AI+secures+six-year+compute+deal+with+NVIDIA+for+Australia+deployment/26638232.html"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "BofA's Vivek Arya raises AMD to $560 PT from $500, names AMD top CPU pick — Venice (AMD Advancing AI 2026) as near-term catalyst",
+    "summary": "Bank of America's Vivek Arya raised his price target on AMD to $560 from $500, keeping Buy, and named AMD his top CPU pick. The thesis pivots on the upcoming Venice (Zen 6 EPYC) launch at AMD's Advancing AI 2026 event and continued MI355/MI400 traction in AI inference. AMD has already had Bernstein upgrade to Outperform with $525 PT (May 6) and BofA had previously moved to $500. With AMD now ~+312% over the past year and the stock trading $452-$492 in recent sessions, the BofA call validates the late-cycle catch-up bid into the second AI compute name. Read-through is structurally bullish for AMD ahead of the Advancing AI 2026 conference and incrementally negative for INTC's server datacenter narrative.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet / Tikr",
+    "source_url": "https://www.tikr.com/blog/amd-stock-rose-130-in-2026-bofa-just-raised-its-target-to-560-heres-where-the-cfo-said-that-could-push-it-even-higher"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "SpaceX IPO debuts on Nasdaq today as SPCX: $135 fixed price, ~$1.77T valuation, $75-86B raised — largest IPO in history; perp markets pricing $150-200 open",
+    "summary": "Space Exploration Technologies Corp. (SPCX) opens for trading today on Nasdaq Global Select Market at a fixed $135/share, valuing the company at ~$1.77T (above Tesla, below only the top 5 mega-caps). The base offering of 555.6M shares raises ~$75B; full over-allotment lifts the total to ~$86.25B — the largest IPO in history by gross proceeds. Pre-open indicators are aggressive: Polymarket prices an open in the $150-200 range at 83%; offshore SpaceX perp contracts have traded around $177 (~30-37% above the IPO price). Elon Musk joined the opening-bell ceremony remotely from Texas; SpaceX executives rang the bell at the Nasdaq site in Times Square. Read-through: incremental risk-on signal for the tech mega-cap complex, possible capital rotation into SPCX from existing AI-infrastructure longs in early sessions, and a likely premium re-rating of comp-set space/launch/satellite-comms names.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com / TheStreet",
+    "source_url": "https://www.investing.com/news/stock-market-news/spacex-prices-ipo-at-135-per-share-for-june-12-nasdaq-debut-432SI-4738217"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Iran/Hormuz de-escalation: Israel-Iran ceasefire signaled; Trump says deal '2-3 days away' on reopening Hormuz — oil softens, NDX futures bid; JPM: 2M bpd already moving via transponder-off tankers",
+    "summary": "Risk-on rotation overnight on signals of de-escalation. Israel and Iran have indicated a ceasefire; President Trump publicly reiterated that a Hormuz-reopening agreement with Tehran is 'two or three days away.' Oil fell despite a brief spike after Trump accused Iran of shooting down a US Apache helicopter patrolling Hormuz (pilots reported safe). JPMorgan analysts note more oil is moving through Hormuz than is publicly visible — US Navy is quietly coordinating with some outbound tankers; ~2M bpd is estimated to be exiting via transponder-off vessels. Equity setup: Nasdaq futures higher, MAGS ETF +0.79% premarket ($65.40), NVDA premarket ~$205-206. Read-through is positive for the AI-compute / hyperscaler complex (rate-pressure relief), neutral-to-negative for fortress-energy names (CEG, VST, NEE) that benefited from the geopolitical bid, and mixed for GEV/ETN/VRT (still bid on AI buildout, but the macro-risk premium softens).",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "TheStreet / CNBC",
+    "source_url": "https://www.cnbc.com/amp/2026/06/09/oil-prices-iran-war-strait-hormuz-trump-israel-lebanon.html"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "Hang Seng -0.7% to 24,249 — 7th consecutive loss, lowest since July 2025; Asia tape split on Hormuz/PPI overhang vs AI memory bid",
+    "summary": "The Hang Seng Index closed -159 pts / -0.7% at 24,249 on Thursday, extending losses for a seventh consecutive session and printing the lowest level since July 2025. The decline is consistent with broader weakness in mainland China property + EV cohorts, offset only partially by the AI/semis bid. KOSPI and Nikkei specifics for Friday Asia close were not yet wired at the time of this brief — but the structural pattern from Thursday holds: SK Hynix +2.59% (KRW 2,101,000), Tokyo Electron +2.54%, Kioxia +7% (NAND tightness), Samsung -1.16% (giving back gains from OpenAI CEO Korea visit news). TSMC ex-dividend $0.955 on June 11. Watch for follow-through into TSM/ASML/SOXX premarket on the AMD BofA top-pick call.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TradingEconomics / Bloomberg",
+    "source_url": "https://tradingeconomics.com/hong-kong/stock-market"
+  },
+  {
+    "date": "2026-06-12",
+    "headline": "GE Vernova continues structural bid: +3.73% on June 11 close, AI-data-center power thesis intact; Q1 backlog $163B, FY26 guide $44.5-45.5B revenue, 12-14% EBITDA margins",
+    "summary": "GEV closed +3.73% Thursday, continuing the structural AI-power bid. The Q1 2026 print remains the anchor: EPS $1.98 on $9.34B revenue, $18.3B orders driving record $163B backlog; management targets a $200B backlog by 2027. FY26 guide: $44.5-45.5B revenue, 12-14% adjusted EBITDA margin, $6.5-7.5B FCF. The product mix story matters: gas turbines (HA-class) are sold out into 2028; grid-equipment (transformers, switchgear) bid up by hyperscaler PPAs. Wider analyst tape recently active on GEV (Jefferies among them, though reports of the exact PT direction are mixed — multiple targets in the $1,090-$1,424 range, mean ~$1,210). The name remains the cleanest 'picks-and-shovels' AI-power large-cap.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "TradingKey / GE Vernova Q1 26 release",
+    "source_url": "https://www.tradingkey.com/news/market-movers/261961663-market-movers-gev-20260611"
+  }
+]

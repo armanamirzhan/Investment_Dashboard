@@ -1755,5 +1755,33 @@
     "signal_type": "earnings_beat",
     "description": "Q4 FY2026 EPS $2.11 beat $1.89 consensus. Announced ~$70B datacenter capex plan for next year; stock fell on funding concerns but announcement drove broad AI hardware recovery in pre-market.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ADBE",
+    "signal_type": "earnings_miss",
+    "description": "Q2 headline beat but FY26 organic ARR guide CUT $500M; CFO Dan Durn departs June 15 to Marvell on top of open CEO search; 4 desks downgrade/cut PT on Friday. Thesis at risk.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "BofA's Vivek Arya names AMD top CPU pick, PT $560 (from $500); Bernstein previously at Outperform $525. Venice (Zen 6 EPYC) launch at AMD Advancing AI 2026 is the near-term catalyst.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Bookings/RPO blow-out ($638B, +363% YoY) and FY27 OCI guide +58-64% — but stock -13% Thu on $70B+ FY27 capex + ~$40B planned debt/equity raise. Wedbush cuts PT $275→$240; Stifel raises $250→$350. Bifurcated tape.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Sharon AI 6-year 72 MW Australia + 40K GB300 GPU deal validates the NVDA-underwritten neocloud playbook; pairs with Oracle's $70B FY27 capex as the anchored TAM signal.",
+    "severity": "medium"
   }
 ]

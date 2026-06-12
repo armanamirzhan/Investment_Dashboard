@@ -2356,5 +2356,104 @@
     "new_target": 193,
     "old_rating": "Hold",
     "old_target": 187
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 350,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 275,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 245,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 239,
+    "old_rating": "Buy",
+    "old_target": 228
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ORCL",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 240,
+    "old_rating": "Outperform",
+    "old_target": 275
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ADBE",
+    "firm": "Stifel",
+    "new_rating": "Hold",
+    "new_target": 200,
+    "old_rating": "Buy",
+    "old_target": 350
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ADBE",
+    "firm": "Evercore ISI",
+    "new_rating": "In Line",
+    "new_target": 225,
+    "old_rating": "Outperform",
+    "old_target": 325
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ADBE",
+    "firm": "Goldman Sachs",
+    "new_rating": "Sell",
+    "new_target": 190,
+    "old_rating": "Sell",
+    "old_target": 220
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "ADBE",
+    "firm": "DA Davidson",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Buy",
+    "old_target": 300
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "AMD",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 560,
+    "old_rating": "Buy",
+    "old_target": 500
   }
 ]

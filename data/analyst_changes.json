@@ -2455,5 +2455,14 @@
     "new_target": 560,
     "old_rating": "Buy",
     "old_target": 500
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "AMD",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 575,
+    "old_rating": "Neutral",
+    "old_target": 460
   }
 ]

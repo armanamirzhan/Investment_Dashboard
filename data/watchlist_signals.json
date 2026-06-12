@@ -1783,5 +1783,19 @@
     "signal_type": "momentum",
     "description": "Sharon AI 6-year 72 MW Australia + 40K GB300 GPU deal validates the NVDA-underwritten neocloud playbook; pairs with Oracle's $70B FY27 capex as the anchored TAM signal.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Nasdaq-100 inclusion announced June 12; effective pre-open June 22. Stock +5% intraday as index-tracking passive funds (~$350B+ QQQ AUM) will be required buyers. Joins RKLB and ALAB in the rebalance.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-12",
+    "ticker": "SMCI",
+    "signal_type": "legal_risk",
+    "description": "Trial-related reputational risk now explicitly flagged by multiple analysts after the $7B equity raise (June 10); stock cumulatively -28-31% over two sessions. Dilution + litigation combination amplifies downside scenario. Monitor trial calendar for near-term catalysts.",
+    "severity": "high"
   }
 ]

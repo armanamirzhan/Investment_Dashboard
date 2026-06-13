@@ -1797,5 +1797,26 @@
     "signal_type": "legal_risk",
     "description": "Trial-related reputational risk now explicitly flagged by multiple analysts after the $7B equity raise (June 10); stock cumulatively -28-31% over two sessions. Dilution + litigation combination amplifies downside scenario. Monitor trial calendar for near-term catalysts.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-13",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Bank of America issued a rare double-upgrade (Underperform to Buy), jumping two rungs without a Hold stop. Analyst Vivek Arya raised PT to $135 from $96, citing agentic AI as a powerful demand accelerant for the CPU market. BofA sees $6+ EPS power by 2030 vs prior $3-4 estimate. Stock up 5-9% intraday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-13",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "KLA hit an all-time high as the Intel BofA double-upgrade revived confidence in the semiconductor equipment upcycle extending into 2027-2028. Cantor Fitzgerald raised its PT to $2,500 from $2,000 on June 11. Advanced node (2nm) inspection intensity is a structural tailwind.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-13",
+    "ticker": "LRCX",
+    "signal_type": "momentum",
+    "description": "Lam Research hit an all-time high alongside the broader semiconductor equipment rally. Cantor Fitzgerald raised PT to $425 from $320 on June 11; Wells Fargo maintained Overweight with PT $365. Lam also raised its wafer fabrication equipment market forecast at the BofA Global Technology Conference this week.",
+    "severity": "medium"
   }
 ]

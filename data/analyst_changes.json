@@ -2464,5 +2464,14 @@
     "new_target": 575,
     "old_rating": "Neutral",
     "old_target": 460
+  },
+  {
+    "date": "2026-06-13",
+    "ticker": "INTC",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 135,
+    "old_rating": "Underperform",
+    "old_target": 96
   }
 ]

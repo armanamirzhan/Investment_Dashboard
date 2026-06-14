@@ -2473,5 +2473,23 @@
     "new_target": 135,
     "old_rating": "Underperform",
     "old_target": 96
+  },
+  {
+    "date": "2026-06-14",
+    "ticker": "STM",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 100,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-14",
+    "ticker": "MU",
+    "firm": "Goldman Sachs",
+    "new_rating": "Neutral",
+    "new_target": 900,
+    "old_rating": "Neutral",
+    "old_target": 400
   }
 ]

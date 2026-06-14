@@ -1818,5 +1818,12 @@
     "signal_type": "momentum",
     "description": "Lam Research hit an all-time high alongside the broader semiconductor equipment rally. Cantor Fitzgerald raised PT to $425 from $320 on June 11; Wells Fargo maintained Overweight with PT $365. Lam also raised its wafer fabrication equipment market forecast at the BofA Global Technology Conference this week.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-14",
+    "ticker": "STM",
+    "signal_type": "momentum",
+    "description": "Bank of America upgraded STMicroelectronics to Buy (from Neutral) on June 10 with a Street-high $100 PT, arguing the market materially underestimates its earnings power. AI datacenter revenue doubled to ~$1B in 2026 vs prior >$500M guidance; optical interconnect for datacenters and LEO satellite demand cited as structural drivers. Stock rallied 5.7% on June 11 as multiple brokers followed with PT hikes.",
+    "severity": "medium"
   }
 ]

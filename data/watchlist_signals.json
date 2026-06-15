@@ -1846,5 +1846,12 @@
     "signal_type": "momentum",
     "description": "Broadcom rallied pre-market on Daiwa's Buy upgrade ($225 PT, four-driver thesis: ASIC, networking, VMware, core semi) — first major desk to flip post-Q3 guide-down. Stock down ~33% from Dec 2024 high; technical reset complete and analyst tape has rotated constructive (BofA, Citi previously). The setup is a high-Sharpe medium-term entry if the H2 ASIC ramp with Google/Meta tracks consensus.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "SMR",
+    "signal_type": "momentum",
+    "description": "NuScale +10.97% intraday on June 15 as SMR narrative strengthens: ENTRA1/TVA up-to-6GW deployment path, Romania RoPower advancement, and addition of former NRC chair Dale Klein to board. BofA reinstated at Neutral/$12 same session (cautions revenue meaningful only in early 2030s). Stock volatile around $10-11 range.",
+    "severity": "medium"
   }
 ]

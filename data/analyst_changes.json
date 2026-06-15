@@ -2500,5 +2500,14 @@
     "new_target": 225,
     "old_rating": "Outperform",
     "old_target": 275
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "SMR",
+    "firm": "Bank of America",
+    "new_rating": "Neutral",
+    "new_target": 12,
+    "old_rating": null,
+    "old_target": null
   }
 ]

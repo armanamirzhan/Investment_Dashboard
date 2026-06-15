@@ -1825,5 +1825,26 @@
     "signal_type": "momentum",
     "description": "Bank of America upgraded STMicroelectronics to Buy (from Neutral) on June 10 with a Street-high $100 PT, arguing the market materially underestimates its earnings power. AI datacenter revenue doubled to ~$1B in 2026 vs prior >$500M guidance; optical interconnect for datacenters and LEO satellite demand cited as structural drivers. Stock rallied 5.7% on June 11 as multiple brokers followed with PT hikes.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix closed +15.97% Monday at KRW 2,215,000 — single largest session gain of 2026 — on combined Iran peace-deal risk-off-to-on rotation and structural HBM3E supercycle bid (2026 supply sold out, 2027 mostly committed). Kospi printed all-time high. HBM market share 53% (vs Samsung 35%). Q1 FY26 record results: $35.5B revenue, $27.8B op profit. Imminent US ADR listing adds discoverability tailwind. Momentum signal HIGH severity given the magnitude and global semiconductor-sentiment leadership.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung Electronics closed +8.97% Monday at KRW 322,000 — second-largest single-session gain of 2026 — on combined Iran peace-deal risk-on rotation and continued HBM ramp (35% share, expanding ~50% in FY26). Q1 FY26 semiconductor op profit $36.1B (~94% of group profit). Memory chief warned of 'significant shortages' through 2027. P5 fab online 2028, M15X mid-2027. The trade is to own the second-place HBM vendor at a structurally cheaper multiple than SK Hynix.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Broadcom rallied pre-market on Daiwa's Buy upgrade ($225 PT, four-driver thesis: ASIC, networking, VMware, core semi) — first major desk to flip post-Q3 guide-down. Stock down ~33% from Dec 2024 high; technical reset complete and analyst tape has rotated constructive (BofA, Citi previously). The setup is a high-Sharpe medium-term entry if the H2 ASIC ramp with Google/Meta tracks consensus.",
+    "severity": "medium"
   }
 ]

@@ -1844,5 +1844,105 @@
       }
     ],
     "file": "morning-news/2026-06-12.html"
+  },
+  {
+    "date": "2026-06-15",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+15.97% Seoul close to KRW 2.215M record high — single largest 2026 session; Kospi ATH on Iran relief + HBM bid"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+8.97% Seoul close to KRW 322k — second-largest 2026 session; Q1 semi op profit $36.1B / sold-out HBM ramp"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Daiwa UPGRADES to Buy $225 PT — first major desk flip post-Q3 guide-down; four-driver thesis (ASIC/networking/VMware/core)"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "+4% premarket on Iran relief + ongoing BofA $560 PT halo (Venice CPU catalyst)"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+2% premarket on macro risk-on rotation; AI infra complex bid"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+2% premarket; BofA double-upgrade $135 still anchoring foundry/agentic-CPU thesis"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Memory complex rip into FQ3 print June 24; Goldman PT $400→$900 last Friday"
+      },
+      {
+        "ticker": "SPCX",
+        "direction": "up",
+        "note": "+8.1% to $173.95 early; underwriter overallotment FULLY exercised — total raise $85.7B (largest IPO ever)"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "down",
+        "note": "Analyst PT trim toward $370 (from $400 area) on rate vol + Vistra-nuclear-PPA competition"
+      },
+      {
+        "ticker": "META",
+        "direction": "neutral",
+        "note": "Reliance India 168 MW DC lease + 1 GW renewables JV (CleanMax / Fourth Partner) — first major APAC footprint"
+      },
+      {
+        "ticker": "macro",
+        "direction": "up",
+        "note": "Iran peace deal FORMALIZED Sun night — signing Fri Switzerland; WTI -4.77% to $80.83; Nikkei +5.5%, Kospi +5.7%"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Empire State June 5.7 vs +13.2 est — soft headline, internals OK (orders +3.5, shipments +8.6, employment +9.6 holds)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "000660.KS",
+        "signal": "high-momentum (record session +16%)"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "high-momentum (+9% second-largest session)"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "momentum (Daiwa upgrade)"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "MU",
+        "signal": "earnings runway (June 24)"
+      },
+      {
+        "ticker": "CEG",
+        "signal": "PT trim watch"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Iran peace / oil risk-premium unwind"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Asia memory supercycle bid"
+      }
+    ],
+    "file": "morning-news/2026-06-15.html"
   }
 ]

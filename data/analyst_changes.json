@@ -2491,5 +2491,14 @@
     "new_target": 900,
     "old_rating": "Neutral",
     "old_target": 400
+  },
+  {
+    "date": "2026-06-15",
+    "ticker": "AVGO",
+    "firm": "Daiwa",
+    "new_rating": "Buy",
+    "new_target": 225,
+    "old_rating": "Outperform",
+    "old_target": 275
   }
 ]

@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026-06-16",
+    "headline": "BoJ HIKES to 1% — highest since 1995, 7-1 vote (Asada dissent); Nikkei intraday print 70,000 ATH then closes +0.46%, yen firms to 160.22 — first 25bp move designed to head off Iran-energy-shock inflation pass-through",
+    "summary": "The Bank of Japan delivered a 25bp rate hike to 1.00% on Tuesday — its first time at that level since 1995 — on a 7-1 vote with Toichiro Asada dissenting for a hold. Governor framed the decision as front-loading insurance against Iran-war energy-shock pass-through into core CPI rather than a hawkish pivot. Market reaction was contained: Nikkei 225 printed an intraday all-time high of 70,000 before closing +0.46%, USD/JPY ticked stronger to 160.22, and the 10Y JGB yield climbed +3bp to 2.615%. Read-through for the AI infra complex: (1) higher Japanese rates lift hedging costs for US-domiciled hyperscaler buildouts financed with JGB-proxy duration but the absolute level remains accommodative; (2) firmer yen modestly de-rates Japan semicap exporters Tokyo Electron (8035.T) and Shin-Etsu (4063.T) on FX translation, but both names held their gains on the day with the Nikkei intraday print; (3) confirms the cross-DM central-bank willingness to defend price stability — a structural negative for ultra-long-duration AI capex paper if it spreads to ECB / Fed messaging. FOMC starts today in DC (decision Weds); market still pricing 98.4% hold at 3.5-3.75%.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/16/boj-rate-hike-historic-inflation.html"
+  },
+  {
+    "date": "2026-06-16",
+    "headline": "SpaceX (SPCX) acquires Anysphere (Cursor) for $60B all-stock, 4 days after $85.7B IPO — first major post-listing deal; SPCX +8.9% pre-market; $10B break fee, $4B antitrust fee, X67 sub-merger; AI-coding consolidation accelerates",
+    "summary": "SpaceX announced Tuesday morning it will acquire Anysphere, the AI-coding startup behind Cursor, for $60B in an all-stock transaction via SpaceX subsidiary X67 — the largest pure-AI-software deal ever and the first major M&A from a SpaceX cap structure that was public for only four trading days. Pre-market: SPCX +8.9%. Deal mechanics: stock-for-stock (IPO cash NOT being deployed), $10B termination fee, $4B regulatory (antitrust) termination fee, close targeted Q3 2026. Strategic read-through: (1) Cursor's enterprise AI-coding agent gets fused with xAI's compute + Tesla Dojo + Starlink distribution, materially expanding the SpaceX AI surface area beyond launch services; (2) competing AI-IDE and developer-tools incumbents — GitHub (MSFT), Replit, JetBrains, plus internal AI-coding programs at GOOGL/META — face a clearer threat vector; (3) the multiple paid implies $60B for a sub-$1B-revenue startup — a re-rating data point for the AI software cohort. Read-through to tracked AI-software names (PLTR, CRM, NOW, SNOW): a marginal positive on multiple compression of the comp set, since the takeout-premium discussion is now live again. CRM and NOW already have AI-coding offerings to defend; PLTR's ontology / AIP layer differentiated. Antitrust risk on regulatory close given Musk's combined SpaceX/Tesla/xAI footprint is the principal completion risk.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/16/-spacex-to-buy-cursor-ai-parent-anysphere-for-60-billion.html"
+  },
+  {
+    "date": "2026-06-16",
+    "headline": "Asia tape extends Monday rip: Kospi +2.11% to 8,726.6 (record), SK Hynix +4% open KRW 2.381M, Samsung +1.5% to KRW 343k, Nikkei intraday 70k then +0.46% — Iran-relief + HBM bid + BoJ-as-expected combine for second consecutive risk-on session",
+    "summary": "South Korea's Kospi added another +2.11% to a fresh all-time-high close of 8,726.6, building on Monday's +5.7% post-Iran-relief gap. Memory leaders extended: SK Hynix (000660.KS) opened +4% at KRW 2,381,000 — adding to Monday's +15.97% record session; Samsung Electronics (005930.KS) +1.5% to KRW 343,000 after Monday's +8.97%. Japan's Nikkei printed 70,000 intraday for the first time before closing +0.46% — BoJ 25bp hike absorbed without selling because (a) priced in (98%+ market implied), (b) Iran-relief tailwind dominated, (c) export-currency hedge unwind from defense names (Korean defense complex up sharply on resumed arms exports post-Iran). Tokyo Electron (8035.T) and Shin-Etsu Chemical (4063.T) held gains. Two-day cumulative move in the memory complex: SK Hynix ~+20%, Samsung ~+10.5% — a structural HBM/Iran-relief combo that materially compresses any 'cheap memory' thesis into Micron earnings June 24. TSMC (TSM) flat-to-up overnight on no fresh catalyst — May revenue print (+30% YoY to NT$416.98B / $13.25B) already digested.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/more/261969565-samsung-skhynix-kospi-nikkei225-tradingkey"
+  },
+  {
+    "date": "2026-06-16",
+    "headline": "FOMC two-day meeting begins today — Warsh's debut as chair; 98.4% probability of hold at 3.50-3.75% (CME FedWatch); May CPI 4.2% / PPI 6.5% Iran-energy-shock backdrop, post-FOMC presser Wed 2:30 PM ET the marquee tape event",
+    "summary": "The Federal Reserve's two-day FOMC kicks off Tuesday, with the rate decision and statement at 2:00 PM ET Wednesday — Kevin Warsh's first meeting as chair. CME FedWatch implies 98.4% probability of holding the Fed funds target at 3.50-3.75%. The setup is binding: (1) headline CPI re-accelerated to 4.2% YoY in May with PPI +6.5% — Iran-shock-driven, but core sticky; (2) the Iran peace deal (signing Friday) is already collapsing oil and the energy contribution should fade by August prints; (3) Warsh has openly criticized FOMC presser practice — markets handicap a TIGHTER, more terse Q&A style than Powell, which raises the tail-risk to either side. For tracked AI infra names: a hawkish dot-plot shift (any 2027 cut withdrawal) would pressure long-duration nuclear/utility names (CEG, VST, NEE) and hyperscaler equipment financing comps; a dovish hold with Iran-pivot language (acknowledging energy disinflation already in train) would re-rate the entire AI-capex cohort higher into July OpEx. Position into the print: typical 3-5% straddle pricing across SOX / hyperscalers, watch for analyst desks to reposition Thursday morning. Empire State Manufacturing yesterday printed soft (5.7 vs 13.2 est) — doesn't move the dial today.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Kiplinger",
+    "source_url": "https://www.kiplinger.com/news/live/fed-meeting-updates-and-commentary-june-2026"
+  },
+  {
+    "date": "2026-06-16",
+    "headline": "SK Hynix (000660.KS) ADR — SEC clearance expected week of June 22 per multiple desk reports; August NYSE/Nasdaq debut targeted, $14B raise on the table — would be the largest non-US listed-issuer ADR ever and a structural re-rating event for the memory complex",
+    "summary": "Multiple reports over the weekend converged on a tighter SK Hynix ADR timeline: SEC effective-date clearance expected the week of June 22, with the listing debut targeted as soon as August 2026. Indicative size: $14B raise — which would rank as the largest non-US listed-issuer ADR offering ever. Structural read-through: (1) US passive index flows would be forced bidders for SK Hynix once it's included in MSCI/FTSE US ADR index families — a multi-year mechanical bid; (2) the HBM supply concentration to SK Hynix (60-70% of Nvidia Vera Rubin HBM4) makes US ADR access a hedge tool for funds running underweight memory; (3) bridges directly to MU's June 24 print — a clean MU beat-and-raise plus SK Hynix US listing in same window would mark the inflection point of the HBM supercycle re-rate. Risk: any KFTC / Korean ministry pushback on capital outflow could push timing into Sep-Oct; secondary risk is OFAC/CFIUS scrutiny on the HBM-to-Nvidia supply route. Samsung (005930.KS) does NOT have an ADR pipeline announced — incremental positive for relative-flow positioning.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Ad-hoc-news / TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261958030-skhynix-adr-ipo-sec-dram-mu-tradingkey"
+  },
+  {
+    "date": "2026-06-16",
+    "headline": "Oracle (ORCL) funding-gap watch deepens: FY27 capex guide $70B vs FY26 cash flow $32B — plan to raise $20B debt + $20B ATM equity to bridge; SA contributor cluster cuts to Hold (capex monetization, FCF, dilution); stock -6.44% on June 5, still grinding lower",
+    "summary": "Oracle's post-Q4 FY26 funding picture continues to sour analyst commentary heading into Tuesday's session. Management's FY27 capex guide of $70B sits against only $32B of FY26 cash flow from operations — a $38B funding gap the company plans to bridge with $20B of new debt and $20B from an at-the-market equity offering, implying material dilution at compressed multiples. Negative FCF for FY26 of -$23.7B was driven by $55.7B of realized capex (above original guidance). Wall Street has been mixed but the SA contributor cohort consolidated around a Hold this week citing: (1) inability to monetize Stargate / OCI capex on the company's own timeline given US datacenter / power constraints, (2) competitive AI compute pricing pressure as ANTHROPIC compute moves cross-cloud and HYPERSCALER pricing wars escalate, (3) execution risk on the 30,000-person final-phase layoff completed June 15. Read-through: incrementally negative for SMCI (Oracle was historically a 40%+ AI-server customer concentration — any ORCL capex slip propagates), and a relative-value buy signal for hyperscalers (MSFT/AMZN/GOOGL) with self-funded capex profiles. Watch for ORCL to underperform the AI infra basket today if pre-market chip bid extends.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha / MSN",
+    "source_url": "https://www.msn.com/en-us/money/topstocks/analysts-upgrade-alphabet-nvidia-downgrade-oracle-smci/ss-AA25w7W1"
+  }
+]

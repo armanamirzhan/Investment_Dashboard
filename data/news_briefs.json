@@ -1944,5 +1944,81 @@
       }
     ],
     "file": "morning-news/2026-06-15.html"
+  },
+  {
+    "date": "2026-06-16",
+    "tickers": [
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "BoJ hikes 25bp to 1% (highest since 1995, 7-1 vote, Asada dissent); Nikkei intraday 70k ATH, closes +0.46%"
+      },
+      {
+        "ticker": "SPCX",
+        "direction": "up",
+        "note": "Acquires Anysphere/Cursor for $60B all-stock — first post-IPO deal, SPCX +8.9% pre-market"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+4% open KRW 2.381M; ADR SEC clearance week of June 22 per reports, Aug debut targeted, $14B raise"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+1.5% to KRW 343k, extends Monday's +8.97%"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "FY27 capex $70B vs $32B cash flow; $20B debt + $20B ATM equity plan; SA cluster cuts to Hold"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "FOMC Day 1; Warsh debut; 98.4% hold expected at 3.50-3.75% — decision + presser Weds 2:00/2:30 PM ET"
+      },
+      {
+        "ticker": "macro",
+        "direction": "up",
+        "note": "Iran deal signing Fri Switzerland reconfirmed; Brent ~$83, WTI lower, futures S&P +0.1-0.3%"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "8 trading days to June 24 FQ3 print — guide $33.5B vs $34.8B consensus; HBM ASP confirm is the swing"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "000660.KS",
+        "signal": "high-momentum (ADR clearance imminent)"
+      },
+      {
+        "ticker": "SPCX",
+        "signal": "M&A — $60B Cursor takeout"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "funding gap / dilution watch"
+      },
+      {
+        "ticker": "macro",
+        "signal": "BoJ 25bp hike absorbed"
+      },
+      {
+        "ticker": "macro",
+        "signal": "FOMC Warsh debut Weds"
+      },
+      {
+        "ticker": "MU",
+        "signal": "earnings runway (June 24)"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Asia memory supercycle bid extends"
+      }
+    ],
+    "file": "morning-news/2026-06-16.html"
   }
 ]

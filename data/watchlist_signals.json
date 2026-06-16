@@ -1853,5 +1853,26 @@
     "signal_type": "momentum",
     "description": "NuScale +10.97% intraday on June 15 as SMR narrative strengthens: ENTRA1/TVA up-to-6GW deployment path, Romania RoPower advancement, and addition of former NRC chair Dale Klein to board. BofA reinstated at Neutral/$12 same session (cautions revenue meaningful only in early 2030s). Stock volatile around $10-11 range.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "Two-session cumulative +20% on Iran relief + HBM bid + ADR clearance imminent (SEC effective week of June 22). Closed +4% Tue at KRW 2.381M. Watch for profit-taking into US ADR debut.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "ORCL",
+    "signal_type": "overvalued",
+    "description": "$70B FY27 capex vs $32B FY26 cash flow + $20B ATM equity raise plan = dilution path. SA contributor cluster downgrades to Hold this week. Funding gap material relative to AI revenue monetization timeline.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Goldman PT $900 (raised from $400, June 14) + SK Hynix +20% two-day move + Iran relief positions MU for setup risk into June 24 FQ3 print. Guide is $33.5B ±$750M vs $34.8B consensus — bull case needs HBM3E ASP confirm.",
+    "severity": "medium"
   }
 ]

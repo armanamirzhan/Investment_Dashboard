@@ -2572,5 +2572,41 @@
     "new_target": 353,
     "old_rating": "Outperform",
     "old_target": 330
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "GEV",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 1206,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "CEG",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 296,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "BE",
+    "firm": "Bernstein",
+    "new_rating": "Market Perform",
+    "new_target": 276,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "AVGO",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": "Overweight",
+    "old_target": null
   }
 ]

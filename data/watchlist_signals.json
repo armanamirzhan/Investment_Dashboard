@@ -1895,5 +1895,19 @@
     "signal_type": "momentum",
     "description": "FERC approves 760 MW capacity-rights transfer to Crane (Three Mile Island restart) — de-risks the Microsoft Azure PPA delivery economics on the marquee AI-nuclear restart project. Structural positive for restart-trade cohort (CEG, VST, TLN).",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Bernstein initiates at Outperform with $1,206 PT (16% upside); cites GE Vernova as a primary beneficiary of AI datacenter power build-out, gas turbine backlog, and grid modernization cycle.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "JPMorgan confirms Google TPU v9 2nm ASIC program on track for 2028 volume production with no delays; AI revenue visibility extends through 2031 (v8-v11 generations). Projects AI revenue to grow 2-2.5x in 2027 then double again in 2028.",
+    "severity": "medium"
   }
 ]

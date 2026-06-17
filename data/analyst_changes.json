@@ -2536,5 +2536,41 @@
     "new_target": 1200,
     "old_rating": "Outperform",
     "old_target": 525
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "PLTR",
+    "firm": "Wolfe Research",
+    "new_rating": "Peer Perform",
+    "new_target": null,
+    "old_rating": "Underperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "VRT",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 387,
+    "old_rating": "Buy",
+    "old_target": 347
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "VRT",
+    "firm": "Roth Capital",
+    "new_rating": "Buy",
+    "new_target": 355,
+    "old_rating": "Buy",
+    "old_target": 335
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "VRT",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 353,
+    "old_rating": "Outperform",
+    "old_target": 330
   }
 ]

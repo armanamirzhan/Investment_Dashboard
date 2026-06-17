@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-06-17",
+    "headline": "FOMC Day — Warsh's debut presser at 2:30 PM ET; 97% probability of hold at 3.50-3.75% per CME FedWatch; 55% of BoA survey expect HAWKISH tone, raising tail-risk to either side for AI-capex duration cohort",
+    "summary": "The Federal Reserve announces its rate decision at 2:00 PM ET today, with Kevin Warsh's debut press conference 30 minutes later — the marquee tape event of the week. Setup: (1) CME FedWatch implies 97-98% probability of a hold at 3.50-3.75%, so the rate line itself is fully priced; (2) Bank of America's latest fund-manager survey shows 55% of respondents expect Warsh to strike a hawkish tone in the Q&A, raising the tail-risk on the dovish side if he surprises with Iran-pivot language acknowledging energy disinflation already in train; (3) Warsh has openly criticized Powell-era presser practice and may run a terser, more market-data-driven Q&A — handicap a TIGHTER style than markets are used to, which front-loads the volatility into the first 20 minutes of the 2:30 PM session; (4) Warsh has separately signaled FOMC meetings may drop from 8 per year to as few as 4 — any framing of that today is a structural duration-curve event. Read-through for tracked AI infra names: a hawkish-leaning dot-plot shift (e.g. any withdrawal of 2027 cuts) pressures long-duration nuclear/utility cohort (CEG, VST, NEE) and tightens hyperscaler financing comps for ORCL/CRWV/SMCI capex paper. A dovish hold with energy-disinflation acknowledgement re-rates the entire AI-capex basket. Pre-market: S&P 500 futures edge higher, chips snap back after Tuesday's slide, 10Y yield slightly firmer.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "TheStreet / Yahoo Finance",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Pre-market chip snapback: AMD / AVGO / MU / MRVL / INTC bid after Tuesday's outsized drop; oversold technical setup + Iran-relief tailwind extending into FOMC straddle hour — S&P 500 edges higher ahead of 2 PM ET",
+    "summary": "US semiconductor names are catching a bid in pre-market after Tuesday's broad sell-off across NVDA, AMD, INTC, MU, MRVL, and AVGO left the cohort technically oversold. The rebound is supported by: (1) cumulative Iran-relief tailwind from Monday's ceasefire — Brent now ~$68 / WTI ~$65, roughly 17% off conflict peak, erasing the energy risk premium; (2) Broadcom's strong Q3 guide (rev $29.4B, +89% YoY, AI semis ~$16B in the single quarter) underpinning the sector; (3) Asia tape constructive — HBM complex continues to rip with SK Hynix and Samsung extending Monday's record-session gains. Note: AVGO last $383.50 in early Wednesday tape; pre-market straddle pricing across the SOX cohort is typical 3-5% into the 2:30 PM Warsh presser, so positioning into the print should be size-disciplined. Jabil (JBL) reports before the open this morning at $3.10 EPS / $8.61B rev expected — a clean AI-capex demand read for the contract-manufacturer channel. Mid-day Asia close (June 17): both Nikkei and Kospi held overnight gains on no fresh selling pressure ahead of the FOMC.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks / Investing.com",
+    "source_url": "https://www.tipranks.com/news/why-ai-chip-stocks-nvda-amd-intc-and-avgo-are-rising-today-june-15-2026"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Jabil (JBL) Q3 FY26 BMO: Street looking for $3.10 EPS / $8.61B rev (+9% YoY, +21% adj EPS YoY); cloud-AI infra capex tone the marquee read for ANET / SMCI / VRT cohort; after-hours +0.8% to $378.51",
+    "summary": "Jabil reports fiscal Q3 2026 results before the open Wednesday — Street consensus $3.10 adj EPS on $8.61B revenue, implying +9% YoY top-line and ~+21% YoY adj-EPS growth. JBL is one of the cleanest channel checks on hyperscaler / cloud-AI capex pacing because its Intelligent Infrastructure segment captures network switching, optical, liquid-cooling, and AI-server contract-manufacturing volumes for the named hyperscalers. Watch for: (1) Intelligent Infrastructure organic growth guide for FY27 — anything north of +25% confirms the Broadcom-extended bull case for ANET / MRVL / AVGO; (2) capex digestion commentary on the Oracle / Stargate channel given Oracle's FY27 $70B capex guide controversy; (3) gross-margin trajectory under tariff and DRAM cost pressure. Last-print after-hours bid $378.51 (+0.8%). Read-through is largest for SMCI (which shares hyperscaler-AI-server channel concentration), VRT (cooling content), and ANET (switching ASP comp). JBL hasn't been a House Rating sleeve to date — but a clean beat-and-raise plus FY27 guide solidification could prompt a watchlist-add discussion later this week.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/insights/earnings/26/06/53244863/earnings-scheduled-for-june-17-2026"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Wolfe Research upgrades Palantir (PLTR) to Peer Perform from Underperform — Alex Zukin calls PLTR 'best product market fit of any enterprise software company,' Ontology layer the durable moat; stock -26% YTD, opened down 2% on the upgrade",
+    "summary": "Wolfe Research lead software analyst Alex Zukin upgraded Palantir Technologies (PLTR) to Peer Perform from Underperform on Tuesday, resuming coverage with the line 'too big to ignore in enterprise AI.' Zukin did NOT set a hard price target but framed Palantir's Ontology framework as the durable differentiator vs. SNOW / CRM / NOW / Databricks AI-platform competitors, citing the 'best product market fit of any enterprise software company in the market today.' Context: PLTR is down ~26% YTD in 2026 despite Q1 revenue +85% YoY to $1.63B and adj EPS 2.5x to $0.33 — the underperformance has been multiple compression on a name that traded as high as 70x sales. Stock paradoxically traded down ~2% on the upgrade day as the buy-side concluded a removal-of-underweight is less actionable than a new high-conviction long. Read-through: (1) marginal positive sentiment cap-set for high-multiple AI software (PLTR's destruction had been a valuation overhang for the entire cohort); (2) re-rates Wolfe-internal compare-set ordering — watch for sister coverage actions on SNOW, MDB. Combined with the SpaceX/Cursor $60B all-stock deal Tuesday, the AI-software re-rating discussion is structurally re-engaged.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4604025-palantir-in-focus-as-wolfe-research-puts-peer-perform-rating-highlights-ai-opportunities"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Vertiv (VRT) datacenter-cooling PT raises cluster: TD Cowen $387 (from $347), Roth Capital $355 (from $335), Oppenheimer $353 (from $330) — 27-analyst consensus now Strong Buy with $378 average PT; reflects sustained hyperscaler liquid-cooling order conversion",
+    "summary": "Three separate Vertiv (VRT) price-target raises converged across mid-June desks, each tied to the same thesis: hyperscaler liquid-cooling content per AI-server rack is growing faster than Vertiv can ramp manufacturing capacity, and orders are converting to revenue with shorter lag than the rest of the datacenter-equipment cohort. New PT stack: TD Cowen (Lance Vitanza) $387 from $347; Roth Capital (Justin Clare) $355 from $335; Oppenheimer (Noah Kaye) $353 from $330. Aggregate-of-27 consensus rating remains Strong Buy with average 12-month PT now $378.31 — a ceiling roughly 12% above current spot, indicating sell-side is still chasing this name into the cycle. Read-through: (1) the cluster materially de-risks the H2 2026 earnings setup for VRT and validates the SMCI / ANET ride-along thesis on liquid-cooled rack content; (2) Eaton (ETN) consensus PT is currently $451.73 — flag any sympathy moves on ETN today as datacenter-switchgear capex commentary extends across the cohort; (3) Vertiv's order book commentary at the next earnings print should now carry incremental setup-risk given the embedded PT levels. Confidence in datacenter buildout pace remains the dominant cross-cohort signal.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/stocks/vrt"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Constellation (CEG) Three Mile Island restart — FERC approves 760 MW capacity-rights transfer from sister Pennsylvania plant to Crane Clean Energy Center, securing Microsoft Azure PPA delivery economics; structural positive for the AI-nuclear restart trade",
+    "summary": "The Federal Energy Regulatory Commission approved Constellation Energy's June 8 request to transfer 760 MW of capacity interconnection rights from a separate Pennsylvania nuclear plant to the Crane Clean Energy Center — formerly Three Mile Island Unit 1 — under restart for the Microsoft Azure 20-year PPA signed in September 2023. The transfer materially de-risks the interconnection cost and timing for the Crane restart, which had been the single most scrutinized line item in the project's economics given PJM queue-clearing dynamics. Read-through: (1) clean positive for CEG H2 capex schedule and the Microsoft Azure 2028+ load-growth commitments; (2) precedent-positive for sister hyperscaler-nuclear restart plays — Vistra's Meta 6.6 GW PPA and any future Talen Energy (TLN) restarts may now reference the Crane interconnection-transfer template; (3) incremental headwind for natural-gas-peaker buildouts (GEV gas turbines pipeline) IF nuclear restarts can be capacity-shifted at this speed — but the volume of restart-available capacity is bounded by the small set of decommissioned units. CEG remains a House Rating Buy in our coverage; the FERC nod removes a tail-risk to project delivery without changing the thesis.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/news/market-movers/261961663-market-movers-gev-20260611"
+  },
+  {
+    "date": "2026-06-17",
+    "headline": "Iran ceasefire holds into Day 3: Brent sub-$70 / WTI ~$65 — full 17% drawdown from conflict peak; energy-disinflation impulse front-loads into the FOMC presser, supporting a dovish-lean Warsh framing if he engages on the August CPI fade",
+    "summary": "The US-brokered Iran-Israel ceasefire signed Friday continues to hold through Wednesday morning European tape, with Brent crude trading below $70/bbl and WTI at ~$65/bbl — a full ~17% drawdown from the conflict-peak high struck two weeks ago, completely erasing the Hormuz-disruption risk premium. Tony Sycamore at IG framed it as the risk premium being 'all but evaporated.' Hormuz shipping activity remains subdued (tanker insurance still elevated) but the directional read is clean. Critical for today's FOMC: (1) the May CPI print of 4.2% YoY was Iran-energy-shock-driven; the August CPI release should mechanically capture this energy unwind and is the cleanest decision input for September FOMC re-engagement on cuts; (2) Warsh now has the option to lean dovish in the presser without conceding inflation-fight credibility — a 'transitory energy shock, patience pays' framing. Read-through to AI infra: every basis point cut of duration premium re-rates the long-tail nuclear / utility cohort (CEG, VST, NEE) and lowers hyperscaler financing costs across ORCL/CRWV capex paper. Watch for OPEC+ July meeting positioning if oil stays sub-$70 into early July — sustained low oil compresses the energy-infrastructure capex narrative.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/05/29/oil-prices-iran-ceasefire-us-trump-strait-hormuz-energy-costs.html"
+  }
+]

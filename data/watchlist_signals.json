@@ -1874,5 +1874,26 @@
     "signal_type": "momentum",
     "description": "Goldman PT $900 (raised from $400, June 14) + SK Hynix +20% two-day move + Iran relief positions MU for setup risk into June 24 FQ3 print. Guide is $33.5B ±$750M vs $34.8B consensus — bull case needs HBM3E ASP confirm.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Three independent PT raises (TD Cowen $387, Roth $355, Oppenheimer $353) within 24 hours driven by sustained hyperscaler liquid-cooling order conversion; 27-analyst consensus Strong Buy with $378 average PT. Sell-side chasing into the cycle.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "PLTR",
+    "signal_type": "undervalued",
+    "description": "Wolfe Research removes Underperform after 26% YTD drawdown; Ontology layer cited as durable moat. AI-software cohort re-rating discussion re-engaged post-SpaceX/Cursor $60B deal. Buy-side conviction still rebuilding.",
+    "severity": "low"
+  },
+  {
+    "date": "2026-06-17",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "FERC approves 760 MW capacity-rights transfer to Crane (Three Mile Island restart) — de-risks the Microsoft Azure PPA delivery economics on the marquee AI-nuclear restart project. Structural positive for restart-trade cohort (CEG, VST, TLN).",
+    "severity": "medium"
   }
 ]

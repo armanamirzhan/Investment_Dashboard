@@ -2020,5 +2020,73 @@
       }
     ],
     "file": "morning-news/2026-06-16.html"
+  },
+  {
+    "date": "2026-06-17",
+    "tickers": [
+      {
+        "ticker": "JBL",
+        "direction": "neutral",
+        "note": "Q3 FY26 BMO — AI-capex channel check"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "Wolfe → Peer Perform from Underperform"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Three PT raises — cooling cycle"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "FERC OK 760 MW to Crane"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Pre-market chip snapback"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Oversold bounce post Tuesday slide"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Vera Rubin HBM supply intact"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "Capex-funding watch into FOMC"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "FOMC decision day — Warsh's debut presser"
+      },
+      {
+        "ticker": "SOX",
+        "signal": "momentum (pre-market chip snapback)"
+      },
+      {
+        "ticker": "VRT",
+        "signal": "momentum (3 PT raises — cooling cycle)"
+      },
+      {
+        "ticker": "CEG",
+        "signal": "momentum (FERC OK 760 MW to Crane)"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Iran ceasefire holds — Brent sub-$70"
+      }
+    ],
+    "file": "morning-news/2026-06-17.html"
   }
 ]

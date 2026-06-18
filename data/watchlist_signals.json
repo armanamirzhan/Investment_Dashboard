@@ -1909,5 +1909,61 @@
     "signal_type": "momentum",
     "description": "JPMorgan confirms Google TPU v9 2nm ASIC program on track for 2028 volume production with no delays; AI revenue visibility extends through 2031 (v8-v11 generations). Projects AI revenue to grow 2-2.5x in 2027 then double again in 2028.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "+9% pre-market on Trump-announced Apple foundry deal; third external 18A validation in two weeks (after Google 3M TPU, NVDA Feynman). Watch for company confirmation today.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "JBL",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 clean beat-and-raise; FY26 AI revenue outlook lifted to $13.6B from $13.1B. Cleanest AI-CM channel check confirms hyperscaler capex pacing ahead of supply chain plan.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix +6.51% to record KRW 2.685M; KOSPI breaks 9,000 for first time ever. ADR SEC clearance imminent (per reports — week of June 22).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung +4.62% to KRW 362.5k (record); foundry-pivot thesis intact since Apple-Intel deal limited to low-end M-series; Cook WSJ memory-shortage remarks bid the supply complex.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "CEG",
+    "signal_type": "overvalued",
+    "description": "Hawkish dot plot (median 3.8% by YE26) compresses long-duration nuclear-PPA discount; Iran MoU + Hormuz reopen removes fortress-energy bid. Directional rate sensitivity is the active overhang.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "VST",
+    "signal_type": "overvalued",
+    "description": "Same cross-current as CEG — hawkish dots compress 20-year Meta/AWS PPA economics; Iran energy normalization removes fortress bid.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "ORCL",
+    "signal_type": "legal_risk",
+    "description": "$20B ATM equity + $20B debt funding plan against $70B FY27 capex faces materially tougher cost-of-capital backdrop post-hawkish FOMC; dilution + financing optics worsen.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "FQ3 print June 24; HBM supercycle bid extended by Cook WSJ memory-shortage remarks + KOSPI 9,000 chip rally. Guide $33.5B vs $34.8B consensus — HBM ASP confirmation is the swing factor.",
+    "severity": "medium"
   }
 ]

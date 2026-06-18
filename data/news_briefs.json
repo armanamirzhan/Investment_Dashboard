@@ -2088,5 +2088,95 @@
       }
     ],
     "file": "morning-news/2026-06-17.html"
+  },
+  {
+    "date": "2026-06-18",
+    "tickers": [
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+9% pre-market on Trump-announced Apple foundry deal"
+      },
+      {
+        "ticker": "JBL",
+        "direction": "up",
+        "note": "Q3 FY26 beat-and-raise; FY26 AI rev to $13.6B"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +6.51% record; KOSPI breaks 9,000 ATH"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +4.62% record on Cook memory-shortage remarks"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "down",
+        "note": "Hawkish dots + Iran MoU = duration squeeze"
+      },
+      {
+        "ticker": "VST",
+        "direction": "down",
+        "note": "Same cross-current — fortress bid fades"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "Capex funding faces tougher cost-of-capital"
+      },
+      {
+        "ticker": "SPCX",
+        "direction": "down",
+        "note": "-3% pre-market post Cursor deal digestion"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "FQ3 June 24; HBM ASP confirmation the swing"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "HIVE/Cohere 2,304 Blackwell GPU sovereign-AI win"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Warsh hawkish: 9 of 18 dots project 2026 HIKE"
+      },
+      {
+        "ticker": "INTC",
+        "signal": "Apple foundry deal — 3rd 18A validation in 2 weeks"
+      },
+      {
+        "ticker": "JBL",
+        "signal": "AI-CM beat-and-raise — $13.6B AI rev"
+      },
+      {
+        "ticker": "KOSPI",
+        "signal": "9,000 ATH on Iran MoU + Cook memory comments"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US-Iran 14-point MoU signed — Hormuz reopen, $300B reconstruction"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "Duration squeeze on CEG/VST/NEE"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "Capex-funding watch into hawkish dots"
+      },
+      {
+        "ticker": "MU",
+        "signal": "FQ3 print June 24 — HBM ASP swing"
+      }
+    ],
+    "file": "morning-news/2026-06-18.html"
   }
 ]

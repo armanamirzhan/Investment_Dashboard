@@ -2608,5 +2608,14 @@
     "new_target": null,
     "old_rating": "Overweight",
     "old_target": null
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "VRT",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 210.0,
+    "old_rating": "Outperform",
+    "old_target": null
   }
 ]

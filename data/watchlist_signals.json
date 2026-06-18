@@ -1965,5 +1965,12 @@
     "signal_type": "earnings_beat",
     "description": "FQ3 print June 24; HBM supercycle bid extended by Cook WSJ memory-shortage remarks + KOSPI 9,000 chip rally. Guide $33.5B vs $34.8B consensus — HBM ASP confirmation is the swing factor.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "GOOGL",
+    "signal_type": "momentum",
+    "description": "$1.5B datacenter expansion in Jackson County, Alabama announced June 18 on former coal plant site; confirms hyperscaler capex acceleration into H2 2026 and deepens US domestic buildout strategy.",
+    "severity": "medium"
   }
 ]

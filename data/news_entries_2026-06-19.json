@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-06-19",
+    "headline": "US markets CLOSED Friday June 19 for Juneteenth (NYSE / Nasdaq / SIFMA bond market all dark) — equity / fixed-income reopens Monday June 22; CME futures and FX continue with abbreviated sessions",
+    "summary": "NYSE, Nasdaq, and the SIFMA-recommended US bond market are all closed Friday June 19, 2026 in observance of Juneteenth National Independence Day. Reopen is Monday June 22. CME equity-index, energy, and FX futures continue trading on holiday schedules (abbreviated globex sessions) so spot pricing on /ES, /NQ, crude, and CME crypto futures will still mark to market against today's Asia and Europe cash sessions. Implications: (1) any reactive trading off Thursday's late-tape catalysts (Accenture -16.8% guidance miss, Apple-Intel headline, Jabil beat-raise, FOMC dot-plot digest) compresses into Monday's open; (2) Monday is also the Nasdaq-100 quarterly rebalance effective date — passive fund reweight prints into the close, adding mechanical pressure; (3) Asia close prints (KOSPI, Nikkei, Hang Seng) and European session moves (ASML, Siemens Energy, Schneider) are the only live AI-infra read-throughs today; (4) FX desks pricing the USD off Iran ceasefire / Hormuz reopening will lead any Monday gap on US-listed ADRs.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "EBC Financial Group",
+    "source_url": "https://www.ebc.com/forex/is-the-stock-market-open-on-juneteenth"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "SK Hynix briefly crosses KRW 2,000 TRILLION market cap for the FIRST TIME — only the second Korean company ever after Samsung; KOSPI prints fresh ATH 9,385.59 intraday then reverses to close 9,052.42 (-0.13%) as concentration cracks",
+    "summary": "SK Hynix shares hit an all-time intraday high of KRW 2,891,000 Friday morning, lifting market cap to approximately KRW 2,059 trillion (~$1.31T) and making it the second Korean company ever to cross the W2,000tr threshold after Samsung Electronics. Stock closed +2.94% at KRW 2.764M, well off the high. KOSPI carried the print to a fresh intraday record of 9,385.59 — surpassing 9,300 for the first time — but reversed sharply on institutional selling as Samsung and SK Hynix together now represent OVER 50% of total KOSPI market cap. Index closed lower at 9,052.42 (-0.13%) as breadth deteriorated. Samsung Electronics peaked at KRW 374,500 (market cap ~W2,180tr) before fading. Read-through to House coverage: (1) confirms the HBM-supercycle bid is intact heading into MU June 24 print — Stifel / Deutsche / Wedbush / Citi / Rosenblatt all hiked Micron targets THIS WEEK (range $1,200-$1,500); (2) crowding signal is now extreme — yesterday Daishin Securities flagged only 100 advancers vs 810 decliners; today's intraday reversal is the first crack in two-week momentum and warrants tactical caution on 000660.KS / 005930.KS / MU heading into NVDA / MU H2 print cycle; (3) Samsung Foundry order book (AMD 2nm 2028, Google Axion / TPU diversification, BYD 2nm AV SoC, Tesla, Groq) is the structural underpin separate from HBM — see Samsung Foundry win column.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Korea Herald",
+    "source_url": "https://www.koreaherald.com/article/10781684"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Accenture (ACN) -16.8% after-hours / Friday Asia carry — Morgan Stanley DOWNGRADE to Hold ($177 PT from $240), Evercore ISI cuts to $180 (from $250), Berenberg cuts to $220 (from $273); global IT-services rout: Infosys -7.76%, TCS -5.83%, HCL -5.18%, Wipro -3.29%, Tech Mahindra -5.77%",
+    "summary": "Following Thursday's lackluster Q3 FY26 print, Accenture closed -16.8% (-$26.25 to $129.76) as Wall Street rerated the AI-services bookings thesis. Morgan Stanley's James Faucette pulled the rating to Hold from Buy and cut PT to $177 from $240. Evercore ISI lowered PT to $180 from $250 (Outperform maintained). Berenberg cut to $220 from $273 (Buy maintained). Drivers: new bookings -2-3% YoY ($19.3B), full-year revenue-growth guide narrowed to 3-4% local currency (4-5% ex-federal), $4.2B cyber acquisition push, and managed-services growth outpacing consulting (8% vs 4%) — read as enterprise preferring outcome-based long-tail contracts over expensive AI consulting engagements. Aftershock: Nifty IT plunged 5.74% Friday (sharpest single-session fall in months) on US listing rout — Infosys -7.76% to INR 1,040, TCS -5.83% to INR 2,074.90, Tech Mahindra -5.77%, HCL Technologies -5.18%, Wipro -3.29%. Read-through to House coverage: (1) NEGATIVE for enterprise-AI thesis on PLTR / SNOW / IBM — the most-watched single data point on whether 'enterprise AI = real revenue' showed soft conversion; (2) hyperscaler partner-channel risk — ACN is top-3 Azure / OCI implementer, so weak AI bookings is a yellow flag for MSFT / ORCL enterprise penetration narrative; (3) confirms federal DOGE drag (~1% revenue) is sticky overhang for entire federal-IT cohort; (4) Monday US open will price ACN against Friday's overseas tape — gap risk into Monday cash session.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/accenture-stock-acn-suffers-price-target-cuts-and-an-analyst-downgrade-after-lackluster-earnings"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Wall Street price-target SCRAMBLE on Micron (MU) ahead of June 24 print: Stifel $1,500 (from $550, +173%), Deutsche $1,500 (from $1,000), Wedbush $1,300 (from $500, +160%), Citi $1,200 (from $840), Rosenblatt $1,200 (from $600) — DRAM ASPs running at 2x Micron's own guide",
+    "summary": "The week before Micron's June 24 fiscal Q3 print, four major desks lifted price targets aggressively: Stifel's Brian Chin raised PT to $1,500 from $550 (Buy maintained), noting 'conventional DRAM ASPs are running at roughly twice what Micron initially projected.' Deutsche Bank's Melissa Weathers lifted to $1,500 from $1,000, projecting May-Q revenue of $35.1B and CY27 EPS of $160. Wedbush's Matthew Bryson raised to $1,300 from $500 (9x multiple of FY27 plus net cash). Rosenblatt's Hans Mosesmann raised to $1,200 from $600. Citigroup's Atif Malik lifted to $1,200 from $840. Catalyst: Micron has said its entire 2026 HBM supply is sold out; manufacturing HBM requires more than 3x the silicon-wafer capacity of conventional DDR5, which is starving the rest of the DRAM market and driving ASPs sharply higher (cf. Apple Tim Cook WSJ memory-shortage interview Thursday). MU has guided gross margin to roughly 81% — the single most-watched number on the print, since margin compresses first if supply loosens. Stock is up ~244% YTD past $1T market cap. Read-through to House coverage: (1) directly confirms the HBM-supercycle bid feeding Korean tape (SK Hynix W2,000tr milestone today); (2) sympathy positive for 005930.KS / 000660.KS / MU into print; (3) elevates the bar — any margin guide below ~80% on the print is the 'cycle-cresting' read the bears need.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/wall-street-scrambles-to-lift-micron-price-targets-ahead-of-earnings-4750052"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Nasdaq-100 quarterly rebalance EFFECTIVE Monday June 22 adds CRWV, NBIS, ALAB, RKLB, TER and removes CHTR, CTSH, INSM, VRSK, ZS — $800B+ passive-fund mechanical buying lands on CoreWeave / Nebius / Astera Labs into Monday close",
+    "summary": "Nasdaq's June quarterly NDX rebalance (announced June 11) takes effect at the Monday June 22 open. Additions: CoreWeave (CRWV), Nebius Group (NBIS), Astera Labs (ALAB), Rocket Lab (RKLB), Teradyne (TER). Deletions: Charter Communications (CHTR), Cognizant (CTSH), Insmed (INSM), Verisk Analytics (VRSK), Zscaler (ZS). Index-tracking funds managing OVER $800B (QQQ + cohort) must rebalance mechanically into the inclusion / exclusion close. Inclusion-day price impact historically averages +2-5% on adds, -1-3% on deletes, with peak passive-flow demand occurring in the final hour of Friday June 19 / Monday June 22 sessions. Read-through to House coverage: (1) CRWV gets clean mechanical bid layered on top of its already-strong $99.4B revenue backlog and Elk Grove $850M HY bond / European HY roadshow funding momentum; (2) sympathy positive for entire AI-cloud / GPU-rental cohort (peer set: IREN, NBIS, APLD, SHARON AI); (3) ALAB inclusion confirms AI-connectivity / Retimer cohort is now mainstream NDX exposure (Marvell / AVGO peers); (4) the Cognizant deletion is a downstream-IT-services symbol — same theme as the Accenture downgrade rout, NDX is rotating OUT of legacy IT services and INTO AI-infra hardware/cloud. Watch ZS reaction Monday — security-software deletion is the first since the AI-cycle started.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Nasdaq IR",
+    "source_url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-100-indexr-june-2026-quarterly-changes"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Samsung Foundry order momentum CONFIRMED: AMD 2nm CPUs (2028 production), Google Axion + TPU diversification, BYD 2nm autonomous-driving SoC, plus Tesla and Groq engagement — TSMC capacity crisis is now structurally cracking concentration premium",
+    "summary": "Per Trendforce and corroborating Asia desks on June 17-19: Samsung Foundry is in active talks with AMD for 2nm CPU production starting 2028 — first time AMD has placed a frontier-node CPU order outside TSMC. Google is exploring Samsung manufacturing for next-gen Axion processor (2028 release) AND some TPU chips, which would be the first time Google shifts ANY TPU manufacturing away from TSMC. BYD is in 2nm/4nm GAA talks for autonomous-driving SoCs. Tesla and Groq also engaged for selective volumes. Drivers: (1) TSMC's 2nm pipeline is fully booked through 2027 — Apple, Nvidia, AMD frontier products, Qualcomm; (2) Samsung's 4nm and 2nm GAA yields have improved materially over the last two quarters; (3) Geographic-supply-chain diversification mandate from hyperscaler boards is now a hard requirement, not a preference. Samsung Foundry boss pushed profitability timeline to 2028 (from 2027) but the order book is the leading indicator. Read-through to House coverage: (1) positive for 005930.KS — the Foundry segment is structurally separate from the HBM-led DRAM rally and represents independent equity-story leg; (2) directly negative for TSM — concentration premium compresses as flagship-customer diversification crystallizes (the same vector as Apple-Intel 18A headline Thursday); (3) supports the Apple-Intel 18A multi-foundry sequencing thesis from Thursday — Apple lower-end M-series at Intel 18A, M5/M6 at TSMC, possibly mid-range at Samsung; (4) re-validates BofA's $135 INTC double-upgrade rationale: 18A's commercial-viability inflection plus Samsung competitive pressure on TSMC.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Trendforce",
+    "source_url": "https://www.trendforce.com/news/2026/06/17/news-samsung-foundry-reportedly-in-talks-with-amd-for-2028-cpu-production-as-byd-google-consider-its-services/"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Strait of Hormuz commercial reopening PHYSICALLY EFFECTIVE Friday June 19 per Trump Truth Social — mine-removal phase commences, both-direction oil flow resumes; Brent holds sub-$68, structural risk-premium unwind complete for AI-capex duration cohort",
+    "summary": "Per Trump Truth Social post late Thursday, the Strait of Hormuz reopening provision of the 14-point Iran MoU becomes physically operational Friday June 19: 'With the opening of the Strait upon the signing of the Deal on Friday, for purposes of mine removal, oil will flow on both ends again for the Region, and the World!' US naval blockade lifted in line with the MoU; Iranian oil-export Treasury waivers begin sequencing. Brent crude holds below $68, WTI ~$65 — full ~17% drawdown from conflict peak now confirmed as structural. Read-through to House coverage: (1) clean positive for the energy-disinflation impulse heading into August CPI — the strongest counter-narrative to Warsh's hawkish-dot-plot pivot from Wednesday; (2) for nuclear/utility cohort (CEG, VST, NEE) the cross-current persists — lower oil compresses fortress-energy bid but supports the rates-cut re-pivot needed to lift long-duration EV/EBITDA multiples; (3) for hyperscaler capex paper (ORCL $20B ATM + $25B bond, CRWV HY roadshow), cheaper crude = cheaper grid power = better unit economics for new gigawatt-scale GPU clusters; (4) Korean / Japanese / Taiwan chip tape (KOSPI ATH, Nikkei 71k) is already pricing the relief — US gap into Monday will be the lagged read-through for SOX / SOXX cohort.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "Al Jazeera",
+    "source_url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Jefferies raises CenterPoint Energy (CNP) PT to $50 from $48, Buy maintained — Indiana generation prospect and legislative-affordability-alignment cited; read-through bullish for AI-power utility cohort longevity narrative",
+    "summary": "Jefferies analyst Jamieson Ward raised CenterPoint Energy PT to $50 from $48 Thursday June 18, maintaining Buy. Rationale: confidence the company's premium valuation 'will prove justified as investor attention shifts from near-term growth to the longevity of that growth.' Highlighted positive momentum around the Indiana generation prospect, driven by legislative alignment on affordability and rapid market entry. CNP is not in House coverage but the read-through is sector-defining for the AI-power utility thesis: (1) regulated-utility cohort (NEE, AES) gets a 'longevity-of-growth' framing tailwind — explicitly the same multi-decade thesis driving the merchant-nuclear cohort (CEG, VST); (2) Indiana legislative-affordability mechanism is a model template for other states facing rapid hyperscaler load-growth — relevant for Virginia / Ohio / Texas grid plays; (3) confirms sell-side appetite to re-rate AI-power utility multiples after the hawkish-FOMC duration compression of Wednesday. Pairs with prior Jefferies action on GEV (PT trimmed to $1,210 from $1,350 on BTM concerns — June 11) and Jefferies NRG raise to $132 from $113 — collectively a sell-side reweight toward longer-duration, lower-beta AI-power exposure.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/jefferies-raises-centerpoint-energy-stock-price-target-on-growth-outlook-93CH-4750407"
+  },
+  {
+    "date": "2026-06-19",
+    "headline": "Nikkei 225 closes ATH 71,053 (+1.65%) Thursday on Iran MoU; SoftBank, Tokyo Electron, Advantest among leaders — Japan AI-chip cohort sustains breadth that Korea is losing into Friday",
+    "summary": "Nikkei 225 closed at a record 71,053 Thursday June 18, +1.65% on the Iran 14-point MoU signing relief. TOPIX +1.37% to 4,068. The Tokyo print was led by the AI-chip cohort: SoftBank (Arm exposure + OpenAI / Stargate equity), Tokyo Electron (8035.T) and Advantest as memory / logic capex pull-through plays. Crucially, the Japan move has broader breadth than the Korea print — KOSPI's W2,000tr SK Hynix milestone today reversed intraday on Daishin's 100-advancers-vs-810-decliners breadth warning, while the Nikkei rally is participating across robotics, AI-software, and chip-equipment names. Read-through to House coverage: (1) positive for 8035.T (Tokyo Electron) tape into US Monday open — Tokyo Electron is the closest competitive substitute to AMAT for the Memory CapEx cycle; (2) positive for ASML / AMAT / LRCX / KLAC sympathy on Monday (KOSPI / Nikkei dual record this week is the cleanest leading indicator for the WFE cohort going into July TSMC monthly revenue and AMAT / ASML July earnings); (3) sustained breadth in Japan AI-infra cohort is the structural confirmation that the global AI-capex cycle is broader than the Samsung / SK Hynix two-stock Korean exposure; (4) SoftBank's leadership confirms the Stargate / OpenAI equity narrative is paying through the cap-table even with Oracle as primary infra partner.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "BigGo Finance",
+    "source_url": "https://finance.biggo.com/news/pXN1YZ4BrX5PFN7BgZXP"
+  }
+]

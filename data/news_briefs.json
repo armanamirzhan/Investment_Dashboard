@@ -2178,5 +2178,89 @@
       }
     ],
     "file": "morning-news/2026-06-18.html"
+  },
+  {
+    "date": "2026-06-19",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "W2,000tr cap milestone intraday; closed +2.94% off the high"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "KRW 374,500 ATH; Foundry order book widening (AMD/Google/BYD)"
+      },
+      {
+        "ticker": "ACN",
+        "direction": "down",
+        "note": "-16.8% post-Q3; MS downgrade to Hold ($177 from $240)"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Pre-print PT scramble: Stifel $1500, Wedbush $1300, DB $1500"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "NDX inclusion Monday — $800B passive bid"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "down",
+        "note": "Concentration premium cracking (Samsung + Intel 18A take share)"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "18A validation cascade: Apple lower-end + Google TPU + Apple-Intel HQ deal"
+      },
+      {
+        "ticker": "CNP",
+        "direction": "up",
+        "note": "Jefferies PT $50 from $48 (longevity-of-growth utility re-rate)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "US markets CLOSED for Juneteenth — equity / bond reopen Mon June 22"
+      },
+      {
+        "ticker": "KOSPI",
+        "signal": "ATH 9,385.59 intraday, reversed to 9,052.42 (-0.13%) — breadth crack"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "momentum (W2,000tr cap milestone — 2nd Korean co ever)"
+      },
+      {
+        "ticker": "ACN",
+        "signal": "earnings_miss — -16.8% on weak AI-bookings; global IT services rout"
+      },
+      {
+        "ticker": "MU",
+        "signal": "momentum (5 PT raises ahead of June 24 print, range $1200-$1500)"
+      },
+      {
+        "ticker": "NDX",
+        "signal": "Quarterly rebalance Mon: +CRWV +NBIS +ALAB +RKLB +TER"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Strait of Hormuz physically reopens today — Brent sub-$68 holds"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "Samsung Foundry wins AMD 2nm 2028, Google Axion/TPU, BYD AV SoC"
+      },
+      {
+        "ticker": "NIKKEI",
+        "signal": "71,053 ATH (+1.65%) Thursday on Iran MoU — sustained AI-chip breadth"
+      }
+    ],
+    "file": "morning-news/2026-06-19.html"
   }
 ]

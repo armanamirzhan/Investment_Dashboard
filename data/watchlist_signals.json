@@ -1972,5 +1972,40 @@
     "signal_type": "momentum",
     "description": "$1.5B datacenter expansion in Jackson County, Alabama announced June 18 on former coal plant site; confirms hyperscaler capex acceleration into H2 2026 and deepens US domestic buildout strategy.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "000660.KS",
+    "signal_type": "overvalued",
+    "description": "SK Hynix briefly crossed KRW 2,000T market cap intraday Friday (record W2,891,000 then reversed -4.4% off the high to close +2.94%). KOSPI breadth fragility: 100 advancers vs 810 decliners per Daishin. Tactical: trimming candidates into MU print June 24 / NVDA July update; structural HBM thesis intact.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "ACN",
+    "signal_type": "earnings_miss",
+    "description": "ACN -16.8% post-Q3 print Thursday on revenue miss + soft AI-bookings guide. Morgan Stanley DOWNGRADED to Hold ($177 from $240); Evercore ISI to $180; Berenberg to $220. Bookings -2-3% YoY signals AI-services conversion lag; read-through risk to PLTR / SNOW / IBM AI-enterprise thesis. HIGH conviction yellow flag for sector.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Pre-print Wall Street PT scramble: Stifel +173% to $1,500, Wedbush +160% to $1,300, Deutsche $1,500, Rosenblatt $1,200, Citi $1,200. Catalyst: DRAM ASPs running 2x Micron's own guide; FY26 HBM sold out; June 24 print is the cleanest test of HBM supercycle durability. Gross-margin guide is the make-or-break number (currently ~81%).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "NDX inclusion mechanical bid effective Monday June 22 — $800B+ passive AUM rebalance lands at Friday/Monday close. Stacks with $99.4B revenue backlog, Elk Grove $850M HY bond launch, European HY roadshow. Watch for inclusion-day pop ~+2-5% historical avg before passive flow normalizes.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "TSM",
+    "signal_type": "overvalued",
+    "description": "Concentration premium compression risk crystallizing: Samsung Foundry winning AMD 2nm CPUs (2028), Google Axion + selected TPU, BYD 2nm AV SoC, Tesla, Groq — plus Intel 18A taking Apple lower-end M-series and Google 3M TPU 2028 order. Triple-vector diversification (Samsung + Intel) compresses TSM 'sole-frontier-foundry' multiple. Structural thesis intact but tactical setup softer.",
+    "severity": "medium"
   }
 ]

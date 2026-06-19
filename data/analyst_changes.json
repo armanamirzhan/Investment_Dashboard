@@ -2617,5 +2617,77 @@
     "new_target": 210.0,
     "old_rating": "Outperform",
     "old_target": null
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "ACN",
+    "firm": "Morgan Stanley",
+    "new_rating": "Hold",
+    "new_target": 177,
+    "old_rating": "Buy",
+    "old_target": 240
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "ACN",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 180,
+    "old_rating": "Outperform",
+    "old_target": 250
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "ACN",
+    "firm": "Berenberg",
+    "new_rating": "Buy",
+    "new_target": 220,
+    "old_rating": "Buy",
+    "old_target": 273
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 1500,
+    "old_rating": "Buy",
+    "old_target": 550
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 1500,
+    "old_rating": "Buy",
+    "old_target": 1000
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 1300,
+    "old_rating": "Outperform",
+    "old_target": 500
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 1200,
+    "old_rating": "Buy",
+    "old_target": 600
+  },
+  {
+    "date": "2026-06-19",
+    "ticker": "MU",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 1200,
+    "old_rating": "Buy",
+    "old_target": 840
   }
 ]

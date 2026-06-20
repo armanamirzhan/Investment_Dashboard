@@ -2007,5 +2007,12 @@
     "signal_type": "overvalued",
     "description": "Concentration premium compression risk crystallizing: Samsung Foundry winning AMD 2nm CPUs (2028), Google Axion + selected TPU, BYD 2nm AV SoC, Tesla, Groq — plus Intel 18A taking Apple lower-end M-series and Google 3M TPU 2028 order. Triple-vector diversification (Samsung + Intel) compresses TSM 'sole-frontier-foundry' multiple. Structural thesis intact but tactical setup softer.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-20",
+    "ticker": "NEE",
+    "signal_type": "momentum",
+    "description": "Dual fresh analyst coverage building case for re-rating: Bernstein initiated Outperform ($107 target, +24% upside) June 16 citing 30 GW renewable backlog, FPL 8% rate-base growth, and pending Dominion acquisition unlocking 70 GW of datacenter-adjacent demand; UBS reiterated Buy ($105, June 18) noting execution confidence post investor meetings. Both flag underperformance vs fundamentals as priced-in sentiment overhang clearing. Watch for confirmation once Dominion deal closes.",
+    "severity": "medium"
   }
 ]

@@ -2689,5 +2689,23 @@
     "new_target": 1200,
     "old_rating": "Buy",
     "old_target": 840
+  },
+  {
+    "date": "2026-06-16",
+    "ticker": "NEE",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 107,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-06-18",
+    "ticker": "NEE",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 105,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

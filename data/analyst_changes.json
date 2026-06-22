@@ -2707,5 +2707,41 @@
     "new_target": 105,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "MU",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 1500.0,
+    "old_rating": "Buy",
+    "old_target": 1000.0
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "ACN",
+    "firm": "William Blair",
+    "new_rating": "Market Perform",
+    "new_target": null,
+    "old_rating": "Outperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "CSCO",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 150.0,
+    "old_rating": "Buy",
+    "old_target": 135.0
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "CSCO",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 130.0,
+    "old_rating": "Overweight",
+    "old_target": 120.0
   }
 ]

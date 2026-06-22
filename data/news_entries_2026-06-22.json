@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-06-22",
+    "headline": "SK Hynix OVERTAKES Samsung as South Korea's most valuable listed company for first time since 2000 — closes +5.6%, market cap KRW 2,080.4tr (~$1.35T) vs Samsung 2,066.7tr; 340% YTD rally on HBM dominance (61% share vs Samsung 17%, Micron 21%)",
+    "summary": "SK Hynix (000660.KS) closed Monday up 5.6%, taking its market cap to KRW 2,080.4 trillion (~$1.35T) and overtaking Samsung Electronics (KRW 2,066.7tr, -0.14%) for the first time in 26 years. Samsung had held the No. 1 Korean equity spot since 2000. The transition crystallizes the HBM-supercycle leadership story: SK Hynix holds 61% of the HBM market by 2025 (per data confirmed by Korea Exchange filings), vs Samsung 17% and Micron 21%. Customer concentration: Nvidia and Alphabet are confirmed HBM3E/HBM4 customers. Stock is +340% YTD. Read-through to House coverage: (1) the breadth-crack signal from Friday (KOSPI ATH intraday reversal on Daishin's 100-advancers / 810-decliners print) DID NOT extend — Monday's tape confirms the structural HBM bid is intact heading into MU's June 24 print; (2) Samsung Foundry remains the structural counterweight equity-story leg (AMD 2nm 2028, Google Axion/TPU, BYD AV SoC, Tesla, Groq pipeline) — Foundry profitability now targeted 2028 vs prior 2027; (3) US pre-open tape for MU should gap higher with the Stifel/Wedbush/Deutsche/Citi/Rosenblatt $1,200-$1,500 PT scramble now compounded by Monday UBS $1,500 print.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Reuters via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-overtakes-samsung-to-become-koreas-most-valuable-company-043834467.html"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "US-Iran agree 60-day ROADMAP to final deal in Switzerland talks Monday — Hormuz to reopen TOLL-FREE for 60 days, Treasury issues Iranian oil sale waivers, Lebanon de-confliction committee formed; Brent slides to ~$80, WTI ~$75",
+    "summary": "U.S. and Iranian negotiators announced in Geneva Monday morning (per Qatar/Pakistan mediators, confirmed by CNBC and Al Jazeera) that they have agreed to a 60-day roadmap toward a final deal. The MoU explicitly opens the Strait of Hormuz toll-free for at least 60 days and creates oversight, sanctions, and nuclear working groups, plus a committee to end hostilities in Lebanon (Israel-Hezbollah). Treasury issued a formal waiver authorizing Iranian oil sales for the 60-day window. Trump threatened to impose US tolls on Hormuz if the final deal is not reached in 60 days. Brent August futures fell 0.38% to ~$80.26, WTI ~$75. Iran's joint military command briefly claimed Monday it had closed the Strait citing a 'clear breach,' but US CENTCOM said traffic continues to flow — fluid headline tape. Read-through to House coverage: (1) energy-disinflation impulse holds heading into May PCE (Thursday) and Q2 earnings cycle — supportive of duration multiples on CEG/VST/NEE if Warsh's hawkish-dot-plot pivot is forced to ease; (2) cheaper oil = cheaper grid power = better unit economics for new gigawatt-scale GPU clusters (ORCL $20B ATM + $25B bond, CRWV Elk Grove $850M HY); (3) the 60-day clock is a hard expiry — geopolitical risk premium is suppressed but not eliminated.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Nasdaq-100 quarterly rebalance EFFECTIVE today (Monday June 22): CRWV, NBIS, ALAB, RKLB, TER officially added; ZS, CTSH, CHTR, INSM, VRSK removed — $1.4T NDX ecosystem mechanical reweight prints into the close",
+    "summary": "The Nasdaq-100 quarterly rebalance announced June 11 takes effect at Monday's open. Additions: CoreWeave (CRWV), Nebius Group (NBIS), Astera Labs (ALAB), Rocket Lab (RKLB), Teradyne (TER). Deletions: Zscaler (ZS), Cognizant (CTSH), Charter (CHTR), Insmed (INSM), Verisk (VRSK). Roughly $1.4T tracks the broader NDX ecosystem ($800B+ in pure QQQ + cohort), forcing mechanical buying in the inclusion names and selling in the deletes through Monday's session, peaking in the closing auction. Year-to-date the 5 adds have outperformed broad market with gains 53-242%. Pre-market Friday saw inclusion-name pre-positioning of up to +8.9%. Read-through to House coverage: (1) CRWV gets clean mechanical bid layered on its $99.4B revenue backlog and Elk Grove $850M HY bond / European HY roadshow funding momentum; (2) ALAB inclusion confirms AI-connectivity / Retimer cohort is now mainstream NDX exposure (peers: AVGO/Marvell); (3) the CTSH deletion compounds the Accenture (ACN) selloff — NDX is rotating OUT of legacy IT services and INTO AI-infra hardware/cloud; (4) ZS deletion is the FIRST security-software deletion of the AI cycle, signaling that even the 'AI-protected' security cohort is being demoted by capital flows.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Sherwood News",
+    "source_url": "https://sherwood.news/markets/astera-labs-coreweave-nebius-rocket-lab-teradyne-nasdaq-100-index-inclusion-announcement/"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "UBS hikes Micron (MU) PT to $1,500 from $1,000 Monday — 5-star Melissa Weathers cites DRAM bit-demand 'vastly outpacing supply growth' on AI workload intensity; +31% premium over Thursday close ahead of Wednesday June 24 FQ3 print",
+    "summary": "UBS's Melissa Weathers (5-star Wall Street rank) raised her Micron Technology price target to $1,500 from $1,000 Monday morning, maintaining Buy ahead of the company's fiscal Q3 print after Wednesday's close. Rationale: 'DRAM bit demand is still set to vastly outpace supply growth in the coming years driven by more memory-intensive AI workloads.' The new target represents a ~31% premium over Thursday's $1,144 close. This caps a remarkable PT-revision cycle ahead of the print — Stifel $1,500 (from $550), Deutsche Bank $1,500 (from $1,000), Wedbush $1,300 (from $500), Citi $1,200 (from $840), Rosenblatt $1,200 (from $600), Aletheia Capital $1,600 (from $650), UBS's own prior target trip from $535 to $1,625 by Tim Arcuri. Goldman remains the lone bear at ~$400 (cyclical risk). Consensus FQ3 sits at ~$19.72 EPS / $34.5B revenue; the watched metric is GROSS MARGIN (guide ~81%) — margins compress first when memory supply loosens, so anything sub-80% is the cycle-cresting read bears need. Read-through to House coverage: confirms the HBM-supercycle bid that powered SK Hynix to top-of-KOSPI Monday; sympathy-positive into 005930.KS print cycle and structural negative for the cyclical-bear thesis in Memory.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/investing/stocks/micron-stock-draws-aggressive-target-reset-from-5-star-analyst"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "William Blair DOWNGRADES Accenture (ACN) to Market Perform from Outperform Monday — pulled from Analyst Conviction List by Maggie Nolan, citing 'weakening forward demand' and 'softer implied exit rate into FY27'; warns generative AI is STRUCTURALLY compressing demand for traditional IT systems consulting and software-building",
+    "summary": "William Blair analyst Maggie Nolan downgraded Accenture (ACN) to Market Perform from Outperform Monday morning, removing the stock from the firm's Analyst Conviction List (no new price target issued). Driver: Friday's FY26 Q3 print — bookings -2% YoY / -13% QoQ to $19.3B, FY local-currency revenue guidance cut to 3-4% (from 3-5%), Q4 revenue guide $17.75-18.40B vs $18.47B consensus. The downgrade thesis is structural: William Blair warned that rapid generative-AI adoption is structurally compressing demand for traditional IT systems consulting and software-building — i.e., this is NOT a cyclical demand pause but a permanent rerate of the IT services bookings curve. Stock is -41% over six months, trading $126-128 pre-market vs the 52-week high of $314.20. This compounds Friday's Morgan Stanley downgrade to Hold ($177 PT from $240), Evercore ISI cut to $180 (from $250), and Berenberg cut to $220 (from $273). Read-through to House coverage: (1) confirms NEGATIVE enterprise-AI bookings read for PLTR / SNOW / IBM cohort — if structurally true, it pressures the 'enterprise AI = real revenue' narrative; (2) yellow flag for hyperscaler partner-channel: ACN is top-3 Azure/OCI implementer, weak AI bookings is a soft signal for MSFT/ORCL enterprise penetration; (3) NDX rotation OUT of legacy IT-services (CTSH deletion today) is the same theme — capital flows are reallocating from IT consulting to AI infra hardware/cloud.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/william-blair-downgrades-accenture-stock-rating-on-weakening-demand-93CH-4750587"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Tesla (TSLA) launches FIRST Robotaxi pilot in Austin Monday — 10-20 Model Y SUVs in geofenced Texas zone with Tesla Safety Monitor in passenger seat; stock pops ~8% pre-market on 'foundational' milestone; NHTSA investigation already triggered on early incidents (wrong-side driving, phantom braking, intersection dropoff)",
+    "summary": "Tesla began its long-promised Robotaxi pilot Monday in Austin, Texas. The opening fleet is approximately 10-20 Model Y SUVs operating in a geofenced area with a Tesla 'Safety Monitor' in the front passenger seat and remote teleoperator oversight able to intervene. Riders for 'Early Access' were predominantly Tesla investors and enthusiasts. Stock pre-market reaction: +8% (rerouting prior weekend skepticism). Within hours of launch, early-rider video documentation showed incidents including wrong-side-of-road driving, phantom braking, dropping passengers in intersections, and traffic violations — sufficient to trigger an NHTSA investigation. Read-through to House coverage: (1) the AV-narrative inflection is binary for the TSLA full-self-driving bull case, but the messy launch tape introduces near-term legal-risk overhang; (2) compute / inference demand from a production Robotaxi network is material long-tail for NVDA datacenter and edge-inference silicon (Dojo + on-vehicle); (3) margin signal: a Tesla Safety Monitor in every car is NOT 'unsupervised' — gates investor patience on whether L4 unit economics ever materialize.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/tesla-stock-pops-8-after-foundational-robotaxi-launch-in-austin-200136126.html"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "BofA raises Cisco (CSCO) PT to $150 from $135, Buy maintained — AI-networking and cybersecurity penetration cited; pairs with KeyBanc ANET PT to $200 (June 18) and Morgan Stanley CSCO $130 → networking incumbents quietly reabsorbing Mellanox-era AI buildout share",
+    "summary": "Bank of America raised its Cisco Systems price target to $150 from $135 with Buy maintained, citing AI networking and cybersecurity penetration. Morgan Stanley separately lifted CSCO PT to $130 from $120. Combined with KeyBanc's June 18 ANET raise to $200 (from $178) and BofA's earlier June 8 ANET raise to $200 (from $185), the sell-side AI-networking cohort is being marked up steadily through Q2. CSCO is +32% on the trailing 1-month tape per industry trackers, outperforming ANET (-10%) and AVGO (drifting) over the same window — supporting the thesis that Cisco is the under-appreciated AI-networking compounder, particularly through its Splunk-anchored cybersecurity portfolio. Read-through to House coverage: (1) positive read for CSCO position in coverage — reaffirms the Spark / Silicon One pipeline thesis; (2) ANET PT raises remain bullish but the relative-momentum trade has shifted to CSCO this quarter; (3) AI-networking and cooling cohort (VRT, ETN, GLW) gets a sympathy tailwind into capex-cycle Q2 prints.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/06/02/cisco-advances-5-to-record-highs-on-ai-cybersecurity-push-arista-climbs-as-networking-trade-extends/"
+  },
+  {
+    "date": "2026-06-22",
+    "headline": "Alphabet (GOOG/GOOGL) invests $75M in film studio A24 for AI partnership — Google DeepMind to build new movie production / distribution tools; stock down ~6% pre-market as media optionality outweighed by execution overhang on creative-AI thesis",
+    "summary": "Per Wall Street Journal Monday morning, Alphabet is investing approximately $75M in indie film studio A24 (most recent valuation $3.5B) as part of an AI research partnership. The deal sets up Google DeepMind models to power new movie production and distribution tooling for A24. Stock reaction: -6% pre-market, reading the announcement as incremental dilution of focus from core search/AI/Cloud rather than as a meaningful new revenue line. Context: this comes just days after Amazon dropped its $40M near-finished Sam Altman AI film following the $50B OpenAI investment (signaling that hyperscaler-AI / Hollywood partnerships are getting more financially complex). Read-through to House coverage: (1) tactically modest negative for GOOGL near-term tape; (2) longer-term confirms hyperscalers are pursuing differentiation in generative-video model training data — the equity-cost of acquiring premium creative content has fallen but is still meaningful; (3) DeepMind/A24 production tooling could be a competitive response to Adobe Firefly + Runway in the creative-AI distribution layer.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Reuters via MarketScreener",
+    "source_url": "https://www.marketscreener.com/news/google-investing-75-million-into-movie-studio-a24-wsj-reports-ce7f5cd3df81f221"
+  }
+]

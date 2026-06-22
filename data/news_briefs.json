@@ -2262,5 +2262,77 @@
       }
     ],
     "file": "morning-news/2026-06-19.html"
+  },
+  {
+    "date": "2026-06-22",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+5.6% — overtakes Samsung as Korea's #1 listed company ($1.35T cap)"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "UBS PT to $1,500 (from $1,000) into Wed FQ3 print"
+      },
+      {
+        "ticker": "ACN",
+        "direction": "down",
+        "note": "William Blair to Market Perform; structural AI-services compression call"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Nasdaq-100 inclusion EFFECTIVE today — mechanical bid"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "up",
+        "note": "Nasdaq-100 inclusion EFFECTIVE today"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "up",
+        "note": "Robotaxi Austin pilot launch; +8% pre-market"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "down",
+        "note": "-6% on $75M A24 AI investment (WSJ)"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "BofA PT to $150 (from $135), MS to $130 (from $120)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "US-Iran 60-day ROADMAP signed in Geneva — Hormuz toll-free, Iranian oil waiver issued"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Brent ~$80, WTI ~$75 — energy-disinflation impulse intact into Thursday PCE"
+      },
+      {
+        "ticker": "NDX",
+        "signal": "Quarterly rebalance EFFECTIVE — CRWV/NBIS/ALAB/RKLB/TER in; ZS/CTSH/CHTR/INSM/VRSK out"
+      },
+      {
+        "ticker": "MU",
+        "signal": "earnings preview — 7 PT raises into Wed print, $1,200-$1,625 range; gross margin ~81% is the test"
+      },
+      {
+        "ticker": "ACN",
+        "signal": "structural downgrade — AI compressing IT-services bookings curve (William Blair conviction-list cut)"
+      },
+      {
+        "ticker": "macro",
+        "signal": "AbbVie/Apogee $10.9B deal (+49% premium) — M&A pulse active"
+      }
+    ],
+    "file": "morning-news/2026-06-22.html"
   }
 ]

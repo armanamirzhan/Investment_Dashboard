@@ -2056,5 +2056,33 @@
     "signal_type": "legal_risk",
     "description": "NHTSA investigation already opened on Robotaxi early-launch incidents (wrong-side driving, phantom braking, intersection dropoff)",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "SMCI +11% as NVIDIA names it a global system builder for Vera Rubin NVL4 racks at ISC 2026; GF Securities (Jeff Pu) upgraded to Buy with $48 PT citing $7B equity raise supports large backlog and Vera Rubin platform positioning.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "GOOGL",
+    "signal_type": "legal_risk",
+    "description": "GOOGL -6.7%: AI talent departure (Noam Shazeer to OpenAI, John Jumper from DeepMind to Anthropic); judge denied Google/YouTube request for new trial in youth-addiction liability case; 2026 CapEx guidance raised to $180-190B signaling escalating infrastructure costs. Stock down on combined thesis pressure.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "DELL +5% as NVIDIA also names Dell a global system builder for Vera Rubin NVL4 AI server platform; sympathy rally alongside SMCI on ISC 2026 AI infrastructure announcements.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-22",
+    "ticker": "MSFT",
+    "signal_type": "momentum",
+    "description": "Microsoft signed 20-year power purchase agreement with Chevron (Project Kilby) for 2.67 GW of dedicated capacity in Reeves County, West Texas, to power AI datacenter buildout. First power delivery in 2028; Chevron FID expected by end of 2026. Deal confirms $80B+ Azure order backlog requiring long-duration power commitments.",
+    "severity": "medium"
   }
 ]

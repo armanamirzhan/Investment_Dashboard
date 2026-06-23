@@ -2119,5 +2119,19 @@
     "signal_type": "earnings_beat",
     "description": "Q3 FY26 prints Wed June 24 AC. Consensus $19.95 EPS / $34.66B rev (above $32.75-34.25B guide range). Gross margin guide 81% — sub-80% would validate cycle-cresting bear case. 27 Strong Buy / 0 Sell heading into print. Korea -9.99% correlation drag is the wildcard.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Broad AI chip sell-off June 23 as hawkish Fed commentary on sticky inflation triggered risk-off rotation out of crowded semiconductor longs; South Korea Kospi slump (~10% from record) added to global tech selling pressure. NVDA trading 00-204, pulling back from recent highs.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "CRWV",
+    "signal_type": "insider_sell",
+    "description": "Cumulative insider selling exceeded $2.3B since IPO lockup expired August 2025. Most recent action: CEO Michael Intrator sold 307,692 Class A shares on June 16 for $35.9M in proceeds. Stock fell 7% on disclosure. Persistent supply overhang from founder-level distribution remains a technical headwind.",
+    "severity": "medium"
   }
 ]

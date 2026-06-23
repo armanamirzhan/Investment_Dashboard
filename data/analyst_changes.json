@@ -2770,5 +2770,32 @@
     "new_target": 291,
     "old_rating": "Neutral",
     "old_target": 270
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "SNPS",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 550,
+    "old_rating": "Neutral",
+    "old_target": 450
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "MU",
+    "firm": "B of A Securities",
+    "new_rating": "Buy",
+    "new_target": 1500,
+    "old_rating": "Buy",
+    "old_target": 950
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "AMAT",
+    "firm": "B of A Securities",
+    "new_rating": "Buy",
+    "new_target": 720,
+    "old_rating": "Buy",
+    "old_target": 540
   }
 ]

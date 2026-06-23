@@ -2752,5 +2752,23 @@
     "new_target": 48.0,
     "old_rating": "Hold",
     "old_target": null
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "TSM",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 575,
+    "old_rating": "Positive",
+    "old_target": 500
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "IBM",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 291,
+    "old_rating": "Neutral",
+    "old_target": 270
   }
 ]

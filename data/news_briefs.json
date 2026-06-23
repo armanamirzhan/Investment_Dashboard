@@ -2334,5 +2334,77 @@
       }
     ],
     "file": "morning-news/2026-06-22.html"
+  },
+  {
+    "date": "2026-06-23",
+    "tickers": [
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -12.3% Seoul close; KOSPI -9.99% circuit breaker"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -12.5%; one-day reversal of #1-Korea-mcap crowning"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "down",
+        "note": "$250B mcap loss Monday on AI-talent defections (Shazeer/Jumper)"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "21,000 layoffs disclosed; $1.84B severance vs $374M PY"
+      },
+      {
+        "ticker": "IBM",
+        "direction": "up",
+        "note": "JPM upgrades to Overweight PT $291; +4% pre-mkt"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Susquehanna PT $575 from $500; capacity sold through 2027"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "Q3 FY26 prints Wed AC; 27 Strong Buy / 0 Sell"
+      },
+      {
+        "ticker": "FDX",
+        "direction": "neutral",
+        "note": "Q4 FY26 tonight AC; first stand-alone parcel print"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "KOREA",
+        "signal": "KOSPI -9.99% / circuit breaker; $3.8B foreign outflow"
+      },
+      {
+        "ticker": "GOOGL",
+        "signal": "AI talent flight (Shazeer to OpenAI, Jumper to Anthropic)"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "21,000 AI-driven layoffs disclosure"
+      },
+      {
+        "ticker": "IBM",
+        "signal": "JPM Overweight upgrade — software AI-infra beneficiary"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "Capacity sold through 2027; multi-foundry diversification"
+      },
+      {
+        "ticker": "MU",
+        "signal": "Q3 FY26 print Wed AC — gross-margin acid test"
+      }
+    ],
+    "file": "morning-news/2026-06-23.html"
   }
 ]

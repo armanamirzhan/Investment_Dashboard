@@ -2084,5 +2084,40 @@
     "signal_type": "momentum",
     "description": "Microsoft signed 20-year power purchase agreement with Chevron (Project Kilby) for 2.67 GW of dedicated capacity in Reeves County, West Texas, to power AI datacenter buildout. First power delivery in 2028; Chevron FID expected by end of 2026. Deal confirms $80B+ Azure order backlog requiring long-duration power commitments.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -12.5% Tuesday Seoul close on KOSPI -9.99% / circuit breaker; Monday's #1-Korea-mcap crowning proved climactic top. Korea margin debt at record KRW 37.7T amplifies leveraged retail liquidation risk. Watch for stabilization signal before MU Wed AC print.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung -12.3% Tuesday Seoul close on KOSPI -9.99% / two intraday circuit breakers. Foreign investors dumped KRW 5.79tr (~$3.8B) of Korean shares in single session. Samsung retook Korea-#1-mcap spot from SK Hynix in the down-day reversal. Bear case for AI-memory supercycle gets first credible multi-day test.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "GOOGL",
+    "signal_type": "concentration_risk",
+    "description": "$250B mcap loss Monday (worst day in 1+ year) on TWO 72-hour AI-talent defections (Shazeer to OpenAI June 18, Jumper to Anthropic June 19). Yellow flag for the integrated-hyperscaler AI-moat thesis. -2% pre-market Tuesday confirms tape weakness extending.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "ORCL",
+    "signal_type": "legal_risk",
+    "description": "21,000 layoffs disclosed (~13% workforce); $1.84B FY26 severance vs $374M prior year. Combined with June 11 $70B FY27 capex + $20B capital raise, ORCL's GAAP-earnings-power story is now under pressure. Watch FY27 RPO commentary at Q4 print scheduled for September.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-23",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 prints Wed June 24 AC. Consensus $19.95 EPS / $34.66B rev (above $32.75-34.25B guide range). Gross margin guide 81% — sub-80% would validate cycle-cresting bear case. 27 Strong Buy / 0 Sell heading into print. Korea -9.99% correlation drag is the wildcard.",
+    "severity": "medium"
   }
 ]

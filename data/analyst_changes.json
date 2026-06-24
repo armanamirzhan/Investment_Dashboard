@@ -2833,5 +2833,14 @@
     "new_target": 378,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "MU",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 1300.0,
+    "old_rating": "Outperform",
+    "old_target": 510.0
   }
 ]

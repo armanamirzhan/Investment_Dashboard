@@ -2133,5 +2133,26 @@
     "signal_type": "insider_sell",
     "description": "Cumulative insider selling exceeded $2.3B since IPO lockup expired August 2025. Most recent action: CEO Michael Intrator sold 307,692 Class A shares on June 16 for $35.9M in proceeds. Stock fell 7% on disclosure. Persistent supply overhang from founder-level distribution remains a technical headwind.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung announces KRW 90T (~$58.6B) share buyback per Yonhap — largest in Korean history; stock +6.3% Seoul, reclaims #1 Korea mcap from SK Hynix one session after KOSPI -9.99% rout",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix formally confirms $29.4B Nasdaq ADR listing — issuing 17.79M new shares, trading expected July 10; transforms 000660.KS into a U.S.-benchmarked exposure",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 print TONIGHT after close — 27 Strong Buy / 0 Sell heading in; 81% GM and HBM4 Vera Rubin 2027 commentary are the binary catalysts; Korea-correlation drag now neutralized by Samsung buyback",
+    "severity": "high"
   }
 ]

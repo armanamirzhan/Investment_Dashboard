@@ -2797,5 +2797,41 @@
     "new_target": 720,
     "old_rating": "Buy",
     "old_target": 540
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "FDX",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 326,
+    "old_rating": "Buy",
+    "old_target": 442
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "FDX",
+    "firm": "Raymond James",
+    "new_rating": "Outperform",
+    "new_target": 330,
+    "old_rating": "Outperform",
+    "old_target": 415
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "FDX",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 359,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-24",
+    "ticker": "FDX",
+    "firm": "B of A Securities",
+    "new_rating": "Buy",
+    "new_target": 378,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

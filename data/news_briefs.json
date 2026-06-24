@@ -2406,5 +2406,85 @@
       }
     ],
     "file": "morning-news/2026-06-23.html"
+  },
+  {
+    "date": "2026-06-24",
+    "tickers": [
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +6.3% Seoul; KRW 90T (~$58.6B) buyback per Yonhap — largest in Korean history"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix formally confirms $29.4B Nasdaq ADR listing; trading expected July 10"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "+4.1% pre-mkt; Q3 FY26 print TONIGHT AC — 81% GM and HBM4 Vera Rubin commentary are the binary tests"
+      },
+      {
+        "ticker": "FDX",
+        "direction": "down",
+        "note": "Q4 beat ($6.31 vs $5.92) but CY26 guide disappointed; -6.16% AH; Stifel PT $326 from $442"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "+1.5% pre-mkt as sell-side re-frames 21K layoffs as margin-discipline positive; Jefferies 'industry sold out for capacity'"
+      },
+      {
+        "ticker": "PAYX",
+        "direction": "up",
+        "note": "Q4 FY26 beats; 750bp YoY op-margin expansion to 37.7%; launches WISE AI workforce engine"
+      },
+      {
+        "ticker": "KOSPI",
+        "direction": "up",
+        "note": "+3.26% close at 8,471.02 — recovers ~1/3 of Tuesday's -9.99% rout; intraday +4.14% faded"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "Powell House testimony 10am ET; Fed bank stress test results 4pm ET (no cap impact until 2027)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "005930.KS",
+        "signal": "Largest Korean buyback in history (KRW 90T) — defensive response to SK Hynix capital edge"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "$29.4B Nasdaq ADR listing — permanent U.S.-flow re-rate setup"
+      },
+      {
+        "ticker": "KOSPI",
+        "signal": "Memory-cycle rebound +3.26% but intraday fade signals breadth not fully repaired"
+      },
+      {
+        "ticker": "MU",
+        "signal": "earnings_beat watch — 81% GM cliff and HBM4 capacity commentary tonight AC"
+      },
+      {
+        "ticker": "FDX",
+        "signal": "Soft CY26 guide cuts against AI-buildout industrial-logistics bull case"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "Jefferies: 'industry is sold out for any capacity within 6 months' — positive read for VRT/ETN/GEV"
+      },
+      {
+        "ticker": "macro",
+        "signal": "CME July-cut probability 18.8% (down from 22.7%) — modestly hawkish Powell setup"
+      },
+      {
+        "ticker": "PAYX",
+        "signal": "SaaS AI-operating-leverage proof point — 750bp op-margin expansion in one year"
+      }
+    ],
+    "file": "morning-news/2026-06-24.html"
   }
 ]

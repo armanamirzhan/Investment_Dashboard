@@ -2842,5 +2842,41 @@
     "new_target": 1300.0,
     "old_rating": "Outperform",
     "old_target": 510.0
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 1540,
+    "old_rating": "Overweight",
+    "old_target": 550
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 2000,
+    "old_rating": "Positive",
+    "old_target": 1750
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 2000,
+    "old_rating": "Overweight",
+    "old_target": 1175
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "DA Davidson",
+    "new_rating": "Buy",
+    "new_target": 2000,
+    "old_rating": "Buy",
+    "old_target": 1500
   }
 ]

@@ -2486,5 +2486,68 @@
       }
     ],
     "file": "morning-news/2026-06-24.html"
+  },
+  {
+    "date": "2026-06-25",
+    "tickers": [
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Q3 BLOWOUT — rev $41.5B, GM 84.9%, $100B SCAs, +14.6% AH"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +13% to ATH on MU read-through + Nasdaq ADR"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +5%; KOSPI +5.42% to ~8,930"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "up",
+        "note": "Memory-WFE pull-through from MU SCA $100B disclosure"
+      },
+      {
+        "ticker": "LRCX",
+        "direction": "up",
+        "note": "DRAM etching tailwind + Tokyo Electron +7%"
+      },
+      {
+        "ticker": "JPM",
+        "direction": "up",
+        "note": "$50B buyback post-CCAR; div +10%"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "AI-power bottleneck trade +2% pre-market"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "MU",
+        "signal": "earnings_beat (HIGH)"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "momentum (HIGH)"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "AMAT",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "LRCX",
+        "signal": "momentum"
+      }
+    ],
+    "file": "morning-news/2026-06-25.html"
   }
 ]

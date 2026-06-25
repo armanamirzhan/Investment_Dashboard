@@ -2878,5 +2878,50 @@
     "new_target": 2000,
     "old_rating": "Buy",
     "old_target": 1500
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Goldman Sachs",
+    "new_rating": "Neutral",
+    "new_target": 1100,
+    "old_rating": "Neutral",
+    "old_target": 900
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 1600,
+    "old_rating": "Overweight",
+    "old_target": 600
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Needham",
+    "new_rating": "Buy",
+    "new_target": 1650,
+    "old_rating": "Buy",
+    "old_target": 1550
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "B of A Securities",
+    "new_rating": "Buy",
+    "new_target": 1550,
+    "old_rating": "Buy",
+    "old_target": 1500
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 1500,
+    "old_rating": "Buy",
+    "old_target": 1200
   }
 ]

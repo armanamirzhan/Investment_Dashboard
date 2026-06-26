@@ -2549,5 +2549,86 @@
       }
     ],
     "file": "morning-news/2026-06-25.html"
+  },
+  {
+    "date": "2026-06-26",
+    "tickers": [
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Day-2 PT wave: Melius $2,200 (2x), TD Cowen $1,500, MS $1,200, KeyBanc $1,600, GS $1,100; stock -4.7% pre profit-taking"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "-6.31% pre $101.32 on OpenAI IPO 2027 delay + PCE shock; -26% from May peak"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "down",
+        "note": "-9.57% pre $234.83 on neocloud double-hit"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "-1.6% Thu on OpenAI IPO delay; $300B 2030 buildout counterparty now delayed-IPO"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -9.21%; KOSPI -8.18% 2nd circuit breaker in 4 sessions"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -9.43%; Nasdaq ADR (July 10) pricing risk emerges"
+      },
+      {
+        "ticker": "ON",
+        "direction": "down",
+        "note": "-15% pre on $7B all-stock Synaptics deal — dilution shock"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "down",
+        "note": "Fresh 52-wk low $108; longest losing streak since Mar 2023"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "GridOS for Transmission launch + $105M Niskayuna R&D groundbreak"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "PCE +4.1% / core +3.4% — hottest since 2023; July cut probability collapses <10%"
+      },
+      {
+        "ticker": "OPENAI",
+        "signal": "IPO POTENTIALLY DELAYED TO 2027 (NYT) — neocloud financing-overhang"
+      },
+      {
+        "ticker": "KOSPI",
+        "signal": "Second circuit breaker in 4 sessions — Korea memory volatility cycle"
+      },
+      {
+        "ticker": "MU",
+        "signal": "PT scramble Day 2 — consensus avg rolls to ~$1,540, top-end $2,200"
+      },
+      {
+        "ticker": "ON/SYNA",
+        "signal": "$7B all-stock 'physical AI' edge consolidation"
+      },
+      {
+        "ticker": "PLTR",
+        "signal": "Fresh 52-wk low — duration squeeze on AI-software multiple complex"
+      },
+      {
+        "ticker": "macro",
+        "signal": "10Y yield +13bp to 4.62%; NDX futures -1.0%; AI-power picks-and-shovels least exposed"
+      }
+    ],
+    "file": "morning-news/2026-06-26.html"
   }
 ]

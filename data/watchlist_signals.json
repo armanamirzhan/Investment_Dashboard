@@ -2189,5 +2189,61 @@
     "signal_type": "momentum",
     "description": "Same as AMAT — DRAM etching demand uplift confirmed by MU SCA disclosure + Tokyo Electron Tokyo +7%",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "OpenAI IPO delay to 2027 (NYT) layered on PCE-driven duration squeeze — CRWV -6.31% pre at $101.32, now -26% from early-May peak; $22B OpenAI partnership now visible-but-unfunded for 12 more months",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "NBIS",
+    "signal_type": "overvalued",
+    "description": "Neocloud financing-overhang re-emerges with OpenAI IPO delay; -9.57% pre at $234.83; AAT hit Monday $267, -12% in four sessions; NDX-100 passive flow tail-risk",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "ORCL",
+    "signal_type": "concentration_risk",
+    "description": "$300B OpenAI 2030 datacenter buildout now anchored to a delayed-IPO counterparty; $70B FY27 capex visibility intact but financing assumptions reset; -1.6% Thu close",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "PLTR",
+    "signal_type": "overvalued",
+    "description": "Fresh 52-week low $108 intraday — longest losing streak since March 2023 (12 sessions); duration squeeze on 180-200x forward multiple; EU sovereign-contract scrutiny + Anthropic federal competition",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung -9.21% on KOSPI -8.18% circuit-breaker rout (2nd in 4 sessions); PCE-driven KRW weakness amplifies foreign outflow; Thu MU-print rally fully reversed",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -9.43% in KOSPI rout; Nasdaq ADR pricing window (July 10) now faces FX/Korea spot drag; structural thesis intact but pricing risk elevated",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Post-print PT scramble continues: Melius doubles to $2,200, TD Cowen +127% to $1,500, KeyBanc $1,600, MS $1,200; consensus avg rolls to ~$1,540; stock -4.7% pre on profit-taking after Thu +14.6% AH",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "ON",
+    "signal_type": "earnings_miss",
+    "description": "-15% pre-market on $7B all-stock Synaptics acquisition — ~10% dilution; deal accretive only by mid-2028; close mid-2027 pending SYNA vote and regulatory review",
+    "severity": "medium"
   }
 ]

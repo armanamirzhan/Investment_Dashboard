@@ -2923,5 +2923,77 @@
     "new_target": 1500,
     "old_rating": "Buy",
     "old_target": 1200
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "Melius Research",
+    "new_rating": "Buy",
+    "new_target": 2200,
+    "old_rating": "Buy",
+    "old_target": 1100
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 1200,
+    "old_rating": "Overweight",
+    "old_target": 1050
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 840,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "Raymond James",
+    "new_rating": "Outperform",
+    "new_target": 1500,
+    "old_rating": "Outperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 1600,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 1500,
+    "old_rating": "Buy",
+    "old_target": 660
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "Goldman Sachs",
+    "new_rating": "Neutral",
+    "new_target": 1100,
+    "old_rating": "Neutral",
+    "old_target": 400
+  },
+  {
+    "date": "2026-06-26",
+    "ticker": "MU",
+    "firm": "RBC Capital",
+    "new_rating": "Outperform",
+    "new_target": 1500,
+    "old_rating": "Outperform",
+    "old_target": null
   }
 ]

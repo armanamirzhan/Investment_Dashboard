@@ -2995,5 +2995,50 @@
     "new_target": 1500,
     "old_rating": "Outperform",
     "old_target": null
+  },
+  {
+    "date": "2026-06-27",
+    "ticker": "TSM",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 590,
+    "old_rating": "Buy",
+    "old_target": 490
+  },
+  {
+    "date": "2026-06-27",
+    "ticker": "FCEL",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 24,
+    "old_rating": "Hold",
+    "old_target": 16
+  },
+  {
+    "date": "2026-06-27",
+    "ticker": "FCEL",
+    "firm": "UBS",
+    "new_rating": "Neutral",
+    "new_target": 22,
+    "old_rating": "Neutral",
+    "old_target": 7
+  },
+  {
+    "date": "2026-06-27",
+    "ticker": "ON",
+    "firm": "TD Cowen",
+    "new_rating": "Hold",
+    "new_target": 110,
+    "old_rating": "Buy",
+    "old_target": 115
+  },
+  {
+    "date": "2026-06-27",
+    "ticker": "ON",
+    "firm": "Wells Fargo",
+    "new_rating": "Buy",
+    "new_target": 160,
+    "old_rating": "Buy",
+    "old_target": 140
   }
 ]

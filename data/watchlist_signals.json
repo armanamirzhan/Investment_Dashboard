@@ -2252,5 +2252,12 @@
     "signal_type": "momentum",
     "description": "Jefferies upgraded Hold→Buy ($16→$24) and UBS tripled PT ($7.25→$22) on first contracted datacenter power order: 380 MW agreement with Fit Energy including 30 MW firm at ~$3K/kW (≈$90M near-term revenue). Stock +27.5% on June 26. Investment thesis shifts from speculative to executable backlog; trades at 8x 2030 EV/EBITDA vs Bloom Energy 19x.",
     "severity": "high"
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "NEE",
+    "signal_type": "momentum",
+    "description": "Erste Group cut NEE from Buy to Hold (June 25), citing a sharp YoY rise in long-term liabilities and anticipated Fed rate hikes that would raise financing costs. Analyst sees reduced probability of positive earnings surprises near-term.",
+    "severity": "medium"
   }
 ]

@@ -3040,5 +3040,23 @@
     "new_target": 160,
     "old_rating": "Buy",
     "old_target": 140
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "MU",
+    "firm": "Erste Group",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-25",
+    "ticker": "NEE",
+    "firm": "Erste Group",
+    "new_rating": "Hold",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

@@ -2630,5 +2630,78 @@
       }
     ],
     "file": "morning-news/2026-06-26.html"
+  },
+  {
+    "date": "2026-06-29",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -3.4% to KRW 2,583,000 — sell-the-news despite W800T fab plan + ADR July 10"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -5.3% to KRW 321,500 on continued foreign outflows; Gwangju leading next-mega-fab candidate"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "+4% pre bouncing from worst week since 2001 (-19% / -$80B); financing thesis unchanged"
+      },
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "+3% pre on Iran de-escalation + duration relief"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "+3% pre on Iran de-escalation tech rebound"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "+3% pre on US-Iran 'pause attacks' deal"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "Friday +5.35% to $119.57 snapping 7-day losing streak; Burry covers half short, ARK buys 30k shares"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Day-3 PT scramble: Wedbush to $1,400 from $1,300; consensus avg ~$1,540"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Bernstein upgrade + UBS PT $670 from $455"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "000660.KS",
+        "signal": "momentum (HIGH)"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "overvalued (HIGH)"
+      },
+      {
+        "ticker": "PLTR",
+        "signal": "short_squeeze"
+      },
+      {
+        "ticker": "MU",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "momentum"
+      }
+    ],
+    "file": "morning-news/2026-06-29.html"
   }
 ]

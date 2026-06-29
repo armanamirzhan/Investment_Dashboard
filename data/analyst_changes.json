@@ -3058,5 +3058,41 @@
     "new_target": null,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "MU",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 1400,
+    "old_rating": "Outperform",
+    "old_target": 1300
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMD",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": "Market Perform",
+    "old_target": null
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMD",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 670,
+    "old_rating": "Buy",
+    "old_target": 455
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "PLTR",
+    "firm": "Loop Capital",
+    "new_rating": "Buy",
+    "new_target": 145,
+    "old_rating": null,
+    "old_target": null
   }
 ]

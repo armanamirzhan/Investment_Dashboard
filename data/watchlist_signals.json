@@ -2259,5 +2259,40 @@
     "signal_type": "momentum",
     "description": "Erste Group cut NEE from Buy to Hold (June 25), citing a sharp YoY rise in long-term liabilities and anticipated Fed rate hikes that would raise financing costs. Analyst sees reduced probability of positive earnings surprises near-term.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "ORCL",
+    "signal_type": "overvalued",
+    "description": "Financing-overhang HIGH severity — $130B debt, $56B FY26 capex (+162%), -$24B FCF, FY27 $40B raise (incl $20B equity). Worst week since dot-com bust. Pre-market bounce is technical only.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "W800T (~$519B) southwest fab buildout commitment + ADR listing July 10. Sell-the-news on Monday (-3.4%) but structural memory-cycle leadership reinforced.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Gwangju leading candidate for next Samsung mega-fab under W800T plan; -5.3% on Monday sell-the-news but the long-cycle thesis is policy-anchored.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "PLTR",
+    "signal_type": "short_squeeze",
+    "description": "Burry covers half short + ARK 30k-share buy + 7-day losing streak break. RSI(14)=21.4 oversold reset. Near-term technical squeeze fuel for Monday tape — fundamentals (180-200x P/E, EU AI-Act) unchanged.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Day-3 post-print analyst PT scramble continues — Wedbush $1,400 (from $1,300), consensus avg ~$1,540 from ~$865 pre-print. GS-as-last-bear position increasingly untenable.",
+    "severity": "medium"
   }
 ]

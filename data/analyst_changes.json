@@ -3094,5 +3094,77 @@
     "new_target": 145,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMAT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 850,
+    "old_rating": "Overweight",
+    "old_target": 650
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMAT",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 750,
+    "old_rating": "Overweight",
+    "old_target": 550
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMAT",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 720,
+    "old_rating": "Buy",
+    "old_target": 540
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "KLAC",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 325,
+    "old_rating": "Overweight",
+    "old_target": 250
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "LRCX",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 500,
+    "old_rating": "Overweight",
+    "old_target": 425
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMD",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 700,
+    "old_rating": "Overweight",
+    "old_target": 500
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "FCEL",
+    "firm": "B. Riley",
+    "new_rating": "Buy",
+    "new_target": 32,
+    "old_rating": "Neutral",
+    "old_target": 13
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "FCEL",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 24,
+    "old_rating": null,
+    "old_target": null
   }
 ]

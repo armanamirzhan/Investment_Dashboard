@@ -2294,5 +2294,40 @@
     "signal_type": "momentum",
     "description": "Day-3 post-print analyst PT scramble continues — Wedbush $1,400 (from $1,300), consensus avg ~$1,540 from ~$865 pre-print. GS-as-last-bear position increasingly untenable.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "FCEL",
+    "signal_type": "momentum",
+    "description": "Stock +17-23% on 380 MW datacenter power deal with Fit Energy USA (30 MW firm + 350 MW options, 15-20 yr service agreements) and $49M non-dilutive EXIM Bank financing. B. Riley upgraded to Buy ($32 target) and Jefferies upgraded to Buy ($24 target). Russell 3000 inclusion adding passive flows.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "Stock +13.6% as markets continue to price in multiyear multibillion-dollar optical fiber supply agreement with Amazon, plus active supply agreements with Nvidia and Meta. AI datacenter buildout driving sustained optical connectivity demand.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Stock +10.75% as semiconductor equipment sector re-rates following Micron's blowout Q3 earnings ($41.5B revenue, Q4 guide $49-51B). Multiple analysts raised targets today (Cantor to $850, KeyBanc to $750, BofA to $720). WFE spending outlook raised >30% for 2026.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "Stock +7.1% as part of semiconductor equipment sector re-rate; Cantor Fitzgerald raised target to $325 from $250 and BofA targets $317 on elevated WFE spending outlook.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-29",
+    "ticker": "BE",
+    "signal_type": "momentum",
+    "description": "Stock +6% on sympathy rally with FuelCell Energy's datacenter power deal. Russell 1000 inclusion providing additional passive buying flows.",
+    "severity": "low"
   }
 ]

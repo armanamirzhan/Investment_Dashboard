@@ -2329,5 +2329,33 @@
     "signal_type": "momentum",
     "description": "Stock +6% on sympathy rally with FuelCell Energy's datacenter power deal. Russell 1000 inclusion providing additional passive buying flows.",
     "severity": "low"
+  },
+  {
+    "date": "2026-06-30",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "Corning +192% YTD and +15.67% Monday to record $255.69 on Glass Bridge / GlassWorks AI Solutions + FTSE Russell index inclusion. Morgan Stanley + Citi caution commercial CPO impact 'highly unlikely' within 1-2 years. Watch for quarter-end rebalance mean-reversion.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-30",
+    "ticker": "PLTR",
+    "signal_type": "momentum",
+    "description": "Palantir + NVIDIA strategic partnership announced June 29 for sovereign AI engine running NVDA Nemotron in U.S. government / classified environments. Combines with Burry half-cover + ARK buying Friday — short-squeeze + sovereign-moat re-rating fuel. Still ~180x forward P/E and -29% from May 8 ATH.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-06-30",
+    "ticker": "ORCL",
+    "signal_type": "overvalued",
+    "description": "ORCL FY27 financing plan of $40B (incl. $20B equity) remains a HIGH-severity overhang going into 2026-H2. $130B total debt, $56B FY26 capex (+162% YoY), -$24B FCF — financing math unchanged by Monday's +4% pre-market technical bounce. OpenAI IPO delay to 2027 leaves $300B compute anchor partially unfunded.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-06-30",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Applied Materials +2.5% pre-market Tuesday extending Monday's ~$600 record close. Master Class memory product launch + $500M Singapore expansion + coordinated sell-side PT hikes (high $850). Korean W800T fab buildout = structural multi-quarter tailwind. Watch for quarter-end profit-taking.",
+    "severity": "medium"
   }
 ]

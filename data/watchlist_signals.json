@@ -2392,5 +2392,40 @@
     "signal_type": "momentum",
     "description": "SK Hynix ADR priced at $166 for July 10 Nasdaq debut, ~26% premium to Korean spot. HSBC $199 fair value implies 20% additional upside. $29.65B raise adds capex flexibility through 2028.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "Bloomberg reports Meta is building 'Meta Compute,' a cloud business to resell excess AI GPU cycles and host its proprietary Muse Spark models, directly competing with CoreWeave and Nebius. Meta's $21B contracted backlog with CoreWeave — previously a pillar of the bull case — is now a customer-turned-competitor risk. CRWV -11% to -13% intraday, Nebius -13% to -15%; distinct catalyst from today's Evercore ISI estimate-cut signal already on file.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "MU",
+    "signal_type": "legal_risk",
+    "description": "Sherman Act Section 1 class action (Garciaguirre v. Samsung Electronics, filed June 25 in N.D. Cal.) accuses Micron, Samsung and SK Hynix of coordinating to restrict DRAM/NAND output (using the HBM shift as cover) to inflate conventional memory prices ~700% over four years. Contributing legal overhang alongside broad post-Q2 profit-taking in semis; MU -8% today.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "000660.KS",
+    "signal_type": "legal_risk",
+    "description": "Named alongside Micron and Samsung in a June 25 N.D. Cal. Sherman Act class action (Garciaguirre v. Samsung Electronics) alleging coordinated DRAM/NAND supply restriction via the HBM shift to inflate legacy memory prices. Early-stage litigation risk layered onto an already richly-valued memory complex ahead of the July 10 Nasdaq ADR debut.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "Named alongside Micron and SK Hynix in a June 25 N.D. Cal. Sherman Act class action (Garciaguirre v. Samsung Electronics) alleging coordinated DRAM/NAND supply restriction via the HBM shift to inflate legacy memory prices. Early-stage litigation risk for the memory complex.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "META",
+    "signal_type": "momentum",
+    "description": "Shares +8% to +10% intraday on Bloomberg report of new 'Meta Compute' business line (under Meta Superintelligence Labs / infra chief Santosh Janardhan) that will sell surplus AI GPU capacity and host the closed Muse Spark model suite to third parties — a strategic pivot toward monetizing its own AI infrastructure buildout, directly at CoreWeave/Nebius/hyperscaler-neocloud expense.",
+    "severity": "medium"
   }
 ]

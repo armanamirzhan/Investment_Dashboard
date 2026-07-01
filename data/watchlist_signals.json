@@ -2357,5 +2357,40 @@
     "signal_type": "momentum",
     "description": "Applied Materials +2.5% pre-market Tuesday extending Monday's ~$600 record close. Master Class memory product launch + $500M Singapore expansion + coordinated sell-side PT hikes (high $850). Korean W800T fab buildout = structural multi-quarter tailwind. Watch for quarter-end profit-taking.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "Evercore ISI 2026/2027 EPS estimate cuts flag GPU depreciation + senior-notes interest expense drag; stock -13.9% MoM after $187 April peak. Backlog $99B intact but neocloud unit-economics leverage concern spreading to peer complex (Nebius, IREN).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "NEE",
+    "signal_type": "legal_risk",
+    "description": "Senate BBB Act (passed 50-50, VP tiebreaker) sunsets 25D residential solar Dec 31 2025 and forces utility-scale wind/solar 48E/45Y credits to placed-in-service by end-2027. NEE 2026-2028 growth pipeline ~40% wind/solar exposed. Nuclear cohort (CEG/VST) benefits from PTC preservation.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Senate BBB Act preserves nuclear 45U PTC and tightens FEOC sourcing — locks in 20-year hyperscaler PPA economics (Meta 2.2GW Vistra, Microsoft 1.92GW Constellation, Walmart deal). Nuclear operator cohort structurally advantaged over renewables through 2028.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "TSM",
+    "signal_type": "legal_risk",
+    "description": "ITC ALJ preliminary determination on Longitude/Marlin 7nm-and-below patent complaint expected this week; adverse ruling could trigger 5-10% tape re-rate. Baseline is patent-license settlement pre-October full Commission decision.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix ADR priced at $166 for July 10 Nasdaq debut, ~26% premium to Korean spot. HSBC $199 fair value implies 20% additional upside. $29.65B raise adds capex flexibility through 2028.",
+    "severity": "medium"
   }
 ]

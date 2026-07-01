@@ -3166,5 +3166,50 @@
     "new_target": 24,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMD",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 615,
+    "old_rating": "Overweight",
+    "old_target": 505
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "AMD",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 460,
+    "old_rating": "Buy",
+    "old_target": 420
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "CRWV",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 115,
+    "old_rating": "Outperform",
+    "old_target": 155
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "TSLA",
+    "firm": "JPMorgan",
+    "new_rating": "Underweight",
+    "new_target": 115,
+    "old_rating": "Underweight",
+    "old_target": 115
+  },
+  {
+    "date": "2026-07-01",
+    "ticker": "TSLA",
+    "firm": "Barclays",
+    "new_rating": "Equal-Weight",
+    "new_target": 360,
+    "old_rating": "Equal-Weight",
+    "old_target": 340
   }
 ]

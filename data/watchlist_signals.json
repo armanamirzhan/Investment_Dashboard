@@ -2455,5 +2455,40 @@
     "signal_type": "momentum",
     "description": "Binary catalyst Friday July 4 — Groves Isotope Test Reactor first-criticality target aligned with DOE 250th-anniversary push. Successful hit unlocks re-rate given still-modest Street modeling of Atomic Alchemy contribution; miss reverses June Army-microreactor tailwind.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix reportedly slowing HBM4 ramp (originally planned Q2 2026 capacity increase pushed to Q3) to redirect capacity toward conventional DRAM, where supply shortages have pushed margins 15+ points above HBM (ASPs up ~60% range). Cited alongside downward revisions to Nvidia Rubin-generation production forecasts as a factor. Triggered a broad equipment-name selloff (KLAC, LRCX, AMAT, GLW) despite 2026 HBM allocation already sold out.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "KLA -12% intraday, leading a semiconductor-equipment rout (SOX -6.3%) after reports SK Hynix is slowing its HBM4 ramp in favor of conventional DRAM, raising near-term capex-timing concerns for equipment suppliers; compounds Meta Compute neocloud-competition overhang from July 1.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "LRCX",
+    "signal_type": "momentum",
+    "description": "Lam Research -9.7% intraday in the same equipment-sector selloff triggered by reports of SK Hynix slowing its HBM4 ramp to prioritize conventional DRAM; SOX index -6.3% on the day as investors rotate out of high-multiple AI-capex-linked equipment names after 82% H1 2026 run.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Applied Materials -10% intraday alongside KLAC/LRCX/GLW on reports SK Hynix is slowing its HBM4 ramp to redirect capacity to conventional DRAM; near-term equipment capex-timing concern layered on already-stretched 2026 valuations (BofA bubble-risk note July 1).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "Corning -13.6% intraday, the largest decliner in today's semiconductor-equipment/optical selloff tied to reports of SK Hynix slowing its HBM4 ramp in favor of conventional DRAM; SOX -6.3% on the day.",
+    "severity": "high"
   }
 ]

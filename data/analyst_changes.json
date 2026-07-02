@@ -3229,5 +3229,23 @@
     "new_target": 125,
     "old_rating": "Neutral",
     "old_target": null
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "PLTR",
+    "firm": "D.A. Davidson",
+    "new_rating": "Buy",
+    "new_target": 175,
+    "old_rating": "Neutral",
+    "old_target": 165
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "CEG",
+    "firm": "Citigroup",
+    "new_rating": "Neutral",
+    "new_target": 297,
+    "old_rating": "Neutral",
+    "old_target": 348
   }
 ]

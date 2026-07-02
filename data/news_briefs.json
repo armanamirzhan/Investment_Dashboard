@@ -2860,5 +2860,97 @@
       }
     ],
     "file": "morning-news/2026-07-01.html"
+  },
+  {
+    "date": "2026-07-02",
+    "tickers": [
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "+9.9% to $619 (largest single-session move of 2026) on Bloomberg 'Meta Compute' cloud-business report; monetization thesis unlocks $145B capex line"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "-13.9% to $85.69 on 3x volume as Meta ($35B contract stack thru 2032) reframed from largest customer to future competitor"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "+9.3% to $125.73 on NVDA sovereign-AI partnership (Nemotron + Blackwell Ultra into AIP/Foundry for air-gapped US gov)"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "up",
+        "note": "Q2 deliveries 480,126 (+25% YoY) vs 406K consensus — ~18% beat; 13.5 GWh storage; Q2 financial print July 22"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "up",
+        "note": "Guggenheim/DiFucci Neutral→Buy PT $228 (~40% upside); 'AI-cannibalization discount excessive'"
+      },
+      {
+        "ticker": "NOW",
+        "direction": "up",
+        "note": "Guggenheim/DiFucci Neutral→Buy PT $125; +5% on 'Armageddon called off' SaaS re-rate call"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-9.6% July 1 after 305% YTD run hits BofA Bubble Risk 0.91 (PHLX Semis) 'tipping point'"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Palantir sovereign-AI channel positive; still exposed to BofA bubble-risk semiconductor rout"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "~-7-9% July 1 on BofA bubble-risk warning; 18A-P yields still below profitable-production threshold"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "-6.9% July 1 in BofA bubble-risk chip cohort selloff, gives back part of Wells Fargo $615 PT tailwind"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "neutral",
+        "note": "Binary event Friday July 4 — Groves Isotope Test Reactor first-criticality target aligned to DOE 250th-anniversary push"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "down",
+        "note": "-17.01% to $229.18 in neocloud rout alongside CRWV on Meta Compute report (not House ticker but read-through to CRWV thesis)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CRWV",
+        "signal": "concentration_risk high — Meta Compute puts $35B contract stack in doubt post-2032"
+      },
+      {
+        "ticker": "META",
+        "signal": "momentum high — $145B capex line reframed as monetizable asset base"
+      },
+      {
+        "ticker": "MU",
+        "signal": "overvalued medium — BofA Bubble Risk 0.91 PHLX Semis tipping point"
+      },
+      {
+        "ticker": "OKLO",
+        "signal": "momentum medium — Friday July 4 Groves criticality binary catalyst"
+      }
+    ],
+    "file": "morning-news/2026-07-02.html",
+    "top_headlines": "Meta launches 'Meta Compute' cloud business (+9.9%); CoreWeave -13.9% as largest customer reframed as competitor; BofA Bubble-Risk Indicator triggers chip rout (MU -9.6%, INTC -~8%, AMD -6.9%, TSM -6%); Palantir-NVIDIA sovereign AI partnership (+9.3%); Guggenheim upgrades CRM/NOW to Buy on 'AI-Armageddon called off' thesis; Tesla Q2 deliveries 480K vs 406K consensus (+18% beat); June NFP +57K miss vs +113K supports Sept rate-cut bid; Oklo Friday July 4 criticality countdown",
+    "sectors": [
+      "integration",
+      "software",
+      "hardware",
+      "finance",
+      "energy"
+    ]
   }
 ]

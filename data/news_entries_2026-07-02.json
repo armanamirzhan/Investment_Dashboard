@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-07-02",
+    "headline": "META COMPUTE — Meta +9.9% to $619 (biggest single-session move of 2026) after Bloomberg reports it will stand up a cloud business renting excess AI capacity to outside customers; direct challenge to AWS/Azure/GCP; $145B FY26 capex now has a revenue-generating monetization path",
+    "summary": "Bloomberg reported Wednesday July 1 that Meta is organizing a cloud infrastructure business internally branded 'Meta Compute' that will let outside customers rent unused AI capacity from its $145B/year datacenter buildout. The move directly monetizes what had been pure capex overhang and repositions Meta as a fourth hyperscaler alongside AWS, Azure and Google Cloud. Read-through to House coverage: (1) STRUCTURAL POSITIVE for META itself — the discount investors applied to the capex-only story (Zuckerberg 'never met a capex line he didn't like') is being removed; 10% pop is the initial de-rating; (2) STRUCTURAL NEGATIVE for the neocloud cohort — see paired CoreWeave entry; (3) NEUTRAL-TO-POSITIVE for NVDA/AVGO/AMD picks-and-shovels — Meta still needs the silicon whether it sells the compute or uses it internally; (4) POSITIVE for VRT/ETN/GEV/CEG/VST — a fourth hyperscaler with a monetization thesis reduces the risk that Meta walks away from PPA and power-equipment commitments; (5) softens the near-term 'AI capex without revenue' bear case that BofA cited in today's bubble-risk note.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/01/meta-stock-cloud-ai-compute.html"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "NEOCLOUD ROUT — CoreWeave -13.92% to $85.69 on Meta Compute report; Nebius -17%, SMCI -5.7%; volume in CRWV 3x average as market re-prices the largest customer (Meta = $35B / 2027-2032 contract stack) as a future direct competitor",
+    "summary": "CoreWeave closed Wednesday at $85.69 (-13.92%) after Bloomberg reported Meta is standing up its own cloud business ('Meta Compute') to rent excess AI capacity. Meta is CoreWeave's LARGEST customer with $35B committed through 2032 ($21B expansion announced April 2026 layered on the prior $14.2B 2025 deal, including initial Vera Rubin deployments). Nebius Group -17.01% to $229.18; SMCI -5.73% to $27.65. Volume in CRWV ~60M shares (3x average). Read-through to House coverage: (1) EXISTENTIAL CONCENTRATION RISK for CRWV — see high-severity watchlist signal. The existing contracts are contractually locked but any renewal/expansion post-2032 is now in doubt, and any perception that Meta is 'graduating' its workloads internally will pressure the stock; (2) even bulls note the near-term revenue is safe — Invezz argues the selloff is mispriced because Meta cannot spin up hyperscale capacity fast enough to replace CoreWeave in the 2027-2029 window covered by the $35B backlog; (3) POSITIVE FOR NVDA — every incremental hyperscaler is more chip demand, not less; (4) NEGATIVE FOR DLR/EQIX secondarily — Meta build-out could bypass wholesale colo capacity long-term.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/coverage/stock-market-today/2026/07/01/stock-market-today-july-1-coreweave-stock-tumbles-as-meta-cloud-report-raises-customer-concerns/"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "BofA BUBBLE-RISK INDICATOR — PHLX Semis at 0.91 (vs 1.0 extreme-bubble), Tech Select 0.82, Nasdaq 100 0.69; MU -9.6%, INTC -7-9%, AMD -6.9%, TSM -6%; VanEck Semis ETF -~5% as 305% YTD Micron rally hits 'bubble tipping point' warning",
+    "summary": "Bank of America circulated a note Wednesday July 1 highlighting that its Bubble Risk Indicator — scored 0 to 1 with 1 representing extreme-bubble price action — had climbed to 0.91 for the PHLX Semiconductor Sector, 0.82 for Technology Select, and 0.69 for Nasdaq 100. BofA stopped short of declaring a full bubble but urged 'greater valuation discipline' after 76% first-half gains in the VanEck Semis ETF. Damage: Micron -9.6% ($1,061 area, following its 305% YTD run through Tuesday); Intel ~-7-9%; AMD -6.9%; TSMC -6%. Note this pullback is technical/positioning, NOT thesis-altering — memory supercycle intact, HBM allocation still constrained, hyperscaler capex bookings (Eaton +240% YoY, GEV Q1 electrification orders exceeded all of 2025) still accelerating. Read-through: (1) NEAR-TERM NEGATIVE for the high-beta chip cohort — MU, AMD, INTC, TSM, AMAT, LRCX, KLAC vulnerable to further profit-taking; (2) less impact on the AI-power picks-and-shovels (CEG, VST, GEV, ETN, VRT) which BofA itself has framed as lower-execution-risk exposure; (3) sets up a bifurcated H2 setup — the software AI-benefit trade (see Guggenheim/CRM/NOW upgrade) may bid as chip money rotates.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/07/01/intel-drops-7-amd-slides-5-taiwan-semiconductor-falls-6-as-boa-flags-bubble-risk/"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "PLTR-NVDA SOVEREIGN AI PARTNERSHIP — Palantir integrates NVIDIA Nemotron open models + Blackwell Ultra GPUs into AIP/Foundry for air-gapped US government/critical-infrastructure deployments; PLTR +9.3% to $125.73; Karp positions offering vs OpenAI/Anthropic on IP-retention grounds",
+    "summary": "Palantir CEO Alex Karp announced Wednesday July 1 an expanded partnership with NVIDIA to deliver secure sovereign AI to US government agencies, enterprises and allies. Technical stack: NVIDIA Nemotron open-source AI models + Blackwell Ultra GPUs integrated into Palantir's AIP, Ontology, Foundry, and Apollo. Customers can fine-tune Nemotron on their own data in air-gapped environments while retaining model weights — a differentiated pitch against closed OpenAI/Anthropic models that Karp explicitly criticized for 'lack of IP protection.' PLTR +9.3% to $125.73 close. Also disclosed: expanded commercial deal with Surf Air Mobility, new US Army Foundry contract. Additional sentiment tailwind: Trump financial disclosure showed president holds ≥$1M PLTR position and recently added. Read-through: (1) MATERIAL POSITIVE for PLTR — sovereign AI is the highest-margin, longest-cycle contract type and NVIDIA-blessing legitimizes the technical claim; (2) POSITIVE for NVDA in the government/defense channel — Nemotron distribution through PLTR pipe reaches customer set otherwise hard to serve; (3) COMPETITIVE NEGATIVE for hyperscaler-hosted enterprise AI (MSFT/AZURE Copilot, AMZN Bedrock, GOOGL Gemini) in classified/defense verticals.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Blog",
+    "source_url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "GUGGENHEIM 'ARMAGEDDON CALLED OFF' — DiFucci upgrades CRM Neutral→Buy PT $228 (~40% upside), NOW Neutral→Buy PT $125; argues AI-disruption fear pushed SaaS valuations 'too low' after ~35% NOW drawdown since his Dec-2025 Sell-to-Neutral shift; CRM +4%, NOW +5%",
+    "summary": "Guggenheim's John DiFucci upgraded three enterprise software names to Buy Wednesday July 1: Salesforce (CRM PT $228, ~40% implied upside), ServiceNow (NOW PT $125), and Check Point (CHKP). His framing is notable: DiFucci is explicitly NOT changing his view that AI monetization for these vendors is 'unlikely to materialize' — he is arguing that the AI-cannibalization discount has become excessive relative to the resilience of the underlying subscription revenue. He moved NOW from Sell to Neutral in December 2025 and watched the stock fall a further ~35%; today's Buy call is a valuation flag, not a thesis pivot. Same-day reaction: CRM +~4%, NOW +5%+. Read-through to House coverage: (1) POSITIVE FOR CRM/NOW near-term — first major Street name to explicitly call the bottom on the AI-disruption discount; (2) SUPPORTIVE FOR SNOW/CRWD/PLTR by extension — SaaS multiple-compression narrative is being challenged; (3) sets up a possible sector rotation from bubble-flagged chips into oversold enterprise software as a 'less-crowded AI-beneficiary trade.'",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Barchart",
+    "source_url": "https://www.barchart.com/story/news/3086607/guggenheim-just-upgraded-salesforce-stock-here-s-why"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "TESLA Q2 DELIVERIES BLOWOUT — 480,126 delivered (+25% YoY) vs 406K consensus, ~18% beat; 451,758 produced; 13.5 GWh energy storage deployed; Q2 financial print July 22; largest single-quarter delivery beat since 2023 rebound",
+    "summary": "Tesla reported Q2 2026 deliveries at open Thursday July 2: 480,126 vehicles (+25% YoY) vs a Wall Street consensus of 406,024 — an ~18% upside surprise. Model 3/Y accounted for 467,762 of the deliveries; production totaled 451,758. Energy storage deployments: 13.5 GWh (vs consensus ~11 GWh; not the headline number but continues to signal utility-scale acceleration). Beat was well above the most bullish pre-report Street calls — Goldman had raised to 420K, Barclays 418K, both looked conservative. Q2 financial results scheduled after-close Wednesday July 22. Read-through to House coverage: (1) POSITIVE FOR TSLA — restores auto-demand-recovery narrative that had been in doubt since Q1 US weakness; JPMorgan Underweight ($115 PT) and Barclays Equal-Weight ($360 PT) both look stale post-print; (2) INDIRECT POSITIVE FOR TESLA ENERGY within House 'electricity' bucket — 13.5 GWh Q2 run-rate implies ~50 GWh annualized, comparable to Vistra/CEG storage roadmaps; (3) TSLA robotaxi and Optimus narratives now have oxygen after the delivery narrative is de-risked heading into the July 22 print.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Electrek",
+    "source_url": "https://electrek.co/2026/06/26/tesla-q2-2026-delivery-consensus-406000/"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "JUNE NFP MISS — +57K vs +113K expected; unemployment 4.2% vs 4.3% forecast; three-month hot streak broken; Dow +0.5% / SPX +0.3% / NDX +0.2% as September rate-cut odds rise; front-runs Warsh's July FOMC framing",
+    "summary": "US Bureau of Labor Statistics reported Thursday July 2 at 8:30 AM ET: June nonfarm payrolls +57K (vs +113K Bloomberg consensus, largest miss since January), unemployment rate 4.2% (below 4.3% expected). Print breaks a three-month streak of hot readings and softens the July FOMC narrative that Fed Chair Warsh established at Sintra on July 1 — Warsh had declined to signal a cut but had elevated AI-capex-as-supply-side story. Immediate reaction: Dow +~0.5%, S&P 500 +~0.3%, Nasdaq +~0.2% (recovering from Wednesday's chip-led -1.5% NDX decline); 2Y yield lower, dollar softer, September cut probability rises. Read-through to House coverage: (1) NEAR-TERM POSITIVE for the entire AI-infra cohort — cheaper cost of capital lowers hyperscaler WACC on multi-year buildouts; (2) MORE ACUTELY POSITIVE for high-multiple software (PLTR, NOW, CRM, SNOW, CRWD) — same discount-rate mechanism that Warsh's non-dovish tone had pressured on July 1 now reverses; (3) POSITIVE for CEG/VST/NEE utility valuations — bond-proxy characteristics rebid; (4) NEUTRAL for the semi cohort still digesting BofA bubble note.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance (Live Market)",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html"
+  },
+  {
+    "date": "2026-07-02",
+    "headline": "OKLO — Groves Isotope Test Reactor targeting first criticality by Friday July 4 to align with US 250th-anniversary DOE milestone push; company's first self-sustaining chain reaction milestone; Atomic Alchemy acquisition thesis test",
+    "summary": "Oklo is targeting first criticality (self-sustaining nuclear chain reaction) at its Groves Isotope Test Reactor in Texas by Friday July 4, 2026 — coordinated with a DOE-organized push to reach criticality at multiple US test reactors for the nation's 250th anniversary. Groves is the medical/industrial-radioisotope facility Oklo acquired via the March 2026 Atomic Alchemy deal. This is NOT an electricity-generating unit — it's a proof point that Oklo can execute against the timeline it has publicly committed to, which has been the primary short thesis. Read-through: (1) BINARY EVENT FOR OKLO — a Friday miss (either technical or NRC/DOE administrative) reverses momentum from June's Army-microreactor tailwind; a hit unlocks re-rate given still-modest Street model expectations; (2) POSITIVE OPTIONALITY for the SMR complex (SMR, X-energy) — successful criticality at any US commercial-adjacent reactor supports the argument that the licensing/execution risk has been overstated; (3) monitor for a Monday July 6 press release either way.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/06/02/im-calling-it-oklo-will-be-a-very-different-stock/"
+  }
+]

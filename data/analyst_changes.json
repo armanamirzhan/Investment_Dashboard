@@ -3211,5 +3211,23 @@
     "new_target": 360,
     "old_rating": "Equal-Weight",
     "old_target": 340
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "CRM",
+    "firm": "Guggenheim",
+    "new_rating": "Buy",
+    "new_target": 228,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-02",
+    "ticker": "NOW",
+    "firm": "Guggenheim",
+    "new_rating": "Buy",
+    "new_target": 125,
+    "old_rating": "Neutral",
+    "old_target": null
   }
 ]

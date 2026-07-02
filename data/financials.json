@@ -49565,10 +49565,10 @@
   {
     "ticker": "ENR.DE",
     "date": "2026-07-02",
-    "stock_price": 189.660289622,
-    "market_cap": 161372197129.7993,
+    "stock_price": 189.68199545999997,
+    "market_cap": 161390665512.27185,
     "pe_ratio": 65.02746,
-    "revenue": 45913299784.60283,
+    "revenue": 45918554372.41958,
     "revenue_growth": 3.3000000000000003,
     "operating_margin": 11.852,
     "ev_ebitda": 36.195,
@@ -49577,8 +49577,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 25,
     "wallstreet_mean": 1.8,
-    "analyst_target": 224.04024891264,
-    "upside_pct": 18.12712579905923,
+    "analyst_target": 224.06588939519997,
+    "upside_pct": 18.127125799059225,
     "currency_native": "EUR"
   },
   {
@@ -49672,8 +49672,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 10,
     "wallstreet_mean": 1.79167,
-    "analyst_target": 132.42949,
-    "upside_pct": 37.17577170084937,
+    "analyst_target": 132.42761,
+    "upside_pct": 37.173824321524734,
     "currency_native": "USD"
   },
   {
@@ -49812,10 +49812,10 @@
   {
     "ticker": "000660.KS",
     "date": "2026-07-02",
-    "stock_price": 1420.7017939200002,
-    "market_cap": 1008492154860.8086,
+    "stock_price": 1421.40360222,
+    "market_cap": 1008990336933.7777,
     "pe_ratio": null,
-    "revenue": 85803253740.20189,
+    "revenue": 85845639437.1156,
     "revenue_growth": 198.10000000000002,
     "operating_margin": 71.535003,
     "ev_ebitda": 16.541,
@@ -49824,17 +49824,17 @@
     "wallstreet_rating": "strong_buy",
     "wallstreet_count": 37,
     "wallstreet_mean": 1.43243,
-    "analyst_target": 2033.0154973353601,
+    "analyst_target": 2034.01978068051,
     "upside_pct": 43.09938271604937,
     "currency_native": "KRW"
   },
   {
     "ticker": "005930.KS",
     "date": "2026-07-02",
-    "stock_price": 185.78907776000003,
-    "market_cap": 1219995756485.2915,
+    "stock_price": 185.88085515999998,
+    "market_cap": 1220598418600.262,
     "pe_ratio": null,
-    "revenue": 252269647805.97433,
+    "revenue": 252394265747.2101,
     "revenue_growth": 69.19999999999999,
     "operating_margin": 42.751,
     "ev_ebitda": 12.655,
@@ -49843,8 +49843,8 @@
     "wallstreet_rating": "strong_buy",
     "wallstreet_count": 36,
     "wallstreet_mean": 1.37838,
-    "analyst_target": 299.9172424612992,
-    "upside_pct": 61.4288881118881,
+    "analyst_target": 300.0653976976572,
+    "upside_pct": 61.42888811188813,
     "currency_native": "KRW"
   },
   {
@@ -50109,8 +50109,8 @@
     "wallstreet_rating": "strong_buy",
     "wallstreet_count": 15,
     "wallstreet_mean": 1.43182,
-    "analyst_target": 1753.3479,
-    "upside_pct": -0.9027253408088958,
+    "analyst_target": 1753.1475,
+    "upside_pct": -0.9140517260868526,
     "currency_native": "USD"
   },
   {
@@ -50173,10 +50173,10 @@
   {
     "ticker": "8035.T",
     "date": "2026-07-02",
-    "stock_price": 452.846553082,
-    "market_cap": 205979526942.5421,
+    "stock_price": 452.81846388800005,
+    "market_cap": 205966750431.7065,
     "pe_ratio": 58.216007,
-    "revenue": 15170627056.729248,
+    "revenue": 15169686052.135975,
     "revenue_growth": 8.6,
     "operating_margin": 28.89,
     "ev_ebitda": 46.257,
@@ -50185,8 +50185,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 22,
     "wallstreet_mean": 1.72727,
-    "analyst_target": 413.597658151854,
-    "upside_pct": -8.667151083081993,
+    "analyst_target": 413.572003490736,
+    "upside_pct": -8.667151083081997,
     "currency_native": "JPY"
   },
   {
@@ -50249,10 +50249,10 @@
   {
     "ticker": "4063.T",
     "date": "2026-07-02",
-    "stock_price": 43.6083656272,
-    "market_cap": 81091882611.51947,
+    "stock_price": 43.6056606848,
+    "market_cap": 81086852639.20987,
     "pe_ratio": 28.735067,
-    "revenue": 15980436633.135061,
+    "revenue": 15979445397.623302,
     "revenue_growth": 1.3,
     "operating_margin": 21.435000000000002,
     "ev_ebitda": 13.456,
@@ -50261,7 +50261,7 @@
     "wallstreet_rating": "none",
     "wallstreet_count": 16,
     "wallstreet_mean": null,
-    "analyst_target": 49.4078622874375,
+    "analyst_target": 49.4047976135,
     "upside_pct": 13.299046127562644,
     "currency_native": "JPY"
   },
@@ -50306,10 +50306,10 @@
   {
     "ticker": "IFX.DE",
     "date": "2026-07-02",
-    "stock_price": 87.326999835,
-    "market_cap": 113481400371.13857,
+    "stock_price": 87.33699404999999,
+    "market_cap": 113494387849.42079,
     "pe_ratio": 93.10976,
-    "revenue": 17297265834.30707,
+    "revenue": 17299245435.048958,
     "revenue_growth": null,
     "operating_margin": 46.666999999999994,
     "ev_ebitda": 26.729,
@@ -50318,8 +50318,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 24,
     "wallstreet_mean": 1.66667,
-    "analyst_target": 93.02679365409301,
-    "upside_pct": 6.526954813359548,
+    "analyst_target": 93.03744018699,
+    "upside_pct": 6.5269548133595405,
     "currency_native": "EUR"
   },
   {

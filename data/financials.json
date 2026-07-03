@@ -50431,9 +50431,9 @@
     "price_change_pct": 2.83942,
     "wallstreet_rating": "buy",
     "wallstreet_count": 27,
-    "wallstreet_mean": 1.90625,
-    "analyst_target": 182.75407,
-    "upside_pct": 41.34112142304717,
+    "wallstreet_mean": 1.84375,
+    "analyst_target": 183.12444,
+    "upside_pct": 41.62756380510439,
     "currency_native": "USD"
   },
   {
@@ -50563,10 +50563,10 @@
     "debt_to_equity": 0.17568,
     "price_change_pct": 0.411522,
     "wallstreet_rating": "buy",
-    "wallstreet_count": 49,
+    "wallstreet_count": 50,
     "wallstreet_mean": 1.67925,
-    "analyst_target": 178.2649,
-    "upside_pct": -8.101402206413022,
+    "analyst_target": 179.6946,
+    "upside_pct": -7.364367460562936,
     "currency_native": "USD"
   },
   {
@@ -50622,8 +50622,8 @@
     "wallstreet_rating": "strong_buy",
     "wallstreet_count": 53,
     "wallstreet_mean": 1.4375,
-    "analyst_target": 432.64584,
-    "upside_pct": 20.209452363090772,
+    "analyst_target": 432.28735,
+    "upside_pct": 20.10984690617098,
     "currency_native": "USD"
   },
   {
@@ -50697,7 +50697,7 @@
     "price_change_pct": -1.14441,
     "wallstreet_rating": "buy",
     "wallstreet_count": 28,
-    "wallstreet_mean": 1.58065,
+    "wallstreet_mean": 1.54839,
     "analyst_target": 1198.5714,
     "upside_pct": 19.61551665635417,
     "currency_native": "USD"
@@ -50926,8 +50926,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 10,
     "wallstreet_mean": 1.79167,
-    "analyst_target": 132.21877,
-    "upside_pct": 36.95749948207997,
+    "analyst_target": 132.26904,
+    "upside_pct": 37.00957116221254,
     "currency_native": "USD"
   },
   {
@@ -51427,10 +51427,10 @@
   {
     "ticker": "8035.T",
     "date": "2026-07-03",
-    "stock_price": 453.6946248,
-    "market_cap": 206365278422.31216,
-    "pe_ratio": 58.688175,
-    "revenue": 15145052306.34084,
+    "stock_price": 453.7086792,
+    "market_cap": 206371671136.72958,
+    "pe_ratio": 58.479534,
+    "revenue": 15145521464.694277,
     "revenue_growth": 8.6,
     "operating_margin": 28.89,
     "ev_ebitda": 46.424,
@@ -51439,8 +51439,8 @@
     "wallstreet_rating": "buy",
     "wallstreet_count": 22,
     "wallstreet_mean": 1.72727,
-    "analyst_target": 421.97207350548007,
-    "upside_pct": -6.992049180327851,
+    "analyst_target": 421.98514521492007,
+    "upside_pct": -6.9920491803278555,
     "currency_native": "JPY"
   },
   {
@@ -51503,10 +51503,10 @@
   {
     "ticker": "4063.T",
     "date": "2026-07-03",
-    "stock_price": 43.125781412,
-    "market_cap": 80194498001.19287,
+    "stock_price": 43.127117348000006,
+    "market_cap": 80196982239.46924,
     "pe_ratio": 27.593592,
-    "revenue": 15953496700.035269,
+    "revenue": 15953990902.108128,
     "revenue_growth": 1.3,
     "operating_margin": 21.435000000000002,
     "ev_ebitda": 13.316,
@@ -51515,7 +51515,7 @@
     "wallstreet_rating": "none",
     "wallstreet_count": 16,
     "wallstreet_mean": null,
-    "analyst_target": 49.324570163749996,
+    "analyst_target": 49.32609812375,
     "upside_pct": 14.373742454728355,
     "currency_native": "JPY"
   },
@@ -51628,9 +51628,9 @@
     "price_change_pct": -6.42832,
     "wallstreet_rating": "buy",
     "wallstreet_count": 25,
-    "wallstreet_mean": 2.28571,
-    "analyst_target": 275.848,
-    "upside_pct": 1.83026320646758,
+    "wallstreet_mean": 2.32143,
+    "analyst_target": 280.928,
+    "upside_pct": 3.705563143711474,
     "currency_native": "USD"
   },
   {

@@ -33092,8 +33092,8 @@
     "ev_ebitda": 46.926,
     "market_cap": 42046353408.0,
     "short_interest": null,
-    "avg_analyst_target": 132.24203,
-    "upside_pct": 36.98159312202195
+    "avg_analyst_target": 132.26067,
+    "upside_pct": 37.00090118085767
   },
   {
     "date": "2026-07-03",
@@ -33182,25 +33182,25 @@
   {
     "date": "2026-07-03",
     "ticker": "000660.KS",
-    "price": 1585.5476925,
+    "price": 1585.2987905,
     "pe_ratio": null,
     "ps_ratio": 13.03262,
     "ev_ebitda": 18.379,
-    "market_cap": 1125508840337.6052,
+    "market_cap": 1125332156026.7498,
     "short_interest": null,
-    "avg_analyst_target": 2046.2284110973499,
+    "avg_analyst_target": 2045.9071906469098,
     "upside_pct": 29.054989690721637
   },
   {
     "date": "2026-07-03",
     "ticker": "005930.KS",
-    "price": 202.36165395,
+    "price": 202.32988687,
     "pe_ratio": null,
     "ps_ratio": 5.2334485,
     "ev_ebitda": 13.757,
-    "market_cap": 1328820656666.6067,
+    "market_cap": 1328612056117.6292,
     "short_interest": null,
-    "avg_analyst_target": 301.866455669742,
+    "avg_analyst_target": 301.81906815506517,
     "upside_pct": 49.1717673667205
   },
   {
@@ -33410,14 +33410,14 @@
   {
     "date": "2026-07-03",
     "ticker": "8035.T",
-    "price": 453.7790244,
+    "price": 453.75933360000005,
     "pe_ratio": 58.688175,
     "ps_ratio": 13.62592,
     "ev_ebitda": 46.424,
-    "market_cap": 206403668004.2042,
+    "market_cap": 206394711544.94232,
     "short_interest": null,
-    "avg_analyst_target": 412.97722305606,
-    "upside_pct": -8.991557377049189
+    "avg_analyst_target": 412.95930276563996,
+    "upside_pct": -8.9915573770492
   },
   {
     "date": "2026-07-03",
@@ -33458,14 +33458,14 @@
   {
     "date": "2026-07-03",
     "ticker": "4063.T",
-    "price": 43.133803986000004,
+    "price": 43.131932284,
     "pe_ratio": 27.593592,
     "ps_ratio": 5.0267663,
     "ev_ebitda": 13.316,
-    "market_cap": 80209416369.59207,
+    "market_cap": 80205935848.25697,
     "short_interest": null,
-    "avg_analyst_target": 49.333745881875004,
-    "upside_pct": 14.373742454728369
+    "avg_analyst_target": 49.331605146250006,
+    "upside_pct": 14.373742454728381
   },
   {
     "date": "2026-07-03",

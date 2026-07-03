@@ -2490,5 +2490,33 @@
     "signal_type": "momentum",
     "description": "Corning -13.6% intraday, the largest decliner in today's semiconductor-equipment/optical selloff tied to reports of SK Hynix slowing its HBM4 ramp in favor of conventional DRAM; SOX -6.3% on the day.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-03",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Groves DSA approval July 1 removes the last documentation hurdle before pre-startup review; first-criticality target of July 4 makes this weekend a binary event. Positive catalyst risk stacks up: NRC design criteria approval (May), Army microreactor tailwind (June), DOE DSA (July 1). A Friday/weekend criticality release would land into Monday open with no offsetting news flow.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-03",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "Meta Compute overhang extended into a 2nd session with 3x-average volume — institutional repositioning, not retail panic. Concentration risk on Meta ($35B backlog / 2027-2032) is now the market's primary framing. Contra-view (Seeking Alpha, Invezz) argues near-term revenue is contractually safe but does not address renewal-cycle risk. Monitor for Monday stabilization vs continued distribution.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-03",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "Two overlapping policy overhangs opening on the same day: (1) OpenAI 5% government-stake proposal reportedly extends to NVDA/MU/AMD as potential participants — any implementation would dilute existing shareholders by ~5%; (2) Section 232 semiconductor report Commerce owed Trump July 1 could trigger tariff modification or expanded China licensing. Decision window opens post-holiday. Not immediately actionable but should be flagged.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-03",
+    "ticker": "MU",
+    "signal_type": "overvalued",
+    "description": "Chip cohort down two sessions on BofA bubble-risk note; MU -9.6% Wednesday alone after its 305% YTD run. Q4 fiscal guide of $50B ± $1B revenue and gross margin ~86% now has to survive not just the technical pullback but a possible Korean HBM ramp (Samsung/SK Hynix $518B commitment) that could compress HBM4E pricing in 2027. Position-size risk elevated ahead of the July 10 TSMC print.",
+    "severity": "medium"
   }
 ]

@@ -2518,5 +2518,33 @@
     "signal_type": "overvalued",
     "description": "Chip cohort down two sessions on BofA bubble-risk note; MU -9.6% Wednesday alone after its 305% YTD run. Q4 fiscal guide of $50B ± $1B revenue and gross margin ~86% now has to survive not just the technical pullback but a possible Korean HBM ramp (Samsung/SK Hynix $518B commitment) that could compress HBM4E pricing in 2027. Position-size risk elevated ahead of the July 10 TSMC print.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "SoftBank SB Neo announcement (July 2, weekend digestion) adds a SECOND new hyperscale-tier neocloud competitor after Meta Compute in the same week — 10-GW US capacity target by 2030 with proprietary Infrinia OS + on-site gas power routes around the infrastructure moat that undergirded the CRWV thesis. Stock now -48% from its $166 April high with Meta $35B backlog contractually locked through 2032 but renewal-optionality visibility deteriorating.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "NBIS",
+    "signal_type": "concentration_risk",
+    "description": "Same SB Neo overhang. Nebius' $27B Meta contract contractually safe through 2029-2032 window per contract terms, but the market is now pricing in a compressing renewal/expansion multiple as SB Neo becomes a credible alternative sink for hyperscaler GPU offtake starting FY2027.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Samsung Q2 preliminary earnings due Tuesday July 7 (Korea open) is a competitor-margin cross-check for the memory supercycle thesis that has driven MU +305% YTD. Consensus KRW 85.5T operating profit is the pivot: above = HBM/DRAM pricing intact into MU fiscal-Q4 print; below = competitor-margin-guard-down worry emerges. Samsung +3.34% in Seoul Monday reads as market positioning long the print.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Groves reactor first-criticality window still open with DOE readiness review + fuel loading + startup testing remaining. July 4 milestone missed but no slippage disclosure over the long weekend. Any Tue-Wed DOE-readiness-review headline is the next binary catalyst; a Q3-slippage confirmation would compress the story.",
+    "severity": "medium"
   }
 ]

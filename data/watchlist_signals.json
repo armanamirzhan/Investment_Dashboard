@@ -2546,5 +2546,12 @@
     "signal_type": "momentum",
     "description": "Groves reactor first-criticality window still open with DOE readiness review + fuel loading + startup testing remaining. July 4 milestone missed but no slippage disclosure over the long weekend. Any Tue-Wed DOE-readiness-review headline is the next binary catalyst; a Q3-slippage confirmation would compress the story.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-06",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Broadcom extended its custom ASIC silicon supply partnership with Apple through 2031 (Bloomberg, July 6) — Apple is ~20% of AVGO revenue, giving a long-dated anchor after AVGO entered Monday down 25% over the trailing month. Stock +5-6% intraday to ~$381, with sympathy strength across the custom-silicon/foundry cohort (AMD +8-10%, INTC +4-5%) as investors read through to broader custom-chip demand. No fresh sell-side price-target revisions yet published in reaction.",
+    "severity": "high"
   }
 ]

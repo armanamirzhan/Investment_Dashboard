@@ -3247,5 +3247,32 @@
     "new_target": 297,
     "old_rating": "Neutral",
     "old_target": 348
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "AMD",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 640.0,
+    "old_rating": "Buy",
+    "old_target": 450.0
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "ASML",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 2623.0,
+    "old_rating": "Outperform",
+    "old_target": 1971.0
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "LRCX",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 404.0,
+    "old_rating": "Overweight",
+    "old_target": 331.0
   }
 ]

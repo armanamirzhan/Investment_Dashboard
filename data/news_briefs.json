@@ -3104,5 +3104,87 @@
       }
     ],
     "file": "morning-news/2026-07-06.html"
+  },
+  {
+    "date": "2026-07-07",
+    "tickers": [
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Q2 prelim OP KRW 89.4T beat consensus but shares -6-7% Seoul on capex/demand-peak worries"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Goldman PT $640 (from $450) Buy on agentic-AI CPU thesis; +10.5% Monday intraday"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "Bernstein PT $2,623 (from $1,971) Outperform; €80B 2030 rev vs €64B consensus"
+      },
+      {
+        "ticker": "LRCX",
+        "direction": "up",
+        "note": "Morgan Stanley PT $404 (from $331) Overweight — semi-cap-eq re-rate cascade continues"
+      },
+      {
+        "ticker": "SPCX",
+        "direction": "up",
+        "note": "Nasdaq-100 add pre-open Tue Jul 7 — $4.3B QQQ forced buy on 3-5% float"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SKHY Nasdaq ADR debut Fri Jul 10 at $166 = $29.65B raise, largest ADR listing ever"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "Samsung Q2 template = 'record beat, stock sells' — key tell into fiscal-Q4 print"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Siemens Energy Grid Tech book-to-bill 1.72x validates $726B DC capex framework"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Siemens Grid Tech guide raise (25-27% growth) is direct read on GEV addressable market"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "neutral",
+        "note": "Groves DOE readiness review still pending; company guidance holds 'July 2026' criticality"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "005930.KS",
+        "signal": "Samsung Q2 prelim KRW 89.4T OP beat but stock -7% — 'peak-memory' worry template"
+      },
+      {
+        "ticker": "sell-side",
+        "signal": "AMD $640, ASML $2,623, LRCX $404 all reset same day — semi-cap-eq capitulation continues"
+      },
+      {
+        "ticker": "SPCX",
+        "signal": "Nasdaq-100 forced-buy imbalance dominates flow into Tuesday open"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "SK Hynix Nasdaq ADR (SKHY) prices Thursday, debuts Friday July 10 — HBM-first re-rate"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 232 semi report six days past July 1 deadline — binary overhang persists"
+      },
+      {
+        "ticker": "grid",
+        "signal": "Siemens Grid Tech + Schneider SoCal Edison SF6 rollout — AI DC power buildout intact"
+      }
+    ],
+    "file": "morning-news/2026-07-07.html"
   }
 ]

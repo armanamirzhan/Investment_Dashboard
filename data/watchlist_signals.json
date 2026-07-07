@@ -2553,5 +2553,40 @@
     "signal_type": "momentum",
     "description": "Broadcom extended its custom ASIC silicon supply partnership with Apple through 2031 (Bloomberg, July 6) — Apple is ~20% of AVGO revenue, giving a long-dated anchor after AVGO entered Monday down 25% over the trailing month. Stock +5-6% intraday to ~$381, with sympathy strength across the custom-silicon/foundry cohort (AMD +8-10%, INTC +4-5%) as investors read through to broader custom-chip demand. No fresh sell-side price-target revisions yet published in reaction.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "005930.KS",
+    "signal_type": "earnings_beat",
+    "description": "Samsung Q2 preliminary OP KRW 89.4T beat KRW 85.5T consensus (19x YoY), but shares -6-7% in Seoul on capex/demand peak worries — potential template for how MU trades even on a beat.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Goldman Sachs PT $640 (from $450), Buy, agentic-AI CPU demand thesis; joins Cantor $700 / UBS $670 / Wells $615 — sell-side capitulation continues, AMD +10.5% intraday Monday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "Bernstein PT $2,623 (from $1,971), Outperform; €80B 2030 revenue vs. €64B consensus, EUV 30% CAGR — biggest single semi-cap-eq re-rate this cycle, ASML +3.9% Monday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "SPCX",
+    "signal_type": "momentum",
+    "description": "Nasdaq-100 add pre-open Tue Jul 7 — ~$4.3B QQQ forced buy alone, up to $27B total, into a 3-5% float; expect outsize opening-auction moves and mix-shift drag on MSFT/AAPL/NVDA/GOOGL/META.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix ADR debut Fri Jul 10 (SKHY) at $166; $29.65B raise = largest ADR listing in history, tops 2014 Alibaba $21.8B; validates HBM-first premium vs. Samsung.",
+    "severity": "medium"
   }
 ]

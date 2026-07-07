@@ -2588,5 +2588,12 @@
     "signal_type": "momentum",
     "description": "SK Hynix ADR debut Fri Jul 10 (SKHY) at $166; $29.65B raise = largest ADR listing in history, tops 2014 Alibaba $21.8B; validates HBM-first premium vs. Samsung.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-07",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Confirmed: MU -7% intraday Tuesday to ~$917 (session range $891.66-$947), now -22% off its post-earnings peak, as the Samsung sell-on-the-fact template flagged Monday played out exactly as anticipated. SanDisk and Western Digital also -7% in sympathy. Nasdaq 100 -1.5% on the day, semiconductor gauge broadly weak, as the market judges Samsung Q2 OP beat (19x YoY) as priced-in rather than incremental. No fresh sell-side downgrades/target cuts on MU published yet (Cantor $2,000 PT from June 29 stands) — BofA raised SanDisk PT to $2,500 (from $2,100) and Western Digital PT to $732 (from $610), both Buy, same day, so the sell-side view remains structurally bullish despite the price action.",
+    "severity": "high"
   }
 ]

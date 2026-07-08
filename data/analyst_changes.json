@@ -3274,5 +3274,14 @@
     "new_target": 404.0,
     "old_rating": "Overweight",
     "old_target": 331.0
+  },
+  {
+    "date": "2026-07-08",
+    "ticker": "NVDA",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 275,
+    "old_rating": "Buy",
+    "old_target": 275
   }
 ]

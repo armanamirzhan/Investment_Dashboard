@@ -2595,5 +2595,26 @@
     "signal_type": "momentum",
     "description": "Confirmed: MU -7% intraday Tuesday to ~$917 (session range $891.66-$947), now -22% off its post-earnings peak, as the Samsung sell-on-the-fact template flagged Monday played out exactly as anticipated. SanDisk and Western Digital also -7% in sympathy. Nasdaq 100 -1.5% on the day, semiconductor gauge broadly weak, as the market judges Samsung Q2 OP beat (19x YoY) as priced-in rather than incremental. No fresh sell-side downgrades/target cuts on MU published yet (Cantor $2,000 PT from June 29 stands) — BofA raised SanDisk PT to $2,500 (from $2,100) and Western Digital PT to $732 (from $610), both Buy, same day, so the sell-side view remains structurally bullish despite the price action.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-08",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "INTC -9.7% Tuesday close ($110) — deepest single-day cohort drawdown of Q3, breaking the 50-DMA on 3x normal volume; combined with Iran-ceasefire tape and Mizuho's SPCX foundry framing as an incremental Foundry Services competitor, the setup for the Aug earnings print is now maximally negative on positioning. Watch for base near $100 or capitulation retest of the Q1 $95 lows.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-08",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Positive catalyst — Galaxy Digital's on-schedule delivery of Helios Phase I (200 MW gross / 133 MW crit-IT) is the first tangible counter-datapoint to the securities-class-action alleging CRWV concealed construction delays. Rent commencement in Q2 2026 converts the CRWV backlog visibility ($99.4B) into first-hard-revenue conversion. Cash close $81.75 on July 2 was -31% over the trailing month; the Helios milestone is the catalyst that could re-rate back toward the $110-120 pre-selloff level if the tape stabilizes.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-08",
+    "ticker": "MU",
+    "signal_type": "overvalued",
+    "description": "Michael Burry disclosed short at $1,051.87 (Substack, July 2) framing MU as 'destroyer of capital' — cites 34 drawdowns of >30% over 42 years, median ROIC 4%, ROE 7%, FCF negative 48% of the time. Stock closed $975.56 same day (-5.5%). Sets the sell-side bear anchor into the fiscal Q4 print later this quarter. House framing: not thesis-altering (memory supercycle intact through 2027) but position sizing warrants a review — the Samsung Q2 template (record OP beat, -6-7% intraday) is exactly the trade risk Burry is pricing.",
+    "severity": "medium"
   }
 ]

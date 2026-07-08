@@ -3186,5 +3186,91 @@
       }
     ],
     "file": "morning-news/2026-07-07.html"
+  },
+  {
+    "date": "2026-07-08",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "BofA reiterates Buy 'enhanced Buy opp'ty at 7-yr low 18x fwd PE'; -1.7% pre-market to $193.68 on Iran drag"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "-6.5% Tuesday close to ~$508 on Deutsche Bank 'Samsung only 6% ahead' framing; 208x trailing P/E vulnerable"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "-9.7% Tuesday to $110 — deepest cohort down day of Q3; Mizuho SPCX foundry framing adds new IFS competitor"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "down",
+        "note": "-10% Tuesday to $532 — memory/AI-cap-ex exposure amplifies Samsung 'record beat but sell' template"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Galaxy Digital Helios Phase I delivered on schedule: 200 MW gross / 133 MW crit-IT under 15-yr lease; rent commenced Q2 2026"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "Joins RWE + XTX Ventures leading €411M Proxima Fusion round at €2.4B; 3rd named fusion/SMR bet after Kairos + TAE"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "neutral",
+        "note": "Blue Origin closes $10B / $130B first outside round (Coatue $4B, Bezos $2B); Kuiper mark-up + potential IPO 12-24mo out"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "Burry $1,051 short (Jul 2, closed $975 same day) becomes sell-side bear anchor into fiscal Q4 print"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "down",
+        "note": "Mizuho SPCX foundry framing adds long-tenor sovereignty risk to Arizona output; June revenue Fri Jul 10 next tell"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-6.3% Seoul on Iran-tape + valuation reset; Samsung Q2 beat now the template for 'record + sell' cohort risk"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Iran ceasefire 'over' — Brent +6.3%, WTI +6.4%; Dow futures -488 pts, Nasdaq -0.77%"
+      },
+      {
+        "ticker": "semis",
+        "signal": "Tuesday chip-cohort selloff (INTC -9.7%, AMAT -10%, AMD -6.5%) — deepest single day of Q3"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "BofA reiterates Buy — 'enhanced Buy opp'ty at 7-yr low 18x forward PE'"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "Galaxy Helios Phase I on schedule — first counter-datapoint to construction-delay class action"
+      },
+      {
+        "ticker": "GOOGL",
+        "signal": "Alphabet + RWE lead Proxima Fusion €411M — largest EU fusion round on record"
+      },
+      {
+        "ticker": "SPCX",
+        "signal": "Mizuho reiterates Outperform on $55B Texas foundry plan — sovereignty + margin-stack"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 232 semi-DC report 7 days past July 1 deadline — binary overhang intact"
+      }
+    ],
+    "file": "morning-news/2026-07-08.html"
   }
 ]

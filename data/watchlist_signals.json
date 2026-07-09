@@ -2651,5 +2651,19 @@
     "signal_type": "momentum",
     "description": "June monthly revenue release Fri July 10 is the third-straight month that must hold >25% YoY to preserve the sell-side up-cycle framing; NT$390-420B band = trajectory intact, below NT$380B breaks it",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "CRM",
+    "signal_type": "momentum",
+    "description": "Dual analyst downgrades Thursday AM: KeyBanc (Jackson Ader) cut Overweight->Sector Weight citing channel checks showing Agentforce adoption still early-stage and customer data not organized for meaningful AI work (\"minimal to no supporting factors, aside from valuation metrics, that would justify maintaining a positive outlook\"); BofA reinstated coverage at Underperform, PT $160, flagging muted new-customer adds, limited upsell, and an underwhelming AI monetization path. CRM -3.7% to -4% intraday to ~$160-161, extending a 34% YTD decline.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU +7-9% intraday Thursday on fresh news: Micron announced up to $3B in strategic U.S. semiconductor supply-chain investments, including $500M in financing to GlobalWafers America 300mm silicon wafer facility in Sherman, TX (first advanced high-volume 300mm wafer plant in the U.S.) plus a 10-year supply agreement securing long-term raw-wafer capacity. Read-through: reduces a structural U.S. supply-chain vulnerability (domestic wafer capacity) ahead of the fiscal Q4 print; GFS (GlobalFoundries, tracked) also traded higher in sympathy on the announcement.",
+    "severity": "high"
   }
 ]

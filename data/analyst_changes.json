@@ -3310,5 +3310,23 @@
     "new_target": null,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "CRM",
+    "firm": "KeyBanc",
+    "new_rating": "Sector Weight",
+    "new_target": null,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "CRM",
+    "firm": "Bank of America",
+    "new_rating": "Underperform",
+    "new_target": 160,
+    "old_rating": null,
+    "old_target": null
   }
 ]

@@ -3283,5 +3283,32 @@
     "new_target": 275,
     "old_rating": "Buy",
     "old_target": 275
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "PLTR",
+    "firm": "D.A. Davidson",
+    "new_rating": "Buy",
+    "new_target": 175.0,
+    "old_rating": "Neutral",
+    "old_target": 165.0
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "NVDA",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "AVGO",
+    "firm": "Erste Group",
+    "new_rating": "Hold",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

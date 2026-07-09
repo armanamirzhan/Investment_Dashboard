@@ -2616,5 +2616,40 @@
     "signal_type": "overvalued",
     "description": "Michael Burry disclosed short at $1,051.87 (Substack, July 2) framing MU as 'destroyer of capital' — cites 34 drawdowns of >30% over 42 years, median ROIC 4%, ROE 7%, FCF negative 48% of the time. Stock closed $975.56 same day (-5.5%). Sets the sell-side bear anchor into the fiscal Q4 print later this quarter. House framing: not thesis-altering (memory supercycle intact through 2027) but position sizing warrants a review — the Samsung Q2 template (record OP beat, -6-7% intraday) is exactly the trade risk Burry is pricing.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "China H200 approval clearance for Alibaba/ByteDance/DeepSeek (cap ~200k units, training-only) is the first major positive China-overhang datapoint since Jan 16 BIS rule; combines with BofA's 'enhanced Buy at 7-yr-low 18x fwd PE' pitch to set a positive re-rate window into Q2 earnings",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Apple $30B+ 2031 supply deal locks ~20% revenue-concentration line for six additional years, removing the single largest customer-loss overhang; deal specifically covers FBAR + custom silicon spanning the AI-networking (Tomahawk/Jericho) product cycle",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "Fiscal Q4 revenue guide $50B ±$1B vs Street $43.58B — 15% upside gap sets highest guide-vs-consensus spread since AI cycle began; watch Samsung 'record beat + sell' template as key sentiment binary",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SKHY Nasdaq ADR debut Friday July 10 at ~$165.26 reference / up to $29B raise; largest foreign-issuer ADR on record — opening print will reset public HBM peer multiples for MU/Samsung",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "June monthly revenue release Fri July 10 is the third-straight month that must hold >25% YoY to preserve the sell-side up-cycle framing; NT$390-420B band = trajectory intact, below NT$380B breaks it",
+    "severity": "medium"
   }
 ]

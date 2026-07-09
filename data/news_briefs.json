@@ -3272,5 +3272,91 @@
       }
     ],
     "file": "morning-news/2026-07-08.html"
+  },
+  {
+    "date": "2026-07-09",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "China H200 approval (~200k cap, training-only) clears near-term overhang; +0.6% pre-market to $205.30 after Wed +3.65%"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Apple $30B+ chip deal through 2031 locks in ~20% revenue; +4% Wednesday close; Erste downgrade to Hold pre-announcement now stranded"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Same H200-class conditional license framework; MI325X included in Trump Dec 8 clearance; rebound with cohort pre-market"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "Cohort rebound + Section 232 tail-risk positive (IFS onshore offset); recovering from Tuesday's -9.7% cohort-worst day"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Fiscal Q4 approaches; $50B guide vs $43.58B Street = 15% gap; Samsung 'record + sell' template the sentiment tell"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SKHY Nasdaq ADR debut Fri Jul 10 at ~$165.26 / up to $29B raise = largest foreign-issuer ADR on record"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "June monthly revenue release Fri Jul 10; third-straight >25% YoY read on supply sustain"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "D.A. Davidson upgrade to Buy PT $175 (from $165) on Nvidia sovereign-AI alliance + $7.65B FY guide"
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "up",
+        "note": "Closes 5% Cigar Lake stake acquisition from TEPCO at ~C$115.75M; ownership to 57.418%"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "up",
+        "note": "$30B+ Broadcom chip deal through 2031; $1.5B Fort Collins CO facility investment; 15B+ US-manufactured chips"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "policy",
+        "signal": "China H200 approval for BABA/ByteDance/DeepSeek (~200k cap, training-only) — first major China-overhang positive since Jan BIS rule"
+      },
+      {
+        "ticker": "semis",
+        "signal": "Chip cohort pre-market rebound after Tuesday's -1T rout on China H200 news + oversold snap-back"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Apple-Broadcom $30B+ 2031 deal locks customer-concentration overhang; Erste's Wed pre-announcement downgrade stranded"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "June monthly revenue Fri Jul 10 — first supply-side sustain check into Q2 earnings season"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "SKHY Nasdaq ADR Friday debut — largest foreign-issuer listing on record, resets HBM peer multiples"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 232 semi-DC report 8 days past July 1 deadline — binary tail-risk still intact"
+      },
+      {
+        "ticker": "MU",
+        "signal": "Fiscal Q4 print approaches; $50B guide vs $43.58B Street — 15% upside gap, Samsung template the sentiment tell"
+      }
+    ],
+    "file": "morning-news/2026-07-09.html"
   }
 ]

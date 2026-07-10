@@ -2693,5 +2693,12 @@
     "signal_type": "momentum",
     "description": "Pre-market +4.5% Friday leading storage rebound on SK Hynix ADR HBM re-rate. Fiscal Q4 print approaches; consensus $43.58B revenue vs company $50B guide implies 15% Street upside gap.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-10",
+    "ticker": "ORCL",
+    "signal_type": "concentration_risk",
+    "description": "S&P Global downgraded Oracle to BBB- from BBB (one notch above junk), citing rising business risk and a widening FY2027 free cash flow deficit now projected at ~$42B (vs prior ~$24B forecast) as AI datacenter capex accelerates; adjusted debt-to-leverage seen climbing into the mid-4x range. S&P flagged OpenAI as ~50% of Oracle RPO, meaning any stumble in OpenAI's path to profitability disproportionately exposes Oracle. Stock largely shrugged off the downgrade, up ~2.7% in a broader tech rally, but the credit cushion to junk status is now one notch thin.",
+    "severity": "high"
   }
 ]

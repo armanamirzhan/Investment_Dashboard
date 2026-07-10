@@ -3358,5 +3358,91 @@
       }
     ],
     "file": "morning-news/2026-07-09.html"
+  },
+  {
+    "date": "2026-07-10",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SKHYV Nasdaq ADR debut Fri Jul 10 at $149 = $26.51B raise, largest foreign-issuer listing on record"
+      },
+      {
+        "ticker": "META",
+        "direction": "down",
+        "note": "Iris ASIC mass-production Sep confirmed; 14GW 2027, $145B FY26 AI infra — capex reset -2% Thu"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Meta Iris design partner + Apple $30B/2031 deal — custom-silicon franchise across hyperscaler AI + premium consumer"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "+4.5% pre-market on SK Hynix HBM peer re-rate; fiscal Q4 print approaches with 15% guide-vs-Street gap"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Chip cohort rebound continues; China H200 approval (Alibaba/ByteDance/DeepSeek, <200k cap) unwinds overhang shorts"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "June monthly revenue release postponed to Jul 13 after Taiwan typhoon day-off; Jul 16 earnings call unchanged"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Siemens Energy raises global new-power-plant demand outlook to 110-120 GW/yr from 100 GW; Mississippi grid-equipment mega-factory 2028"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "Aalo-X experimental SMR targeting first criticality this month for AI DC co-location near INL — nearest real-world SMR reference"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "down",
+        "note": "Starbucks disclosed in-house AI replacement for MSFT inventory + IBM maintenance tools; template for enterprise SaaS budget re-route"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Siemens Energy 110-120 GW outlook + 800V DC ecosystem (ABB/Eaton/Schneider/Vertiv) validates DC power stack ARR"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "000660.KS",
+        "signal": "SK Hynix Nasdaq ADR live at $149 = $26.51B raise — HBM pure-play resets MU/Samsung memory multiples"
+      },
+      {
+        "ticker": "META",
+        "signal": "Iris ASIC mass-production Sep + 14GW 2027 = silicon-sovereignty pivot; capex de-risking, Nvidia-mix headwind"
+      },
+      {
+        "ticker": "semis",
+        "signal": "Chip cohort pre-market rally: MU +4.5%, SNDK +7.6%, SMH +2.5% on HBM re-rate + China H200 easing"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "June monthly revenue postponed to Jul 13 — Taiwan typhoon; earnings call Jul 16 unchanged"
+      },
+      {
+        "ticker": "grid",
+        "signal": "Siemens Energy 110-120 GW annual demand forecast + Mississippi mega-factory validates GEV/ETN/VRT/SNEXF backlog theses"
+      },
+      {
+        "ticker": "nuclear",
+        "signal": "Aalo-X SMR criticality attempt this month — first real-world hyperscaler-adjacent SMR reference"
+      },
+      {
+        "ticker": "software",
+        "signal": "SBUX in-house AI displacing MSFT + IBM tools — early template for enterprise SaaS budget re-route"
+      }
+    ],
+    "file": "morning-news/2026-07-10.html"
   }
 ]

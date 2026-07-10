@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-07-10</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-07-10</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>SK Hynix prices record-breaking Nasdaq ADR at $149; $26.5B raise is largest foreign-issuer listing ever</strong> &mdash; SK Hynix confirmed its Nasdaq ADR issue price at $149/share overnight, raising $26.51 billion — the largest ever share sale by a non-U.S. company. The offering was 7x oversubscribed. Temporary ticker SKHYV trades from today, with regular SKHY from Jul 13. Proceeds fund Korean fab expansion and ASML EUV scanner procurement. Establishes a new listed HBM pure-play and resets peer valuation frames for MU and Samsung.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Meta to mass-produce in-house 'Iris' AI ASIC from September; targets 14GW compute by 2027</strong> &mdash; Internal Meta memos reviewed by Reuters detail the September mass-production start of 'Iris,' Meta's Broadcom-partnered TSMC-fabricated recommendation-ranking ASIC. Meta plans to double datacenter capacity from 7 GW in 2026 to 14 GW in 2027, with $145B AI infra spend this year and a new custom AI processor cadence every six months through 2027. Reduces Nvidia/AMD dependence but does not replace GPUs. META shares -2% on capex reset; AVGO benefits directly as Iris design partner.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>TSMC June monthly revenue release postponed to July 13 after Taiwan typhoon day-off</strong> &mdash; TSMC delayed its scheduled Jul 10 June-revenue disclosure by one trading day after a typhoon-related day-off closed Taipei markets. Report now expected Jul 13. Investors watching for a third consecutive >25% YoY monthly print as a supply-side sustain check into the Jul 16 earnings call. Citi and UBS have TSMC price targets of NT$3,800 and NT$3,400 respectively into the call.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Chip cohort extends pre-market rebound Friday: MU +4.5%, SNDK +7.6%, SMH +2.5%</strong> &mdash; Semiconductor stocks led pre-market gains Friday morning as the SK Hynix ADR debut catalyzed HBM peer re-rating and the mid-week China H200 approval for Alibaba/ByteDance/DeepSeek (<200k unit cap) continued to unwind China-overhang shorts. Micron and SanDisk paced the storage cohort ahead of MU fiscal Q4. Intel lagged on Q2 earnings positioning (Jul 23). S&P 500 futures -0.22% into the open.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Aalo-X experimental SMR targets criticality this month for AI datacenter co-location near INL</strong> &mdash; Aalo Atomics' experimental Aalo-X small modular reactor is targeting first criticality in July 2026 as part of a co-location plan with an AI datacenter near Idaho National Laboratory. If achieved, it would be one of the earliest operational SMRs with a direct hyperscaler-adjacent load model, providing a real-world reference case for OKLO, SMR, XE and CEG buildout theses.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Siemens Energy raises global new-power-plant demand outlook to 110-120 GW/yr from prior 100 GW ceiling</strong> &mdash; Siemens Energy revised its annual global demand forecast for new power capacity to 110-120 GW/year, up from a prior ceiling of 100 GW. AI is now forecast to account for ~40% of total electricity consumption by 2030, up from ~20% today. The company is scaling U.S. production of transformers, switchgear and gas-turbine components, with Mississippi hosting its largest global grid-equipment factory (2028 completion). Direct read-across for GEV, ETN, VRT, and SNEXF backlogs.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Starbucks building in-house AI tools to replace Microsoft inventory + IBM maintenance software</strong> &mdash; Starbucks disclosed plans to develop AI-powered in-house alternatives to a Microsoft inventory-tracking system and an IBM maintenance-management tool, adding to the emerging 'AI-disruption of enterprise SaaS' narrative that pressured software stocks broadly on Thursday. Individually a small revenue line, but a template read for how large enterprises may reroute software budgets toward internal AI stacks, incrementally raising the customer-churn tail for MSFT, NOW, CRM and PLTR.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Broadcom double-punch: Meta Iris ASIC partner + Apple $30B multi-year chip deal firms AVGO custom-silicon franchise</strong> &mdash; Broadcom is riding two structural tailwinds this week: (1) named as Meta's design partner for the Iris AI ASIC entering mass production in September, and (2) a $30B+ multi-year cooperation agreement with Apple through 2031 for domestic manufacturing of 15B+ chips. The pairing entrenches AVGO's custom-silicon franchise across hyperscaler AI ASICs and premium consumer, arguably the most durable non-Nvidia AI-chip franchise in the market.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Aalo-X experimental SMR targets criticality this month for AI datacenter co-location near INL</h3><p>Aalo Atomics' experimental Aalo-X small modular reactor is targeting first criticality in July 2026 as part of a co-location plan with an AI datacenter near Idaho National Laboratory. If achieved, it would be one of the earliest operational SMRs with a direct hyperscaler-adjacent load model, providing a real-world reference case for OKLO, SMR, XE and CEG buildout theses.</p><div class="source"><a href="https://smrintel.com/nuclear-data-center-deals/">SMRintel</a></div></div>
+<div class="card"><h3>Siemens Energy raises global new-power-plant demand outlook to 110-120 GW/yr from prior 100 GW ceiling</h3><p>Siemens Energy revised its annual global demand forecast for new power capacity to 110-120 GW/year, up from a prior ceiling of 100 GW. AI is now forecast to account for ~40% of total electricity consumption by 2030, up from ~20% today. The company is scaling U.S. production of transformers, switchgear and gas-turbine components, with Mississippi hosting its largest global grid-equipment factory (2028 completion). Direct read-across for GEV, ETN, VRT, and SNEXF backlogs.</p><div class="source"><a href="https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-rides-the-data-center-power-wave-as-ai-fuels-a-120gw-market/69701987">Ad-Hoc News</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>SK Hynix prices record-breaking Nasdaq ADR at $149; $26.5B raise is largest foreign-issuer listing ever</h3><p>SK Hynix confirmed its Nasdaq ADR issue price at $149/share overnight, raising $26.51 billion — the largest ever share sale by a non-U.S. company. The offering was 7x oversubscribed. Temporary ticker SKHYV trades from today, with regular SKHY from Jul 13. Proceeds fund Korean fab expansion and ASML EUV scanner procurement. Establishes a new listed HBM pure-play and resets peer valuation frames for MU and Samsung.</p><div class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaq-debut-26-113118390.html">Reuters via Yahoo Finance</a></div></div>
+<div class="card"><h3>Meta to mass-produce in-house 'Iris' AI ASIC from September; targets 14GW compute by 2027</h3><p>Internal Meta memos reviewed by Reuters detail the September mass-production start of 'Iris,' Meta's Broadcom-partnered TSMC-fabricated recommendation-ranking ASIC. Meta plans to double datacenter capacity from 7 GW in 2026 to 14 GW in 2027, with $145B AI infra spend this year and a new custom AI processor cadence every six months through 2027. Reduces Nvidia/AMD dependence but does not replace GPUs. META shares -2% on capex reset; AVGO benefits directly as Iris design partner.</p><div class="source"><a href="https://money.usnews.com/investing/news/articles/2026-07-09/exclusive-meta-to-put-ai-chip-into-production-in-september-as-it-looks-to-double-computing-capacity-memo-shows">Reuters via U.S. News</a></div></div>
+<div class="card"><h3>TSMC June monthly revenue release postponed to July 13 after Taiwan typhoon day-off</h3><p>TSMC delayed its scheduled Jul 10 June-revenue disclosure by one trading day after a typhoon-related day-off closed Taipei markets. Report now expected Jul 13. Investors watching for a third consecutive >25% YoY monthly print as a supply-side sustain check into the Jul 16 earnings call. Citi and UBS have TSMC price targets of NT$3,800 and NT$3,400 respectively into the call.</p><div class="source"><a href="https://investor.tsmc.com/english/financial-calendar">TSMC Investor Relations</a></div></div>
+<div class="card"><h3>Chip cohort extends pre-market rebound Friday: MU +4.5%, SNDK +7.6%, SMH +2.5%</h3><p>Semiconductor stocks led pre-market gains Friday morning as the SK Hynix ADR debut catalyzed HBM peer re-rating and the mid-week China H200 approval for Alibaba/ByteDance/DeepSeek (<200k unit cap) continued to unwind China-overhang shorts. Micron and SanDisk paced the storage cohort ahead of MU fiscal Q4. Intel lagged on Q2 earnings positioning (Jul 23). S&P 500 futures -0.22% into the open.</p><div class="source"><a href="https://www.benzinga.com/markets/prediction-markets/26/07/60376965/sp500-july-10-open-up-or-down-polymarket-sk-hynix-oil-prices-chip-stocks">Benzinga</a></div></div>
+<div class="card"><h3>Broadcom double-punch: Meta Iris ASIC partner + Apple $30B multi-year chip deal firms AVGO custom-silicon franchise</h3><p>Broadcom is riding two structural tailwinds this week: (1) named as Meta's design partner for the Iris AI ASIC entering mass production in September, and (2) a $30B+ multi-year cooperation agreement with Apple through 2031 for domestic manufacturing of 15B+ chips. The pairing entrenches AVGO's custom-silicon franchise across hyperscaler AI ASICs and premium consumer, arguably the most durable non-Nvidia AI-chip franchise in the market.</p><div class="source"><a href="https://seekingalpha.com/news/4612588-meta-ai-chip-to-go-into-production-from-september-report">Seeking Alpha</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Starbucks building in-house AI tools to replace Microsoft inventory + IBM maintenance software</h3><p>Starbucks disclosed plans to develop AI-powered in-house alternatives to a Microsoft inventory-tracking system and an IBM maintenance-management tool, adding to the emerging 'AI-disruption of enterprise SaaS' narrative that pressured software stocks broadly on Thursday. Individually a small revenue line, but a template read for how large enterprises may reroute software budgets toward internal AI stacks, incrementally raising the customer-churn tail for MSFT, NOW, CRM and PLTR.</p><div class="source"><a href="https://www.fool.com/coverage/stock-market-today/2026/07/09/stock-market-today-july-9-ai-chip-technology-stocks-rally-overcoming-ceasefire-worries/">Motley Fool market wrap</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-neutral">Momentum</span> SK Hynix Nasdaq ADR (SKHYV/SKHY) debut Friday at $149 = $26.5B raise, largest foreign-issuer listing on record. HBM pure-play now trades on-shore in the U.S. market, resetting comps for MU and Samsung memory.</p>
+<p><span class="ticker">META</span> <span class="signal-badge signal-neutral">Concentration Risk</span> Iris ASIC in mass production September + 14 GW 2027 compute + $145B FY26 AI infra spend. Capex reset raises FCF concentration risk for the multi-year buildout even as it de-risks silicon supply chain.</p>
+<p><span class="ticker">AVGO</span> <span class="signal-badge signal-neutral">Momentum</span> Named Meta Iris ASIC partner plus Apple $30B+ 2031 deal — custom-silicon franchise entrenched across hyperscaler AI and premium consumer; the most durable non-Nvidia AI-chip story on the tape.</p>
+<p><span class="ticker">MU</span> <span class="signal-badge signal-neutral">Momentum</span> Pre-market +4.5% Friday leading storage rebound on SK Hynix ADR HBM re-rate. Fiscal Q4 print approaches; consensus $43.58B revenue vs company $50B guide implies 15% Street upside gap.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SKHYV Nasdaq ADR debut Fri Jul 10 at $149 = $26.51B raise, largest foreign-issuer listing on record</td></tr>
+<tr><td><span class="ticker down">META</span></td><td>Down</td><td>Iris ASIC mass-production Sep confirmed; 14GW 2027, $145B FY26 AI infra — capex reset -2% Thu</td></tr>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>Meta Iris design partner + Apple $30B/2031 deal — custom-silicon franchise across hyperscaler AI + premium consumer</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>+4.5% pre-market on SK Hynix HBM peer re-rate; fiscal Q4 print approaches with 15% guide-vs-Street gap</td></tr>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Chip cohort rebound continues; China H200 approval (Alibaba/ByteDance/DeepSeek, <200k cap) unwinds overhang shorts</td></tr>
+<tr><td><span class="ticker ">TSM</span></td><td>Neutral</td><td>June monthly revenue release postponed to Jul 13 after Taiwan typhoon day-off; Jul 16 earnings call unchanged</td></tr>
+<tr><td><span class="ticker up">ENR.DE</span></td><td>Up</td><td>Siemens Energy raises global new-power-plant demand outlook to 110-120 GW/yr from 100 GW; Mississippi grid-equipment mega-factory 2028</td></tr>
+<tr><td><span class="ticker up">OKLO</span></td><td>Up</td><td>Aalo-X experimental SMR targeting first criticality this month for AI DC co-location near INL — nearest real-world SMR reference</td></tr>
+<tr><td><span class="ticker down">MSFT</span></td><td>Down</td><td>Starbucks disclosed in-house AI replacement for MSFT inventory + IBM maintenance tools; template for enterprise SaaS budget re-route</td></tr>
+<tr><td><span class="ticker up">VRT</span></td><td>Up</td><td>Siemens Energy 110-120 GW outlook + 800V DC ecosystem (ABB/Eaton/Schneider/Vertiv) validates DC power stack ARR</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-07-10 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

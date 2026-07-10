@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-07-10",
+    "headline": "SK Hynix prices record-breaking Nasdaq ADR at $149; $26.5B raise is largest foreign-issuer listing ever",
+    "summary": "SK Hynix confirmed its Nasdaq ADR issue price at $149/share overnight, raising $26.51 billion — the largest ever share sale by a non-U.S. company. The offering was 7x oversubscribed. Temporary ticker SKHYV trades from today, with regular SKHY from Jul 13. Proceeds fund Korean fab expansion and ASML EUV scanner procurement. Establishes a new listed HBM pure-play and resets peer valuation frames for MU and Samsung.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Reuters via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaq-debut-26-113118390.html"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Meta to mass-produce in-house 'Iris' AI ASIC from September; targets 14GW compute by 2027",
+    "summary": "Internal Meta memos reviewed by Reuters detail the September mass-production start of 'Iris,' Meta's Broadcom-partnered TSMC-fabricated recommendation-ranking ASIC. Meta plans to double datacenter capacity from 7 GW in 2026 to 14 GW in 2027, with $145B AI infra spend this year and a new custom AI processor cadence every six months through 2027. Reduces Nvidia/AMD dependence but does not replace GPUs. META shares -2% on capex reset; AVGO benefits directly as Iris design partner.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Reuters via U.S. News",
+    "source_url": "https://money.usnews.com/investing/news/articles/2026-07-09/exclusive-meta-to-put-ai-chip-into-production-in-september-as-it-looks-to-double-computing-capacity-memo-shows"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "TSMC June monthly revenue release postponed to July 13 after Taiwan typhoon day-off",
+    "summary": "TSMC delayed its scheduled Jul 10 June-revenue disclosure by one trading day after a typhoon-related day-off closed Taipei markets. Report now expected Jul 13. Investors watching for a third consecutive >25% YoY monthly print as a supply-side sustain check into the Jul 16 earnings call. Citi and UBS have TSMC price targets of NT$3,800 and NT$3,400 respectively into the call.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TSMC Investor Relations",
+    "source_url": "https://investor.tsmc.com/english/financial-calendar"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Chip cohort extends pre-market rebound Friday: MU +4.5%, SNDK +7.6%, SMH +2.5%",
+    "summary": "Semiconductor stocks led pre-market gains Friday morning as the SK Hynix ADR debut catalyzed HBM peer re-rating and the mid-week China H200 approval for Alibaba/ByteDance/DeepSeek (<200k unit cap) continued to unwind China-overhang shorts. Micron and SanDisk paced the storage cohort ahead of MU fiscal Q4. Intel lagged on Q2 earnings positioning (Jul 23). S&P 500 futures -0.22% into the open.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/prediction-markets/26/07/60376965/sp500-july-10-open-up-or-down-polymarket-sk-hynix-oil-prices-chip-stocks"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Aalo-X experimental SMR targets criticality this month for AI datacenter co-location near INL",
+    "summary": "Aalo Atomics' experimental Aalo-X small modular reactor is targeting first criticality in July 2026 as part of a co-location plan with an AI datacenter near Idaho National Laboratory. If achieved, it would be one of the earliest operational SMRs with a direct hyperscaler-adjacent load model, providing a real-world reference case for OKLO, SMR, XE and CEG buildout theses.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "SMRintel",
+    "source_url": "https://smrintel.com/nuclear-data-center-deals/"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Siemens Energy raises global new-power-plant demand outlook to 110-120 GW/yr from prior 100 GW ceiling",
+    "summary": "Siemens Energy revised its annual global demand forecast for new power capacity to 110-120 GW/year, up from a prior ceiling of 100 GW. AI is now forecast to account for ~40% of total electricity consumption by 2030, up from ~20% today. The company is scaling U.S. production of transformers, switchgear and gas-turbine components, with Mississippi hosting its largest global grid-equipment factory (2028 completion). Direct read-across for GEV, ETN, VRT, and SNEXF backlogs.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Ad-Hoc News",
+    "source_url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-rides-the-data-center-power-wave-as-ai-fuels-a-120gw-market/69701987"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Starbucks building in-house AI tools to replace Microsoft inventory + IBM maintenance software",
+    "summary": "Starbucks disclosed plans to develop AI-powered in-house alternatives to a Microsoft inventory-tracking system and an IBM maintenance-management tool, adding to the emerging 'AI-disruption of enterprise SaaS' narrative that pressured software stocks broadly on Thursday. Individually a small revenue line, but a template read for how large enterprises may reroute software budgets toward internal AI stacks, incrementally raising the customer-churn tail for MSFT, NOW, CRM and PLTR.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Motley Fool market wrap",
+    "source_url": "https://www.fool.com/coverage/stock-market-today/2026/07/09/stock-market-today-july-9-ai-chip-technology-stocks-rally-overcoming-ceasefire-worries/"
+  },
+  {
+    "date": "2026-07-10",
+    "headline": "Broadcom double-punch: Meta Iris ASIC partner + Apple $30B multi-year chip deal firms AVGO custom-silicon franchise",
+    "summary": "Broadcom is riding two structural tailwinds this week: (1) named as Meta's design partner for the Iris AI ASIC entering mass production in September, and (2) a $30B+ multi-year cooperation agreement with Apple through 2031 for domestic manufacturing of 15B+ chips. The pairing entrenches AVGO's custom-silicon franchise across hyperscaler AI ASICs and premium consumer, arguably the most durable non-Nvidia AI-chip franchise in the market.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4612588-meta-ai-chip-to-go-into-production-from-september-report"
+  }
+]

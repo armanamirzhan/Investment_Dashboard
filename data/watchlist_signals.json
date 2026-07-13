@@ -2721,5 +2721,12 @@
     "signal_type": "momentum",
     "description": "Meta +3-6% pre-market on SemiAnalysis 'Meta Compute' bullish reset: 5GW contracted H1'26, 2027 capex accelerating, ~$10B Anthropic Claude private-instance deal validates external-hosting monetization thesis.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Micron -5.76% intraday (session low near -8% before paring) as the SK Hynix/Samsung memory rout spread directly into US-listed peers: SanDisk -11%, Western Digital -7% moved in sympathy. Catalyst is the same Korea Investment & Securities Q2 op-profit cut (8% below Street) already flagged on 000660.KS this morning, but this is the first hit to Micron's own multiple after its 243% YTD run — market reopening the peak-memory-earnings debate for the US names, not just the Korean ADRs.",
+    "severity": "high"
   }
 ]

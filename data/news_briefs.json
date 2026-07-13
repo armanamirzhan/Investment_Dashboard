@@ -3444,5 +3444,91 @@
       }
     ],
     "file": "morning-news/2026-07-10.html"
+  },
+  {
+    "date": "2026-07-13",
+    "tickers": [
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "June revenue NT$442.7B +67.9% YoY / +6.2% MoM — all-time monthly high; Q2 $39.6B beats top of $39-40.2B guide"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-15.4% to KRW 1.845M; KIS cut Q2 op-profit to KRW 60.4T vs KRW 65T Street; ADR-vs-KS arb + circuit-breaker session"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -10.7% to KRW 254.5k; DB Fin KRW 360k / KB KRW 600k = 1.7x sell-side dispersion; KOSPI 7th CB of 2026"
+      },
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "+3-6% pre-market; SemiAnalysis 'Meta Compute' report refutes capex slowdown; 5GW H1 contracted; ~$10B Anthropic Claude deal"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "up",
+        "note": "Goldman Sachs raises PT to $645 (from $520); order visibility to 2028; DRAM WFE strength; ~32x normalized ~$20 EPS"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "neutral",
+        "note": "Q2 earnings Wed Jul 15 preview: guide EUR 8.4-9.0B, bookings + China + High-NA EUV the three watch items"
+      },
+      {
+        "ticker": "SKHY",
+        "direction": "up",
+        "note": "Fri Nasdaq ADR close $168.01 = +12.8% over $149 IPO; today's KS parent selloff opens ADR/underlying discount arb"
+      },
+      {
+        "ticker": "CL",
+        "direction": "up",
+        "note": "Brent +4% to $78.82 = highest since Jun 22 on US-Iran Hormuz clash; CENTCOM strikes + Iran attacks on Gulf allies; ~6-9 vessels transit vs 130 pre-war"
+      },
+      {
+        "ticker": "JPM",
+        "direction": "neutral",
+        "note": "Q2 earnings Tue Jul 14 pre-open; consensus EPS $5.44-5.61 (+10% YoY); IB fees + trading; also named SambaNova inference partner"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Mixed pre-market; TSMC June blowout supportive but Middle East risk-off + Warsh testimony + June CPI Tue keep cohort in check"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "TSM",
+        "signal": "TSMC June revenue $14.6B all-time high; Q2 $39.6B beats top of guide — direct contradiction of Korea peak-earnings narrative"
+      },
+      {
+        "ticker": "kospi",
+        "signal": "7th KOSPI circuit breaker of 2026 — SK Hynix -15%, Samsung -10.7%, Kioxia -12.9%; peak-earnings + Middle East + ADR arb"
+      },
+      {
+        "ticker": "policy",
+        "signal": "US-Iran Strait of Hormuz clash: Brent +4% to $78.82; Iran attacks on UAE/Qatar/Kuwait/Oman/Bahrain; Hormuz shipping ~6-9/day vs 130 pre-war"
+      },
+      {
+        "ticker": "META",
+        "signal": "SemiAnalysis 'Meta Compute' reset: 5GW H1 contracted, 2027 capex accelerating, ~$10B Anthropic Claude deal — refutes neocloud fear"
+      },
+      {
+        "ticker": "earnings",
+        "signal": "Big-bank week: JPM/WFC/C/BLK Tue; ASML/GS/MS/BAC/UNH Wed; TSM/NFLX Thu — Q2 S&P 500 EPS +24% YoY expected"
+      },
+      {
+        "ticker": "fed",
+        "signal": "June CPI Tue Jul 14 + Warsh testimony (House Tue, Senate Wed) — headline 3.8% / core 2.8% projected; 2% target framed as defining priority"
+      },
+      {
+        "ticker": "semi-cap",
+        "signal": "Goldman AMAT PT $645 (from $520) — order visibility to 2028; extends Jul 7 semi-cap re-rate (LRCX $404 MS, ASML EUR 2,623 Bernstein, AMD $640 GS)"
+      }
+    ],
+    "file": "morning-news/2026-07-13.html"
   }
 ]

@@ -3328,5 +3328,32 @@
     "new_target": 160,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "AMAT",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 645.0,
+    "old_rating": "Buy",
+    "old_target": 520.0
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "005930.KS",
+    "firm": "DB Financial Investment",
+    "new_rating": "Neutral",
+    "new_target": 360000.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "005930.KS",
+    "firm": "KB Securities",
+    "new_rating": "Buy",
+    "new_target": 600000.0,
+    "old_rating": null,
+    "old_target": null
   }
 ]

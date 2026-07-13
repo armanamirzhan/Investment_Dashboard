@@ -2700,5 +2700,26 @@
     "signal_type": "concentration_risk",
     "description": "S&P Global downgraded Oracle to BBB- from BBB (one notch above junk), citing rising business risk and a widening FY2027 free cash flow deficit now projected at ~$42B (vs prior ~$24B forecast) as AI datacenter capex accelerates; adjusted debt-to-leverage seen climbing into the mid-4x range. S&P flagged OpenAI as ~50% of Oracle RPO, meaning any stumble in OpenAI's path to profitability disproportionately exposes Oracle. Stock largely shrugged off the downgrade, up ~2.7% in a broader tech rally, but the credit cushion to junk status is now one notch thin.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "000660.KS",
+    "signal_type": "overvalued",
+    "description": "SK Hynix -15.4% to KRW 1,845,000 on Korea Investment & Securities Q2 op-profit cut to KRW 60.4T (8% below KRW 65T Street) + ADR-vs-KS profit-taking arb. Circuit-breaker session, foreign+institutional net-sold KRW 2.8T. Peak-earnings debate re-opened.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "TSMC June revenue NT$442.7B (+67.9% YoY, +6.2% MoM) all-time monthly high; Q2 $39.6B beats top of $39-40.2B guide. Sets bullish tape into Jul 16 earnings call and directly contradicts Korea peak-earnings narrative.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "ticker": "META",
+    "signal_type": "momentum",
+    "description": "Meta +3-6% pre-market on SemiAnalysis 'Meta Compute' bullish reset: 5GW contracted H1'26, 2027 capex accelerating, ~$10B Anthropic Claude private-instance deal validates external-hosting monetization thesis.",
+    "severity": "medium"
   }
 ]

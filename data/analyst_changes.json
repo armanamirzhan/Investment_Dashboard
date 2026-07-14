@@ -3355,5 +3355,32 @@
     "new_target": 600000.0,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "AMAT",
+    "firm": "Susquehanna",
+    "new_rating": "Positive",
+    "new_target": 900,
+    "old_rating": "Positive",
+    "old_target": 575
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "AMAT",
+    "firm": "B. Riley",
+    "new_rating": "Buy",
+    "new_target": 790,
+    "old_rating": "Buy",
+    "old_target": 550
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "AMAT",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 650,
+    "old_rating": "Buy",
+    "old_target": 530
   }
 ]

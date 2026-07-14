@@ -3530,5 +3530,91 @@
       }
     ],
     "file": "morning-news/2026-07-13.html"
+  },
+  {
+    "date": "2026-07-14",
+    "tickers": [
+      {
+        "ticker": "IBM",
+        "direction": "down",
+        "note": "-17-22% pre-open on preliminary Q2 miss ($17.2B vs $17.86B); mainframe -7%; software cohort at risk"
+      },
+      {
+        "ticker": "JPM",
+        "direction": "up",
+        "note": "Q2 EPS $6.14 vs $5.85; revenue $58.02B vs $50.19B; IB fees +28%; NII guide raised"
+      },
+      {
+        "ticker": "WFC",
+        "direction": "up",
+        "note": "Q2 EPS $2.00 vs $1.72; NII $12.3B +5%; IB fees +35%; wealth revenue +13%"
+      },
+      {
+        "ticker": "C",
+        "direction": "up",
+        "note": "Q2 EPS $3.15 vs $2.73; revenue $24.77B decade-high; equities trading +45% to $2.3B; profit +45%"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "up",
+        "note": "+5.3% pre-market; Susquehanna Street-high PT $900 (from $575); B. Riley $790 / Stifel $650 / Goldman $645"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +3% close reversing intraday -9% two-day drawdown; KOSPI +0.7% to 6,857 after Mon's 7th CB of 2026"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +3.3% close; bargain-hunting after DB Fin/KB dispersion; HBM peak-earnings narrative fully discounted"
+      },
+      {
+        "ticker": "LEU",
+        "direction": "up",
+        "note": "Centrus joins S&P SmallCap 600 today — passive-fund bid; $3.8B backlog to 2040 + $900M DOE HALEU order"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "down",
+        "note": "KeyBanc rare Underweight PT $250 (~21% downside); read-across watch AVGO/APH/GLW supply chain"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Chip cohort premarket bid (SMH +2%) but Middle East + Warsh testimony 10am ET + ASML Wed cap upside"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "June CPI -0.4% MoM / +3.5% YoY (vs +3.8% consensus); core +2.6% YoY — softest print of 2026, energy -5.7%; rate-cut path reopens ahead of Warsh 10am"
+      },
+      {
+        "ticker": "IBM",
+        "signal": "Preliminary Q2 miss — worst day since 1987 (-17-22%); mainframe -7%, software soft; software cohort read-across risk PLTR/SNOW/ORCL/CRWD"
+      },
+      {
+        "ticker": "banks",
+        "signal": "JPM/WFC/C all beat on IB + trading (+28-45%); NII stable; expense creep the only pushback — sets up strong bar for GS/MS/BAC Wed"
+      },
+      {
+        "ticker": "kospi",
+        "signal": "V-shape reversal: KOSPI +0.7%, SK Hynix +3%, Samsung +3.3% — bargain-hunting closes Mon's peak-earnings gap ahead of ASML Wed + TSMC Thu"
+      },
+      {
+        "ticker": "AMAT",
+        "signal": "Semi-cap PT cluster resets to $645-900 (Susquehanna $900 Street-high) — DRAM WFE + High-NA + AI capex; read-across LRCX/KLAC/ASML"
+      },
+      {
+        "ticker": "AAPL",
+        "signal": "KeyBanc rare Underweight — first material sell-side bear-print on AAPL since 2024; watch AVGO $30B 2031 deal, APH/GLW iPhone read-across"
+      },
+      {
+        "ticker": "LEU",
+        "signal": "Centrus S&P SmallCap 600 inclusion today — passive-fund technical demand; SMR/OKLO positive read-across on HALEU supply lock-in"
+      }
+    ],
+    "file": "morning-news/2026-07-14.html"
   }
 ]

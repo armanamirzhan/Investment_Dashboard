@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-07-14",
+    "headline": "June CPI cools sharply: -0.4% MoM (deflation), +3.5% YoY vs 4.2% May; core +2.6% YoY — best print of 2026",
+    "summary": "Headline CPI fell 0.4% MoM seasonally adjusted in June — the first monthly decline of the cycle — bringing the YoY rate to 3.5% (from 4.2% May), well ahead of the +3.8% economist consensus. Core CPI (ex-food and energy) was unchanged MoM and +2.6% YoY. Energy index -5.7% MoM was the biggest contributor. Cool print lands the same morning as Fed Chair Warsh's 10am ET semi-annual monetary policy report — pivotal for the rate-cut vs peak-earnings tension. S&P futures pared losses on the print, Nasdaq futures +0.5%.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "BLS",
+    "source_url": "https://www.bls.gov/news.release/archives/cpi_07142026.htm"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "IBM plunges 17-22% pre-open on preliminary Q2 miss: revenue $17.2B vs $17.86B, mainframe -7%, software soft — worst day since 1987",
+    "summary": "IBM preannounced disappointing Q2 2026: revenue $17.2B (+1% YoY) vs $17.86B consensus, operating EPS $2.93 vs $3.01 consensus, GAAP EPS $2.27. Infrastructure segment -7% on mainframe Z-system shortfall and Transaction Processing software. CEO Krishna attributed part of miss to clients redirecting spend toward servers/storage/memory in anticipation of price hikes — read-across positive for MU/HPE/DELL, negative for legacy software cohort. Full call Jul 22. Rattles software peers (Palantir, Snowflake, Oracle) into today's tape.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4613497-ibm-tumbles-after-ceo-rues-disappointing-preliminary-q2-results-misses-estimates"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "JPMorgan Q2 blowout: EPS $6.14 vs $5.85, revenue $58.02B vs $50.19B; IB fees +28%; NII outlook raised; expenses to ~$107.5B",
+    "summary": "JPMorgan reported Q2 2026 EPS of $6.14 (vs $5.85 consensus) and revenue $58.02B (vs $50.19B) — a >$7B top-line beat. Investment banking fees +28% YoY on capital markets recovery. Full-year NII guide lifted (Q1 run-rate had already been $25.4B on ~$103B target). Expense outlook raised to ~$107.5B on ongoing tech + JPM Payments investment. Q2 also confirms JPM's Jul 8 selection of SambaNova SN40L/SN50 systems for regulated on-prem inference. Wells Fargo Q2 EPS $2.00 vs $1.72; Citigroup Q2 EPS $3.15 vs $2.73 with equities trading +45% to $2.3B. All three beat on IB + trading — sets up GS/MS/BAC Wed pre-open.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4613485-jpmorgan-chase-q2-earnings-beat-as-investment-banking-equities-fees-surge-but-expenses-rise-too"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "KOSPI stages 5-8% intraday reversal: SK Hynix +3%, Samsung +3.3% close as bargain-hunting reclaims 6,857",
+    "summary": "KOSPI closed +0.7% at 6,856.83 Tuesday after intraday roundtrip from 6,400s to 7,000s — recovering ~half of Monday's -8.07% circuit-breaker rout. SK Hynix ended +3% (had dropped as much as -9% intraday, which would have made two-day loss >20%); Samsung Electronics +3.3%; Nikkei 225 tracked +3% on Kioxia/SoftBank recovery. Foreign+institutional net-bought late session as ADR/underlying arb closed and bargain hunters concluded HBM peak-earnings was fully discounted. Sets a more constructive tone into ASML Wed and TSMC Thu.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-14/sk-hynix-shares-waver-in-seoul-after-wall-street-ai-memory-rout"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Chip cohort premarket bid: AMAT +5.3%, TER +4.9%, LRCX +3.5%, MPWR +4.5%, KLAC +3%; SMH +2% reverses Mon's -4.8% SOX drop",
+    "summary": "US-listed semi-cap and equipment names rallied hard pre-open after Monday's Asia-led selloff (-4.8% SOX). Applied Materials led at +5.3%, Teradyne +4.9%, Monolithic Power +4.5%, Lam Research +3.5%, KLA +3%, FormFactor +3.2%. VanEck SMH +2%. Rebound powered by (i) KOSPI reversal repositioning HBM/DRAM peak-earnings, (ii) fresh AMAT PT hikes cluster (Susquehanna $900 from $575, B. Riley $790 from $550, Stifel $650 from $530, Goldman $645 from $520), (iii) IBM CEO comment that clients are pulling forward server/storage/memory spend ahead of price hikes = positive read-across for MU/HPE/DELL, (iv) June CPI cooling relieves rate risk on high-multiple growth.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/chip-stocks-rise-in-premarket-after-sector-selloff-93CH-4790121"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Susquehanna sets Street-high AMAT PT $900 (from $575); B. Riley $790; Stifel $650 — DRAM WFE + High-NA extend the semi-cap re-rate",
+    "summary": "Susquehanna's Mehdi Hosseini raised Applied Materials price target to Street-high $900 (from $575), reflecting DRAM WFE strength, HBM step-up, pricing gains, and order visibility now stretching into 2028. B. Riley took its objective to $790 (from $550) on Jun 26. Stifel Nicolaus lifted to $650 (from $530) Jul 10. Follows Goldman Sachs' Jul 11 raise to $645 (from $520). Cluster now $645-900 vs pre-2026 consensus ~$450-500. CEO Gary Dickerson's May guide of >30% semi-equipment growth in calendar 2026 continues to be re-underwritten. Read-across bull to LRCX / KLAC into ASML Wed print.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-lifts-pt-applied-materials-163723531.html"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Apple gets rare Underweight from KeyBanc, PT $250 (~21% downside); iPhone, Mac/iPad/Wearables + Services deceleration cited",
+    "summary": "KeyBanc Capital Markets' Brandon Nispel cut Apple to Underweight from Sector Weight with a $250 12-month PT — implying ~21% downside from Mon's close and the rare bear rating on the name. KFLD proprietary spend data showed indexed spending -2% MoM in June vs +9% 3-yr avg. Three concerns: (1) iPhone builds slowing with price increases, weak US upgrade cycle, changing subsidy models; (2) Mac/iPad/Wearables FY27 estimates going lower; (3) Services growth decelerating to 7% in FY27 vs ~12% consensus. Valuation basis: ~24.5x KeyBanc FY27 EV/EBITDA and ~35x P/E. AAPL -1% pre-market. Read-across watch for AVGO (~$30B 2031 Apple deal), APH/GLW iPhone supply.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-14/apple-gets-rare-bear-rating-as-keybanc-downgrades-on-demand-risk"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Centrus Energy (LEU) joins S&P SmallCap 600 today — passive-fund technical bid; $3.8B backlog to 2040 + $900M DOE HALEU task order",
+    "summary": "Centrus Energy is added to the S&P SmallCap 600 index effective today Jul 14, which typically generates technical buying pressure from passive funds tracking the benchmark. LEU is the sole US commercial HALEU producer (High-Assay Low-Enriched Uranium — the fuel required by advanced SMR designs from Oklo, X-energy, TerraPower). Backlog stood at $3.8B extending to 2040, including a $900M DOE HALEU task order; the NNSA has notified intent to sole-source certain enrichment activities. FY26 revenue guide raised to $450-500M (from $425-475M). Positive read-across to CCJ, OKLO, SMR into today's session; SMR sector already the standout Q2 winner.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Foreign Policy Journal",
+    "source_url": "https://www.foreignpolicyjournal.com/2026/06/15/nuclear-capital-flows-heat-up-cameco-nyse-ccj-global-x-uranium-etf-nysearca-ura-and-centrus-energy-nyse-leu-lead-the-charge/"
+  },
+  {
+    "date": "2026-07-14",
+    "headline": "Middle East: Trump plans to reinstate Iranian-vessel Hormuz blockade; Brent holds ~$79 as risk-off overhang persists into CPI",
+    "summary": "President Trump announced plans to reinstate a blockade on Iranian vessels transiting the Strait of Hormuz, extending the risk-off overhang from Sunday's CENTCOM strikes and Iran retaliation against Gulf allies. Brent held near $79/bbl (one-month high). Hormuz transits remain collapsed at ~6-9 vessels/day vs ~130 pre-war (Windward data). Dow futures -0.17%; S&P +0.3%; Nasdaq +0.5% only partly offsetting energy-driven concerns. Direct read-through to LNG/gas exposure (Cheniere, GE Vernova gas turbines), Middle East hyperscaler builds, and defense capex.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-14-2026"
+  }
+]

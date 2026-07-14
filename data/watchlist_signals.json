@@ -2728,5 +2728,33 @@
     "signal_type": "momentum",
     "description": "Micron -5.76% intraday (session low near -8% before paring) as the SK Hynix/Samsung memory rout spread directly into US-listed peers: SanDisk -11%, Western Digital -7% moved in sympathy. Catalyst is the same Korea Investment & Securities Q2 op-profit cut (8% below Street) already flagged on 000660.KS this morning, but this is the first hit to Micron's own multiple after its 243% YTD run — market reopening the peak-memory-earnings debate for the US names, not just the Korean ADRs.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Street-high PT cluster now $645-900 (Susquehanna $900, B. Riley $790, Stifel $650, Goldman $645) — semi-cap re-rate accelerating on DRAM WFE + High-NA + AI capex; +5.3% pre-market",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "IBM",
+    "signal_type": "earnings_miss",
+    "description": "Preliminary Q2 miss: revenue $17.2B vs $17.86B, EPS $2.93 vs $3.01; mainframe -7%; -17-22% pre-market on worst day since 1987 — software cohort risk read-across (PLTR, SNOW, ORCL, CRWD)",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "LEU",
+    "signal_type": "momentum",
+    "description": "S&P SmallCap 600 inclusion today — passive-fund technical demand adds to $3.8B backlog + $900M DOE HALEU task order; SMR/Oklo read-across positive",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-14",
+    "ticker": "AAPL",
+    "signal_type": "overvalued",
+    "description": "KeyBanc Underweight PT $250 (~21% downside); rare bear rating on iPhone/Mac/iPad/Wearables/Services deceleration + 35x P/E stretch — read-across watch AVGO ($30B 2031 deal), APH/GLW",
+    "severity": "medium"
   }
 ]

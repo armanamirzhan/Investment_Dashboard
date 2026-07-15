@@ -3400,5 +3400,14 @@
     "new_target": 130,
     "old_rating": "Equal Weight",
     "old_target": 110
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "CRWV",
+    "firm": "Mizuho",
+    "new_rating": "Neutral",
+    "new_target": 100,
+    "old_rating": "Neutral",
+    "old_target": 110
   }
 ]

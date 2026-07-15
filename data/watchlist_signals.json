@@ -2805,5 +2805,26 @@
     "signal_type": "legal_risk",
     "description": "Commerce/BIS testimony: H200 China shipments 'trivial' vs $10B licensed; >2M unit demand vs ~700K inventory; 25% offshore-chip tariff throttles conversion of $10B licensed volume",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU -7-8% intraday to ~$903-910, dragging SOXX -4% to $546.72. Catalyst: China's CXMT (now #4 DRAM producer, targeting ~20% share by 2030) confirmed plans for an $8.55B Shanghai IPO, and Apple is reported to be testing CXMT DRAM for China-market devices while lobbying Washington to keep CXMT off the Entity List so it can diversify away from Micron/SanDisk. CXMT remains ~4yrs behind on HBM (the high-margin AI segment), so near-term threat is concentrated in commodity DRAM pricing power, not the HBM3E/HBM4 franchise KeyBanc flagged this morning at a Street-high $1,750 PT.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "AMD -6% intraday in sympathy with the Micron/CXMT China-DRAM-competition selloff (SOXX -4%). AMD has no DRAM/NAND exposure, so the move reads as sector-wide de-risking/profit-taking after a large YTD run (+142%) rather than a fundamentals hit.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "INTC -6% intraday in sympathy with the Micron/CXMT China-DRAM-competition selloff (SOXX -4%). Intel has no DRAM/NAND exposure, so the move reads as sector-wide de-risking/profit-taking after a large YTD run (+177%) rather than a fundamentals hit.",
+    "severity": "medium"
   }
 ]

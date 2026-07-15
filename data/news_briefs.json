@@ -3616,5 +3616,91 @@
       }
     ],
     "file": "morning-news/2026-07-14.html"
+  },
+  {
+    "date": "2026-07-15",
+    "tickers": [
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "+5-7% pre-open; FY26 guide slashed higher €43-45B (from €36-40B); 30% capacity add for 2027, another 30% investigated for 2028; Q2 €9.33B beat"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +8% Seoul close after +27% US ADR overnight — ASML + KeyBanc MU $1,750 + Micron pull-forward all light up HBM thesis in 24 hrs"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +6.3% Seoul close; Advantest/Lasertec rip in Tokyo — KOSPI V-shape extends"
+      },
+      {
+        "ticker": "MS",
+        "direction": "up",
+        "note": "Record Q2: net revenue $21.35B (+27%) vs $19.64B; EPS $3.46 vs $2.94; equities trading $6.3B (~$1.9B above est)"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "KeyBanc Street-high $1,750 (~77% upside) on HBM3E/HBM4 mix + DRAM cycle extension"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "PJM 2028-29 auction — all plants cleared; 9,800 MW COMED + 4,325 MW EMAAC nuclear at $325/MW-day"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Preliminary Q2 rev $39.62B (+36% YoY); AI 61% of sales; +0.83% Taipei ahead of Thu print"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "BIS Kessler: H200 China shipments 'trivial' vs $10B licensed; 25% offshore-chip tariff throttles conversion; Blackwell + TSMC read-through positive"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "down",
+        "note": "Barclays Underweight (from Equal Weight); rename to 'Omterra'; drags GEV -7.3% Tue"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "down",
+        "note": "-7.3% Tue on Siemens Energy read-across; Q2 print Jul 22 is the swing factor ($163B backlog / 71% organic order growth)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ASML",
+        "signal": "FY26 guide LIFTED to €43-45B (from €36-40B) — 2nd raise this year; gross margin guide 54-56%; capacity +30% for 2027, investigating another +30% for 2028; order visibility into 2028"
+      },
+      {
+        "ticker": "hbm",
+        "signal": "Every leg of HBM thesis lit up in 24 hrs: ASML guide raise + KeyBanc MU Street-high $1,750 + IBM CEO memory pull-forward + TSMC AI 61% mix + SK Hynix +8% Seoul close"
+      },
+      {
+        "ticker": "banks",
+        "signal": "Big-bank Q2 sweep complete — JPM/WFC/C/GS/BAC/MS all beat on trading + IB (+28-69%); MS equities trading $6.3B a record; NII stable-to-higher across the board"
+      },
+      {
+        "ticker": "CEG",
+        "signal": "PJM 2028-29 nuclear cleared at $325/MW-day near record — locks incremental capacity revenue through 2029; reinforces AI-power scarcity premium"
+      },
+      {
+        "ticker": "policy",
+        "signal": "H200 to China 'trivial' per BIS testimony despite $10B licensed; >2M unit Chinese demand vs ~700K Nvidia inventory; 25% offshore tariff caps upside — NVDA China opt-in remains theoretical"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Warsh day 1: no rate-path signal, 3.5% 'a long way from 2%'; June CPI cool but not 'mission accomplished' — Sep cut still on table, July effectively off"
+      },
+      {
+        "ticker": "power",
+        "signal": "Siemens Energy Barclays Underweight cascades to GEV -7.3% Tue; watch GEV Jul 22 print as sector swing"
+      }
+    ],
+    "file": "morning-news/2026-07-15.html"
   }
 ]

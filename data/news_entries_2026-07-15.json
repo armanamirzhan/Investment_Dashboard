@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-07-15",
+    "headline": "ASML rockets +5-7% pre-open: Q2 blowout €9.33B/EPS beat; FY26 guide slashed higher to €43-45B (from €36-40B) — capacity +30% for 2027",
+    "summary": "ASML delivered a decisive Q2 beat and — more importantly — its second FY26 guidance raise this year. Q2 net sales €9.33B (vs €8.80B consensus), net income €2.92B (vs €2.62B), gross margin 54.0% (above guide) on stronger-than-expected Installed Base Management sales. FY26 net sales guide LIFTED to €43-45B (~$49-51B) from prior €36-40B; gross margin guide raised to 54-56% (from 51-53%). High-NA EUV reached a new readiness milestone with Intel Foundry qualifying High-NA on select Intel 18A layers. Order intake so strong that ASML will add 30% to its 2026 low-NA EUV capacity (~65 systems) for 2027 and is investigating another 30% for 2028. Order visibility now stretches into 2028. ASML +5.2% early pre-market, popped >7% at open before paring to +3.4%. Massive read-through to LRCX/KLAC/AMAT and the Q2 semi-cap thesis. One caveat: Morningstar flags ~50x forward P/E against a 35-40x fair-value view.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "SK Hynix +8% Seoul close, Samsung +6.3%, TSMC +0.8% — KOSPI extends V-shape as US chip cohort catches bid; Advantest, Lasertec rip in Tokyo",
+    "summary": "SK Hynix closed +8% in Seoul (after US ADR ripped +27% overnight), Samsung Electronics +6.3%, TSMC +0.83% in Taipei. Broad Asia tech rally extended Tuesday's KOSPI reversal — foreign+institutional net-buying accelerated, Advantest and Lasertec ripped in Tokyo. Rally powered by (i) ASML pre-market blowout guide raise, (ii) IBM CEO comment on clients pulling forward memory/storage spend, (iii) Micron KeyBanc $1750 Street-high PT, (iv) TSMC preliminary Q2 revenue $39.62B (+36% YoY, AI 61% of sales) ahead of Jul 16 print. HBM peak-earnings narrative now firmly discounted after Monday's 7th KOSPI circuit-breaker of 2026. Sets the strongest possible tape into TSMC Thu earnings.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/15/sk-hynix-asia-tech-stocks-rally-.html"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Morgan Stanley record Q2: net revenue $21.35B (+27%) vs $19.64B; EPS $3.46 vs $2.94; equities trading $6.3B blows past by $1.9B; IB +58%",
+    "summary": "Morgan Stanley posted the strongest quarter in the franchise's history — net revenue $21.35B (+27% YoY) vs $19.64B consensus, net income $5.58B (+58%), EPS $3.46 vs $2.94 (17% beat). Equities trading revenue at a record $6.3B, ~$1.9B ABOVE StreetAccount estimates. Investment banking +58% to $2.44B (~$270M beat). Confirms JPM/WFC/C/GS quintuple-beat theme from Tuesday — capital-markets recovery is running hotter than Wall Street modeled, IPO/M&A/debt-issuance pipelines all firing simultaneously. Only remaining Q2 bank print is BAC (Wed pre-open). Trading desk activity supportive of Q3 outlook for equities market microstructure names.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Bank of America Q2 beats: EPS $1.21 vs $1.12; revenue $31.6B vs $30.67B; NII $16.16B (+9.1%); FY26 NII guide upper end of 6-8%",
+    "summary": "Bank of America completed the Q2 big-bank sweep with a beat across the board: diluted EPS $1.21 (+34% YoY) vs $1.12 consensus, revenue $31.6B (+15%) vs $30.67B, net income $9.1B (+27%). Net interest income $16.16B (+9.1%) with NIM +14bp to 2.08%. FY26 NII guidance moved to the upper end of the previously stated 6-8% range; management targets 300-400bp of operating leverage. Wealth, IB fees, and trading each contributed. All five money-centers (JPM/WFC/C/GS/BAC) now beat, plus Morgan Stanley record — a clean sweep for Q2 US financials. Sets a very high bar for the mid-cap regionals next week.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4613707-bank-of-america-expects-2026-nii-growth-at-the-upper-end-of-6-percent-to-8-percent-while"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "KeyBanc sets Street-high MU PT $1,750 (~77% upside) on HBM3E/HBM4 mix + DRAM cycle extension; consensus band widens to $385-$2,000",
+    "summary": "KeyBanc raised Micron's 12-month price target to a Street-high $1,750 (from prior), implying ~77% upside from Mon's close. Rationale: HBM3E/HBM4 mix inflection, DRAM cycle extension into 2028, and Cantor's June $2,000 outlier bull case being pulled toward consensus. Latest 29-analyst consensus $1,316.79 (Buy); range now $385 (Citi Jan) to $2,000 (Cantor Jun). Direct read-across to SK Hynix, Samsung, WDC/STX. Amplifies IBM CEO commentary yesterday (memory/storage pull-forward), ASML guide raise this morning, and the Asian tech rebound — every leg of the HBM thesis lit up in the same 24 hours.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Public.com",
+    "source_url": "https://public.com/stocks/mu/forecast-price-target"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Commerce official Kessler tells Congress H200 shipments to China remain 'trivial' vs $10B licensed; Chinese firms ordered >2M units against ~700K inventory",
+    "summary": "In Senate testimony Jul 14, Commerce/BIS official Jeffrey Kessler characterized H200 shipments to China as 'trivial' despite ~$10B in approved licenses since the Jan 16 BIS rule. Supply-demand gap: Chinese hyperscalers/AI labs have collectively ordered >2M H200 units for 2026 versus Nvidia's total inventory of ~700K. The 25% Trump tariff on advanced computing chips produced abroad continues to make sales economically challenging, and required third-party testing/verification is throttling throughput. Testimony reopens debate over whether the H200 loophole is materially bypassing controls or being kept largely on paper. Neutral-to-negative for NVDA China revenue expectations — the $10B optimistic case is unlikely to convert in FY26.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "TechTimes",
+    "source_url": "https://www.techtimes.com/articles/320542/20260715/nvidia-h200-shipments-china-called-trivial-blackwell-loophole-draws-fire.htm"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Constellation Energy: PJM 2028-29 capacity auction — all CEG plants cleared; nuclear 9,800 MW COMED + 4,325 MW EMAAC at $325/MW-day",
+    "summary": "Constellation Energy 8-K: in the PJM capacity auction for the 2028-2029 planning year (results announced Jul 14), each of CEG's power plants cleared. Nuclear units cleared 9,800 MW in the COMED zone and 4,325 MW in the EMAAC zone, both at $325/MW-day. Price is roughly consistent with recent record clearing levels ($270-330 range through 2024-26) and locks in incremental capacity revenue on the nuclear fleet through 2029. Directly reinforces the AI-datacenter power-scarcity thesis behind CEG's premium multiple; incremental positive for VST (competitor Vistra also cleared, per prior auctions) and negative on the margin for PJM-load-serving utilities. Watch for updated 2027-onward EBITDA disclosures at Q2 print.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "SEC 8-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000080/ceg-20260714.htm"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Warsh testimony day 1: no rate-path signal, 3.5% still 'a long way from 2%' — cool June CPI does not equal 'mission accomplished'",
+    "summary": "Fed Chair Kevin Warsh's first congressional testimony delivered a hawkish-neutral tone: one favorable CPI print does not mean the inflation fight is finished, 3.5% YoY remains 'a long way from 2%,' and the Fed 'will not be comfortable' with persistent above-target inflation. In line with his stated preference against telegraphing moves, Warsh said little specific about the September rate-cut path. Market reaction: S&P +0.5%, Nasdaq +1.1%, Russell 2000 +0.4%, Dow -0.1% — risk assets look through the hawkish framing and price the softer inflation data. Day 2 (Senate) today; watch for Q&A on capital markets and dollar policy. Neutral for high-duration AI/growth exposure; keeps the September cut still on the table but reduces conviction on a July move.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNN",
+    "source_url": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "TSMC preliminary Q2 revenue $39.62B (+36% YoY); AI chips 61% of sales; June revenue +68% YoY, +6.2% MoM — sets bar for Thu print",
+    "summary": "TSMC pre-released Q2 2026 revenue of $39.62B (+36% YoY), landing inside its own $39.0-40.2B guide and putting AI chips at 61% of total sales. June monthly revenue +6.2% MoM and +68% YoY confirms the AI capex ramp continues off the June-quarter exit rate. Q2 gross margin expected 65.5-67.5%. Full print + call Thu Jul 16. Stock +0.83% in Taipei. Ahead of the print, sell-side setup is broadly constructive despite Monday's memory-led rout. Read-across supportive for NVDA (Blackwell wafer volume), AMD (MI350X ramp), and all HBM/CoWoS packaging exposure.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
+  },
+  {
+    "date": "2026-07-15",
+    "headline": "Siemens Energy to rebrand as 'Omterra'; Barclays cuts to Underweight from Equal Weight Jul 7 (raises PT €110→€130) — GEV -7.3% Tue on read-across",
+    "summary": "Siemens Energy (ENR.DE) confirmed it will rename as 'Omterra' — a strategic re-brand distancing from parent Siemens AG. Separately, Barclays' Jul 7 downgrade to Underweight from Equal Weight (with a paradoxical PT raise to €130 from €110) has dragged the power-generation cohort lower: GE Vernova closed -7.3% Tuesday, leading Caterpillar and Cummins down. Barclays' bear case centers on gas-turbine backlog conversion risk and margin peakiness; PT hike reflects the durable backlog value. Watch GEV's Jul 22 Q2 print (~$163B backlog, 71% organic order growth) — a beat here is the swing factor for the AI-power-equipment cohort re-rating vs the Barclays view.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4612069-ge-vernova-leads-power-generation-equipment-stocks-lower-after-siemens-energy-downgrade"
+  }
+]

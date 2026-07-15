@@ -2756,5 +2756,54 @@
     "signal_type": "overvalued",
     "description": "KeyBanc Underweight PT $250 (~21% downside); rare bear rating on iPhone/Mac/iPad/Wearables/Services deceleration + 35x P/E stretch — read-across watch AVGO ($30B 2031 deal), APH/GLW",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "ASML",
+    "signal_type": "earnings_beat",
+    "description": "Q2 net sales €9.33B vs €8.80B; net income €2.92B vs €2.62B; FY26 guide raised to €43-45B from €36-40B (2nd raise this year); 30% capacity add for 2027 + investigating another 30% for 2028",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "MS",
+    "signal_type": "earnings_beat",
+    "description": "Record Q2: net revenue $21.35B (+27%), EPS $3.46 vs $2.94; equities trading $6.3B (~$1.9B above est), IB +58%",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "KeyBanc Street-high PT $1,750 (~77% upside) — HBM3E/HBM4 mix inflection + DRAM cycle extension; consensus range now $385-$2,000",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix +8% Seoul close on ASML guide-raise + KeyBanc MU target + Asia HBM re-rate; extends KOSPI V-shape reversal",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "PJM 2028-29 capacity auction — all CEG plants cleared; 9,800 MW COMED + 4,325 MW EMAAC nuclear at $325/MW-day (near record levels); locks in incremental capacity revenue through 2029",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "ENR.DE",
+    "signal_type": "overvalued",
+    "description": "Barclays cuts to Underweight from Equal Weight; power-gen cohort -7.3% (GEV) Tue on read-across; Omterra rebrand adds noise",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-15",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "Commerce/BIS testimony: H200 China shipments 'trivial' vs $10B licensed; >2M unit demand vs ~700K inventory; 25% offshore-chip tariff throttles conversion of $10B licensed volume",
+    "severity": "medium"
   }
 ]

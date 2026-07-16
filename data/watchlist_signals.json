@@ -2826,5 +2826,40 @@
     "signal_type": "momentum",
     "description": "INTC -6% intraday in sympathy with the Micron/CXMT China-DRAM-competition selloff (SOXX -4%). Intel has no DRAM/NAND exposure, so the move reads as sector-wide de-risking/profit-taking after a large YTD run (+177%) rather than a fundamentals hit.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "TSM",
+    "signal_type": "earnings_beat",
+    "description": "Q2 blowout: record T$706.6B net income (+77% YoY); FY26 guide raised to >40% USD growth; capex hiked $52-56B → $60-64B; +$100B Arizona pledge. GS PT $600 (from $550).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -11.53% Seoul close on US chip rout spillover + CXMT IPO threat; largest single-day drop in weeks after Tuesday's +8% reversal. Position risk elevated into Aug earnings.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung -8.77% Seoul close on same tape as SK Hynix; CXMT $9.8B Shanghai IPO priced for Jul 27 debut adds structural DRAM competitive overhang.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "MU",
+    "signal_type": "legal_risk",
+    "description": "Apple reportedly testing CXMT memory parts for China-market devices; CXMT (#4 DRAM at ~8% share) prices $9.8B Shanghai STAR IPO for Jul 27 — commodity DRAM floor pressured, HBM thesis intact but sentiment battered.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "SMR",
+    "signal_type": "legal_risk",
+    "description": "Shareholder litigation probe over ENTRA1 partnership disclosures; stock near 52-week lows amid project delays and weak Q results. SMR-specific vs sector-wide.",
+    "severity": "medium"
   }
 ]

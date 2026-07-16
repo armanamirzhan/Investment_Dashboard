@@ -3409,5 +3409,14 @@
     "new_target": 100,
     "old_rating": "Neutral",
     "old_target": 110
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "TSM",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": "Buy",
+    "old_target": 550
   }
 ]

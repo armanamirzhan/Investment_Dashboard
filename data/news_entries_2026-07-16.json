@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-07-16",
+    "headline": "TSMC Q2 blowout: revenue $39.6B (+36% YoY), record net income T$706.6B (+77%); FY26 guide raised to >40% growth, capex hiked to $60-64B (from $52-56B)",
+    "summary": "TSMC delivered a decisive Q2 print pre-open: revenue T$1.27T (~$39.6B, +36% YoY) in line with July pre-release, record net income T$706.56B (~$22B, +77% YoY, blowing past T$632.6B consensus). FY26 USD revenue growth guide raised to 'slightly above 40%' from prior 'over 30%'. Capex lifted 15% to $60-64B (from $52-56B) — TSMC rarely raises capex in Q2, and the magnitude was a surprise. Q3 guidance $44.6-45.8B (+12% seq, +37% YoY at midpoint) with GM 65-67% and OM 56-58%. Chairman C.C. Wei: 'The AI megatrend continues to drive the need for more and more computation,' with newly-emerging agentic AI demand cited. UBS calls it a 'surprise capex hike that reinforces confidence in AI supply chain.' Stock trading -1.4% pre-market on capex sticker-shock, but read-through is unambiguously bullish for the AI-hardware complex (NVDA, AMD, ASML, LRCX, KLAC, AMAT, ANET, MRVL, MU/HBM).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com (Reuters transcript)",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-lifts-2026-outlook-as-ai-demand-stays-hot-in-q2-2026-93CH-4794777"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "TSMC pledges additional $100B for Arizona — total US commitment now $265B; four more wafer fabs plus advanced packaging targeting 2nm and below",
+    "summary": "On the Q2 call, Chairman C.C. Wei announced TSMC will invest an additional $100B in Arizona, bringing total planned US investment to $265B and adding four wafer fabs plus dedicated advanced packaging capacity focused on 2nm and below nodes critical for AI chip architectures. Risk production targeted for 2027, mass volume 2028. Political win for the Trump administration on chip re-shoring; also a partial hedge against 25% advanced-chip tariff exposure. Bullish read-across to US semi-cap (LRCX, KLAC, AMAT, ASML) on incremental tool orders, US packaging (AMKR, ASX) on US CoWoS/advanced packaging footprint, and datacenter power (VRT, ETN, GEV) on incremental Arizona load. Neutral-to-positive for INTC Foundry — signals customer demand is real enough to support parallel US capacity, but also a stronger competitor on US soil.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Focus Taiwan (CNA)",
+    "source_url": "https://focustaiwan.tw/business/202607160019"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Asian memory rout: SK Hynix -11.53% Seoul close, Samsung -8.77%; KOSPI tumbles as US chip selloff spills over + CXMT competitive fears",
+    "summary": "Samsung Electronics closed 255,000 won (-8.77%), SK Hynix at 1,842,000 won (-11.53%) on July 16, giving back the bulk of Tuesday's ASML-driven rebound. Sympathy with Wednesday's US memory rout (Micron -8%, SanDisk -13%, AMD -3%, INTC -4%) plus growing competitive concern around China's CXMT — which prices its $8.6-9.8B Shanghai IPO for July 27 listing — is dominating tape. Morgan Stanley (Wilson) added fuel with a note framing US semi weakness as broadening market rotation into hyperscalers, arguing chip capex discipline may be needed. Other Asian names hit: Seoul Semiconductor -5.13%, LG Innotek -2.91%, Samsung SDI -4%; STMicro -3% in Europe; Arm -5% pre-open. Volatile setup into TSMC Q2 print — TSMC actual print (positive) may partially rehab the tape at US open.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/16/sk-hynix-falls-amid-asia-tech-rout-tracking-us-semiconductor-losses.html"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "CXMT prices largest-ever Chinese semi IPO: $8.66/share raising up to $9.8B; Shanghai STAR debut Jul 27 — world's #4 DRAM maker at 7-8% share",
+    "summary": "ChangXin Memory Technologies (CXMT) priced its Shanghai STAR-board IPO at 8.66 yuan/share, raising ~$8.55B base ($9.8B with over-allotment), double the original $4.35B target. Trading debut July 27. Asia's largest IPO of 2026 and largest Chinese semi share sale ever, surpassing SMIC's 2020 deal. CXMT holds ~7.7-8% global DRAM share (#4 behind Samsung/SK Hynix/Micron), with revenue growing 7x YoY in H1 and Q1 net profit +1,688% YoY. Adds structural competitive pressure on incumbent DRAM oligopoly at the exact moment Apple is reportedly testing CXMT parts for China-market devices. Negative for MU/000660.KS/005930.KS on pricing power narrative; net neutral for AI HBM specifically (CXMT not yet HBM-qualified) but changes the commodity DRAM floor. Ties directly into China's chip self-sufficiency drive and could invite further US export-control tightening — watch for Commerce Department response.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-14/cxmt-prices-shanghai-star-board-ipo-at-8-66-yuan-per-share"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "US memory-chip rout Wed: SanDisk -13%, Micron -8%, LRCX -3%, AMD -3%, INTC -4% — Apple/CXMT test report + profit-taking drive Nasdaq 100 red",
+    "summary": "Wednesday's US session saw a sharp memory-chip rout despite cooler June PPI (headline -0.3% MoM, +5.5% YoY): SanDisk -13% (retested $1,500), Micron -8%, LAM Research -3%, Advanced Micro -3%, Intel -4%, Marvell -5%. SMH -1%+ despite Nasdaq closing +0.62% on Dow/UnitedHealth strength. Two catalysts: (1) reports Apple is testing CXMT memory chips for China-market devices, opening the door for Chinese memory into a marquee-brand supply chain; (2) profit-taking after last week's parabolic run (SK Hynix ADR was +27% Monday). Sets up a hostile tape for the AI-memory cohort into TSMC's print. Watch MU pre-market reaction to TSMC's raised capex — historically an offset that supports HBM/CoWoS thesis.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/market-summary/26/07/60478486/memory-chip-selloff-wednesday-nasdaq-100-sandisk-plunges-wednesday-market-news"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Warsh Senate testimony Day 2: 'not in a hurry to cut'; commits to 2% target 'if we get policy right'; Fed independence pointedly reaffirmed",
+    "summary": "Fed Chair Kevin Warsh completed his two-day congressional debut with a Senate Banking testimony that leaned modestly hawkish: not in a hurry to cut rates, committed to bringing inflation back to 2% with both rate and balance-sheet tools, and 'if we get policy right, the inflation surge of the last five years will be a thing of the past.' On political pressure: 'They chose an independent guy to do an independent job, and that's exactly what I plan on doing.' Market implication: keeps a September cut still on the table but reduces near-term conviction; unfavorable for the highest-duration AI/growth names (SMR names, CRWV, unprofitable AI infra) if reinforced by any hot data. FOMC decision in ~2 weeks. Neutral for the mega-cap AI leaders trading on earnings power more than rates.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Federal Reserve",
+    "source_url": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "NuScale (SMR) under shareholder litigation probe over ENTRA1 partnership disclosures; stock near 52-week lows on project delays and weak Q results",
+    "summary": "A shareholder litigation firm is investigating NuScale Power (SMR) over alleged misrepresentation of the experience and capabilities of its commercialization partner ENTRA1, focused on whether NuScale exposed shareholders to undisclosed risks tied to its SMR commercialization strategy. Shares are near 52-week lows following persistent project delays, weak financial results, and a lack of firm contracts. Adds to a widening credibility gap in the pure-play SMR cohort even as policy tailwinds (DOE reactor pilot deadlines, PJM capacity auction pricing) support the sector's long-term thesis. Read-across: SMR-specific negative rather than sector-wide — CEG (already booked 9,800 MW in PJM 2028-29 auction) and OKLO (Aurora deployments backed by Switch 12 GW deal) narratives remain intact and diverging. Watch for any Q2 update on ENTRA1 contract structure.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "StocksToTrade",
+    "source_url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_07_13/"
+  },
+  {
+    "date": "2026-07-16",
+    "headline": "Goldman Sachs lifts TSMC ADR PT to $600 (from $550) ahead of print; JPM NT$3,100, MS NT$2,888 — sell-side raised 2027 3nm/2nm/CoWoS capacity estimates",
+    "summary": "Goldman Sachs lifted TSMC's ADR price target to $600 from $550 (Taiwan-listed NT$3,000 from NT$2,750) hours before the Q2 print, substantially revising up 2027 capacity assumptions for 3nm, 2nm, and CoWoS advanced packaging. GS models 2026/27/28 USD revenue growth at 39%/32%/28% and >66% gross margins through 2028. JPM PT NT$3,100 and Morgan Stanley NT$2,888 (Buy). Together with the surprise capex hike from the actual print, the sell-side wave now formally embeds TSMC's revenue trajectory well beyond 2027, which is the fundamental backbone of the entire AI infrastructure investment case (semi-cap tools, HBM ramp, GPU wafer supply, CoWoS bottleneck). Watch NT$3,300+ Street-high tickers after today's call.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "BigGo Finance / Goldman Sachs",
+    "source_url": "https://finance.biggo.com/news/ba0ef441-e0d7-4423-ba26-f3eef1bf2803"
+  }
+]

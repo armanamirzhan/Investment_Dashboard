@@ -3702,5 +3702,87 @@
       }
     ],
     "file": "morning-news/2026-07-15.html"
+  },
+  {
+    "date": "2026-07-16",
+    "tickers": [
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Q2 blowout: record net income +77%; FY26 guide raised to >40%; capex $60-64B; +$100B Arizona"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -11.53% Seoul close on US spillover + CXMT IPO fear"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -8.77% on same tape; CXMT competitive overhang"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "Wed -8% on Apple/CXMT test report; commodity DRAM floor pressured"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "TSMC capex raise + Arizona expansion bullish for Blackwell/Rubin wafer supply"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "TSMC capex hike to $60-64B validates EUV/High-NA order pipeline through 2028"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "neutral",
+        "note": "-3% Wed on chip beta selloff; MI350X TSMC wafer supply reinforced by Arizona pledge"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "Legal probe over ENTRA1 partnership disclosures; near 52-wk lows"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "PJM 2028-29 auction win holds through the noise"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "Warsh Senate Day 2 hawkish-neutral: 'not in a hurry to cut'; independence reaffirmed"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "TSM",
+        "signal": "Q2 blowout + capex hike + $100B Arizona"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "CXMT $9.8B Shanghai IPO Jul 27 — DRAM oligopoly threat"
+      },
+      {
+        "ticker": "KOREA",
+        "signal": "SK Hynix -11.5%, Samsung -8.8% — memory profit-take + China fear"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "TSMC AI capex validation continues"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Warsh Day 2: hawkish-neutral, not hurrying cuts"
+      },
+      {
+        "ticker": "SMR",
+        "signal": "NuScale ENTRA1 legal probe — SMR-specific"
+      }
+    ],
+    "file": "morning-news/2026-07-16.html"
   }
 ]

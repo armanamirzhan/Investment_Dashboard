@@ -2861,5 +2861,12 @@
     "signal_type": "legal_risk",
     "description": "Shareholder litigation probe over ENTRA1 partnership disclosures; stock near 52-week lows amid project delays and weak Q results. SMR-specific vs sector-wide.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-16",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "CRWV -14.3% over 5 straight sessions (~$6.8B market value erased) as the AI-capex-sustainability selloff compounds the existing margin/valuation overhang (-2.6% operating margin, -25.5x P/E vs S&P median 24.2x). No new single catalyst per Trefis — fundamentals-vs-growth repricing continuing rather than a fresh shock.",
+    "severity": "medium"
   }
 ]

@@ -2868,5 +2868,61 @@
     "signal_type": "overvalued",
     "description": "CRWV -14.3% over 5 straight sessions (~$6.8B market value erased) as the AI-capex-sustainability selloff compounds the existing margin/valuation overhang (-2.6% operating margin, -25.5x P/E vs S&P median 24.2x). No new single catalyst per Trefis — fundamentals-vs-growth repricing continuing rather than a fresh shock.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "ASML",
+    "signal_type": "earnings_beat",
+    "description": "Q2 sales EUR9.3B / GM 54% beat guide; 2026 revenue guide raised to EUR43-45B (from EUR36-40B); EUV/DUV capacity +30% for both 2027 and 2028; management says 2027 order book nearly filled. Shares +3.5% AH.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "TSM",
+    "signal_type": "earnings_beat",
+    "description": "Q2 revenue $40.2B (top of guide); Q3 guide $44.6-45.8B (+12% QoQ midpoint); FY26 growth guide raised to >40%; capex hiked to $60-64B; but Q3 GM guide 65-67% flags -1.7pp 2nm ramp dilution; ADR reaction muted-to-negative.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -11.53% Seoul close Thu; two-day drawdown on TSMC capex spillover, CXMT competitive fears, HBM peak-earnings narrative. Watch for ASML-driven reversal Friday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung -8.77% Seoul close Thu; sympathy selling with Hynix; underlying HBM3E / foundry 2nm trajectory intact.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "BE",
+    "signal_type": "overvalued",
+    "description": "Bloom -8% Thu after YTD +174%; datacenter-power thesis crowding + lingering Hunterbrook short report on scandium/accounting. Still trades at a rich premium to fundamental cash flows.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "OKLO -28% over one month and -42% YTD on milestone slippage, insider selling, valuation reset. Pre-revenue SMR developers repricing hard vs. cash-generative nuclear utilities.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "SMR",
+    "signal_type": "legal_risk",
+    "description": "NuScale -23% MoM; shareholder litigation probe over ENTRA1 partnership disclosures still open; combined with pre-revenue status, downside skew remains elevated.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "H200 shipments to China restart under US license (Alibaba/Tencent/ByteDance/JD approved). Small absolute volumes but symbolic policy easing; incremental positive amid broader chip-tape weakness.",
+    "severity": "medium"
   }
 ]

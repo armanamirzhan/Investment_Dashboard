@@ -3784,5 +3784,87 @@
       }
     ],
     "file": "morning-news/2026-07-16.html"
+  },
+  {
+    "date": "2026-07-17",
+    "tickers": [
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "Q2 beat; 2026 guide raised to EUR43-45B; EUV/DUV capacity +30% for 2027 AND 2028; 2027 orderbook nearly full; ADR +3.5% AH"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "Q2 beat + Q3 $44.6-45.8B guide + FY26 >40% growth; but 2nm ramp -1.7pp GM dilution keeps ADR reaction muted"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "H200 to China restarted under US license (Alibaba/Tencent/ByteDance/JD); trivial volumes but symbolic policy easing"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -11.53% Thu Seoul close; TSMC capex + CXMT + HBM peak-earnings narrative"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -8.77% Thu Seoul; sympathy selling; HBM3E/foundry roadmap intact"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "-28% MoM / -42% YTD on milestone slippage + insider selling; pre-revenue SMR devs de-rate hard"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "NuScale -23% MoM; ENTRA1 disclosure litigation probe overhang"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Reaffirms 2026 adj. EBITDA $6.8-7.6B; Fitch upgrades to investment grade; +5% YTD vs SMR devs -20%+"
+      },
+      {
+        "ticker": "BE",
+        "direction": "down",
+        "note": "-8% Thu; YTD +174% profit-taking + Hunterbrook scandium/accounting overhang"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "up",
+        "note": "Citi raises PT to $365 (from $315); read-across supply-chain (AVGO/APH/GLW) after KeyBanc UW yesterday"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Nasdaq futures -1.6% / S&P -0.8% pre-open; chip-led weekly loss shaping up"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "ASML 2027/2028 capacity +30% signals durable AI-litho demand; DUV pricing power shifting to vendor"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TSMC 2nm ramp GM dilution -1.7pp Q3, deeper into Q4 — margin narrative flipping from tailwind to headwind"
+      },
+      {
+        "ticker": "memory",
+        "signal": "HBM peak-earnings + CXMT + oversupply-fear narratives dominate memory tape; Korean names lead the drawdown"
+      },
+      {
+        "ticker": "energy",
+        "signal": "SMR-developer vs profitable-utility divergence widens; OKLO/SMR de-rate; VST/CEG relative resilience"
+      },
+      {
+        "ticker": "policy",
+        "signal": "H200 shipments to China resume under US license — first hard evidence of easing"
+      }
+    ],
+    "file": "morning-news/2026-07-17.html"
   }
 ]

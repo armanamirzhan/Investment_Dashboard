@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-07-17",
+    "headline": "Nasdaq futures down 1.6%, S&P 500 -0.8% pre-open Fri: chip rout + Netflix miss weigh on tape",
+    "summary": "US futures put major indexes on track for weekly losses. Semiconductors extended Thursday's slide after TSMC's Q3 margin dilution warning and the SK Hynix / Samsung sell-off; Netflix Q3 revenue guide fell short and shares dropped 9% overnight. AI infrastructure trade continues to unwind heavy Q2 gains.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "ASML Q2 blowout: sales EUR9.3B, GM 54% beat; full-year 2026 guide hiked to EUR43-45B (from EUR36-40B); EUV/DUV capacity +30% for 2027 AND 2028",
+    "summary": "ASML delivered a clean beat and one of the biggest guidance raises of the year, saying it is 'close to receiving all the orders' needed for 2027 and has a large book of 2028 orders. 2026 GM guided 54-56% (from 51-53%). NXE EUV capacity rises to ~85 systems in 2027 (from ~65); DUV immersion to ~170 (from ~130). Wedbush: read-across positive for leading-edge logic and DRAM. ADR added 3.5% after-hours to ~$1,838.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4793698"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "TSMC Q3 guide: revenue $44.6-45.8B (+12% QoQ midpoint), GM 65-67% — 2nm ramp dilutes GM ~1.7pp; opex margin 56-58%",
+    "summary": "Q3 revenue and margin guide came in ahead of consensus but flagged the 2nm ramp-cost drag investors were watching for. Q4 dilution likely deeper. Combined with the FY26 capex hike to $60-64B (from $52-56B), 'gap between outstanding results and near-perfect expectations' framing pinned ADR muted-to-red into Friday.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Motley Fool",
+    "source_url": "https://www.fool.com/earnings/call-transcripts/2026/07/16/tsm-tsm-q2-2026-earnings-call-transcript/"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Netflix Q2 slight beat, Q3 guide misses: revenue $12.86B vs ~$13B est, EPS $0.82 vs $0.84 — shares -9% pre-market at 52-week low",
+    "summary": "Q2 revenue $12.56B, EPS $0.80 (penny beat). FY26 range narrowed to $51-51.4B (from $50.7-51.7B). Q3 growth pace slows to +11.7%. Ad revenue guide unchanged at ~$3B for 2026. Company said it will publish detailed viewing reports less frequently, refocusing disclosure on revenue and OI. Not a tracked ticker but relevant read-across for AI-content compute demand.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "MarketScreener",
+    "source_url": "https://www.marketscreener.com/news/netflix-slumps-premarket-following-mixed-fiscal-q2-results-q3-guidance-misses-estimates-shares-slu-ce7f5ed3d180f522"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Small H200 shipments to China restart under US license — Alibaba, Tencent, ByteDance, JD approved buyers; Lenovo/Foxconn distributors",
+    "summary": "Under Sec. Kessler said a 'trivial' number of NVIDIA H200 processors have shipped to China under new US licenses, without naming volumes. H200 is Hopper-generation while US customers now run Blackwell. Symbolic policy shift more than a numbers mover, but reopens the debate on Chinese cloud demand for legacy Hopper inventory.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Asia semis extend rout Thu: SK Hynix -11.53% to KRW1,842,000, Samsung -8.77% to KRW255,000; KOSPI hit by US chip spill-over",
+    "summary": "Two-day Korean memory drawdown accelerated Thursday on TSMC's capex step-up (implying reticent capacity add to memory), CXMT IPO news, and generic profit taking. HBM peak-earnings and DRAM oversupply narratives resurface. Watch for a Friday snap-back reaction to ASML's guide.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/02/samsung-sk-hynix-shares-slide-kospi-tech-selloff-nasdaq.html"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Fuel-cell unwind: FCEL -11%, BE -8%, PLUG -6% as datacenter-power thesis takes profit; YTD still FCEL +181%, BE +174%",
+    "summary": "Aggressive one-day pullback across the three tracked fuel-cell names. Hunterbrook short thesis on Bloom (scandium sourcing / accounting concerns from Jul 8) still hangs over BE despite company rebuttal citing sufficient scandium inventories and 25 GW visibility.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St / Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/energy/articles/fuelcell-energy-drops-11-bloom-151410679.html"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Vistra reaffirms 2026 adj. EBITDA $6.8-7.6B; Fitch upgrades to investment grade — profitable nuclear-adjacent utilities holding while SMR devs de-rate",
+    "summary": "Divergence widens: OKLO -28% MoM / -42% YTD and SMR -23% MoM, while CEG -2% and VST +5% over the same window. Investors punishing pre-revenue reactor developers on milestone slippage, criticality wait, insider selling and stretched valuations; rewarding cash-generative dispatchable capacity.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/07/16/oklo-just-dropped-28-in-a-month-is-it-time-to-abandon-nuclear-stocks-like-oklo-nuscale-and-uranium-energy-corp/"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "Power / hyperscaler complex red Thu: GEV -3.53%, VST -5.86%, CEG -3.25% as broad AI-infra trade unwinds",
+    "summary": "Utilities + turbine names caught in the cross-sector chip-led risk-off. GEV weighed by rate-sensitivity and pre-earnings positioning; VST hit despite reaffirmed guide; CEG affected by same de-risking flow. No name-specific negative news.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/news/market-movers/262035600-market-movers-gev-20260716"
+  },
+  {
+    "date": "2026-07-17",
+    "headline": "ASML pushes 10% price hike on mature DUV tools; TSMC pushes back — vendor pricing power shifts as EUV backlog to 2028",
+    "summary": "TrendForce reports ASML is seeking higher tool prices, including a ~10% hike on mature DUV, with TSMC negotiating. Sign of leverage swinging back to the litho monopoly amid the AI-driven demand surge already visible in the 2027/2028 guide. Watch capex-per-wafer implications across TSMC, Samsung Foundry, Intel Foundry.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TrendForce",
+    "source_url": "https://www.trendforce.com/news/2026/07/16/news-asml-reportedly-seeks-higher-tool-prices-as-tsmc-pushes-back-mature-duv-tools-could-see-10-hike/"
+  }
+]

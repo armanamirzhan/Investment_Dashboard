@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-07-17</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-07-17</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert negative"><div class="alert-text"><strong>Nasdaq futures down 1.6%, S&P 500 -0.8% pre-open Fri: chip rout + Netflix miss weigh on tape</strong> &mdash; US futures put major indexes on track for weekly losses. Semiconductors extended Thursday's slide after TSMC's Q3 margin dilution warning and the SK Hynix / Samsung sell-off; Netflix Q3 revenue guide fell short and shares dropped 9% overnight. AI infrastructure trade continues to unwind heavy Q2 gains.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>ASML Q2 blowout: sales EUR9.3B, GM 54% beat; full-year 2026 guide hiked to EUR43-45B (from EUR36-40B); EUV/DUV capacity +30% for 2027 AND 2028</strong> &mdash; ASML delivered a clean beat and one of the biggest guidance raises of the year, saying it is 'close to receiving all the orders' needed for 2027 and has a large book of 2028 orders. 2026 GM guided 54-56% (from 51-53%). NXE EUV capacity rises to ~85 systems in 2027 (from ~65); DUV immersion to ~170 (from ~130). Wedbush: read-across positive for leading-edge logic and DRAM. ADR added 3.5% after-hours to ~$1,838.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>TSMC Q3 guide: revenue $44.6-45.8B (+12% QoQ midpoint), GM 65-67% — 2nm ramp dilutes GM ~1.7pp; opex margin 56-58%</strong> &mdash; Q3 revenue and margin guide came in ahead of consensus but flagged the 2nm ramp-cost drag investors were watching for. Q4 dilution likely deeper. Combined with the FY26 capex hike to $60-64B (from $52-56B), 'gap between outstanding results and near-perfect expectations' framing pinned ADR muted-to-red into Friday.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Netflix Q2 slight beat, Q3 guide misses: revenue $12.86B vs ~$13B est, EPS $0.82 vs $0.84 — shares -9% pre-market at 52-week low</strong> &mdash; Q2 revenue $12.56B, EPS $0.80 (penny beat). FY26 range narrowed to $51-51.4B (from $50.7-51.7B). Q3 growth pace slows to +11.7%. Ad revenue guide unchanged at ~$3B for 2026. Company said it will publish detailed viewing reports less frequently, refocusing disclosure on revenue and OI. Not a tracked ticker but relevant read-across for AI-content compute demand.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Small H200 shipments to China restart under US license — Alibaba, Tencent, ByteDance, JD approved buyers; Lenovo/Foxconn distributors</strong> &mdash; Under Sec. Kessler said a 'trivial' number of NVIDIA H200 processors have shipped to China under new US licenses, without naming volumes. H200 is Hopper-generation while US customers now run Blackwell. Symbolic policy shift more than a numbers mover, but reopens the debate on Chinese cloud demand for legacy Hopper inventory.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Asia semis extend rout Thu: SK Hynix -11.53% to KRW1,842,000, Samsung -8.77% to KRW255,000; KOSPI hit by US chip spill-over</strong> &mdash; Two-day Korean memory drawdown accelerated Thursday on TSMC's capex step-up (implying reticent capacity add to memory), CXMT IPO news, and generic profit taking. HBM peak-earnings and DRAM oversupply narratives resurface. Watch for a Friday snap-back reaction to ASML's guide.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Fuel-cell unwind: FCEL -11%, BE -8%, PLUG -6% as datacenter-power thesis takes profit; YTD still FCEL +181%, BE +174%</strong> &mdash; Aggressive one-day pullback across the three tracked fuel-cell names. Hunterbrook short thesis on Bloom (scandium sourcing / accounting concerns from Jul 8) still hangs over BE despite company rebuttal citing sufficient scandium inventories and 25 GW visibility.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Vistra reaffirms 2026 adj. EBITDA $6.8-7.6B; Fitch upgrades to investment grade — profitable nuclear-adjacent utilities holding while SMR devs de-rate</strong> &mdash; Divergence widens: OKLO -28% MoM / -42% YTD and SMR -23% MoM, while CEG -2% and VST +5% over the same window. Investors punishing pre-revenue reactor developers on milestone slippage, criticality wait, insider selling and stretched valuations; rewarding cash-generative dispatchable capacity.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Power / hyperscaler complex red Thu: GEV -3.53%, VST -5.86%, CEG -3.25% as broad AI-infra trade unwinds</strong> &mdash; Utilities + turbine names caught in the cross-sector chip-led risk-off. GEV weighed by rate-sensitivity and pre-earnings positioning; VST hit despite reaffirmed guide; CEG affected by same de-risking flow. No name-specific negative news.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>ASML pushes 10% price hike on mature DUV tools; TSMC pushes back — vendor pricing power shifts as EUV backlog to 2028</strong> &mdash; TrendForce reports ASML is seeking higher tool prices, including a ~10% hike on mature DUV, with TSMC negotiating. Sign of leverage swinging back to the litho monopoly amid the AI-driven demand surge already visible in the 2027/2028 guide. Watch capex-per-wafer implications across TSMC, Samsung Foundry, Intel Foundry.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Fuel-cell unwind: FCEL -11%, BE -8%, PLUG -6% as datacenter-power thesis takes profit; YTD still FCEL +181%, BE +174%</h3><p>Aggressive one-day pullback across the three tracked fuel-cell names. Hunterbrook short thesis on Bloom (scandium sourcing / accounting concerns from Jul 8) still hangs over BE despite company rebuttal citing sufficient scandium inventories and 25 GW visibility.</p><div class="source"><a href="https://finance.yahoo.com/energy/articles/fuelcell-energy-drops-11-bloom-151410679.html">24/7 Wall St / Yahoo Finance</a></div></div>
+<div class="card"><h3>Vistra reaffirms 2026 adj. EBITDA $6.8-7.6B; Fitch upgrades to investment grade — profitable nuclear-adjacent utilities holding while SMR devs de-rate</h3><p>Divergence widens: OKLO -28% MoM / -42% YTD and SMR -23% MoM, while CEG -2% and VST +5% over the same window. Investors punishing pre-revenue reactor developers on milestone slippage, criticality wait, insider selling and stretched valuations; rewarding cash-generative dispatchable capacity.</p><div class="source"><a href="https://247wallst.com/investing/2026/07/16/oklo-just-dropped-28-in-a-month-is-it-time-to-abandon-nuclear-stocks-like-oklo-nuscale-and-uranium-energy-corp/">24/7 Wall St</a></div></div>
+<div class="card"><h3>Power / hyperscaler complex red Thu: GEV -3.53%, VST -5.86%, CEG -3.25% as broad AI-infra trade unwinds</h3><p>Utilities + turbine names caught in the cross-sector chip-led risk-off. GEV weighed by rate-sensitivity and pre-earnings positioning; VST hit despite reaffirmed guide; CEG affected by same de-risking flow. No name-specific negative news.</p><div class="source"><a href="https://www.tradingkey.com/news/market-movers/262035600-market-movers-gev-20260716">TradingKey</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>ASML Q2 blowout: sales EUR9.3B, GM 54% beat; full-year 2026 guide hiked to EUR43-45B (from EUR36-40B); EUV/DUV capacity +30% for 2027 AND 2028</h3><p>ASML delivered a clean beat and one of the biggest guidance raises of the year, saying it is 'close to receiving all the orders' needed for 2027 and has a large book of 2028 orders. 2026 GM guided 54-56% (from 51-53%). NXE EUV capacity rises to ~85 systems in 2027 (from ~65); DUV immersion to ~170 (from ~130). Wedbush: read-across positive for leading-edge logic and DRAM. ADR added 3.5% after-hours to ~$1,838.</p><div class="source"><a href="https://www.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4793698">Investing.com</a></div></div>
+<div class="card"><h3>TSMC Q3 guide: revenue $44.6-45.8B (+12% QoQ midpoint), GM 65-67% — 2nm ramp dilutes GM ~1.7pp; opex margin 56-58%</h3><p>Q3 revenue and margin guide came in ahead of consensus but flagged the 2nm ramp-cost drag investors were watching for. Q4 dilution likely deeper. Combined with the FY26 capex hike to $60-64B (from $52-56B), 'gap between outstanding results and near-perfect expectations' framing pinned ADR muted-to-red into Friday.</p><div class="source"><a href="https://www.fool.com/earnings/call-transcripts/2026/07/16/tsm-tsm-q2-2026-earnings-call-transcript/">Motley Fool</a></div></div>
+<div class="card"><h3>Asia semis extend rout Thu: SK Hynix -11.53% to KRW1,842,000, Samsung -8.77% to KRW255,000; KOSPI hit by US chip spill-over</h3><p>Two-day Korean memory drawdown accelerated Thursday on TSMC's capex step-up (implying reticent capacity add to memory), CXMT IPO news, and generic profit taking. HBM peak-earnings and DRAM oversupply narratives resurface. Watch for a Friday snap-back reaction to ASML's guide.</p><div class="source"><a href="https://www.cnbc.com/2026/07/02/samsung-sk-hynix-shares-slide-kospi-tech-selloff-nasdaq.html">CNBC</a></div></div>
+<div class="card"><h3>ASML pushes 10% price hike on mature DUV tools; TSMC pushes back — vendor pricing power shifts as EUV backlog to 2028</h3><p>TrendForce reports ASML is seeking higher tool prices, including a ~10% hike on mature DUV, with TSMC negotiating. Sign of leverage swinging back to the litho monopoly amid the AI-driven demand surge already visible in the 2027/2028 guide. Watch capex-per-wafer implications across TSMC, Samsung Foundry, Intel Foundry.</p><div class="source"><a href="https://www.trendforce.com/news/2026/07/16/news-asml-reportedly-seeks-higher-tool-prices-as-tsmc-pushes-back-mature-duv-tools-could-see-10-hike/">TrendForce</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Netflix Q2 slight beat, Q3 guide misses: revenue $12.86B vs ~$13B est, EPS $0.82 vs $0.84 — shares -9% pre-market at 52-week low</h3><p>Q2 revenue $12.56B, EPS $0.80 (penny beat). FY26 range narrowed to $51-51.4B (from $50.7-51.7B). Q3 growth pace slows to +11.7%. Ad revenue guide unchanged at ~$3B for 2026. Company said it will publish detailed viewing reports less frequently, refocusing disclosure on revenue and OI. Not a tracked ticker but relevant read-across for AI-content compute demand.</p><div class="source"><a href="https://www.marketscreener.com/news/netflix-slumps-premarket-following-mixed-fiscal-q2-results-q3-guidance-misses-estimates-shares-slu-ce7f5ed3d180f522">MarketScreener</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Small H200 shipments to China restart under US license — Alibaba, Tencent, ByteDance, JD approved buyers; Lenovo/Foxconn distributors</h3><p>Under Sec. Kessler said a 'trivial' number of NVIDIA H200 processors have shipped to China under new US licenses, without naming volumes. H200 is Hopper-generation while US customers now run Blackwell. Symbolic policy shift more than a numbers mover, but reopens the debate on Chinese cloud demand for legacy Hopper inventory.</p><div class="source"><a href="https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Nasdaq futures down 1.6%, S&P 500 -0.8% pre-open Fri: chip rout + Netflix miss weigh on tape</h3><p>US futures put major indexes on track for weekly losses. Semiconductors extended Thursday's slide after TSMC's Q3 margin dilution warning and the SK Hynix / Samsung sell-off; Netflix Q3 revenue guide fell short and shares dropped 9% overnight. AI infrastructure trade continues to unwind heavy Q2 gains.</p><div class="source"><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html">Yahoo Finance</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">AAPL</span> Citi: Buy &rarr; <strong>Buy</strong> | PT: $315 &rarr; $365 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">ASML</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 sales EUR9.3B / GM 54% beat guide; 2026 revenue guide raised to EUR43-45B (from EUR36-40B); EUV/DUV capacity +30% for both 2027 and 2028; management says 2027 order book nearly filled. Shares +3.5% AH.</p>
+<p><span class="ticker">TSM</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 revenue $40.2B (top of guide); Q3 guide $44.6-45.8B (+12% QoQ midpoint); FY26 growth guide raised to >40%; capex hiked to $60-64B; but Q3 GM guide 65-67% flags -1.7pp 2nm ramp dilution; ADR reaction muted-to-negative.</p>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-neutral">Momentum</span> SK Hynix -11.53% Seoul close Thu; two-day drawdown on TSMC capex spillover, CXMT competitive fears, HBM peak-earnings narrative. Watch for ASML-driven reversal Friday.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-neutral">Momentum</span> Samsung -8.77% Seoul close Thu; sympathy selling with Hynix; underlying HBM3E / foundry 2nm trajectory intact.</p>
+<p><span class="ticker">BE</span> <span class="signal-badge signal-bearish">Overvalued</span> Bloom -8% Thu after YTD +174%; datacenter-power thesis crowding + lingering Hunterbrook short report on scandium/accounting. Still trades at a rich premium to fundamental cash flows.</p>
+<p><span class="ticker">OKLO</span> <span class="signal-badge signal-neutral">Momentum</span> OKLO -28% over one month and -42% YTD on milestone slippage, insider selling, valuation reset. Pre-revenue SMR developers repricing hard vs. cash-generative nuclear utilities.</p>
+<p><span class="ticker">SMR</span> <span class="signal-badge signal-neutral">Legal Risk</span> NuScale -23% MoM; shareholder litigation probe over ENTRA1 partnership disclosures still open; combined with pre-revenue status, downside skew remains elevated.</p>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Momentum</span> H200 shipments to China restart under US license (Alibaba/Tencent/ByteDance/JD approved). Small absolute volumes but symbolic policy easing; incremental positive amid broader chip-tape weakness.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">ASML</span></td><td>Up</td><td>Q2 beat; 2026 guide raised to EUR43-45B; EUV/DUV capacity +30% for 2027 AND 2028; 2027 orderbook nearly full; ADR +3.5% AH</td></tr>
+<tr><td><span class="ticker ">TSM</span></td><td>Neutral</td><td>Q2 beat + Q3 $44.6-45.8B guide + FY26 >40% growth; but 2nm ramp -1.7pp GM dilution keeps ADR reaction muted</td></tr>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>H200 to China restarted under US license (Alibaba/Tencent/ByteDance/JD); trivial volumes but symbolic policy easing</td></tr>
+<tr><td><span class="ticker down">000660.KS</span></td><td>Down</td><td>SK Hynix -11.53% Thu Seoul close; TSMC capex + CXMT + HBM peak-earnings narrative</td></tr>
+<tr><td><span class="ticker down">005930.KS</span></td><td>Down</td><td>Samsung -8.77% Thu Seoul; sympathy selling; HBM3E/foundry roadmap intact</td></tr>
+<tr><td><span class="ticker down">OKLO</span></td><td>Down</td><td>-28% MoM / -42% YTD on milestone slippage + insider selling; pre-revenue SMR devs de-rate hard</td></tr>
+<tr><td><span class="ticker down">SMR</span></td><td>Down</td><td>NuScale -23% MoM; ENTRA1 disclosure litigation probe overhang</td></tr>
+<tr><td><span class="ticker up">VST</span></td><td>Up</td><td>Reaffirms 2026 adj. EBITDA $6.8-7.6B; Fitch upgrades to investment grade; +5% YTD vs SMR devs -20%+</td></tr>
+<tr><td><span class="ticker down">BE</span></td><td>Down</td><td>-8% Thu; YTD +174% profit-taking + Hunterbrook scandium/accounting overhang</td></tr>
+<tr><td><span class="ticker up">AAPL</span></td><td>Up</td><td>Citi raises PT to $365 (from $315); read-across supply-chain (AVGO/APH/GLW) after KeyBanc UW yesterday</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-07-17 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

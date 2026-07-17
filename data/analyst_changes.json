@@ -3418,5 +3418,14 @@
     "new_target": 600,
     "old_rating": "Buy",
     "old_target": 550
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "AAPL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 365,
+    "old_rating": "Buy",
+    "old_target": 315
   }
 ]

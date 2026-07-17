@@ -2924,5 +2924,26 @@
     "signal_type": "momentum",
     "description": "H200 shipments to China restart under US license (Alibaba/Tencent/ByteDance/JD approved). Small absolute volumes but symbolic policy easing; incremental positive amid broader chip-tape weakness.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "AMD -5% intraday to ~$477.81 (INTC -4%, NVDA -3%) as a broad risk-off rotation out of AI-infrastructure winners hit chipmakers; SOXX pared losses within the first hour. Philadelphia SE Semi Index down ~11% this week (worst in over a year, -24% from late-June ATH); global chip stocks have shed ~$3.3T in market value since June 22. Rotation/de-risking, not a fundamentals hit -- AMD Q2 guide (~$11.2B rev) and MI450/Helios engagement unchanged.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "META",
+    "signal_type": "momentum",
+    "description": "Reported to be in advanced talks on a ~$10B compute-leasing deal with Anthropic (private LLM access akin to AWS Bedrock), part of the emerging \"Meta Compute\" neocloud push. META down only ~3.2% today vs. the broader tech/semi rout, reading as relative outperformance on the monetization angle for excess AI infrastructure. Not yet confirmed/signed.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-17",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "CRWV extends losing streak to 6 sessions / -19% cumulative (~$9B market value erased) as the Meta-Anthropic compute-leasing talks reactivate the competitive-threat overhang (a well-capitalized hyperscaler entering raw-compute rental compresses neocloud pricing). Compounds existing leverage (7x D/E) and margin concerns (-2.6% operating margin) already flagged 07-16.",
+    "severity": "medium"
   }
 ]

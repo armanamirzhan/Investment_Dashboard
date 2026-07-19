@@ -3427,5 +3427,14 @@
     "new_target": 365,
     "old_rating": "Buy",
     "old_target": 315
+  },
+  {
+    "date": "2026-07-19",
+    "ticker": "CRWV",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Buy",
+    "old_target": 250
   }
 ]

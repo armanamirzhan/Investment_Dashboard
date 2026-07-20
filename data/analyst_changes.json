@@ -3436,5 +3436,23 @@
     "new_target": 250,
     "old_rating": "Buy",
     "old_target": 250
+  },
+  {
+    "date": "2026-07-20",
+    "ticker": "MSFT",
+    "firm": "CLSA",
+    "new_rating": "Outperform",
+    "new_target": 535.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-20",
+    "ticker": "ORCL",
+    "firm": "CLSA",
+    "new_rating": "Hold",
+    "new_target": 145.0,
+    "old_rating": null,
+    "old_target": null
   }
 ]

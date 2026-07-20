@@ -3866,5 +3866,91 @@
       }
     ],
     "file": "morning-news/2026-07-17.html"
+  },
+  {
+    "date": "2026-07-20",
+    "tickers": [
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "CLSA initiates Outperform PT $535; Azure ~40% + 20M/450M Copilot penetration long runway"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "CLSA initiates Hold PT $145 on $500B capex-vs-internal-cash gap; -33% MoM already"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Semi rebound bid pre-open after -10% SOX week; Qwen 3.8 Max multimodal preview net-neutral for compute demand"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Bouncing with the chip complex after last week's rout; no name-specific catalyst"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Bounce-back attempt after Thu's 2nm-dilution-driven ADR reaction; Aug capex commentary next"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "neutral",
+        "note": "Q2 pre-open Wed Jul 22 — cons EPS $3.17 / rev $10.77B (+18% YoY); gas/grid vs wind drag"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "neutral",
+        "note": "Rebrand to Omterra confirmed; ~EUR300M/yr royalty savings; stock -24% from Apr high; Barclays UW EUR 130"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Aug 6 Q2 print next; PJM auction reset the immediate catalyst; power complex bid on Hut 8 read-through"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Fitch IG upgrade Fri still supportive; Hut 8 Beacon Point read-across for TX power demand"
+      },
+      {
+        "ticker": "CL",
+        "direction": "up",
+        "note": "Brent ~$88 / WTI ~$82 as US-Iran strikes into third weekend; Kuwait oil facility damaged"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Nasdaq futures +0.68% / S&P +0.29% pre-open — semi rebound after -10% SOX week (biggest since Apr 2025)"
+      },
+      {
+        "ticker": "integration",
+        "signal": "Hut 8 fully commercializes 1 GW Beacon Point campus (2nd $9.8B lease Jul 20) — $19.6B campus / $26.6B portfolio / >$1.75B annual NOI; validates AI-power-first REIT thesis"
+      },
+      {
+        "ticker": "software",
+        "signal": "Alibaba previews Qwen 3.8 Max (2.4T MoE multimodal) at WAIC Sat; follows Moonshot Kimi K3 (2.8T open-weight, Alibaba 36% stake) — China frontier stack advancing"
+      },
+      {
+        "ticker": "policy",
+        "signal": "US-Iran strikes into third weekend; Kuwait oil facility hit; Brent ~$88 / gasoline > $4/gal"
+      },
+      {
+        "ticker": "earnings",
+        "signal": "Big week: IBM/GEV Wed pre / TSLA/GOOG Wed AH / INTC Thu AH / VZ Thu / AXP Fri — AI monetization + capex guidance the market's fixation"
+      },
+      {
+        "ticker": "coverage",
+        "signal": "CLSA MSFT Outperform $535 vs ORCL Hold $145 — sell-side split on hyperscaler winners; Azure-Copilot arithmetic vs debt-funded OCI capex math"
+      },
+      {
+        "ticker": "optics",
+        "signal": "Barclays LITE OW $1,000 (from EW) — AI-optical/photonic demand holding through SOX drawdown; ANET/GLW read-across"
+      }
+    ],
+    "file": "morning-news/2026-07-20.html"
   }
 ]

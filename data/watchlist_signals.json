@@ -2952,5 +2952,19 @@
     "signal_type": "overvalued",
     "description": "Fresh competitive-threat catalyst on top of the Meta Compute overhang: WSJ reported Fri that SpaceX is in talks to supply AI compute to the Pentagon, with SpaceX staff discussing undercutting neocloud pricing directly, pressuring CoreWeave shares further (down roughly 35% over the past month). Rosenblatt (McPeake) held its street-high $250 Buy target through both catalysts, arguing Meta's $35.2B contract bars GPU reselling and global GPU shortages preserve pricing power -- a live bull/bear split on the name.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-20",
+    "ticker": "ORCL",
+    "signal_type": "overvalued",
+    "description": "CLSA new coverage Hold PT $145 spells out the debt-funded AI-cloud problem: $500B capex need through 2030 vs internal cash ~1/5 of that; even after the -33% MoM derating the sell-side sees valuation-limited upside. High-beta from here.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-20",
+    "ticker": "MSFT",
+    "signal_type": "momentum",
+    "description": "CLSA initiates Outperform PT $535 (25x Dec-2027 normalized EPS = 1 SD below 5-yr avg). Reinforces the tracked STRONG_BUY thesis into Jul 30 F4Q print: Azure ~40% growth + Copilot at 4% Office-seat penetration = long runway.",
+    "severity": "medium"
   }
 ]

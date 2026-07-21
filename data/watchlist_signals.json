@@ -2980,5 +2980,26 @@
     "signal_type": "undervalued",
     "description": "Nikkei confirms 5-10% baseline foundry price hike in 2027 (advanced + mature), +10-15% premium on HPC over-forecast orders. Structural pricing power validated — margin tailwind into '27; combined with Korea +181% semi export data supports 'AI capex still accelerating' thesis.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "INTC +6.8% intraday to two days ahead of Jul 23 Q2 print: RBC Capital (maintained Sector Perform, PT $80) previewed a 5% revenue beat, 3-5% guidance raise, and gross margins 1-2pts above expectations on server-CPU strength; also cited Apple/Microsoft as new 18A early design partners with 18A-P entering risk production. RBC flagged valuation (60x forward EPS) as already pricing in much of the optimism.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "AMD +4.5-6.9% intraday ahead of the Jul 22-23 Advancing AI event: supply-chain reports indicate AMD secured additional HBM capacity, easing prior bottleneck concerns for the Instinct MI450/Helios ramp. Broader chip-sector rebound (hedge funds buying US semis at fastest pace in 3.5 years per Goldman) also a tailwind; HBM/CoWoS allocation vs NVDA remains the swing factor for upside to the $4B AI revenue guide.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU +7-8% intraday to ~$937: Bank of America (Vivek Arya) added Micron to its \"US 1 List\" of best investment ideas today, reaffirming Buy / $1,550 PT (83% implied upside) on the memory super-cycle thesis (HBM market seen reaching $246B by 2030, 16 multi-year customer agreements locked in) — 8th straight quarterly EPS beat (24% avg beat) cited as validation.",
+    "severity": "high"
   }
 ]

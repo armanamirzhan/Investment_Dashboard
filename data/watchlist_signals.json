@@ -2966,5 +2966,19 @@
     "signal_type": "momentum",
     "description": "CLSA initiates Outperform PT $535 (25x Dec-2027 normalized EPS = 1 SD below 5-yr avg). Reinforces the tracked STRONG_BUY thesis into Jul 30 F4Q print: Azure ~40% growth + Copilot at 4% Office-seat penetration = long runway.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "CRM",
+    "signal_type": "momentum",
+    "description": "Morgan Stanley OW→EW; PT $287→$185 on 'Agentforce KPIs not driving organic-growth inflection, legacy drag persists'; -3.6% pre-market. Second major sell-side cut in 3 weeks — sentiment inflection risk.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "TSM",
+    "signal_type": "undervalued",
+    "description": "Nikkei confirms 5-10% baseline foundry price hike in 2027 (advanced + mature), +10-15% premium on HPC over-forecast orders. Structural pricing power validated — margin tailwind into '27; combined with Korea +181% semi export data supports 'AI capex still accelerating' thesis.",
+    "severity": "medium"
   }
 ]

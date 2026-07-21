@@ -3454,5 +3454,23 @@
     "new_target": 145.0,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "MSFT",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 600.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-21",
+    "ticker": "CRM",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-Weight",
+    "new_target": 185.0,
+    "old_rating": "Overweight",
+    "old_target": 287.0
   }
 ]

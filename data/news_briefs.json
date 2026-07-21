@@ -3952,5 +3952,91 @@
       }
     ],
     "file": "morning-news/2026-07-20.html"
+  },
+  {
+    "date": "2026-07-21",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Discloses 9.3% Nebius stake (13G, $2B March investment converts); chip complex rebounds after -10% SOX week"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Nikkei: 5-10% price hike Jan 2027 across advanced + mature; +10-15% HPC over-forecast premium — pricing power confirmed"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Morgan Stanley assumes coverage Overweight PT $600 — sell-side crowds into the only 'safe' large-cap AI software"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "down",
+        "note": "Morgan Stanley OW→EW; PT $287→$185; 'Agentforce KPIs strong but no organic-growth inflection'; -3.6% pre-market"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung sets up CEO-led RX Robotics office; ex-Hyundai/Boston-Dynamics exec heading strategy; +7.6% to KRW 262,500"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix leads KOSPI on record Jul 1-20 semi exports (+181% YoY, $22.1B); top-traders net-buy vs net-sell Samsung"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "up",
+        "note": "Nvidia 9.3% stake disclosure; Freedom Capital Hold→Buy PT $200 (from $150) Jul 20; +6.5% pre-market"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "neutral",
+        "note": "Q2 tomorrow pre-open (7 AM ET); cons EPS $3.23 / rev $10.7B; gas-turbine slots booked to 2030 the key narrative"
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "down",
+        "note": "Morgan Stanley EW→UW; PT $365→$240 on gen-AI displacement risk to Creative Cloud/Firefly"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "neutral",
+        "note": "Q2 Thu AH; 18A at 85% yields per mgmt; Polymarket 75.5% Data Center & AI clears $5B"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Chip complex rebounds pre-open — Nasdaq futures +1.33% on Korea +181% semi exports + TSMC 10% 2027 pricing news; SOX/SMH set to reclaim last week's -10%"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TSMC 2027 pricing power confirmed (5-10% baseline, +10-15% HPC premium) — margin tailwind flows to NVDA/AMD/AAPL cost side but validates capex durability"
+      },
+      {
+        "ticker": "software",
+        "signal": "Morgan Stanley reshuffles AI-software winners: MSFT OW $600 initiate, CRM/ADBE cut, FTNT upgrade — MSFT the only 'safe' large-cap AI-software long"
+      },
+      {
+        "ticker": "integration",
+        "signal": "NVDA-Nebius 13G formalizes the 'preferred neocloud' playbook alongside CoreWeave — Jensen backstops capacity that consumes his GPUs"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "Samsung physical-AI pivot: CEO-led RX Robotics office, ex-Boston-Dynamics-integrator to lead; KOSPI +4%, hynix outperforms on Mirae top-trader rotation"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 122 10% global tariff sunsets Thu Jul 24 — Section 301/232 pivot expected same-week; USTR 10-12.5% forced-labor tariff on 60 partners already proposed"
+      },
+      {
+        "ticker": "earnings",
+        "signal": "Blockbuster earnings week: GEV/IBM Wed pre / GOOG+TSLA Wed AH / INTC+SAP Thu AH / AXP Fri — AI capex-vs-monetization the market's fixation"
+      }
+    ],
+    "file": "morning-news/2026-07-21.html"
   }
 ]

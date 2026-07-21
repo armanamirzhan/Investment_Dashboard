@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-07-21</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-07-21</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Chip complex rebounds pre-open: Nasdaq futures +1.33%, S&P +0.49%, Dow +0.42% — Korea Jul 1-20 semi exports +181% YoY to $22.1B (record)</strong> &mdash; US futures snap Monday's late-day fade with a chip-led bid. Korea semi exports for Jul 1-20 hit $22.1B, +180.6% YoY — a fresh record run rate driven by AI HBM/logic demand. Taiwan June export orders +59.4% YoY to $95.26B (vs +49.5% expected) reinforces the read. SOX/SMH set to reclaim last week's -10% drawdown as earnings-week visibility (GEV/IBM/GOOG/TSLA/INTC) begins.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>NVDA discloses 9.3% Nebius (NBIS) stake via 13G — 22.26M shares (mostly warrant from $2B March investment); NBIS +6.5% pre-market</strong> &mdash; Nvidia filed Schedule 13G Jul 13 (public Jul 20) disclosing 9.3% beneficial ownership of Amsterdam-based neocloud Nebius: ~1.19M common + ~21M warrant shares tied to the $2B March 11, 2026 strategic investment (warrant not exercisable before Sep 11 2026). Reinforces Nvidia's 'preferred neocloud' playbook alongside CoreWeave — Jensen is happy to backstop capacity that consumes his GPUs. NBIS mkt cap ~$46B, +6.5% pre-market.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>TSMC to raise 2027 foundry prices 5-10% across advanced AND mature nodes; HPC over-forecast orders pay additional 10-15% premium</strong> &mdash; Nikkei Asia reports TSMC finalized client price hikes taking effect January 2027: 5-10% baseline on both sub-7nm advanced (~74% of wafer revenue) and 28/16/12nm mature nodes. Beyond-forecast HPC orders (NVDA, AMD, AAPL, QCOM) face an extra 10-15% premium — some AI chip orders could see >20% total increase. Rationale cited: rising materials/equipment costs + overseas fab construction (Arizona, Kumamoto, Dresden). Confirms structural pricing power thesis; margin tailwind into 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Morgan Stanley software reset: MSFT assumed Overweight PT $600; CRM cut OW→EW PT $185 (from $287); ADBE to Underweight PT $240 (from $365); FTNT upgraded to EW PT $133 (from $80)</strong> &mdash; Adam Wood-led coverage transfer redraws the AI-software winners map. MSFT ($600 PT) framed as the durable Copilot/Azure compounder. CRM slashed on 'Agentforce KPIs strong but not driving organic-growth inflection; legacy portfolio drag persists' — shares -3.6% pre-market. ADBE cut on generative-AI displacement risk to Creative Cloud/Firefly monetization. FTNT nearly doubled PT on cyber demand acceleration ahead of earnings season. Net-net: sell-side crowding into MSFT as the only 'safe' large-cap AI software name.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung Electronics (005930.KS) launches CEO-led 'RX Robotics' business office — hires ex-Hyundai/Boston Dynamics integration exec Lee Dongkun; stock +7.6% to KRW 262,500</strong> &mdash; Samsung named robotics its next core growth pillar and stood up a Robotics eXperience (RX) Business Promotion Office reporting directly to the CEO — end-to-end control from strategy through key-tech development through commercialization. First deployments target humanoids for Samsung's own fab floors before consumer expansion. Lee Dongkun, who oversaw Hyundai's Boston Dynamics integration, hired to run strategy. KOSPI +4% on the print; SK Hynix outperformed as Mirae Asset top-1% traders net-bought hynix / net-sold Samsung on the physical-AI framing.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Section 122 10% global tariff expires Thursday Jul 24 — administration pivots to Section 301/232; new tariff regime on 60+ trading partners could hit this week</strong> &mdash; The Section 122 executive authority underpinning Trump's Feb 20 10% global baseline tariff sunsets Thu Jul 24 (180-day cap). Trade counsel widely expects a same-week pivot to Section 301 (unfair-trade) and Section 232 (national-security) authorities to reconstruct the tariff wall — USTR already proposed 10-12.5% on 60 trading partners over forced-labor allegations Jun 2. Brazil finalized at 25% Jul 15 as first target. Watch for a Wed-Thu Rose Garden print; risk-off tail if the replacement rate exceeds 10%.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GE Vernova (GEV) Q2 pre-open Wed Jul 22: consensus EPS $3.23 / rev $10.7B; gas turbines booked into 2030, backlog + grid the beat/raise story</strong> &mdash; GEV reports 7:00 AM ET Wed; Strazik/Parks webcast 7:30 AM. Stock +70% YTD as the AI-datacenter gas-turbine cycle blew past consensus. Slots for the flagship 7HA/9HA are sold out through 2030 per Strazik's May comments; investors focused on (1) 2026 revenue/EBITDA guide raise, (2) Power segment book-to-bill (was 1.7x Q1), (3) Grid segment margin trajectory (Q1 hit 11.5%, targeting mid-teens), (4) Wind segment EBITDA drag — mgmt guided $(200-300)M for H2 vs $(500-700)M FY25. Any commentary on the Meta/xAI 'behind-the-meter' turbine pipeline will move the tape.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Big-week earnings kickoff: GEV/IBM Wed pre / TSLA + GOOGL Wed AH / INTC Thu AH / SAP Thu AH / AXP Fri — AI monetization vs capex-discipline the market's tell</strong> &mdash; Bar has been reset lower after last week's SOX drawdown (-10%). Key setups: (1) GOOGL — Search AI-monetization proof + capex trajectory (Q1 $22B, guide $75B FY); (2) TSLA — auto margin + Robotaxi Austin metrics; (3) INTC 18A yields now 85% per mgmt, Data Center & AI needs to clear $5B for the turnaround narrative to hold (Polymarket 75.5% probability); (4) SAP cloud revenue consensus EUR 6.26B (+22% YoY), cloud backlog needs 23%+ to reassure. IBM software / consulting split the underappreciated Wed print.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>GE Vernova (GEV) Q2 pre-open Wed Jul 22: consensus EPS $3.23 / rev $10.7B; gas turbines booked into 2030, backlog + grid the beat/raise story</h3><p>GEV reports 7:00 AM ET Wed; Strazik/Parks webcast 7:30 AM. Stock +70% YTD as the AI-datacenter gas-turbine cycle blew past consensus. Slots for the flagship 7HA/9HA are sold out through 2030 per Strazik's May comments; investors focused on (1) 2026 revenue/EBITDA guide raise, (2) Power segment book-to-bill (was 1.7x Q1), (3) Grid segment margin trajectory (Q1 hit 11.5%, targeting mid-teens), (4) Wind segment EBITDA drag — mgmt guided $(200-300)M for H2 vs $(500-700)M FY25. Any commentary on the Meta/xAI 'behind-the-meter' turbine pipeline will move the tape.</p><div class="source"><a href="https://www.fool.com/investing/2026/07/20/ge-vernovas-next-earnings-report-on-july-22-could/">The Motley Fool via Yahoo</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>NVDA discloses 9.3% Nebius (NBIS) stake via 13G — 22.26M shares (mostly warrant from $2B March investment); NBIS +6.5% pre-market</h3><p>Nvidia filed Schedule 13G Jul 13 (public Jul 20) disclosing 9.3% beneficial ownership of Amsterdam-based neocloud Nebius: ~1.19M common + ~21M warrant shares tied to the $2B March 11, 2026 strategic investment (warrant not exercisable before Sep 11 2026). Reinforces Nvidia's 'preferred neocloud' playbook alongside CoreWeave — Jensen is happy to backstop capacity that consumes his GPUs. NBIS mkt cap ~$46B, +6.5% pre-market.</p><div class="source"><a href="https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html">CNBC</a></div></div>
+<div class="card"><h3>TSMC to raise 2027 foundry prices 5-10% across advanced AND mature nodes; HPC over-forecast orders pay additional 10-15% premium</h3><p>Nikkei Asia reports TSMC finalized client price hikes taking effect January 2027: 5-10% baseline on both sub-7nm advanced (~74% of wafer revenue) and 28/16/12nm mature nodes. Beyond-forecast HPC orders (NVDA, AMD, AAPL, QCOM) face an extra 10-15% premium — some AI chip orders could see >20% total increase. Rationale cited: rising materials/equipment costs + overseas fab construction (Arizona, Kumamoto, Dresden). Confirms structural pricing power thesis; margin tailwind into 2027.</p><div class="source"><a href="https://finance.yahoo.com/technology/articles/tsmc-raise-chipmaking-prices-10-083253027.html">Nikkei Asia via Yahoo Finance</a></div></div>
+<div class="card"><h3>Samsung Electronics (005930.KS) launches CEO-led 'RX Robotics' business office — hires ex-Hyundai/Boston Dynamics integration exec Lee Dongkun; stock +7.6% to KRW 262,500</h3><p>Samsung named robotics its next core growth pillar and stood up a Robotics eXperience (RX) Business Promotion Office reporting directly to the CEO — end-to-end control from strategy through key-tech development through commercialization. First deployments target humanoids for Samsung's own fab floors before consumer expansion. Lee Dongkun, who oversaw Hyundai's Boston Dynamics integration, hired to run strategy. KOSPI +4% on the print; SK Hynix outperformed as Mirae Asset top-1% traders net-bought hynix / net-sold Samsung on the physical-AI framing.</p><div class="source"><a href="https://www.cnbc.com/2026/07/21/samsung-electronics-sets-up-robotics-unit-amid-push-into-physical-ai-.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Morgan Stanley software reset: MSFT assumed Overweight PT $600; CRM cut OW→EW PT $185 (from $287); ADBE to Underweight PT $240 (from $365); FTNT upgraded to EW PT $133 (from $80)</h3><p>Adam Wood-led coverage transfer redraws the AI-software winners map. MSFT ($600 PT) framed as the durable Copilot/Azure compounder. CRM slashed on 'Agentforce KPIs strong but not driving organic-growth inflection; legacy portfolio drag persists' — shares -3.6% pre-market. ADBE cut on generative-AI displacement risk to Creative Cloud/Firefly monetization. FTNT nearly doubled PT on cyber demand acceleration ahead of earnings season. Net-net: sell-side crowding into MSFT as the only 'safe' large-cap AI software name.</p><div class="source"><a href="https://www.cnbc.com/2026/07/21/salesforce-ai-push-isnt-enough-to-save-shares-morgan-stanley-says.html">CNBC (Salesforce coverage)</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Section 122 10% global tariff expires Thursday Jul 24 — administration pivots to Section 301/232; new tariff regime on 60+ trading partners could hit this week</h3><p>The Section 122 executive authority underpinning Trump's Feb 20 10% global baseline tariff sunsets Thu Jul 24 (180-day cap). Trade counsel widely expects a same-week pivot to Section 301 (unfair-trade) and Section 232 (national-security) authorities to reconstruct the tariff wall — USTR already proposed 10-12.5% on 60 trading partners over forced-labor allegations Jun 2. Brazil finalized at 25% Jul 15 as first target. Watch for a Wed-Thu Rose Garden print; risk-off tail if the replacement rate exceeds 10%.</p><div class="source"><a href="https://theprint.in/world/trump-plans-new-tariffs-as-10-import-levy-expires-july-24/2991949/">ThePrint / Reuters</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Chip complex rebounds pre-open: Nasdaq futures +1.33%, S&P +0.49%, Dow +0.42% — Korea Jul 1-20 semi exports +181% YoY to $22.1B (record)</h3><p>US futures snap Monday's late-day fade with a chip-led bid. Korea semi exports for Jul 1-20 hit $22.1B, +180.6% YoY — a fresh record run rate driven by AI HBM/logic demand. Taiwan June export orders +59.4% YoY to $95.26B (vs +49.5% expected) reinforces the read. SOX/SMH set to reclaim last week's -10% drawdown as earnings-week visibility (GEV/IBM/GOOG/TSLA/INTC) begins.</p><div class="source"><a href="https://www.koreaherald.com/article/10814464">Korea Herald</a></div></div>
+<div class="card"><h3>Big-week earnings kickoff: GEV/IBM Wed pre / TSLA + GOOGL Wed AH / INTC Thu AH / SAP Thu AH / AXP Fri — AI monetization vs capex-discipline the market's tell</h3><p>Bar has been reset lower after last week's SOX drawdown (-10%). Key setups: (1) GOOGL — Search AI-monetization proof + capex trajectory (Q1 $22B, guide $75B FY); (2) TSLA — auto margin + Robotaxi Austin metrics; (3) INTC 18A yields now 85% per mgmt, Data Center & AI needs to clear $5B for the turnaround narrative to hold (Polymarket 75.5% probability); (4) SAP cloud revenue consensus EUR 6.26B (+22% YoY), cloud backlog needs 23%+ to reassure. IBM software / consulting split the underappreciated Wed print.</p><div class="source"><a href="https://www.tradingkey.com/analysis/stocks/us-stocks/262041092-intel-intc-q2-2026-earnings-preview-july-23-163-percent-ytd-tradingkey">TradingKey (Intel preview)</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">MSFT</span> Morgan Stanley: None &rarr; <strong>Overweight</strong> | PT: N/A &rarr; $600 </p>
+<p><span class="ticker">CRM</span> Morgan Stanley: Overweight &rarr; <strong>Equal-Weight</strong> | PT: $287 &rarr; $185 <span class="val-down">&#9660;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">CRM</span> <span class="signal-badge signal-neutral">Momentum</span> Morgan Stanley OW→EW; PT $287→$185 on 'Agentforce KPIs not driving organic-growth inflection, legacy drag persists'; -3.6% pre-market. Second major sell-side cut in 3 weeks — sentiment inflection risk.</p>
+<p><span class="ticker">TSM</span> <span class="signal-badge signal-bullish">Undervalued</span> Nikkei confirms 5-10% baseline foundry price hike in 2027 (advanced + mature), +10-15% premium on HPC over-forecast orders. Structural pricing power validated — margin tailwind into '27; combined with Korea +181% semi export data supports 'AI capex still accelerating' thesis.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Discloses 9.3% Nebius stake (13G, $2B March investment converts); chip complex rebounds after -10% SOX week</td></tr>
+<tr><td><span class="ticker up">TSM</span></td><td>Up</td><td>Nikkei: 5-10% price hike Jan 2027 across advanced + mature; +10-15% HPC over-forecast premium — pricing power confirmed</td></tr>
+<tr><td><span class="ticker up">MSFT</span></td><td>Up</td><td>Morgan Stanley assumes coverage Overweight PT $600 — sell-side crowds into the only 'safe' large-cap AI software</td></tr>
+<tr><td><span class="ticker down">CRM</span></td><td>Down</td><td>Morgan Stanley OW→EW; PT $287→$185; 'Agentforce KPIs strong but no organic-growth inflection'; -3.6% pre-market</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>Samsung sets up CEO-led RX Robotics office; ex-Hyundai/Boston-Dynamics exec heading strategy; +7.6% to KRW 262,500</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SK Hynix leads KOSPI on record Jul 1-20 semi exports (+181% YoY, $22.1B); top-traders net-buy vs net-sell Samsung</td></tr>
+<tr><td><span class="ticker up">NBIS</span></td><td>Up</td><td>Nvidia 9.3% stake disclosure; Freedom Capital Hold→Buy PT $200 (from $150) Jul 20; +6.5% pre-market</td></tr>
+<tr><td><span class="ticker ">GEV</span></td><td>Neutral</td><td>Q2 tomorrow pre-open (7 AM ET); cons EPS $3.23 / rev $10.7B; gas-turbine slots booked to 2030 the key narrative</td></tr>
+<tr><td><span class="ticker down">ADBE</span></td><td>Down</td><td>Morgan Stanley EW→UW; PT $365→$240 on gen-AI displacement risk to Creative Cloud/Firefly</td></tr>
+<tr><td><span class="ticker ">INTC</span></td><td>Neutral</td><td>Q2 Thu AH; 18A at 85% yields per mgmt; Polymarket 75.5% Data Center & AI clears $5B</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-07-21 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

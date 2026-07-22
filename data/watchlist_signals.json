@@ -3022,5 +3022,19 @@
     "signal_type": "earnings_miss",
     "description": "Pre-announced Q2 rev $17.2B vs $17.9B street; -25% stock Jul 14. CEO: clients redirecting spend to own AI HW/memory. Full print tonight AH — read-through to enterprise software growth thesis.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "SMCI",
+    "signal_type": "earnings_beat",
+    "description": "Preliminary FY26 Q4 business update: over $60B in new orders received, pushing backlog to a record; gross margin guidance raised to 15-17% from prior 8.2-8.4%. CEO Charles Liang cited new work co-building a gigawatt-scale AI datacenter for SpaceX and xAI. Shares jumped roughly 15-18% intraday.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "AMD and Anthropic announced a strategic partnership: Anthropic to deploy up to 2GW of AMD Instinct MI450-series GPUs (Helios rack-scale systems, MI455X + EPYC Venice + Pensando networking), first gigawatt beginning H1 2027. AMD committing up to $5B investment in Anthropic plus a multi-year engineering collaboration using Claude. Shares spiked pre-market on the news but gave back gains to trade down ~3% amid a broader tech-sector slump.",
+    "severity": "medium"
   }
 ]

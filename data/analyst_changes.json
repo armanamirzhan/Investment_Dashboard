@@ -3481,5 +3481,14 @@
     "new_target": 640.0,
     "old_rating": "Buy",
     "old_target": 511.0
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "CRWV",
+    "firm": "Truist Securities",
+    "new_rating": "Buy",
+    "new_target": 126,
+    "old_rating": "Hold",
+    "old_target": 131
   }
 ]

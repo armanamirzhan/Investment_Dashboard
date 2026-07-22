@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-07-22",
+    "headline": "SMCI +18% pre-market: pre-announces record $60B new orders + gross margin 15-17% (vs 8.2-8.4% prior guide) — Q4 revenue near low end $11-12.5B",
+    "summary": "Super Micro Tuesday AH released a preliminary Q4 update ahead of Aug 11 print: new orders exceeding $60B (record backlog), gross margin 15-17% vs prior guide 8.2-8.4% (near-double), revenue at low end of $11-12.5B guide range. Deliveries over future quarters — visibility into AI-server demand snaps back after months of margin-compression narrative. SMCI +18.12% pre-market to $30.12. Short-squeeze chatter as retail seeks proof behind order-book.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/article/supermicro-stock-jumps-on-gross-margin-raise-amid-record-60-billion-backlog-223037795.html"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "GEV Q2 pre-open: revenue $11.1B beat (+22% YoY), FY26 guide raised to $45.5-46.5B; Power orders +134% organic, backlog $176B, gas turbine slots 116 GW→125 GW target",
+    "summary": "GE Vernova reported Q2 rev $11.1B (beat 2.8%), adj EBITDA $1.25B, net income $649M, FCF $5.11B. FY26 guide raised: revenue to $45.5-46.5B (from $44.5-45.5B) and FCF to $11.5-12.5B (from $6.5-7.5B). Backlog $176B; Power orders +134% organic to $16.7B; Electrification orders +66% organic to $6.3B. Gas Power slot reservations 100 → 116 GW; targeting ≥125 GW by YE26. On track for 20 GW gas turbine output Q3, 24 GW in 2028, 30 GW in 2030. GAAP EPS $2.47 missed by 22% but headline is order/backlog + guidance raise — stock initially fell despite the surge in orders as market digests EPS miss.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "GE Vernova IR",
+    "source_url": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-first-quarter-2026-financial"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "AMD Advancing AI 2026 opens SF: CDNA5 MI455X (432GB HBM4, 19.6 TB/s per chip) powers Helios rack (31TB HBM4); EPYC Venice first x86 on TSMC N2 GAA",
+    "summary": "AMD's flagship AI event kicked off Wed with three CDNA5 accelerators: MI455X (top-end, 432GB HBM4 across 16 stacks, 19.6 TB/s per chip; powers the Helios rack), MI450X for large-scale training/inference, MI430X for HPC/sovereign AI (FP64 priority). EPYC Venice announced as first x86 server CPU on TSMC 2nm process (GAA nanosheet transistors — first move off FinFET since 22nm in 2011). GF Securities reiterated Buy, PT $640 from $511 (+27% upside) ahead of event citing hardware-gap narrowing vs Nvidia. Customer announcements and rack-scale detail the Day-2 catalyst.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TechTimes",
+    "source_url": "https://www.techtimes.com/articles/321257/20260722/amd-advancing-ai-2026-opens-zen-6-venice-helios-open-ai-rack-bet.htm"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "IBM Q2 tonight (5 PM ET) after Jul 14 pre-warning crash: rev $17.2B pre-announced (+1% YoY vs $17.9B street); CEO cites clients redirecting spend to own AI hardware/memory",
+    "summary": "IBM prints Q2 today AH after historic -25.21% Jul 14 selloff on Q2 pre-announcement. Pre-announced rev $17.2B (+1% YoY) vs $17.9B street. CEO Krishna: clients started to spend less on IBM software/infrastructure and more on their own AI hardware/memory chips; cybersecurity distraction (Anthropic Mythos model prompting reassessment) played a role. Key question tonight: sustained structural shift or transient quarterly anomaly. Stock down ~25% from mid-July highs — full guide + software mix commentary the fulcrum.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/8969330/ibm-faces-setback-ahead-of-q2-earnings-release"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "GOOGL Q2 AH tonight: rev $116.9B / net $35.3B street; capex $180-190B FY26 (2x FY25's $91B); Google Cloud growth ~63% YoY / ~$20B q-rev in focus",
+    "summary": "Alphabet reports Q2 after close (post-4 PM ET). Street: rev $116.9B, net $35.3B. Focus: (1) Google Cloud growth pace (Q1 hit +63% YoY to $20B q-run-rate, 32.9% op margin; investors watching for sustainability), (2) FY26 capex still tracking $180-190B (2x $91B in FY25), (3) Gemini/AI monetization at Search + Workspace, (4) capital allocation. New multi-billion Cloud contracts with Meta and Anthropic disclosed since Q1. Sell-side split on whether $185B capex run-rate can justify itself — cloud growth is the single biggest tell for hyperscaler bull case.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4615953-alphabet-q2-preview-cloud-growth-gemini-updates-and-capital-allocation-in-focus"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "TSLA Q2 AH tonight: 480K deliveries (+25% YoY record); street $26.4B rev / $0.54 EPS; robotaxi milestone slippage + Optimus start the tape's fixation",
+    "summary": "Tesla reports Q2 after close (5:30 PM ET call). Deliveries hit 480,126 record (+25% YoY); energy storage 13.5 GWh (up from 8.8 Q1). Street: rev $26.4B / EPS $0.54 / auto GM ex-credits >18%. Investor focus: (1) Robotaxi — 3 quarters of missed short-term guidance; (2) Optimus — production start slipped from late-Jul/Aug; (3) Cybercab timing; (4) auto margin trajectory. Options market implying ~7.6% move; $83B of market cap in play. AI story vs profit reality the central debate.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Electrek",
+    "source_url": "https://electrek.co/2026/07/21/tesla-tsla-q2-2026-earnings-preview/"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "KOSPI +0.74% (gave back most of morning +6%): Samsung +0.68% to KRW 261K, SK Hynix flat KRW 1.836M — chip complex rally fades into US open",
+    "summary": "Korean market opened up 6% on TSMC pricing + SMCI-echo optimism then faded through session. KOSPI closed +0.74%; Samsung Electronics +0.68% to KRW 261,000 (~$176.58), SK Hynix flat at KRW 1,836,000. Open-high-close-low pattern reflects short-term investor anxiety despite sustained long-term semi supercycle confidence. Read-through: chip rally durability being tested; Wed US open will show whether SMCI-led enthusiasm re-ignites SOX/SMH or if fatigue takes over.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Sunday Guardian",
+    "source_url": "https://sundayguardianlive.com/business/korea-stock-market-today-22-july-kospi-kosdaq-index-surges-5-as-ai-chip-rally-samsung-sk-hynix-lead-amid-war-check-market-performance-top-gainers-losers-what-investors-should-watch-243201/"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "Section 122 10% global tariff sunsets by statute midnight ET Thu Jul 24 — Section 301 forced-labor duties (10%/12.5%) proposed as replacement; Section 232 semi tariffs unaffected",
+    "summary": "Non-negotiable statutory sunset for the 10% Section 122 global import surcharge (the IEEPA-tariff replacement) at midnight ET Thu Jul 24; President cannot extend; Congress has not legislated a replacement. USTR pathway forward: Section 301 forced-labor tariffs at 10% (14 economies) and 12.5% default (46 economies) covering most major US sourcing countries. Critical for AI infrastructure: Section 232 tariffs on semiconductors, steel, aluminum, copper, autos remain in effect regardless — chip-specific tariffs continue past Thu. Two-day window this week for pricing/import-cost recalibration across hardware suppliers.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Alba Wheels Up (trade compliance)",
+    "source_url": "https://albawheelsup.com/trade_news/section-122-expires-july-24-what-the-section-301-replacement-means-for-importers/"
+  },
+  {
+    "date": "2026-07-22",
+    "headline": "AT&T Q2 beat: adj EPS $0.65 vs $0.59 street; stock +3% pre-market — telco AI-fiber capex tailwind for network gear (CSCO/ANET) modest read-through",
+    "summary": "AT&T reported adj EPS $0.65 vs FactSet consensus $0.59, revenue mixed but stock rallied +3% pre-market. Not a direct AI-infrastructure name but modest positive read-across for datacenter networking suppliers as telco fiber/edge buildouts continue; watching for capex commentary in call.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance Live",
+    "source_url": "https://finance.yahoo.com/markets/live/earnings-live-second-quarter-results-tesla-google-july-115324842.html"
+  }
+]

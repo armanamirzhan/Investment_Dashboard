@@ -4038,5 +4038,91 @@
       }
     ],
     "file": "morning-news/2026-07-21.html"
+  },
+  {
+    "date": "2026-07-22",
+    "tickers": [
+      {
+        "ticker": "SMCI",
+        "direction": "up",
+        "note": "+18% pre-market on preliminary Q4: $60B record new orders + GM raised to 15-17% (vs 8.2-8.4% prior); rev near low end $11-12.5B; Aug 11 print"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Q2 rev $11.1B beat (+22% YoY); FY26 guide raised twice; Power orders +134% organic; backlog $176B; slot target 100→125 GW; GAAP EPS $2.47 miss"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Advancing AI 2026 opens SF: MI455X (432GB HBM4, 19.6 TB/s), Helios rack (31TB HBM4), EPYC Venice on TSMC N2 GAA; GF Sec Buy PT $640 from $511"
+      },
+      {
+        "ticker": "IBM",
+        "direction": "down",
+        "note": "Q2 AH 5 PM ET after -25% Jul 14 pre-warning; CEO cites clients redirecting spend to own AI HW/memory; software mix commentary the fulcrum"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "neutral",
+        "note": "Q2 AH: street rev $116.9B / net $35.3B; Cloud +63% YoY the tell; FY26 capex $180-190B (2x FY25); Gemini monetization"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "neutral",
+        "note": "Q2 AH 5:30 PM: 480K deliveries record; street $26.4B/$0.54; robotaxi milestone slippage + Optimus start focus; ~7.6% implied move"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +0.68% KRW 261,000; gave back most of morning +6% rally"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "neutral",
+        "note": "SK Hynix flat KRW 1,836,000; KOSPI open-high-close-low pattern"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "AMD Advancing AI Day-1: MI455X positioned to narrow hardware gap; competitive intensity increasing but AI demand pool expanding"
+      },
+      {
+        "ticker": "T",
+        "direction": "up",
+        "note": "Q2 EPS $0.65 beat vs $0.59 street; +3% pre-market (peripheral read for CSCO/ANET)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "SMCI pre-announce resets AI-server margin narrative — potential SOX/SMH re-ignition into US open after KOSPI open-high-close-low fade"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "SMCI $60B new orders + GM 15-17% (vs 8.2-8.4%) — visibility snap-back after months of margin-compression bear thesis"
+      },
+      {
+        "ticker": "energy",
+        "signal": "GEV Power orders +134% organic + gas turbine slot target 100→125 GW (30 GW annual by 2030) — scarcity/pricing power intact"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "AMD Advancing AI 2026: MI455X 432GB HBM4 + Helios rack + EPYC Venice on TSMC N2 GAA — Day-2 customer announcements the incremental catalyst"
+      },
+      {
+        "ticker": "earnings",
+        "signal": "Triple-header AH tonight: GOOG (Cloud/capex) + TSLA (robotaxi/Optimus) + IBM (post-warning software mix) — three distinct AI narratives"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 122 10% global tariff sunsets midnight ET Thu Jul 24 by statute; Section 232 semi tariffs unaffected — 2-day recalibration window for hardware supply chain"
+      },
+      {
+        "ticker": "neocloud",
+        "signal": "CoreWeave/Nebius pressure persists on Meta build-vs-buy risk; NVDA 13G Nebius stake (Mon) partial offset — neocloud unit economics under scrutiny"
+      }
+    ],
+    "file": "morning-news/2026-07-22.html"
   }
 ]

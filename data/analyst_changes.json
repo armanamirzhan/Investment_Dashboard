@@ -3472,5 +3472,14 @@
     "new_target": 185.0,
     "old_rating": "Overweight",
     "old_target": 287.0
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "AMD",
+    "firm": "GF Securities",
+    "new_rating": "Buy",
+    "new_target": 640.0,
+    "old_rating": "Buy",
+    "old_target": 511.0
   }
 ]

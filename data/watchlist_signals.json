@@ -3001,5 +3001,26 @@
     "signal_type": "momentum",
     "description": "MU +7-8% intraday to ~$937: Bank of America (Vivek Arya) added Micron to its \"US 1 List\" of best investment ideas today, reaffirming Buy / $1,550 PT (83% implied upside) on the memory super-cycle thesis (HBM market seen reaching $246B by 2030, 16 multi-year customer agreements locked in) — 8th straight quarterly EPS beat (24% avg beat) cited as validation.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "+18% pre-market on preliminary Q4: $60B record new orders + GM 15-17% (near-double prior guide 8.2-8.4%). Short-squeeze setup; full print Aug 11 the verification event.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "GEV",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $11.1B beat (+22% YoY), FY26 guide raised twice (rev + FCF); Power orders +134% organic; gas turbine capacity target 100→125 GW. EPS miss noise vs backlog/guide signal.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "ticker": "IBM",
+    "signal_type": "earnings_miss",
+    "description": "Pre-announced Q2 rev $17.2B vs $17.9B street; -25% stock Jul 14. CEO: clients redirecting spend to own AI HW/memory. Full print tonight AH — read-through to enterprise software growth thesis.",
+    "severity": "high"
   }
 ]

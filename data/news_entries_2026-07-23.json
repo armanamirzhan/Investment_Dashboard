@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-07-23",
+    "headline": "GOOGL Q2 blowout: rev $119.8B (+24%), Cloud +82% to $24.8B; FY26 capex hiked to $195-205B (from $180-190B), 2027 higher — stock -5% AH",
+    "summary": "Alphabet beat on nearly every line — total rev $119.8B vs $117B street, Google Services +15%, Google Cloud +82% YoY to $24.8B (backlog implied by 'unprecedented' AI compute demand). But FY26 capex guide raised $15B to $195-205B and CFO Ashkenazi said 2027 will be materially higher again (Morgan Stanley pencils $250B). Free cash flow guided negative on the print. Stock -5% after-hours, pre-market -4%. Read-through: bullish for GPU/power/cooling/DC-real-estate chain (NVDA, AMD, ETN, VRT, GEV, CEG, VST, DLR, EQIX); bearish for hyperscaler FCF multiples. Pivotal Research raised GOOGL PT to $475 from $470 keeping Buy.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Hyperscaler FY26 combined capex now ~$725B post-GOOGL raise — infra tailwind extends into 2027",
+    "summary": "With Alphabet's $195-205B guide, the four majors (MSFT ~$120B, META $115-135B, AMZN ~$200B, GOOGL $195-205B) now sum to roughly $700-750B for FY26 vs $410B in FY25 (+77% YoY). RBC pegs FY27 aggregate at $637B and rising, Morgan Stanley sees GOOGL alone at $250B in FY27. Alphabet CFO cited 'unprecedented internal and external demand for AI compute' as the reason for the raise. Reinforces multi-year visibility for the AI power/networking/GPU chain — NVDA, AMD, AVGO, ETN, VRT, GEV, CEG, VST, DLR, EQIX all direct beneficiaries. Watchpoint: MSFT (Jul 29 AH), META (Jul 29 AH), AMZN (Jul 30 AH) all next week — capex trajectory rather than beats is the setup.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/googl-drops-nearly-5-hours-212540090.html"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "TSLA -8% pre-market: Q2 profit miss + capex balloon — adj EPS $0.33 vs $0.50 street, FY26 capex >$25B; Cantor/JPM/Canaccord cut PTs",
+    "summary": "Tesla Q2 rev $28.24B beat $26.4B on record 480,126 deliveries (+25% YoY), but adj EPS $0.33 missed $0.50, adj EBITDA $3.2B vs $4B, FCF -$1.1B on $5.8B quarterly capex. Musk called 2026 a 'massive capex year' — CFO Taneja confirmed FY26 capex 'more than $25B' with 2027 tracking similar as Optimus, Robotaxi, AI DC and Cybercab consume cash simultaneously. Robotaxi live in 7 metros over 380K miles. Cantor Fitzgerald PT $510→$485 (Overweight held), JPMorgan $475→$445 (Neutral), Canaccord $450→$410 (Buy). Stock -8% pre-market to ~$343.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "IBM Q2 double beat but pre-market -2%: Software +5% (Red Hat +11%, Data +19%), Infra -7% (Z -42%); FY guide 4-5% cc growth",
+    "summary": "IBM Q2 rev $17.2B (+1% YoY, in line with July 14 pre-warning), adj EPS $2.93 vs $2.86 street. Software +5% to $7.8B — Red Hat Hybrid Cloud +11%, Data +19% — the resilient signal. Consulting flat. Infrastructure -7% with IBM Z -42% (mainframe cycle rolling over) offset by Distributed +37%. FY26 rev guide 4-5% constant currency (below prior 5%+). Gross margin 57.7% (-1pt), FCF $2.5B. Stock -2% pre-market; Wedbush's Ives kept $350 PT, calling Q2 an execution slip; HSBC cut to Reduce PT $191, citing mainframe erosion.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/earnings/26/07/60624904/ibm-delivers-q2-double-beat-taking-action-to-accelerate-revenue-growth-profitability"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "NOW Q2 beat + FY sub guide raise: rev $3.99B, subs +23% to $3.877B, op margin 29.5%, AI ACV >$1B — pre-market +5%",
+    "summary": "ServiceNow first-quarter under the all-in AI licensing model exceeded plan on every line: total rev $3.99B (+22% YoY) vs $3.93B street, subs $3.877B (+23%), op margin 29.5% (+3pts vs guide). AI ACV crossed $1B and CFO framed the $1.5B FY26 ACV target as beatable. Renewal rate 98%. FY26 sub guide raised to $15.77B (+21% YoY). Stock +5% pre-market — first strong tape reversal after ~30% YTD drawdown. Read-through: agentic-AI/enterprise-software cohort (CRM, NOW, PLTR, SNOW) gets its cleanest data point of the print cycle that AI monetization is showing up in subscription math.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-q2-earnings-revenues-215507399.html"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Section 122 10% global tariff sunsets at 12:01 AM ET Fri Jul 24 — Section 232 semi duties unaffected",
+    "summary": "The 10% Section 122 global import surcharge expires by statute at midnight ET Thu/Fri (150-day statutory limit reached with no congressional extension pending). Section 232 duties on semiconductors, steel, aluminum, autos remain in place under separate authority. Trump admin is preparing Section 301 replacement at 12.5% on 46 countries but implementation timing unclear. Net effect: modest COGS relief on non-semi imports (Vertiv chassis, Eaton switchgear input costs, cooling components) while chip tariffs stay flat. Hardware-supply-chain names (VRT, ETN, SMCI, DELL, HPE, CLS) get 24-48hr recalibration window; Asian memory/logic (Samsung, SK Hynix, TSM) unaffected either way.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Trade Law Counsel",
+    "source_url": "https://www.tradelawcounsel.com/insights-news/2026/7/4/section-122-surcharge-sunsets-july-24-what-importers-should-do-beforeand-afterthe-150-day-clock-runs-out"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "TSMC July update reinforces AI supply-chain scarcity: N3 and CoWoS sold out through 2026, capex raised to $60-64B",
+    "summary": "TSMC's mid-month color: Q2 rev NT$1.27T ($39.62B, +36% YoY), June alone NT$442.7B (+68% YoY). N3 (3nm) and CoWoS advanced packaging sold out through end of 2026 with lead times stretched into 2027 — AI accelerators the direct beneficiary. FY26 capex bumped $4B to $60-64B, revenue-growth guide lifted to '>40%' from prior 'mid-30s.' Read-through: NVDA/AMD supply constraint remains gating factor (not demand); AMKR/ASX/UMC benefiting from N3 spillover to trailing-edge; ASML/AMAT/LRCX/KLAC visibility extends. Chinese H200 orders (>2M chips YTD vs 700K NVDA inventory) confirm demand pool is deeper than supply through 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
+  },
+  {
+    "date": "2026-07-23",
+    "headline": "Futures -0.4%: hyperscaler capex anxiety + oil spike weigh on open — Nasdaq the most exposed",
+    "summary": "US futures Dow/S&P/Nas -0.4% pre-open, weighed by (1) Alphabet's capex raise firing renewed 'AI-monetization-lags-buildout' bear thesis, (2) Tesla profit miss on same capex-burn narrative, (3) crude spike on Middle East escalation, (4) IBM's soft mainframe/consulting print. Bright spots: NOW +5%, GOOGL AH recovery bid, TSMC scarcity tape. Setup into MSFT (Jul 29 AH) / META (Jul 29 AH) / AMZN (Jul 30 AH) / AAPL (Jul 30 AH) next week — capex trajectory the sole variable that matters for hyperscaler multiples. Watch NVDA/AMD/VRT/ETN/GEV/CEG for buy-the-dip on any AI-infra basket weakness today.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/20/stock-market-today-live-updates.html"
+  }
+]

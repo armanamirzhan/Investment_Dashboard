@@ -4124,5 +4124,91 @@
       }
     ],
     "file": "morning-news/2026-07-22.html"
+  },
+  {
+    "date": "2026-07-23",
+    "tickers": [
+      {
+        "ticker": "GOOGL",
+        "direction": "down",
+        "note": "Q2 rev $119.8B beat + Cloud +82%, but FY26 capex hiked to $195-205B (from $180-190B); 2027 higher. Stock -5% AH, -4% pre-market. Pivotal PT $470→$475 Buy."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "down",
+        "note": "Q2 adj EPS $0.33 miss (est $0.50); EBITDA $3.2B miss; FCF -$1.1B; FY26 capex >$25B confirmed. -8% pre-market. JPM $475→$445, Cantor $510→$485, Canaccord $450→$410."
+      },
+      {
+        "ticker": "IBM",
+        "direction": "neutral",
+        "note": "Q2 rev $17.2B in line with pre-warning; Software +5% (Red Hat +11%, Data +19%), Infra -7% (Z -42%). FY guide 4-5% cc. -2% pre-market. HSBC Reduce PT $191; Wedbush stays $350."
+      },
+      {
+        "ticker": "NOW",
+        "direction": "up",
+        "note": "Q2 subs +23% $3.877B, op margin 29.5%, AI ACV >$1B, FY sub guide raised to $15.77B. Stock +5% — first clean AI-monetization print in enterprise SW."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Reads through positive on GOOGL capex hike + TSMC N3/CoWoS sold-out; Chinese H200 orders >2M chips vs 700K inventory."
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Same read-through as NVDA: GOOGL capex + TSMC scarcity + AMD Advancing AI Day-2 today (customer announcements the catalyst)."
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "GOOGL capex hike +15B reinforces GEV's slot-target 100→125GW and +134% organic Power orders thesis from yesterday."
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "Same read-through: hyperscaler power/switchgear demand extends into 2027. Analyst PT lifted ~$2 to $452."
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Analyst PT lifted $24 to $394; +102% YTD. Same GOOGL capex read-through on liquid cooling / DC infra."
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "N3/CoWoS sold out through 2026, capex raised to $60-64B, FY rev growth guide >40%. Supply-scarce, demand-full — gating factor for NVDA/AMD 2027 deliveries."
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Hyperscaler combined FY26 capex now ~$725B (from ~$680B pre-GOOGL raise); FY27 tracking higher — multi-year AI-infra visibility extended, but hyperscaler FCF multiples under pressure."
+      },
+      {
+        "ticker": "earnings",
+        "signal": "GOOGL beat / TSLA miss / IBM in-line-vs-pre-warning / NOW clean beat — divergence between infra-suppliers (benefiting) and platforms (paying) is the theme of the print"
+      },
+      {
+        "ticker": "TSLA",
+        "signal": "HIGH-severity: Q2 profit miss + capex balloon + three PT cuts — margin/FCF trough thesis crystallizing before Robotaxi/Cybercab monetization"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Section 122 10% global tariff sunsets midnight ET tonight; Section 232 semi tariffs unaffected — 24-48hr recalibration window for VRT/ETN/SMCI/DELL/HPE input costs"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TSMC N3 + CoWoS sold out through end-2026, capex raised to $60-64B — NVDA/AMD supply is the constraint, not demand; Chinese H200 orders 2M vs 700K NVDA inventory"
+      },
+      {
+        "ticker": "software",
+        "signal": "NOW's clean beat (+23% subs, AI ACV >$1B, op margin +3pts vs guide) validates enterprise-SW AI monetization thesis — read-through to CRM, PLTR, SNOW"
+      },
+      {
+        "ticker": "next-week",
+        "signal": "Setup into MSFT (Jul 29 AH), META (Jul 29 AH), AMZN (Jul 30 AH), AAPL (Jul 30 AH) — capex trajectory the sole variable for hyperscaler multiples this cycle"
+      }
+    ],
+    "file": "morning-news/2026-07-23.html"
   }
 ]

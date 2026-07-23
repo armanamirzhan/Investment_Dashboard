@@ -3490,5 +3490,50 @@
     "new_target": 126,
     "old_rating": "Hold",
     "old_target": 131
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 445,
+    "old_rating": "Neutral",
+    "old_target": 475
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 485,
+    "old_rating": "Overweight",
+    "old_target": 510
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "Canaccord",
+    "new_rating": "Buy",
+    "new_target": 410,
+    "old_rating": "Buy",
+    "old_target": 450
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "IBM",
+    "firm": "HSBC",
+    "new_rating": "Reduce",
+    "new_target": 191,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "GOOGL",
+    "firm": "Pivotal Research",
+    "new_rating": "Buy",
+    "new_target": 475,
+    "old_rating": "Buy",
+    "old_target": 470
   }
 ]

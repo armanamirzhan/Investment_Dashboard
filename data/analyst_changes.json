@@ -3535,5 +3535,50 @@
     "new_target": 475,
     "old_rating": "Buy",
     "old_target": 470
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-Weight",
+    "new_target": 400,
+    "old_rating": "Equal-Weight",
+    "old_target": 417
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "Truist Securities",
+    "new_rating": "Hold",
+    "new_target": 370,
+    "old_rating": "Hold",
+    "old_target": 430
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "TSLA",
+    "firm": "UBS",
+    "new_rating": "Hold",
+    "new_target": 385,
+    "old_rating": "Hold",
+    "old_target": 442
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "GOOGL",
+    "firm": "BMO Capital",
+    "new_rating": "Buy",
+    "new_target": 455,
+    "old_rating": "Buy",
+    "old_target": 435
+  },
+  {
+    "date": "2026-07-23",
+    "ticker": "GOOGL",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 430,
+    "old_rating": "Buy",
+    "old_target": 370.9
   }
 ]

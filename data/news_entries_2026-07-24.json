@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-07-24",
+    "headline": "INTC Q2 blowout: rev +25% to $16.13B (fastest since 2011), DCAI +59% YoY to $6.3B — stock +13% AH; guides Q3 above street",
+    "summary": "Intel reported Q2 revenue $16.13B (+25% YoY) vs $14.42B street, adj EPS $0.42 vs $0.21 est. Data Center & AI segment +59% YoY to $6.3B — management said DCAI 'cannot keep up with orders' and has signed 10 long-term fixed-price/volume contracts. Q3 guide $15.8-16.8B tops consensus. Stock +13% after-hours — validates the AI server CPU cycle and thickens competition for AMD EPYC.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Intel Q2 2026 release",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/intel-q2-2026-earnings-revenue-205531105.html"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Trump forced-labor tariffs (10-12.5% on 60 countries) took effect 12:01 AM ET Friday — Taiwan, Korea, Japan, EU all hit",
+    "summary": "Section 301 duties on ~60 trading partners kicked in overnight, backfilling the Section 122 blanket tariff that sunset. Mexico, UK, Canada, India face 10%; EU, Taiwan, Japan, South Korea, Switzerland face 10-12.5%. Direct exposure to AI hardware supply chain: TSM (Taiwan), 005930.KS/000660.KS (Korea), 8035.T/4063.T (Japan), ASML/IFX.DE/ENR.DE (EU). Section 232 semi duties unaffected. Watch for pass-through cost inflation on servers, memory, and lithography tools.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-23/us-sets-new-forced-labor-duties-as-trump-resurrects-tariff-wall"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "TSLA closed -14.5% Thursday (worst intraday in >1yr): Q2 miss + AI/Cybercab/Optimus opex surge; FCF flipped to -$1.09B",
+    "summary": "Follow-through from the Q2 miss: adj EPS $0.33 vs $0.50 est (miss 34%), revenue $28.24B (+25% YoY, beat). Opex +47% to $4.35B on AI, Cybercab, Optimus, Semi R&D. Op margin collapsed to 1.4% from 4.1%. Free cash flow -$1.09B vs +$1.44B prior quarter. Multiple sell-side desks trimmed PTs citing margin pressure and cautious autonomy guidance.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/article/tesla-reports-q2-earnings-miss-but-beats-on-revenue-cap-ex-spending-seen-at-25-billion-for-the-year-110300122.html"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "NOW closed -17.8% Wednesday after Q2 beat — sharp derating despite AI ACV >$1B; enterprise gen-AI monetization skepticism setting in",
+    "summary": "ServiceNow beat Q2 (EPS $0.90 vs $0.76) and raised FY subs guide, but the print couldn't hold the multiple: shares closed -17.8% at $84.78 as investors questioned whether Pro Plus AI SKU uptake is really translating into growth. Read-across risk to CRM, SNOW, PLTR — the market is punishing generative-AI-adjacent enterprise software that can't show a step-function in NRR or seats.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Investing.com earnings transcript",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-beats-q2-2026-forecasts-shares-rebound-after-hours-93CH-4807190"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Baird initiates CRWV at Outperform, PT $100; also starts Nebius at Outperform PT $250 — call is neocloud oversold vs. execution",
+    "summary": "Baird's David Koning launched coverage of CoreWeave (CRWV) with Outperform / $100 PT, citing 'leadership in AI infrastructure, capacity execution, and NVIDIA relationship,' and initiated Nebius (NBIS) Outperform / $250. Comes after both names sold off ~25-30% in past month on Meta-Google $10B cloud deal read-across. Reinforces the thesis that CRWV's $99.4B backlog (incl. $21B Meta commitment) underpins revenue visibility through 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4616617-coreweave-nebius-initiated-with-outperform-ratings-at-baird"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Meta in early talks to lease up to $10B of compute to Anthropic over 2 years — unusual dynamic: rival becomes infra supplier",
+    "summary": "NYT/CNBC report Meta is negotiating to sell compute capacity to Anthropic in monthly installments over 2 years, up to ~$10B total, with mutual early-exit. Would help Meta monetize its aggressive AI capex build and compete directly with CoreWeave and Nebius. Notable because Meta's Llama competes head-on with Claude — signals hyperscalers pivoting toward selling excess capacity as their own build-outs outrun internal demand.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "VRT sell-side re-rack ahead of Jul 29 print: TD Cowen $387 (from $347) Buy; Oppenheimer $353 (from $330); RBC trims to $418 (from $435 Street-high)",
+    "summary": "Analysts jockeying position ahead of Vertiv's Q2 report (July 29 BMO, consensus EPS ~$1.43). TD Cowen (Vitanza) raised to $387, Oppenheimer (Kaye) $353, Baird initiated Outperform $370, KeyBanc Overweight $360. RBC still bull-case leader at $418 but trimmed from $435. Stock up 107% YTD on Q1 orders +252% YoY and $15B backlog — liquid cooling is the direct GB200/GB300 read-through.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/07/16/3-stocks-riding-the-ai-data-center-power-buildout-in-july/"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "KeyBanc utilities re-rank: DUK and AEE upgraded to Overweight (targets $139, $122), SO cut to Underweight — datacenter load thesis narrows",
+    "summary": "KeyBanc rotated regulated utilities Thursday: Duke Energy (DUK) and Ameren (AEE) upgraded to Overweight, Southern Co (SO) cut to Underweight. Reads as a narrowing of the 'datacenter load growth' trade — analysts increasingly distinguishing utilities with dedicated hyperscaler contracts / co-located generation from those pricing in speculative load. Positive read-through for CEG, VST, NEE which have signed 20-year AI PPAs; watch AES which is more diversified.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/07/23/here-are-thursdays-top-wall-street-analyst-research-calls-att-applied-digital-autodesk-duke-energy-exxon-mobil-jpmorgan-chase-company-live-nation-entertainment-and-more/"
+  },
+  {
+    "date": "2026-07-24",
+    "headline": "Brent tops $100 on Red Sea tanker strikes; 10Y yield at YTD high — macro headwind stacks on AI capex anxiety into Friday open",
+    "summary": "Two Saudi oil tankers reportedly struck in the Red Sea sent Brent above $100 for the first time since May. The 10-year Treasury yield hit its highest level since early 2025 as traders reprice a Fed hike into the next 2-3 meetings. S&P 500 closed -1.21% Thursday (worst since June 23), Nasdaq 100 -1.9%. Polymarket implies 66% chance of an S&P open-up on Friday, but the setup — oil shock + tariff step-up + rate-hike odds + GOOGL/TSLA/NOW capex/spend anxiety — is fragile.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-22-2026"
+  }
+]

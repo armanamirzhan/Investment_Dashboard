@@ -3580,5 +3580,68 @@
     "new_target": 430,
     "old_rating": "Buy",
     "old_target": 370.9
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "VRT",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 387,
+    "old_rating": "Buy",
+    "old_target": 347
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "VRT",
+    "firm": "Oppenheimer",
+    "new_rating": "Buy",
+    "new_target": 353,
+    "old_rating": "Buy",
+    "old_target": 330
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "VRT",
+    "firm": "RBC Capital",
+    "new_rating": "Outperform",
+    "new_target": 418,
+    "old_rating": "Outperform",
+    "old_target": 435
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "VRT",
+    "firm": "Baird",
+    "new_rating": "Outperform",
+    "new_target": 370,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "VRT",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 360,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "CRWV",
+    "firm": "Baird",
+    "new_rating": "Outperform",
+    "new_target": 100,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "ETN",
+    "firm": "Consensus (28 analysts)",
+    "new_rating": "Buy",
+    "new_target": 452,
+    "old_rating": "Buy",
+    "old_target": 450
   }
 ]

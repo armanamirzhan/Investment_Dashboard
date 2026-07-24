@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-07-24</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-07-24</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>INTC Q2 blowout: rev +25% to $16.13B (fastest since 2011), DCAI +59% YoY to $6.3B — stock +13% AH; guides Q3 above street</strong> &mdash; Intel reported Q2 revenue $16.13B (+25% YoY) vs $14.42B street, adj EPS $0.42 vs $0.21 est. Data Center & AI segment +59% YoY to $6.3B — management said DCAI 'cannot keep up with orders' and has signed 10 long-term fixed-price/volume contracts. Q3 guide $15.8-16.8B tops consensus. Stock +13% after-hours — validates the AI server CPU cycle and thickens competition for AMD EPYC.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Trump forced-labor tariffs (10-12.5% on 60 countries) took effect 12:01 AM ET Friday — Taiwan, Korea, Japan, EU all hit</strong> &mdash; Section 301 duties on ~60 trading partners kicked in overnight, backfilling the Section 122 blanket tariff that sunset. Mexico, UK, Canada, India face 10%; EU, Taiwan, Japan, South Korea, Switzerland face 10-12.5%. Direct exposure to AI hardware supply chain: TSM (Taiwan), 005930.KS/000660.KS (Korea), 8035.T/4063.T (Japan), ASML/IFX.DE/ENR.DE (EU). Section 232 semi duties unaffected. Watch for pass-through cost inflation on servers, memory, and lithography tools.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>TSLA closed -14.5% Thursday (worst intraday in >1yr): Q2 miss + AI/Cybercab/Optimus opex surge; FCF flipped to -$1.09B</strong> &mdash; Follow-through from the Q2 miss: adj EPS $0.33 vs $0.50 est (miss 34%), revenue $28.24B (+25% YoY, beat). Opex +47% to $4.35B on AI, Cybercab, Optimus, Semi R&D. Op margin collapsed to 1.4% from 4.1%. Free cash flow -$1.09B vs +$1.44B prior quarter. Multiple sell-side desks trimmed PTs citing margin pressure and cautious autonomy guidance.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>NOW closed -17.8% Wednesday after Q2 beat — sharp derating despite AI ACV >$1B; enterprise gen-AI monetization skepticism setting in</strong> &mdash; ServiceNow beat Q2 (EPS $0.90 vs $0.76) and raised FY subs guide, but the print couldn't hold the multiple: shares closed -17.8% at $84.78 as investors questioned whether Pro Plus AI SKU uptake is really translating into growth. Read-across risk to CRM, SNOW, PLTR — the market is punishing generative-AI-adjacent enterprise software that can't show a step-function in NRR or seats.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Baird initiates CRWV at Outperform, PT $100; also starts Nebius at Outperform PT $250 — call is neocloud oversold vs. execution</strong> &mdash; Baird's David Koning launched coverage of CoreWeave (CRWV) with Outperform / $100 PT, citing 'leadership in AI infrastructure, capacity execution, and NVIDIA relationship,' and initiated Nebius (NBIS) Outperform / $250. Comes after both names sold off ~25-30% in past month on Meta-Google $10B cloud deal read-across. Reinforces the thesis that CRWV's $99.4B backlog (incl. $21B Meta commitment) underpins revenue visibility through 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Meta in early talks to lease up to $10B of compute to Anthropic over 2 years — unusual dynamic: rival becomes infra supplier</strong> &mdash; NYT/CNBC report Meta is negotiating to sell compute capacity to Anthropic in monthly installments over 2 years, up to ~$10B total, with mutual early-exit. Would help Meta monetize its aggressive AI capex build and compete directly with CoreWeave and Nebius. Notable because Meta's Llama competes head-on with Claude — signals hyperscalers pivoting toward selling excess capacity as their own build-outs outrun internal demand.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert positive"><div class="alert-text"><strong>VRT sell-side re-rack ahead of Jul 29 print: TD Cowen $387 (from $347) Buy; Oppenheimer $353 (from $330); RBC trims to $418 (from $435 Street-high)</strong> &mdash; Analysts jockeying position ahead of Vertiv's Q2 report (July 29 BMO, consensus EPS ~$1.43). TD Cowen (Vitanza) raised to $387, Oppenheimer (Kaye) $353, Baird initiated Outperform $370, KeyBanc Overweight $360. RBC still bull-case leader at $418 but trimmed from $435. Stock up 107% YTD on Q1 orders +252% YoY and $15B backlog — liquid cooling is the direct GB200/GB300 read-through.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>KeyBanc utilities re-rank: DUK and AEE upgraded to Overweight (targets $139, $122), SO cut to Underweight — datacenter load thesis narrows</strong> &mdash; KeyBanc rotated regulated utilities Thursday: Duke Energy (DUK) and Ameren (AEE) upgraded to Overweight, Southern Co (SO) cut to Underweight. Reads as a narrowing of the 'datacenter load growth' trade — analysts increasingly distinguishing utilities with dedicated hyperscaler contracts / co-located generation from those pricing in speculative load. Positive read-through for CEG, VST, NEE which have signed 20-year AI PPAs; watch AES which is more diversified.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Brent tops $100 on Red Sea tanker strikes; 10Y yield at YTD high — macro headwind stacks on AI capex anxiety into Friday open</strong> &mdash; Two Saudi oil tankers reportedly struck in the Red Sea sent Brent above $100 for the first time since May. The 10-year Treasury yield hit its highest level since early 2025 as traders reprice a Fed hike into the next 2-3 meetings. S&P 500 closed -1.21% Thursday (worst since June 23), Nasdaq 100 -1.9%. Polymarket implies 66% chance of an S&P open-up on Friday, but the setup — oil shock + tariff step-up + rate-hike odds + GOOGL/TSLA/NOW capex/spend anxiety — is fragile.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>KeyBanc utilities re-rank: DUK and AEE upgraded to Overweight (targets $139, $122), SO cut to Underweight — datacenter load thesis narrows</h3><p>KeyBanc rotated regulated utilities Thursday: Duke Energy (DUK) and Ameren (AEE) upgraded to Overweight, Southern Co (SO) cut to Underweight. Reads as a narrowing of the 'datacenter load growth' trade — analysts increasingly distinguishing utilities with dedicated hyperscaler contracts / co-located generation from those pricing in speculative load. Positive read-through for CEG, VST, NEE which have signed 20-year AI PPAs; watch AES which is more diversified.</p><div class="source"><a href="https://247wallst.com/investing/2026/07/23/here-are-thursdays-top-wall-street-analyst-research-calls-att-applied-digital-autodesk-duke-energy-exxon-mobil-jpmorgan-chase-company-live-nation-entertainment-and-more/">24/7 Wall St</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>INTC Q2 blowout: rev +25% to $16.13B (fastest since 2011), DCAI +59% YoY to $6.3B — stock +13% AH; guides Q3 above street</h3><p>Intel reported Q2 revenue $16.13B (+25% YoY) vs $14.42B street, adj EPS $0.42 vs $0.21 est. Data Center & AI segment +59% YoY to $6.3B — management said DCAI 'cannot keep up with orders' and has signed 10 long-term fixed-price/volume contracts. Q3 guide $15.8-16.8B tops consensus. Stock +13% after-hours — validates the AI server CPU cycle and thickens competition for AMD EPYC.</p><div class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/intel-q2-2026-earnings-revenue-205531105.html">Yahoo Finance / Intel Q2 2026 release</a></div></div>
+<div class="card"><h3>Baird initiates CRWV at Outperform, PT $100; also starts Nebius at Outperform PT $250 — call is neocloud oversold vs. execution</h3><p>Baird's David Koning launched coverage of CoreWeave (CRWV) with Outperform / $100 PT, citing 'leadership in AI infrastructure, capacity execution, and NVIDIA relationship,' and initiated Nebius (NBIS) Outperform / $250. Comes after both names sold off ~25-30% in past month on Meta-Google $10B cloud deal read-across. Reinforces the thesis that CRWV's $99.4B backlog (incl. $21B Meta commitment) underpins revenue visibility through 2027.</p><div class="source"><a href="https://seekingalpha.com/news/4616617-coreweave-nebius-initiated-with-outperform-ratings-at-baird">Seeking Alpha</a></div></div>
+<div class="card"><h3>VRT sell-side re-rack ahead of Jul 29 print: TD Cowen $387 (from $347) Buy; Oppenheimer $353 (from $330); RBC trims to $418 (from $435 Street-high)</h3><p>Analysts jockeying position ahead of Vertiv's Q2 report (July 29 BMO, consensus EPS ~$1.43). TD Cowen (Vitanza) raised to $387, Oppenheimer (Kaye) $353, Baird initiated Outperform $370, KeyBanc Overweight $360. RBC still bull-case leader at $418 but trimmed from $435. Stock up 107% YTD on Q1 orders +252% YoY and $15B backlog — liquid cooling is the direct GB200/GB300 read-through.</p><div class="source"><a href="https://247wallst.com/investing/2026/07/16/3-stocks-riding-the-ai-data-center-power-buildout-in-july/">24/7 Wall St</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>NOW closed -17.8% Wednesday after Q2 beat — sharp derating despite AI ACV >$1B; enterprise gen-AI monetization skepticism setting in</h3><p>ServiceNow beat Q2 (EPS $0.90 vs $0.76) and raised FY subs guide, but the print couldn't hold the multiple: shares closed -17.8% at $84.78 as investors questioned whether Pro Plus AI SKU uptake is really translating into growth. Read-across risk to CRM, SNOW, PLTR — the market is punishing generative-AI-adjacent enterprise software that can't show a step-function in NRR or seats.</p><div class="source"><a href="https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-beats-q2-2026-forecasts-shares-rebound-after-hours-93CH-4807190">Investing.com earnings transcript</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Trump forced-labor tariffs (10-12.5% on 60 countries) took effect 12:01 AM ET Friday — Taiwan, Korea, Japan, EU all hit</h3><p>Section 301 duties on ~60 trading partners kicked in overnight, backfilling the Section 122 blanket tariff that sunset. Mexico, UK, Canada, India face 10%; EU, Taiwan, Japan, South Korea, Switzerland face 10-12.5%. Direct exposure to AI hardware supply chain: TSM (Taiwan), 005930.KS/000660.KS (Korea), 8035.T/4063.T (Japan), ASML/IFX.DE/ENR.DE (EU). Section 232 semi duties unaffected. Watch for pass-through cost inflation on servers, memory, and lithography tools.</p><div class="source"><a href="https://www.bloomberg.com/news/articles/2026-07-23/us-sets-new-forced-labor-duties-as-trump-resurrects-tariff-wall">Bloomberg</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Meta in early talks to lease up to $10B of compute to Anthropic over 2 years — unusual dynamic: rival becomes infra supplier</h3><p>NYT/CNBC report Meta is negotiating to sell compute capacity to Anthropic in monthly installments over 2 years, up to ~$10B total, with mutual early-exit. Would help Meta monetize its aggressive AI capex build and compete directly with CoreWeave and Nebius. Notable because Meta's Llama competes head-on with Claude — signals hyperscalers pivoting toward selling excess capacity as their own build-outs outrun internal demand.</p><div class="source"><a href="https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>TSLA closed -14.5% Thursday (worst intraday in >1yr): Q2 miss + AI/Cybercab/Optimus opex surge; FCF flipped to -$1.09B</h3><p>Follow-through from the Q2 miss: adj EPS $0.33 vs $0.50 est (miss 34%), revenue $28.24B (+25% YoY, beat). Opex +47% to $4.35B on AI, Cybercab, Optimus, Semi R&D. Op margin collapsed to 1.4% from 4.1%. Free cash flow -$1.09B vs +$1.44B prior quarter. Multiple sell-side desks trimmed PTs citing margin pressure and cautious autonomy guidance.</p><div class="source"><a href="https://finance.yahoo.com/markets/stocks/article/tesla-reports-q2-earnings-miss-but-beats-on-revenue-cap-ex-spending-seen-at-25-billion-for-the-year-110300122.html">Yahoo Finance</a></div></div>
+<div class="card"><h3>Brent tops $100 on Red Sea tanker strikes; 10Y yield at YTD high — macro headwind stacks on AI capex anxiety into Friday open</h3><p>Two Saudi oil tankers reportedly struck in the Red Sea sent Brent above $100 for the first time since May. The 10-year Treasury yield hit its highest level since early 2025 as traders reprice a Fed hike into the next 2-3 meetings. S&P 500 closed -1.21% Thursday (worst since June 23), Nasdaq 100 -1.9%. Polymarket implies 66% chance of an S&P open-up on Friday, but the setup — oil shock + tariff step-up + rate-hike odds + GOOGL/TSLA/NOW capex/spend anxiety — is fragile.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-22-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">VRT</span> TD Cowen: Buy &rarr; <strong>Buy</strong> | PT: $347 &rarr; $387 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">VRT</span> Oppenheimer: Buy &rarr; <strong>Buy</strong> | PT: $330 &rarr; $353 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">VRT</span> RBC Capital: Outperform &rarr; <strong>Outperform</strong> | PT: $435 &rarr; $418 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">VRT</span> Baird: None &rarr; <strong>Outperform</strong> | PT: N/A &rarr; $370 </p>
+<p><span class="ticker">VRT</span> KeyBanc: None &rarr; <strong>Overweight</strong> | PT: N/A &rarr; $360 </p>
+<p><span class="ticker">CRWV</span> Baird: None &rarr; <strong>Outperform</strong> | PT: N/A &rarr; $100 </p>
+<p><span class="ticker">ETN</span> Consensus (28 analysts): Buy &rarr; <strong>Buy</strong> | PT: $450 &rarr; $452 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">INTC</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 blowout: rev +25% (fastest since 2011), DCAI +59% to $6.3B, mgmt says data center 'cannot keep up with orders', 10 signed long-term fixed-price/volume CPU contracts. Stock +13% AH. Thesis: server CPU cycle validated; competitive risk to AMD EPYC share gains narrative.</p>
+<p><span class="ticker">TSLA</span> <span class="signal-badge signal-neutral">Earnings Miss</span> Q2 adj EPS $0.33 vs $0.50 (miss 34%); opex +47% on AI/Cybercab/Optimus R&D; op margin collapsed to 1.4% from 4.1%; FCF -$1.09B. Stock -14.5% Thursday, largest intraday drop in >1yr. Sell-side PT cuts multiple.</p>
+<p><span class="ticker">NOW</span> <span class="signal-badge signal-bearish">Overvalued</span> Beat Q2 (EPS $0.90 vs $0.76) + raised subs guide but stock closed -17.8% at $84.78. Signals AI SKU monetization skepticism spreading to enterprise software peers.</p>
+<p><span class="ticker">TSM</span> <span class="signal-badge signal-neutral">Legal Risk</span> Section 301 forced-labor tariffs (10-12.5%) on Taiwan take effect 12:01 AM ET Friday Jul 24 — direct cost pressure on TSMC packaged imports. Section 232 semi duties unaffected.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-neutral">Legal Risk</span> New Section 301 forced-labor duties (10-12.5%) on Korea took effect Jul 24 — impacts Samsung memory + foundry exports to US.</p>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-neutral">Legal Risk</span> New Section 301 forced-labor duties (10-12.5%) on Korea took effect Jul 24 — impacts SK Hynix HBM/DDR exports to US datacenters.</p>
+<p><span class="ticker">ASML</span> <span class="signal-badge signal-neutral">Legal Risk</span> EU forced-labor duties (10-12.5%) took effect Jul 24 — modest impact on ASML tool imports to US fabs (INTC 18A, TSMC Arizona).</p>
+<p><span class="ticker">CRWV</span> <span class="signal-badge signal-bullish">Undervalued</span> Baird initiates Outperform PT $100 after ~28% drawdown past month; backlog $99.4B (incl $21B Meta) intact. Selloff on neocloud read-across from Meta-Google deal viewed as overdone.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">INTC</span></td><td>Up</td><td>+13% AH: Q2 rev +25% (fastest since 2011), DCAI +59% to $6.3B, 'cannot keep up with orders'; Q3 guide above street</td></tr>
+<tr><td><span class="ticker down">TSLA</span></td><td>Down</td><td>-14.5% Thu (worst intraday >1yr): Q2 EPS $0.33 vs $0.50 miss; opex +47%, FCF -$1.09B; PT cuts across sell-side</td></tr>
+<tr><td><span class="ticker down">NOW</span></td><td>Down</td><td>-17.8% Wed post-Q2 despite beat + raised guide — enterprise AI-SKU monetization skepticism</td></tr>
+<tr><td><span class="ticker up">VRT</span></td><td>Up</td><td>Sell-side re-rack ahead of Jul 29 print: TD Cowen $387 (from $347), Oppenheimer $353 (from $330), RBC trims to $418</td></tr>
+<tr><td><span class="ticker up">CRWV</span></td><td>Up</td><td>Baird initiates Outperform PT $100; call is neocloud oversold after -28% month, $99.4B backlog intact</td></tr>
+<tr><td><span class="ticker down">TSM</span></td><td>Down</td><td>New 10-12.5% Section 301 forced-labor duties on Taiwan take effect 12:01 AM ET Fri Jul 24</td></tr>
+<tr><td><span class="ticker down">005930.KS</span></td><td>Down</td><td>Korea hit by 10-12.5% forced-labor tariffs at 12:01 AM ET Fri — Samsung memory + foundry exposed</td></tr>
+<tr><td><span class="ticker down">GOOGL</span></td><td>Down</td><td>Follow-through weakness on Wed's -6% capex-hike selloff; FY26 capex now $195-205B</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-07-24 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

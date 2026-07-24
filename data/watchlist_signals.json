@@ -3064,5 +3064,61 @@
     "signal_type": "undervalued",
     "description": "N3 + CoWoS sold out through 2026, capex raised to $60-64B, FY rev guide >40% growth. Supply is the constraint, not demand — gating factor for NVDA/AMD deliveries into 2027.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "INTC",
+    "signal_type": "earnings_beat",
+    "description": "Q2 blowout: rev +25% (fastest since 2011), DCAI +59% to $6.3B, mgmt says data center 'cannot keep up with orders', 10 signed long-term fixed-price/volume CPU contracts. Stock +13% AH. Thesis: server CPU cycle validated; competitive risk to AMD EPYC share gains narrative.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "TSLA",
+    "signal_type": "earnings_miss",
+    "description": "Q2 adj EPS $0.33 vs $0.50 (miss 34%); opex +47% on AI/Cybercab/Optimus R&D; op margin collapsed to 1.4% from 4.1%; FCF -$1.09B. Stock -14.5% Thursday, largest intraday drop in >1yr. Sell-side PT cuts multiple.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "NOW",
+    "signal_type": "overvalued",
+    "description": "Beat Q2 (EPS $0.90 vs $0.76) + raised subs guide but stock closed -17.8% at $84.78. Signals AI SKU monetization skepticism spreading to enterprise software peers.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "TSM",
+    "signal_type": "legal_risk",
+    "description": "Section 301 forced-labor tariffs (10-12.5%) on Taiwan take effect 12:01 AM ET Friday Jul 24 — direct cost pressure on TSMC packaged imports. Section 232 semi duties unaffected.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "005930.KS",
+    "signal_type": "legal_risk",
+    "description": "New Section 301 forced-labor duties (10-12.5%) on Korea took effect Jul 24 — impacts Samsung memory + foundry exports to US.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "000660.KS",
+    "signal_type": "legal_risk",
+    "description": "New Section 301 forced-labor duties (10-12.5%) on Korea took effect Jul 24 — impacts SK Hynix HBM/DDR exports to US datacenters.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "ASML",
+    "signal_type": "legal_risk",
+    "description": "EU forced-labor duties (10-12.5%) took effect Jul 24 — modest impact on ASML tool imports to US fabs (INTC 18A, TSMC Arizona).",
+    "severity": "low"
+  },
+  {
+    "date": "2026-07-24",
+    "ticker": "CRWV",
+    "signal_type": "undervalued",
+    "description": "Baird initiates Outperform PT $100 after ~28% drawdown past month; backlog $99.4B (incl $21B Meta) intact. Selloff on neocloud read-across from Meta-Google deal viewed as overdone.",
+    "severity": "medium"
   }
 ]

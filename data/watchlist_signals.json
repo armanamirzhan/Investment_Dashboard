@@ -3127,5 +3127,54 @@
     "signal_type": "earnings_beat",
     "description": "At least 6 sell-side firms raised INTC price targets this morning following the Q2 blowout (DCAI +59% YoY, gross margin back above 40% for first time in 2 years): KeyBanc to $155, HSBC doubled to $200, Seaport to $125, Susquehanna to $115, Wells Fargo to $120. Several note the foundry business still lacks a signed external customer as the key missing catalyst.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "SK Group $500B+ partnership locks HBM4 supply for Vera Rubin (SK Telecom 2GW datacenter online 2027) + Bernstein reiterates Outperform 'still early' — dwarfs any prior sovereign AI deal outside US, formalizes NVDA's grip on advanced memory at scale AMD/custom-silicon can't easily match.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK hynix at the center of the $500B NVDA deal — long-term HBM4 co-development + guaranteed offtake. Korean chip stocks +3.5% on the Monday session; KOSPI +0.97%. Removes the pricing-power overhang and locks in 2027-2029 volume.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "$200B MOU with Broadcom across HBM memory + 2nm/sub-2nm foundry through 2030 — first material anchor customer for Samsung Foundry's advanced-node comeback. Samsung +2% on Monday KOSPI session.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "$200B MOU with Samsung on HBM + 2nm foundry through 2030 — diversifies Broadcom's custom-ASIC supply chain beyond TSMC, secures HBM for next-gen accelerators. Reinforces the multi-year custom-silicon volume ramp.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Wedbush PT to $600 from $450, Outperform maintained — 'no ceiling' on datacenter CPU/GPU demand; MSFT Azure Helios (AMD MI400 rackscale) deployment expected late 2026. Sets high bar into Aug 4 Q2 print.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "DOE approved startup of Oklo Aurora research reactor in Texas (Sat Jul 26) — first non-legacy SMR design cleared for fueled operation. Follows Jul 24 selection for Trump admin's ~$200M accelerated-nuclear-for-AI-datacenters program alongside X-Energy/MSFT/NVDA.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q2 print Wed Jul 29 BMO. Consensus EPS $1.43 (mgmt guide $1.37-1.43, +44-51% YoY); revenue $3.39B (guide $3.25-3.45B, +28% YoY). $15B backlog. Sell-side positioned constructively (TD Cowen $387, Oppenheimer $353, RBC $418, Baird $370). Post-Q1 +252% orders growth sets high bar — miss on Q3 guide or margin would be sharply punished.",
+    "severity": "high"
   }
 ]

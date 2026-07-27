@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-07-27",
+    "headline": "NVDA-SK Group seal $500B+ AI partnership: SK Telecom 2GW datacenter w/ Vera Rubin + HBM4, co-development pact — locks NVIDIA's HBM supply",
+    "summary": "Announced Fri Jul 25 at SF AI Summit. Three pillars: (1) SK Telecom builds a 2 GW AI Cloud in Korea on NVIDIA DSX platform running Vera Rubin accelerators + SK hynix HBM4 (first AI factory online 2027); (2) NVDA and SK hynix deepen long-term co-development of HBM4 for training/inference; (3) SK Group broader supply commitment aimed at HBM shortage that's become the biggest AI scaling bottleneck. Larger than any prior sovereign AI infra deal outside the US. Directly supportive of NVDA, 000660.KS; competitive headwind for AMD Instinct and custom-silicon buyers that lack HBM lock-in.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC / NVIDIA + SK hynix press release",
+    "source_url": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Samsung-AVGO sign $200B MOU across memory + 2nm foundry through 2030 — foundry win validates Samsung's advanced-node comeback",
+    "summary": "Announced same day at SF AI Summit. Samsung to supply Broadcom advanced memory including HBM for next-gen custom AI accelerators, and Broadcom to use Samsung's 2nm-and-below process for products including its Wireless Broadband Communications silicon. MOU (non-binding) but pipeline value ~$200B through 2030 — meaningful commitment to Samsung Foundry, which has trailed TSMC on advanced-node yields. Read-through: (a) validates AVGO's custom-ASIC volume trajectory; (b) diversifies HBM supply beyond SK hynix; (c) modest negative to TSM at the margin as Broadcom multi-sources foundry.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/25/samsung-electronics-wins-200-billion-broadcom-ai-chip-partnership.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Wedbush raises AMD PT to $600 (from $450), maintains Outperform — cites 'no ceiling' on datacenter CPU/GPU demand ahead of Aug 4 print",
+    "summary": "Wedbush's Matt Bryson jacked AMD PT by 33% Monday morning, arguing datacenter CPU (EPYC) and GPU (MI350/MI400) demand remains structurally undersupplied and the July MSFT Azure Helios rackscale deployment sets up a beat-and-raise Q2 print (Aug 4). The call comes despite Intel's blowout Q2 Thursday (DCAI +59% YoY) — Wedbush's view is that server share is expanding for both. $600 PT is now among the Street's highest.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "GuruFocus / Wedbush note",
+    "source_url": "https://www.gurufocus.com/news/8980342/amd-anticipates-robust-revenue-growth-price-target-raised-to-600"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "OKLO — DOE approves startup of Aurora research reactor in Texas (Jul 26) — first SMR of its class cleared for operation",
+    "summary": "Saturday Jul 26 the DOE greenlit Oklo's Aurora fuel-fabrication research reactor at Idaho National Lab's Texas facility for startup. Milestone for the SMR sector: first non-legacy design with regulatory clearance to fuel and operate. Follows July 24 news that Oklo was picked (alongside X-Energy, MSFT, NVDA) for the Trump admin's ~$200M accelerated-nuclear-for-AI-datacenters program. Positive read-through to SMR, XE (X-Energy sponsor), CCJ (fuel supplier) and LEU (HALEU); modest tailwind for CEG/VST (nuclear scarcity value).",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Neutron Bytes / DOE announcement",
+    "source_url": "https://neutronbytes.com/2026/07/26/doe-oks-startup-of-oklo-research-reactor-in-texas/"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Futures rally into Big Tech earnings week: Nasdaq +1.3%, S&P +0.8%, WTI -6% at ~$84 on US-Iran strike pause",
+    "summary": "Weekend US-Iran de-escalation (both sides paused strikes after 2-week flare-up) sent WTI down ~6% to ~$84 and reversed the tariff-plus-oil-shock setup that punished the tape Thursday. Nasdaq futures +1.3%, S&P +0.8%, Dow +1.0%. 10Y yield off YTD high. Sets a constructive tone into MSFT/META Wed, AAPL/AMZN Thu, and Vertiv (VRT) Wed BMO — though FOMC Jul 28-29 (68.5% no-change, 34% hike odds priced) is the tail risk.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance live",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Earnings week setup: MSFT+META Wed, AAPL+AMZN Thu, VRT Wed BMO, LRCX Wed AMC, KLAC Thu — Azure 36% is the 'bogey', capex ROI the narrative",
+    "summary": "The heaviest tape week of the quarter. MSFT (Wed AMC) is the setup print — mgmt guided Azure 39-40% cc, buy-side bogey ~36%; hyperscaler capex commentary drives every AI-infra ticker (CRWV, NBIS, VRT, ETN, GEV, CEG, VST). META (Wed) — Reality Labs vs. capex discipline. AAPL (Thu) — AI services attach + China. AMZN (Thu) — AWS growth vs. ~$200B capex. VRT (Wed BMO) is the direct AI-power-hardware print (Q2 consensus EPS $1.43, rev $3.39B midpoint of $3.25-3.45B guide; TD Cowen $387, Oppenheimer $353, RBC $418 — see Fri sell-side re-rack). Semi-equipment: LRCX Wed AMC, KLAC Thu.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNBC market outlook",
+    "source_url": "https://www.cnbc.com/2026/07/24/stock-market-next-week-outlook-for-july-27-31-2026.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "GOOGL upgraded to Buy (from Accumulate) at Phillip Securities; PT trimmed to $425 (from $450) — Wed's -6% capex sell-off deemed overdone",
+    "summary": "Phillip Securities upgraded Alphabet Monday morning, framing the mid-week -6% selloff on the FY26 capex hike to $195-205B as an overreaction. PT lowered to $425 from $450 to reflect nearer-term margin compression but rating raised to Buy — argues Search/Cloud remain durable and the capex ramp underwrites 2027-2028 AI Cloud revenue. Comes into a week where GOOGL isn't reporting (last week's print) but MSFT/META/AAPL/AMZN Azure/capex commentary is expected to re-rate the group.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St / Phillip Securities note",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/monday-top-wall-street-analyst-114637927.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Bernstein reiterates NVDA Outperform — 'datacenter opportunity is enormous and still early, material upside still possible'",
+    "summary": "Bernstein's Stacy Rasgon out with a Monday note reiterating Outperform on NVIDIA. Frames the AI datacenter opportunity as 'still early' with 'material upside still possible' — timed to the weekend's SK Group $500B partnership and comes into a July that saw NVDA -1.9% Monday but broader AI-cycle 'stronger for longer' narrative from multiple bulge-bracket desks. Also flagged: MSFT/META capex commentary Wed will be the key confirmation signal.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC analyst calls / Bernstein note",
+    "source_url": "https://www.cnbc.com/2026/07/27/monday-stocks-from-analyst-calls-like-nvidia.html"
+  },
+  {
+    "date": "2026-07-27",
+    "headline": "Neocloud watch: Applied Digital (APLD) reports Q4/FY26 Mon 5PM ET; CRWV -11.4% Fri on capex-not-demand — Meta-Anthropic $10B still overhang",
+    "summary": "APLD hosts its Q4/FY26 call at 5PM ET Monday, a smaller neocloud read-through print ahead of the CRWV/NBIS reports later this cycle. CRWV closed -11.4% Friday at $71.88 on renewed capex-scale anxiety ($31-35B FY guide against ~$6.2B TTM revenue), Nebius -15% same day. Neither reflects demand deterioration — the Baird Outperform initiations from Tue ($100 CRWV, $250 NBIS) frame the sell-off as opportunity — but the Meta-Anthropic $10B compute-lease report keeps the 'hyperscaler-turned-neocloud-supplier' overhang live.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Stock Titan",
+    "source_url": "https://www.stocktitan.net/stocks/themes/data-center-stocks"
+  }
+]

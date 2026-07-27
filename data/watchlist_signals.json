@@ -3176,5 +3176,26 @@
     "signal_type": "earnings_beat",
     "description": "Q2 print Wed Jul 29 BMO. Consensus EPS $1.43 (mgmt guide $1.37-1.43, +44-51% YoY); revenue $3.39B (guide $3.25-3.45B, +28% YoY). $15B backlog. Sell-side positioned constructively (TD Cowen $387, Oppenheimer $353, RBC $418, Baird $370). Post-Q1 +252% orders growth sets high bar — miss on Q3 guide or margin would be sharply punished.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "WSJ: NVIDIA in talks to guarantee ~$250B of financing (leases + construction debt) for OpenAI's planned 10GW Ohio datacenter campus (Piketon, on former uranium-enrichment site, developer SoftBank energy subsidiary), plus a separate discussion to finance up to $350B of OpenAI's NVIDIA chip purchases. Reignites 'circular/vendor financing' worry — NVIDIA backstopping the customer that buys NVIDIA GPUs. NVDA -5% to ~$196.46 intraday, dragging AMD/INTC/DELL lower. Michael Burry disclosed expanded shorts vs NVDA (at $210.28), Micron (at $933.86) and SOXX (at $535.83), citing BIS 2026 report on off-balance-sheet AI financing as evidence demand is partly synthetic.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "AMD",
+    "signal_type": "concentration_risk",
+    "description": "Swept into the NVDA-OpenAI circular-financing selloff, down sharply intraday (reports range -3% to -8%) ahead of the Aug 4 print; separately flagged MI300X/MI350 supply bottlenecks that could cede near-term share to better-supplied competitors.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-27",
+    "ticker": "MU",
+    "signal_type": "overvalued",
+    "description": "Michael Burry increased his Micron short (disclosed at $933.86) alongside expanded NVDA and SOXX shorts, calling the AI-chip rally 'historically extreme' — Micron furthest above its 200-day moving average since 1984. Timed to the NVIDIA-OpenAI $250B circular-financing report.",
+    "severity": "medium"
   }
 ]

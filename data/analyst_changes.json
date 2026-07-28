@@ -3724,5 +3724,32 @@
     "new_target": null,
     "old_rating": "Outperform",
     "old_target": null
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "NVDA",
+    "firm": "Tigress Financial",
+    "new_rating": "Strong Buy",
+    "new_target": 350,
+    "old_rating": "Strong Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "CRWV",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 250,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "CRWV",
+    "firm": "D.A. Davidson",
+    "new_rating": "Neutral",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

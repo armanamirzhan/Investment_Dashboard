@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-07-28",
+    "headline": "China begins mass production of homegrown immersion DUV lithography — 5 units in 2026, 20 in 2027 to SMIC/Hua Hong/CXMT; ASML -5.8% Mon, AMAT -4%, LRCX -4.5%, KLAC -3%",
+    "summary": "The Information reported Mon Jul 27 that a Shanghai-based, state-backed vehicle (Shanghai Aishengna Electronic Technology Group, incorporating teams from Yuliangsheng and other domestic startups) has started limited mass production of immersion DUV tools — targeting ~5 units this year and ~20 in 2027 delivered to SMIC, Hua Hong, and ChangXin Memory. Tools reportedly trail ASML by roughly one generation in throughput/overlay/reliability and still depend on Japanese-sourced critical components. Near-term impact on ASML's 98.7% immersion-DUV share is bounded (ASML shipped ~131 units in 2025 alone), but the read-through hit the whole equipment stack: ASML -5.8% (intraday -8.2%), AMAT -4%, LRCX -4.5%, KLAC -3% into Monday's close. Long-term thesis question: does China's domestic tool ecosystem accelerate CXMT DRAM capacity that structurally compresses HBM/DDR pricing.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Reuters / The Information",
+    "source_url": "https://www.globalbankingandfinance.com/exclusive-china-starts-production-home-grown-immersion-duv/"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Asian memory rout: SK hynix -14.7%, Samsung -13.4% — worst SK hynix session in years; KOSPI -10.8% (biggest one-day since March US-Iran); memory stocks in bear market",
+    "summary": "Overnight Tue Jul 28, Seoul's KOSPI closed -10.8% led by SK hynix (-14.7%, worst since KOSPI records) and Samsung Electronics (-13.4%, worst one-day drop in ~two decades) — the two names are ~half the KOSPI weight. Trigger stack: (1) China DUV production report threatens long-run pricing power in DRAM if CXMT capacity ramps; (2) Nvidia $250B guarantee reports fueled 'circular financing' unease around AI capex; (3) Korean retail leverage unwind amplified the move. Roundhill Memory ETF, MU, SK hynix and Samsung are now all >20% off recent highs — the AI memory trade is officially in a bear market. Read-through negative for MU, 000660.KS, 005930.KS pricing 2027 HBM4 volume; adds risk to Samsung Foundry ramp narrative.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/28/sk-hynix-plunges-semiconductor-selloff-deepens-samsung-softbank.html"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "US chip premarket Tue: TSM -~5%, MU -4.4%, AMD -3%, NVDA -1.1%, INTC -3% — Asian rout crosses Pacific; VanEck SMH ETF into correction",
+    "summary": "Pre-open Tue Jul 28: TSM ADR -~5% (Q2 record still discounted by capex-margin concerns), MU -4.4% (extends Mon -10.6% drop), AMD -3%, INTC -3%, NVDA -1.1%. Adds to Mon losses (NVDA -5%, AMD -5.2%). Broader tape softening ahead of FOMC decision Wed and Big Tech prints Wed/Thu — the market wants proof AI capex is compounding revenue faster than it compounds debt. AMD (Aug 4 print) and NVDA (late Aug) now discount roughly $50B in market cap on the read-through despite no fundamental supply/demand change yet. Constructive for VRT, ETN, GEV only if hyperscaler capex commentary this week re-affirms 2027 buildout.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60723966/micron-nvidia-amd-on-watch-as-asias-chip-selloff-sends-warning-to-wall-street"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "NVDA -5% Mon on WSJ report of ~$250B OpenAI Ohio datacenter debt guarantee + $350B in customer-financing talks; $750B in new/potential deals under scrutiny",
+    "summary": "WSJ Mon Jul 27: NVIDIA weighing a guarantee of up to $250B on OpenAI's Ohio Stargate site (10GW campus, $500B project cost) plus separately financing ~$350B of OpenAI's chip purchases. Combined with the $500B SK Group commitment announced Fri, NVDA is now the counterparty to or backer of more than $750B in AI infrastructure commitments across just three weeks. Buy-side/S&P Global concern: this is textbook vendor financing and echoes 1999-2001 telco-equipment cycles — a demand signal today but a credit exposure tomorrow if OpenAI monetization slips. NVDA closed -5% Monday even before the Asian selloff. Circular-financing risk is now the single most-discussed bear thesis on the stock.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Cadence Q2 beat + raises full-year: $1.58B rev (+24% YoY) vs $1.577B, adj EPS $2.11 vs $2.06; FY26 revenue guide up to 19% growth ($6.26–6.34B), backlog record $8.1B; +3.5% AH",
+    "summary": "Cadence Design Systems (CDNS) reported after Mon Jul 27 close: Q2 revenue $1.584B (+24% YoY) beat $1.577B; adj EPS $2.11 beat $2.06. Raised FY26 guidance to ~19% revenue growth ($6.26–6.34B), non-GAAP EPS $8.05–8.15, operating margin 43.75–44.75%. Record backlog $8.1B (up sequentially), $1.44B cash. Management flagged accelerating agentic-AI partnerships and broad-based strength — no China EDA-restriction drag after the June US reversal. Stock +3.51% AH to ~$350.51. Read-through positive to SNPS (reports Aug 20; Ansys merger integration ongoing) — validates that EDA is the pick-and-shovel play immune to the memory/HBM valuation reset overnight.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/earnings/26/07/60712626/cadence-design-systems-beats-q2-estimates-raises-2026-outlook"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Setup week: FOMC Wed Jul 29, MSFT/META AMC Wed, AAPL/AMZN AMC Thu — Azure capacity, Meta capex ($125–145B FY), and cloud AI monetization frame H2 hyperscaler spend",
+    "summary": "Pivotal week for AI infrastructure thesis: FOMC decision Wed (~68% no-change priced, tail-risk hike odds now ~34% on sticky inflation); MSFT FY4Q (fiscal Q4 2026) AMC Wed — Street modeling EPS ~$4.22–4.24 on ~$87.5B revenue, focus on Azure YoY cc growth vs 39–40% guide and datacenter capex trajectory; META Q2 AMC Wed — Street EPS ~$7.18–7.24, capex the swing (FY guide $125–145B), Reality Labs losses vs Q1 41.4% op margin; AAPL fQ3 AMC Thu ~$1.86 EPS; AMZN Q2 AMC Thu ~$1.85 EPS with AWS accelerating deceleration risk in focus. Alphabet's read last week made clear a revenue beat alone won't hold multiples — hyperscalers must show AI ROI outpacing debt/equity issuance. Direct read-through to CRWV, VRT, ETN, GEV, CEG, VST, ANET on capex signals.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262054300-weekly-preview-fed-apple-microsoft-meta-amazon-earnings-reports-tradingkey"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "CRWV -43% YTD post Meta Compute (Jul 17); Rosenblatt reiterates $250 PT Mon (+243% implied) vs D.A. Davidson downgrade to Neutral on thin margins + insider selling ($2.3B since IPO)",
+    "summary": "CoreWeave has round-tripped the AI cloud premium: Meta Compute launch Jul 17 triggered -35%; another -11.4% Fri Jul 24; another -~11% since. Rosenblatt reiterated Buy $250 Mon Jul 27 arguing the sell-off overrates cannibalization risk (Meta Compute is retail/mid-market; hyperscaler-scale training capacity is capacity-constrained not price-competitive). D.A. Davidson counter: Neutral downgrade citing thin margins, doubling interest expense ($536M Q1), negative FCF ($-4.7B Q1), and $2.3B of insider sales since IPO (CEO $24M in Jul 21 alone). Broader coverage still constructive (4 SB, 20 B, 11 H, 1 S, 1 SS across 37 analysts). Setup for Aug 12 print now binary — either backlog reacceleration or the multiple resets to distressed neocloud comps.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St / Rosenblatt via Foreign Policy Journal",
+    "source_url": "https://www.foreignpolicyjournal.com/2026/07/27/rosenblatt-sees-coreweave-nasdaq-crwv-stock-surging-to-250-as-price-sits-40-below-year-ago-levels/"
+  },
+  {
+    "date": "2026-07-28",
+    "headline": "Siemens Energy raises FY26 guide on record €17.7B orders — Grid Technologies now guides 25–27% revenue growth, 18–20% margin; datacenter demand cited as durable driver",
+    "summary": "Siemens Energy (ENR.DE) posted €17.7B new orders in Q2 FY26 — all-time high — with Gas Services at another record and Grid Technologies orders sharply higher. Raised FY26 outlook: comparable revenue growth now 14–16% (was lower); profit margin before special items 10–12%. Grid Technologies segment guide now 25–27% revenue growth and 18–20% profit margin — the tightest positive read on transmission/HV switchgear demand from AI datacenter buildout. Direct positive read-through to ETN (Aug 5 print), GEV (already printed strong Q2 on Jul 22 with $2.7B in datacenter electrification), and to a lesser extent VRT power-management. Reinforces the 'grid is the bottleneck, not chips' narrative — providing counter-signal to overnight chip weakness.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Siemens Energy IR",
+    "source_url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q2-fy-2026.html"
+  }
+]

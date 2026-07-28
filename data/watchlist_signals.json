@@ -3197,5 +3197,40 @@
     "signal_type": "overvalued",
     "description": "Michael Burry increased his Micron short (disclosed at $933.86) alongside expanded NVDA and SOXX shorts, calling the AI-chip rally 'historically extreme' — Micron furthest above its 200-day moving average since 1984. Timed to the NVIDIA-OpenAI $250B circular-financing report.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK hynix -14.7% Tue Jul 28 (worst session on record) on China DUV production report + circular-financing fears; joins MU/Samsung/Roundhill Memory ETF in bear market (>20% off highs)",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung -13.4% Tue Jul 28 (worst one-day in ~two decades); China domestic DUV threat and reset of AI-memory premium — the AVGO 2nm/HBM MOU announced Fri no longer providing floor",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU -4.4% premarket Tue (after -10.6% Mon) on Asian memory rout — worst premarket among US chip names; commoditization exposure most acute; DRAM cycle-top risk now consensus",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "NVDA",
+    "signal_type": "overvalued",
+    "description": "Circular-financing concern crystallized: $250B OpenAI Ohio guarantee + $350B customer chip-purchase financing + $500B SK Group deal = >$750B of new commitments/exposures in 3 weeks; -5% Mon, more downside pre-Aug 27 print if AAPL/MSFT/META/AMZN capex commentary softens",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "ASML",
+    "signal_type": "overvalued",
+    "description": "ASML -5.8% Mon (intraday -8.2%) on China domestic DUV production report; near-term revenue impact bounded (~131 immersion units 2025 vs China's 5) but multiple compression continues as sovereign-substitution risk repriced",
+    "severity": "medium"
   }
 ]

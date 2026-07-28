@@ -4360,5 +4360,83 @@
       }
     ],
     "file": "morning-news/2026-07-27.html"
+  },
+  {
+    "date": "2026-07-28",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK hynix -14.7% overnight (worst on record) — China DUV + circular-financing fears; joins bear market"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung -13.4% (worst one-day ~two decades); KOSPI -10.8%"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "down",
+        "note": "-5.8% Mon on China Aishengna DUV report (5 units 2026, 20 in 2027 to SMIC/Hua Hong/CXMT)"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "-5% Mon on WSJ $250B OpenAI Ohio debt guarantee + $350B chip-financing talks; -1.1% premarket Tue"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-4.4% premarket after -10.6% Mon; commoditization exposure amplifying memory rout"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "down",
+        "note": "ADR -~5% premarket on capex-margin concerns despite record Q2"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "-3% premarket after -5.2% Mon; Aug 4 print now higher-stakes catalyst"
+      },
+      {
+        "ticker": "CDNS",
+        "direction": "up",
+        "note": "Q2 beat + FY26 guide raised to 19% growth; record $8.1B backlog; +3.5% AH — EDA insulated from memory rout"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Siemens Energy record €17.7B orders; FY26 guide raised; Grid Technologies now 25–27% growth guide"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "Rosenblatt $250 reiteration vs D.A. Davidson downgrade to Neutral; -43% YTD post Meta Compute overhang"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "hardware",
+        "signal": "CHINA DUV BREAKTHROUGH: Shanghai Aishengna (state-backed) begins mass production of homegrown immersion DUV — 5 units 2026, 20 in 2027 to SMIC/Hua Hong/CXMT. ASML -5.8% Mon; AMAT/LRCX/KLAC -3 to -4.5%. Long-term sovereign-substitution risk repriced across the whole equipment stack"
+      },
+      {
+        "ticker": "finance",
+        "signal": "MEMORY BEAR MARKET: MU, SK hynix, Samsung, Roundhill Memory ETF all >20% off recent highs. Overnight KOSPI -10.8% (biggest since March US-Iran) — HBM/DRAM premium narrative resetting into MSFT/META/AAPL/AMZN prints"
+      },
+      {
+        "ticker": "finance",
+        "signal": "AI CIRCULAR FINANCING: NVDA under scrutiny for $750B+ in new deal exposures (SK Group $500B + OpenAI $250B Ohio guarantee + $350B chip-purchase financing) — vendor-financing echo of 1999-2001 telco cycle now the dominant bear thesis"
+      },
+      {
+        "ticker": "macro",
+        "signal": "CATALYST WEEK: FOMC Wed (~68% no-change but 34% hike-risk on sticky inflation); MSFT/META AMC Wed; AAPL/AMZN AMC Thu. Alphabet made clear a beat alone won't hold multiples — need proof AI capex compounds revenue faster than debt"
+      },
+      {
+        "ticker": "energy",
+        "signal": "GRID DEMAND HOLDING: Siemens Energy raises FY26 (Grid Tech now 25–27% growth guide); positive read to ETN (Aug 5), GEV (already printed $2.7B DC electrification orders). Grid remains the AI bottleneck — offsets partial risk from chip valuation reset"
+      }
+    ],
+    "file": "morning-news/2026-07-28.html"
   }
 ]

@@ -3232,5 +3232,12 @@
     "signal_type": "overvalued",
     "description": "ASML -5.8% Mon (intraday -8.2%) on China domestic DUV production report; near-term revenue impact bounded (~131 immersion units 2025 vs China's 5) but multiple compression continues as sovereign-substitution risk repriced",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "GLW",
+    "signal_type": "earnings_miss",
+    "description": "GLW -19-20% Tue Jul 28 despite Q2 revenue +17% YoY / EPS +19% YoY beat estimates on paper — selloff driven by guidance concerns: Optical Communications demand called \"lumpy\" with wireless-carrier capex pulling back, plus Display Technologies margin pressure from rising logistics/raw-material costs. Datacenter/AI optical exposure not the stated culprit but sentiment read-through to fiber capex.",
+    "severity": "high"
   }
 ]

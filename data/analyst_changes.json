@@ -3751,5 +3751,14 @@
     "new_target": null,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-07-28",
+    "ticker": "TSLA",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 420,
+    "old_rating": "Buy",
+    "old_target": 465
   }
 ]

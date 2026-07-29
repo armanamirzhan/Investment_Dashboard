@@ -47282,14 +47282,14 @@
   {
     "date": "2026-07-29",
     "ticker": "ENR.DE",
-    "price": 154.84536457200002,
+    "price": 155.040699672,
     "pe_ratio": 53.22047,
     "ps_ratio": 2.8652709,
     "ev_ebitda": 30.236,
-    "market_cap": 131749949836.68777,
+    "market_cap": 131916150418.13544,
     "short_interest": null,
-    "avg_analyst_target": 228.03940987136,
-    "upside_pct": 47.26912265127975
+    "avg_analyst_target": 228.32707815935998,
+    "upside_pct": 47.26912265127978
   },
   {
     "date": "2026-07-29",
@@ -47348,8 +47348,8 @@
     "ev_ebitda": 42.259,
     "market_cap": 36833026048.0,
     "short_interest": null,
-    "avg_analyst_target": 131.87923,
-    "upside_pct": 55.94091285325767
+    "avg_analyst_target": 131.89803,
+    "upside_pct": 55.963142958495936
   },
   {
     "date": "2026-07-29",
@@ -47438,26 +47438,26 @@
   {
     "date": "2026-07-29",
     "ticker": "000660.KS",
-    "price": 971.1227640000001,
+    "price": 970.55764263,
     "pe_ratio": null,
     "ps_ratio": 7.529361,
     "ev_ebitda": 10.469,
-    "market_cap": 689356258709.6338,
+    "market_cap": 688955104532.4467,
     "short_interest": null,
-    "avg_analyst_target": 2362.6510189608002,
+    "avg_analyst_target": 2361.276131428386,
     "upside_pct": 143.29066381156318
   },
   {
     "date": "2026-07-29",
     "ticker": "005930.KS",
-    "price": 144.524694,
+    "price": 144.440591355,
     "pe_ratio": null,
     "ps_ratio": 3.5256026,
     "ev_ebitda": 9.021,
-    "market_cap": 949030565543.762,
+    "market_cap": 948478300193.537,
     "short_interest": null,
-    "avg_analyst_target": 342.297899898,
-    "upside_pct": 136.84388489208632
+    "avg_analyst_target": 342.098707926285,
+    "upside_pct": 136.8438848920863
   },
   {
     "date": "2026-07-29",
@@ -47624,8 +47624,8 @@
     "ev_ebitda": 2503.84,
     "market_cap": 595620003840.0,
     "short_interest": 0.0033000002,
-    "avg_analyst_target": 2126.7073,
-    "upside_pct": 37.14587054794962
+    "avg_analyst_target": 2129.3901,
+    "upside_pct": 37.31887740296255
   },
   {
     "date": "2026-07-29",
@@ -47666,13 +47666,13 @@
   {
     "date": "2026-07-29",
     "ticker": "8035.T",
-    "price": 305.74682,
+    "price": 306.05001500000003,
     "pe_ratio": 39.916653,
     "ps_ratio": 9.303152,
     "ev_ebitda": 31.484,
-    "market_cap": 139008154645.53113,
+    "market_cap": 139146002612.18457,
     "short_interest": null,
-    "avg_analyst_target": 450.94873653938,
+    "avg_analyst_target": 451.395921573635,
     "upside_pct": 47.49089999999999
   },
   {
@@ -47714,14 +47714,14 @@
   {
     "date": "2026-07-29",
     "ticker": "4063.T",
-    "price": 34.793988116,
+    "price": 34.828491707000005,
     "pe_ratio": 22.534653,
     "ps_ratio": 4.057629,
     "ev_ebitda": 10.585,
-    "market_cap": 64706194789.5188,
+    "market_cap": 64770360934.33499,
     "short_interest": null,
-    "avg_analyst_target": 49.34034374831268,
-    "upside_pct": 41.80709490333918
+    "avg_analyst_target": 49.38927228834711,
+    "upside_pct": 41.80709490333916
   },
   {
     "date": "2026-07-29",
@@ -47750,13 +47750,13 @@
   {
     "date": "2026-07-29",
     "ticker": "IFX.DE",
-    "price": 62.405499792,
+    "price": 62.484223392,
     "pe_ratio": 66.439026,
     "ps_ratio": 4.681395,
     "ev_ebitda": 20.217,
-    "market_cap": 81095922420.71143,
+    "market_cap": 81198223707.93062,
     "short_interest": null,
-    "avg_analyst_target": 99.322258990082,
+    "avg_analyst_target": 99.447552526932,
     "upside_pct": 59.15625917767989
   },
   {

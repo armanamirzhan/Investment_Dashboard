@@ -3760,5 +3760,23 @@
     "new_target": 420,
     "old_rating": "Buy",
     "old_target": 465
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "TXN",
+    "firm": "Arete",
+    "new_rating": "Buy",
+    "new_target": 405.0,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "BE",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 346.0,
+    "old_rating": "Overweight",
+    "old_target": 267.0
   }
 ]

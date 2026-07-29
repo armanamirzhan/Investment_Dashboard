@@ -3239,5 +3239,47 @@
     "signal_type": "earnings_miss",
     "description": "GLW -19-20% Tue Jul 28 despite Q2 revenue +17% YoY / EPS +19% YoY beat estimates on paper — selloff driven by guidance concerns: Optical Communications demand called \"lumpy\" with wireless-carrier capex pulling back, plus Display Technologies margin pressure from rising logistics/raw-material costs. Datacenter/AI optical exposure not the stated culprit but sentiment read-through to fiber capex.",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "000660.KS",
+    "signal_type": "earnings_miss",
+    "description": "Q2 op profit KRW 60.5T missed ~KRW 64T consensus despite record; stock -9.6% Tue, biggest one-day drop in years",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "GLW",
+    "signal_type": "earnings_miss",
+    "description": "Q2 rev $4.51B vs $4.65B est; Q3 guide $4.9-5.0B ~in-line — stock -18% (worst day since 2002) offset by multi-yr AMZN fiber deal + NVDA optical connectivity 10x expansion",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "BE",
+    "signal_type": "earnings_beat",
+    "description": "First-ever $1B+ quarter, rev +166% YoY, adj EPS $0.78 vs $0.42 est, FY26 raised to $3.9-4.2B rev — datacenter fuel-cell demand accelerating",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "APH",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $8.76B (+55% YoY) and adj EPS $1.35 both beat by 5%+ and 13% respectively; Q3 guide $9.3-9.4B rev / $1.40-1.42 EPS well above Street — AI interconnect demand intact",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "NVDA",
+    "signal_type": "overvalued",
+    "description": "-$238B mkt cap since Friday amid scrutiny of ~$750B in customer-financing/debt-guarantee deals; circular-financing narrative resurfacing across desks",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "NOW",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $3.99B and adj EPS $0.90 both beat; AI ACV crosses $1B ahead of long-term pace; +4.75% AH after -6.5% regular session",
+    "severity": "medium"
   }
 ]

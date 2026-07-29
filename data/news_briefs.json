@@ -4438,5 +4438,87 @@
       }
     ],
     "file": "morning-news/2026-07-28.html"
+  },
+  {
+    "date": "2026-07-29",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "-$238B mkt cap since Fri; $750B customer-financing/debt-guarantee circular-financing scrutiny persists"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "Q2 record KRW 60.5T op profit MISSES ~KRW 64T consensus; -9.6% Seoul; ADR $28B raise plan intact"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Extends memory rout; -5.2% Wed session; Kospi hits circuit-breaker 2 days running"
+      },
+      {
+        "ticker": "GLW",
+        "direction": "down",
+        "note": "-18% Tue (worst day since 2002) on Q2 miss + in-line Q3 guide; announces multi-yr AMZN datacenter fiber deal + NVDA optical connectivity 10x expansion"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "First-ever $1B+ qtr (+166% YoY), adj EPS $0.78 vs $0.42; FY26 raised $3.9-4.2B; JPM PT $346"
+      },
+      {
+        "ticker": "APH",
+        "direction": "up",
+        "note": "Pre-mkt beat + raise: rev $8.76B (+55% YoY), EPS $1.35 vs $1.19; Q3 guide $9.3-9.4B / $1.40-1.42 EPS"
+      },
+      {
+        "ticker": "NOW",
+        "direction": "up",
+        "note": "Q2 beat, FY sub-rev raised, AI ACV crosses $1B; +4.75% AH after -6.5% regular"
+      },
+      {
+        "ticker": "META",
+        "direction": "neutral",
+        "note": "Reports after-close: rev ~$60.2B (+27%), EPS ~$7.20 consensus; FY26 capex $115-145B"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "neutral",
+        "note": "FY-Q4 after-close: rev $87.5-87.7B, EPS $4.22-4.24 consensus; Azure AI growth in focus"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Reports pre-mkt; $15B backlog, 50-52% FY EPS-growth guide, best datacenter thermal/power name"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "hardware",
+        "signal": "CHIP ROUT DEEPENS: >$1T mkt cap wiped since Fri; NVDA -$238B, SK hynix/Samsung/MU/AMD/TSM each -$100B+; SMH -19% MTD (worst month since 2008)"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "MEMORY MISS: SK hynix Q2 op profit KRW 60.5T (record, +6x YoY) undershoots ~KRW 64T consensus; stock -9.6% Seoul; KOSPI hits circuit-breaker 2 days in a row"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "CORNING -18% (worst day since 2002) on Q2 miss + in-line Q3 guide — but announces multi-yr AMZN datacenter fiber deal + NVDA optical connectivity 10x manufacturing expansion"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "DATACENTER PLUMBING BEATS: APH pre-mkt +55% YoY, EPS +13% beat; BE first-ever $1B+ qtr (+166% YoY, EPS 0.78 vs 0.42 est) — offsets memory narrative with real fuel-cell/interconnect demand"
+      },
+      {
+        "ticker": "macro",
+        "signal": "FOMC 2 PM ET: consensus hold at 3.50-3.75% (5th straight) but ~30% probability priced for a HIKE; Warsh presser at 2:30; META + MSFT after-close set capex/AI-ROI tone for tech into Thu"
+      },
+      {
+        "ticker": "finance",
+        "signal": "NVDA CIRCULAR-FINANCING SCRUTINY: WSJ report on ~$750B in customer-financing/debt-guarantee deals continues to weigh on the whole AI-infra credit narrative"
+      }
+    ],
+    "file": "morning-news/2026-07-29.html"
   }
 ]

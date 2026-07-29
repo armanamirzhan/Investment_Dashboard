@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-07-29",
+    "headline": "Chip selloff wipes >$1T in market cap: NVDA -$238B since Fri; SK hynix, Samsung, MU, AMD, TSM each -$100B+; SMH -19% MTD (worst month since 2008)",
+    "summary": "Chip stocks continued their historic slide as Asian rout crossed into US pre-market. Since Friday's close: NVDA -$238B mkt cap. Weekly losses of $100B+ each at SK hynix, Samsung, Micron, AMD, TSMC. VanEck SMH ETF now off >19% in July — its worst monthly loss since 2008. Selloff drivers: SK hynix Q2 profit miss vs consensus, CXMT's blockbuster mainland debut, mass-production of Chinese DUV lithography tools, and mounting scrutiny of NVDA's ~$750B in customer-financing / debt-guarantee deals.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "SK hynix Q2: record KRW 60.5T operating profit (near 6x YoY) but misses ~KRW 64T consensus; stock -9.6% in Seoul, ADR listing on Nasdaq still targeted for ~$28B raise",
+    "summary": "SK hynix delivered a record quarterly operating profit of KRW 60.5T (~$42B), up nearly 6x YoY on HBM strength — but the beat evaporated against a KRW 64T consensus. Shares closed -9.6% in Seoul (peaked at -15%+ intraday). Company reiterated plans for a Nasdaq ADR listing targeting ~$28B raise to fund South Korea fab expansion and ASML EUV procurement.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Forbes",
+    "source_url": "https://www.forbes.com/sites/siladityaray/2026/07/29/asian-chip-stocks-drop-as-sk-hynix-earnings-disappoint/"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Kioxia -13.85% Tue, SoftBank -6.95% Tue; KOSPI hits circuit-breaker 2nd straight day (Kospi -~40% from June high); Kioxia -18% at Wednesday open",
+    "summary": "Japan chip proxies extended losses: Kioxia -13.85% Tuesday and another -18% at Wednesday's Tokyo open on memory rout; SoftBank -6.95% Tue and -9%+ intraday Wed on Arm / OpenAI IPO exposure. South Korea's KOSPI triggered circuit breakers on two consecutive sessions (a historic first), now -~40% from June peak. Mediatek -~5%, Taiwanese chip names weak.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/more/262058149-kospi-plunges-11-kioxia-samsung-skhynix-tradingkey"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Corning -18% Tue (biggest single-day drop since 2002) — Q2 revenue miss ($4.51B vs $4.65B est), Q3 guide $4.9-5.0B ~in-line; announces multi-billion-$ AMZN fiber deal + NVDA optical connectivity 10x capacity expansion",
+    "summary": "GLW cratered 18% on Tuesday (largest 1-day drop since July 2002) after Q2 sales of $4.51B (+11.4% YoY) missed $4.65B consensus and Q3 revenue guide of $4.9-5.0B only met the low end. Positive under the hood: Optical Communications +32% YoY to $2.07B, with segment income +77%. Corning also announced a multi-year, multi-billion-$ Amazon deal for datacenter fiber/cable/connectivity plus a long-term NVIDIA partnership to expand US optical connectivity manufacturing capacity 10x and fiber output >50%.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Financial Content / StockStory",
+    "source_url": "https://www.financialcontent.com/article/stockstory-2026-7-28-corning-nyseglw-misses-q2-cy2026-revenue-estimates-stock-drops-161"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Amphenol Q2 beat pre-market: rev $8.76B (+55% YoY, +5.6% vs est), adj EPS $1.35 vs $1.19 — Q3 guide $9.3-9.4B rev / $1.40-1.42 EPS, AI interconnect demand intact",
+    "summary": "APH reported strong Q2 pre-market: revenue $8.76B (+55% YoY) beat $8.29B consensus by 5.6%, adjusted EPS $1.35 vs $1.19 est (13% beat). Q3 guide $9.3-9.4B revenue and $1.40-1.42 EPS, well ahead of Street. Confirms AI datacenter interconnect / high-speed connector demand remains intact — an important counter-signal against the memory-led chip rout.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StockStory / Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/amphenol-nyse-aph-surprises-strong-121354643.html"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Bloom Energy Q2 blowout: rev $1.065B (+166% YoY, first ever >$1B qtr), adj EPS $0.78 vs $0.42 est; raises FY26 to $3.9-4.2B rev / $800-900M op income / $2.55-2.85 EPS on datacenter deployments",
+    "summary": "BE crushed Q2: revenue $1.065B (+166% YoY) — the first billion-dollar quarter — beat $851M estimate by $214M; adj EPS $0.78 more than doubled the $0.42 consensus. Operating income $240M, FCF $175M. FY26 guide raised to $3.9-4.2B revenue, non-GAAP operating income $800-900M (~21% margin), FY EPS $2.55-2.85. Growth driven by accelerating datacenter fuel-cell deployments; JPM raised PT to $346 last week.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "MarketBeat / Investing.com",
+    "source_url": "https://www.marketbeat.com/instant-alerts/bloom-energy-q2-earnings-call-highlights-2026-07-28/"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "ServiceNow Q2 beat + FY subscription guide raise: adj EPS $0.90 vs $0.86, rev $3.99B vs $3.93B; AI ACV crosses $1B ahead of long-term pace; stock -6.5% regular, +4.75% AH",
+    "summary": "NOW reported adj EPS $0.90 vs $0.86 est, revenue $3.99B vs $3.93B. AI-related ACV crossed $1B — ahead of the company's long-term target pace. Full-year subscription revenue guide raised. Shares fell 6.47% in regular Tuesday trading amid broader tech weakness / margin & federal-timing concerns but rebounded +4.75% after-hours as investors reweighted the AI ACV milestone.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-beats-q2-2026-forecasts-shares-rebound-after-hours-93CH-4807190"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "META and MSFT report tonight after-close (7/29); META consensus rev ~$60.2B (+27% YoY), EPS ~$7.20; MSFT FY-Q4 consensus rev ~$87.5-87.7B, EPS ~$4.22-4.24 — capex trajectory and AI ROI in focus",
+    "summary": "Two of the world's biggest AI capex spenders report after-close today: Meta Q2 (consensus rev $60.22B / EPS ~$7.20; FY26 capex guided $115-145B) and Microsoft FY-Q4 (consensus rev $87.5-87.7B / EPS $4.22-4.24). Both prints land into the ongoing chip selloff and heightened market scrutiny of AI ROI — capex commentary, Azure AI growth, and hyperscaler compute guides will drive tape action into Thursday.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "TipRanks / Barchart",
+    "source_url": "https://www.tipranks.com/news/big-tech-earnings-showdown-meta-and-microsoft-in-focus-ahead-of-july-29-earnings-report"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "FOMC decision 2PM ET: Fed expected to hold funds rate at 3.50-3.75% for 5th straight meeting; ~30% market-implied probability of a HIKE, no one pricing a cut",
+    "summary": "The FOMC announces at 2:00 PM ET with a Warsh press conference at 2:30. Consensus is for the fifth consecutive hold at 3.50-3.75%, but futures assign ~30% odds to a rate HIKE — an unusual skew that leaves upside inflation risks on the table for rate-sensitive AI infrastructure equities. No cut is priced.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Federal News Network",
+    "source_url": "https://federalnewsnetwork.com/prediction-markets/2026/07/prediction-markets-fed-decision-july/"
+  },
+  {
+    "date": "2026-07-29",
+    "headline": "Vertiv reports Q2 pre-market today; consensus expects continued datacenter thermal/power outperformance vs Eaton (earnings -9%), $15B backlog and mgmt guiding 50-52% FY adj EPS growth",
+    "summary": "VRT reports Q2 today. Consensus points to another quarter of datacenter thermal + power infrastructure outperformance: management guides FY26 adjusted EPS growth of 50-52%, backlog stands at $15B, and Vertiv has been growing earnings 135% YoY vs Eaton -9% and Generac ~+12% revenue. A clean beat/raise here would be a meaningful positive counterpoint to memory-chip weakness.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance / 24/7 Wall St",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/3-major-reasons-buy-vertiv-162459543.html"
+  }
+]

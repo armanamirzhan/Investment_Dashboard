@@ -3281,5 +3281,19 @@
     "signal_type": "earnings_beat",
     "description": "Q2 rev $3.99B and adj EPS $0.90 both beat; AI ACV crosses $1B ahead of long-term pace; +4.75% AH after -6.5% regular session",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "VRT",
+    "signal_type": "earnings_miss",
+    "description": "Q2 adj EPS $1.52 beat $1.42 est, but revenue $3.27B missed $3.38B est on supply-chain/project-timing shifts; stock -10 to -12% intraday despite FY26 guide raise (EPS to $6.65-6.75, rev to $13.8-14.2B) -- revenue miss overshadowing raised guidance",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU -6% intraday Wed to ~$775 as memory selloff intensifies for a third session; SK hynix, Samsung, MU collectively lost $400B+ mkt cap since Friday; Philadelphia Semiconductor Index -19% MTD, worst month since 2008",
+    "severity": "high"
   }
 ]

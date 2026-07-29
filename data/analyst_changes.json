@@ -3778,5 +3778,41 @@
     "new_target": 346.0,
     "old_rating": "Overweight",
     "old_target": 267.0
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "GLW",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 170,
+    "old_rating": "Neutral",
+    "old_target": 200
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "GLW",
+    "firm": "Barclays",
+    "new_rating": "Equal-Weight",
+    "new_target": 129,
+    "old_rating": "Equal-Weight",
+    "old_target": 180
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "GLW",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 220,
+    "old_rating": "Buy",
+    "old_target": 240
+  },
+  {
+    "date": "2026-07-29",
+    "ticker": "GLW",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 210,
+    "old_rating": "Outperform",
+    "old_target": 270
   }
 ]

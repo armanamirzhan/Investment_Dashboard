@@ -3814,5 +3814,68 @@
     "new_target": 210,
     "old_rating": "Outperform",
     "old_target": 270
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "MSFT",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 641.0,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "MSFT",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 550.0,
+    "old_rating": "Overweight",
+    "old_target": 540.0
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "META",
+    "firm": "Rothschild & Co",
+    "new_rating": "Buy",
+    "new_target": 1000.0,
+    "old_rating": "Buy",
+    "old_target": 900.0
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "META",
+    "firm": "Raymond James",
+    "new_rating": "Strong Buy",
+    "new_target": 850.0,
+    "old_rating": "Strong Buy",
+    "old_target": 825.0
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "META",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 835.0,
+    "old_rating": "Overweight",
+    "old_target": 767.0
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "BE",
+    "firm": "Clear Street",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "BE",
+    "firm": "UBS",
+    "new_rating": null,
+    "new_target": 300.0,
+    "old_rating": null,
+    "old_target": 350.0
   }
 ]

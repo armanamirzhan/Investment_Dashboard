@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-07-30",
+    "headline": "MSFT FY-Q4 blowout after-close: rev $90.01B (+18% YoY, beat $87.6B est), Azure +43% (accelerating from 40%), Azure crosses $100B ARR; +8% AH; FY27 capex ~$175B, guides Q1 Azure ~45%",
+    "summary": "Microsoft reported fiscal Q4 revenue of $90.01B vs $87.62B consensus, up ~18% YoY. Azure grew 43% (43% in constant currency), accelerating from the prior quarter's 40%, and crossed $100B in annualized revenue — a landmark for the cloud business. Q4 capex of $41B (+70% YoY) with roughly 2/3 for short-lived assets (CPUs/GPUs). Management guided FY27 capex ~$175B (raised from prior $151B pace after extending datacenter useful life from 15 to 25 years) and Q1 Azure growth of ~45% cc, with demand still exceeding supply. Stock +8% after-hours — the print offered clean relief against this week's chip selloff and Meta's FCF-crushing capex reveal.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "META Q2 mixed: rev $60.80B (+28% YoY, beat $60.22B) but diluted EPS $6.18 vs $7.13 est (14% miss); FY26 capex range narrowed HIGHER to $130-145B; FCF collapses to $784M from $8.5B; stock -8-10% AH",
+    "summary": "Meta beat on revenue ($60.80B vs $60.22B, +28% YoY) but missed badly on EPS ($6.18 vs ~$7.13 est) after a $2.4B legal charge and operating margin compression from 43% to 31%. Full-year capex range tightened to $130-145B (previously $125-145B), raising the low end by $5B. Q2 capex of $31.1B nearly wiped out $31.9B of operating cash flow, collapsing FCF to $784M from $8.5B a year ago. Zuckerberg used the call to hint at monetizing surplus AI compute via a Meta Compute cloud business. Shares fell 8-10% after-hours.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/earnings/26/07/60781217/meta-reports-mixed-q2-results-raises-low-end-of-capex-guidance-range-shares-move-lower"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "VRT Q2 mixed pre-market yesterday: rev $3.274B miss vs $3.38B est but adj EPS $1.52 beat $1.42; adj op margin 22.6% (+410bps); FY26 guide raised to $14B rev / $6.70 adj EPS; stock -~12% on revenue timing concerns",
+    "summary": "Vertiv posted Q2 net sales $3.274B (+24% YoY) that fell short of the $3.38B consensus, but adjusted diluted EPS of $1.52 beat $1.42, with adj operating profit $738M (+51%) and margin 22.6% (+410 bps). Full-year 2026 guidance was raised to $14B revenue and $6.70 adj EPS (from $13.5-14B / $6.30-6.40). Management attributed the top-line shortfall to project-timing rather than demand; backlog remains a positive datacenter thermal/power indicator. Stock fell ~12% pre-market on the miss, extending Tuesday's ~9% Eaton-driven power-infrastructure weakness.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "StockTitan",
+    "source_url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-second-quarter-2026-with-diluted-eps-growth-of-dnjtqqrixoo1.html"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "FOMC holds funds rate at 3.50-3.75% for 5th straight meeting — but 9-3 vote is the most hawkish dissent since Sep 2016 (Hammack, Kashkari, Logan all wanted a HIKE); Warsh's first meeting statement notably terser than predecessors'",
+    "summary": "The Fed held rates in a 3.50-3.75% range on a 9-3 vote — the most dissents in favor of tightening since September 2016. Cleveland's Hammack, Minneapolis's Kashkari, and Dallas's Logan all voted for a 25 bp hike, reflecting concerns about upside inflation risks. Chair Warsh's first meeting statement was materially shorter than the norm, in keeping with his signaled preference for less forward guidance. Warsh has called inflation 'a choice' and made bringing prices down a priority — a hawkish tape for rate-sensitive AI infrastructure equities.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Asia chip tape mixed overnight: Kioxia +7.5% rebound (after -18% Wed open), SK hynix -~6% again (weakness continues), Samsung -1.2%; KOSPI stabilizes after two circuit-breaker sessions; SMH bear-market territory holding",
+    "summary": "Asian memory/semi tape stabilized unevenly on Thursday. Kioxia rebounded 7.5% in Tokyo after dropping 18% at Wednesday's open, catching a bid on dip-buying. SK hynix continued lower another ~6% in Seoul on residual Q2-miss selling, while Samsung dipped 1.21% to 206,000 won. KOSPI avoided a third consecutive circuit-breaker session, though it remains roughly 40% off its June peak. The Philadelphia Semiconductor Index (SMH) is now firmly in bear-market territory (>-19% MTD). No positive Asia-side headline to break the memory rout yet.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/more/262062583-japan-south-korea-markets-diverge-kospi-slips-sk-hynix-kioxia-tradingkey"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Tonight after-close: AMZN, AAPL, RDDT report — AMZN Q2 consensus ~$196.25B rev / $1.82 EPS (AWS growth in focus vs Azure's 43%); AAPL FY-Q3 consensus $1.89 EPS; brings hyperscaler 2026 capex to ~$725B (+77% YoY)",
+    "summary": "Three major prints tonight after the close: Amazon (Q2 consensus rev ~$196.25B, EPS $1.82) with AWS growth the key AI-infra readthrough after Microsoft's 43% Azure print; Apple (fiscal Q3 EPS ~$1.89); and Reddit (~$0.97 EPS). Together with META and MSFT last night, this quartet is on track to spend ~$725B on AI infrastructure in 2026, up roughly 77% from ~$410B in 2025 — the largest hyperscaler capex year in history. AWS growth vs Azure will set the tape for hyperscaler-exposed hardware names (NVDA, AVGO, ANET, VRT, APH, GLW) into Friday.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/polymarket-odds-will-aapl-amzn-rddt-beat-earnings-tomorrow"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "NVDA 5Y CDS hits record 82bps intraday (largest single-day jump since Nov 2025 CDS launch) as scrutiny grows over ~$750B in customer-financing/debt-guarantee arrangements — SK Group $500B partnership + $250B OpenAI backstop headline the concern list",
+    "summary": "Nvidia's 5-year credit default swaps hit a record 82 bps on July 27 (the largest one-day intraday move since NVDA CDS began active trading in November 2025) and remain elevated. The move followed reports of ~$750B in AI-infrastructure arrangements — including a >$500B SK Group partnership and a ~$250B debt-guarantee/financing backstop for OpenAI datacenter capacity. Big Tech's aggregate off-balance-sheet AI commitments are now estimated at ~$1.65T. Buy-side analysts flag the concentric-financing loop (NVDA guarantees debt → customers spend on NVDA hardware) as an amplifier of headline demand, and a key risk if the AI-capex cycle inflects.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "The Next Web",
+    "source_url": "https://thenextweb.com/news/nvidia-announced-750bn-of-ai-deals-its-own-credit-market-flinched"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "MSFT price targets raised across the Street after Q4 print: Bernstein to $641 ('engine of growth is strong and getting stronger'); Piper Sandler to $550 from $540 (Overweight); consensus PT $555.77 with Strong Buy from 56 analysts",
+    "summary": "Sell-side moved fast on Microsoft after Wednesday's blowout Q4/Azure print. Bernstein raised its price target to $641, citing Azure growth exceeding expectations and calling the growth engine 'strong and getting stronger.' Piper Sandler nudged its target from $540 to $550 (Overweight, analyst Billy Fitzsimmons). Consensus PT now sits at $555.77 from 56 covering analysts, with a Strong Buy consensus rating. The setup contrasts sharply with Meta's post-print reaction and reinforces Microsoft as the preferred hyperscaler exposure into the AI-capex ROI debate.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60796072/microsoft-to-rally-more-than-40-here-are-10-top-analyst-forecasts-for-thursday"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Goldman Sachs lifts US datacenter power outlook: 41 GW demand in 2026 (from 31 GW in 2025), 66 GW in 2027; global DC capacity forecast raised to 217 GW by 2030 (from 168 GW in Feb); flags utility, gen-turbine, and grid winners",
+    "summary": "Goldman's utilities team lifted its US datacenter power-demand curve to 41 GW in 2026 (from 31 GW in 2025) and 66 GW in 2027, with year-over-year capacity additions of 13.6 GW in 2026 and 36.3 GW in 2027 — vs realized additions of 6.4 GW in 2024 and 8.5 GW in 2025. Global datacenter capacity now forecast at 217 GW by 2030, up from 168 GW in the February update. The note flags utilities with existing capacity, favorable interconnect queues, and active DC pipelines (CEG, VST, NEE) as primary earnings-growth candidates, alongside gas-turbine and grid-equipment names (GEV, ETN, ENR.DE). The upgrade is a supportive backdrop for the sector into VRT / GEV / ETN prints already in the tape.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Investing.com / Goldman Sachs",
+    "source_url": "https://www.investing.com/news/stock-market-news/goldman-sachs-names-top-utility-stocks-poised-for-data-center-power-boom-93CH-4814318"
+  },
+  {
+    "date": "2026-07-30",
+    "headline": "Zuckerberg on Q2 call: Meta 'cloud business makes sense' — Meta Compute would monetize surplus AI capacity at 2,250-acre Hyperion (LA) campus; custom Iris chip entering manufacturing this fall with AVGO + TSM; direct competitive shot at CRWV ($21B Meta contract) and NBIS",
+    "summary": "Zuckerberg used Meta's Q2 call to formalize what had been reported earlier this month: Meta is standing up 'Meta Compute,' an external cloud offering to monetize surplus AI infrastructure capacity at the 2,250-acre Hyperion campus in Louisiana. The service will sell Muse Spark model access and raw GPU cycles. In parallel, Meta's custom Iris accelerator enters manufacturing this fall via Broadcom + TSMC. The move is a direct competitive strike at CoreWeave (which holds a $21B Meta supply contract) and Nebius (multi-billion Meta contract) — CRWV traded sharply lower on the July 2 initial report and again into the call. Longer-term positive for AVGO (custom silicon partner) and TSM (fab partner).",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2026/07/29/meta-earnings-zuckerberg-hints-cloud-business-free-cash-flow-capex/"
+  }
+]

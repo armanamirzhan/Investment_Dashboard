@@ -4520,5 +4520,95 @@
       }
     ],
     "file": "morning-news/2026-07-29.html"
+  },
+  {
+    "date": "2026-07-30",
+    "file": "morning-news/2026-07-30.html",
+    "tickers": [
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "+8% AH: Q4 rev $90.01B beat, Azure +43% accelerating, crosses $100B ARR; FY27 capex $175B"
+      },
+      {
+        "ticker": "META",
+        "direction": "down",
+        "note": "-8-10% AH: EPS $6.18 vs $7.13 est (14% miss); FY26 capex $130-145B (low end raised); FCF collapses to $784M"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "down",
+        "note": "-~12% pre-mkt: Q2 rev miss $3.27B vs $3.38B; adj EPS beat $1.52 vs $1.42; FY guide raised to $14B / $6.70"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "5Y CDS at record 82bps on scrutiny of ~$750B customer-financing / debt-guarantee arrangements"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "neutral",
+        "note": "Reports tonight AH; Q2 consensus rev ~$196.25B / EPS $1.82 — AWS growth vs Azure 43% in focus"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "neutral",
+        "note": "Reports tonight AH; fiscal Q3 consensus EPS ~$1.89"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "GS raised US DC power outlook to 41 GW 2026 / 66 GW 2027 — flags CEG as primary earnings-growth candidate"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK hynix -~6% again in Seoul; KOSPI stabilizes after 2 circuit-breaker sessions but still -40% from June peak"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "Clear Street upgrade to Buy (from Hold) after Q2 blowout; UBS cuts PT to $300 from $350"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "software",
+        "signal": "AZURE BLOWOUT: MSFT Q4 rev $90.01B, Azure +43% (accelerating from 40%), crosses $100B ARR; FY27 capex $175B; +8% AH — cleanest hyperscaler print vs META"
+      },
+      {
+        "ticker": "integration",
+        "signal": "META CAPEX SHOCK: EPS misses 14%, FY26 capex low-end raised to $130B, FCF crushed 91% to $784M; Zuckerberg formalizes Meta Compute cloud (CRWV/NBIS threat)"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "VRT REV TIMING: rev miss but FY guide raised to $14B / $6.70; adj op margin +410bps to 22.6% — datacenter thermal/power demand intact under the top-line noise"
+      },
+      {
+        "ticker": "policy",
+        "signal": "HAWKISH HOLD: FOMC 9-3 with 3 dissenters wanting HIKE (most since Sep 2016); Warsh terser statement; no cut priced — rate-sensitive AI infra on watch"
+      },
+      {
+        "ticker": "finance",
+        "signal": "NVDA VENDOR-FINANCING: 5Y CDS record 82bps on ~$750B customer-financing (SK $500B + OpenAI $250B backstop); Big Tech off-balance-sheet AI commitments ~$1.65T"
+      },
+      {
+        "ticker": "energy",
+        "signal": "GOLDMAN POWER LIFT: US DC demand curve raised to 41 GW 2026, 66 GW 2027; global 217 GW by 2030 (from 168 GW Feb); positive tape for CEG/VST/NEE/GEV/ETN"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "ASIA CHIP TAPE: Kioxia +7.5% rebound overnight, SK hynix -~6% again, Samsung -1.2%; KOSPI avoids 3rd circuit-breaker; SMH still in bear-market territory (>-19% MTD)"
+      }
+    ],
+    "top_headlines": "MSFT Q4 blowout — Azure +43%, crosses $100B ARR, +8% AH · META Q2 EPS miss + $130-145B capex raise, FCF $784M, -~10% AH · VRT rev miss but FY guide raised · FOMC holds 3.5-3.75% with 3 hawkish dissenters (most since 2016) · AMZN/AAPL/RDDT report tonight · NVDA CDS record on $750B customer-financing scrutiny",
+    "sectors": [
+      "software",
+      "hardware",
+      "integration",
+      "energy",
+      "policy",
+      "finance"
+    ]
   }
 ]

@@ -3295,5 +3295,47 @@
     "signal_type": "momentum",
     "description": "MU -6% intraday Wed to ~$775 as memory selloff intensifies for a third session; SK hynix, Samsung, MU collectively lost $400B+ mkt cap since Friday; Philadelphia Semiconductor Index -19% MTD, worst month since 2008",
     "severity": "high"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "MSFT",
+    "signal_type": "earnings_beat",
+    "description": "Q4 FY26 beat: rev $90B vs $87.6B, Azure +43% accelerating, crossed $100B ARR; +8% AH. FY27 capex $175B guide reinforces hyperscaler thesis.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "META",
+    "signal_type": "earnings_miss",
+    "description": "Q2 EPS $6.18 vs $7.13 est (14% miss) despite rev beat; FY26 capex low-end raised to $130B; FCF collapsed to $784M from $8.5B YoY; stock -8-10% AH.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "VRT",
+    "signal_type": "earnings_beat",
+    "description": "Q2 EPS $1.52 beat $1.42, FY guide raised to $14B rev / $6.70 EPS, adj op margin +410bps to 22.6% — but rev miss ($3.27B vs $3.38B est) drove -12% pre-market on timing concerns.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "5Y CDS at record 82bps on scrutiny of ~$750B customer-financing/debt-guarantee arrangements (SK $500B, OpenAI $250B backstop). Vendor-financing loop under increasing analyst focus.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK hynix down another ~6% overnight, extending post-Q2-miss selloff; KOSPI two circuit-breakers this week; memory-cycle top concerns dominant.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-30",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "Zuckerberg formalized Meta Compute cloud offering on Q2 call — direct competitive threat to CoreWeave's $21B Meta supply relationship.",
+    "severity": "medium"
   }
 ]

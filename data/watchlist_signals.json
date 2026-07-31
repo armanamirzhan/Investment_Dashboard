@@ -3337,5 +3337,54 @@
     "signal_type": "overvalued",
     "description": "Zuckerberg formalized Meta Compute cloud offering on Q2 call — direct competitive threat to CoreWeave's $21B Meta supply relationship.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $200.6B (first-ever $200B qtr), AWS +37% (fastest since 2021), AWS margin +520bps to 38.1%; AI/Chips run-rates each >$25B; +10-11% AH; sell-side PT raises across the Street",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "MPWR",
+    "signal_type": "earnings_beat",
+    "description": "Record Q2 rev $980.6M (+47.6% YoY); Enterprise Data +164% YoY; Q3 guide 16.5% above consensus; +$500M buyback; +11.4% pre-mkt — cleanest AI power IC signal in the tape",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "ETN",
+    "signal_type": "earnings_beat",
+    "description": "Record Q2 $8.5B (+14% organic); Electrical Global backlog +103% YoY; book-to-bill 1.2; FY organic guide raised to 11-13% — datacenter electrification demand intact vs VRT/GEV mixed prints",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK hynix +29.95% (daily limit) to KRW 1.718M — memory rout reversed on AMZN AWS blowout + Chey Tae-won insider buy + AAPL confirmed 'severe DRAM/NAND' pricing",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung +26.81% to KRW 262,500 in KOSPI record +17.91% session; HBM/DRAM pricing repriced higher on AAPL Q4 memory-crunch guide",
+    "severity": "high"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AAPL",
+    "signal_type": "earnings_miss",
+    "description": "Beat Q3 but guided Q4 growth 9-11% vs 12% est on 'severe DRAM/NAND price inflation' + supply constraints + 2.5pt FX; -7.3% pre-mkt; JPM cut PT $345→$340, MS to $360",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Truist upgrade to Buy after 42% slide; Oppenheimer reiterates $150 (demand 4x supply); Leidos federal partnership adds sticky government cloud channel",
+    "severity": "medium"
   }
 ]

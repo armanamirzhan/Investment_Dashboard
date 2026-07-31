@@ -3877,5 +3877,95 @@
     "new_target": 300.0,
     "old_rating": null,
     "old_target": 350.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 375.0,
+    "old_rating": "Buy",
+    "old_target": 335.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 320.0,
+    "old_rating": "Buy",
+    "old_target": 310.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 350.0,
+    "old_rating": "Buy",
+    "old_target": 325.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 365.0,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AMZN",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 320.0,
+    "old_rating": "Outperform",
+    "old_target": 315.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AAPL",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 340.0,
+    "old_rating": "Overweight",
+    "old_target": 345.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "AAPL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 360.0,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "CRWV",
+    "firm": "Truist",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "CRWV",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 150.0,
+    "old_rating": "Outperform",
+    "old_target": 150.0
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "CCJ",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 166.0,
+    "old_rating": "Neutral",
+    "old_target": null
   }
 ]

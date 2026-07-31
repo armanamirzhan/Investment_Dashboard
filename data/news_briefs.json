@@ -4610,5 +4610,86 @@
       "policy",
       "finance"
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "tickers": [
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "+10-11% AH: Q2 rev $200.6B (first $200B qtr), AWS +37% (fastest since 2021), AI/Chips $25B run-rates; PT raises across the Street (GS $375, Citi $350, Barclays $365)"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "down",
+        "note": "-7.3% pre-mkt: beat Q3 but Q4 guide 9-11% vs 12% est on 'severe DRAM/NAND' + supply constraints + FX; JPM PT $345→$340, MS $360"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK hynix +29.95% daily limit — memory rout reverses on AAPL memory confirmation + AMZN AWS + Chey insider buy"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +26.81% in KOSPI +17.91% record session (largest single-day gain ever)"
+      },
+      {
+        "ticker": "MPWR",
+        "direction": "up",
+        "note": "+11.4% pre-mkt: record Q2 $980.6M (+47.6% YoY), Enterprise Data +164% YoY, Q3 guide 16.5% above est; +$500M buyback"
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "Q2 record $8.5B (+14% organic); Electrical Global backlog +103% YoY; FY guide raised to 11-13% organic / $13.40-13.60 EPS"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Truist upgrade to Buy; Oppenheimer reiterates $150 (demand 4x supply); Leidos federal defense/intel partnership announced"
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "up",
+        "note": "Reports Q2 pre-open (rev $534M est); UBS Buy upgrade this week (C$166), Cigar Lake stake up to 57.4%"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Memory pricing tape decisively higher post-AAPL memory guide + KOSPI rally"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "integration",
+        "signal": "AMZN Q2 CLEAN PRINT: first-ever $200B quarter, AWS +37% (fastest in 4 years) to $169B ARR, margin +520bps to 38.1%, AI/Chips each $25B run-rate; MSFT/AMZN reset AI-ROI narrative decisively vs META"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "MEMORY REPRICING: AAPL CFO calls out 'severe DRAM/NAND price inflation' + supply constraints as Q4 headwind — validation of HBM/DRAM tightness that had been the memory-rout bear case reversed"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "KOSPI +17.91% RECORD: largest single-day gain ever; SK hynix +29.95% daily limit, Samsung +26.81%; Chey chairman insider buy the local catalyst on top of AMZN/AAPL memory read-through"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "AI POWER SILICON: MPWR record Q2 rev $980.6M (+47.6% YoY), Enterprise Data +164% YoY, Q3 guide 16.5% above est — direct read-through to NVDA GB200/GB300 volumes"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "ETN BEAT/RAISE: record $8.5B rev, Electrical Global backlog +103% YoY, FY organic raised to 11-13% — datacenter electrification demand intact after mixed VRT/GEV week"
+      },
+      {
+        "ticker": "finance",
+        "signal": "SELL-SIDE STAMPEDE: AMZN PTs GS $335→$375, BofA $310→$320, Citi $325→$350, Barclays $365, Bernstein $315→$320; AAPL cuts JPM $345→$340, MS $360 — bifurcated hyperscaler tape"
+      },
+      {
+        "ticker": "energy",
+        "signal": "NUCLEAR MOMENTUM: CCJ Q2 pre-open with UBS Buy upgrade (C$166); NuScale expects 77-MWe SMR design approval this month; 13 hyperscaler nuclear PPAs / 9.8+ GW committed to date"
+      }
+    ],
+    "file": "morning-news/2026-07-31.html"
   }
 ]

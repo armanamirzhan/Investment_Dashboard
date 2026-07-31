@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-07-31",
+    "headline": "AMZN Q2 blowout after-close: rev $200.6B (+20% YoY, first-ever $200B quarter, beat $196.25B est), AWS +37% (fastest since 2021, blows past 31% est) to $42.2B / $169B ARR; AWS margin +520bps to 38.1%; AI/Chips businesses each >$25B run-rate; stock +10-11% AH",
+    "summary": "Amazon reported Q2 revenue of $200.6B (+20% YoY) vs $196.25B consensus — its first-ever $200B quarter. AWS grew 37% YoY to $42.2B (annualized $169B run-rate), the fastest cloud growth rate in 18 quarters and well above the ~31% analyst expectation. AWS operating margin expanded 520 bps to 38.1% (ex-energy contract benefits). Consolidated operating income rose 43% to $27.5B. CEO Andy Jassy said the AI and Chips businesses each exceeded $25B annualized run-rates in the quarter. Q3 guide: revenue $197-202B (9-12% growth), operating income $22.5-26.5B. Shares +10-11% after-hours, resolving the AWS-vs-Azure debate decisively in Amazon's favor after Microsoft's 43% Azure print Wednesday.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "AAPL fiscal Q3 beat: rev $109.4B (+16% YoY, beat $108.79B est), EPS $2.02 vs $1.88 est, iPhone +22%; but Q4 guide 9-11% growth vs 12% est on memory supply/DRAM/NAND price inflation + 2.5pt FX drag; stock -7.3% pre-market; Cook's final earnings call as CEO",
+    "summary": "Apple posted fiscal Q3 revenue of $109.4B (+16% YoY) beating the $108.79B estimate, with EPS of $2.02 vs $1.88 consensus and iPhone revenue up 22%. All segments delivered double-digit revenue growth. However, CFO Kevan Parekh warned Q4 supply constraints would 'increase significantly sequentially' — largely due to memory (DRAM/NAND) price inflation and the company underestimating iPhone/Mac demand — with FX also expected to reduce growth by ~2.5 pts. Q4 revenue guided 9-11% growth vs 12% consensus, gross margin 47-48%. Shares fell 7.3% pre-market. Bearish read-through for AAPL but confirms tight memory supply narrative benefiting SK hynix / Samsung / Micron pricing power into 2H26. This was Tim Cook's final earnings call as CEO.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/aapl-stock-drops-7-hours-230739322.html"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "ETN Q2 pre-open beat and raise: record $8.5B rev (+21% YoY, 14% organic), adj EPS $3.15 beat; Electrical Americas +18% organic, Electrical Global +18% organic; Electrical Global backlog +103% YoY; book-to-bill 1.2; FY organic guide raised to 11-13%, EPS to $13.40-13.60",
+    "summary": "Eaton reported record Q2 revenue of $8.5B (+21% YoY, +14% organic), adjusted diluted EPS of $3.15 (record, up from $2.95 YoY). Electrical Americas and Electrical Global each posted +18% organic growth; Aerospace +7%. Trailing-12-month orders were +41% organically in Electrical Americas and +33% in Electrical Global, with Electrical Global backlog doubling (+103% YoY). Book-to-bill of 1.2 for both Electrical and Aerospace. Management raised FY26 organic growth guidance to 11-13% and adjusted EPS to $13.40-13.60 (+12% at midpoint vs 2025). Datacenter demand called out explicitly as a key growth driver. Positive read-across to VRT and GEV after this week's mixed prints — grid/electrification demand remains intact.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StockTitan",
+    "source_url": "https://www.stocktitan.net/news/ETN/eaton-reports-record-second-quarter-2026-results-with-strong-organic-ne21clabijtb.html"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "KOSPI +17.91% (largest single-day gain on record); SK hynix +29.95% (daily limit) to KRW 1.718M; Samsung +26.81% to KRW 262,500 — memory rout reverses violently on AMZN AWS blowout + Chey SK chairman insider buy",
+    "summary": "South Korea's KOSPI staged the largest single-session rally in its history, closing +17.91% at 6,595.45 — reversing the memory-led rout that hit two circuit-breakers earlier this week. SK hynix hit its 30% daily limit (+29.95%) to KRW 1.718M, and Samsung Electronics rose 26.81% to KRW 262,500. The rebound was fueled by Amazon's Q2 print (AWS +37%, AI/Chips $25B run-rates each), Chairman Chey Tae-won's disclosed personal SK hynix share purchase, and the read-through that AAPL's memory supply constraints validate DRAM/NAND pricing power. Japan's Kioxia and Advantest also rallied. Positive tape for HBM/memory names into next week — SMH still has room to reclaim from bear-market territory (-19% MTD before today).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/31/sk-hynix-samsung-ai-rally-chipmakers.html"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "MPWR Q2 blowout after-close: record rev $980.6M (+47.6% YoY, +21.9% QoQ), non-GAAP EPS $6.50 beat by 10.5%; Enterprise Data +164% YoY to $381M (39% of mix); Q3 guide $1.14-1.16B (16.5% above est); $500M added to buyback; stock +11.4% pre-market",
+    "summary": "Monolithic Power Systems reported record Q2 revenue of $980.6M (+47.6% YoY, +21.9% QoQ) with non-GAAP EPS of $6.50, 10.5% above consensus. The Enterprise Data segment (HBM/AI power management ICs) grew 164.3% YoY to $380.6M, now 39% of the revenue mix. Q3 revenue guided to $1.14-1.16B — a stunning 16.5% above analyst consensus. Board added $500M to buyback authorization ($1B total). Stock +11.4% pre-market. MPWR's power management ICs are a critical supplier to NVDA GB200/GB300 platforms — the acceleration is a clean positive read-through for NVDA volumes and hyperscaler AI silicon demand ahead of AVGO / NVDA prints later this quarter.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StockStory",
+    "source_url": "https://stockstory.org/us/stocks/nasdaq/mpwr/news/earnings/monolithic-power-systems-nasdaqmpwr-beats-expectations-in-strong-q2-stock-jumps-105percent"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "Sell-side stampedes higher on AMZN: Goldman Sachs $335→$375 (Buy, top pick), BofA $310→$320 (Buy, sees AWS +40% Q3), Citi $325→$350 (Buy), Barclays $365 (OW), Bernstein $315→$320 (Outperform); consensus PT now $312 with Strong Buy",
+    "summary": "Analysts moved fast on Amazon after Wednesday night's AWS blowout. Goldman raised its target to $375 from $335 (Buy) citing AWS growth acceleration and 39% operating margin expansion. Bank of America lifted its target to $320 (Buy) and now models AWS growth accelerating to 40% in Q3. Citi went $325→$350 (Buy), Barclays initiated/reiterated $365 (Overweight), and Bernstein went $315→$320 (Outperform). Consensus PT has jumped to $312 with a Strong Buy consensus. The tape reinforces the setup: MSFT/AMZN are the clean-print hyperscalers this quarter, contrasting with META's FCF crush and reasserting the AI-infra ROI narrative that had cracked into Monday's memory rout.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-amazon-stock-price-target-on-aws-growth-93CH-4826995"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "CRWV: Truist upgrade to Buy after ~42% slide flags 'AI cloud demand still 4x supply'; Oppenheimer reiterates $150 (Q2 tracking high end); Leidos federal partnership announced — AI-native cloud into US defense/intelligence datacenters",
+    "summary": "CoreWeave caught two positive analyst catalysts and a strategic partnership. Truist upgraded CRWV to Buy after the stock's ~42% drawdown, citing strong AI demand, specialized-cloud leadership, and a discount to other neocloud peers despite Meta Compute overhang. Oppenheimer reiterated its $150 target, saying Q2 revenue is tracking to the high end of guidance and that capacity 'overbuild' fears are overdone — demand is running roughly 4x supply. Separately, CoreWeave announced a partnership with Leidos to bring its AI-native cloud into secure US defense and intelligence datacenters — a sticky government demand channel that partially offsets the Meta Compute cloud threat that pressured the stock earlier this week.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "TimothySykes / Stockstotrade",
+    "source_url": "https://www.timothysykes.com/news/coreweave-inc-crwv-news-2026_07_31/"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "AAPL price-target cuts as Q4 memory-crunch guide lands: JPMorgan $345→$340 (still bullish long-term), Morgan Stanley $360 (lowered); CFO Parekh: 'severe DRAM/NAND price inflation' + supply constraints to 'significantly' pressure Q4 sequentially",
+    "summary": "Analysts trimmed Apple targets after the fiscal-Q3 print despite the top-line beat. JPMorgan cut its Dec-2027 target to $340 from $345, calling out that Apple is paying materially more for memory each successive quarter and expects that trajectory to continue. Morgan Stanley lowered its target to $360. CFO Kevan Parekh's guidance language ('significantly greater supply constraints,' 'severe DRAM/NAND price inflation') is the sharpest confirmation yet from a hyperscaler-scale buyer that memory pricing is being repriced higher — supportive tape for MU, SK hynix (000660.KS) and Samsung (005930.KS) even as it drags AAPL. JPMorgan remains structurally bullish, framing the constraint as delayed rather than lost demand.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "AppleInsider",
+    "source_url": "https://appleinsider.com/articles/26/07/31/jp-morgan-lowers-apple-price-target-on-supply-constraint-worries-still-bullish-long-term"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "CCJ Q2 pre-open; UBS upgraded Cameco to Buy earlier this week (PT C$166) — long-term uranium contract prices at record highs on utility contracting + hyperscaler nuclear PPA momentum; TEPCO 5% Cigar Lake stake acquisition closed, CCJ now 57.4%",
+    "summary": "Cameco reports Q2 pre-open; consensus revenue $534.4M. Setup is positive: UBS upgraded CCJ from Neutral to Buy earlier this week with a C$166 target, citing record long-term uranium contract prices and increasing utility contracting supported by government backing for nuclear. Separately, CCJ and Orano closed the acquisition of TEPCO Resources Inc's 5% participating interest in the Cigar Lake JV — Cameco's stake increases to 57.418%. Nuclear PPA momentum for AI datacenters remains strong (13 announced hyperscaler nuclear projects for 9.8+ GW), and NuScale expects its uprated 77-MWe SMR design approval from the NRC this month.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Zacks",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/cameco-stock-portfolio-q2-earnings-180800648.html"
+  },
+  {
+    "date": "2026-07-31",
+    "headline": "Tape setup Fri: S&P 500 futures higher on AMZN +11.5% pre-mkt / MPWR +11.4% / ETN beat-and-raise; offsets AAPL -7.3% pre-mkt on memory guide; RBLX -22.5% on Q3 bookings guide -14 to -18% YoY; broader AI-infra narrative decisively re-armed after Monday's rout",
+    "summary": "Friday pre-market tape is broadly risk-on despite Apple's supply-driven miss. AMZN +11.5% pre-mkt, MPWR +11.4%, ETN opening higher on its record Q2 and raised FY guide — all three re-affirm the AI-infra capex-into-revenue narrative that had cracked Monday on China DUV headlines and NVDA circular-financing scrutiny. AAPL -7.3% is contained rather than contagious; the memory-crunch commentary is actually bullish for the HBM/DRAM chain and helped power the historic KOSPI +17.91% overnight rebound. Roblox -22.5% is idiosyncratic (algorithm-shift, under-13 monetization). Into next week: AMD reports Tue (Aug 4), VST Aug 7, CRWV Aug 12 — AWS's 37% + Azure's 43% reset the bar meaningfully higher for GPU/hardware pull-through.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-31-2026"
+  }
+]

@@ -3386,5 +3386,19 @@
     "signal_type": "momentum",
     "description": "Truist upgrade to Buy after 42% slide; Oppenheimer reiterates $150 (demand 4x supply); Leidos federal partnership adds sticky government cloud channel",
     "severity": "medium"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "CCJ",
+    "signal_type": "earnings_miss",
+    "description": "Q2 adj EPS C$0.13-0.18 missed ~C$0.28 est on lower Westinghouse equity earnings (large prior-year one-time contribution didn't repeat); but revenue C$814M beat C$592M est, production guidance maintained (19.5-21.5M lb); stock +3.3% premarket -- market focused on top-line/guidance over the bottom-line miss",
+    "severity": "low"
+  },
+  {
+    "date": "2026-07-31",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "MU +4.5% premarket Fri, extending Thursday's +18.4% surge (SNDK +26% Thu, +5.7% Fri) -- sharp reversal of the prior week's memory-rout selloff, driven by AMZN's AWS blowout + raised 2026 hyperscaler capex guide ($220B from $200B) and AAPL's DRAM/NAND supply-constraint commentary confirming memory pricing power",
+    "severity": "medium"
   }
 ]

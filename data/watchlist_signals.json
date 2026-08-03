@@ -3435,5 +3435,12 @@
     "signal_type": "momentum",
     "description": "Q2 cash capex raised to ~$220B (+$20B) with Jassy signaling capacity constraints extend to 2028; AWS RPO $496B (+30% QoQ). Structural bullish read for entire AI-infra stack: NVDA / AVGO / MU / SK hynix / Samsung / MPWR / VRT / ETN / GEV / CEG / VST / ORCL.",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "AMZN",
+    "signal_type": "momentum",
+    "description": "Hit $3 trillion market cap for first time (record high ~$287.16), 5th company ever to reach the milestone; JPMorgan and Morgan Stanley raised PTs to $365 and $335 post-earnings on AWS 37% growth and $496B backlog",
+    "severity": "high"
   }
 ]

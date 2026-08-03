@@ -3985,5 +3985,23 @@
     "new_target": 200,
     "old_rating": "Outperform",
     "old_target": 200
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "AMZN",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 365,
+    "old_rating": null,
+    "old_target": 330
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "AMZN",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 335,
+    "old_rating": null,
+    "old_target": 330
   }
 ]

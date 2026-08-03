@@ -3400,5 +3400,40 @@
     "signal_type": "momentum",
     "description": "MU +4.5% premarket Fri, extending Thursday's +18.4% surge (SNDK +26% Thu, +5.7% Fri) -- sharp reversal of the prior week's memory-rout selloff, driven by AMZN's AWS blowout + raised 2026 hyperscaler capex guide ($220B from $200B) and AAPL's DRAM/NAND supply-constraint commentary confirming memory pricing power",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK hynix -7.92% to KRW 1.582M as KOSPI -4.88% on profit-take from Friday's record +17.91% rally; foreign net sellers KRW 1.11T; brokerages trim near-term PTs but HBM/AI-memory thesis intact per strategists.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung Electronics -8.19% to KRW 241,000 on the same profit-take reversal after Chairman Chey purchase-driven Fri rally; retail bought aggressively (net +KRW 1.32T) into foreign/institutional distribution.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "PLTR",
+    "signal_type": "earnings_beat",
+    "description": "Q2 tonight AMC (5pm ET). Street: rev $1.81B (+81% YoY), EPS $0.34 (+113%). Oppenheimer models ~85%. 8 consecutive EPS beats. Options price ~12-15% swing. Setup: Citi trimmed PT to $200 from $225 (Buy), Oppenheimer reiterates $200 (Outperform). Stock ~30% below 2026 highs; 'beat-and-hold' setup more than 'beat-and-rip.'",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q2 Tuesday AMC. Guide: rev $11.2B ±$300M (+47% YoY); Street EPS $1.61 vs $0.48 YoY (+235%). Focus: MI350 (Helios) datacenter ramp cadence, MI450 tape-out timing, OpenAI/Broadcom custom silicon impact framing.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "AMZN",
+    "signal_type": "momentum",
+    "description": "Q2 cash capex raised to ~$220B (+$20B) with Jassy signaling capacity constraints extend to 2028; AWS RPO $496B (+30% QoQ). Structural bullish read for entire AI-infra stack: NVDA / AVGO / MU / SK hynix / Samsung / MPWR / VRT / ETN / GEV / CEG / VST / ORCL.",
+    "severity": "high"
   }
 ]

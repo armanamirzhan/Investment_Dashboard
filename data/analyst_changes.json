@@ -3967,5 +3967,23 @@
     "new_target": 166.0,
     "old_rating": "Neutral",
     "old_target": null
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "PLTR",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 200,
+    "old_rating": "Buy",
+    "old_target": 225
+  },
+  {
+    "date": "2026-08-03",
+    "ticker": "PLTR",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 200,
+    "old_rating": "Outperform",
+    "old_target": 200
   }
 ]

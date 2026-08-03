@@ -4691,5 +4691,95 @@
       }
     ],
     "file": "morning-news/2026-07-31.html"
+  },
+  {
+    "date": "2026-08-03",
+    "tickers": [
+      {
+        "ticker": "PLTR",
+        "direction": "neutral",
+        "note": "Q2 tonight AMC; Citi trims PT to $200 (Buy); options price 12-15% swing"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "neutral",
+        "note": "Q2 Tue AMC; $11.2B guide +47% YoY; MI350 ramp focus"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "$220B capex; 'capacity constrained through 2028'; RPO $496B"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-8.19% profit-take after Fri +26.81%"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-7.92% profit-take after Fri +29.95%"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Q2 Thursday pre-market"
+      },
+      {
+        "ticker": "VST",
+        "direction": "neutral",
+        "note": "Q2 Friday pre-market; near 52-wk low"
+      },
+      {
+        "ticker": "SIEGY",
+        "direction": "neutral",
+        "note": "Siemens Energy fiscal Q3 Wed pre; guide already raised"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "2026 capex $60-64B, $265B US plan; July rev ~Aug 10"
+      },
+      {
+        "ticker": "OIL",
+        "direction": "down",
+        "note": "Brent -7.3% to $81.55 on Trump Iran de-escalation"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "PLTR",
+        "signal": "Earnings tonight AMC"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "Earnings Tue AMC"
+      },
+      {
+        "ticker": "AMZN",
+        "signal": "$220B capex — capacity through 2028"
+      },
+      {
+        "ticker": "KOREA",
+        "signal": "KOSPI -4.88% profit-take on memory rally"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Trump-Iran de-escalation; oil -7%"
+      },
+      {
+        "ticker": "HYPERSCALER",
+        "signal": "2026 capex ~$740B (+77% YoY)"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "9.8 GW hyperscaler PPA tracker"
+      },
+      {
+        "ticker": "GRID",
+        "signal": "AMZN Virginia direct-pay transmission proposal"
+      }
+    ],
+    "file": "morning-news/2026-08-03.html"
   }
 ]

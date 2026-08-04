@@ -3442,5 +3442,40 @@
     "signal_type": "momentum",
     "description": "Hit $3 trillion market cap for first time (record high ~$287.16), 5th company ever to reach the milestone; JPMorgan and Morgan Stanley raised PTs to $365 and $335 post-earnings on AWS 37% growth and $496B backlog",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "PLTR",
+    "signal_type": "earnings_beat",
+    "description": "Q2 blowout: rev +93% YoY, US commercial +149% YoY, EPS $0.41 vs $0.35; FY guide raised $500M+; multiple PT hikes (Citi $245, Wedbush $230, DB upgrade to Buy $200). Stock +15% pre-market.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Reports Q2 tonight AMC — Street $11.3B rev / $1.61 EPS; MI350 volume ramp + first Helios rack orders the swing factors; guide of $11.2B ±$300M (+46% YoY) sets the near-term bar.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "AMZN",
+    "signal_type": "momentum",
+    "description": "2026 capex raised to ~$220B (from $200B) on memory-price inflation; RPO backlog $496B (+2.5x YoY); capacity-constrained through 2028 — durable read-through to memory, hyperscaler power, and datacenter electrical suppliers.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Gas turbine backlog now 116 GW (up 16 GW in one quarter), targeting 125 GW by year-end; $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers are datacenter operators.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Piper Sandler initiates Overweight $151 PT; +15% Monday session; AI-cloud demand narrative resumes after late-July vendor-financing scare.",
+    "severity": "medium"
   }
 ]

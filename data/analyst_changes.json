@@ -4003,5 +4003,50 @@
     "new_target": 335,
     "old_rating": null,
     "old_target": 330
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "PLTR",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 200,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "PLTR",
+    "firm": "Citigroup",
+    "new_rating": "Buy",
+    "new_target": 245,
+    "old_rating": "Buy",
+    "old_target": 200
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "PLTR",
+    "firm": "D.A. Davidson",
+    "new_rating": "Buy",
+    "new_target": 200,
+    "old_rating": "Buy",
+    "old_target": 175
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "PLTR",
+    "firm": "Wedbush",
+    "new_rating": "Outperform",
+    "new_target": 230,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-08-04",
+    "ticker": "CRWV",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 151,
+    "old_rating": null,
+    "old_target": null
   }
 ]

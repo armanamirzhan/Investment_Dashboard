@@ -4781,5 +4781,91 @@
       }
     ],
     "file": "morning-news/2026-08-03.html"
+  },
+  {
+    "date": "2026-08-04",
+    "tickers": [
+      {
+        "ticker": "PLTR",
+        "direction": "up",
+        "note": "+15% pre-mkt: Q2 rev $1.94B +93% YoY, US commercial +149%, FY guide raised to $8.15-8.16B; Citi $245, Wedbush $230, DB upgrade to Buy $200"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "neutral",
+        "note": "Q2 tonight AMC; Street $11.3B rev / $1.61 EPS; MI350 volume + Helios orders the focus"
+      },
+      {
+        "ticker": "CAT",
+        "direction": "up",
+        "note": "+11% pre-mkt: Q2 EPS $8.17 vs $6.17 est, revenue $20.54B (+24% YoY); record $72B backlog on datacenter power-gen demand"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "2026 capex raised to ~$220B; RPO $496B (+2.5x YoY); capacity-constrained through 2028"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Piper Sandler initiates Overweight $151 PT"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Turbine backlog 116 GW (+16 GW QoQ); $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers = datacenter operators"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+2.51% NextTrade pre-mkt; Korean chip complex stabilizes after Monday profit-take"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+2.94% NextTrade pre-mkt; tracking US tech tape into Big Tech earnings"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "neutral",
+        "note": "€153.38 close ahead of fiscal Q3 print Wed; guide already raised on grid/gas services strength"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "H200 China sales still capped at 25% tariff / 50% volume ceiling; H20 requires license — margin drag intact"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "software",
+        "signal": "PLTR BLOWOUT: Q2 rev +93%, US commercial +149%, FY guide raised $500M+, +15% pre-mkt; PT hikes to $245 (Citi), $230 (Wedbush), DB upgrade to Buy — 'sovereign AI' thesis validated"
+      },
+      {
+        "ticker": "integration",
+        "signal": "CAT DATACENTER PRINT: EPS $8.17 vs $6.17 est, revenue +24%, backlog record $72B on standby/prime-power gensets — cleanest datacenter-buildout read-through of the season"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "AMD PRINT TONIGHT: guide $11.2B ±$300M; MI350 volume + first Helios rack orders the swing factors after AMZN AWS +37% and MU/SK hynix memory tightness signal"
+      },
+      {
+        "ticker": "integration",
+        "signal": "AMZN CAPEX RAISE: 2026 cash capex to ~$220B on memory inflation; RPO $496B; capacity-constrained through 2028 — durable pull-through to hyperscaler power + electrical + memory"
+      },
+      {
+        "ticker": "energy",
+        "signal": "GEV TURBINE TAPE: backlog 116 GW (+16 GW QoQ), $2.7B Q2 datacenter Electrification, ~20% of turbine buyers now datacenter operators — 'gas turbine as datacenter primary power' quantified"
+      },
+      {
+        "ticker": "policy",
+        "signal": "BIS H200/MI325X REGIME: case-by-case + 25% tariff + 50% volume cap holds; H20 still license-required — China rev capture faces ~25% margin drag and half-US volume ceiling"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "KOREA STABILIZES: Samsung +2.5% / SK hynix +2.9% NextTrade pre-mkt after Monday profit-take; CXMT DRAM share now ~8% (from ~3% YoY) keeps China memory overhang in view"
+      }
+    ],
+    "file": "morning-news/2026-08-04.html"
   }
 ]

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-08-04</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-08-04</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Palantir Q2 blowout: revenue +93% to $1.94B, US commercial +149%, FY guide raised to $8.15-8.16B — 'otherworldly' quarter</strong> &mdash; PLTR reported Q2 AMC Aug 3: adj EPS $0.41 vs $0.35 est, revenue $1.94B vs $1.80B est (+93% YoY, ninth straight beat). US commercial revenue soared 149% YoY with remaining deal value more than doubling to $6.24B; US government +90% YoY / +18% QoQ. Karp: 'sovereign AI revolution' drives raised FY26 guide to $8.15-8.16B (from $7.65-7.66B) and US commercial >$3.424B (>134% YoY). Stock +15% pre-market Tuesday, retracing earlier weakness.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Caterpillar +11% pre-market: Q2 EPS $8.17 vs $6.17 est, record $72B backlog on AI datacenter power-gen demand; FY revenue growth raised</strong> &mdash; CAT beat top and bottom line — Q2 EPS ex-items $8.17 (vs $4.72 YA, $6.17 est), revenue $20.54B vs $18.95B est (+24% YoY, 8.4% beat). Backlog hit a record $72B, driven largely by demand tied to datacenter buildout of standby/prime power gensets. Management raised the 2026 annual revenue growth target. Positive read-through to the broader datacenter capex tape (Vertiv, Eaton, GE Vernova).</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>AMD reports Q2 tonight AMC — Street models $11.3B revenue / $1.61 EPS, MI350 volume ramp and Helios rack orders the swing factors</strong> &mdash; AMD prints after the close. Guide was $11.2B ±$300M (~46% YoY); Street at $11.3B rev, $1.61 adj EPS. Sell-side focus: MI350 shipment cadence (analysts model ~$2.5B AI-accelerator revenue, ~$4B server CPU inside a ~$6.5B datacenter print), initial quantifiable Helios rack-scale orders, and pull-through into a significant Q4 ramp. 24/7 WS $563.98 12-mo PT (~18% upside).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Piper Sandler initiates CoreWeave Overweight $151 PT, Nebius Neutral $224 PT — 'AI cloud demand skyrockets'; CRWV +15% Monday</strong> &mdash; Piper Sandler launched CRWV at Overweight ($151 target) and NBIS at Neutral ($224). The dispersion argues CoreWeave has the near-term contract-density edge while Nebius trades closer to fair value. Coming off Monday's session where CRWV jumped ~15% and NBIS +13% into the print, both names are firmly back in the AI-infrastructure risk-on trade after late-July's memory/vendor-financing scare.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung, SK hynix rebound ~2-3% in Seoul NextTrade pre-market on US tech rally; Korean chip complex stabilizes after Monday profit-take</strong> &mdash; After Monday's KOSPI -4.88% memory profit-take, Samsung Electronics traded +2.51% to KRW 245,500 and SK hynix +2.94% to KRW 1,613,000 in NextTrade pre-market Tuesday, tracking a firmer US tech tape into Big Tech earnings. Backdrop: KOSPI is still up sharply YTD after Friday's historic +17.91% rally on the AAPL memory read-through and Chey chairman insider buys. CXMT DRAM share climbed to ~8% in Q1 (from ~3% a year earlier), keeping the China overhang in view.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Amazon lifts 2026 capex to ~$220B (from $200B) — memory-price inflation the driver, RPO $496B (+2.5x YoY); AWS +37% Q2 print</strong> &mdash; Amazon added another ~10% to 2026 capex on the Q2 call — Jassy citing rising HBM/DRAM/NAND prices — bringing cash capex to ~$220B, most funneled into AWS. RPO backlog now $496B (2.5x the prior year); Amazon flagged capacity-constrained through 2028. AWS revenue +37% YoY, fastest since 2021. Direct pull-through positive for memory (MU / SK hynix / Samsung), hyperscaler power (CEG / VST / NEE / GEV), and datacenter thermal/electrical (VRT / ETN / SNEXF).</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GE Vernova gas-turbine backlog now 116 GW (from 100 GW in April); $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers are datacenter operators</strong> &mdash; Latest tally: GE Vernova's aeroderivative and heavy-duty turbine backlog reached 116 GW at end-Q2 vs 100 GW three months prior; total company backlog $176B; management targets 125 GW under contract by year-end. Datacenter-driven Electrification orders exceeded $5B YTD, with $2.7B booked in Q2 alone. Roughly one in five turbine buyers is now a datacenter developer or operator — quantifiable evidence the 'gas turbine as datacenter primary power' trade is real.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>BIS keeps H200 / MI325X China review at case-by-case with 25% tariff + 50% volume cap; H20 still requires license</strong> &mdash; The January 2026 BIS rule remains the operative regime heading into August: NVIDIA H200 and AMD MI325X sales to China moved from presumption-of-denial to case-by-case, but layered with a 25% national-security tariff, a 50%-of-US-volume cap, third-party testing, and KYC requirements. H20 sales into China still require a separate export license. Net effect: any China revenue capture faces a ~25% margin drag and half-of-US volume ceiling; Chinese hyperscalers continue accelerating domestic alternatives.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Siemens Energy holds near highs at €153 heading into fiscal Q3 print Wednesday — grid backlog and turbine tightness the tape</strong> &mdash; ENR.DE traded €153.38 Monday close (52-wk range €83.32-191.66) heading into Wednesday's fiscal Q3 report. Guide was already raised earlier this year on Grid Technology / Gas Services strength; consensus focus is on backlog additions, HVDC book-to-bill, and any commentary on datacenter-adjacent grid capex. Positive read-through candidates: ETN / SNEXF / GEV.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>GE Vernova gas-turbine backlog now 116 GW (from 100 GW in April); $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers are datacenter operators</h3><p>Latest tally: GE Vernova's aeroderivative and heavy-duty turbine backlog reached 116 GW at end-Q2 vs 100 GW three months prior; total company backlog $176B; management targets 125 GW under contract by year-end. Datacenter-driven Electrification orders exceeded $5B YTD, with $2.7B booked in Q2 alone. Roughly one in five turbine buyers is now a datacenter developer or operator — quantifiable evidence the 'gas turbine as datacenter primary power' trade is real.</p><div class="source"><a href="https://www.turbomachinerymag.com/view/ge-vernova-gas-turbine-backlog-hits-116-gw-as-power-orders-more-than-double">Turbomachinery Magazine</a></div></div>
+<div class="card"><h3>Siemens Energy holds near highs at €153 heading into fiscal Q3 print Wednesday — grid backlog and turbine tightness the tape</h3><p>ENR.DE traded €153.38 Monday close (52-wk range €83.32-191.66) heading into Wednesday's fiscal Q3 report. Guide was already raised earlier this year on Grid Technology / Gas Services strength; consensus focus is on backlog additions, HVDC book-to-bill, and any commentary on datacenter-adjacent grid capex. Positive read-through candidates: ETN / SNEXF / GEV.</p><div class="source"><a href="https://www.investing.com/equities/siemens-energy-ag">Investing.com</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>AMD reports Q2 tonight AMC — Street models $11.3B revenue / $1.61 EPS, MI350 volume ramp and Helios rack orders the swing factors</h3><p>AMD prints after the close. Guide was $11.2B ±$300M (~46% YoY); Street at $11.3B rev, $1.61 adj EPS. Sell-side focus: MI350 shipment cadence (analysts model ~$2.5B AI-accelerator revenue, ~$4B server CPU inside a ~$6.5B datacenter print), initial quantifiable Helios rack-scale orders, and pull-through into a significant Q4 ramp. 24/7 WS $563.98 12-mo PT (~18% upside).</p><div class="source"><a href="https://seekingalpha.com/news/4623812-amd-q2-2026-earnings-preview">Seeking Alpha</a></div></div>
+<div class="card"><h3>Samsung, SK hynix rebound ~2-3% in Seoul NextTrade pre-market on US tech rally; Korean chip complex stabilizes after Monday profit-take</h3><p>After Monday's KOSPI -4.88% memory profit-take, Samsung Electronics traded +2.51% to KRW 245,500 and SK hynix +2.94% to KRW 1,613,000 in NextTrade pre-market Tuesday, tracking a firmer US tech tape into Big Tech earnings. Backdrop: KOSPI is still up sharply YTD after Friday's historic +17.91% rally on the AAPL memory read-through and Chey chairman insider buys. CXMT DRAM share climbed to ~8% in Q1 (from ~3% a year earlier), keeping the China overhang in view.</p><div class="source"><a href="https://en.sedaily.com/finance/2026/08/04/samsung-sk-hynix-rebound-2-percent-in-pre-market-on-us-rally">Seoul Economic Daily</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Palantir Q2 blowout: revenue +93% to $1.94B, US commercial +149%, FY guide raised to $8.15-8.16B — 'otherworldly' quarter</h3><p>PLTR reported Q2 AMC Aug 3: adj EPS $0.41 vs $0.35 est, revenue $1.94B vs $1.80B est (+93% YoY, ninth straight beat). US commercial revenue soared 149% YoY with remaining deal value more than doubling to $6.24B; US government +90% YoY / +18% QoQ. Karp: 'sovereign AI revolution' drives raised FY26 guide to $8.15-8.16B (from $7.65-7.66B) and US commercial >$3.424B (>134% YoY). Stock +15% pre-market Tuesday, retracing earlier weakness.</p><div class="source"><a href="https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>BIS keeps H200 / MI325X China review at case-by-case with 25% tariff + 50% volume cap; H20 still requires license</h3><p>The January 2026 BIS rule remains the operative regime heading into August: NVIDIA H200 and AMD MI325X sales to China moved from presumption-of-denial to case-by-case, but layered with a 25% national-security tariff, a 50%-of-US-volume cap, third-party testing, and KYC requirements. H20 sales into China still require a separate export license. Net effect: any China revenue capture faces a ~25% margin drag and half-of-US volume ceiling; Chinese hyperscalers continue accelerating domestic alternatives.</p><div class="source"><a href="https://introl.com/blog/bis-export-policy-h200-mi325x-china-case-by-case-2026">Introl (BIS policy tracker)</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Caterpillar +11% pre-market: Q2 EPS $8.17 vs $6.17 est, record $72B backlog on AI datacenter power-gen demand; FY revenue growth raised</h3><p>CAT beat top and bottom line — Q2 EPS ex-items $8.17 (vs $4.72 YA, $6.17 est), revenue $20.54B vs $18.95B est (+24% YoY, 8.4% beat). Backlog hit a record $72B, driven largely by demand tied to datacenter buildout of standby/prime power gensets. Management raised the 2026 annual revenue growth target. Positive read-through to the broader datacenter capex tape (Vertiv, Eaton, GE Vernova).</p><div class="source"><a href="https://ca.finance.yahoo.com/news/caterpillar-lifts-2026-sales-growth-115130672.html">Financial Content / Yahoo Finance</a></div></div>
+<div class="card"><h3>Piper Sandler initiates CoreWeave Overweight $151 PT, Nebius Neutral $224 PT — 'AI cloud demand skyrockets'; CRWV +15% Monday</h3><p>Piper Sandler launched CRWV at Overweight ($151 target) and NBIS at Neutral ($224). The dispersion argues CoreWeave has the near-term contract-density edge while Nebius trades closer to fair value. Coming off Monday's session where CRWV jumped ~15% and NBIS +13% into the print, both names are firmly back in the AI-infrastructure risk-on trade after late-July's memory/vendor-financing scare.</p><div class="source"><a href="https://www.benzinga.com/analyst-stock-ratings/upgrades/26/08/60902267/this-palantir-analyst-turns-bullish-here-are-top-5-upgrades-for-tuesday">Benzinga</a></div></div>
+<div class="card"><h3>Amazon lifts 2026 capex to ~$220B (from $200B) — memory-price inflation the driver, RPO $496B (+2.5x YoY); AWS +37% Q2 print</h3><p>Amazon added another ~10% to 2026 capex on the Q2 call — Jassy citing rising HBM/DRAM/NAND prices — bringing cash capex to ~$220B, most funneled into AWS. RPO backlog now $496B (2.5x the prior year); Amazon flagged capacity-constrained through 2028. AWS revenue +37% YoY, fastest since 2021. Direct pull-through positive for memory (MU / SK hynix / Samsung), hyperscaler power (CEG / VST / NEE / GEV), and datacenter thermal/electrical (VRT / ETN / SNEXF).</p><div class="source"><a href="https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">PLTR</span> Deutsche Bank: Hold &rarr; <strong>Buy</strong> | PT: N/A &rarr; $200 </p>
+<p><span class="ticker">PLTR</span> Citigroup: Buy &rarr; <strong>Buy</strong> | PT: $200 &rarr; $245 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">PLTR</span> D.A. Davidson: Buy &rarr; <strong>Buy</strong> | PT: $175 &rarr; $200 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">PLTR</span> Wedbush: None &rarr; <strong>Outperform</strong> | PT: N/A &rarr; $230 </p>
+<p><span class="ticker">CRWV</span> Piper Sandler: None &rarr; <strong>Overweight</strong> | PT: N/A &rarr; $151 </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">PLTR</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 blowout: rev +93% YoY, US commercial +149% YoY, EPS $0.41 vs $0.35; FY guide raised $500M+; multiple PT hikes (Citi $245, Wedbush $230, DB upgrade to Buy $200). Stock +15% pre-market.</p>
+<p><span class="ticker">AMD</span> <span class="signal-badge signal-neutral">Momentum</span> Reports Q2 tonight AMC — Street $11.3B rev / $1.61 EPS; MI350 volume ramp + first Helios rack orders the swing factors; guide of $11.2B ±$300M (+46% YoY) sets the near-term bar.</p>
+<p><span class="ticker">AMZN</span> <span class="signal-badge signal-neutral">Momentum</span> 2026 capex raised to ~$220B (from $200B) on memory-price inflation; RPO backlog $496B (+2.5x YoY); capacity-constrained through 2028 — durable read-through to memory, hyperscaler power, and datacenter electrical suppliers.</p>
+<p><span class="ticker">GEV</span> <span class="signal-badge signal-neutral">Momentum</span> Gas turbine backlog now 116 GW (up 16 GW in one quarter), targeting 125 GW by year-end; $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers are datacenter operators.</p>
+<p><span class="ticker">CRWV</span> <span class="signal-badge signal-neutral">Momentum</span> Piper Sandler initiates Overweight $151 PT; +15% Monday session; AI-cloud demand narrative resumes after late-July vendor-financing scare.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">PLTR</span></td><td>Up</td><td>+15% pre-mkt: Q2 rev $1.94B +93% YoY, US commercial +149%, FY guide raised to $8.15-8.16B; Citi $245, Wedbush $230, DB upgrade to Buy $200</td></tr>
+<tr><td><span class="ticker ">AMD</span></td><td>Neutral</td><td>Q2 tonight AMC; Street $11.3B rev / $1.61 EPS; MI350 volume + Helios orders the focus</td></tr>
+<tr><td><span class="ticker up">CAT</span></td><td>Up</td><td>+11% pre-mkt: Q2 EPS $8.17 vs $6.17 est, revenue $20.54B (+24% YoY); record $72B backlog on datacenter power-gen demand</td></tr>
+<tr><td><span class="ticker up">AMZN</span></td><td>Up</td><td>2026 capex raised to ~$220B; RPO $496B (+2.5x YoY); capacity-constrained through 2028</td></tr>
+<tr><td><span class="ticker up">CRWV</span></td><td>Up</td><td>Piper Sandler initiates Overweight $151 PT</td></tr>
+<tr><td><span class="ticker up">GEV</span></td><td>Up</td><td>Turbine backlog 116 GW (+16 GW QoQ); $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers = datacenter operators</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>+2.51% NextTrade pre-mkt; Korean chip complex stabilizes after Monday profit-take</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>+2.94% NextTrade pre-mkt; tracking US tech tape into Big Tech earnings</td></tr>
+<tr><td><span class="ticker ">ENR.DE</span></td><td>Neutral</td><td>€153.38 close ahead of fiscal Q3 print Wed; guide already raised on grid/gas services strength</td></tr>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>H200 China sales still capped at 25% tariff / 50% volume ceiling; H20 requires license — margin drag intact</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-08-04 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-08-04",
+    "headline": "Palantir Q2 blowout: revenue +93% to $1.94B, US commercial +149%, FY guide raised to $8.15-8.16B — 'otherworldly' quarter",
+    "summary": "PLTR reported Q2 AMC Aug 3: adj EPS $0.41 vs $0.35 est, revenue $1.94B vs $1.80B est (+93% YoY, ninth straight beat). US commercial revenue soared 149% YoY with remaining deal value more than doubling to $6.24B; US government +90% YoY / +18% QoQ. Karp: 'sovereign AI revolution' drives raised FY26 guide to $8.15-8.16B (from $7.65-7.66B) and US commercial >$3.424B (>134% YoY). Stock +15% pre-market Tuesday, retracing earlier weakness.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Caterpillar +11% pre-market: Q2 EPS $8.17 vs $6.17 est, record $72B backlog on AI datacenter power-gen demand; FY revenue growth raised",
+    "summary": "CAT beat top and bottom line — Q2 EPS ex-items $8.17 (vs $4.72 YA, $6.17 est), revenue $20.54B vs $18.95B est (+24% YoY, 8.4% beat). Backlog hit a record $72B, driven largely by demand tied to datacenter buildout of standby/prime power gensets. Management raised the 2026 annual revenue growth target. Positive read-through to the broader datacenter capex tape (Vertiv, Eaton, GE Vernova).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Financial Content / Yahoo Finance",
+    "source_url": "https://ca.finance.yahoo.com/news/caterpillar-lifts-2026-sales-growth-115130672.html"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "AMD reports Q2 tonight AMC — Street models $11.3B revenue / $1.61 EPS, MI350 volume ramp and Helios rack orders the swing factors",
+    "summary": "AMD prints after the close. Guide was $11.2B ±$300M (~46% YoY); Street at $11.3B rev, $1.61 adj EPS. Sell-side focus: MI350 shipment cadence (analysts model ~$2.5B AI-accelerator revenue, ~$4B server CPU inside a ~$6.5B datacenter print), initial quantifiable Helios rack-scale orders, and pull-through into a significant Q4 ramp. 24/7 WS $563.98 12-mo PT (~18% upside).",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4623812-amd-q2-2026-earnings-preview"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Piper Sandler initiates CoreWeave Overweight $151 PT, Nebius Neutral $224 PT — 'AI cloud demand skyrockets'; CRWV +15% Monday",
+    "summary": "Piper Sandler launched CRWV at Overweight ($151 target) and NBIS at Neutral ($224). The dispersion argues CoreWeave has the near-term contract-density edge while Nebius trades closer to fair value. Coming off Monday's session where CRWV jumped ~15% and NBIS +13% into the print, both names are firmly back in the AI-infrastructure risk-on trade after late-July's memory/vendor-financing scare.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/08/60902267/this-palantir-analyst-turns-bullish-here-are-top-5-upgrades-for-tuesday"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Samsung, SK hynix rebound ~2-3% in Seoul NextTrade pre-market on US tech rally; Korean chip complex stabilizes after Monday profit-take",
+    "summary": "After Monday's KOSPI -4.88% memory profit-take, Samsung Electronics traded +2.51% to KRW 245,500 and SK hynix +2.94% to KRW 1,613,000 in NextTrade pre-market Tuesday, tracking a firmer US tech tape into Big Tech earnings. Backdrop: KOSPI is still up sharply YTD after Friday's historic +17.91% rally on the AAPL memory read-through and Chey chairman insider buys. CXMT DRAM share climbed to ~8% in Q1 (from ~3% a year earlier), keeping the China overhang in view.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seoul Economic Daily",
+    "source_url": "https://en.sedaily.com/finance/2026/08/04/samsung-sk-hynix-rebound-2-percent-in-pre-market-on-us-rally"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Amazon lifts 2026 capex to ~$220B (from $200B) — memory-price inflation the driver, RPO $496B (+2.5x YoY); AWS +37% Q2 print",
+    "summary": "Amazon added another ~10% to 2026 capex on the Q2 call — Jassy citing rising HBM/DRAM/NAND prices — bringing cash capex to ~$220B, most funneled into AWS. RPO backlog now $496B (2.5x the prior year); Amazon flagged capacity-constrained through 2028. AWS revenue +37% YoY, fastest since 2021. Direct pull-through positive for memory (MU / SK hynix / Samsung), hyperscaler power (CEG / VST / NEE / GEV), and datacenter thermal/electrical (VRT / ETN / SNEXF).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "GE Vernova gas-turbine backlog now 116 GW (from 100 GW in April); $2.7B Q2 datacenter Electrification orders; ~20% of turbine buyers are datacenter operators",
+    "summary": "Latest tally: GE Vernova's aeroderivative and heavy-duty turbine backlog reached 116 GW at end-Q2 vs 100 GW three months prior; total company backlog $176B; management targets 125 GW under contract by year-end. Datacenter-driven Electrification orders exceeded $5B YTD, with $2.7B booked in Q2 alone. Roughly one in five turbine buyers is now a datacenter developer or operator — quantifiable evidence the 'gas turbine as datacenter primary power' trade is real.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Turbomachinery Magazine",
+    "source_url": "https://www.turbomachinerymag.com/view/ge-vernova-gas-turbine-backlog-hits-116-gw-as-power-orders-more-than-double"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "BIS keeps H200 / MI325X China review at case-by-case with 25% tariff + 50% volume cap; H20 still requires license",
+    "summary": "The January 2026 BIS rule remains the operative regime heading into August: NVIDIA H200 and AMD MI325X sales to China moved from presumption-of-denial to case-by-case, but layered with a 25% national-security tariff, a 50%-of-US-volume cap, third-party testing, and KYC requirements. H20 sales into China still require a separate export license. Net effect: any China revenue capture faces a ~25% margin drag and half-of-US volume ceiling; Chinese hyperscalers continue accelerating domestic alternatives.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Introl (BIS policy tracker)",
+    "source_url": "https://introl.com/blog/bis-export-policy-h200-mi325x-china-case-by-case-2026"
+  },
+  {
+    "date": "2026-08-04",
+    "headline": "Siemens Energy holds near highs at €153 heading into fiscal Q3 print Wednesday — grid backlog and turbine tightness the tape",
+    "summary": "ENR.DE traded €153.38 Monday close (52-wk range €83.32-191.66) heading into Wednesday's fiscal Q3 report. Guide was already raised earlier this year on Grid Technology / Gas Services strength; consensus focus is on backlog additions, HVDC book-to-bill, and any commentary on datacenter-adjacent grid capex. Positive read-through candidates: ETN / SNEXF / GEV.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/equities/siemens-energy-ag"
+  }
+]

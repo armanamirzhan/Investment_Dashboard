@@ -4075,5 +4075,41 @@
     "new_target": 220,
     "old_rating": "Neutral",
     "old_target": 200
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "AMD",
+    "firm": "Bernstein SocGen Group",
+    "new_rating": "Outperform",
+    "new_target": 650,
+    "old_rating": "Outperform",
+    "old_target": 600
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "AMD",
+    "firm": "Truist Securities",
+    "new_rating": "Buy",
+    "new_target": 594,
+    "old_rating": "Buy",
+    "old_target": 478
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "ANET",
+    "firm": "Needham",
+    "new_rating": "Buy",
+    "new_target": 260,
+    "old_rating": "Buy",
+    "old_target": 200
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "ANET",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 240,
+    "old_rating": "Buy",
+    "old_target": 200
   }
 ]

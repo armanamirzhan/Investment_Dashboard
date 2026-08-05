@@ -3491,5 +3491,19 @@
     "signal_type": "earnings_beat",
     "description": "Fiscal Q3 blowout: EPS €1.28 vs €1.16 est, record €11.4B revenue and €17.9B orders, profit before special items >3x YoY (14.2% margin), Gamesa first profitable quarter since Q4 FY22. FY26 outlook reaffirmed at 14-16% comp rev growth. Shares -0.9% on Q4 seasonality warning — potentially transient. Datacenter-power capex thesis intact.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Renewed intraday selloff (down another ~5-9% Wed on top of Tuesday AH's ~8% post-earnings drop) after Elon Musk told SpaceX's first earnings call that SpaceX will build its AI infrastructure 'exclusively' on Nvidia (citing Vera Rubin architecture), including a new Nvidia-designed Starmind AI1 satellite compute payload. Multiple outlets confirm SpaceX had near-zero AMD chip orders on the books versus OpenAI/Meta/Anthropic's ~14GW of AMD commitments, suggesting the direct revenue impact is limited, but the symbolism of an explicit Musk snub compounded post-earnings margin-guidance concerns (Helios ramp mix pressuring near-term gross margin). Wall Street stayed broadly constructive on fundamentals (Bernstein PT $600->$650, Truist $478->$594, both reiterating Buy/Outperform) even as the stock fell.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Shares gained after Elon Musk said on SpaceX's first earnings call that SpaceX will build exclusively on Nvidia (Vera Rubin architecture) going forward, including a new Nvidia-designed Starmind AI1 satellite compute payload and a tentative 20GW power/cooling target by end-2027. Read-through framed by sell-side as incrementally positive for Nvidia's total addressable compute demand.",
+    "severity": "medium"
   }
 ]

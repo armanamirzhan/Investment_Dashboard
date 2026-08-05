@@ -4867,5 +4867,77 @@
       }
     ],
     "file": "morning-news/2026-08-04.html"
+  },
+  {
+    "date": "2026-08-05",
+    "tickers": [
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "-8% AH: Q2 beat (rev $11.54B / EPS $1.66, DC $6.7B +107%) + Q3 guide $13B ahead of Street, but market wanted bigger Helios; OpenAI 6GW / Anthropic 2GW / Meta / Oracle Helios customers"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Record fiscal Q3: EPS €1.28 vs €1.16 est, rev €11.4B (record), orders €17.9B (record), Gamesa first profit since FY22 Q4; FY26 14-16% growth reaffirmed"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "down",
+        "note": "-2% overnight after Tuesday's +29.5% pop; UBS PT $200→$220, Citi/Wedbush/DA Davidson reiterate; 'weakens bear case on AI competition'"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Asia bounce continues as AMD DC +107% validates HBM demand; Samsung +2.51% Tue, extends into Wed"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK hynix +2.94% Tue; ~62% HBM share into MI450 ramp 2H26"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "HBM4 volume for Nvidia Vera Rubin; 15k wafers/mo capacity targeted end-2026; supply constrained thru 2028 per AMZN"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Q2 FY27 print Aug 26; Commerce: H200 China shipments 'very few' despite $10B licenses approved"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "ENR.DE beat + AMD Data Center print reinforce turbine/grid capex read-through"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "hardware",
+        "signal": "AMD BEATS BUT SELLS OFF: Q2 rev $11.54B (+50%), DC $6.7B (+107%), Q3 guide $13B ahead of Street — but stock -8% AH as market priced bigger Helios; OpenAI 6GW / Anthropic 2GW / Meta / Oracle initial Helios customers, first ship this qtr"
+      },
+      {
+        "ticker": "energy",
+        "signal": "SIEMENS ENERGY RECORD Q3: EPS €1.28 vs €1.16 est, rev €11.4B (record), orders €17.9B (record), Gamesa first profit since Q4 FY22; FY26 14-16% comp rev growth reaffirmed — datacenter-power capex thesis validated"
+      },
+      {
+        "ticker": "software",
+        "signal": "PLTR ANALYST PILE-ON: UBS PT $200→$220, Citi $245 / Wedbush $230 / DA Davidson $200 reiterate post-blowout; -2% overnight retrace after Tue +29.5% pop; 'weakens bear case on AI competition'"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "HBM TIGHTNESS CONFIRMED: AMD Data Center +107% YoY validates HBM demand; SK hynix ~62% share, MU 15k wafer/mo HBM4 targeted end-2026; 'supply-constrained thru 2028' per AMZN"
+      },
+      {
+        "ticker": "macro",
+        "signal": "MIDDLE EAST SAFE-HAVEN: gold +1.83% to $4,228/oz, silver +2.59% to $61.81/oz on Houthi tanker strike; equity futures still positive (S&P +0.53%)"
+      },
+      {
+        "ticker": "policy",
+        "signal": "H200 CHINA UPTAKE UNDERWHELMS: Commerce told Congress July 14 that shipments to China 'very few' despite ~$10B in approved BIS licenses — CXMT DRAM share ~8% (from 3% YA), domestic accel picks up"
+      }
+    ],
+    "file": "morning-news/2026-08-05.html"
   }
 ]

@@ -3477,5 +3477,19 @@
     "signal_type": "momentum",
     "description": "Piper Sandler initiates Overweight $151 PT; +15% Monday session; AI-cloud demand narrative resumes after late-July vendor-financing scare.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "AMD",
+    "signal_type": "earnings_beat",
+    "description": "Q2 beat top/bottom line (rev $11.54B vs $11.31B est, EPS $1.66 vs $1.61) and Q3 guide $13B ± $300M ahead of Street ~$12.8B; Data Center +107% YoY. But stock -8% AH: market had priced a bigger Helios beat and rising capex weighed. Set-up: post-print pullback into visible Helios ramp Q4/1H27 with OpenAI 6GW + Anthropic 2GW commitments.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-05",
+    "ticker": "ENR.DE",
+    "signal_type": "earnings_beat",
+    "description": "Fiscal Q3 blowout: EPS €1.28 vs €1.16 est, record €11.4B revenue and €17.9B orders, profit before special items >3x YoY (14.2% margin), Gamesa first profitable quarter since Q4 FY22. FY26 outlook reaffirmed at 14-16% comp rev growth. Shares -0.9% on Q4 seasonality warning — potentially transient. Datacenter-power capex thesis intact.",
+    "severity": "medium"
   }
 ]

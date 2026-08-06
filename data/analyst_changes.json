@@ -4111,5 +4111,14 @@
     "new_target": 240,
     "old_rating": "Buy",
     "old_target": 200
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "PLTR",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Neutral",
+    "new_target": 156,
+    "old_rating": "Neutral",
+    "old_target": 138
   }
 ]

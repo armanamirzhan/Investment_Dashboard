@@ -3505,5 +3505,33 @@
     "signal_type": "momentum",
     "description": "Shares gained after Elon Musk said on SpaceX's first earnings call that SpaceX will build exclusively on Nvidia (Vera Rubin architecture) going forward, including a new Nvidia-designed Starmind AI1 satellite compute payload and a tentative 20GW power/cooling target by end-2027. Read-through framed by sell-side as incrementally positive for Nvidia's total addressable compute demand.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "CEG",
+    "signal_type": "earnings_beat",
+    "description": "Q2 beat + raised FY26 EPS guide to $11.50-$12.50 (from $11.00-$12.00); +920 MW long-term nuclear PPAs; +6.5% pre-market",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "TLN",
+    "signal_type": "earnings_beat",
+    "description": "Q2 $374M adj EBITDA / $212M FCF; raised 2026 guide + 2027/2028 outlooks after closing Cornerstone acquisition; AWS Susquehanna PPA book ~$18B thru 2042",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Groves Isotope Test Reactor reached criticality (DOE Aug 6) — first operational SMR/advanced-reactor milestone; de-risks commercialization narrative ahead of Aurora COLA review",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-06",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "SNDK Q4 revenue +372% YoY, 2/3 of QoQ growth from pricing — validates NAND / DRAM / HBM supply-constrained framework and pricing pass-through thesis; positive read-through for MU/000660.KS/005930.KS",
+    "severity": "medium"
   }
 ]

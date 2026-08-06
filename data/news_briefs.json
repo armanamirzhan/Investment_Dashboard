@@ -4939,5 +4939,91 @@
       }
     ],
     "file": "morning-news/2026-08-05.html"
+  },
+  {
+    "date": "2026-08-06",
+    "tickers": [
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "+6.5% pre-market: Q2 beat + FY26 EPS guide raised to $11.50-$12.50 (from $11.00-$12.00); +920 MW long-term nuclear PPAs added"
+      },
+      {
+        "ticker": "TLN",
+        "direction": "up",
+        "note": "Q2 $374M adj EBITDA; raises 2026/2027/2028 outlook after Cornerstone gas close; AWS Susquehanna PPA book ~$18B thru 2042"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "Groves Isotope Test Reactor reached criticality (DOE Aug 6) — first operational advanced-reactor milestone; de-risks Aurora timeline"
+      },
+      {
+        "ticker": "SNDK",
+        "direction": "up",
+        "note": "Q4 rev $8.97B (+372% YoY), gross margin 84.6%, 2/3 of QoQ growth = pricing; Q1 FY27 guide $10.3-10.8B — memory pricing supercycle intact"
+      },
+      {
+        "ticker": "DDOG",
+        "direction": "down",
+        "note": "-20% pre-market despite beat + FY guide raise: Q3 revenue guide implies deceleration; largest single-day drop on record"
+      },
+      {
+        "ticker": "9984.T",
+        "direction": "up",
+        "note": "SoftBank Q1 FY27: rev ¥1.815T +9% YoY; ARM AGI CPU orders >$2B (vs orig ~$1B FY26+FY27); AI segment +30% CAGR guide"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "neutral",
+        "note": "Analyst pile-on continues: Cantor $138→$156 (Neutral); 20 analysts Buy consensus post +29.5% Tue"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Q2 FY27 print Aug 26; H200 China shipments 'very few' per Commerce testimony despite ~$10B licenses approved"
+      },
+      {
+        "ticker": "VST",
+        "direction": "neutral",
+        "note": "Q2 print Fri Aug 7 pre-mkt; cons EPS $2.43 (+140% YoY) / cons EBITDA ~$1.79B (+34% YoY); Meta 20-year PPA framework"
+      },
+      {
+        "ticker": "NET",
+        "direction": "neutral",
+        "note": "Cloudflare Q2 tonight AMC; cons rev $665M; ABNB also AMC (cons rev $3.58B / EPS $1.22)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "energy",
+        "signal": "CEG BEAT + PPA BOOK: Q2 beat, FY26 EPS guide raised to $11.50-$12.50, +920 MW new long-term nuclear PPAs signed with investment-grade customers — nuclear-datacenter thesis compounds; +6.5% pre-mkt"
+      },
+      {
+        "ticker": "energy",
+        "signal": "TLN RAISES 26/27/28: $374M Q2 adj EBITDA, Cornerstone gas acquisition closes (+2.6 GW), AWS Susquehanna PPA ~$18B revenue thru 2042 — cleanest nuclear-scarcity-meets-datacenter pure-play read"
+      },
+      {
+        "ticker": "energy",
+        "signal": "OKLO CRITICALITY: Groves Isotope Test Reactor reached self-sustaining chain reaction (DOE Aug 6) — first operational SMR/advanced-reactor milestone; de-risks commercialization timeline ahead of Aurora COLA review"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "SNDK PRICING TELL: Q4 rev +372% YoY / +51% QoQ with 2/3 of sequential growth from pricing not volume, gross margin 84.6% record — NAND/DRAM/HBM supply-constrained-through-2028 framework intact; positive read-through MU/000660.KS/005930.KS"
+      },
+      {
+        "ticker": "software",
+        "signal": "DDOG -20% DESPITE BEAT+RAISE: Q3 revenue guide implies decel; largest single-day drop on record — pocket software multiple compression, not a datacenter-demand read"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "ARM AGI CPU ORDERS >$2B: cumulative customer demand up from original ~$1B FY26+FY27 combined guide; datacenter Arm-CPU competitive share thesis vs INTC Xeon / AMD EPYC"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US MACRO CALENDAR: Challenger job cuts (prev YoY -4.5%), initial claims (prev 197k / 57-yr low), Q2 preliminary productivity (+0.7% cons); SpaceX IPO lockup expires Aug 6"
+      }
+    ],
+    "file": "morning-news/2026-08-06.html"
   }
 ]

@@ -4156,5 +4156,14 @@
     "new_target": 222,
     "old_rating": "Buy",
     "old_target": 230
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "CRWV",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 150,
+    "old_rating": "Buy",
+    "old_target": 135
   }
 ]

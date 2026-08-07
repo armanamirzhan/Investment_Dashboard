@@ -5025,5 +5025,91 @@
       }
     ],
     "file": "morning-news/2026-08-06.html"
+  },
+  {
+    "date": "2026-08-07",
+    "tickers": [
+      {
+        "ticker": "NET",
+        "direction": "up",
+        "note": "+14.9% AH: Q2 rev $696M beat $665M cons, +36% YoY (accel), DBNR 120% (+6pt YoY), Q3 guide $736.5M above cons; agentic-AI pivot validated"
+      },
+      {
+        "ticker": "VST",
+        "direction": "neutral",
+        "note": "Q2 adj EBITDA $1.77B beat $1.64B (+31% YoY); rev $4.0B miss $5.46B on $472M non-cash hedge mark; FY26 $6.8-7.6B EBITDA affirmed; mixed PT reactions"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "Q2 rev $1.21M first material commercial; Aurora-INL PDC NRC-approved + Aurora-Ohio 1.2 GW PJM interconnection filed; cash burn -$48.5M vs -$33.1M Q1"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "Q2 rev $0.08M -99% YoY on Fluor RoPower FEED completion (92.5% miss); $1.9B cash pile (+$900M QoQ) preserved for TVA-scale award"
+      },
+      {
+        "ticker": "PWR",
+        "direction": "up",
+        "note": "Upgraded to Overweight at KeyBanc $807 PT — utility+datacenter EPC bellwether (record $48.5B backlog); positive read-through GEV/ETN/VRT"
+      },
+      {
+        "ticker": "TSEM",
+        "direction": "up",
+        "note": "Initiated Buy at BofA, $367 PT — specialty foundry re-rating; positive read GFS/UMC/AMKR/ASE"
+      },
+      {
+        "ticker": "macro",
+        "direction": "up",
+        "note": "July NFP -23k vs +80k cons; May+June -103k rev; unemp 4.1% — Sep Fed hike odds cut to 43.9% from 57%; futures S&P +0.3%, Nasdaq +0.9%"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Yesterday's Q2 beat + FY26 EPS $11.50-12.50 guide + 920 MW PPAs signed follows through; VST/TLN read-through positive on power-price realization"
+      },
+      {
+        "ticker": "TTWO",
+        "direction": "neutral",
+        "note": "Q1 FY27 tonight AMC — first GTA VI pre-order window disclosure; not in tracked universe but signals broader consumer strength"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "neutral",
+        "note": "Q2 print Aug 11 AMC — cons rev $2.56B (+108% YoY); watch for margin trajectory + 1.7 GW year-end power target"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "JOBS SHOCK: NFP -23k vs +80k, May/Jun -103k rev, unemp 4.1% — Sep hike odds to 43.9% (from 57%), hold odds 60.4% (from 43.2%); futures S&P +0.3%, Nasdaq +0.9%, Dow +0.1%"
+      },
+      {
+        "ticker": "software",
+        "signal": "NET BLOWOUT: Q2 rev $696M beat $665M cons, +36% YoY (ACCELERATION from 32%), DBNR 120% +6pt YoY, 986 record LTM net adds >$100k, Q3 guide +2.1% above cons; +14.9% AH — agentic-AI pivot delivering; contrasts sharply with DDOG -20% Wed"
+      },
+      {
+        "ticker": "energy",
+        "signal": "VST Q2 SPLIT: adj EBITDA $1.77B beat +31% YoY on realized power+capacity, but $4.0B rev miss $5.46B on $472M non-cash mark-to-market hedge loss; FY26 EBITDA guide $6.8-7.6B intact — sell-side PT tape mixed (MS $208→$212, BofA $202→$196, UBS $233→$227)"
+      },
+      {
+        "ticker": "energy",
+        "signal": "NUCLEAR SPLIT: OKLO Q2 first commercial rev + Aurora-INL PDC NRC-approved + Aurora-Ohio 1.2 GW PJM interconnection filed (execution wins) vs SMR pre-revenue print $0.08M -99% YoY after Fluor RoPower FEED completion — regulatory momentum favors OKLO for now"
+      },
+      {
+        "ticker": "integration",
+        "signal": "PWR UPGRADE: KeyBanc Sector Weight → Overweight $807 PT — utility+datacenter EPC bellwether at record $48.5B backlog; direct read-through to GEV (turbines/HVDC), ETN (DC orders +240% Q1), VRT (liquid cooling +30% Q1)"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TSEM BofA INIT: Buy $367 PT — specialty foundry re-rating on datacenter power-mgmt / RF / optical demand; positive read-through GFS/UMC/AMKR/ASE (OSAT)"
+      },
+      {
+        "ticker": "geopolitics",
+        "signal": "HORMUZ REMAINS CLOSED: since July 30 after June US-Iran deal broke down; ~20% global oil / 20% LNG at risk — supports sustained power-price premium (validates VST realization beat) and long-dated PPA thesis for CEG/TLN"
+      }
+    ],
+    "file": "morning-news/2026-08-07.html"
   }
 ]

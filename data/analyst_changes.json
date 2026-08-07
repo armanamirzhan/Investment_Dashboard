@@ -4120,5 +4120,41 @@
     "new_target": 156,
     "old_rating": "Neutral",
     "old_target": 138
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "VST",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 212,
+    "old_rating": "Overweight",
+    "old_target": 208
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "VST",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 196,
+    "old_rating": "Buy",
+    "old_target": 202
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "VST",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 227,
+    "old_rating": "Buy",
+    "old_target": 233
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "VST",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 222,
+    "old_rating": "Buy",
+    "old_target": 230
   }
 ]

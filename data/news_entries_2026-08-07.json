@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-08-07",
+    "headline": "US July nonfarm payrolls -23k vs +80k est; May+June revised down 103k; unemployment 4.1% — Fed September hike odds slashed to 43.9% from 57%, cut odds pick up",
+    "summary": "BLS Employment Situation released 8:30 AM ET Aug 7: nonfarm payrolls -23,000 in July vs +80k Dow Jones consensus. Unemployment rate 4.1%. May and June combined revised down 103k. Job losses concentrated in local government education and retail trade; healthcare continued to trend up. Rate futures reprice: probability Fed holds at 3.50-3.75% in September rose to 60.4% from 43.2% pre-print; September hike odds cut to 43.9% from 57%. Read-through: bullish for rate-sensitive AI-buildout names (OKLO/SMR/NEE/VST — pre-revenue nuclear + capex-heavy utilities), positive for hyperscaler capex financing (MSFT/AMZN/GOOGL/META/ORCL — $660-690B 2026 collective spend), and broadly supportive of long-duration software (PLTR/CRWD/NET/SNOW/CRM). S&P futures +0.3%, Nasdaq +0.9%, Dow +0.1% on the print.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "BLS Employment Situation",
+    "source_url": "https://www.bls.gov/news.release/archives/empsit_08072026.htm"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Cloudflare Q2 blowout AMC Aug 6: revenue $696M vs $665M est (+36% YoY), DBNR 120% (+6pt YoY), Q3 guide $736.5M (2.1% above cons); +14.9% AH to $328.82 despite $151M agentic-AI restructuring charge",
+    "summary": "NET reported Q2 2026 AMC Aug 6: revenue $696.1M vs $665M est (+36% YoY, ACCELERATION from 32%), net income $107.8M / diluted EPS $0.29, dollar-based net retention 120% (+2pt QoQ / +6pt YoY), 4,698 customers >$100k ARR (+27% YoY) with a record 986 net adds LTM. Developer platform surpassed 7.4M devs (+~2M in Q2 alone). Gross margin 73.1% — first sequential improvement in eight quarters. FCF $56.4M (+69% YoY). Q3 revenue guide $736.5M vs $721M cons (+2.1%). Traders looked past $150.7M restructuring charge tied to shift to 'agentic AI-first' operating model. Stock +14.9% AH. Read-through: strongly positive for AI-native software / agentic infra thesis (SNOW, MSFT/AZR AI Foundry, PLTR AIP); competitive pressure narrative on DDOG (-20% Aug 6) further discredited — the software print separation is fundamental, not sector-wide.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Cloudflare IR",
+    "source_url": "https://www.businesswire.com/news/home/20260806407787/en/Cloudflare-Announces-Second-Quarter-2026-Financial-Results"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Vistra Q2 pre-open Aug 7: adj EBITDA $1.77B beat $1.64B est (+31% YoY on higher realized power+capacity prices and Lotus plants), revenue $4.0B misses $5.46B; FY26 EBITDA guide $6.8-7.6B affirmed",
+    "summary": "VST reported Q2 2026 pre-open Aug 7: ongoing operations adjusted EBITDA $1.767B vs $1.64B est (+31% YoY, driven by higher realized energy+capacity prices and full-quarter Lotus contribution), adj FCF before growth $1.5B. Revenue $4.0B missed $5.46B consensus and net income $305M missed $556M — but the shortfall reflects a $472M unrealized non-cash commodity hedging loss that will settle in future years (Q2 2025 comp was +$16M unrealized gain). FY26 adj EBITDA guide $6.8-7.6B and adj FCF before growth $3.9-4.7B affirmed. Analyst tape mixed: Morgan Stanley $208→$212 (Overweight), BofA $202→$196 (Buy), UBS $233→$227 (Buy), TD Cowen $230→$222 (Buy) — desks fading the headline print but underlying capacity/PPA thesis intact. Read-through: broadly reinforces the CEG/TLN nuclear-scarcity + gas-fleet PPA thesis; the market will pay for realized EBITDA beat over headline revenue optics.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Vistra IR",
+    "source_url": "https://www.prnewswire.com/news-releases/vistra-reports-second-quarter-2026-results-302845874.html"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Oklo Q2 pre-open Aug 7: revenue $1.21M (first material commercial revenue, vs $0 in Q2 2025) / net loss $48.5M widens from Q1 $33.1M; Aurora-INL PDC topical NRC-approved, Aurora-Ohio 1.2 GW PJM interconnection filed",
+    "summary": "OKLO reported Q2 2026 pre-open Aug 7: revenue $1.21M (first meaningful commercial revenue, vs $0 Q2 2025), net loss $48.5M — meaningfully wider than Q1 2026's $33.1M loss, indicating accelerating spend rather than a pullback. Reaffirmed 2026 operating cash-use guide $80-100M. Progress markers: (1) NRC approval of Aurora-INL Principal Design Criteria topical report — a key regulatory milestone advancing the Combined License Application; (2) Aurora-Ohio PJM interconnection applications filed for a planned 1.2 GW campus; (3) AI-driven fuel validation work expanded via partnerships with NVIDIA and Los Alamos; (4) construction advanced at Aurora Fuel Fabrication Facility; (5) first isotope commercialization contract pending. Comes 24 hours after Groves Test Reactor criticality announcement (DOE Aug 6). Read-through: constructive on execution / regulatory milestones; cash-burn acceleration will keep the stock capital-markets-sensitive — a positive tell if NFP-driven rate-cut repricing holds.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "Oklo IR",
+    "source_url": "https://www.stocktitan.net/news/OKLO/oklo-publishes-second-quarter-2026-financial-results-and-business-ps7om182fjcj.html"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "NuScale Power Q2 AMC Aug 6: revenue $0.08M -99% YoY (vs $8.1M prior year after Fluor Romania FEED completion), EPS -$0.13 in-line; cash pile $1.9B (+$900M QoQ) as company stockpiles for TVA-scale deployment",
+    "summary": "SMR reported Q2 2026 AMC Aug 6: revenue $0.08M vs Zacks consensus miss of 92.5%, down 98.8% YoY from $8.05M — collapse driven by completion of Fluor's FEED phase-two work on RoPower (Romania) project. EPS -$0.13 met consensus. Ended Q2 with ~$1.9B cash and investments — a $900M sequential surge as management prepares liquidity for anticipated commercial deployment contracts, positioning for the potential TVA award. CEO John Hopkins framed the top-line collapse as non-indicative of underlying trends, emphasizing NuScale remains the only SMR vendor with US NRC design certification and mature supply chain with long-lead components already in production. Read-through: another quarter of the pre-revenue SMR complex (OKLO also printed pre-revenue this AM). Cash position is the story — the war chest is intact even if commercialization slips further right. Contrast to CEG/TLN operating nuclear cash flows.",
+    "sector": "energy",
+    "sentiment": "neutral",
+    "source_name": "NuScale Power IR",
+    "source_url": "https://www.nuscalepower.com/investors/quarterly-results"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Quanta Services (PWR) upgraded to Overweight at KeyBanc, $807 PT — utility-buildout / datacenter-transmission bellwether upgrade validates capex-flow-through to grid EPC; positive read for GEV, ETN, VRT",
+    "summary": "KeyBanc upgraded PWR from Sector Weight to Overweight with a $807 price target on Aug 7. PWR is the largest utility EPC / grid-modernization contractor in the US, and management has flagged large-load / datacenter customers as the primary growth engine — record backlog ~$48.5B at Q1 (+ raised FY26 guide $34.7-35.2B revenue / $13.55-14.25 adj EPS). The upgrade is a direct read-through on hyperscaler capex-driven power+transmission spend. Positive downstream read: GE Vernova (turbines, transformers, HVDC — GEV Q2 also flagged 'orders soaring for AI-buildout'), Eaton (Q1 datacenter orders +240% YoY), Vertiv (Q1 revenue +30% YoY), and Constellation/Vistra (utility CapEx cycle validates PPA counterparties). The pattern: sell-side is now consistently upgrading the picks-and-shovels of the AI power complex ahead of hyperscaler prints.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/08/07/here-are-fridays-top-wall-street-analyst-research-calls-baker-hughes-etsy-hubspot-instacart-jetblue-roku-spacex-tower-semiconductor-trade-desk-and-more/"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Bank of America initiates Tower Semiconductor (TSEM) at Buy, $367 PT — analog / specialty foundry read-through positive for GFS, UMC, and specialty-node capacity broadly",
+    "summary": "BofA started Tower Semi at Buy with a $367 target. TSEM operates specialty analog / power-management / RF foundries — the same specialty-node tier where GlobalFoundries (GFS) and United Microelectronics (UMC) compete against TSMC's leading-edge / 3nm dominance. The initiation reads as a broader analyst re-rating of specialty foundry as datacenter power-management + optical / RF demand (VRT liquid cooling, GEV grid interconnect, network switch analog content) scales alongside AI compute. Positive read-through for GFS, UMC, and Amkor / ASE on the OSAT side. Neutral read for TSM (leading-edge share intact) and INTC (foundry mix distinct).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/08/07/here-are-fridays-top-wall-street-analyst-research-calls-baker-hughes-etsy-hubspot-instacart-jetblue-roku-spacex-tower-semiconductor-trade-desk-and-more/"
+  },
+  {
+    "date": "2026-08-07",
+    "headline": "Strait of Hormuz remains effectively closed to routine commercial shipping as of late July; energy premium bleeds into utility hedge losses (VST -$472M non-cash Q2) — no near-term reopening path",
+    "summary": "The Strait of Hormuz remains effectively closed to routine commercial shipping as of July 30 after the June US-Iran de-escalation broke down in early July following renewed attacks on commercial vessels. ~20% of global daily oil supply and ~20% of global LNG transits the strait; Maersk / MSC / CMA CGM / Hapag-Lloyd continue to suspend transits. Read-through to the tracked universe: (1) sustained energy premium reinforces the VST/CEG/TLN power-price bull case (Q2 realized capacity+energy prices remained elevated), (2) explains the $472M unrealized non-cash mark-to-market hedge loss on VST's Q2 print (wholesale power hedges reset higher), (3) supportive for nuclear scarcity thesis and long-duration PPAs (Meta/AWS/MSFT lock-ins), and (4) increases execution risk for Asian fab / OSAT logistics but no specific tracked-name disruption reported. Watch for October OPEC+ meeting and any US Navy escort framework as catalysts.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Al Jazeera / CSIS",
+    "source_url": "https://www.aljazeera.com/news/2026/7/2/with-hormuz-reopened-has-the-oil-shortage-turned-into-a-glut"
+  }
+]

@@ -3533,5 +3533,40 @@
     "signal_type": "earnings_beat",
     "description": "SNDK Q4 revenue +372% YoY, 2/3 of QoQ growth from pricing — validates NAND / DRAM / HBM supply-constrained framework and pricing pass-through thesis; positive read-through for MU/000660.KS/005930.KS",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "VST",
+    "signal_type": "earnings_beat",
+    "description": "Q2 adj EBITDA $1.77B beat $1.64B (+31% YoY on realized power prices + Lotus contribution); FY26 $6.8-7.6B EBITDA reaffirmed; headline revenue miss driven by $472M non-cash hedge mark",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "SMR",
+    "signal_type": "earnings_miss",
+    "description": "Q2 rev $0.08M vs cons (miss 92.5%) after Fluor RoPower FEED completion — pre-revenue optics; $1.9B cash pile (+$900M QoQ) preserves optionality for TVA-scale award",
+    "severity": "low"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "NET",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $696M beat $665M cons +36% YoY (acceleration), DBNR 120% (+6pt YoY), 4,698 customers >$100k (+27% YoY), Q3 guide $736.5M beats cons +2.1%; +14.9% AH — agentic-AI positioning validated",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "OKLO",
+    "signal_type": "momentum",
+    "description": "Aurora-INL PDC topical NRC-approved + Aurora-Ohio 1.2 GW PJM interconnection filed 24h after Groves criticality — sequential regulatory / operational execution wins; cash burn widened to $48.5M vs $33.1M Q1 (still within $80-100M FY guide)",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-07",
+    "ticker": "macro",
+    "signal_type": "momentum",
+    "description": "July NFP -23k vs +80k est + May/June -103k rev; Sep Fed hike odds slashed to 43.9% from 57%, hold probability up to 60.4% — bullish for rate-sensitive AI-buildout (OKLO/SMR/NEE/VST) and long-duration software (PLTR/NET/CRWD)",
+    "severity": "high"
   }
 ]

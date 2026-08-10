@@ -3575,5 +3575,19 @@
     "signal_type": "earnings_beat",
     "description": "Q2 revenue $1.21M beat $0.1M est (EPS -$0.28 missed -$0.16 est); mgmt raised FY26 operating cash-use guide to $120-150M (from $80-100M) and capex guide to $400-500M (from $350-450M), citing Aurora-INL first-of-a-kind costs and grid interconnection spend; shares +7.6% to $45.41 on Groves criticality execution despite the bigger burn — $3.0B cash position preserves runway",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "July revenue +44.7% YoY to record NT$467.58B ($14.5B), running above raised FY26 >40% USD guide; broad semi complex read-through NVDA/AMD/AVGO/000660.KS/005930.KS/MU/ASML/AMAT/LRCX/KLAC",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "HPE",
+    "signal_type": "momentum",
+    "description": "Morgan Stanley upgrade to Overweight (first MS positive rating in ~2 yrs), +6% pre-mkt; AI-server + hardware refresh + Juniper synergy re-rating; positive read-through DELL, SMCI (Q4 tomorrow)",
+    "severity": "medium"
   }
 ]

@@ -4165,5 +4165,14 @@
     "new_target": 150,
     "old_rating": "Buy",
     "old_target": 135
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "HPE",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 69.0,
+    "old_rating": "Equal-Weight",
+    "old_target": 71.0
   }
 ]

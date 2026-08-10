@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-08-10",
+    "headline": "TSMC July revenue jumps 44.7% YoY to record NT$467.58B ($14.5B), +5.6% MoM; puts full-year run-rate above raised >40% USD growth guide; TSM +0.37% pre-mkt to $421.60",
+    "summary": "Taiwan Semiconductor released July 2026 monthly revenue Mon Aug 10 pre-open: NT$467.58B ($14.5B), +44.7% YoY (accelerating from June), +5.6% sequentially — a new monthly record. YTD Jan-Jul rev $89B, +37% YoY. Result runs ahead of TSMC's own FY26 guide, which was raised at Q2 to 'slightly above 40%' USD growth from 30%. Capex guide $60-64B (record) intact. HPC — the segment where TSMC books AI-chip revenue — remained 66% of Q2 mix. Read-through: strongly positive for NVDA (Q2 FY27 print Aug 26), AVGO custom ASIC / networking, AMD (MI350/MI450 wafer supply), the OSAT complex (AMKR/ASX), memory (HBM3E/HBM4 co-packaged with logic — 000660.KS, 005930.KS, MU), and lithography (ASML/AMAT/LRCX/KLAC — Q2 tools consumption tracks logic wafer starts). TSM +0.37% pre-mkt to $421.60; broader semi complex bid on the print.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC / Digitimes",
+    "source_url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "HPE upgraded to Overweight from Equal-Weight at Morgan Stanley, PT $69 (~30% upside from Fri close); analyst: 'we admit to having been on the wrong side of the enterprise hardware trade'; +6% pre-mkt",
+    "summary": "Morgan Stanley upgraded Hewlett Packard Enterprise (HPE) to Overweight from Equal-Weight on Mon Aug 10 pre-market with a $69 PT (implying ~30% upside from Friday's close). Notably, the PT was TRIMMED from $71 — this is a rating catch-up, not a further raise. Analyst rationale: an AlphaWise enterprise-IT survey pointed to a combination of hardware refresh cycle + spend pull-forwards ahead of tariff pass-through + genuine AI-server demand driving 2H26 into 2027 hardware capex; Juniper deal synergies now flagged as underappreciated. Stock +6% pre-mkt. Read-through: positive tell for DELL (Aug 28 print) and SMCI (Q4 tomorrow AMC, $60B backlog, GM guide raised to 15-17% from 8.2-8.4%) — the enterprise-hardware refresh + AI-server pull-through thesis now has a MS Overweight to buttress the Deutsche Bank / Bernstein Buys already on tape. First MS positive rating on HPE in ~2 years.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/10/hpe-will-gain-ground-on-sky-high-hardware-demand-morgan-stanley-says.html"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Strait of Hormuz talks stall — Iran FM Araghchi denies direct US talks on reopening; WTI +2.4% to $80.03; energy premium reinforces VST/CEG/TLN power-price realization thesis into CPI Wed",
+    "summary": "Oil prices rose Mon Aug 10 morning as doubt grew that the US and Iran will reach a near-term Strait of Hormuz reopening deal. Iranian Foreign Minister Abbas Araghchi publicly stated Tehran is not currently in direct talks with Washington to open the strait — contradicting earlier US assertions that a deal was near. WTI futures +2.4% to $80.03/bbl; the strait has been effectively closed since July 30 after the June US-Iran de-escalation broke down. Read-through: sustained energy premium remains supportive of CEG/VST/TLN realized power+capacity prices (validated by VST's Q2 adj EBITDA beat +31% YoY Fri Aug 7); positive for MRO/COP/OXY (not tracked) but modestly negative for gas-turbine consumers (VRT/ETN facility power costs). Dow -110 (-0.2%) on the print into a heavy macro week — CPI Wed Aug 12 8:30 ET (July, cons 3.4% YoY / core 2.6%), PPI Thu, retail sales Fri, plus CRWV / SMCI / AMAT prints midweek.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "TheStreet / Bloomberg",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-10-2026"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Korean chip complex flat overnight: SK hynix -0.14% at KRW 1,420k, Samsung -0.43% at KRW 230k; KOSPI +0.65% recovers from intraday -0.42% dip; HBM3E/HBM4 supply-constrained-thru-2028 framework intact",
+    "summary": "Asia trading Mon Aug 10: KOSPI closed +0.65% at ~6,270 after intraday dip to -0.42% (6,232 low) on soft cash tape. SK hynix (000660.KS) -0.14% to KRW 1,420,000 (~$1,001); Samsung Electronics (005930.KS) -0.43% to KRW 230,000. Modest profit-take after last week's memory-supercycle rally (SNDK Q4 rev +372% YoY Wed, AMD Data Center +107% Tue, ARM $2B+ AGI CPU orders confirmed). Setup remains constructive: (1) TSMC July print +44.7% (published pre-Korean close) validates leading-edge / HPC demand co-packaged with HBM, (2) MU HBM4 15k-wafer/month capacity target end-2026 unchanged, (3) SK hynix ~62% HBM share into MI450 / Vera Rubin ramp 2H26, (4) CXMT domestic-China DRAM share ~8% (from ~3% YoY) remains the incremental overhang. Weekly Digitimes: HBM4 becomes mainstream 2H26 as market share overtakes HBM3E.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TradingKey / Digitimes",
+    "source_url": "https://www.digitimes.com/news/a20260810VL200/weekly-news-roundup-asml-dram-hbm-infrastructure-packaging.html"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "CoreWeave Q2 print tomorrow AMC Aug 11: cons rev $2.55-2.56B (+108% YoY), EPS ($1.22)-($1.40) loss; options price 15.5% move; focus on $99.4B backlog cadence, power-delivery timing, capex intensity",
+    "summary": "CoreWeave (CRWV) reports Q2 2026 Tuesday Aug 11 AMC 5:00 PM ET. Street consensus: revenue $2.55-2.56B (~+108% YoY vs $1.23B Q2 2025); per-share loss $1.22-$1.40 (widening from $0.27 loss YA on stepped-up depreciation from expanded fleet). Options market pricing 15.5% post-print move (~$13.20/share). Sell-side stance: Moderate Buy — 13 Buy / 4 Hold / 1 Sell; mean PT ~$147 (+60% from recent range). Piper initiated Overweight $151 last Mon. What matters for the tape: (1) $99.4B contracted backlog trajectory vs Q1 $99B — is Anthropic/OpenAI/Microsoft/Meta committing incremental capacity or is book flat, (2) 1.7 GW year-end power-online target (Q1: 470 MW active, ~800 MW commissioned), (3) capex vs FY26 $20-23B guide, (4) commentary on GB300 / Blackwell Ultra deployment ramp. Read-through candidate: NBIS / IREN / APLD earnings, and hyperscaler power-availability commentary (CEG/VST PPA counterparty risk framing).",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "StockTitan / Yahoo Finance",
+    "source_url": "https://www.stocktitan.net/news/CRWV/core-weave-announces-date-of-second-quarter-2026-financial-results-cx6g0q63aoj9.html"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Super Micro Q4 FY26 tomorrow AMC Aug 11: cons rev ~$11.5B (+101% YoY), EPS $0.68-$0.96; $60B+ record new orders pre-announced; gross-margin guide RAISED to 15-17% from 8.2-8.4%; options price 16-19% swing",
+    "summary": "Super Micro Computer (SMCI) reports Q4 FY2026 Tue Aug 11 AMC. Consensus: revenue ~$11.55B (+101% YoY), EPS $0.68-$0.96 (+124% YoY at midpoint). Last month SMCI pre-announced Q4 total new orders in EXCESS of $60B — a record backlog print — AND raised the Q4 gross-margin range to 15-17% from prior 8.2-8.4% (a near-doubling that reversed the pricing-competition narrative overhanging the stock since spring). Options market implying 16-19% one-day move. What the tape will watch: (1) Q1 FY27 revenue and margin guide (does 15-17% GM hold or was Q4 mix-driven), (2) DLC / liquid-cooling attach rate on Blackwell / GB300 orders, (3) cash conversion / DSO — the historical bear point, (4) any commentary on GB300 shipment cadence into hyperscaler / neocloud customers (CRWV, Meta, xAI). Read-through: DELL (+6% Aug 4 on SMCI margin guide), HPE (upgraded MS today), CLS (Celestica) — the whole AI-server ODM/OEM cohort.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Super Micro IR / Yahoo Finance",
+    "source_url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-Fourth-Quarter-of-Fiscal-Year-2026-Preliminary-Business-Update/default.aspx"
+  },
+  {
+    "date": "2026-08-10",
+    "headline": "Week-ahead macro: July CPI Wed Aug 12 8:30 ET (cons 3.4% YoY / core 2.6% YoY / -0.4% headline MoM after June -0.4%); PPI Thu; retail sales Fri; hotter print could unwind Fri's Fed-cut repricing (Sep hold 60.4%)",
+    "summary": "Macro setup into Mon Aug 10: after Fri's NFP shock (-23k vs +80k cons, May+June -103k rev) drove Sep Fed hike odds to 43.9% from 57% and hold odds to 60.4% from 43.2%, this week's data is the counter-test. Key releases: (1) July CPI Wed Aug 12 8:30 ET — consensus 3.4% headline YoY / core 2.6% YoY; June printed -0.4% headline / 0.0% core MoM; a hot core reading (>2.8%) would revive September hike odds and pressure long-duration AI names (PLTR/SNOW/NET) and rate-sensitive nuclear pre-revenue (OKLO/SMR/NNE); (2) July PPI Thu, (3) July retail sales Fri (consumer strength). Layered on top: CRWV Q2 (Tue AMC), SMCI Q4 (Tue AMC), AMAT (Thu AMC) — the last big semicap tell before NVDA Aug 26. Dow -110 (-0.2%) Mon AM on the Hormuz-headline risk-off.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "BLS / TradingKey Week Ahead",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262090642-weekly-preview-us-cpi-ppi-data-market-focus-crwv-amat-earnings-reports-tradingkey"
+  }
+]

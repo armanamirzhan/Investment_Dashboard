@@ -5111,5 +5111,91 @@
       }
     ],
     "file": "morning-news/2026-08-07.html"
+  },
+  {
+    "date": "2026-08-10",
+    "tickers": [
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "July rev NT$467.58B ($14.5B) +44.7% YoY record; +0.37% pre-mkt to $421.60; ahead of raised FY26 >40% USD guide"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "up",
+        "note": "+6% pre-mkt: MS upgrade Equal-Weight → Overweight, PT $69 (~30% upside); AlphaWise survey — refresh + AI + Juniper synergy"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "neutral",
+        "note": "Q2 print tomorrow AMC (Tue Aug 11); cons rev $2.55-2.56B +108% YoY; options price 15.5% move; $99.4B backlog cadence + 1.7 GW year-end target the tape drivers"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "neutral",
+        "note": "Q4 print tomorrow AMC (Tue Aug 11); cons rev ~$11.5B +101% YoY; $60B+ record orders pre-announced; GM guide raised 15-17% from 8.2-8.4%; options 16-19% swing"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-0.14% to KRW 1,420k; profit-take after last week's memory rally; ~62% HBM share into MI450 / Vera Rubin 2H26"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-0.43% to KRW 230k; KOSPI +0.65% recovers intraday dip; HBM3E/HBM4 supply-constrained-through-2028 framework intact"
+      },
+      {
+        "ticker": "VST",
+        "direction": "neutral",
+        "note": "WTI +2.4% to $80.03 on Hormuz stall reinforces realized power+capacity thesis behind Fri's adj EBITDA +31% YoY beat"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Same Hormuz/power-premium read-through; 920 MW new PPAs signed last Wed + FY26 EPS raised to $11.50-12.50 remain the base case"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "neutral",
+        "note": "Q3 print Thu Aug 13 AMC; TSMC July +44.7% and record capex intact positive read on WFE consumption"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "TSMC July print bullish read; Q2 FY27 own print Aug 26; H200 China 'very few' shipments unchanged"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "hardware",
+        "signal": "TSMC JULY RECORD: NT$467.58B ($14.5B) +44.7% YoY, +5.6% MoM — running ahead of raised FY26 >40% USD guide; HPC = 66% of Q2 mix; the cleanest single-print AI-demand tell into NVDA Aug 26"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "HPE MS UPGRADE: Equal-Weight → Overweight, PT $69 (~30% upside), +6% pre-mkt; 'we admit to having been on the wrong side of enterprise hardware'; positive read-through DELL / SMCI Q4 tomorrow"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TUESDAY DOUBLE HEADER: CRWV Q2 AMC (options 15.5% / $99.4B backlog / 1.7 GW power target) + SMCI Q4 AMC (options 16-19% / $60B+ record orders pre-announced / GM 15-17% from 8.2-8.4%)"
+      },
+      {
+        "ticker": "macro",
+        "signal": "CPI WEEK: July CPI Wed 8:30 ET (cons 3.4% / core 2.6%); after Fri NFP -23k shock, hot core >2.8% would unwind Sep hold odds (60.4%) and pressure PLTR/SNOW/NET/OKLO/SMR duration"
+      },
+      {
+        "ticker": "policy",
+        "signal": "HORMUZ STALLS: Iran FM Araghchi denies direct US talks on reopening; WTI +2.4% to $80.03; sustained power-price premium reinforces VST/CEG/TLN realized-price thesis"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "KOREA CONSOLIDATES: 005930.KS -0.43% / 000660.KS -0.14%; KOSPI +0.65% recovers dip; HBM3E→HBM4 mainstream 2H26 per TrendForce; MU 15k wafer/mo HBM4 end-26 target intact"
+      },
+      {
+        "ticker": "finance",
+        "signal": "WEEK AHEAD: CPI Wed / PPI Thu / retail sales Fri / AMAT Thu AMC (last big semicap tell before NVDA Aug 26)"
+      }
+    ],
+    "file": "morning-news/2026-08-10.html"
   }
 ]

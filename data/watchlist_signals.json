@@ -3589,5 +3589,12 @@
     "signal_type": "momentum",
     "description": "Morgan Stanley upgrade to Overweight (first MS positive rating in ~2 yrs), +6% pre-mkt; AI-server + hardware refresh + Juniper synergy re-rating; positive read-through DELL, SMCI (Q4 tomorrow)",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-10",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Launched $15B underwritten common stock offering (uncapped size/price) to fund 18A/foundry buildout — shares -5% to ~$97 on dilution concerns; Street sees it as idiosyncratic to Intel's capital structure, not a sector read-through (AMD/NVDA/AVGO/SOXX flat). Bulls frame it as derisking the balance sheet ahead of aggressive foundry capex.",
+    "severity": "medium"
   }
 ]

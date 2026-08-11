@@ -3610,5 +3610,19 @@
     "signal_type": "momentum",
     "description": "Q4 FY26 print tonight AMC Aug 11; options price 16-19% swing; cons rev ~$11.5B (+101% YoY), EPS $0.68-$0.96; $60B+ record new orders pre-announced, GM guide raised 15-17% from 8.2-8.4%; watch Q1 FY27 GM guide durability, DLC/liquid-cooling attach on GB300, DSO/cash-conversion — the historical bear point",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "AEHR",
+    "signal_type": "earnings_beat",
+    "description": "Fiscal Q4 FY26 beat: revenue $18.8M +33% YoY (ahead of est), EPS $0.11 vs -$0.01 est (year-ago loss); record quarterly bookings $60.7M, effective backlog ~$100M; cash ~$116M post equity raise, current ratio >10, low debt. Shares +9% intraday on AI-driven semiconductor test-equipment demand visibility.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "Broad wafer-fab-equipment complex rally intraday: ASML +4.4%, KLAC +4.2%, ENTG +4.8%, 005930.KS +4.1%, 8035.T +4.1% — extends yesterday's TSM July revenue-beat read-through (record NT$467.58B, +44.7% YoY) into WFE names on reassurance that leading-edge capex (lithography, metrology, process control) keeps scaling with AI demand; positive read-through AMAT/LRCX.",
+    "severity": "medium"
   }
 ]

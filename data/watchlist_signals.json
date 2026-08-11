@@ -3596,5 +3596,19 @@
     "signal_type": "momentum",
     "description": "Launched $15B underwritten common stock offering (uncapped size/price) to fund 18A/foundry buildout — shares -5% to ~$97 on dilution concerns; Street sees it as idiosyncratic to Intel's capital structure, not a sector read-through (AMD/NVDA/AVGO/SOXX flat). Bulls frame it as derisking the balance sheet ahead of aggressive foundry capex.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Q2 print tonight AMC Aug 11 5:00 PM ET; options price 15-15.5% one-day swing; cons rev $2.55-2.56B (+108-111% YoY), EPS ($1.22)-($1.40); key tape items: $99.4B backlog cadence, 1.7 GW year-end power-online target, FY26 $20-23B capex intensity, GB300 deployment ramp; Riot/Anthropic $9.1B deal today reframes competitive setup",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "Q4 FY26 print tonight AMC Aug 11; options price 16-19% swing; cons rev ~$11.5B (+101% YoY), EPS $0.68-$0.96; $60B+ record new orders pre-announced, GM guide raised 15-17% from 8.2-8.4%; watch Q1 FY27 GM guide durability, DLC/liquid-cooling attach on GB300, DSO/cash-conversion — the historical bear point",
+    "severity": "high"
   }
 ]

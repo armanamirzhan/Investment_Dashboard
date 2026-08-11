@@ -5197,5 +5197,81 @@
       }
     ],
     "file": "morning-news/2026-08-10.html"
+  },
+  {
+    "date": "2026-08-11",
+    "tickers": [
+      {
+        "ticker": "RIOT",
+        "direction": "up",
+        "note": "+18-25% pre-mkt: Anthropic 20-yr / 191 MW / $9.1B Rockdale TX datacenter deal (extendable to $16.1B)"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "$4.69B image-sensor JV with Sony in Kumamoto (Sony 62% / TSMC 38%); vol prod 2029; JASM footprint expands"
+      },
+      {
+        "ticker": "P",
+        "direction": "up",
+        "note": "+10% AH: second top-5 hyperscaler DirectFlash design win; revenue contribution FY28+"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "neutral",
+        "note": "Q2 tonight AMC 5 PM ET; options 15-15.5% swing; cons rev $2.55-2.56B (+108-111%); focus $99.4B backlog cadence / 1.7 GW power target"
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "neutral",
+        "note": "Q4 FY26 tonight AMC; options 16-19% swing; cons rev ~$11.5B (+101%); $60B backlog / GM 15-17% guide durability the print"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "neutral",
+        "note": "Q2 tomorrow Wed pre-open 8 AM ET; Q1 was +841% YoY AI-cloud rev / $33.59B RPO / adj EBITDA flipped positive"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Rockdale AMD 50 MW lease + new Riot/Anthropic 191 MW = ~241 MW AI-power hub at single ERCOT site"
+      },
+      {
+        "ticker": "JBL",
+        "direction": "up",
+        "note": "UBS upgrades to Buy from Neutral — AI-server EMS proxy, echoes MS's HPE upgrade Mon"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "integration",
+        "signal": "ANTHROPIC $9.1B / 20-YR / 191 MW at Riot Rockdale TX — bitcoin-miner→AI-neocloud pivot validated; RIOT +20% pre-mkt; IREN/APLD/WULF sympathy bid; delivery phased 2027-mid-2028"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TSMC + SONY $4.69B JV in Kumamoto: 'Advanced Vision Semiconductor Manufacturing' (Sony 62% / TSMC 38%); vol prod 2029; image sensors ≠ AI direct but JASM footprint deepens"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "PURE STORAGE 2nd top-5 hyperscaler DirectFlash design win (+10% AH); revenue FY28+; validates hyperscale flash-refresh vs nearline HDD"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "TONIGHT AMC DOUBLE-HEADER: CRWV Q2 (options 15% / $99.4B backlog / 1.7 GW target) + SMCI Q4 (options 16-19% / $60B pre-announced / GM 15-17% guide)"
+      },
+      {
+        "ticker": "macro",
+        "signal": "TOMORROW: NBIS Q2 pre-open (Q1 +841% YoY / $33.59B RPO) + July CPI 8:30 ET (cons core 2.5% YoY — softer than yday 2.6%); hot >2.6% flips Sep hold odds"
+      },
+      {
+        "ticker": "finance",
+        "signal": "ANALYST DAY: JBL upgrade UBS Neutral→Buy, FSLR init OP Baird, PDFS init OP Bernstein, LECO init Buy UBS; APP down BofA Buy→Neutral, MNDY double-downgrade"
+      },
+      {
+        "ticker": "integration",
+        "signal": "ROCKDALE TX EMERGES as ~241 MW AI-power hub (AMD 50 MW + Anthropic 191 MW); ERCOT-vs-PJM interconnect-queue arbitrage tell — modestly negative for CEG/TLN pure-PJM concentration"
+      }
+    ],
+    "file": "morning-news/2026-08-11.html"
   }
 ]

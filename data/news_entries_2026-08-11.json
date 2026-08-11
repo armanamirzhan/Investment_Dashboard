@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-08-11",
+    "headline": "Riot Platforms lands $9.1B / 20-yr / 191 MW datacenter deal with Anthropic at Rockdale TX; RIOT +18-25% pre-mkt; two 5-yr options push contract to $16.1B; AI-neocloud peers IREN/APLD/WULF bid in sympathy",
+    "summary": "Riot Platforms (RIOT) disclosed pre-open Tue Aug 11 a 20-year contract to supply 191 MW of colocation capacity to Anthropic from its Rockdale, Texas bitcoin-mining campus — contracted revenue $9.1B through June 2048, expandable to $16.1B via two five-year extension options. Phase 1 (96 MW) online end-2027, full 191 MW mid-2028. Combined with the 50 MW AMD lease signed Jan 2026 at the same site, Riot now has ~241 MW / ~$9.8B committed to AI. Stock +18.87% pre-mkt (report intraday moves 20%+). Read-through: (1) Anthropic continues aggressive compute diversification (already inked Google TPU capacity plus significant CRWV/AWS spend), (2) validates the bitcoin-miner→AI-neocloud pivot pathway also being run by IREN, APLD, WULF, TeraWulf — all up in sympathy, (3) creates a data-point for CRWV Q2 backlog cadence tonight AMC (peer competitor for the same hyperscaler/anthropic tenants), (4) 2027-2028 delivery timing keeps the near-term power-availability constraint intact (positive for CEG/VST/TLN realized-price thesis).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / Coindesk",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-11/anthropic-strikes-9-billion-deal-with-cloud-computing-firm-riot"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "TSMC / Sony form $4.69B image-sensor JV 'Advanced Vision Semiconductor Manufacturing' in Kumamoto Japan; volume prod 2029; Sony controlling 62% / TSMC 38%; JASM footprint expansion continues",
+    "summary": "TSMC (TSM) and Sony Group (6758.T) announced pre-open Mon Aug 10 formation of a Kumamoto-based JV — Advanced Vision Semiconductor Manufacturing Corp — with total investment ~¥747B (~$4.69B) to develop and manufacture next-generation image sensors, volume production 2029. Sony contributes ¥465B ($2.92B / 62%, incl. its newly built Kumamoto fab as an asset transfer); TSMC contributes ¥282B ($1.77B / 38%). Sony leads sensor tech and product design; TSMC provides advanced logic process nodes. JV expands the JASM (Japan Advanced Semiconductor Manufacturing) footprint TSMC has been building out with Sony/Denso/Toyota, with additional Japanese government support anticipated. Read-through: (1) reinforces TSMC's Kumamoto strategy as a diversified geographic hub alongside Arizona / Kaohsiung — modest positive for TSM's structural node-mix story, (2) not directly AI-datacenter — image sensors serve smartphones/auto — but validates the TSM/Japan/hyperscaler-triangle in leading-edge silicon, (3) neutral read for the AI-server / HBM complex — capacity is incremental sensor capacity, not logic/HPC displacement.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Reuters / Bloomberg",
+    "source_url": "https://finance.yahoo.com/technology/articles/tsmc-invest-1-8-billion-094545499.html"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Pure Storage (P) +10% after-hours on second top-5 hyperscaler DirectFlash design win; revenue contribution starts FY28+; validates flash-vs-HDD replacement thesis at hyperscale",
+    "summary": "Pure Storage (P — 'Everpure' brand) closed +10.1% at $99.15 in AH trade Mon Aug 10 after announcing a design win and supply agreement with a second top-five hyperscaler for its DirectFlash technology (first win disclosed late 2024). CEO Charles Giancarlo: 'strong recognition of the economic, operational and performance advantages of our DirectFlash technology.' Revenue contribution expected FY28 and beyond — no near-term impact. Read-through: (1) supports the flash-displaces-nearline-HDD narrative at hyperscale (positive counter-data-point for WDC / SNDK — both memory-supercycle beneficiaries — that hyperscalers are validating multi-vendor flash architectures rather than sole-sourcing), (2) confirmation of the underlying hyperscaler capex/storage-refresh cycle already flagged by SMCI $60B backlog / DELL AI-server strength, (3) NOT a tracked ticker — surfaced as a hyperscaler-buildout tell, not a direct name recommendation.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StockTitan / Investing.com",
+    "source_url": "https://www.stocktitan.net/news/P/everpure-lands-new-design-win-with-second-top-five-ujoo8phgfw5q.html"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Analyst calls Tue Aug 11 pre-mkt: JBL upgraded UBS Neutral→Buy, FSLR init Outperform at Baird, PDFS init Outperform at Bernstein, LECO init Buy at UBS, APP downgraded BofA Buy→Neutral, MNDY double-downgraded",
+    "summary": "Tuesday Aug 11 pre-market rating actions: (1) Jabil (JBL) upgraded to Buy from Neutral at UBS — AI-server EMS / infrastructure ODM beneficiary of the same enterprise-hardware refresh cycle that drove MS's HPE upgrade Mon; positive read-through to CLS/DELL/SMCI complex, (2) First Solar (FSLR) initiated Outperform at Baird — supports the datacenter-renewables PPA counter-narrative to natural-gas turbine constraint story, (3) PDF Solutions (PDFS) initiated Outperform at Bernstein — fab yield-analytics play, positive tell for the WFE cohort (AMAT reports Thu AMC), (4) Lincoln Electric (LECO) initiated Buy at UBS — datacenter-buildout industrial proxy, (5) AppLovin (APP) downgraded to Neutral from Buy at BofA — first meaningful crack in the AI-adtech long trade, (6) monday.com (MNDY) double-downgraded: Wolfe Outperform→Peer Perform, Cantor Overweight→Neutral — SaaS-multiple compression continuation. Watch: no explicit price targets disclosed on today's actions.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "DailyTradeAlert / MarketBeat",
+    "source_url": "https://dailytradealert.com/2026/08/11/analyst-upgrades-and-downgrades-for-tuesday-8-11/"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "Nebius (NBIS) Q2 print Wed Aug 12 pre-open 8 AM ET: Street models sequential AI-cloud revenue growth off Q1 $389.7M (+841% YoY); focus on RPO cadence vs Q1 $33.59B; adj EBITDA to hold positive; NVDA GB300 capacity ramp commentary",
+    "summary": "Nebius Group (NBIS) — the ex-Yandex Amsterdam-listed AI-cloud provider — reports Q2 2026 Wed Aug 12 pre-open 8:00 AM ET. What matters: (1) AI-cloud segment revenue growth vs Q1 $389.7M (+841% YoY, adj EBITDA flipped positive $129.5M from -$53.7M YA on 26% cost-of-rev leverage down from 49%), (2) trajectory of remaining performance obligations vs Q1 $33.59B — 29% expected to convert within 24 months, (3) GB300 / Blackwell Ultra capacity commentary, (4) FY26 capex intensity vs cash burn — the same tension that has weighed on CRWV (CRWV also prints tonight AMC). Analyst posture: consensus expects YoY EPS decline on higher revenue as depreciation from the expanded fleet accelerates. Read-through: another neocloud data point sequenced with CRWV Q2 tonight — combined the two prints frame the entire non-hyperscaler AI-cloud demand curve into NVDA Aug 26.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "MarketChameleon / Seeking Alpha",
+    "source_url": "https://marketchameleon.com/articles/b/2026/7/30/nebius-group-q2-2026-earnings-date-ai-cloud-ecosystem-focus"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "July CPI preview refreshed: Wed Aug 12 8:30 ET consensus core 2.5% YoY / headline 3.4% / +0.1% MoM (vs June -0.4% MoM); hot core >2.6% flips Sep hold odds after Fri NFP -23k shock",
+    "summary": "Consensus for Wed Aug 12 8:30 ET July CPI has firmed: headline +0.1% MoM / 3.4% YoY vs June -0.4% MoM; core +0.2% MoM / 2.5% YoY vs prior +0.0% MoM / 2.7% YoY. Slightly softer core-YoY consensus than yesterday's read (2.6%) — the market has leaned harder into cool-inflation odds post-Fri NFP -23k shock (which pushed Sep Fed HOLD odds to 60.4% from 43.2% and Sep HIKE odds to 43.9% from 57%). Fed funds effective at 3.63%. Risks: (1) hot core >2.6% would unwind the Fri repricing and pressure rate-sensitive long-duration AI (PLTR/SNOW/NET/CRWD) and pre-revenue nuclear (OKLO/SMR/NNE), (2) an in-line/cool print reinforces the September pause and supports the megacap AI compression trade. Layered on top: NBIS Q2 pre-open same day.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TradingKey / Morningstar",
+    "source_url": "https://www.tradingkey.com/analysis/economic/indicators/262092053-us-july-cpi-preview-inflation-cool-us-stocks-dollar-gold-tradingkey"
+  },
+  {
+    "date": "2026-08-11",
+    "headline": "AMD Rockdale + Riot/Anthropic buildout tied to same 700-acre TX campus; Rockdale becomes emerging AI-power hub (~241 MW committed); reinforces West-Texas ERCOT capacity thesis vs constrained PJM",
+    "summary": "Tuesday's Riot/Anthropic 191 MW deal at Rockdale, Texas overlays the 50 MW AMD lease Riot signed Jan 2026 at the same site — total ~241 MW committed to AI / non-mining use at a single 700-acre campus, roughly $9.8B contracted rev. Rockdale (formerly Alcoa smelter site — infrastructure inherited from that era = ~1.1 GW of substation capacity) is emerging as a discrete AI-power hub inside ERCOT, a market where interconnection queues are still faster than PJM (where CEG/TLN/VST assets live). Read-through: (1) confirms ERCOT-vs-PJM optionality: hyperscaler tenants are actively pursuing Texas-grid siting to escape MISO/PJM 3-5 yr interconnection queues, (2) modestly supportive of VST's ERCOT gas fleet realization, (3) marginal negative for the CEG/TLN pure-PJM concentration thesis (though behind-the-meter nuclear PPAs at Susquehanna / Three Mile Island remain the highest-value contracts), (4) validates AMD's neocloud go-to-market — MI350/MI450 chips need a physical home; Rockdale + Absen-style capacity buys are the delivery vehicle.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / 24/7 Wall Street",
+    "source_url": "https://247wallst.com/investing/2026/08/11/riot-platforms-soars-17-on-9-1b-anthropic-data-center-deal-ai-infrastructure-peers-iren-applied-digital-terawulf-head-higher/"
+  }
+]

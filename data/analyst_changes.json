@@ -4174,5 +4174,32 @@
     "new_target": 69.0,
     "old_rating": "Equal-Weight",
     "old_target": 71.0
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "JBL",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "FSLR",
+    "firm": "Baird",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-08-11",
+    "ticker": "PDFS",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
   }
 ]

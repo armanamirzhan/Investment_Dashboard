@@ -4201,5 +4201,23 @@
     "new_target": null,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "SMCI",
+    "firm": "Loop Capital",
+    "new_rating": "Buy",
+    "new_target": 70,
+    "old_rating": "Buy",
+    "old_target": 50
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "SMCI",
+    "firm": "Wedbush",
+    "new_rating": "Neutral",
+    "new_target": 40,
+    "old_rating": "Neutral",
+    "old_target": 34
   }
 ]

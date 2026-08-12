@@ -3624,5 +3624,47 @@
     "signal_type": "momentum",
     "description": "Broad wafer-fab-equipment complex rally intraday: ASML +4.4%, KLAC +4.2%, ENTG +4.8%, 005930.KS +4.1%, 8035.T +4.1% — extends yesterday's TSM July revenue-beat read-through (record NT$467.58B, +44.7% YoY) into WFE names on reassurance that leading-edge capex (lithography, metrology, process control) keeps scaling with AI demand; positive read-through AMAT/LRCX.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "SMCI",
+    "signal_type": "earnings_beat",
+    "description": "Q4 FY26 rev $11.1B (+93% Y/Y), GM doubled to 17.5%, Q1 FY27 guide $14.5-15.5B (27% above $11.82B consensus), FY27 outlook $72B, $60B new orders in Q4; stock +23% pre-mkt",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "CRWV",
+    "signal_type": "earnings_beat",
+    "description": "Q2 rev $2.58B (+112% Y/Y), backlog $104B ex-$25B Q3 commits, Q3 guide $3.4-3.6B (~158% growth), Meta $21B / Anthropic multi-year / Jane Street $6B in-quarter; capex $30B+ 2026; stock +15-18% AH",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "+7-8% intraday Asia Aug 12 on Asia Business Daily/Bloomberg report Singapore Temasek plans direct investment; KOSPI +4-5%, foreigners net-bought ₩1.2T",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "+7-8% intraday Asia Aug 12 on Temasek direct-investment report; sovereign fund views memory/HBM as undervalued despite 2026 rally — structural rather than tactical position",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "+3% pre-mkt Aug 12 on the twin AI-infra print positive (SMCI/CRWV) + Temasek Samsung/SKHY report — sets up favorably into MU fiscal Q4 (Sep) HBM cycle datapoint",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "+2% pre-mkt on SMCI's Q1 FY27 guide ($14.5-15.5B, +27% above street) — implied GB200/GB300 shipment cadence robust into Aug 26 earnings; no visible pause-for-Rubin",
+    "severity": "medium"
   }
 ]

@@ -4219,5 +4219,41 @@
     "new_target": 40,
     "old_rating": "Neutral",
     "old_target": 34
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "CRWV",
+    "firm": "Mizuho",
+    "new_rating": "Neutral",
+    "new_target": 115,
+    "old_rating": "Neutral",
+    "old_target": 100
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "CRWV",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 120,
+    "old_rating": "Neutral",
+    "old_target": 110
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "SMCI",
+    "firm": "Northland Securities",
+    "new_rating": "Hold",
+    "new_target": 36,
+    "old_rating": "Hold",
+    "old_target": 34
+  },
+  {
+    "date": "2026-08-12",
+    "ticker": "SMCI",
+    "firm": "Goldman Sachs",
+    "new_rating": "Sell",
+    "new_target": 34,
+    "old_rating": "Sell",
+    "old_target": 30
   }
 ]

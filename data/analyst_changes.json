@@ -4255,5 +4255,41 @@
     "new_target": 34,
     "old_rating": "Sell",
     "old_target": 30
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CSCO",
+    "firm": "KeyCorp",
+    "new_rating": "Overweight",
+    "new_target": 135.0,
+    "old_rating": null,
+    "old_target": 130.0
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CSCO",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 130.0,
+    "old_rating": null,
+    "old_target": 120.0
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CSCO",
+    "firm": "BofA Securities",
+    "new_rating": "Buy",
+    "new_target": 150.0,
+    "old_rating": null,
+    "old_target": 135.0
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CRWV",
+    "firm": "Truist",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
   }
 ]

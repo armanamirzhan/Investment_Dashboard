@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-08-13</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-08-13</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Cisco Q4 FY26 blowout: rev $17.3B (+18% Y/Y), non-GAAP EPS $1.22 (beat); Q4 hyperscaler AI orders $4B → FY26 AI orders $9.3B (4.5x FY25); FY27 rev guide $72.2-73.4B vs Street $69.1B; hyperscaler AI revenue to reach $7.5B in FY27 (from $4B FY26)</strong> &mdash; Cisco crushed the print and raised the AI supercycle bar. Networking capex from hyperscalers is now visibly bracketed: $4B Q4 orders alone matched all of FY25 AI revenue. Sovereign/neocloud/enterprise added another $1.3B (150% Y/Y). Stock reaction split — up 2.5% initially but slipped 4% AH on margin guide of 65-66% GM (hardware-heavy mix drags below consensus). Read-through positive for ANET, AVGO, VRT, APH, CLS on the AI networking/hardware chain.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Coherent (COHR) Q4 FY26: rev $2.05B (+34% Y/Y), non-GAAP EPS $1.74 beats $1.65; FY26 rev $7.12B (+22.5%); optical-connectivity AI datacenter story validated as industry shifts from copper to optical</strong> &mdash; Coherent posted a clean beat on both lines with GAAP GM 38.5% / non-GAAP GM 40.2%. Management framed the copper-to-optical shift in AI datacenters as an accelerator, expanding manufacturing capacity to keep pace. Read-through positive for AI networking/interconnect names — reinforces Cisco's $9.3B AI hyperscaler order tape. Not a tracked ticker but a strong sentiment marker for the AI infra optical stack, supportive of ANET / AVGO / CSCO.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Applied Materials (AMAT) reports Q3 FY26 today after close (4:30pm ET); Street: $9.0B rev (+23% Y/Y), $3.36 adj EPS (+35.5%); prior Q3 guide $8.95B ±$500M — AI/datacenter demand the swing factor</strong> &mdash; AMAT prints tonight. Consensus $9.0B rev / $3.36 EPS; company's own Q3 guide midpoint aligns. Beat-and-raise is priced given the SMCI/CRWV/CSCO tape, so the bar is elevated. Key read-throughs: HBM/logic capex commentary for MU / SK Hynix / Samsung; China exposure color post-January BIS rule tweaks; leading-edge etch/deposition mix for LRCX/KLAC.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Nvidia raises RTX PRO 6000 Blackwell (96GB workstation) list to $16,000 on 8/12 — +20.8% in two months, +87% vs $8,565 launch; pricing power at the enterprise edge continues as Blackwell inference/train demand outstrips supply</strong> &mdash; Marketplace pricing on the 96GB workstation card jumped again. Jensen has been public about 'Blackwell sales off the charts, cloud GPUs sold out' — the sticker hikes confirm no near-term relief on the demand side. Positive for NVDA gross margin trajectory, and by extension the AI infra complex (CRWV, MSFT, META, GOOGL as buyers; SMCI, DELL, VRT as system builders).</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>US PPI print + jobless claims + Fed speeches today after benign July CPI (3.4%/2.5%) yesterday; markets pricing ~35% odds of a September Fed hike, 2-yr yield 4.14% (-6 bps); Nasdaq futures firm into the open</strong> &mdash; After yesterday's CPI cooled and Nasdaq rallied on SMCI+CRWV, today's macro data risk is PPI (8:30am ET) and initial claims. Higher-for-longer messaging from Fed dissenters still in the frame — three FOMC members preferred +25 bps at July. A hot PPI would clip the risk-on move; a soft print extends it. AI infra names remain the beta.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung Electronics unveils zHBM concept at FMS 2026 — vertically stacks HBM directly above AI accelerators, claims ~8x speed vs HBM5 and >10x density; also shows V10 BV-NAND 400+ layers, HBM4E (16Gbps/pin, 4.0 TB/s), HBM5</strong> &mdash; Samsung is pushing an aggressive next-gen memory roadmap. zHBM/zNAND-O flip the standard side-by-side HBM+GPU layout to a vertically-integrated stack — a direct challenge to the HBM-alongside-package status quo Nvidia/AMD have built around. Reinforces the memory-as-scarcity narrative that lifted 005930.KS / 000660.KS earlier this week on the Temasek headlines. Constructive for MU as demand for advanced memory across all suppliers expands.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>CoreWeave (CRWV) closes +19.5% on 8/12 to ~$90-92 following Q2 print — rev +112% to $2.575B, backlog ~$104B, Truist upgrade to Buy; CEO calls quarter 'important inflection point' as operating leverage kicks in</strong> &mdash; Follow-through day for CRWV after the Q2 blowout. Enterprise adoption broadening, unit economics finally moving as scale hits. Read-through positive across the neocloud/hyperscaler chain — validates the FY27 capex trajectory that CSCO's guide effectively confirmed. Watch for pin-action into today's session on any further sell-side pile-on.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Cisco Q4 FY26 blowout: rev $17.3B (+18% Y/Y), non-GAAP EPS $1.22 (beat); Q4 hyperscaler AI orders $4B → FY26 AI orders $9.3B (4.5x FY25); FY27 rev guide $72.2-73.4B vs Street $69.1B; hyperscaler AI revenue to reach $7.5B in FY27 (from $4B FY26)</h3><p>Cisco crushed the print and raised the AI supercycle bar. Networking capex from hyperscalers is now visibly bracketed: $4B Q4 orders alone matched all of FY25 AI revenue. Sovereign/neocloud/enterprise added another $1.3B (150% Y/Y). Stock reaction split — up 2.5% initially but slipped 4% AH on margin guide of 65-66% GM (hardware-heavy mix drags below consensus). Read-through positive for ANET, AVGO, VRT, APH, CLS on the AI networking/hardware chain.</p><div class="source"><a href="https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx">Cisco Investor Relations</a></div></div>
+<div class="card"><h3>Coherent (COHR) Q4 FY26: rev $2.05B (+34% Y/Y), non-GAAP EPS $1.74 beats $1.65; FY26 rev $7.12B (+22.5%); optical-connectivity AI datacenter story validated as industry shifts from copper to optical</h3><p>Coherent posted a clean beat on both lines with GAAP GM 38.5% / non-GAAP GM 40.2%. Management framed the copper-to-optical shift in AI datacenters as an accelerator, expanding manufacturing capacity to keep pace. Read-through positive for AI networking/interconnect names — reinforces Cisco's $9.3B AI hyperscaler order tape. Not a tracked ticker but a strong sentiment marker for the AI infra optical stack, supportive of ANET / AVGO / CSCO.</p><div class="source"><a href="https://www.stocktitan.net/news/COHR/coherent-corp-announces-timing-of-fy2026-fourth-quarter-and-fiscal-02fo7c2uxxlb.html">Coherent Q4 FY26 release</a></div></div>
+<div class="card"><h3>Applied Materials (AMAT) reports Q3 FY26 today after close (4:30pm ET); Street: $9.0B rev (+23% Y/Y), $3.36 adj EPS (+35.5%); prior Q3 guide $8.95B ±$500M — AI/datacenter demand the swing factor</h3><p>AMAT prints tonight. Consensus $9.0B rev / $3.36 EPS; company's own Q3 guide midpoint aligns. Beat-and-raise is priced given the SMCI/CRWV/CSCO tape, so the bar is elevated. Key read-throughs: HBM/logic capex commentary for MU / SK Hynix / Samsung; China exposure color post-January BIS rule tweaks; leading-edge etch/deposition mix for LRCX/KLAC.</p><div class="source"><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug/">Applied Materials IR</a></div></div>
+<div class="card"><h3>Nvidia raises RTX PRO 6000 Blackwell (96GB workstation) list to $16,000 on 8/12 — +20.8% in two months, +87% vs $8,565 launch; pricing power at the enterprise edge continues as Blackwell inference/train demand outstrips supply</h3><p>Marketplace pricing on the 96GB workstation card jumped again. Jensen has been public about 'Blackwell sales off the charts, cloud GPUs sold out' — the sticker hikes confirm no near-term relief on the demand side. Positive for NVDA gross margin trajectory, and by extension the AI infra complex (CRWV, MSFT, META, GOOGL as buyers; SMCI, DELL, VRT as system builders).</p><div class="source"><a href="https://videocardz.com/newz/nvidia-raises-rtx-pro-6000-blackwell-price-to-16000-now-87-above-original-msrp">VideoCardz</a></div></div>
+<div class="card"><h3>Samsung Electronics unveils zHBM concept at FMS 2026 — vertically stacks HBM directly above AI accelerators, claims ~8x speed vs HBM5 and >10x density; also shows V10 BV-NAND 400+ layers, HBM4E (16Gbps/pin, 4.0 TB/s), HBM5</h3><p>Samsung is pushing an aggressive next-gen memory roadmap. zHBM/zNAND-O flip the standard side-by-side HBM+GPU layout to a vertically-integrated stack — a direct challenge to the HBM-alongside-package status quo Nvidia/AMD have built around. Reinforces the memory-as-scarcity narrative that lifted 005930.KS / 000660.KS earlier this week on the Temasek headlines. Constructive for MU as demand for advanced memory across all suppliers expands.</p><div class="source"><a href="https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure">Samsung Global Newsroom</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>CoreWeave (CRWV) closes +19.5% on 8/12 to ~$90-92 following Q2 print — rev +112% to $2.575B, backlog ~$104B, Truist upgrade to Buy; CEO calls quarter 'important inflection point' as operating leverage kicks in</h3><p>Follow-through day for CRWV after the Q2 blowout. Enterprise adoption broadening, unit economics finally moving as scale hits. Read-through positive across the neocloud/hyperscaler chain — validates the FY27 capex trajectory that CSCO's guide effectively confirmed. Watch for pin-action into today's session on any further sell-side pile-on.</p><div class="source"><a href="https://finance.yahoo.com/technology/article/coreweave-stock-soars-after-earnings-and-an-important-inflection-point-193036479.html">Yahoo Finance</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>US PPI print + jobless claims + Fed speeches today after benign July CPI (3.4%/2.5%) yesterday; markets pricing ~35% odds of a September Fed hike, 2-yr yield 4.14% (-6 bps); Nasdaq futures firm into the open</h3><p>After yesterday's CPI cooled and Nasdaq rallied on SMCI+CRWV, today's macro data risk is PPI (8:30am ET) and initial claims. Higher-for-longer messaging from Fed dissenters still in the frame — three FOMC members preferred +25 bps at July. A hot PPI would clip the risk-on move; a soft print extends it. AI infra names remain the beta.</p><div class="source"><a href="https://www.xtb.com/en/market-analysis/economic-calendar-us-ppi-jobless-claims-and-fed-speeches-to-bring-more-insight-after-uneventful-cpi-13-08-2026">XTB Economic Calendar</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">CSCO</span> KeyCorp: None &rarr; <strong>Overweight</strong> | PT: $130 &rarr; $135 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">CSCO</span> Morgan Stanley: None &rarr; <strong>Overweight</strong> | PT: $120 &rarr; $130 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">CSCO</span> BofA Securities: None &rarr; <strong>Buy</strong> | PT: $135 &rarr; $150 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">CRWV</span> Truist: Hold &rarr; <strong>Buy</strong> | PT: N/A &rarr; N/A </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">CSCO</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q4 FY26 rev $17.3B (+18%), EPS $1.22 beat; FY26 hyperscaler AI orders $9.3B (4.5x FY25); FY27 guide $72.2-73.4B (vs Street $69.1B); FY27 AI hyperscaler rev target $7.5B. Margin guide 65-66% GM is the pushback.</p>
+<p><span class="ticker">AMAT</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Reports Q3 FY26 today after close. Street $9.0B / $3.36. Bar is high given AI capex tape; beat-and-raise expected, miss would rerate the WFE group.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">CSCO</span></td><td>Up</td><td>Q4 beat: rev $17.3B (+18%), FY27 guide $72.2-73.4B, FY26 AI orders $9.3B (4.5x)</td></tr>
+<tr><td><span class="ticker ">AMAT</span></td><td>Neutral</td><td>Q3 FY26 tonight AMC; Street $9.0B / $3.36 (+35.5%); bar high after CSCO tape</td></tr>
+<tr><td><span class="ticker up">CRWV</span></td><td>Up</td><td>+19.5% on 8/12 follow-through; Truist upgrade to Buy; $104B backlog</td></tr>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>RTX PRO 6000 Blackwell +21% price hike to $16k (+87% vs launch) — pricing power intact</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>Samsung zHBM concept at FMS 2026: 8x speed vs HBM5, >10x density</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>Sympathy bid on Samsung zHBM + Temasek sovereign inflow follow-through</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>Memory scarcity narrative extends; AMAT tonight for WFE/HBM capex color</td></tr>
+<tr><td><span class="ticker up">COHR</span></td><td>Up</td><td>Q4 FY26 beat: rev $2.05B (+34%), EPS $1.74 — optical AI read-through positive for ANET/AVGO</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-08-13 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

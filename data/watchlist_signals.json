@@ -3666,5 +3666,19 @@
     "signal_type": "momentum",
     "description": "+2% pre-mkt on SMCI's Q1 FY27 guide ($14.5-15.5B, +27% above street) — implied GB200/GB300 shipment cadence robust into Aug 26 earnings; no visible pause-for-Rubin",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CSCO",
+    "signal_type": "earnings_beat",
+    "description": "Q4 FY26 rev $17.3B (+18%), EPS $1.22 beat; FY26 hyperscaler AI orders $9.3B (4.5x FY25); FY27 guide $72.2-73.4B (vs Street $69.1B); FY27 AI hyperscaler rev target $7.5B. Margin guide 65-66% GM is the pushback.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "AMAT",
+    "signal_type": "earnings_beat",
+    "description": "Reports Q3 FY26 today after close. Street $9.0B / $3.36. Bar is high given AI capex tape; beat-and-raise expected, miss would rerate the WFE group.",
+    "severity": "medium"
   }
 ]

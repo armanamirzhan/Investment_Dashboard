@@ -5345,5 +5345,87 @@
       }
     ],
     "file": "morning-news/2026-08-12.html"
+  },
+  {
+    "date": "2026-08-13",
+    "tickers": [
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "Q4 beat: rev $17.3B (+18%), FY27 guide $72.2-73.4B, FY26 AI orders $9.3B (4.5x)"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "neutral",
+        "note": "Q3 FY26 tonight AMC; Street $9.0B / $3.36 (+35.5%); bar high after CSCO tape"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "+19.5% on 8/12 follow-through; Truist upgrade to Buy; $104B backlog"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "RTX PRO 6000 Blackwell +21% price hike to $16k (+87% vs launch) — pricing power intact"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung zHBM concept at FMS 2026: 8x speed vs HBM5, >10x density"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Sympathy bid on Samsung zHBM + Temasek sovereign inflow follow-through"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Memory scarcity narrative extends; AMAT tonight for WFE/HBM capex color"
+      },
+      {
+        "ticker": "COHR",
+        "direction": "up",
+        "note": "Q4 FY26 beat: rev $2.05B (+34%), EPS $1.74 — optical AI read-through positive for ANET/AVGO"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "CSCO",
+        "signal": "AI orders $9.3B FY26 (4.5x Y/Y); FY27 hyperscaler AI rev target $7.5B — networking supercycle validated"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "COHR + CSCO tandem beats validate copper→optical migration in AI datacenters"
+      },
+      {
+        "ticker": "AMAT",
+        "signal": "Q3 FY26 tonight AMC — key tell for HBM/logic capex trajectory + China exposure post-BIS Jan rules"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Blackwell workstation +87% vs launch — cloud GPUs sold out, no near-term demand relief"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "Samsung zHBM/zNAND-O vertical-stack concept challenges HBM-alongside-package status quo; supportive across MU/005930.KS/000660.KS"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US PPI + jobless claims + Fed speak today; ~35% odds of Sep hike; hot PPI would clip yesterday's CPI-driven Nasdaq rally"
+      },
+      {
+        "ticker": "CSCO",
+        "signal": "Margin guide 65-66% GM the pushback — hardware-heavy AI mix drags below consensus; watch AH read-through into VRT/APH open"
+      }
+    ],
+    "file": "morning-news/2026-08-13.html",
+    "sectors": [
+      "hardware",
+      "integration",
+      "finance"
+    ],
+    "top_headlines": "Cisco Q4 blowout, $9.3B AI orders; AMAT prints tonight; Samsung zHBM; Blackwell +21% price hike; CRWV +19.5%"
   }
 ]

@@ -3680,5 +3680,12 @@
     "signal_type": "earnings_beat",
     "description": "Reports Q3 FY26 today after close. Street $9.0B / $3.36. Bar is high given AI capex tape; beat-and-raise expected, miss would rerate the WFE group.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CSCO",
+    "signal_type": "momentum",
+    "description": "Confirmed intraday session decline of ~9% (from $123.88 close to ~$112.69), materially larger than the AH slip known at pre-open. Sell-side split: Morgan Stanley/KeyCorp/BofA raised targets ($130-150) citing the $9.3B FY26 AI order book, but the tape is trading off the 65-66% GM guide — investors reading margin compression as a ceiling on the AI-hyperscaler upside even as the top-line beat and raise landed clean.",
+    "severity": "high"
   }
 ]

@@ -4291,5 +4291,14 @@
     "new_target": null,
     "old_rating": "Hold",
     "old_target": null
+  },
+  {
+    "date": "2026-08-13",
+    "ticker": "CRWV",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 176.0,
+    "old_rating": "Overweight",
+    "old_target": 167.0
   }
 ]

@@ -3687,5 +3687,26 @@
     "signal_type": "momentum",
     "description": "Confirmed intraday session decline of ~9% (from $123.88 close to ~$112.69), materially larger than the AH slip known at pre-open. Sell-side split: Morgan Stanley/KeyCorp/BofA raised targets ($130-150) citing the $9.3B FY26 AI order book, but the tape is trading off the 65-66% GM guide — investors reading margin compression as a ceiling on the AI-hyperscaler upside even as the top-line beat and raise landed clean.",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "AMAT",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 beat both lines (rev $9.12B vs $8.99B est; EPS $3.50 vs $2.71 est) and guided Q4 to $10.25B vs $9.55B est — but stock -5% AH on China share dropping to 28% and elevated setup after 200% YTD rally. Watch for downgrade risk in the tape today and gap-fill opportunity if AI-equipment complex holds.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Broadcom Q3 report September 2/3 will be the next major AI-infra catalyst — company guided AI semi revenue to $16B (+200% Y/Y) but that is 7% below $17.2B sell-side consensus; Q2 AI bookings $30B on $10.8B shipped indicates deep backlog. Setup: expectations bifurcated between conservative company number and buyside enthusiasm.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-14",
+    "ticker": "TSM",
+    "signal_type": "momentum",
+    "description": "TSMC July 2026 revenue $14.5B (+44.7% Y/Y, +5.6% M/M), tracking above the raised FY26 guide of >40% growth. Combined with SMIC pricing hikes + Foxconn CoWoS bottleneck comment, TSMC's advanced-packaging chokehold is intact — read-through positive for the semi cap-eq chain (AMAT/LRCX/KLAC/ASML).",
+    "severity": "medium"
   }
 ]

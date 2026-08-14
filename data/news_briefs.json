@@ -5427,5 +5427,84 @@
       "finance"
     ],
     "top_headlines": "Cisco Q4 blowout, $9.3B AI orders; AMAT prints tonight; Samsung zHBM; Blackwell +21% price hike; CRWV +19.5%"
+  },
+  {
+    "date": "2026-08-14",
+    "tickers": [
+      {
+        "ticker": "AMAT",
+        "direction": "down",
+        "note": "Q3 beat + Q4 guide $10.25B >$9.55B est but stock -5% AH on China 28% share; leading-edge logic timing"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "5 PT raises: Truist $140, UBS $138, Rosenblatt $165, MS $135, KeyBanc $135"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "July rev $14.5B (+44.7% Y/Y); CoWoS bottleneck named 2027 ceiling by Foxconn"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Sep 2 print; $16B Q3 AI semi guide vs $17.2B consensus; $30B backlog signal"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Foxconn AI servers > iPhones — Blackwell rack ramp confirmed; SMIC hikes reinforce global fab pricing"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "neutral",
+        "note": "Gemini 3.7 Flash live; 3.5 Pro still delayed vs Anthropic/OpenAI cadence"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "China hardware rotation; Hot Chips Aug 25 next catalyst for HBM4 base-die"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "HBM leadership intact; Hot Chips Aug 25 packaging roadmap on deck"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AMAT",
+        "signal": "record Q3 + Q4 guide $10.25B blows past $9.55B est; but China share 28% (from 35%) — stock -5% AH shows priced-for-perfection setup"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "SMIC Q2 tops $3B rev first time, raising Q3 wafer prices at 93.7% util — global fab pricing power intact, positive for TSM/UMC/GFS"
+      },
+      {
+        "ticker": "integration",
+        "signal": "Foxconn Q2: AI servers > iPhones first time; cloud/networking 51% of rev; rack shipments to more than double in 2026"
+      },
+      {
+        "ticker": "CSCO",
+        "signal": "5 PT raises, Rosenblatt Street-high $165 — networking supercycle framing intact after Q4 blowout"
+      },
+      {
+        "ticker": "software",
+        "signal": "Gemini 3.7 Flash live — cheaper coding; but 3.5 Pro delay means Google frontier cadence lags Anthropic/OpenAI"
+      },
+      {
+        "ticker": "macro",
+        "signal": "S&P/Nasdaq at record highs into open; September Fed hike odds sharply lower after cool CPI/PPI; Powell Jackson Hole Aug 22 next pivot"
+      }
+    ],
+    "file": "morning-news/2026-08-14.html",
+    "sectors": [
+      "hardware",
+      "integration",
+      "software",
+      "finance"
+    ],
+    "top_headlines": "AMAT record Q3 but -5% AH on China; Cisco collects 5 PT raises; SMIC raising Q3 wafer prices; Foxconn AI servers > iPhones; Gemini 3.7 Flash live"
   }
 ]

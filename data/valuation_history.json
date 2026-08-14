@@ -56775,7 +56775,7 @@
     "date": "2026-08-14",
     "ticker": "GEV",
     "price": 1063.25,
-    "pe_ratio": 30.24033,
+    "pe_ratio": 30.518082,
     "ps_ratio": 6.845534,
     "ev_ebitda": 69.176,
     "market_cap": 283179188224.0,
@@ -56786,14 +56786,14 @@
   {
     "date": "2026-08-14",
     "ticker": "ENR.DE",
-    "price": 185.97546044,
+    "price": 185.99699692000002,
     "pe_ratio": 52.012947,
     "ps_ratio": 3.2680526,
     "ev_ebitda": 27.948,
-    "market_cap": 158236956983.79572,
+    "market_cap": 158255281267.286,
     "short_interest": null,
-    "avg_analyst_target": 227.85974463780002,
-    "upside_pct": 22.521403683424595
+    "avg_analyst_target": 227.88613143540002,
+    "upside_pct": 22.521403683424587
   },
   {
     "date": "2026-08-14",
@@ -56823,7 +56823,7 @@
     "date": "2026-08-14",
     "ticker": "TSLA",
     "price": 342.27,
-    "pe_ratio": 305.5982,
+    "pe_ratio": 314.00916,
     "ps_ratio": 13.045981,
     "ev_ebitda": 122.353,
     "market_cap": 1351811596288.0,
@@ -56852,8 +56852,8 @@
     "ev_ebitda": 53.457,
     "market_cap": 42568994816.0,
     "short_interest": null,
-    "avg_analyst_target": 130.16483,
-    "upside_pct": 33.174575404133414
+    "avg_analyst_target": 130.18454,
+    "upside_pct": 33.194741149989774
   },
   {
     "date": "2026-08-14",
@@ -56942,25 +56942,25 @@
   {
     "date": "2026-08-14",
     "ticker": "000660.KS",
-    "price": 1160.6493255,
+    "price": 1161.329533,
     "pe_ratio": null,
     "ps_ratio": 6.1727924,
     "ev_ebitda": 7.399,
-    "market_cap": 823892588840.0879,
+    "market_cap": 824375437454.0583,
     "short_interest": null,
-    "avg_analyst_target": 2232.63195703842,
+    "avg_analyst_target": 2233.94040823772,
     "upside_pct": 92.36059574468084
   },
   {
     "date": "2026-08-14",
     "ticker": "005930.KS",
-    "price": 193.67674155,
+    "price": 193.7902473,
     "pe_ratio": null,
     "ps_ratio": 3.7147098,
     "ev_ebitda": 7.048,
-    "market_cap": 1271790616166.8726,
+    "market_cap": 1272535958878.5254,
     "short_interest": null,
-    "avg_analyst_target": 332.96044621758,
+    "avg_analyst_target": 333.15558025828,
     "upside_pct": 71.91555555555556
   },
   {
@@ -57128,8 +57128,8 @@
     "ev_ebitda": 2922.996,
     "market_cap": 708311121920.0,
     "short_interest": 0.0028,
-    "avg_analyst_target": 2177.8474,
-    "upside_pct": 18.099399158387932
+    "avg_analyst_target": 2178.0996,
+    "upside_pct": 18.113075354648394
   },
   {
     "date": "2026-08-14",
@@ -57170,14 +57170,14 @@
   {
     "date": "2026-08-14",
     "ticker": "8035.T",
-    "price": 371.10721212,
+    "price": 371.174821362,
     "pe_ratio": 47.3468,
     "ps_ratio": 10.236137,
     "ev_ebitda": 34.212,
-    "market_cap": 168724340886.33646,
+    "market_cap": 168755079509.62836,
     "short_interest": null,
-    "avg_analyst_target": 463.4632010358,
-    "upside_pct": 24.886605783866067
+    "avg_analyst_target": 463.54763592332995,
+    "upside_pct": 24.88660578386605
   },
   {
     "date": "2026-08-14",
@@ -57218,14 +57218,14 @@
   {
     "date": "2026-08-14",
     "ticker": "4063.T",
-    "price": 39.991462128,
+    "price": 39.998747872799996,
     "pe_ratio": 25.22865,
     "ps_ratio": 4.5195446,
     "ev_ebitda": 12.031,
-    "market_cap": 73972072371.70561,
+    "market_cap": 73985548789.24449,
     "short_interest": null,
-    "avg_analyst_target": 49.2011192886384,
-    "upside_pct": 23.029058380414313
+    "avg_analyst_target": 49.21008287186184,
+    "upside_pct": 23.029058380414334
   },
   {
     "date": "2026-08-14",
@@ -57254,14 +57254,14 @@
   {
     "date": "2026-08-14",
     "ticker": "IFX.DE",
-    "price": 71.430221335,
+    "price": 71.438493155,
     "pe_ratio": 75.28049,
     "ps_ratio": 5.145155,
     "ev_ebitda": 20.784,
-    "market_cap": 92823546010.624,
+    "market_cap": 92834295237.632,
     "short_interest": null,
-    "avg_analyst_target": 98.45748235092,
-    "upside_pct": 37.837291430422816
+    "avg_analyst_target": 98.46888400356,
+    "upside_pct": 37.83729143042281
   },
   {
     "date": "2026-08-14",

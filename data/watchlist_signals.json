@@ -3708,5 +3708,40 @@
     "signal_type": "momentum",
     "description": "TSMC July 2026 revenue $14.5B (+44.7% Y/Y, +5.6% M/M), tracking above the raised FY26 guide of >40% growth. Combined with SMIC pricing hikes + Foxconn CoWoS bottleneck comment, TSMC's advanced-packaging chokehold is intact — read-through positive for the semi cap-eq chain (AMAT/LRCX/KLAC/ASML).",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "New Street $1,250 PT (Street-high by wide margin) + pre-market cross of $1,000 first time since early July; +36% off late-July lows, +240% YTD. HBM 2027 capacity locked at AI customers — Ferragu framing as structurally less cyclical than DRAM.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "AVGO",
+    "signal_type": "legal_risk",
+    "description": "Two independent negatives compounding into Sept 2 print: (1) bond desks modeling up to $370B in senior debt by mid-2029 from off-balance-sheet AI customer lease backstops — Cisco/2001 telecom-bubble parallel; (2) CVE-2026-59310 VMware vCenter zero-day actively exploited across 361 IPs in 47 countries.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "Anthropic",
+    "signal_type": "momentum",
+    "description": "Q2 revenue >$11.5B (14x Y/Y, 2.4x Q/Q from $4.73B); first frontier lab reporting positive adjusted operating income. Investor target $2T+ IPO in October — largest ever. Positive read-through to MSFT/AMZN (large stakeholders) and NVDA/CRWV (compute suppliers).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "SNDK",
+    "signal_type": "momentum",
+    "description": "+35% for the week on Investor Day FY28-30 targets (mid-to-high-teens rev growth, 80%+ GM, 50% adj FCF margin) + Kioxia Gen 9 flash launch aimed at AI datacenter storage. Repricing as AI infra supplier not commodity NAND.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "BE",
+    "signal_type": "earnings_beat",
+    "description": "FY26 revenue guide raise to $3.9-$4.2B (from $3.4-$3.8B) + Nebius 300MW New Jersey fuel-cell win — fuel cells validated as primary datacenter power source, not just backup. Grid-queue bypass thesis intact.",
+    "severity": "medium"
   }
 ]

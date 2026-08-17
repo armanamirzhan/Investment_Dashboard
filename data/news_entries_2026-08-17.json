@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-08-17",
+    "headline": "Anthropic Q2 2026 preliminary revenue >$11.5B (up 14x Y/Y from $787M) — H1 revenue ~$16.2B, first positive adjusted operating income among frontier labs; FT reports investor target of >$2T IPO valuation in October, would eclipse SpaceX as largest IPO ever; annualized revenue trajectory pegged $100-120B by year-end",
+    "summary": "Structural signal for the AI/AGI capex cycle. Anthropic revenue grew 14-fold Y/Y and doubled sequentially from Q1's $4.73B — the fastest revenue ramp in software history and validation that enterprise Claude adoption (coding, agents) is scaling faster than OpenAI. First frontier lab to report POSITIVE adjusted operating income. Read-through: MSFT/AMZN both hold large equity stakes (MSFT ~$14B position, AMZN ~$8B); direct positive for NVDA (Anthropic runs on Trainium + GPUs), CRWV (Anthropic tenant), and hardware supply chain (VRT/ETN/ANET rack content). IPO overhang could pull IPO risk capital away from other 2026 listings. AMZN/GOOGL/MSFT hyperscaler capex thesis reinforced — private lab burn getting monetized, capex justified.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "CNBC / Fortune",
+    "source_url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Micron (MU) upgraded to Buy at New Street Research — Pierre Ferragu (5-star analyst) lifts PT to $1,250 from prior Hold; frames HBM as 'remarkably tight' with much of 2027 capacity already allocated to AI customers; argues HBM deserves valuation premium vs cyclical DRAM as AI eventually forms nearly two-thirds of memory demand; 2030 model implies >$600B cash + $150B FCF",
+    "summary": "Highest sell-side PT on the tape by a wide margin. Ferragu — a top-decile ranked semi analyst — reframing MU as a structurally less-cyclical AI infrastructure name rather than a memory cyclical. Comes into a $971 close and 13.9% one-month gain — MU crossed $1,000 pre-market Monday. Bullish read-through for 000660.KS (SK Hynix, 62% HBM share leader) and 005930.KS (Samsung, HBM4 yield up to 80% per Aug 10 TrendForce) — if MU deserves rerating, so do the leaders. HBM capacity locked through 2027 also validates NVDA/AMD Blackwell/MI400 supply visibility.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet / TipRanks",
+    "source_url": "https://www.thestreet.com/investing/micron-stock-new-street-price-target"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Stripe finalizes deal to acquire OpenRouter for >$7B (Bloomberg, WSJ, TechCrunch reporting Aug 16) — 5.4x markup from OpenRouter's $1.3B Series B valuation just 3 months prior; OpenRouter is the AI-gateway routing across 400+ models (OpenAI, Anthropic, Google, Meta, DeepSeek) for ~8M developers",
+    "summary": "Largest AI-infra M&A print of 2026 outside hyperscaler capex. Signals AI routing/inference plumbing is now a payments-grade infrastructure primitive — Stripe embedding model-selection + token metering into the payment rails. Marks a new sub-sector taxonomy: 'AI gateways' as the tollbooth between application layer and frontier labs. Read-through: pressure on incumbent model-routing plays (Portkey, LiteLLM), validation of neutral-multi-model architecture over lab-monogamy. Positive-adjacent for MSFT (Azure AI Foundry gateway), GOOGL (Vertex AI), AMZN (Bedrock) — all now competing for the enterprise routing layer against a Stripe-backed OpenRouter. Anthropic + OpenAI both route significant volume via OpenRouter — no read-through on lab margins near-term.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "SanDisk (SNDK) +35% for the week — Investor Day (Aug 13) sets mid-to-high-teens rev CAGR, 80%+ GM range, 50% adj FCF margin targets for FY28-30; Kioxia joint 9th-gen high-performance flash announcement aimed at AI datacenter storage; Micron pre-market cross of $1,000 first time since early July",
+    "summary": "Broad NAND/storage tape breaking out on the same thesis as HBM/DRAM — AI inference workloads require massive flash tier for KV-caching, RAG vector stores, and checkpoint storage. Market repricing SNDK as an AI infrastructure supplier not a cyclical NAND commodity player. JPMorgan called out NAND under-supply on AI inference growth. Positive read-through: MU (NAND ~15% of rev), 000660.KS (Solidigm), Samsung, KIOXIA — all benefit from a tighter NAND pricing environment. Also positive for storage-array vendors (indirect: DELL, HPE) as AI datacenter storage capex accelerates.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Forbes / Barchart",
+    "source_url": "https://www.forbes.com/sites/investor-hub/article/sandisk-stock-over-574-where-its-heading-2026/"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Broadcom (AVGO) closes Aug 14 at $392.99 (-5.94%) on twin negatives — bond desks flag as much as $370B in senior debt by mid-2029 tied to off-balance-sheet AI customer lease backstops (contingent liabilities); separately CVE-2026-59310 (critical VMware vCenter directory traversal, CVSS 9.8) is being actively exploited across 361 IPs in 47 countries per Quirso research team",
+    "summary": "Two independent negatives compounding into AVGO print risk (Sept 2 earnings). The AI-financing overhang is the more strategic concern: analysts modeling Broadcom's ASIC customer lease guarantees to hyperscalers could exceed $370B by 2029 — the same off-balance-sheet vendor-financing dynamic that hurt Cisco in the 2001 telecom bubble. Bond markets scrutinizing. VMware vCenter zero-day (patched July 29, exploited from Aug 3) — APT actor, half of victims in Germany/US/Turkey/Iran/France — creates near-term VMware customer-satisfaction hit. Read-through: negative-adjacent for ANET (competing switch supplier now framed as cleaner AI networking exposure), CSCO (up on comparison), MRVL (Sept 2 print now more scrutinized post-AVGO).",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Simply Wall St / Infosecurity Magazine",
+    "source_url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-avgo/broadcom/news/why-is-broadcom-avgo-drawing-new-scrutiny-over-hidden-ai-deb"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Applied Materials (AMAT) collects PT raises Fri/Mon after Q3 beat-and-raise despite -5% AH reaction — Seaport to $575 (from $500) Buy, Craig-Hallum to $585 (from $530), RBC Capital to $600 (from $520); 39-analyst S&P Global consensus 'Strong Buy' avg $629; SMIC Q2 print + Q3 wafer price hikes validate the WFE demand call",
+    "summary": "Sell-side treating Fri's AH sell-off as noise. AMAT called 2026-2027 as 'unprecedented' WFE demand on the print, with advanced packaging (CoWoS + HBM base-die) driving ~80% of growth; the China derisking (28% share vs 35% prior) framed as multi-year positive even if near-term $ headwind. Read-through remains constructive for LRCX, KLAC, 8035.T (Tokyo Electron) on leading-edge etch/deposition strength — and reinforces the memory capex signal (MU/005930.KS/000660.KS positive).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / MarketBeat",
+    "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/forecast/"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "US futures mixed to positive Monday pre-open — Nasdaq futures +0.5% (30,296), S&P 500 futures +0.1% (7,815); Dow futures -0.3% ahead of retail earnings week (WMT, TGT, HD, LOW), FOMC minutes Wed, Powell Jackson Hole Aug 22 (Fri); 10Y Treasury 4.71% / 30Y 5.28%; September Fed hike odds now below 1/3; Brent $88, gold $4,442 (+11% MoM); Micron pre-market crosses $1,000",
+    "summary": "Constructive tape setup with three macro pivots this week: (1) retail earnings — WMT/HD tone will read on consumer resilience, matters for AMZN/GOOGL ad-spend and hyperscaler capex funding; (2) FOMC minutes Wednesday — dovish tilt would extend AI risk-on; (3) Powell Jackson Hole speech Friday — the year's biggest single-day macro catalyst. September hike premium collapsing on cool July CPI (3.4%/2.5%) + benign PPI. Rising long yields (30Y at 5.28%) is the counter — a term-premium blowout could pressure growth multiples even if the front end stays anchored. AI/hardware tape leading (MU $1,000+, SNDK +35% week) — the SOX rebound off its late-July bear-market low continues.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Asia-Pacific tech rallies Monday — Hang Seng +2%, Hang Seng Tech Index +1.8%, Baidu +3.6%, Nikkei 225 +0.7%, CSI 300 +1.3%; South Korea markets CLOSED for Liberation Day public holiday (Samsung 005930.KS, SK Hynix 000660.KS untraded); Chinese hardware/foundry outperformance continues week 2 after SMIC Q2 beat + Foxconn AI-server-majority-of-revenue milestone",
+    "summary": "Asian AI-hardware rotation extends. Kospi holiday means Samsung/SK Hynix don't participate today — but futures on Nasdaq are pricing HBM4 tailwind (Samsung 80% yield per Aug 10; SK Hynix new HBM equipment orders in H2). China outperformance signals capital rotation from consumer internet toward semis/hardware — same rotation confirmed in US tape (SMCI/CRWV/AVGO ex-financing led QQQ last week). Positive read-through into the Aug 25 Hot Chips week where Samsung/SK Hynix will detail HBM4 base-die + packaging roadmaps.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com / CNBC Asia",
+    "source_url": "https://www.investing.com/news/stock-market-news/asian-stocks-mixed-as-japan-gdp-misses-forecasts-china-data-tech-in-focus-4862114"
+  },
+  {
+    "date": "2026-08-17",
+    "headline": "Bloom Energy (BE) closed $237.16 (+12.29%) Aug 12 on Nebius 300MW New Jersey (Vineland) datacenter fuel-cell selection with DataOne partnership — Bloom raises FY26 revenue guide to $3.9-$4.2B (from $3.4-$3.8B); FuelCell Energy (FCEL) +12.86%, Plug Power (PLUG) +3.15%; Mizuho upgrade drove separate Aug print",
+    "summary": "Reinforces the on-site power / behind-the-meter thesis as an AI datacenter unlock. Grid interconnection queues (5-8 years) are the binding constraint; fuel cells + natural gas turbines (GE Vernova) + SMRs (Oklo/NuScale) all bid for the same fast-deploy niche. Nebius (neocloud, CRWV comp) picking Bloom validates fuel cells as a legit datacenter primary power source — not just backup. Positive read-through for BE (rev guide raise material), FCEL (comp rerating), PLUG (comp rerating), and adjacent XE (natural gas gensets). Reduces marginal grid pressure on utilities (VST, CEG) but doesn't displace nuclear PPAs which are still oversubscribed.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/08/12/bloom-energy-jumps-13-as-nebius-picks-its-fuel-cells-for-ai-data-center-fuelcell-climbs-11/"
+  }
+]

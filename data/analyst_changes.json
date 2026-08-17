@@ -4345,5 +4345,50 @@
     "new_target": 135,
     "old_rating": "Overweight",
     "old_target": 130
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "MU",
+    "firm": "New Street Research",
+    "new_rating": "Buy",
+    "new_target": 1250,
+    "old_rating": "Hold",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "AMAT",
+    "firm": "Seaport Research",
+    "new_rating": "Buy",
+    "new_target": 575,
+    "old_rating": "Buy",
+    "old_target": 500
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "AMAT",
+    "firm": "Craig-Hallum",
+    "new_rating": "Buy",
+    "new_target": 585,
+    "old_rating": "Buy",
+    "old_target": 530
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "AMAT",
+    "firm": "RBC Capital",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": "Buy",
+    "old_target": 520
+  },
+  {
+    "date": "2026-08-17",
+    "ticker": "CRWV",
+    "firm": "Truist Securities",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
   }
 ]

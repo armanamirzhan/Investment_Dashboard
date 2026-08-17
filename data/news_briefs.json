@@ -5506,5 +5506,85 @@
       "finance"
     ],
     "top_headlines": "AMAT record Q3 but -5% AH on China; Cisco collects 5 PT raises; SMIC raising Q3 wafer prices; Foxconn AI servers > iPhones; Gemini 3.7 Flash live"
+  },
+  {
+    "date": "2026-08-17",
+    "tickers": [
+      {
+        "ticker": "Anthropic",
+        "direction": "up",
+        "note": "Q2 rev >$11.5B, $2T IPO target"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Ferragu Buy $1,250 PT"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "down",
+        "note": "AI-lease debt + VMware CVE"
+      },
+      {
+        "ticker": "SNDK",
+        "direction": "up",
+        "note": "+35% week on Investor Day"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Anthropic stake mark-up"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "up",
+        "note": "Anthropic stake mark-up"
+      },
+      {
+        "ticker": "AMAT",
+        "direction": "up",
+        "note": "PT raises Seaport/RBC/CH"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "FY26 guide raise + Nebius"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "Anthropic",
+        "signal": "Q2 rev >$11.5B (14x Y/Y), first frontier lab with positive adj op income; $2T IPO target in October — MSFT/AMZN stakeholders benefit"
+      },
+      {
+        "ticker": "MU",
+        "signal": "New Street $1,250 Street-high PT (upgrade to Buy) — HBM 2027 capacity locked; pre-market cross of $1,000 first time since early July"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Off-balance-sheet AI lease guarantees flagged (up to $370B by mid-2029) + VMware vCenter CVE-2026-59310 actively exploited — twin negatives into Sept 2 print"
+      },
+      {
+        "ticker": "SNDK",
+        "signal": "+35% for the week on Investor Day FY28-30 targets + Kioxia Gen 9 flash — repricing as AI infra supplier"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "Asia tech rallies — Hang Seng Tech +1.8%; Kospi CLOSED (Liberation Day), Samsung/SK Hynix untraded; China semis rotation extends"
+      },
+      {
+        "ticker": "finance",
+        "signal": "Powell Jackson Hole speech Fri Aug 22 — year's biggest macro pivot; FOMC minutes Wed; retail earnings week (WMT/TGT/HD/LOW)"
+      },
+      {
+        "ticker": "software",
+        "signal": "Stripe/OpenRouter $7B+ deal (Aug 16) — AI-gateway routing now payments-grade primitive; 5.4x markup in 3 months"
+      },
+      {
+        "ticker": "BE",
+        "signal": "FY26 rev guide raise + Nebius 300MW NJ fuel-cell win — fuel cells validated as primary datacenter power"
+      }
+    ],
+    "file": "morning-news/2026-08-17.html"
   }
 ]

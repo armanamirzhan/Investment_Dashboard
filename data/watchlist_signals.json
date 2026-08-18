@@ -3743,5 +3743,26 @@
     "signal_type": "earnings_beat",
     "description": "FY26 revenue guide raise to $3.9-$4.2B (from $3.4-$3.8B) + Nebius 300MW New Jersey fuel-cell win — fuel cells validated as primary datacenter power source, not just backup. Grid-queue bypass thesis intact.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Reportedly guaranteeing ~$100B OpenAI datacenter financing + $3B SB Energy investment; positions Nvidia as ecosystem financier of ~10 GW Ohio AI buildout ahead of fiscal Q2 print.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "CSCO",
+    "signal_type": "momentum",
+    "description": "Freedom Broker upgrade to Buy following Q4 FY26 beat and $9.3B FY26 hyperscaler AI orders; FY27 revenue guide $72.2–73.4B implies networking supercycle.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Closed +3.23% Aug 17 on gas turbine + AI-power backlog narrative; wind segment down 40% not derailing $176B total backlog thesis.",
+    "severity": "medium"
   }
 ]

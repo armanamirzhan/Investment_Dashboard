@@ -5586,5 +5586,55 @@
       }
     ],
     "file": "morning-news/2026-08-17.html"
+  },
+  {
+    "date": "2026-08-18",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "~$100B OpenAI financing + $3B SB Energy stake"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "+3.23% Aug 17; gas turbine backlog narrative"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "Freedom Broker upgrade; $9.3B FY26 hyperscaler AI orders"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "neutral",
+        "note": "Nadella: power availability is the bottleneck"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Power-gen read-through from Nadella comments"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Nuclear PPA tailwind on power-constraint narrative"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "CSCO",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "GEV",
+        "signal": "momentum"
+      }
+    ],
+    "file": "morning-news/2026-08-18.html"
   }
 ]

@@ -4399,5 +4399,14 @@
     "new_target": 130,
     "old_rating": "Hold",
     "old_target": 125
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "CSCO",
+    "firm": "Freedom Broker",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Hold",
+    "old_target": null
   }
 ]

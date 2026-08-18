@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-08-18",
+    "headline": "Nvidia in talks to guarantee ~$100B in OpenAI datacenter financing; considering $3B SB Energy stake",
+    "summary": "Nvidia is reportedly preparing to backstop roughly $100 billion in financing for OpenAI's next mega datacenter build in Ohio, while separately negotiating a $3 billion investment in SoftBank-backed SB Energy tied to the same project. Half of the SB Energy tranche would be paid on deal signing, with the rest deployed at SB Energy's planned IPO. The arrangement would extend Nvidia's role from chip supplier to ecosystem financier and underwrites ~10 GW of new power generation earmarked for AI compute.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CNBC / The Information",
+    "source_url": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "AI networking stocks rally Monday: Marvell +8%, Credo +8%, Ciena joins move",
+    "summary": "AI-networking names ripped higher Monday on renewed hyperscaler orderbook enthusiasm heading into Nvidia's fiscal Q2 print later this month. Marvell and Credo both closed up ~8%, Ciena participated in the move. Read-through is constructive for Arista (ANET) and Cisco (CSCO) which cited $4B of hyperscaler AI orders in Q4 FY26 alone. Broader chip sector still digesting late-July rout that shed >$1T in market cap.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/08/17/ai-networking-stocks-are-rallying-on-monday-marvell-up-8-credo-up-8-ciena-joins-the_move/"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Freedom Broker upgrades Cisco to Buy from Hold after Q4 FY26 beat and $9.3B FY26 hyperscaler AI orders",
+    "summary": "Freedom Broker moved Cisco to Buy following the Aug 12 Q4 FY26 print — revenue $17.3B (+18% y/y), non-GAAP EPS $1.22 vs $1.17 consensus, and $4B of Q4 hyperscaler AI orders bringing FY26 total to $9.3B. FY27 revenue guide of $72.2–73.4B implies a networking supercycle read. Non-GAAP gross margin guided down to 65–66% as hardware-heavy AI infra mix expands.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "DailyTradeAlert / Cisco IR",
+    "source_url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026-EARNINGS/default.aspx"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "GE Vernova closes +3.23% Monday as gas turbine backlog narrative dominates over wind weakness",
+    "summary": "GEV rallied 3.23% on Aug 17 with structural power-demand tailwinds outweighing a Motley Fool takeout that flagged wind bookings down 40%. GE Vernova is the world's largest gas turbine manufacturer and holds a ~$176B backlog; gas remains the primary lever for closing the AI-datacenter capacity gap through the late 2020s. Wind weakness a known drag but small relative to gas and grid segment growth.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/news/market-movers/262112773-market-movers-gev-20260817"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "WSJ: nine major tech firms carry ~$3T in off-balance-sheet AI infrastructure commitments",
+    "summary": "A Wall Street Journal investigation pegs cumulative off-balance-sheet AI infra obligations at the nine largest US tech names at roughly $3 trillion, spanning datacenter leases, chip purchase commitments, and multi-year cloud/compute reservations. Highlights the scale of hyperscaler capex opacity and cross-collateralization across MSFT, AMZN, GOOGL, META, ORCL and CRWV. Near-term positive for infrastructure suppliers; long-term flags return-on-invested-capital risk.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Wall Street Journal (via TechStartups)",
+    "source_url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Nadella: Microsoft holds ~2.2M advanced AI chips but power availability, not silicon, is the binding constraint",
+    "summary": "Guardian investigation puts Microsoft's deployed advanced AI chip footprint near 2.2 million units globally, with CEO Satya Nadella pointing to power availability and completed facility capacity — not chip supply — as the current bottleneck. Bullish for power generators (VST, CEG, NEE), gas turbine OEMs (GEV), electrical equipment (ETN, VRT) and cooling; consistent with hyperscaler shift toward securing firm nuclear and gas PPAs.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "The Guardian (via TechStartups)",
+    "source_url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "Stripe to acquire OpenRouter for >$7B, ~5x May Series B mark",
+    "summary": "Stripe finalized a deal to acquire AI-model gateway OpenRouter for over $7 billion, up from a $1.3B Series B valuation just three months prior. OpenRouter routes across 400+ models from OpenAI, Anthropic, Google, Meta and DeepSeek for ~8M developers and processed ~1.5 quadrillion tokens in the last year. Signals continued private-market froth around inference-layer infrastructure and reinforces multi-model orchestration as the emerging stack layer.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg (via TechStartups)",
+    "source_url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"
+  },
+  {
+    "date": "2026-08-18",
+    "headline": "US index futures soft pre-open Aug 18: Nasdaq 100 -1.29%, S&P -0.46% as retail earnings and FOMC minutes loom",
+    "summary": "Pre-market futures were red on Aug 18 with Nasdaq 100 futures down 1.29% and S&P 500 futures off 0.46%. Home Depot reports before the open (consensus ~$4.71 EPS on $47.5B revenue); Lowe's follows Wed and Walmart Thu. July FOMC minutes hit Wednesday. Recent weakness has been concentrated in mega-cap semis after last month's ~$1T chip-sector drawdown; investors watching whether the AI-networking bid on Monday broadens into GPUs and memory.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investing.com pre-market data",
+    "source_url": "https://www.investing.com/equities/pre-market"
+  }
+]

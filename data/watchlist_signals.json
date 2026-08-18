@@ -3764,5 +3764,19 @@
     "signal_type": "momentum",
     "description": "Closed +3.23% Aug 17 on gas turbine + AI-power backlog narrative; wind segment down 40% not derailing $176B total backlog thesis.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "MU",
+    "signal_type": "concentration_risk",
+    "description": "Broad AI-infrastructure rout intraday (SOX -3.7%) after US-Iran ceasefire lapsed and a tanker was struck in the Strait of Hormuz, pushing Brent above $90 and the 30Y Treasury yield to its highest since 2007. MU -7.0%, reversing most of yesterday's New Street-driven rally. Correlated drawdown hit dc_hardware/semiconductor_fab (AMD -5.2%, INTC -7.3%, ASML -5.2%, AMAT -5.7%, VRT -6.9%) and power names (BE -10.6%, GEV -5.4%, SMR -5.8%, OKLO -5.8%) plus CRWV -8.5% — portfolio has concentrated exposure to rate- and oil-sensitive AI capex names.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-18",
+    "ticker": "WOLF",
+    "signal_type": "momentum",
+    "description": "-9.6% intraday, underperforming the broader semis selloff, as investors de-risk ahead of Aug 19 earnings following prior quarters' deeply negative gross margins (-20.6% last Q). No fresh company-specific news; move is idiosyncratic on top of the macro (Iran/oil/yields) pressure hitting the whole sector today.",
+    "severity": "medium"
   }
 ]

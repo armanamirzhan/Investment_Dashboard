@@ -3806,5 +3806,26 @@
     "signal_type": "concentration_risk",
     "description": "$105B OpenAI Ohio guarantee (scaled back from $250B WSJ report) intensifies 'circular financing' debate. Watch AH tape into Aug 26 print.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "AVGO",
+    "signal_type": "concentration_risk",
+    "description": "Shares fell ~5% after Marvell disclosed a formal commercial AI-chip agreement with Google that gives Google a warrant to buy ~$12.2B of Marvell stock (~7% stake, vesting with custom-silicon revenue) covering AI inference accelerators, networking, and memory interfaces. The deal raises fresh doubts about Broadcom's status as Google's sole custom-chip partner (exclusive deal through 2031); Morgan Stanley (Overweight, $502 PT) and TD Cowen (Buy, $500 PT) both reiterated bullish ratings, likening it to last year's Marvell/Amazon Trainium scare that proved overblown. Compounded by lingering VMware and off-balance-sheet AI financing concerns.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Shares up ~5-6% intraday, extending the DRAM/HBM \"chipflation\" rally after Commerce Secretary Lutnick said the administration is discouraging Apple and other US firms from sourcing memory from Chinese suppliers (ChangXin, YMTC), keeping more of the ongoing shortage with Micron, Samsung, and SK Hynix. Micron's HBM4 capacity is reportedly sold out through 2026 and DRAM prices are up roughly 29% year-to-date on AI datacenter demand.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix shares up ~3.3-3.8% after announcing a KRW40 trillion (~$28.3B) share buyback-and-cancellation program, the largest shareholder-return initiative in South Korean corporate history (retiring 24M+ shares outright), alongside a pledge to direct 50%+ of cumulative 2025-2027 free cash flow to shareholders. Move also tied to reports of an expanded Nvidia-SK Group AI infrastructure/HBM co-development pact tied to a $500B+ next-gen memory buildout.",
+    "severity": "high"
   }
 ]

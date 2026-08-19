@@ -4408,5 +4408,23 @@
     "new_target": null,
     "old_rating": "Hold",
     "old_target": null
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "PANW",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 425,
+    "old_rating": "Overweight",
+    "old_target": 340
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 206,
+    "old_rating": "Overweight",
+    "old_target": null
   }
 ]

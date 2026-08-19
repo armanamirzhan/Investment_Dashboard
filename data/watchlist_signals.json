@@ -3778,5 +3778,33 @@
     "signal_type": "momentum",
     "description": "-9.6% intraday, underperforming the broader semis selloff, as investors de-risk ahead of Aug 19 earnings following prior quarters' deeply negative gross margins (-20.6% last Q). No fresh company-specific news; move is idiosyncratic on top of the macro (Iran/oil/yields) pressure hitting the whole sector today.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "PANW",
+    "signal_type": "momentum",
+    "description": "Cantor $425 PT (from $340) after Q4 print; NGS ARR guide +60% y/y with $1.6B CyberArk+Chronosphere already in the mix.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "FN",
+    "signal_type": "earnings_beat",
+    "description": "Record Q4: revenue $1.316B (+45%), datacenter revenue +68%. Q1 FY27 guide $1.375-1.425B (+43% mid). Watch for AI-optical read-through to Coherent/Ciena/AVGO.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "HD",
+    "signal_type": "earnings_beat",
+    "description": "Q2 comp sales +1.7% (vs +0.9% est) - best comp since Q3 FY22. Revenue $47.86B, EPS $4.92, FY guide reaffirmed. Mildly positive risk-on tone into FOMC minutes.",
+    "severity": "low"
+  },
+  {
+    "date": "2026-08-19",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "$105B OpenAI Ohio guarantee (scaled back from $250B WSJ report) intensifies 'circular financing' debate. Watch AH tape into Aug 26 print.",
+    "severity": "medium"
   }
 ]

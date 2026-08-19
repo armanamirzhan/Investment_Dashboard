@@ -5636,5 +5636,73 @@
       }
     ],
     "file": "morning-news/2026-08-18.html"
+  },
+  {
+    "date": "2026-08-19",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "$105B OpenAI Ohio guarantee formalized (down from $250B WSJ); MS reiterates $206 PT ahead of Aug 26 print"
+      },
+      {
+        "ticker": "FN",
+        "direction": "up",
+        "note": "Record Q4 revenue $1.316B (+45%), datacenter +68%; guide $1.375-1.425B for Q1 FY27"
+      },
+      {
+        "ticker": "PANW",
+        "direction": "up",
+        "note": "Cantor PT to $425 from $340 (OW); NGS ARR guide +60% y/y post CyberArk close"
+      },
+      {
+        "ticker": "HD",
+        "direction": "up",
+        "note": "Q2 comp +1.7% best since FY22 Q3; revenue $47.86B and EPS $4.92 beat; FY guide reaffirmed"
+      },
+      {
+        "ticker": "ENR.DE",
+        "direction": "up",
+        "note": "Grid backlog record 51B EUR; US datacenter transformer demand holds — GEV/ETN/ABB positive read"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Nadella: 2.2M advanced AI chips deployed; power availability (not silicon) is binding constraint"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Kospi -1.55%, memory names sold ahead of NVDA print / FOMC minutes"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "Sold with Samsung on Asia risk-off; HBM demand thesis intact"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "integration",
+        "signal": "Nvidia OpenAI Ohio guarantee $105B (scaled back from $250B) — circular-financing debate intact but visibility through 2028"
+      },
+      {
+        "ticker": "hardware",
+        "signal": "Fabrinet datacenter revenue +68% y/y flags AI-optical demand still accelerating into 2H26"
+      },
+      {
+        "ticker": "energy",
+        "signal": "Siemens Energy 51B EUR grid backlog + Nadella 'power is the constraint' = double-signal for grid gear + firm power (GEV, ETN, VRT, CEG, VST)"
+      },
+      {
+        "ticker": "finance",
+        "signal": "FOMC July minutes at 2pm ET; retail-consumer beat from Home Depot sets constructive pre-open tone"
+      },
+      {
+        "ticker": "software",
+        "signal": "Cantor PANW $425 PT — cyber platformization + identity via CyberArk is the sell-side thesis of the week"
+      }
+    ],
+    "file": "morning-news/2026-08-19.html"
   }
 ]

@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-08-19",
+    "headline": "Fabrinet Q4 FY26 record: revenue $1.316B (+45% y/y), datacenter +68%; stock reaction mixed on capex plans",
+    "summary": "Fabrinet (FN) posted a record fiscal Q4 after the close Aug 18: revenue $1.316B up 45% y/y, non-GAAP EPS $4.10 above guide, and datacenter revenue up 68% y/y. Q1 FY27 guide $1.375-1.425B (43% growth midpoint) with EPS $4.10-4.25. Read-through positive for AI optical transceivers (Ciena, Coherent) and NVDA/AVGO networking supply chain. Stock reaction mixed as some coverage flagged aggressive capex spend and cash-flow concerns despite the beat.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Fabrinet Q4 FY26 call / GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/9039956/fabrinet-fn-q4-2026-earnings-call-highlights-record-revenue-and-eps-data-center-growth-accelerates"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Nvidia backs $105B first phase of OpenAI Ohio datacenter; scaled back from $250B talked in WSJ",
+    "summary": "Nvidia's Ohio OpenAI datacenter guarantee was formalized at up to $105B for the initial 4.25 GW compute phase (with option to scale to 8 GW), well below the $250B figure the WSJ had floated the prior week. The scale-back reflects investor pushback on GPU-collateral risk if Blackwell/Rubin resale value declines. OpenAI anchors on a 20-year lease; SoftBank/SB Energy supplies ~10 GW of power. Nvidia also negotiating a separate $1.5B SB Energy equity stake. Structure reinforces the 'circular financing' debate but locks in demand visibility for Nvidia through 2028.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg / CNBC",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-17/nvidia-to-invest-up-to-105-billion-for-openai-data-center-in-ohio"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Home Depot Q2 comp sales +1.7% beats; revenue $47.86B, EPS $4.92 top consensus; FY guide reaffirmed",
+    "summary": "Home Depot beat on both lines Tuesday morning: Q2 revenue $47.86B (+5.7% y/y) vs $47.24B consensus, adjusted EPS $4.92 vs $4.73 expected, and comps +1.7% (vs +0.9% expected) — the best comp print since Q3 FY22. Company reaffirmed FY guide of 2.5-4.5% sales growth and 12.4-12.6% op margin. Received $730M in tariff refunds during Q2. Constructive read on housing/pro consumer resilience; sets a mild risk-on tone ahead of Lowe's later today and Walmart Thursday.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC / Home Depot IR",
+    "source_url": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Asia risk-off Aug 18: Nikkei -2.54%, Kospi -1.55% as chip complex sells with US pre-open weakness",
+    "summary": "Asia closed sharply lower Tuesday: Japan's Nikkei 225 -2.54% to 67,460, South Korea's Kospi -1.55% to 6,870, and Hong Kong's Hang Seng little changed at 25,471. Chip and memory names led the decline as global investors trimmed AI exposure ahead of Nvidia's Aug 26 print and July FOMC minutes today. Watch Samsung (005930.KS), SK Hynix (000660.KS), TSM ADR reaction at the US open — HBM demand thesis intact but crowded positioning is a near-term overhang.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC Asia markets",
+    "source_url": "https://www.cnbc.com/2026/08/17/stock-market-today-live-updates.html"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Cantor Fitzgerald raises Palo Alto Networks PT to $425 from $340 (Overweight) after Q4 print and CyberArk close",
+    "summary": "Cantor lifted its Palo Alto Networks target to $425 (from $340), keeping Overweight, citing Q4 FY26 revenue $2.54B (+16%), Q4 FY26 NGS ARR guide $8.90-8.95B (+59-60% y/y), FY26 revenue $11.415-11.425B (+24%), and $388M inorganic contribution from CyberArk/Chronosphere already showing up as identity + observability platform revenue. Bull thesis is that platformization converts identity attach into durable NGS ARR growth even as core firewall matures.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "LeverageShares / PANW guidance release",
+    "source_url": "https://leverageshares.com/us/insights/panw-sees-price-target-increases-after-strong-q4-earnings/"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Siemens Energy grid backlog hits record 51B EUR ($59B); US datacenter transformer demand holds",
+    "summary": "Siemens Energy (ENR.DE) reported earlier this month a record 51 billion euro (~$59B) order backlog in Grid Technologies, with segment orders +28% y/y to 5.4B EUR driven by large power transformers. US datacenter demand held steady. SIE Energy will not add its planned 50% incremental transformer/GIS capacity until 2030 — reinforcing multi-year backlog visibility and pricing power. Constructive read-through for ETN, GEV, ABB, and Schneider on grid-hardware pricing.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Transformer Magazine / mgrid.org",
+    "source_url": "https://mgrid.org/2026/08/09/siemens-energys-grid-order-backlog-hits-a-record-51-billion-euros-on-transformer-demand/"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Nadella confirms 2.2M advanced AI chips deployed; power availability, not silicon, is Microsoft's binding constraint",
+    "summary": "The Guardian's investigation put Microsoft's global deployed footprint of advanced AI accelerators near 2.2 million units, with CEO Satya Nadella naming power availability and completed facility capacity — not chip supply — as today's bottleneck. Consistent with hyperscaler pivot toward locking in firm nuclear (CEG, VST) and gas turbine (GEV) power, plus grid gear (ETN, VRT) and cooling. Reinforces bullish setup for the power side of the AI infra stack even if GPU cadence slows.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "The Guardian (via TechStartups)",
+    "source_url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"
+  },
+  {
+    "date": "2026-08-19",
+    "headline": "Focus today: July FOMC minutes (2pm ET) and Lowe's Q2 print; Walmart tomorrow",
+    "summary": "Two-day catalyst window opens: July FOMC minutes release 2pm ET today will be scanned for internal debate on the pace of cuts after the July hold. Lowe's Q2 print this morning provides pro/DIY cross-check on Home Depot's beat. Walmart Thursday closes big-box retail earnings. On the AI side: countdown to Nvidia Aug 26 print — Morgan Stanley reiterated Buy with $206 PT this week, citing improved Blackwell supply and demand.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investing.com / MarketBeat calendar",
+    "source_url": "https://www.investing.com/economic-calendar/fomc-meeting-minutes-1237"
+  }
+]

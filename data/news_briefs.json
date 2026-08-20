@@ -5704,5 +5704,69 @@
       }
     ],
     "file": "morning-news/2026-08-19.html"
+  },
+  {
+    "date": "2026-08-20",
+    "tickers": [
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+14.7% on 40T KRW buyback"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+10.3% on ~$72B return plan"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "HBM read-through"
+      },
+      {
+        "ticker": "TGT",
+        "direction": "up",
+        "note": "Q2 comps +3.8%; guide raised"
+      },
+      {
+        "ticker": "WMT",
+        "direction": "up",
+        "note": "Q2 rev/EPS beat"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Countdown to Aug 26"
+      },
+      {
+        "ticker": "EL",
+        "direction": "up",
+        "note": "+15% pre-market on Q4 beat"
+      },
+      {
+        "ticker": "FN",
+        "direction": "down",
+        "note": "-18% despite beat"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "000660.KS/005930.KS",
+        "signal": "HBM cash-flow monetization — Korean incumbents both signal record capital returns"
+      },
+      {
+        "ticker": "HD/TGT/WMT",
+        "signal": "Big-box retail consumer resilient into Jackson Hole"
+      },
+      {
+        "ticker": "Fed",
+        "signal": "Hawkish tilt in July minutes; all eyes on Powell Friday"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Countdown to Aug 26 — power/HBM/optical read-through mostly constructive"
+      }
+    ],
+    "file": "morning-news/2026-08-20.html"
   }
 ]

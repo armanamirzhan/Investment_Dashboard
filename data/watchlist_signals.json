@@ -3827,5 +3827,33 @@
     "signal_type": "momentum",
     "description": "SK Hynix shares up ~3.3-3.8% after announcing a KRW40 trillion (~$28.3B) share buyback-and-cancellation program, the largest shareholder-return initiative in South Korean corporate history (retiring 24M+ shares outright), alongside a pledge to direct 50%+ of cumulative 2025-2027 free cash flow to shareholders. Move also tied to reports of an expanded Nvidia-SK Group AI infrastructure/HBM co-development pact tied to a $500B+ next-gen memory buildout.",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix +14.7% on approval of 40T KRW ($28.6B) share buyback-and-cancel (largest in Korean history) and lift of cumulative shareholder return floor above 50% of FCF. HBM cash-flow monetization thesis validated.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung +10.3% in Seoul on Reuters/Bloomberg reports of impending 100T KRW (~$72B) shareholder return program to be approved at end-August board meeting; special dividend under consideration.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Read-through positive: SK Hynix/Samsung's simultaneous record capital-return commitments confirm HBM cash-flow inflection is being priced by the Korean incumbents — supports New Street's $1,250 Street-high PT thesis for MU (upgraded to Buy last week).",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Setup into Aug 26 print favorable: HBM read-through positive, ASML EUV capacity being expanded 30%, CoreWeave/Nebius post-earnings acceleration. Street modelling ~$92B rev / $2.07-2.09 EPS; MS Buy $206.",
+    "severity": "medium"
   }
 ]

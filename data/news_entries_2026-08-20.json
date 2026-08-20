@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-08-20",
+    "headline": "SK Hynix approves record 40T KRW ($28.6B) buyback-and-cancel — largest in Korean history; shares +14.7%",
+    "summary": "SK Hynix (000660.KS) approved a plan to repurchase and cancel up to 40 trillion won ($28.6B) of its own shares between Aug 20 and Nov 19, the largest treasury share cancellation in the history of Korean listed companies. Management simultaneously raised its cumulative shareholder return target from 'up to 50% of FCF' to 'over 50% of FCF' (Bloomberg estimates ~$170B 2025-2027 return capacity) and declared a Q3 quarterly dividend of 375 KRW/share. Stock closed +14.7% in Seoul. Direct positive for HBM leadership monetization and reads through to MU, and to Nvidia/AMD/hyperscaler AI supply chain visibility.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / SK Hynix Newsroom",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-19/sk-hynix-announces-28-6-billion-share-buy-back-on-ai-boom"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Samsung Electronics preparing 100T KRW (~$72B) shareholder return program; shares +10.3% in Seoul",
+    "summary": "Reuters/Bloomberg report Samsung Electronics (005930.KS) will announce a shareholder return plan of more than 100 trillion won (~$72B) at an end-August board meeting, with 50% of forward free cash flow returned via a mix of buybacks and a special dividend. Comes as Samsung's semis unit posted record Q2: 171.5T KRW revenue and 89.5T KRW operating profit, and mirrors SK Hynix's 40T KRW buyback authorised the same day. Kospi rallied on the news. Watch for whether the actual plan matches leaks — sizing lower is the near-term risk. Broadly bullish for the Korean HBM/foundry complex and constructive read-through for MU.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Reuters via Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/samsung-electroncis-to-announce-more-than-72-billion-shareholder-return-programme-media-reports-4868676"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Target Q2 comps +3.8% blow past +2.4% consensus; FY26 EPS guide raised to $9.90-$10.90 (incl. $752M tariff refund)",
+    "summary": "Target (TGT) reported Q2 net sales +5.3% to a beat, comps +3.8% vs +2.4% consensus, traffic +3.6%, digital +8.7%, EPS $4.11 (includes ~$1.65 from a $752M Q2 tariff refund). Full-year guidance lifted to ~5% sales growth and $9.90-$10.90 EPS ($8.25-$9.25 ex-tariff-refund). Constructive follow-through from Home Depot Tuesday and Walmart this morning — retail data continues to signal a resilient US consumer, mildly supportive of a risk-on tone into Powell at Jackson Hole tomorrow.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC / Target IR",
+    "source_url": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Walmart Q2: rev $187.94B beats $186.26B consensus; adj EPS $0.81 vs $0.73 expected; Q3 EPS guide $0.62-$0.64",
+    "summary": "Walmart (WMT) delivered a clean Q2 beat: revenue $187.94B (vs $186.26B consensus), adjusted EPS $0.81 (vs $0.73), and net profit $6.37B. Guidance for FQ3 EPS $0.62-$0.64 was set. Third consecutive big-box beat (HD, TGT, WMT) reinforces resilient consumer read; supportive backdrop for hyperscaler capex commentary and general risk-on tone into Nvidia print Aug 26 and Powell Jackson Hole Friday.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "AP / Walmart IR",
+    "source_url": "https://corporate.walmart.com/news/2026/08/13/walmart-to-host-second-quarter-earnings-conference-call-august-20-2026"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "FOMC July minutes: 9-3 hold with hawkish undercurrent; participants signalled 'further tightening likely if inflation does not decline'",
+    "summary": "The July 28-29 FOMC minutes released Wednesday 2pm ET revealed the most fractured Fed vote in years — Hammack (Cleveland), Kashkari (Minneapolis), Logan (Dallas) all dissented for a hike, and hawkish sentiment extended well beyond the three dissenters, with participants stating 'policy tightening would likely be necessary if inflation did not decline'. Fed funds held at 3.50-3.75%. Chair Warsh separately floated cutting the calendar to six meetings per year from eight. Curve initially bear-flattened; equities absorbed. Focus now shifts to Powell at Jackson Hole Friday for any signal on the September path.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Federal Reserve / Quartz",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Estée Lauder rips +15% on Q4 beat and raised FY27 outlook; margin re-rating a positive read for premium discretionary",
+    "summary": "Estée Lauder (EL) posted Q4 rev $3.63B (+5% org.) vs $3.54B est. and adj EPS $0.39 vs $0.32 est.; fiscal 2027 guide EPS $3.10-$3.35 (vs $3.18 est.) with adj op margin raised to 12.7-13.5% from prior 12.5-13.0% preliminary. Shares +15-16% in pre-market. Fourth consecutive quarterly beat validates the turnaround. Not AI-adjacent but a signal on premium discretionary spend that supports the broader risk-on setup into Jackson Hole.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / Estée Lauder IR",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-19/estee-lauder-sales-beat-estimates-as-turnaround-bid-gains-steam"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Fabrinet drops ~18% despite record Q4 beat — margins, capex plans, and FCF weigh; JPM/Barclays raise targets, B. Riley cuts",
+    "summary": "Fabrinet (FN) shares finished Aug 19 down ~18% at $487.79 even after a beat on both lines and a strong forward guide, as investors focused on margin compression, aggressive capex plans and softer free cash flow. Barclays maintained Overweight and raised PT to $739 (from $702); JPMorgan Neutral, PT $695 (from $680); B. Riley Neutral, PT cut to $598 (from $635) citing weak datacomms. Read-through: sentiment on AI optical transceiver economics turning more discriminating — watch Ciena and Coherent tape today. Doesn't change the demand story but re-prices the multiple.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61276235/these-analysts-increase-their-forecasts-on-fabrinet-after-q4-results"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Countdown to NVDA Aug 26: Street modelling Q2 FY27 rev ~$92B (+96% y/y), EPS ~$2.07-2.09 on Blackwell ramp",
+    "summary": "Six trading days to Nvidia's fiscal Q2 print (Aug 26 after-close). Consensus sits at ~$91.9B revenue and $2.07-2.09 adj EPS with the bull case (led by Morgan Stanley, $206 PT, Buy) pointing to $93-$95B on faster Blackwell supply, improved Rubin visibility, and firmer sovereign/hyperscaler bookings. Datapoints going in are constructive: SK Hynix HBM buyback+return signal, Samsung 100T KRW return plan, TSMC and ASML upgrades, CoreWeave/Nebius post-earnings run. The setup argues for a beat-and-raise; risk skews to guide-color on Chinese H200 licensing and gross-margin trajectory.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Intellectia / Alphio",
+    "source_url": "https://intellectia.ai/blog/nvidia-earnings-preview-august-2026-analysis"
+  },
+  {
+    "date": "2026-08-20",
+    "headline": "Focus today: Walmart print (before open), Powell Jackson Hole opening Friday 10am ET, Nvidia next Wednesday",
+    "summary": "Three-catalyst window: (1) Walmart Q2 already crossed pre-market and beat; (2) Powell delivers the keynote at Jackson Hole tomorrow Friday 10am ET — the July minutes' hawkish tilt means any dovish tone or reference to a September cut would be a positive surprise; (3) Nvidia Aug 26 after-close, the single biggest print for AI infrastructure names. Also this AM: initial jobless claims, existing home sales, and Fed's Waller speaks. Positioning: watchlist power/HBM names (CEG, VST, GEV, ETN, VRT, MU, 000660.KS, 005930.KS) into the window.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investing.com economic calendar",
+    "source_url": "https://www.investing.com/economic-calendar"
+  }
+]

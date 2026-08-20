@@ -4426,5 +4426,95 @@
     "new_target": 206,
     "old_rating": "Overweight",
     "old_target": null
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "MRK",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 179,
+    "old_rating": "Equal-Weight",
+    "old_target": 116
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "ADI",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 465,
+    "old_rating": "Market-Perform",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "CCI",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 85,
+    "old_rating": "Equal-Weight",
+    "old_target": 92
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "ETSY",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 105,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "EPR",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 70,
+    "old_rating": "Equal-Weight",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "ALL",
+    "firm": "Keefe Bruyette",
+    "new_rating": "Underperform",
+    "new_target": 250,
+    "old_rating": "Market-Perform",
+    "old_target": 255
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "WHD",
+    "firm": "Citigroup",
+    "new_rating": "Neutral",
+    "new_target": 75,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "FN",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 739,
+    "old_rating": "Overweight",
+    "old_target": 702
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "FN",
+    "firm": "JPMorgan",
+    "new_rating": "Neutral",
+    "new_target": 695,
+    "old_rating": "Neutral",
+    "old_target": 680
+  },
+  {
+    "date": "2026-08-20",
+    "ticker": "FN",
+    "firm": "B. Riley",
+    "new_rating": "Neutral",
+    "new_target": 598,
+    "old_rating": "Neutral",
+    "old_target": 635
   }
 ]

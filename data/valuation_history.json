@@ -60508,9 +60508,9 @@
     "ticker": "CRM",
     "price": 209.17,
     "pe_ratio": 24.237543,
-    "ps_ratio": null,
+    "ps_ratio": 3.9998653,
     "ev_ebitda": 15.429,
-    "market_cap": null,
+    "market_cap": 171310235648.0,
     "short_interest": 0.041500002,
     "avg_analyst_target": 243.0798,
     "upside_pct": 16.211598221542296
@@ -60568,9 +60568,9 @@
     "ticker": "CDNS",
     "price": 319.02,
     "pe_ratio": 63.549797,
-    "ps_ratio": 15.049939,
+    "ps_ratio": 15.073057,
     "ev_ebitda": 40.577,
-    "market_cap": 87855865856.0,
+    "market_cap": 87990820864.0,
     "short_interest": 0.0223,
     "avg_analyst_target": 403.93927,
     "upside_pct": 26.618791925271157
@@ -60712,9 +60712,9 @@
     "ticker": "NEE",
     "price": 83.65,
     "pe_ratio": 18.797754,
-    "ps_ratio": 6.0798635,
+    "ps_ratio": 6.078777,
     "ev_ebitda": 20.264,
-    "market_cap": 174492090368.0,
+    "market_cap": 174460895232.0,
     "short_interest": 0.0,
     "avg_analyst_target": 98.5,
     "upside_pct": 17.7525403466826
@@ -60724,9 +60724,9 @@
     "ticker": "AES",
     "price": 14.77,
     "pe_ratio": 5.531835,
-    "ps_ratio": 0.807223,
+    "ps_ratio": 0.8069051,
     "ev_ebitda": 12.164,
-    "market_cap": 10537489408.0,
+    "market_cap": 10533339136.0,
     "short_interest": 0.029000001,
     "avg_analyst_target": 15.0,
     "upside_pct": 1.5572105619499015
@@ -60760,9 +60760,9 @@
     "ticker": "ETN",
     "price": 419.2,
     "pe_ratio": 42.77551,
-    "ps_ratio": 5.422543,
+    "ps_ratio": 5.4211473,
     "ev_ebitda": 27.41,
-    "market_cap": 162817277952.0,
+    "market_cap": 162775367680.0,
     "short_interest": 0.0176,
     "avg_analyst_target": 476.42792,
     "upside_pct": 13.651698473282439
@@ -60812,8 +60812,8 @@
     "ev_ebitda": 52.279,
     "market_cap": 44646486016.0,
     "short_interest": null,
-    "avg_analyst_target": 131.19579,
-    "upside_pct": 27.98340649692711
+    "avg_analyst_target": 131.22343,
+    "upside_pct": 28.010369720027317
   },
   {
     "date": "2026-08-21",
@@ -60892,9 +60892,9 @@
     "ticker": "MU",
     "price": 966.78,
     "pe_ratio": 21.858015,
-    "ps_ratio": null,
+    "ps_ratio": 12.0951185,
     "ev_ebitda": 15.842,
-    "market_cap": null,
+    "market_cap": 1091874717696.0,
     "short_interest": 0.026500002,
     "avg_analyst_target": 1521.6232,
     "upside_pct": 57.39084383210245
@@ -60902,26 +60902,26 @@
   {
     "date": "2026-08-21",
     "ticker": "000660.KS",
-    "price": 1248.484429,
+    "price": 1248.2142721999999,
     "pe_ratio": null,
     "ps_ratio": 6.4917536,
     "ev_ebitda": 8.091,
-    "market_cap": 886242801112.1222,
+    "market_cap": 886051028981.3608,
     "short_interest": null,
-    "avg_analyst_target": 2284.8146928140604,
-    "upside_pct": 83.00706358381505
+    "avg_analyst_target": 2284.320286787308,
+    "upside_pct": 83.00706358381504
   },
   {
     "date": "2026-08-21",
     "ticker": "005930.KS",
-    "price": 203.14934495,
+    "price": 203.10538591,
     "pe_ratio": null,
     "ps_ratio": 3.809178,
     "ev_ebitda": 7.467,
-    "market_cap": 1333993070271.2473,
+    "market_cap": 1333704410444.408,
     "short_interest": null,
-    "avg_analyst_target": 339.295936865226,
-    "upside_pct": 67.01798223801066
+    "avg_analyst_target": 339.22251736360676,
+    "upside_pct": 67.01798223801065
   },
   {
     "date": "2026-08-21",
@@ -60964,9 +60964,9 @@
     "ticker": "GLW",
     "price": 149.84,
     "pe_ratio": 69.05069,
-    "ps_ratio": 7.60849,
+    "ps_ratio": 7.593028,
     "ev_ebitda": 33.757,
-    "market_cap": 129070424064.0,
+    "market_cap": 128808124416.0,
     "short_interest": 0.023599999,
     "avg_analyst_target": 191.4,
     "upside_pct": 27.736252002135615
@@ -61072,9 +61072,9 @@
     "ticker": "GFS",
     "price": 48.05,
     "pe_ratio": 37.539062,
-    "ps_ratio": 3.8000975,
+    "ps_ratio": 3.8004456,
     "ev_ebitda": 12.796,
-    "market_cap": 26365075456.0,
+    "market_cap": 26367490048.0,
     "short_interest": 0.1497,
     "avg_analyst_target": 76.7619,
     "upside_pct": 59.75421436004162
@@ -61130,13 +61130,13 @@
   {
     "date": "2026-08-21",
     "ticker": "8035.T",
-    "price": 341.44870292,
+    "price": 341.74315016400004,
     "pe_ratio": 43.319023,
     "ps_ratio": 9.390948,
     "ev_ebitda": 31.186,
-    "market_cap": 155119072125.7328,
+    "market_cap": 155252838582.857,
     "short_interest": null,
-    "avg_analyst_target": 465.58326251996004,
+    "avg_analyst_target": 465.9847568215321,
     "upside_pct": 36.35525879535827
   },
   {
@@ -61156,9 +61156,9 @@
     "ticker": "AMKR",
     "price": 50.26,
     "pe_ratio": 22.538116,
-    "ps_ratio": 1.674411,
+    "ps_ratio": 1.6705024,
     "ev_ebitda": 9.694,
-    "market_cap": 12487221248.0,
+    "market_cap": 12458072064.0,
     "short_interest": 0.145,
     "avg_analyst_target": 77.11111,
     "upside_pct": 53.424413052128926
@@ -61168,9 +61168,9 @@
     "ticker": "ENTG",
     "price": 143.66,
     "pe_ratio": 71.83,
-    "ps_ratio": 6.5996957,
+    "ps_ratio": 6.5781,
     "ev_ebitda": 27.666,
-    "market_cap": 21951248384.0,
+    "market_cap": 21879418880.0,
     "short_interest": 0.0736,
     "avg_analyst_target": 173.36365,
     "upside_pct": 20.676353891131846
@@ -61178,14 +61178,14 @@
   {
     "date": "2026-08-21",
     "ticker": "4063.T",
-    "price": 38.056844748,
+    "price": 38.089662951600005,
     "pe_ratio": 23.954868,
     "ps_ratio": 4.291865,
     "ev_ebitda": 11.344,
-    "market_cap": 70393614631.98575,
+    "market_cap": 70454318350.13237,
     "short_interest": null,
-    "avg_analyst_target": 49.3047876676368,
-    "upside_pct": 29.555637084779367
+    "avg_analyst_target": 49.34730550039057,
+    "upside_pct": 29.55563708477938
   },
   {
     "date": "2026-08-21",
@@ -61217,7 +61217,7 @@
     "price": 65.36260555,
     "pe_ratio": 68.256096,
     "ps_ratio": 4.665063,
-    "ev_ebitda": 18.577,
+    "ev_ebitda": 18.752,
     "market_cap": 84938688021.29921,
     "short_interest": null,
     "avg_analyst_target": 100.67538089895001,

@@ -4516,5 +4516,50 @@
     "new_target": 598,
     "old_rating": "Neutral",
     "old_target": 635
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "NVDA",
+    "firm": "Oppenheimer",
+    "new_rating": "Outperform",
+    "new_target": 350,
+    "old_rating": "Outperform",
+    "old_target": 235
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AVGO",
+    "firm": "Mizuho",
+    "new_rating": "Outperform",
+    "new_target": 600,
+    "old_rating": "Outperform",
+    "old_target": 545
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AMD",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": 665,
+    "old_rating": "Buy",
+    "old_target": 490
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AMD",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 700,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "CRM",
+    "firm": "Citi",
+    "new_rating": "Neutral",
+    "new_target": 204,
+    "old_rating": "Neutral",
+    "old_target": 187
   }
 ]

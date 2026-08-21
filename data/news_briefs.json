@@ -5768,5 +5768,74 @@
       }
     ],
     "file": "morning-news/2026-08-20.html"
+  },
+  {
+    "date": "2026-08-21",
+    "tickers": [
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "~$100B AI debt package w/ Apollo/Blackstone for Anthropic/OpenAI"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Wolfe top pick into Aug 26 print; Oppenheimer PT $235→$350"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Rosenblatt PT $490→$665; UBS Buy PT $700"
+      },
+      {
+        "ticker": "ADI",
+        "direction": "up",
+        "note": "Record Q3 $4.02B (+40%); datacenter +100% YoY; buys Empower Semi $1.5B"
+      },
+      {
+        "ticker": "BABA",
+        "direction": "down",
+        "note": "Profit -75% on capex surge (+75%) to CNY 67.7B — bullish signal for AI infra vendors"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "3rd session decline after Socionext 18A-P win"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "down",
+        "note": "-16.5% in 3 sessions on capex/leverage concerns"
+      },
+      {
+        "ticker": "CRM",
+        "direction": "neutral",
+        "note": "Citi PT $187→$204 (Neutral) into Aug 26 print"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Positive read-through from ADI's AI-power acquisition"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AVGO",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "VRT",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "earnings_beat"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "overvalued"
+      }
+    ],
+    "file": "morning-news/2026-08-21.html"
   }
 ]

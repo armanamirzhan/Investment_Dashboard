@@ -3855,5 +3855,40 @@
     "signal_type": "earnings_beat",
     "description": "Setup into Aug 26 print favorable: HBM read-through positive, ASML EUV capacity being expanded 30%, CoreWeave/Nebius post-earnings acceleration. Street modelling ~$92B rev / $2.07-2.09 EPS; MS Buy $206.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Reports of a ~$100B Broadcom-guaranteed debt package (Apollo/Blackstone) to fund Anthropic/OpenAI compute — materially expands the customer set locked into AVGO custom silicon. Watch for a formal announcement.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "ADI print (+100% YoY datacenter, +100% YoY power business inside comms) and its $1.5B Empower Semi acquisition for AI power delivery both signal accelerating spend on power/cooling — direct positive read-through for Vertiv.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Aug 26 fiscal Q2 print into positive setup: Street $93B–$95B vs guide $91B ±2%; Wolfe/Goldman above consensus; Blackwell ramp + Vera Rubin partner availability in 2H26 the key call points.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "CRWV",
+    "signal_type": "overvalued",
+    "description": "Down ~16.5% in 3 sessions despite strong Q2. Market focused on $35B–$39B FY26 capex and leverage — a leading indicator of financing costs across the AI infra buildout.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Third straight session decline after Socionext 18A-P win; Foundry customer wins without volume disclosure are not moving sentiment. Watch for a real anchor customer commitment.",
+    "severity": "low"
   }
 ]

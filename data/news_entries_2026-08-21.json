@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-08-21",
+    "headline": "Broadcom in talks for ~$100B AI debt package to fund Anthropic and OpenAI chip capacity",
+    "summary": "Bloomberg reports Broadcom is negotiating with Apollo and Blackstone on a staged $60B–$70B senior + ~$30B junior debt package (up to ~$100B total) to finance AI compute and datacenter capacity for customers including Anthropic. Broadcom would guarantee part of the senior tranche; debt sits in a separate SPV. CEO Hock Tan has guided AI chip sales above $100B next year. AVGO up ~1% pre-market.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / SiliconAngle",
+    "source_url": "https://siliconangle.com/2026/08/20/broadcom-reportedly-seeking-up-to-100b-in-debt-financing-for-ai-chip-deal/"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Analog Devices posts record $4.02B Q3 with datacenter revenue +100% YoY; buys Empower Semi for $1.5B",
+    "summary": "ADI reported fiscal Q3 revenue of $4.02B (+40% YoY, first quarter above $4B), driven by data center and industrial. Data center now ~80% of the communications segment, with optical and power businesses each up more than 100% YoY. Adj gross margin 72.5%, adj op margin 50.0%. ADI also announced a $1.5B cash acquisition of Empower Semiconductor targeting power delivery for AI accelerators. JPMorgan reiterated Overweight, calling the print a signal that AI datacenter growth is outpacing expectations. Positive read-through for VRT, ETN, GEV and optical suppliers (GLW).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Analog Devices 8-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000072/adi3q26exhibit991earnings.htm"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Alibaba Q2: revenue +9% but profit -75% as AI capex surges to CNY 67.7B (+75% YoY)",
+    "summary": "Alibaba reported June-quarter revenue of RMB 269B (+9% YoY) but operating income -57% and net income -75% as the company plowed cash into AI infrastructure. Capex jumped ~75% YoY to CNY 67.7B against its RMB 380B multi-year AI infra plan. AI Cloud & Compute Services grew 45% to RMB 48.4B; AI-related product revenue hit RMB 12.4B. EPS $1.26 vs. $1.85 consensus. ADRs fell ~3%. Reinforces the global read that hyperscaler AI capex is accelerating, not decelerating — bullish demand signal for NVDA/AVGO/AMAT/LRCX/KLAC and HBM (MU, 000660.KS, 005930.KS).",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Investing.com / Alibaba Q2 release",
+    "source_url": "https://www.investing.com/news/company-news/alibaba-q2-2026-slides-ai-surge-drives-revenue-up-9-profit-down-75-93CH-4870097"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Wolfe Research reiterates bullish AI-semis call, names NVIDIA top pick into Aug 26 print",
+    "summary": "Wolfe Research told clients it remains broadly bullish on AI semiconductor stocks and picked NVIDIA as top idea heading into next Wednesday's fiscal Q2 report. Street expects $93B–$95B revenue vs company guide of $91B ±2%; Goldman Sachs sits 6% above consensus on FY26 EPS and 19% above on FY27. Blackwell ramp and Vera Rubin partner availability in 2H26 remain the near-term catalysts.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/wolfe-remains-broadly-bullish-on-ai-semis-stocks-names-top-pick-4869541"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Intel slides third straight session after Socionext picks 18A-P for HPC/datacenter chiplet",
+    "summary": "Japanese fabless Socionext said it will use Intel's 18A-P process for a new high-performance compute chiplet targeting datacenter, HPC and edge. It's a foundry win for Intel — but not exclusive — and the market read was muted: INTC fell for a third straight session (closed $92.13, -0.7%) and Socionext shares dropped 5.4% in Tokyo. Investors continue to fade Intel Foundry customer announcements without volume disclosure.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/intel-stock-nasdaqintc-slides-after-landing-socionext-for-chiplets"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "US indices closed lower Aug 20 on Treasury yield spike; futures pointing higher into Powell at Jackson Hole",
+    "summary": "Thursday closed with the Dow -1.32% to 52,759, S&P 500 -0.87% to 7,641 and Nasdaq -1.0% to 26,067 as long-end Treasury yields backed up despite the Treasury's expanded buyback operation. Walmart -9% weighed on the tape after a weak comp and cautious FY guide. S&P futures were +0.3% and Nasdaq futures +0.5% pre-open Friday with focus shifting to Powell's Jackson Hole address for tone on the September FOMC.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "Applied Materials Q3 beat but soft Q4 guide keeps semi-equip stocks under pressure",
+    "summary": "AMAT's Q3 EPS of $3.50 (vs $3.39) missed the elevated expectations bar on light Q4 revenue and margin guidance given last week. The read-across pulled LRCX and KLAC lower. Contra-signal: Lam CEO Tim Archer said 2026 WFE spending is tracking to the low $150B range vs a prior $140B outlook, with upside bias. Chip-equipment complex trades on customer capex, not near-term guides — TSMC $52B–$56B, ASML raised to €43B–€45B, and hyperscaler capex on pace for ~$700B in 2026 remain the trump cards.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St / Yahoo",
+    "source_url": "https://247wallst.com/investing/2026/08/14/applied-materials-is-down-6-premarket-will-it-drag-down-lam-research-kla-and-other-semi-equipment-stocks/"
+  },
+  {
+    "date": "2026-08-21",
+    "headline": "CoreWeave 3-session slide continues despite $104B backlog and 1.85 GW YE power target",
+    "summary": "CRWV is off ~16.5% over the past three sessions even after last week's Q2 print showed record $2.6B revenue (+112% YoY), a $104B revenue backlog, a raised FY26 revenue guide to $12.4B–$13.2B and a lift in year-end active power to more than 1.85 GW. Concerns center on the $35B–$39B FY26 capex, rising leverage, and margin drag from the fastest datacenter buildout in the sector. Watch as a leading indicator on AI infra funding costs.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4631186-coreweave-expects-12_4b-13_2b-of-2026-revenue-while-raising-year-end-active-power-target-to"
+  }
+]

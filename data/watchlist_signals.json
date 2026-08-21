@@ -3890,5 +3890,12 @@
     "signal_type": "momentum",
     "description": "Third straight session decline after Socionext 18A-P win; Foundry customer wins without volume disclosure are not moving sentiment. Watch for a real anchor customer commitment.",
     "severity": "low"
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Multi-year, multibillion-dollar cloud deal expansion with Hudson River Trading for AI research/model training on NVIDIA Vera Rubin NVL72 + HGX B200, called a 'material expansion' of an existing partnership by CoreWeave's CRO. Positive demand datapoint against the backdrop of the stock's 3-session, ~16.5% slide on capex/leverage concerns.",
+    "severity": "medium"
   }
 ]

@@ -4561,5 +4561,23 @@
     "new_target": 204,
     "old_rating": "Neutral",
     "old_target": 187
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "NVDA",
+    "firm": "BMO Capital",
+    "new_rating": "Outperform",
+    "new_target": 340,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-08-21",
+    "ticker": "AVGO",
+    "firm": "BMO Capital",
+    "new_rating": "Outperform",
+    "new_target": 455,
+    "old_rating": null,
+    "old_target": null
   }
 ]

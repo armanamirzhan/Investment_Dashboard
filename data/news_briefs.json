@@ -5837,5 +5837,64 @@
       }
     ],
     "file": "morning-news/2026-08-21.html"
+  },
+  {
+    "date": "2026-08-24",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Fiscal Q2 print Wed 8/26; whisper $95–98B"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "AI debt package expanded to $70B+ senior"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-6% on $80B capital return debate; buyback starts today"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "TSMC symposium: CPO + custom-HBM roadmap"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Rate-cut tailwind for duration/nuclear"
+      },
+      {
+        "ticker": "VST",
+        "direction": "up",
+        "note": "Firm-power bid vs. tariff-hit solar"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "up",
+        "note": "Gas-turbine backlog favored by polysilicon tariff shift"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "momentum"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "insider_buy"
+      },
+      {
+        "ticker": "S&P 500",
+        "signal": "earnings_beat"
+      }
+    ],
+    "file": "morning-news/2026-08-24.html"
   }
 ]

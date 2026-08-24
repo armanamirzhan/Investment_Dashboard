@@ -3897,5 +3897,26 @@
     "signal_type": "momentum",
     "description": "Multi-year, multibillion-dollar cloud deal expansion with Hudson River Trading for AI research/model training on NVIDIA Vera Rubin NVL72 + HGX B200, called a 'material expansion' of an existing partnership by CoreWeave's CRO. Positive demand datapoint against the backdrop of the stock's 3-session, ~16.5% slide on capex/leverage concerns.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-24",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Fiscal Q2 print Wed Aug 26 AMC — Street $93–95B, whisper $95–98B, guide $91B ±2%. Blackwell/Rubin ramp and China H20 licensing commentary are the swing factors. Biggest single AI-tape catalyst of the quarter.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-24",
+    "ticker": "005930.KS",
+    "signal_type": "insider_buy",
+    "description": "Open-market buyback of 53.3M shares runs Aug 24–Nov 21 (~W15tr / ~$11B) for employee comp, part of record W90–110tr 2026 capital-return package. Provides a technical bid on weakness even as market questions AI-capex reinvestment runway.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-24",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "AI debt package now sized $70B+ senior tranche per CNBC (potentially $100B total with junior). De-risks funding for Anthropic/OpenAI custom-silicon backlog; strong tailwind into Sept 4 fiscal Q3 print.",
+    "severity": "high"
   }
 ]

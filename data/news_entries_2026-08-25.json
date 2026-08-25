@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-08-25",
+    "headline": "Pre-open setup: NVDA on 7-day losing streak into Wed earnings; futures rebound",
+    "summary": "Nvidia closed Monday at $208.48 (-2.91%), its 7th straight down day and longest losing streak since Sept 2022 (~7% drawdown vs. S&P -1.2%). Buy-side whisper is $95-98B revenue vs. Street $92-95B and company guide $91B ±2%; focus is Q3 guide and the Blackwell→Vera Rubin transition. S&P e-minis +0.38% and Nasdaq-100 +0.85% pre-market Tuesday as chip names recover: AMD and MU +3%, INTC +2%. Straddle implies a ~7% post-print move Wednesday; a soft datacenter print would reset AI-capex sentiment given rich positioning.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance / Bloomberg",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Stifel raises Micron PT to $173 (from $145), reiterates Buy ahead of print",
+    "summary": "Stifel's Brian Chin raised his MU price target to $173 from $145 and kept a Buy rating going into Micron's fiscal Q4 report. Thesis rests on DRAM/NAND ASP acceleration, HBM3E ramp into NVDA/AMD, and Micron closing the HBM4 qualification gap with SK Hynix / Samsung. PT sits above the Street median ($155) and reinforces the memory-cycle bull case shared by 000660.KS and 005930.KS.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks / The Fly",
+    "source_url": "https://www.tipranks.com/news/the-fly/micron-price-target-raised-to-173-from-145-at-stifel-thefly"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Bernstein double-upgrades ASML to Outperform; names it top 2026 European semi pick",
+    "summary": "Bernstein upgraded ASML to Outperform and named it its top pick among European semiconductor stocks for 2026, pointing to (1) accelerating memory-tool investment as SK Hynix / Samsung / Micron chase HBM4 capacity, (2) firmer logic demand from TSM's N2/A16 ramp, and (3) a more supportive valuation after the mid-summer semi selloff. Read-throughs: bullish for KLAC/LRCX/AMAT and 8035.T; supports Lam's constructive commentary that 2026 WFE tracks toward ~$150B vs. prior $140B guide.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-asml-top-semis-pick-for-2026-adobe-downgraded-4440579"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Energy Vault signs 1.25 GW off-grid hyperscaler power deal in Texas; $500-600M rev impact",
+    "summary": "Energy Vault announced a strategic agreement with a leading power-generation EPC to deploy 1.25 GW of integrated off-grid power infrastructure — battery energy storage, grid-forming power conversion, and AI infrastructure control software — paired with Caterpillar gensets at a hyperscale AI datacenter development in Texas. Company guides $500-600M revenue impact across 2H 2026 and 2027. Notable as another example of hyperscalers bypassing utility interconnection queues in ERCOT; incrementally supportive for gas-turbine and battery-integrated names (GEV, ETN, FLNC) and read-through for TX capacity constraints affecting VST / NRG.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Business Wire / Datacenter Dynamics",
+    "source_url": "https://www.datacenterdynamics.com/en/news/energy-vault-signs-125gw-power-supply-deal-with-texas-data-center-developer/"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "NRG in advanced talks on 1.2 GW gas plant for unnamed hyperscaler amid Texas datacenter pause",
+    "summary": "NRG Energy said it is 'aligned on principal commercial terms' with an unnamed 'global cloud and AI hyperscaler' for the development of a 1.2 GW combined-cycle natural-gas plant in Texas. Deal comes as ERCOT weighs a temporary pause on new large-load datacenter interconnections. Directly bullish for GEV / Siemens Energy gas-turbine backlog and reinforces the thesis that behind-the-meter and dedicated-gas solutions are now the fastest path to power for Tier-1 AI operators. Supportive for VST (existing TX gas fleet re-rates on scarcity value).",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Utility Dive",
+    "source_url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Digital Realty and Equinix both raise FY outlooks as datacenter leasing and pricing accelerate",
+    "summary": "Both DLR and EQIX raised full-year guidance in early-August updates, citing accelerating leasing volume and pricing power for retail-colo and hyperscale wholesale space. DLR flagged $500M+ of new bookings dominated by >1 MW deployments; EQIX pointed to AI-driven interconnection revenue growth. Confirms the mid-cycle read that datacenter REITs are seeing power-constrained supply push effective rents higher; supportive for CRWV bond demand (Goldman testing $1.15B CoreWeave-tied datacenter bond, Aug 19) and re-rates DLR/EQIX multiples versus broader REIT complex.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "CoStar",
+    "source_url": "https://www.costar.com/article/961911023/digital-realty-equinix-raise-outlooks-as-data-center-demand-accelerates"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Goldman double-downgrades Texas Instruments and Arm Holdings to Sell; sees them missing next AI leg",
+    "summary": "Goldman Sachs cut Texas Instruments (TXN) and Arm Holdings (ARM) to Sell, arguing neither is well-positioned for the next phase of the semiconductor upcycle despite a constructive AI-spend backdrop into 2027. Analog/auto exposure at TXN and Arm's royalty mix are called out as insufficient betas to AI-datacenter capex; Goldman prefers NVDA, AVGO, TSM, and memory (MU / 000660.KS) as vehicles. Not a tracked-ticker action but a directional read: capital continues to concentrate in the AI-accelerator + HBM + WFE trio.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/goldman-sachs-double-downgrades-texas-133305182.html"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Alibaba Q1 print reframes Chinese AI capex — 45% cloud growth, AI revenue run-rate ~$7.3B",
+    "summary": "Follow-through from BABA's Aug 20 print: Alibaba Cloud external revenue accelerated to +45% YoY with AI-related product revenue in triple-digit growth for the 12th straight quarter. AI now 35% of Cloud external revenue at ~RMB 49.5B (~$7.3B) annualized. Capex surged 75% YoY (why the stock sold off 7%), but the datapoint reinforces that Chinese hyperscalers are matching US capex intensity — bullish for TSM (n-2 China cloud silicon), incremental positive for HBM demand (000660.KS, MU) via non-US routes still available under the current chip-export regime.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61342216/alibaba-ai-cloud-revenue"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Intuit reports fiscal Q4 tonight AMC; consumption-based AI pricing rollout in focus",
+    "summary": "INTU reports fiscal Q4 (F26) after the close. Company guide: revenue +11-12% YoY, adj. EPS $3.56-$3.62; FY26 revenue $21.34-21.37B (+13-14%), adj. EPS $23.80-23.85 (+~18%). CEO Sasan Goodarzi has flagged an August rollout of an AI-driven expert platform on consumption-based pricing — key watch item for gross-margin trajectory and whether AI monetization can offset SMB/TurboTax cyclicality. Polymarket implies 94% odds of a beat. Not a direct tracked ticker but a bellwether for AI monetization in enterprise software (PLTR / CRM / NOW / SNOW read-through).",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Seeking Alpha / Yahoo Finance",
+    "source_url": "https://seekingalpha.com/news/4636289-intuit-q4-2026-earnings-preview-estimates-point-to-another-strong-quarter"
+  },
+  {
+    "date": "2026-08-25",
+    "headline": "Nvidia signals >15% price hike on Vera Rubin + Blackwell servers shipping early 2027",
+    "summary": "Bloomberg reports Nvidia has notified server-OEM customers that systems built on Vera Rubin and Blackwell chips will carry price increases of more than 15%, effective on units shipping in early 2027. Move underscores pricing power heading into the next-gen ramp and is directly ASP-supportive for SMCI, DELL, HPE, and CLS builds; also positive for TSM (CoWoS-L attach) and HBM suppliers (000660.KS, MU, 005930.KS) that share in per-system BOM growth. Watch for framing on the Q2 call Wednesday.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg / TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262129740-nvidia-q2-earnings-preview-tradingkey"
+  }
+]

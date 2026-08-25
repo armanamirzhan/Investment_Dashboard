@@ -4579,5 +4579,23 @@
     "new_target": 455,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "MU",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 173,
+    "old_rating": "Buy",
+    "old_target": 145
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "ASML",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": "Market Perform",
+    "old_target": null
   }
 ]

@@ -3939,5 +3939,33 @@
     "signal_type": "legal_risk",
     "description": "Same politicized-datacenter-election theme as Broadcom: Cramer flagged GE Vernova (gas turbines for off-grid datacenter power) as a likely next trim candidate in his charitable trust due to rising political opposition to AI datacenter buildout, though no trade has been made yet.",
     "severity": "low"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "NVDA",
+    "signal_type": "short_squeeze",
+    "description": "7-day losing streak (~-7%) into Wed AMC earnings; buy-side whisper $95-98B vs. Street $92-95B and guide $91B ±2%. Straddle implies ~7% post-print move — asymmetric setup into a beat/raise.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Stifel PT raise to $173 (from $145) into fiscal Q4 print; DRAM/NAND ASPs + HBM3E ramp support consensus revisions.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "ASML",
+    "signal_type": "undervalued",
+    "description": "Bernstein double-upgrade to Outperform, top 2026 European semi pick; memory-WFE re-acceleration + N2/A16 logic pull.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "Second hyperscaler-led TX power deal in a week (NRG 1.2 GW gas + Energy Vault 1.25 GW BESS+gensets) reinforces gas-turbine backlog scarcity; $176B backlog + 134% organic gas-order growth exiting Q2.",
+    "severity": "medium"
   }
 ]

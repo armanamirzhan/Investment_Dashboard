@@ -4597,5 +4597,14 @@
     "new_target": null,
     "old_rating": "Market Perform",
     "old_target": null
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "AMD",
+    "firm": "Raymond James",
+    "new_rating": "Strong Buy",
+    "new_target": 641,
+    "old_rating": "Outperform",
+    "old_target": 565
   }
 ]

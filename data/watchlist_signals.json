@@ -3967,5 +3967,26 @@
     "signal_type": "momentum",
     "description": "Second hyperscaler-led TX power deal in a week (NRG 1.2 GW gas + Energy Vault 1.25 GW BESS+gensets) reinforces gas-turbine backlog scarcity; $176B backlog + 134% organic gas-order growth exiting Q2.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "AMAT",
+    "signal_type": "momentum",
+    "description": "Shares fell ~5% intraday as chip-equipment names sold off broadly on renewed doubts about AI capex sustainability, compounded by lingering concern over China's advancing domestic lithography (DUV) tool capability.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "LRCX",
+    "signal_type": "momentum",
+    "description": "Shares fell ~6% intraday in the broad chip-equipment selloff tied to AI capex sustainability doubts and China domestic tool competition concerns, despite CEO Tim Archer raising 2026 WFE spending guidance to the low-$150B range (from $140B prior) on the Q2 call.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-25",
+    "ticker": "KLAC",
+    "signal_type": "momentum",
+    "description": "Shares fell ~6% intraday alongside AMAT and LRCX as investors questioned AI infrastructure capex sustainability and weighed China's progress in domestic chipmaking tools.",
+    "severity": "medium"
   }
 ]

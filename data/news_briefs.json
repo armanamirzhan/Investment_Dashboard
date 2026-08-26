@@ -5955,5 +5955,78 @@
       }
     ],
     "file": "morning-news/2026-08-25.html"
+  },
+  {
+    "date": "2026-08-26",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Fiscal Q2 print AMC; Kospi bounce; Q3 guide vs $102-103B is the tape mover"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Asia HBM read-through; Samsung/SK Hynix bid pre-print"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+2.53% on Kospi rally into NVDA"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+0.66% — HBM proxy bid"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "Groves test reactor first criticality in Texas — SMR execution proof"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Positive nuclear-for-AI read-through from Oklo milestone"
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "neutral",
+        "note": "AI-software watch: INTU FY27 guide reignites gen-AI-disruption narrative"
+      },
+      {
+        "ticker": "NOW",
+        "direction": "down",
+        "note": "-2% pre-mkt in INTU-led software sell"
+      },
+      {
+        "ticker": "FLNC",
+        "direction": "neutral",
+        "note": "Solar-plus-storage bid on UBS SEDG upgrade"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "AMC print is the day — Q3 guide gates AI-capex sentiment through FOMC"
+      },
+      {
+        "ticker": "INTU/software",
+        "signal": "FY27 guide miss + BofA cut reawakens gen-AI-disruption concern; ADBE/NOW/TEAM soft"
+      },
+      {
+        "ticker": "memory",
+        "signal": "Kospi rebound (Samsung +2.53%) + Vera Rubin >15% price hike traces to HBM cost — MU/HBM proxies bid"
+      },
+      {
+        "ticker": "energy",
+        "signal": "Oklo Groves criticality + UBS SEDG upgrade — SMR + solar both find bid; GEV/gas backlog still supported"
+      },
+      {
+        "ticker": "macro",
+        "signal": "PCE Friday (8/29) is last macro gate before FOMC 9/16-17; 83% odds of 25bp cut"
+      }
+    ],
+    "file": "morning-news/2026-08-26.html"
   }
 ]

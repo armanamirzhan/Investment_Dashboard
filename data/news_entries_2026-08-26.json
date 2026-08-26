@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-08-26",
+    "headline": "Pre-open setup: Nasdaq futures softer as market waits on NVDA (AMC) and Friday PCE",
+    "summary": "Nasdaq-100 futures edged lower and the Dow ticked up ~73pts pre-open with the two-event schedule in focus: NVDA's fiscal Q2 (FY27) print after the close and the July PCE deflator Friday. Street consensus is $92.2B revenue (+97% YoY) and $2.09 adj EPS versus company guide of $91B ±2%; buy-side whisper still $95-98B. Investors will scrutinize Q3 guidance (Street $102-103B), Blackwell Ultra ramp cadence, and Vera Rubin/CPX visibility. Fed-fund futures price ~83% odds of a 25bp September cut and ~52bp total by year-end — Friday's PCE is the last major macro gate before FOMC 9/16-17.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TheStreet / Newsquawk",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-26-2026"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Intuit -11.8% pre-market on soft FY27 guide; software wobble spreads to ADBE, NOW, TEAM",
+    "summary": "INTU beat fiscal Q4 (rev $4.35B vs $4.27B, adj EPS $4.03 vs $3.58) but guided FY27 revenue growth of just 9-10% (rev $23.28-23.51B vs $23.74B est) and adj EPS $22.88-23.12 well below the $27.30 consensus — a sharp deceleration from FY26's +14%. Mailchimp guided flat-to-down 1%, TurboTax outlook trimmed, and management is 'accepting lower near-term revenue' to acquire customers. Bank of America downgraded to Neutral with PT cut to $360 (from $400). Read-through hit vertical-SaaS peers: ADBE, NOW, TEAM all off >2% pre-open — the ongoing 'gen-AI disruption of established SaaS models' narrative reasserts itself just as NVDA is set to report. Watch CRM (reports 9/3) and SNOW (9/2) for confirmation or refutation.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance / Seeking Alpha / 24-7 Wall St",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/intuit-shares-plunge-cautious-fiscal-104320782.html"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Kospi +1.69%, Samsung +2.53%, SK Hynix +0.66% into NVDA print — HBM/memory rebid",
+    "summary": "Korea's Kospi closed +1.69% and Kosdaq +1.70% on Wednesday, snapping back after Monday's 3.1% drawdown; Samsung Electronics gained 2.53% and SK Hynix 0.66% as investors positioned into NVDA's after-hours print. Softer oil helped risk-on, but the specific bid on 005930.KS / 000660.KS reflects (1) Stifel's Micron PT raise ($173) as an HBM proxy read, (2) the confirmed >15% Vera Rubin/Grace Blackwell server price hikes traced to HBM cost pressure, and (3) constructive read-throughs from Alibaba's +45% cloud growth print last week. Positive for MU and the HBM-consumer complex heading into NVDA's Q3 guide.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Sunday Guardian / Korea JoongAng Daily",
+    "source_url": "https://sundayguardianlive.com/business/korea-stock-market-krx-today-august-26-why-is-the-korean-stock-market-up-today-kospi-gains-169-kosdaq-up-by-170-samsung-surges-253-sk-hynix-gains-066-check-top-gainers-top-losers-270259/"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "UBS double-upgrades SolarEdge to Buy, PT $42 (from $36); SEDG +6% pre-market",
+    "summary": "UBS raised SolarEdge (SEDG) to Buy from Neutral and lifted the price target to $42 (from $36), driving a ~6% pre-market pop. Thesis: post-tariff clarity on Southeast-Asia polysilicon plus improving inverter ASPs mean solar residential/commercial pull-through re-accelerates in 2H. Not a direct tracked ticker but a sentiment marker on the solar-plus-storage complex versus firm-power (gas/nuclear) preference we've seen this month — incremental competition for GEV gas-turbine dollars is a 2H watch item. FLNC (tracked) still benefits from the battery-storage integration angle in hyperscaler off-grid deals.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "24-7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "RBC starts Atlassian Outperform PT $215, JFrog Outperform PT $118 — cloud/DevOps offset",
+    "summary": "RBC Capital initiated Atlassian (TEAM) at Outperform with a $215 target and JFrog (FROG) at Outperform with a $118 target. Coverage kick-off arrives against a soft-software tape (INTU-led) — RBC's constructive stance on collaboration/DevOps toolchains implies gen-AI-native workflow apps continue to compound. Read-through positive for PLTR and NOW on the platform-consolidation thesis (both tracked). Watch whether the initiation prevents further multiple compression in high-growth SaaS if NVDA's Q3 guide is inline-to-strong.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "24-7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "JPMorgan downgrades EPAM and GoDaddy — IT services / SMB software cooling",
+    "summary": "JPMorgan cut EPAM Systems to Neutral (PT $120) and GoDaddy to Neutral (PT $120), citing cyclical pressure on discretionary IT services spend (EPAM) and slowing SMB hosting / commerce demand (GDDY). Not tracked names but the combined action — alongside Truist cutting TJX to Hold and BofA cutting INTU — hints that the pre-NVDA setup features a broadening softness beneath the AI-infrastructure boom. Signals bifurcation: AI-infrastructure winners (compute + power + memory) remain firm; discretionary enterprise + SMB tech faces demand check.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "24-7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/"
+  },
+  {
+    "date": "2026-08-26",
+    "headline": "Oklo's Groves isotope test reactor achieves first criticality in Texas — SMR execution proof",
+    "summary": "Oklo (OKLO) reported its Groves isotope test reactor in Texas reached first criticality ~11 months after groundbreaking, marking the first reactor the company has built and operated. Constructed on private land with private capital under the DOE's Reactor Pilot Program, Groves serves as an execution proof-point for Oklo's SMR pipeline — 1.2 GW project in Ohio, master agreement with Switch for up to 12 GW, and a 500 MW deal with Equinix. Positive for the SMR narrative broadly and directly supportive for OKLO's commercial ramp of the Aurora powerhouse (NRC Principal Design Criteria approval was granted May 2026). Read-through incrementally positive for SMR and CEG on nuclear-for-AI thesis.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Oil & Gas 360",
+    "source_url": "https://www.oilandgas360.com/americas-smr-moment-part-i-oklo-global-competition-and-the-hard-math-behind-the-next-nuclear-buildout/"
+  }
+]

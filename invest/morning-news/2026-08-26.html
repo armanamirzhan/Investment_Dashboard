@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-08-26</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-08-26</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert neutral"><div class="alert-text"><strong>Pre-open setup: Nasdaq futures softer as market waits on NVDA (AMC) and Friday PCE</strong> &mdash; Nasdaq-100 futures edged lower and the Dow ticked up ~73pts pre-open with the two-event schedule in focus: NVDA's fiscal Q2 (FY27) print after the close and the July PCE deflator Friday. Street consensus is $92.2B revenue (+97% YoY) and $2.09 adj EPS versus company guide of $91B ±2%; buy-side whisper still $95-98B. Investors will scrutinize Q3 guidance (Street $102-103B), Blackwell Ultra ramp cadence, and Vera Rubin/CPX visibility. Fed-fund futures price ~83% odds of a 25bp September cut and ~52bp total by year-end — Friday's PCE is the last major macro gate before FOMC 9/16-17.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Intuit -11.8% pre-market on soft FY27 guide; software wobble spreads to ADBE, NOW, TEAM</strong> &mdash; INTU beat fiscal Q4 (rev $4.35B vs $4.27B, adj EPS $4.03 vs $3.58) but guided FY27 revenue growth of just 9-10% (rev $23.28-23.51B vs $23.74B est) and adj EPS $22.88-23.12 well below the $27.30 consensus — a sharp deceleration from FY26's +14%. Mailchimp guided flat-to-down 1%, TurboTax outlook trimmed, and management is 'accepting lower near-term revenue' to acquire customers. Bank of America downgraded to Neutral with PT cut to $360 (from $400). Read-through hit vertical-SaaS peers: ADBE, NOW, TEAM all off >2% pre-open — the ongoing 'gen-AI disruption of established SaaS models' narrative reasserts itself just as NVDA is set to report. Watch CRM (reports 9/3) and SNOW (9/2) for confirmation or refutation.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Kospi +1.69%, Samsung +2.53%, SK Hynix +0.66% into NVDA print — HBM/memory rebid</strong> &mdash; Korea's Kospi closed +1.69% and Kosdaq +1.70% on Wednesday, snapping back after Monday's 3.1% drawdown; Samsung Electronics gained 2.53% and SK Hynix 0.66% as investors positioned into NVDA's after-hours print. Softer oil helped risk-on, but the specific bid on 005930.KS / 000660.KS reflects (1) Stifel's Micron PT raise ($173) as an HBM proxy read, (2) the confirmed >15% Vera Rubin/Grace Blackwell server price hikes traced to HBM cost pressure, and (3) constructive read-throughs from Alibaba's +45% cloud growth print last week. Positive for MU and the HBM-consumer complex heading into NVDA's Q3 guide.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>UBS double-upgrades SolarEdge to Buy, PT $42 (from $36); SEDG +6% pre-market</strong> &mdash; UBS raised SolarEdge (SEDG) to Buy from Neutral and lifted the price target to $42 (from $36), driving a ~6% pre-market pop. Thesis: post-tariff clarity on Southeast-Asia polysilicon plus improving inverter ASPs mean solar residential/commercial pull-through re-accelerates in 2H. Not a direct tracked ticker but a sentiment marker on the solar-plus-storage complex versus firm-power (gas/nuclear) preference we've seen this month — incremental competition for GEV gas-turbine dollars is a 2H watch item. FLNC (tracked) still benefits from the battery-storage integration angle in hyperscaler off-grid deals.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>RBC starts Atlassian Outperform PT $215, JFrog Outperform PT $118 — cloud/DevOps offset</strong> &mdash; RBC Capital initiated Atlassian (TEAM) at Outperform with a $215 target and JFrog (FROG) at Outperform with a $118 target. Coverage kick-off arrives against a soft-software tape (INTU-led) — RBC's constructive stance on collaboration/DevOps toolchains implies gen-AI-native workflow apps continue to compound. Read-through positive for PLTR and NOW on the platform-consolidation thesis (both tracked). Watch whether the initiation prevents further multiple compression in high-growth SaaS if NVDA's Q3 guide is inline-to-strong.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>JPMorgan downgrades EPAM and GoDaddy — IT services / SMB software cooling</strong> &mdash; JPMorgan cut EPAM Systems to Neutral (PT $120) and GoDaddy to Neutral (PT $120), citing cyclical pressure on discretionary IT services spend (EPAM) and slowing SMB hosting / commerce demand (GDDY). Not tracked names but the combined action — alongside Truist cutting TJX to Hold and BofA cutting INTU — hints that the pre-NVDA setup features a broadening softness beneath the AI-infrastructure boom. Signals bifurcation: AI-infrastructure winners (compute + power + memory) remain firm; discretionary enterprise + SMB tech faces demand check.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Oklo's Groves isotope test reactor achieves first criticality in Texas — SMR execution proof</strong> &mdash; Oklo (OKLO) reported its Groves isotope test reactor in Texas reached first criticality ~11 months after groundbreaking, marking the first reactor the company has built and operated. Constructed on private land with private capital under the DOE's Reactor Pilot Program, Groves serves as an execution proof-point for Oklo's SMR pipeline — 1.2 GW project in Ohio, master agreement with Switch for up to 12 GW, and a 500 MW deal with Equinix. Positive for the SMR narrative broadly and directly supportive for OKLO's commercial ramp of the Aurora powerhouse (NRC Principal Design Criteria approval was granted May 2026). Read-through incrementally positive for SMR and CEG on nuclear-for-AI thesis.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>UBS double-upgrades SolarEdge to Buy, PT $42 (from $36); SEDG +6% pre-market</h3><p>UBS raised SolarEdge (SEDG) to Buy from Neutral and lifted the price target to $42 (from $36), driving a ~6% pre-market pop. Thesis: post-tariff clarity on Southeast-Asia polysilicon plus improving inverter ASPs mean solar residential/commercial pull-through re-accelerates in 2H. Not a direct tracked ticker but a sentiment marker on the solar-plus-storage complex versus firm-power (gas/nuclear) preference we've seen this month — incremental competition for GEV gas-turbine dollars is a 2H watch item. FLNC (tracked) still benefits from the battery-storage integration angle in hyperscaler off-grid deals.</p><div class="source"><a href="https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/">24-7 Wall St</a></div></div>
+<div class="card"><h3>Oklo's Groves isotope test reactor achieves first criticality in Texas — SMR execution proof</h3><p>Oklo (OKLO) reported its Groves isotope test reactor in Texas reached first criticality ~11 months after groundbreaking, marking the first reactor the company has built and operated. Constructed on private land with private capital under the DOE's Reactor Pilot Program, Groves serves as an execution proof-point for Oklo's SMR pipeline — 1.2 GW project in Ohio, master agreement with Switch for up to 12 GW, and a 500 MW deal with Equinix. Positive for the SMR narrative broadly and directly supportive for OKLO's commercial ramp of the Aurora powerhouse (NRC Principal Design Criteria approval was granted May 2026). Read-through incrementally positive for SMR and CEG on nuclear-for-AI thesis.</p><div class="source"><a href="https://www.oilandgas360.com/americas-smr-moment-part-i-oklo-global-competition-and-the-hard-math-behind-the-next-nuclear-buildout/">Oil & Gas 360</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Kospi +1.69%, Samsung +2.53%, SK Hynix +0.66% into NVDA print — HBM/memory rebid</h3><p>Korea's Kospi closed +1.69% and Kosdaq +1.70% on Wednesday, snapping back after Monday's 3.1% drawdown; Samsung Electronics gained 2.53% and SK Hynix 0.66% as investors positioned into NVDA's after-hours print. Softer oil helped risk-on, but the specific bid on 005930.KS / 000660.KS reflects (1) Stifel's Micron PT raise ($173) as an HBM proxy read, (2) the confirmed >15% Vera Rubin/Grace Blackwell server price hikes traced to HBM cost pressure, and (3) constructive read-throughs from Alibaba's +45% cloud growth print last week. Positive for MU and the HBM-consumer complex heading into NVDA's Q3 guide.</p><div class="source"><a href="https://sundayguardianlive.com/business/korea-stock-market-krx-today-august-26-why-is-the-korean-stock-market-up-today-kospi-gains-169-kosdaq-up-by-170-samsung-surges-253-sk-hynix-gains-066-check-top-gainers-top-losers-270259/">Sunday Guardian / Korea JoongAng Daily</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Intuit -11.8% pre-market on soft FY27 guide; software wobble spreads to ADBE, NOW, TEAM</h3><p>INTU beat fiscal Q4 (rev $4.35B vs $4.27B, adj EPS $4.03 vs $3.58) but guided FY27 revenue growth of just 9-10% (rev $23.28-23.51B vs $23.74B est) and adj EPS $22.88-23.12 well below the $27.30 consensus — a sharp deceleration from FY26's +14%. Mailchimp guided flat-to-down 1%, TurboTax outlook trimmed, and management is 'accepting lower near-term revenue' to acquire customers. Bank of America downgraded to Neutral with PT cut to $360 (from $400). Read-through hit vertical-SaaS peers: ADBE, NOW, TEAM all off >2% pre-open — the ongoing 'gen-AI disruption of established SaaS models' narrative reasserts itself just as NVDA is set to report. Watch CRM (reports 9/3) and SNOW (9/2) for confirmation or refutation.</p><div class="source"><a href="https://finance.yahoo.com/markets/stocks/articles/intuit-shares-plunge-cautious-fiscal-104320782.html">Yahoo Finance / Seeking Alpha / 24-7 Wall St</a></div></div>
+<div class="card"><h3>RBC starts Atlassian Outperform PT $215, JFrog Outperform PT $118 — cloud/DevOps offset</h3><p>RBC Capital initiated Atlassian (TEAM) at Outperform with a $215 target and JFrog (FROG) at Outperform with a $118 target. Coverage kick-off arrives against a soft-software tape (INTU-led) — RBC's constructive stance on collaboration/DevOps toolchains implies gen-AI-native workflow apps continue to compound. Read-through positive for PLTR and NOW on the platform-consolidation thesis (both tracked). Watch whether the initiation prevents further multiple compression in high-growth SaaS if NVDA's Q3 guide is inline-to-strong.</p><div class="source"><a href="https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/">24-7 Wall St</a></div></div>
+<div class="card"><h3>JPMorgan downgrades EPAM and GoDaddy — IT services / SMB software cooling</h3><p>JPMorgan cut EPAM Systems to Neutral (PT $120) and GoDaddy to Neutral (PT $120), citing cyclical pressure on discretionary IT services spend (EPAM) and slowing SMB hosting / commerce demand (GDDY). Not tracked names but the combined action — alongside Truist cutting TJX to Hold and BofA cutting INTU — hints that the pre-NVDA setup features a broadening softness beneath the AI-infrastructure boom. Signals bifurcation: AI-infrastructure winners (compute + power + memory) remain firm; discretionary enterprise + SMB tech faces demand check.</p><div class="source"><a href="https://247wallst.com/investing/2026/08/26/here-are-wednesdays-top-wall-street-analyst-research-calls-atlassian-dicks-sporting-goods-epam-systems-godaddy-intuit-jersey-mikes-subs-jfrog-lattice-semiconductor-and-more/">24-7 Wall St</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Pre-open setup: Nasdaq futures softer as market waits on NVDA (AMC) and Friday PCE</h3><p>Nasdaq-100 futures edged lower and the Dow ticked up ~73pts pre-open with the two-event schedule in focus: NVDA's fiscal Q2 (FY27) print after the close and the July PCE deflator Friday. Street consensus is $92.2B revenue (+97% YoY) and $2.09 adj EPS versus company guide of $91B ±2%; buy-side whisper still $95-98B. Investors will scrutinize Q3 guidance (Street $102-103B), Blackwell Ultra ramp cadence, and Vera Rubin/CPX visibility. Fed-fund futures price ~83% odds of a 25bp September cut and ~52bp total by year-end — Friday's PCE is the last major macro gate before FOMC 9/16-17.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-26-2026">TheStreet / Newsquawk</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">INTU</span> Bank of America: Buy &rarr; <strong>Neutral</strong> | PT: $400 &rarr; $360 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">SEDG</span> UBS: Neutral &rarr; <strong>Buy</strong> | PT: $36 &rarr; $42 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">TEAM</span> RBC Capital: None &rarr; <strong>Outperform</strong> | PT: N/A &rarr; $215 </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Momentum</span> Fiscal Q2 print AMC 8/26; Street $92.2B rev / $2.09 EPS vs guide $91B ±2%. Straddle implies ~7% post-print move. Q3 guide vs Street $102-103B is the key focus.</p>
+<p><span class="ticker">MU</span> <span class="signal-badge signal-neutral">Momentum</span> Asia HBM/memory bid: Kospi +1.69% with Samsung/SK Hynix up ahead of NVDA; Stifel PT $173 on 8/25 reinforces cycle-bull HBM4 thesis.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>Fiscal Q2 print AMC; Kospi bounce; Q3 guide vs $102-103B is the tape mover</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>Asia HBM read-through; Samsung/SK Hynix bid pre-print</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>+2.53% on Kospi rally into NVDA</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>+0.66% — HBM proxy bid</td></tr>
+<tr><td><span class="ticker up">OKLO</span></td><td>Up</td><td>Groves test reactor first criticality in Texas — SMR execution proof</td></tr>
+<tr><td><span class="ticker up">CEG</span></td><td>Up</td><td>Positive nuclear-for-AI read-through from Oklo milestone</td></tr>
+<tr><td><span class="ticker ">PLTR</span></td><td>Neutral</td><td>AI-software watch: INTU FY27 guide reignites gen-AI-disruption narrative</td></tr>
+<tr><td><span class="ticker down">NOW</span></td><td>Down</td><td>-2% pre-mkt in INTU-led software sell</td></tr>
+<tr><td><span class="ticker ">FLNC</span></td><td>Neutral</td><td>Solar-plus-storage bid on UBS SEDG upgrade</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-08-26 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

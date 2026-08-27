@@ -4016,5 +4016,33 @@
     "signal_type": "legal_risk",
     "description": "Cameco's Blind River refinery (world's largest commercial uranium refining facility) was named specifically by Ontario Premier Doug Ford as a potential target for export restriction to the US if the Canada-US trade war escalates further. Two-sided: bullish for global uranium scarcity pricing, but a direct supply-chain risk to Cameco's own refined-uranium shipments if enacted.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "NVDA",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY27 blowout: $96.2B rev vs $92.1B consensus, Q3 guide $108B (well above Street), shares +8% AH",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "$400M H200 China inventory charge; Q3 guide assumes zero China revenue as export/policy overhang persists",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Goldman Sachs upgrade to Buy ($527 -> $589 target) reinforces AI semiconductor bull case ahead of print",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Hudson River Trading deal expands financial-workload TAM; $104B backlog and 1.8 GW capacity target by YE26",
+    "severity": "medium"
   }
 ]

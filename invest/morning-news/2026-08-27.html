@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-08-27</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../index.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-08-27</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Nvidia posts blowout Q2 FY27: $96.2B revenue, guides Q3 to $108B</strong> &mdash; Nvidia reported fiscal Q2 revenue of $96.22B (+105.8% YoY), beating the $92.07B consensus by 4.5%, with adjusted EPS of $2.22. Gross margin came in at 75.0%. Management guided Q3 FY27 revenue to $108B - an $11.8B sequential step - well above Street expectations. Shares jumped ~8% in after-hours trade on the print.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Nvidia Data Center revenue hits $89B on Blackwell Ultra ramp</strong> &mdash; Data Center accounted for $89.0B of Nvidia's Q2 FY27 revenue, roughly 92% of total, as hyperscale and enterprise customers accelerated Blackwell Ultra deployments. Nvidia flagged that gross margin will trough at 71-72% in Q4 FY27, partly on higher memory prices - a tailwind for HBM suppliers SK Hynix, Micron and Samsung.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Nvidia takes $400M H200 charge as China sales stall; Q3 guide assumes zero China revenue</strong> &mdash; Nvidia disclosed a ~$400M inventory charge tied to excess H200 chips as Chinese buyers backed away amid a 15% US-government revenue share arrangement and Beijing pushback. Management explicitly excluded any H20/H200 China revenue from the $108B Q3 guide, leaving upside optionality but underscoring the fragility of the China channel.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Wall Street lifts Nvidia targets after print; Bernstein to $400, Raymond James to $352</strong> &mdash; Analysts raised targets across the board following Nvidia's Q2 beat. Bernstein went to $400 (from $315, Outperform), Raymond James to $352 (from $330, Strong Buy), Morgan Stanley to $300 (from $288, Overweight), and Stifel also raised. Average consensus target now sits around $305 with 48 Strong Buy ratings.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Goldman Sachs upgrades Broadcom to Buy, lifts target to $589</strong> &mdash; Goldman Sachs analyst Toshiya Hari upgraded Broadcom to Buy from Neutral with a $589 price target (from $527), implying ~18% upside. The upgrade builds on Broadcom's guidance for AI semiconductor revenue to climb over 200% YoY to $16B this quarter and $30B+ in AI bookings flagged by CEO Hock Tan.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>CoreWeave lands multi-year AI cloud deal with Hudson River Trading; backlog hits $104B</strong> &mdash; CoreWeave signed a multi-year GPU-compute deal with quantitative trading firm Hudson River Trading, extending its reach beyond hyperscaler and AI-lab customers into financial-market workloads. The company disclosed a ~$104B revenue backlog and is targeting more than 1.8 GW of active datacenter capacity by year-end 2026, up from ~1.5 GW today.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Marvell Q2 preview: AI networking bookings and 76% datacenter mix in focus (reports today AMC)</strong> &mdash; Marvell reports fiscal Q2 after the close today. Street consensus expects ~$2.7B in revenue; datacenter accounts for ~76% of the mix and management previously raised the FY27 interconnect growth outlook to over 70% YoY. Stock has run 187% YTD into the print - options market implies a large move.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Samsung, SK Hynix accelerate 8-layer HBM4 shipments to Nvidia in H2 2026</strong> &mdash; Samsung and SK Hynix are ramping 8-layer HBM4 shipments to Nvidia this year as Nvidia seeks a greater mix of 8-layer parts alongside 12-high for the next-gen Vera Rubin platform. Samsung's HBM4 yield has reportedly climbed to ~80% (from below 60% at ramp start), ahead of its year-end target - a positive read-through for its memory turnaround and for HBM pricing broadly.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Centrus Energy raises FY2026 revenue guidance to $450-500M on HALEU demand</strong> &mdash; Centrus Energy lifted its full-year 2026 revenue guidance to $450-500M from a prior $425-475M range. The company is pursuing a multi-billion dollar Piketon, OH expansion to grow LEU and HALEU output and support $2.4B+ of contingent LEU sales commitments under definitive agreements - a direct read on advanced-reactor and SMR fuel demand.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Centrus Energy raises FY2026 revenue guidance to $450-500M on HALEU demand</h3><p>Centrus Energy lifted its full-year 2026 revenue guidance to $450-500M from a prior $425-475M range. The company is pursuing a multi-billion dollar Piketon, OH expansion to grow LEU and HALEU output and support $2.4B+ of contingent LEU sales commitments under definitive agreements - a direct read on advanced-reactor and SMR fuel demand.</p><div class="source"><a href="https://www.sec.gov/Archives/edgar/data/1009001/000119312526139308/d711806dex991.pdf">Centrus Energy IR / SEC 6-K</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Nvidia Data Center revenue hits $89B on Blackwell Ultra ramp</h3><p>Data Center accounted for $89.0B of Nvidia's Q2 FY27 revenue, roughly 92% of total, as hyperscale and enterprise customers accelerated Blackwell Ultra deployments. Nvidia flagged that gross margin will trough at 71-72% in Q4 FY27, partly on higher memory prices - a tailwind for HBM suppliers SK Hynix, Micron and Samsung.</p><div class="source"><a href="https://www.cnbc.com/2026/08/27/nvidia-reports-blowout-earnings-heres-why-analysts-are-impressed.html">CNBC</a></div></div>
+<div class="card"><h3>Goldman Sachs upgrades Broadcom to Buy, lifts target to $589</h3><p>Goldman Sachs analyst Toshiya Hari upgraded Broadcom to Buy from Neutral with a $589 price target (from $527), implying ~18% upside. The upgrade builds on Broadcom's guidance for AI semiconductor revenue to climb over 200% YoY to $16B this quarter and $30B+ in AI bookings flagged by CEO Hock Tan.</p><div class="source"><a href="https://benzinga.com/stock/avgo/ratings">Benzinga</a></div></div>
+<div class="card"><h3>Marvell Q2 preview: AI networking bookings and 76% datacenter mix in focus (reports today AMC)</h3><p>Marvell reports fiscal Q2 after the close today. Street consensus expects ~$2.7B in revenue; datacenter accounts for ~76% of the mix and management previously raised the FY27 interconnect growth outlook to over 70% YoY. Stock has run 187% YTD into the print - options market implies a large move.</p><div class="source"><a href="https://247wallst.com/investing/2026/08/27/live-will-marvell-crush-q2-earnings-tonight-after-187-ytd-run/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>Samsung, SK Hynix accelerate 8-layer HBM4 shipments to Nvidia in H2 2026</h3><p>Samsung and SK Hynix are ramping 8-layer HBM4 shipments to Nvidia this year as Nvidia seeks a greater mix of 8-layer parts alongside 12-high for the next-gen Vera Rubin platform. Samsung's HBM4 yield has reportedly climbed to ~80% (from below 60% at ramp start), ahead of its year-end target - a positive read-through for its memory turnaround and for HBM pricing broadly.</p><div class="source"><a href="https://www.sammyfans.com/2026/08/26/samsung-sk-hynix-to-increase-8-layer-hbm4-shipments-to-nvidia-this-year/">Sammy Fans</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Nvidia takes $400M H200 charge as China sales stall; Q3 guide assumes zero China revenue</h3><p>Nvidia disclosed a ~$400M inventory charge tied to excess H200 chips as Chinese buyers backed away amid a 15% US-government revenue share arrangement and Beijing pushback. Management explicitly excluded any H20/H200 China revenue from the $108B Q3 guide, leaving upside optionality but underscoring the fragility of the China channel.</p><div class="source"><a href="https://www.digitimes.com/news/a20260827PD224/nvidia-china-chips-sales-inventory-2027.html">Digitimes</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>CoreWeave lands multi-year AI cloud deal with Hudson River Trading; backlog hits $104B</h3><p>CoreWeave signed a multi-year GPU-compute deal with quantitative trading firm Hudson River Trading, extending its reach beyond hyperscaler and AI-lab customers into financial-market workloads. The company disclosed a ~$104B revenue backlog and is targeting more than 1.8 GW of active datacenter capacity by year-end 2026, up from ~1.5 GW today.</p><div class="source"><a href="https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-lands-ai-cloud-151135672.html">Yahoo Finance</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>Nvidia posts blowout Q2 FY27: $96.2B revenue, guides Q3 to $108B</h3><p>Nvidia reported fiscal Q2 revenue of $96.22B (+105.8% YoY), beating the $92.07B consensus by 4.5%, with adjusted EPS of $2.22. Gross margin came in at 75.0%. Management guided Q3 FY27 revenue to $108B - an $11.8B sequential step - well above Street expectations. Shares jumped ~8% in after-hours trade on the print.</p><div class="source"><a href="https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html">NVIDIA Newsroom</a></div></div>
+<div class="card"><h3>Wall Street lifts Nvidia targets after print; Bernstein to $400, Raymond James to $352</h3><p>Analysts raised targets across the board following Nvidia's Q2 beat. Bernstein went to $400 (from $315, Outperform), Raymond James to $352 (from $330, Strong Buy), Morgan Stanley to $300 (from $288, Overweight), and Stifel also raised. Average consensus target now sits around $305 with 48 Strong Buy ratings.</p><div class="source"><a href="https://www.thestreet.com/investing/stocks/stifel-raises-nvidia-stock-price-target-after-q2-fy27-earnings">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">NVDA</span> Bernstein: Outperform &rarr; <strong>Outperform</strong> | PT: $315 &rarr; $400 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">NVDA</span> Raymond James: Strong Buy &rarr; <strong>Strong Buy</strong> | PT: $330 &rarr; $352 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">NVDA</span> Morgan Stanley: Overweight &rarr; <strong>Overweight</strong> | PT: $288 &rarr; $300 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">AVGO</span> Goldman Sachs: Neutral &rarr; <strong>Buy</strong> | PT: $527 &rarr; $589 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q2 FY27 blowout: $96.2B rev vs $92.1B consensus, Q3 guide $108B (well above Street), shares +8% AH</p>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Concentration Risk</span> $400M H200 China inventory charge; Q3 guide assumes zero China revenue as export/policy overhang persists</p>
+<p><span class="ticker">AVGO</span> <span class="signal-badge signal-neutral">Momentum</span> Goldman Sachs upgrade to Buy ($527 -> $589 target) reinforces AI semiconductor bull case ahead of print</p>
+<p><span class="ticker">CRWV</span> <span class="signal-badge signal-neutral">Momentum</span> Hudson River Trading deal expands financial-workload TAM; $104B backlog and 1.8 GW capacity target by YE26</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">NVDA</span></td><td>Up</td><td>Q2 blowout; +8% AH</td></tr>
+<tr><td><span class="ticker up">AVGO</span></td><td>Up</td><td>GS upgrade to Buy, $589 PT</td></tr>
+<tr><td><span class="ticker ">MRVL</span></td><td>Neutral</td><td>Reports AMC today</td></tr>
+<tr><td><span class="ticker up">CRWV</span></td><td>Up</td><td>HRT deal; $104B backlog</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>HBM4 yield ~80%; NVDA ramp</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>8-layer HBM4 to NVDA H2</td></tr>
+<tr><td><span class="ticker up">LEU</span></td><td>Up</td><td>FY26 rev guide raised to $450-500M</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-08-27 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia posts blowout Q2 FY27: $96.2B revenue, guides Q3 to $108B",
+    "summary": "Nvidia reported fiscal Q2 revenue of $96.22B (+105.8% YoY), beating the $92.07B consensus by 4.5%, with adjusted EPS of $2.22. Gross margin came in at 75.0%. Management guided Q3 FY27 revenue to $108B - an $11.8B sequential step - well above Street expectations. Shares jumped ~8% in after-hours trade on the print.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Newsroom",
+    "source_url": "https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia Data Center revenue hits $89B on Blackwell Ultra ramp",
+    "summary": "Data Center accounted for $89.0B of Nvidia's Q2 FY27 revenue, roughly 92% of total, as hyperscale and enterprise customers accelerated Blackwell Ultra deployments. Nvidia flagged that gross margin will trough at 71-72% in Q4 FY27, partly on higher memory prices - a tailwind for HBM suppliers SK Hynix, Micron and Samsung.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/27/nvidia-reports-blowout-earnings-heres-why-analysts-are-impressed.html"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Nvidia takes $400M H200 charge as China sales stall; Q3 guide assumes zero China revenue",
+    "summary": "Nvidia disclosed a ~$400M inventory charge tied to excess H200 chips as Chinese buyers backed away amid a 15% US-government revenue share arrangement and Beijing pushback. Management explicitly excluded any H20/H200 China revenue from the $108B Q3 guide, leaving upside optionality but underscoring the fragility of the China channel.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Digitimes",
+    "source_url": "https://www.digitimes.com/news/a20260827PD224/nvidia-china-chips-sales-inventory-2027.html"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Wall Street lifts Nvidia targets after print; Bernstein to $400, Raymond James to $352",
+    "summary": "Analysts raised targets across the board following Nvidia's Q2 beat. Bernstein went to $400 (from $315, Outperform), Raymond James to $352 (from $330, Strong Buy), Morgan Stanley to $300 (from $288, Overweight), and Stifel also raised. Average consensus target now sits around $305 with 48 Strong Buy ratings.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/investing/stocks/stifel-raises-nvidia-stock-price-target-after-q2-fy27-earnings"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Goldman Sachs upgrades Broadcom to Buy, lifts target to $589",
+    "summary": "Goldman Sachs analyst Toshiya Hari upgraded Broadcom to Buy from Neutral with a $589 price target (from $527), implying ~18% upside. The upgrade builds on Broadcom's guidance for AI semiconductor revenue to climb over 200% YoY to $16B this quarter and $30B+ in AI bookings flagged by CEO Hock Tan.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://benzinga.com/stock/avgo/ratings"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "CoreWeave lands multi-year AI cloud deal with Hudson River Trading; backlog hits $104B",
+    "summary": "CoreWeave signed a multi-year GPU-compute deal with quantitative trading firm Hudson River Trading, extending its reach beyond hyperscaler and AI-lab customers into financial-market workloads. The company disclosed a ~$104B revenue backlog and is targeting more than 1.8 GW of active datacenter capacity by year-end 2026, up from ~1.5 GW today.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-lands-ai-cloud-151135672.html"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Marvell Q2 preview: AI networking bookings and 76% datacenter mix in focus (reports today AMC)",
+    "summary": "Marvell reports fiscal Q2 after the close today. Street consensus expects ~$2.7B in revenue; datacenter accounts for ~76% of the mix and management previously raised the FY27 interconnect growth outlook to over 70% YoY. Stock has run 187% YTD into the print - options market implies a large move.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/08/27/live-will-marvell-crush-q2-earnings-tonight-after-187-ytd-run/"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Samsung, SK Hynix accelerate 8-layer HBM4 shipments to Nvidia in H2 2026",
+    "summary": "Samsung and SK Hynix are ramping 8-layer HBM4 shipments to Nvidia this year as Nvidia seeks a greater mix of 8-layer parts alongside 12-high for the next-gen Vera Rubin platform. Samsung's HBM4 yield has reportedly climbed to ~80% (from below 60% at ramp start), ahead of its year-end target - a positive read-through for its memory turnaround and for HBM pricing broadly.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Sammy Fans",
+    "source_url": "https://www.sammyfans.com/2026/08/26/samsung-sk-hynix-to-increase-8-layer-hbm4-shipments-to-nvidia-this-year/"
+  },
+  {
+    "date": "2026-08-27",
+    "headline": "Centrus Energy raises FY2026 revenue guidance to $450-500M on HALEU demand",
+    "summary": "Centrus Energy lifted its full-year 2026 revenue guidance to $450-500M from a prior $425-475M range. The company is pursuing a multi-billion dollar Piketon, OH expansion to grow LEU and HALEU output and support $2.4B+ of contingent LEU sales commitments under definitive agreements - a direct read on advanced-reactor and SMR fuel demand.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Centrus Energy IR / SEC 6-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526139308/d711806dex991.pdf"
+  }
+]

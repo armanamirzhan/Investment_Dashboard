@@ -4633,5 +4633,41 @@
     "new_target": 215,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "NVDA",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 400.0,
+    "old_rating": "Outperform",
+    "old_target": 315.0
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "NVDA",
+    "firm": "Raymond James",
+    "new_rating": "Strong Buy",
+    "new_target": 352.0,
+    "old_rating": "Strong Buy",
+    "old_target": 330.0
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "NVDA",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 300.0,
+    "old_rating": "Overweight",
+    "old_target": 288.0
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "AVGO",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 589.0,
+    "old_rating": "Neutral",
+    "old_target": 527.0
   }
 ]

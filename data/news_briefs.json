@@ -6028,5 +6028,73 @@
       }
     ],
     "file": "morning-news/2026-08-26.html"
+  },
+  {
+    "date": "2026-08-27",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Q2 blowout; +8% AH"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "GS upgrade to Buy, $589 PT"
+      },
+      {
+        "ticker": "MRVL",
+        "direction": "neutral",
+        "note": "Reports AMC today"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "HRT deal; $104B backlog"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "HBM4 yield ~80%; NVDA ramp"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "8-layer HBM4 to NVDA H2"
+      },
+      {
+        "ticker": "LEU",
+        "direction": "up",
+        "note": "FY26 rev guide raised to $450-500M"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "earnings beat"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "China overhang"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "analyst upgrade"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "backlog momentum"
+      }
+    ],
+    "file": "morning-news/2026-08-27.html",
+    "sectors": [
+      "hardware",
+      "software",
+      "energy",
+      "policy",
+      "integration",
+      "finance"
+    ],
+    "top_headlines": "Nvidia posts $96.2B Q2 blowout, guides Q3 to $108B; Goldman upgrades Broadcom; CoreWeave lands HRT deal; HBM4 shipments ramp to Nvidia"
   }
 ]

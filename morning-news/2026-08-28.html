@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-08-28</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-08-28</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert neutral"><div class="alert-text"><strong>Marvell posts record Q2 FY27, guides Q3 to $3.15B; stock drops 7% despite beat and raise</strong> &mdash; Marvell reported fiscal Q2 revenue of $2.74B (+37% YoY, +13% QoQ) and non-GAAP EPS of $0.94, beating consensus. Datacenter hit $2.17B (79% of mix, +46% YoY) on AI networking and custom silicon. Q3 guide of $3.15B (±5%) is 4% above Street; management raised FY27 outlook $500M and FY28 $1.5B. Shares fell 7.7% AH to $223.87 as the stock was up 184% YTD into the print and Google TPU-tie-in revenue was already priced in.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Nvidia pauses revenue-sharing AI Compute Partnership over antitrust concerns</strong> &mdash; Nvidia halted its AI Compute Partnership program - launched in July - under which it backed GPU-capacity guarantees for smaller AI cloud providers in exchange for a cut of their rental revenue. Nvidia employees raised alarms about the degree of control the program gave the company over customers' businesses and the risk of drawing antitrust scrutiny. Nvidia left the door open to restructuring the initiative. Read-through: mild negative for GPU-heavy neoclouds (CRWV, Nebius) that had planned to lean on Nvidia backstops.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Anthropic abandons $7B MatX acquisition, pursues chip partnership instead</strong> &mdash; Anthropic walked away from a planned ~$7B acquisition of custom-silicon startup MatX (founded by ex-Google TPU engineers), and is now discussing a partnership instead. MatX is separately raising fresh capital at a ~$4B valuation, well below the buyout mark. Anthropic had been pursuing MatX to cut its Nvidia dependence for Claude workloads; the collapse leaves Nvidia's position with a top-3 AI lab intact and is a modest read-through positive for NVDA / negative for TPU-adjacent silicon plays.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Trump weighs Phase-2 chip tariffs that could kill the datacenter carve-out</strong> &mdash; Politico reported Aug 27 that the White House is considering extending semiconductor tariffs to finished goods containing chips - laptops, gaming consoles, and critically the servers used in AI datacenters. The move would eliminate the datacenter and startup exemptions in place since January 2026, hitting hyperscaler capex directly. Commerce Secretary Lutnick favors tying tariff relief to US manufacturing investment; Korean and Taiwanese firms have been told they face up to 100% duties absent US commitments.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>SK Hynix breaks ground on Lafayette, Indiana packaging plant amid tariff pressure</strong> &mdash; SK Hynix held a groundbreaking ceremony on August 28 for its advanced-packaging facility in Lafayette, Indiana - the first HBM assembly site outside Asia and central to Korea's US-investment pledge under this month's trade deal. The site will supply HBM for Nvidia and other US customers and is a direct hedge against Trump's Phase-2 tariff threat targeting foreign fabs.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Samsung -2.8%, SK Hynix -3.9% on Kospi as new US chip tariff report weighs</strong> &mdash; Samsung Electronics and SK Hynix fell 2.82% and 3.87% respectively in Seoul trading on tariff-related concerns, even as the broader Kospi climbed 1.53% to 6,912. The Politico report on Trump's Phase-2 semiconductor tariff plans triggered profit-taking after both names had rallied hard on the HBM4-to-Nvidia narrative earlier in the week.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>SoftBank seeks another $10B loan to refinance OpenAI stake; total commitment nears $65B</strong> &mdash; Bloomberg reported Aug 28 that SoftBank is arranging a fresh $10B loan (and mulling up to $20B in bond issuance) to refinance debt tied to its OpenAI investment. SoftBank's total OpenAI commitment reaches $64.6B (~13% stake) after a scheduled third tranche closes October 1. Massive AI-capex funding chain underscores demand visibility for GPU / power / networking suppliers (NVDA, AVGO, ORCL Stargate, CRWV).</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Dell reports Q2 FY27 AMC; Street eyes $29.4B revenue and $7.3B AI server take</strong> &mdash; Dell Technologies reports fiscal Q2 after the close today. Consensus is $29.4B revenue and $2.35 EPS - both at the high end of company guidance ($28.5-29.5B). Focus is on AI server revenue (Street ~$7.3B), AI orders (~$5B target), the quarter-end AI backlog (~$12B), and any raise to Dell's $60B FY27 AI-server guide set at Q1. Read-through for supply-chain names in networking, memory and power.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>July core PCE prints in line at 0.2% m/m, 3.3% y/y - Sept cut odds hold near 83%</strong> &mdash; The Fed's preferred inflation gauge rose 0.2% m/m and 3.3% y/y in July, matching consensus. Odds of a 25bp rate cut at the September 16-17 FOMC are unchanged at ~83%, with roughly 52bp of cuts priced by year-end. Print was benign enough to preserve the AI-capex easing tailwind but not soft enough to spark a broader tape rally into today's open.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>TSMC 2nm ramp targets 100K monthly wafers by year-end; N2 capacity already sold out for 2026</strong> &mdash; TSMC's 2nm (N2) production is on track to hit 100,000 monthly wafers by year-end 2026, with trial-yield rates already at ~60%. Both dedicated N2 fabs are booked out for 2026 - Apple takes more than half of initial capacity, with AMD (MI450) and Nvidia (Rubin Ultra) among other customers. Samsung's SF2 and Intel's 18A remain without disclosed customer wins at comparable scale, cementing TSMC's leading-edge monopoly for AI GPUs into 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+</div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Marvell posts record Q2 FY27, guides Q3 to $3.15B; stock drops 7% despite beat and raise</h3><p>Marvell reported fiscal Q2 revenue of $2.74B (+37% YoY, +13% QoQ) and non-GAAP EPS of $0.94, beating consensus. Datacenter hit $2.17B (79% of mix, +46% YoY) on AI networking and custom silicon. Q3 guide of $3.15B (±5%) is 4% above Street; management raised FY27 outlook $500M and FY28 $1.5B. Shares fell 7.7% AH to $223.87 as the stock was up 184% YTD into the print and Google TPU-tie-in revenue was already priced in.</p><div class="source"><a href="https://247wallst.com/investing/2026/08/28/marvell-guided-to-50-growth-and-the-stock-dropped-6-every-ai-investor-should-read-that-warning/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>SK Hynix breaks ground on Lafayette, Indiana packaging plant amid tariff pressure</h3><p>SK Hynix held a groundbreaking ceremony on August 28 for its advanced-packaging facility in Lafayette, Indiana - the first HBM assembly site outside Asia and central to Korea's US-investment pledge under this month's trade deal. The site will supply HBM for Nvidia and other US customers and is a direct hedge against Trump's Phase-2 tariff threat targeting foreign fabs.</p><div class="source"><a href="https://finance.yahoo.com/news/south-korea-sees-room-cooperation-015231824.html">Reuters via Yahoo Finance</a></div></div>
+<div class="card"><h3>Samsung -2.8%, SK Hynix -3.9% on Kospi as new US chip tariff report weighs</h3><p>Samsung Electronics and SK Hynix fell 2.82% and 3.87% respectively in Seoul trading on tariff-related concerns, even as the broader Kospi climbed 1.53% to 6,912. The Politico report on Trump's Phase-2 semiconductor tariff plans triggered profit-taking after both names had rallied hard on the HBM4-to-Nvidia narrative earlier in the week.</p><div class="source"><a href="https://www.koreatimes.co.kr/economy/others/20260824/kospi-plunges-more-than-3-as-samsung-sk-hynix-shares-tumble">Korea Times</a></div></div>
+<div class="card"><h3>Dell reports Q2 FY27 AMC; Street eyes $29.4B revenue and $7.3B AI server take</h3><p>Dell Technologies reports fiscal Q2 after the close today. Consensus is $29.4B revenue and $2.35 EPS - both at the high end of company guidance ($28.5-29.5B). Focus is on AI server revenue (Street ~$7.3B), AI orders (~$5B target), the quarter-end AI backlog (~$12B), and any raise to Dell's $60B FY27 AI-server guide set at Q1. Read-through for supply-chain names in networking, memory and power.</p><div class="source"><a href="https://finance.yahoo.com/news/dell-stock-buy-sell-hold-150431030.html">Yahoo Finance</a></div></div>
+<div class="card"><h3>TSMC 2nm ramp targets 100K monthly wafers by year-end; N2 capacity already sold out for 2026</h3><p>TSMC's 2nm (N2) production is on track to hit 100,000 monthly wafers by year-end 2026, with trial-yield rates already at ~60%. Both dedicated N2 fabs are booked out for 2026 - Apple takes more than half of initial capacity, with AMD (MI450) and Nvidia (Rubin Ultra) among other customers. Samsung's SF2 and Intel's 18A remain without disclosed customer wins at comparable scale, cementing TSMC's leading-edge monopoly for AI GPUs into 2027.</p><div class="source"><a href="https://wccftech.com/tsmc-2nm-production-milestone-100k-wafers-2026/">Wccftech</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Anthropic abandons $7B MatX acquisition, pursues chip partnership instead</h3><p>Anthropic walked away from a planned ~$7B acquisition of custom-silicon startup MatX (founded by ex-Google TPU engineers), and is now discussing a partnership instead. MatX is separately raising fresh capital at a ~$4B valuation, well below the buyout mark. Anthropic had been pursuing MatX to cut its Nvidia dependence for Claude workloads; the collapse leaves Nvidia's position with a top-3 AI lab intact and is a modest read-through positive for NVDA / negative for TPU-adjacent silicon plays.</p><div class="source"><a href="https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-planned-then-abandoned-7-billion-purchase-of-matx-sources-say-212219718.html">Reuters via Yahoo Finance</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Nvidia pauses revenue-sharing AI Compute Partnership over antitrust concerns</h3><p>Nvidia halted its AI Compute Partnership program - launched in July - under which it backed GPU-capacity guarantees for smaller AI cloud providers in exchange for a cut of their rental revenue. Nvidia employees raised alarms about the degree of control the program gave the company over customers' businesses and the risk of drawing antitrust scrutiny. Nvidia left the door open to restructuring the initiative. Read-through: mild negative for GPU-heavy neoclouds (CRWV, Nebius) that had planned to lean on Nvidia backstops.</p><div class="source"><a href="https://www.investing.com/news/stock-market-news/nvidia-pauses-revenuesharing-deals-with-ai-cloud-firms-wsj-4880348">WSJ via Reuters</a></div></div>
+<div class="card"><h3>Trump weighs Phase-2 chip tariffs that could kill the datacenter carve-out</h3><p>Politico reported Aug 27 that the White House is considering extending semiconductor tariffs to finished goods containing chips - laptops, gaming consoles, and critically the servers used in AI datacenters. The move would eliminate the datacenter and startup exemptions in place since January 2026, hitting hyperscaler capex directly. Commerce Secretary Lutnick favors tying tariff relief to US manufacturing investment; Korean and Taiwanese firms have been told they face up to 100% duties absent US commitments.</p><div class="source"><a href="https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>SoftBank seeks another $10B loan to refinance OpenAI stake; total commitment nears $65B</h3><p>Bloomberg reported Aug 28 that SoftBank is arranging a fresh $10B loan (and mulling up to $20B in bond issuance) to refinance debt tied to its OpenAI investment. SoftBank's total OpenAI commitment reaches $64.6B (~13% stake) after a scheduled third tranche closes October 1. Massive AI-capex funding chain underscores demand visibility for GPU / power / networking suppliers (NVDA, AVGO, ORCL Stargate, CRWV).</p><div class="source"><a href="https://www.bloomberg.com/news/articles/2026-08-28/softbank-seeks-another-10-billion-loan-for-openai-stake-funding">Bloomberg</a></div></div>
+<div class="card"><h3>July core PCE prints in line at 0.2% m/m, 3.3% y/y - Sept cut odds hold near 83%</h3><p>The Fed's preferred inflation gauge rose 0.2% m/m and 3.3% y/y in July, matching consensus. Odds of a 25bp rate cut at the September 16-17 FOMC are unchanged at ~83%, with roughly 52bp of cuts priced by year-end. Print was benign enough to preserve the AI-capex easing tailwind but not soft enough to spark a broader tape rally into today's open.</p><div class="source"><a href="https://www.cnbc.com/2026/08/26/core-pce-in-line-but-not-enough-to-lower-fed-rate-hike-expectations.html">CNBC</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">MRVL</span> BofA: Buy &rarr; <strong>Buy</strong> | PT: $365 &rarr; $365 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">MRVL</span> Barclays: Overweight &rarr; <strong>Overweight</strong> | PT: $275 &rarr; $275 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">MRVL</span> UBS: Buy &rarr; <strong>Buy</strong> | PT: $310 &rarr; $310 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">MRVL</span> Wells Fargo: Overweight &rarr; <strong>Overweight</strong> | PT: $310 &rarr; $310 <span class="val-down">&#9660;</span></p>
+<p><span class="ticker">MRVL</span> Citi: Buy &rarr; <strong>Buy</strong> | PT: $275 &rarr; $275 <span class="val-down">&#9660;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">NVDA</span> <span class="signal-badge signal-neutral">Legal Risk</span> Nvidia paused its AI Compute Partnership after internal antitrust concerns - signals rising regulatory sensitivity around neocloud financing and Nvidia's control over GPU-capacity end markets.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-bearish">Overvalued</span> Samsung -2.82% on Kospi as Trump Phase-2 chip-tariff report hits Korean memory names; datacenter carve-out at risk.</p>
+<p><span class="ticker">000660.KS</span> <span class="signal-badge signal-bearish">Overvalued</span> SK Hynix -3.87% on Kospi despite Lafayette, IN packaging groundbreaking; tariff overhang dominates near-term tape.</p>
+<p><span class="ticker">DELL</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Reports fiscal Q2 AMC today; consensus $29.4B rev / $2.35 EPS - watch AI backlog and $60B FY27 guide for a raise.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker down">MRVL</span></td><td>Down</td><td>Q2 beat + guide raise; -7.7% AH on valuation</td></tr>
+<tr><td><span class="ticker ">NVDA</span></td><td>Neutral</td><td>Pauses AI Compute Partnership on antitrust concerns</td></tr>
+<tr><td><span class="ticker down">005930.KS</span></td><td>Down</td><td>-2.82% on Kospi; Trump Phase-2 tariff report</td></tr>
+<tr><td><span class="ticker down">000660.KS</span></td><td>Down</td><td>-3.87% on Kospi; Indiana packaging groundbreaking</td></tr>
+<tr><td><span class="ticker ">DELL</span></td><td>Neutral</td><td>Fiscal Q2 AMC print; AI backlog / $60B guide in focus</td></tr>
+<tr><td><span class="ticker up">TSM</span></td><td>Up</td><td>2nm ramp to 100K wafers/mo; N2 sold out 2026</td></tr>
+<tr><td><span class="ticker ">AVGO</span></td><td>Neutral</td><td>Reports Sept 2 AMC; $16B AI-semi Q3 guide in focus</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-08-28 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

@@ -4750,5 +4750,50 @@
     "new_target": 260,
     "old_rating": null,
     "old_target": 256
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "MRVL",
+    "firm": "BofA",
+    "new_rating": "Buy",
+    "new_target": 365,
+    "old_rating": "Buy",
+    "old_target": 365
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "MRVL",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 275,
+    "old_rating": "Overweight",
+    "old_target": 275
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "MRVL",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 310,
+    "old_rating": "Buy",
+    "old_target": 310
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "MRVL",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 310,
+    "old_rating": "Overweight",
+    "old_target": 310
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "MRVL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 275,
+    "old_rating": "Buy",
+    "old_target": 275
   }
 ]

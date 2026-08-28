@@ -4058,5 +4058,33 @@
     "signal_type": "earnings_beat",
     "description": "Q2 FY27: revenue $1.47B (+26% YoY), adjusted EPS $0.31, record net-new ARR of $333M (+51% YoY), total ARR $5.84B. Management flagged AI agents becoming Falcon customers, turning AI from a security threat into new demand. Shares +19.6%, best single-day gain on record; 11+ sell-side firms raised targets.",
     "severity": "high"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "Nvidia paused its AI Compute Partnership after internal antitrust concerns - signals rising regulatory sensitivity around neocloud financing and Nvidia's control over GPU-capacity end markets.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "005930.KS",
+    "signal_type": "overvalued",
+    "description": "Samsung -2.82% on Kospi as Trump Phase-2 chip-tariff report hits Korean memory names; datacenter carve-out at risk.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "000660.KS",
+    "signal_type": "overvalued",
+    "description": "SK Hynix -3.87% on Kospi despite Lafayette, IN packaging groundbreaking; tariff overhang dominates near-term tape.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "DELL",
+    "signal_type": "earnings_beat",
+    "description": "Reports fiscal Q2 AMC today; consensus $29.4B rev / $2.35 EPS - watch AI backlog and $60B FY27 guide for a raise.",
+    "severity": "medium"
   }
 ]

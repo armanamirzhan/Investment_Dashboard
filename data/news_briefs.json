@@ -6096,5 +6096,68 @@
       "finance"
     ],
     "top_headlines": "Nvidia posts $96.2B Q2 blowout, guides Q3 to $108B; Goldman upgrades Broadcom; CoreWeave lands HRT deal; HBM4 shipments ramp to Nvidia"
+  },
+  {
+    "date": "2026-08-28",
+    "tickers": [
+      {
+        "ticker": "MRVL",
+        "direction": "down",
+        "note": "Q2 beat + guide raise; -7.7% AH on valuation"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "neutral",
+        "note": "Pauses AI Compute Partnership on antitrust concerns"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-2.82% on Kospi; Trump Phase-2 tariff report"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "-3.87% on Kospi; Indiana packaging groundbreaking"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "neutral",
+        "note": "Fiscal Q2 AMC print; AI backlog / $60B guide in focus"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "2nm ramp to 100K wafers/mo; N2 sold out 2026"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "neutral",
+        "note": "Reports Sept 2 AMC; $16B AI-semi Q3 guide in focus"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "MRVL",
+        "signal": "Beat + guide raise sold on 184% YTD run - AI-custom-silicon crowding out"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "AI Compute Partnership paused - neocloud financing model in flux"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Trump Phase-2 chip tariffs could remove datacenter server carve-out"
+      },
+      {
+        "ticker": "macro",
+        "signal": "July core PCE in line (0.2% m/m, 3.3% y/y); Sept 25bp cut odds hold ~83%"
+      },
+      {
+        "ticker": "funding",
+        "signal": "SoftBank arranging fresh $10B OpenAI-collateral loan - AI capex chain intact"
+      }
+    ],
+    "file": "morning-news/2026-08-28.html"
   }
 ]

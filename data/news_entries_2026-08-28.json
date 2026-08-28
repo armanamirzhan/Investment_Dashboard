@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-08-28",
+    "headline": "Marvell posts record Q2 FY27, guides Q3 to $3.15B; stock drops 7% despite beat and raise",
+    "summary": "Marvell reported fiscal Q2 revenue of $2.74B (+37% YoY, +13% QoQ) and non-GAAP EPS of $0.94, beating consensus. Datacenter hit $2.17B (79% of mix, +46% YoY) on AI networking and custom silicon. Q3 guide of $3.15B (±5%) is 4% above Street; management raised FY27 outlook $500M and FY28 $1.5B. Shares fell 7.7% AH to $223.87 as the stock was up 184% YTD into the print and Google TPU-tie-in revenue was already priced in.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/08/28/marvell-guided-to-50-growth-and-the-stock-dropped-6-every-ai-investor-should-read-that-warning/"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Nvidia pauses revenue-sharing AI Compute Partnership over antitrust concerns",
+    "summary": "Nvidia halted its AI Compute Partnership program - launched in July - under which it backed GPU-capacity guarantees for smaller AI cloud providers in exchange for a cut of their rental revenue. Nvidia employees raised alarms about the degree of control the program gave the company over customers' businesses and the risk of drawing antitrust scrutiny. Nvidia left the door open to restructuring the initiative. Read-through: mild negative for GPU-heavy neoclouds (CRWV, Nebius) that had planned to lean on Nvidia backstops.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "WSJ via Reuters",
+    "source_url": "https://www.investing.com/news/stock-market-news/nvidia-pauses-revenuesharing-deals-with-ai-cloud-firms-wsj-4880348"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Anthropic abandons $7B MatX acquisition, pursues chip partnership instead",
+    "summary": "Anthropic walked away from a planned ~$7B acquisition of custom-silicon startup MatX (founded by ex-Google TPU engineers), and is now discussing a partnership instead. MatX is separately raising fresh capital at a ~$4B valuation, well below the buyout mark. Anthropic had been pursuing MatX to cut its Nvidia dependence for Claude workloads; the collapse leaves Nvidia's position with a top-3 AI lab intact and is a modest read-through positive for NVDA / negative for TPU-adjacent silicon plays.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Reuters via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-planned-then-abandoned-7-billion-purchase-of-matx-sources-say-212219718.html"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Trump weighs Phase-2 chip tariffs that could kill the datacenter carve-out",
+    "summary": "Politico reported Aug 27 that the White House is considering extending semiconductor tariffs to finished goods containing chips - laptops, gaming consoles, and critically the servers used in AI datacenters. The move would eliminate the datacenter and startup exemptions in place since January 2026, hitting hyperscaler capex directly. Commerce Secretary Lutnick favors tying tariff relief to US manufacturing investment; Korean and Taiwanese firms have been told they face up to 100% duties absent US commitments.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "SK Hynix breaks ground on Lafayette, Indiana packaging plant amid tariff pressure",
+    "summary": "SK Hynix held a groundbreaking ceremony on August 28 for its advanced-packaging facility in Lafayette, Indiana - the first HBM assembly site outside Asia and central to Korea's US-investment pledge under this month's trade deal. The site will supply HBM for Nvidia and other US customers and is a direct hedge against Trump's Phase-2 tariff threat targeting foreign fabs.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Reuters via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/south-korea-sees-room-cooperation-015231824.html"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Samsung -2.8%, SK Hynix -3.9% on Kospi as new US chip tariff report weighs",
+    "summary": "Samsung Electronics and SK Hynix fell 2.82% and 3.87% respectively in Seoul trading on tariff-related concerns, even as the broader Kospi climbed 1.53% to 6,912. The Politico report on Trump's Phase-2 semiconductor tariff plans triggered profit-taking after both names had rallied hard on the HBM4-to-Nvidia narrative earlier in the week.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Korea Times",
+    "source_url": "https://www.koreatimes.co.kr/economy/others/20260824/kospi-plunges-more-than-3-as-samsung-sk-hynix-shares-tumble"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "SoftBank seeks another $10B loan to refinance OpenAI stake; total commitment nears $65B",
+    "summary": "Bloomberg reported Aug 28 that SoftBank is arranging a fresh $10B loan (and mulling up to $20B in bond issuance) to refinance debt tied to its OpenAI investment. SoftBank's total OpenAI commitment reaches $64.6B (~13% stake) after a scheduled third tranche closes October 1. Massive AI-capex funding chain underscores demand visibility for GPU / power / networking suppliers (NVDA, AVGO, ORCL Stargate, CRWV).",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-28/softbank-seeks-another-10-billion-loan-for-openai-stake-funding"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "Dell reports Q2 FY27 AMC; Street eyes $29.4B revenue and $7.3B AI server take",
+    "summary": "Dell Technologies reports fiscal Q2 after the close today. Consensus is $29.4B revenue and $2.35 EPS - both at the high end of company guidance ($28.5-29.5B). Focus is on AI server revenue (Street ~$7.3B), AI orders (~$5B target), the quarter-end AI backlog (~$12B), and any raise to Dell's $60B FY27 AI-server guide set at Q1. Read-through for supply-chain names in networking, memory and power.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/dell-stock-buy-sell-hold-150431030.html"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "July core PCE prints in line at 0.2% m/m, 3.3% y/y - Sept cut odds hold near 83%",
+    "summary": "The Fed's preferred inflation gauge rose 0.2% m/m and 3.3% y/y in July, matching consensus. Odds of a 25bp rate cut at the September 16-17 FOMC are unchanged at ~83%, with roughly 52bp of cuts priced by year-end. Print was benign enough to preserve the AI-capex easing tailwind but not soft enough to spark a broader tape rally into today's open.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/26/core-pce-in-line-but-not-enough-to-lower-fed-rate-hike-expectations.html"
+  },
+  {
+    "date": "2026-08-28",
+    "headline": "TSMC 2nm ramp targets 100K monthly wafers by year-end; N2 capacity already sold out for 2026",
+    "summary": "TSMC's 2nm (N2) production is on track to hit 100,000 monthly wafers by year-end 2026, with trial-yield rates already at ~60%. Both dedicated N2 fabs are booked out for 2026 - Apple takes more than half of initial capacity, with AMD (MI450) and Nvidia (Rubin Ultra) among other customers. Samsung's SF2 and Intel's 18A remain without disclosed customer wins at comparable scale, cementing TSMC's leading-edge monopoly for AI GPUs into 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Wccftech",
+    "source_url": "https://wccftech.com/tsmc-2nm-production-milestone-100k-wafers-2026/"
+  }
+]

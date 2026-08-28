@@ -4669,5 +4669,86 @@
     "new_target": 589.0,
     "old_rating": "Neutral",
     "old_target": 527.0
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal Weight",
+    "new_target": 235,
+    "old_rating": "Equal Weight",
+    "old_target": 185
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 395,
+    "old_rating": "Overweight",
+    "old_target": 325
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 265,
+    "old_rating": "Overweight",
+    "old_target": 250
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": "Buy",
+    "old_target": 250
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "Raymond James",
+    "new_rating": null,
+    "new_target": 310,
+    "old_rating": null,
+    "old_target": 290
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "firm": "Truist",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": "Buy",
+    "old_target": 280
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRWD",
+    "firm": "Scotiabank",
+    "new_rating": null,
+    "new_target": 250,
+    "old_rating": null,
+    "old_target": 227
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRWD",
+    "firm": "Barclays",
+    "new_rating": null,
+    "new_target": 235,
+    "old_rating": null,
+    "old_target": 169
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRWD",
+    "firm": "RBC Capital",
+    "new_rating": null,
+    "new_target": 260,
+    "old_rating": null,
+    "old_target": 256
   }
 ]

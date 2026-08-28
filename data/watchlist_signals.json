@@ -4044,5 +4044,19 @@
     "signal_type": "momentum",
     "description": "Hudson River Trading deal expands financial-workload TAM; $104B backlog and 1.8 GW capacity target by YE26",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRM",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY27: revenue $11.35B (+11% YoY, beat $11.32B consensus), adjusted EPS $5.90 vs $3.27 consensus. Raised FY27 revenue guide to $46.1-46.4B and EPS guide to $16.67-16.71. Announced expanded Anthropic partnership to build Claudeforce and booked a $2.6B gain on its Anthropic equity stake. Shares +22.6%, second-best single-day gain in company history.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-27",
+    "ticker": "CRWD",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY27: revenue $1.47B (+26% YoY), adjusted EPS $0.31, record net-new ARR of $333M (+51% YoY), total ARR $5.84B. Management flagged AI agents becoming Falcon customers, turning AI from a security threat into new demand. Shares +19.6%, best single-day gain on record; 11+ sell-side firms raised targets.",
+    "severity": "high"
   }
 ]

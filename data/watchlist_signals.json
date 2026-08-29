@@ -4086,5 +4086,68 @@
     "signal_type": "earnings_beat",
     "description": "Reports fiscal Q2 AMC today; consensus $29.4B rev / $2.35 EPS - watch AI backlog and $60B FY27 guide for a raise.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "AEHR",
+    "signal_type": "legal_risk",
+    "description": "AEHR -10.7% intraday, the sharpest drop among tracked semicap names, amid the broader semiconductor-equipment/OSAT selloff triggered by today's Politico report that the White House is weighing Phase-2 tariffs on finished goods (servers, laptops) containing chips. No company-specific news found; move tracks the sector-wide de-risking.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "AMKR",
+    "signal_type": "legal_risk",
+    "description": "AMKR -7.5% intraday. Amkor is a pure-play outsourced assembly & test (OSAT) name with assembly overseas, making it directly exposed if Phase-2 tariffs eliminate the datacenter/server carve-out and tax finished, re-imported packaged chips. Move consistent with sector-wide tariff-fear selloff, no distinct company catalyst identified.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "ENTG",
+    "signal_type": "legal_risk",
+    "description": "ENTG -7.2% intraday alongside the broader semicap/materials selloff tied to today's Phase-2 chip-tariff report. Entegris has meaningful overseas manufacturing/logistics exposure; no standalone company news found.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "CLS",
+    "signal_type": "legal_risk",
+    "description": "CLS -5.9% intraday. Celestica manufactures/assembles servers and networking gear overseas for hyperscaler customers, putting it in the direct line of fire if Phase-2 tariffs remove the datacenter-hardware exemption reported this morning.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "LRCX",
+    "signal_type": "legal_risk",
+    "description": "LRCX -5.2% intraday, tracking the wafer-fab-equipment complex lower on the Phase-2 semiconductor tariff report. No Lam-specific news found.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "LEU",
+    "signal_type": "overvalued",
+    "description": "LEU -9.8% intraday, the sharpest pullback in the nuclear/uranium complex today. No negative company news found; stock had rallied hard on its Q2 beat and $4.5B backlog (incl. the X-energy HALEU deal and $900M DOE award) reported last week. Move reads as valuation-driven profit-taking, consistent with recurring bouts of nuclear-sector de-risking this year (mid-July, Aug 20) rather than a new catalyst.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "XE",
+    "signal_type": "overvalued",
+    "description": "XE -6.8% intraday as part of the broader nuclear/SMR complex pullback (LEU, CCJ, OKLO all down >5.5% today). No standalone negative news found; consistent with valuation-driven de-risking after the group's strong 2026 run.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "CCJ",
+    "signal_type": "overvalued",
+    "description": "CCJ -5.9% intraday despite flat spot uranium prices (~$90.39/lb, -0.2%) - move is not commodity-driven. Reads as valuation-driven profit-taking across the nuclear complex (LEU, XE, OKLO also down >5.5% today) rather than a fresh catalyst.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-28",
+    "ticker": "OKLO",
+    "signal_type": "overvalued",
+    "description": "OKLO -5.6% intraday, part of the broader nuclear/SMR pullback today (LEU, CCJ, XE also down >5.5%) with no distinct negative company news identified; consistent with recurring valuation-driven de-risking in the group this year.",
+    "severity": "medium"
   }
 ]

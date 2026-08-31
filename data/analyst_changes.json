@@ -4795,5 +4795,23 @@
     "new_target": 275,
     "old_rating": "Buy",
     "old_target": 275
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MRVL",
+    "firm": "Craig-Hallum",
+    "new_rating": "Buy",
+    "new_target": 300,
+    "old_rating": "Buy",
+    "old_target": 217
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "MRVL",
+    "firm": "TD Cowen",
+    "new_rating": "Hold",
+    "new_target": 245,
+    "old_rating": "Hold",
+    "old_target": 225
   }
 ]

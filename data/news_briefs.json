@@ -6159,5 +6159,87 @@
       }
     ],
     "file": "morning-news/2026-08-28.html"
+  },
+  {
+    "date": "2026-08-31",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "Fed pivot hits AI-beta"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "neutral",
+        "note": "Fiscal Q3 Wed AMC; $16B AI-semi guide"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "neutral",
+        "note": "Fiscal Q2 Tue AMC; $43B AI backlog benchmark"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "neutral",
+        "note": "Fiscal Q3 Wed AMC; $12B rev guide"
+      },
+      {
+        "ticker": "MRVL",
+        "direction": "up",
+        "note": "Craig-Hallum PT $217->$300; sell-side hike wave"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Rebound close; 70% HBM capacity locked to 2031"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "Off session lows; HBM4 to NVDA H2"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Nuclear PPA proxy; regulated cash-flow bid"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "neutral",
+        "note": "116GW gas turbine backlog into 2031"
+      },
+      {
+        "ticker": "META",
+        "direction": "neutral",
+        "note": "Hyperion LA scaling to 5,000 workers; Sept LPSC hearing"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Fed Sept cut->hike pivot (Warsh Jackson Hole)"
+      },
+      {
+        "ticker": "policy",
+        "signal": "US-Iran Hormuz strikes / oil >$90"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "earnings Wed AMC"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "earnings Tue AMC"
+      },
+      {
+        "ticker": "memory",
+        "signal": "Samsung HBM 70% locked to hyperscalers through 2031"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Chicago PMI 47.1 miss + stagflation setup"
+      }
+    ],
+    "file": "morning-news/2026-08-31.html"
   }
 ]

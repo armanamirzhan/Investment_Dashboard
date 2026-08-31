@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-08-31",
+    "headline": "Fed Chair Warsh's hawkish Jackson Hole speech flips Sept from 25bp cut to 60% odds of a hike",
+    "summary": "Fed Chair Kevin Warsh's Friday Jackson Hole debut argued 'underlying inflation trends have not meaningfully improved' and that 'broad financial conditions' cannot be described as restrictive, reaffirming 2% PCE as the firm target. By Monday morning fed funds futures priced a 60.4% probability of a 25bp HIKE at the Sept 16-17 FOMC, up from ~35% Friday morning; the 2-year note added ~8bps to 4.31%, the highest since late July. That is a full ~140bp swing in policy expectations from Friday's post-PCE pricing (which had a 25bp CUT at ~83%). High-beta AI/tech and rate-sensitive utilities are most exposed to the repricing.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "US strikes Iranian launchers near Strait of Hormuz Sunday; Iran hits US bases in Jordan and UAE",
+    "summary": "US Central Command struck Iranian rocket launchers on Larak Island preparing to seed mines in the Strait of Hormuz Sunday - the first US military action in the region in a month. Iran's Revolutionary Guards retaliated with missile strikes on US bases in Jordan and the UAE. Brent crude jumped ~2.5% to $90.27/bbl in Monday trading (session high $91.52, highest since Aug 25); WTI printed $85.77 (+2.84%). Roughly 6-8M bbl/day still flowing through Hormuz. The escalation adds a supply-shock overlay to Warsh's hawkish inflation signal - a hawkish Fed and rising oil is the worst combination for AI-infra multiples.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "The National (UAE)",
+    "source_url": "https://www.thenationalnews.com/business/energy/2026/08/31/oil-rises-to-above-90-as-us-and-iran-resume-strikes/"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Samsung locks 70% of HBM capacity to Microsoft, Nvidia, Google through 2031 at ~$300-400/module",
+    "summary": "Seoul Economic Daily reports Samsung has committed ~70% of its HBM production capacity through 2031 under long-term agreements with Microsoft, Nvidia and Google, pricing modules at $300-$400 vs $2,100 on the spot market - an ~80% discount for multi-year visibility. Complements SK Hynix's $38.3B HBM capex plan through 2031 and its Indiana packaging groundbreaking last week. Counterpoint's 2026 HBM4 share forecast: SK Hynix 54%, Samsung 28%, Micron 18%. Read-through: memory shortage extends well past 2030 per SK Hynix CEO, and the buyer LTAs de-risk supply for the hyperscaler capex cycle while pushing spot-market entrants toward Micron.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Seoul Economic Daily",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/memory-shortage-isn-t-close-155233128.html"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Broadcom fiscal Q3 earnings Wednesday AMC - $16B AI-semi guide is the tape mover",
+    "summary": "AVGO reports fiscal Q3 after the close Wed Sept 2. Consensus: $29.43B revenue (+84% YoY) and $2.55 GAAP EPS; guide is $29.4B rev and $16.0B AI semiconductors (+200%+ YoY). Setup is sensitive: after Q2 on June 3 the stock fell -12.6% in a single session despite a beat because management declined to raise the FY27 AI-semi target above the prior 'in excess of $100B'. Watch for any upward revision to the FY27 number and for commentary on the BofA-flagged $370B AI-financing debt path to 2029. Reports the same afternoon as HPE.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "StockTitan",
+    "source_url": "https://www.stocktitan.net/news/AVGO/broadcom-inc-to-announce-third-quarter-fiscal-year-2026-financial-dkaqc3d1n73a.html"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Dell fiscal Q2 2027 earnings Tuesday AMC - Street eyes $45B revenue, $4.91 EPS on $43B AI backlog",
+    "summary": "DELL reports fiscal Q2 2027 after the close Tue Sept 1. Consensus revenue $45.1B (~50% growth) and non-GAAP EPS $4.91, more than 2x YoY. Full-year FY27 outlook stands at $165-169B (+47% YoY) with AI-Optimized Server revenue guided to ~$60B (+144% YoY) and Q2 ISG segment guided +75%. Q1 FY27 booked $24.4B AI orders and recognized $16.1B AI-server revenue; the $43B AI backlog print and any guide raise are the tape movers. Stock is +272% YTD - the buy-the-rumor is fully in.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Alphastreet",
+    "source_url": "https://news.alphastreet.com/dell-technologies-dell-q2-2027-preview-reports-on-september-1/"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "HPE fiscal Q3 earnings Wednesday AMC - $12B revenue guide anchored on AI-infra networking mix",
+    "summary": "HPE reports fiscal Q3 2026 after close Wed Sept 2. Company guide is $11.5-12.1B revenue with $0.88-0.93 non-GAAP EPS; Zacks consensus $12.1B/$0.94 (+32% rev, +114% EPS YoY). Growth is driven by the Juniper networking mix, AI-inferencing/agentic-AI compute demand, and data-intensive workloads. Reports concurrent with AVGO - back-to-back AI-hardware tape gates the sector into the Fri jobs print.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance / Zacks",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/hpe-report-q3-earnings-whats-152700745.html"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "KOSPI recovers +0.46% to 6,820 as Samsung and SK Hynix rebound intraday; foreigners sold >1T won",
+    "summary": "Kospi opened weak on Warsh's Jackson Hole hawkish shift and the US-Iran Hormuz escalation, dropping to an intraday low of 6,617 (-2.53%) before recovering through the afternoon on chip-name buying to close at 6,820.02 (+0.46%). Samsung Electronics and SK Hynix rebounded off session lows despite foreign investors offloading more than 1 trillion won on the main board. The Kospi setup remains constructive for HBM/AI beta but the flow signals net-de-risking into the Broadcom/Dell prints and the Sept 5 US NFP.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Seoul Economic Daily",
+    "source_url": "https://en.sedaily.com/finance/2026/08/31/kospi-closes-at-6820-as-samsung-sk-hynix-rebound"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Marvell sell-side hikes price targets across the board despite Friday's -8% AH selloff",
+    "summary": "Following MRVL's beat-and-raise Q2 FY27 print, sell-side desks raised or reiterated bullish price targets: Craig-Hallum lifted PT to $300 from $217 (+38%) and kept Buy on the FY27 rev guide bump to ~$12B and FY28 to ~$18B, with data-center revenue set to grow >60% both years. TD Cowen raised PT to $245 from $225 (Hold). BofA reiterated Buy $365, UBS reiterated Buy $310, Barclays and Citi reiterated $275, Wells Fargo Overweight $310. Stock still traded down 10% intraday Friday on valuation as MRVL was +184% YTD into the print.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks / MarketBeat",
+    "source_url": "https://www.tipranks.com/news/the-fly/marvell-price-target-raised-to-300-from-217-at-craig-hallum-thefly-news"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Meta Hyperion (Louisiana) datacenter ramps to 3,700 workers en route to 5,000; Sept LPSC hearing on Babel-Webre 500kV line",
+    "summary": "Construction of Meta's $10B Hyperion supercluster in Richland Parish LA is scaling toward 5,000 workers on site from 3,700 currently. The site's ultimate capacity targets 2GW and could expand to 5GW - equivalent to the power draw of 4M homes. Entergy has proposed three new gas plants ($3B) to serve the load; the enabling Babel-Webre 500kV transmission line has an LPSC hearing scheduled for Sept 2026 with a targeted Q4 2026 decision. Read-through: near-term catalyst for ETN (T&D switchgear), GEV/SIE (gas turbines - both back-ordered into 2031/2029), and gas midstream. Meta is one of the largest corporate nuclear buyers globally with 6.6GW of contracted capacity across VST/CEG/OKLO/TerraPower.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Substack (measuredai) - regulatory filing summary",
+    "source_url": "https://measuredai.substack.com/p/meta-gw-louisiana-data-center"
+  },
+  {
+    "date": "2026-08-31",
+    "headline": "Chicago manufacturing PMI misses at 47.1 vs 58 expected; consumer sentiment falls to 51.7",
+    "summary": "August Chicago manufacturing PMI printed 47.1 vs consensus 58 - a major miss keeping the index in contraction. Consumer sentiment slid to 51.7 from July's 55.2. Combined with Warsh's hawkish rhetoric this is stagflationary at the margin - softening growth data alongside sticky inflation warnings, which is historically the toughest macro backdrop for high-multiple AI/AI-infra names. Focus now shifts to Friday's Sept 5 NFP as the last major macro gate before the Sept 16-17 FOMC.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance / Zacks",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-31-082900315.html"
+  }
+]

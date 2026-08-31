@@ -4149,5 +4149,33 @@
     "signal_type": "overvalued",
     "description": "OKLO -5.6% intraday, part of the broader nuclear/SMR pullback today (LEU, CCJ, XE also down >5.5%) with no distinct negative company news identified; consistent with recurring valuation-driven de-risking in the group this year.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "NVDA",
+    "signal_type": "overvalued",
+    "description": "Fed pivot from ~83% Sept cut odds Friday morning to 60%+ hike odds Monday morning re-prices duration/high-multiple AI beta. NVDA is the concentration proxy; watch how it holds $180 range into AVGO/DELL earnings and Fri NFP.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Reports fiscal Q3 Wed Sept 2 AMC. Consensus $29.43B rev/$2.55 EPS with $16B AI-semi guide baseline. Q2 print dropped -12.6% on no FY27 AI raise - similar setup this quarter; watch for FY27 target lift above 'in excess of $100B'.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "Reports Tue Sept 1 AMC with $45.1B revenue / $4.91 EPS consensus and $43B AI backlog benchmark. Stock is +272% YTD - buy-the-rumor is in; guide raise or backlog decel are the two-way risks.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Constellation Energy - nuclear PPA proxy; the Fed hawkish/oil-shock combination favors regulated-cash-flow energy over high-multiple growth. Meta Hyperion LA/Babel-Webre 500kV LPSC hearing in September is a near-term regulatory catalyst for the sector.",
+    "severity": "medium"
   }
 ]

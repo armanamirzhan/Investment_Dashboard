@@ -4177,5 +4177,19 @@
     "signal_type": "momentum",
     "description": "Constellation Energy - nuclear PPA proxy; the Fed hawkish/oil-shock combination favors regulated-cash-flow energy over high-multiple growth. Meta Hyperion LA/Babel-Webre 500kV LPSC hearing in September is a near-term regulatory catalyst for the sector.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "CRWD +4% intraday as Fal.Con 2026 kicks off in Las Vegas: Falcon platform goes GA on Google Cloud (US regions first, more zones planned) for data-localization use cases, and Falcon IQ launches with 50+ prebuilt AI agents powered by Nvidia Nemotron models to automate security workflows. Project QuiltWorks expands to ingest real-time data from 12 external sources including rival Zscaler, positioning Falcon Next-Gen SIEM as an aggregation layer across competitors. Stock now +86% YTD; move is on product/partnership news, not new analyst targets (prior target hikes were dated to the Aug 27 earnings beat).",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-08-31",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "NVDA +1% intraday on news it will invest $3.5B in MediaTek via convertible bonds (part of MediaTek's record $3.9B overseas convertible offering, alongside Alphabet). MediaTek adopts Nvidia NVLink Fusion, giving it ready-made connectors/memory to design custom AI chips that plug into Nvidia-based datacenter systems. Defensive-offensive move: locks a major Asian chip designer into the Nvidia ecosystem as AWS, Google, Microsoft, OpenAI and Anthropic push their own custom silicon to reduce GPU dependence. Partially offsets today's broader Fed-hawkish-driven AI-beta de-rating pressure flagged in the existing overvalued signal.",
+    "severity": "medium"
   }
 ]

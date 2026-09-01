@@ -6241,5 +6241,94 @@
       }
     ],
     "file": "morning-news/2026-08-31.html"
+  },
+  {
+    "date": "2026-09-01",
+    "tickers": [
+      {
+        "ticker": "DELL",
+        "direction": "neutral",
+        "note": "Q2 FY27 print tonight AMC; +264% YTD, buy-the-rumor priced in"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Anthropic $35B compute deal via Lambda / Hut 8 Texas"
+      },
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "CXMT HBM3E risk production begins - long-tail China share loss"
+      },
+      {
+        "ticker": "ANET",
+        "direction": "up",
+        "note": "DB initiates Buy $220 - AI back-end Ethernet"
+      },
+      {
+        "ticker": "CSCO",
+        "direction": "up",
+        "note": "DB initiates Buy $135 - Silicon One + Splunk"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "Bernstein Q3 top pick, PT $2,623 (48% upside)"
+      },
+      {
+        "ticker": "AKAM",
+        "direction": "up",
+        "note": "Piper upgrades to Overweight PT $125 on AI compute"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+0.38%; buybacks defend chip complex"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "+1.14%; buybacks + HBM tightness"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Fed Sept 15-16 hike odds >60% (from 35% pre-Warsh)"
+      },
+      {
+        "ticker": "policy",
+        "signal": "US-Iran Hormuz tanker strikes; Brent >$91"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Anthropic $35B Lambda / Hut 8 compute deal"
+      },
+      {
+        "ticker": "MU",
+        "signal": "CXMT HBM3E production begins; Alibaba/Cambricon customers"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "earnings Tue AMC; DRAM margin overhang"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "earnings Wed AMC; $16B AI-semi Q3 guide"
+      },
+      {
+        "ticker": "HPE",
+        "signal": "earnings Wed AMC; Juniper networking mix"
+      }
+    ],
+    "file": "morning-news/2026-09-01.html",
+    "sectors": [
+      "hardware",
+      "integration",
+      "finance",
+      "policy",
+      "energy"
+    ],
+    "top_headlines": "Anthropic $35B Lambda deal; CXMT HBM3E ramp; DELL prints tonight; Fed hike odds >60%"
   }
 ]

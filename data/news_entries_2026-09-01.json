@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-01",
+    "headline": "Anthropic signs $35B compute deal with Nvidia-backed Lambda anchored on Hut 8's 352MW Texas site",
+    "summary": "Bloomberg reports Anthropic has agreed to a $35B multi-year compute deal with Lambda, a cloud provider backed by Nvidia. The infrastructure sits at Hut 8's 352MW campus in Nueces County TX (Beacon Point), with a four-party chain: Hut 8 builds and leases the space to Nvidia, Nvidia leases capacity to Lambda, Lambda installs Nvidia GPUs and sells the resulting compute to Anthropic. Read-through: direct incremental GPU demand for NVDA on top of the existing hyperscaler capex cycle, and a second major merchant-power datacenter validation for Hut 8 following Nvidia's separate capacity booking a few weeks ago. Hut 8 opened +4% premarket; Benchmark analyst has a $195 PT (+143% upside).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "China's CXMT begins small-batch HBM3E production; Alibaba T-Head and Cambricon qualifying silicon",
+    "summary": "ChangXin Memory Technologies (CXMT), China's leading DRAM maker, has begun risk production of HBM3E - one generation behind the SK Hynix/Samsung/Micron HBM4 roadmap. Alibaba's T-Head unit and Cambricon are already sampling the silicon, with commercial integration into domestic AI processors targeted for 2027 and mass production capacity ramping in 2027. BofA (Vivek Arya) reiterated Buy on MU with $1,550 PT, noting CXMT's growth is concentrated in commodity DRAM not HBM, but expects CXMT's DRAM production share to climb from ~10% to ~18% by end-2028. MU traded down ~2% premarket. Long-term threat is China-market share loss for the incumbents; near-term HBM tightness stays intact through 2030 per prior LTAs.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Reuters via Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/china-memory-leader-cxmt-begins-smallbatch-production-of-hbm3e-silicon--report-4882862"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Bernstein names ASML top Q3 pick; PT $2,623 on 48% upside as AI-driven EUV cycle accelerates",
+    "summary": "Bernstein's David Dai reiterated ASML as the firm's top semiconductor pick for Q3 2026 with a $2,623 PT (48% upside from prior close), citing an unprecedented AI-driven expansion in advanced logic and DRAM capacity. Firm sees 2026-27 as 'big years' for EUV, lifting expected EPS CAGR to 18% over 2025-27. The call complements TSMC's $52-56B 2026 capex guide and the SK Hynix/Samsung HBM capacity commitments through 2031. Setup positive for ASML into the Broadcom/Dell prints this week.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Bernstein",
+    "source_url": "https://finance.yahoo.com/news/asml-stock-gains-upgrade-top-093120300.html"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Goldman Sachs double-downgrades Texas Instruments and Arm to Sell despite AI-semi tailwinds",
+    "summary": "Goldman Sachs cut TXN to Sell from Buy (PT $156 from $200) citing 'lackluster' execution through the cycle and less upcycle leverage than analog peers. Simultaneously downgraded ARM to Sell from Neutral (PT $120 from $160) citing limited AI-cycle leverage and business-model transition risk (royalty rate ramp). Neither is a tracked name in this book, but the read-through is that GS is bifurcating the semi cycle - constructive on Digital/Memory/Storage/WFE (ASML, KLAC, AMAT, LRCX, MU, HBM levered names) and cautious on analog/IP where AI leverage is second-derivative. TXN dropped ~3% on the note.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/goldman-sachs-doubledowngrades-texas-instruments-cuts-arm-despite-ai-tailwinds-4408100"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Piper Sandler upgrades Akamai to Overweight PT $125 citing +$2.8B AI compute commitments backlog",
+    "summary": "Piper's James Fish upgraded AKAM to Overweight from Neutral with a $125 PT. Thesis: Akamai's Compute segment is set to accelerate as AI-inference workloads move to distributed edge/CDN infrastructure - the +$2.8B of committed compute revenue provides visibility and the pipeline is 'robust.' AKAM will need to step up capex to meet compute demand but the analyst sees the ROIC as attractive over the medium-term. Read-through for tracked infra names: additional demand-side validation for VRT/ETN/APH power-and-cooling backlogs and for the neocloud (CRWV) inference thesis.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha / TipRanks",
+    "source_url": "https://www.tipranks.com/news/the-fly/akamai-upgraded-to-overweight-from-neutral-at-piper-sandler-thefly"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Deutsche Bank initiates AI-networking coverage: ANET Buy $220, CSCO Buy $135, DELL Hold $480",
+    "summary": "Deutsche Bank launched coverage of the AI-infrastructure networking triad. ANET Buy $220 (Ethernet AI back-end share gains), CSCO Buy $135 (Silicon One + Splunk crossover monetization plus AI security), and DELL Hold $480 - the cautious DELL call reflects margin risk from rising server DRAM prices (+13-18% QoQ) compressing ISG operating margins on GPU-dense systems even as top-line beats. Sets up a two-tier framework going into tonight's DELL print and Wednesday AVGO/HPE prints.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/01/here-are-tuesdays-top-wall-street-analyst-research-calls-akamai-technologies-arista-networks-booking-holdings-cisco-systems-dell-technologies-duolingo-robinhood-markets-pge-and-more/"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "Wells Fargo lifts DELL PT to $545 (from $505) into tonight's Q2 FY27 print; stock +264% YTD",
+    "summary": "Wells Fargo's Aaron Rakers reiterated Overweight on DELL and raised PT to $545 (from $505), modeling $17.67 EPS for FY28 as the $51.3B AI-server backlog converts. Street consensus for tonight's Q2 print: $44.5B revenue and $4.92 non-GAAP EPS (2x YoY), with full-year FY27 guide standing at $165-169B (+47% YoY) and AI-Optimized Server rev at ~$60B (+144% YoY). Morgan Stanley (Woodring) also raised PT to $434 from $430, calling near-term results 'very strong.' Read: buy-the-rumor is fully in - the print itself needs a beat plus a backlog raise plus commentary that mitigates the DRAM margin overhang for the stock to work higher from here.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61515518/dell-gears-up-for-q2-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "KOSPI closes +0.23% at 6,836 as Samsung and SK Hynix buybacks defend chip complex on Fed hawkish reset",
+    "summary": "Kospi closed +0.23% at 6,835.80 despite foreign investors dumping 850B won on the main board. Samsung Electronics finished +0.38% and SK Hynix +1.14% as company buyback flows (Samsung 2M shares, SK Hynix 650K shares - running ~1.5-1.6T won/day across 7 consecutive sessions) absorbed the foreign selling. Analysts call the buybacks a 'safety valve' against Warsh-driven volatility. Nikkei was near-flat (-0.15%); Taiwan +1.8% led Asian tech. Read-through: HBM-levered names holding despite the Fed hawkish reset and the US-Iran escalation - constructive setup into US AI-hardware earnings this week.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seoul Economic Daily",
+    "source_url": "https://en.sedaily.com/finance/2026/09/01/samsung-sk-hynix-buybacks-lift-kospi-back-above-6800"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "US futures slide as US-Iran strikes Saudi and Korean-owned tankers in Hormuz; Brent above $91, 10Y at 4.79%",
+    "summary": "Two oil tankers - one Saudi-flagged and one South Korean-owned - were hit by projectiles Monday night in the Strait of Hormuz as the US and Iran continued exchanging strikes. Brent traded 91.28/bbl (+0.87%); WTI printed above $86. US 10-year yield rose to 4.786%. Pre-market futures: Dow -239 (-0.45%), S&P 500 -38 (-0.50%), Nasdaq -276 (-0.93%). Kalshi/CME fed funds pricing now shows 60%+ probability of a 25bp HIKE at the Sept 15-16 FOMC (up from 35% pre-Warsh Jackson Hole). Stagflationary macro (higher oil + hawkish Fed) is the worst combination for high-multiple AI-infra names, which are trading heaviest premarket.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-1-2026"
+  },
+  {
+    "date": "2026-09-01",
+    "headline": "BofA cuts PG&E to Neutral, slashes PT to $13 from $24 in largest utility desk downgrade of 2026",
+    "summary": "Bank of America downgraded PG&E (PCG) to Neutral from Buy and cut PT to $13 from $24 - a ~46% target cut driven by wildfire liability re-pricing and California rate-case pushback. Not a tracked name here, but the size of the negative revision matters as a read-through: regulated Cal utilities face pressure while merchant-power / hyperscaler-adjacent names (CEG, VST, NEE, GEV) trade on entirely different fundamentals tied to datacenter offtake. Signals sell-side is still willing to differentiate aggressively inside the utility complex despite the sector's AI-infra tailwind narrative.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/01/here-are-tuesdays-top-wall-street-analyst-research-calls-akamai-technologies-arista-networks-booking-holdings-cisco-systems-dell-technologies-duolingo-robinhood-markets-pge-and-more/"
+  }
+]

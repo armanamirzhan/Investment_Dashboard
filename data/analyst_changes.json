@@ -4813,5 +4813,59 @@
     "new_target": 245,
     "old_rating": "Hold",
     "old_target": 225
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "ANET",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 220,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "CSCO",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 135,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "DELL",
+    "firm": "Deutsche Bank",
+    "new_rating": "Hold",
+    "new_target": 480,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "DELL",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 545,
+    "old_rating": "Overweight",
+    "old_target": 505
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "DELL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal Weight",
+    "new_target": 434,
+    "old_rating": "Equal Weight",
+    "old_target": 430
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "ASML",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 2623,
+    "old_rating": "Outperform",
+    "old_target": 1971
   }
 ]

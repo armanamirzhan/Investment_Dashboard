@@ -4191,5 +4191,26 @@
     "signal_type": "momentum",
     "description": "NVDA +1% intraday on news it will invest $3.5B in MediaTek via convertible bonds (part of MediaTek's record $3.9B overseas convertible offering, alongside Alphabet). MediaTek adopts Nvidia NVLink Fusion, giving it ready-made connectors/memory to design custom AI chips that plug into Nvidia-based datacenter systems. Defensive-offensive move: locks a major Asian chip designer into the Nvidia ecosystem as AWS, Google, Microsoft, OpenAI and Anthropic push their own custom silicon to reduce GPU dependence. Partially offsets today's broader Fed-hawkish-driven AI-beta de-rating pressure flagged in the existing overvalued signal.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "Q2 FY27 earnings tonight AMC - consensus $44.5B rev / $4.92 EPS. Stock +264% YTD and Wells Fargo lifted PT to $545. Setup requires a beat + backlog raise + DRAM-margin commentary to justify the rerating; a miss/inline is asymmetric risk into a fully-primed tape. Deutsche Bank initiated Hold today flagging exactly this margin overhang.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "MU",
+    "signal_type": "concentration_risk",
+    "description": "CXMT begins HBM3E risk production with Alibaba T-Head and Cambricon as first customers. China domestic AI-memory supply chain now viable ~3-5 yrs behind global leaders. BofA reiterates Buy $1,550 arguing commodity-DRAM concentration limits HBM impact, but expects CXMT DRAM share to climb from ~10% to ~18% by end-2028 - a slow-motion share-loss risk in the China market.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-01",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Anthropic/Lambda $35B compute deal is a fresh incremental GPU demand signal on top of the ongoing hyperscaler capex cycle. Nvidia also holds the lease at Hut 8's Texas site (unusual structure - NVDA underwrites merchant-power datacenter risk to secure Lambda capacity). Sequential validation of the neocloud + merchant-power flywheel underpinning FY27/FY28 estimates.",
+    "severity": "medium"
   }
 ]

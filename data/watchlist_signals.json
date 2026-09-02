@@ -4247,5 +4247,12 @@
     "signal_type": "earnings_beat",
     "description": "Reports Q3 FY26 tonight after close. First fully-consolidated Juniper quarter - watch cost-synergy pace ($450M target) and networking margin trajectory. Any AI-infra backlog step-up would be a positive read-through to ANET.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "FCEL",
+    "signal_type": "earnings_miss",
+    "description": "Q3 FY26 results: revenue fell 29% YoY to $33.0M (vs $38.78M consensus) on lower South Korean module deliveries and reduced Groton output; loss widened to $0.64/share (vs $0.40 est.) with gross loss of $24.5M including a $17M Fit Energy inventory/purchase-commitment charge. Stock fell ~17% to ~$14.18. First capacity reservation agreement with a datacenter operator (75MW Texas project) was a bright spot; Fit Energy deliveries (up to 380MW) still expected to begin fiscal Q4.",
+    "severity": "high"
   }
 ]

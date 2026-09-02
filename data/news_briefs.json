@@ -6330,5 +6330,116 @@
       "energy"
     ],
     "top_headlines": "Anthropic $35B Lambda deal; CXMT HBM3E ramp; DELL prints tonight; Fed hike odds >60%"
+  },
+  {
+    "date": "2026-09-02",
+    "tickers": [
+      {
+        "ticker": "DELL",
+        "direction": "up",
+        "note": "+9% AH; Q2 FY27 blowout, AI backlog $95B (from $51B)"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Bloomberg: nears $14B Hugging Face deal this week"
+      },
+      {
+        "ticker": "VRT",
+        "direction": "up",
+        "note": "Acquires UtilityInnovation for $1.45B + $1.15B earnout"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "neutral",
+        "note": "Q3 FY26 tonight AMC; $16B AI-semi guide is the swing factor"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "neutral",
+        "note": "Q3 FY26 tonight AMC; first fully-consolidated Juniper quarter"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Read-through beneficiary of DELL AI-server $95B backlog"
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "Positive read-through from VRT-UIG microgrid deal"
+      },
+      {
+        "ticker": "APH",
+        "direction": "up",
+        "note": "AI-server datacenter interconnect beneficiary"
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "neutral",
+        "note": "Fal.Con 2026: Rubrik integrates Falcon Next-Gen Identity"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "Datacenter-siting backlash headwind narrative"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "down",
+        "note": "Datacenter-siting backlash headwind narrative"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "US 30Y at 5.28% (highest since 2008); 10Y 4.81%"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Nikkei -2.85%; DAX -0.8%; Nasdaq futures -0.5%"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Fed Sept 15-16 hike odds >60% (Kalshi/CME)"
+      },
+      {
+        "ticker": "policy",
+        "signal": "US-Iran strikes escalate; WTI +5% to >$90"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "Q2 FY27 print: $95B AI backlog, op margin 12.6% (vs 7.7% YoY)"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Hugging Face $14B M&A talks - largest-ever NVDA deal"
+      },
+      {
+        "ticker": "VRT",
+        "signal": "$1.45B UIG microgrid M&A - vertical time-to-power play"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "earnings Wed AMC; $16B AI-semi Q3 guide"
+      },
+      {
+        "ticker": "HPE",
+        "signal": "earnings Wed AMC; Juniper synergy pace"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "Quarterly WFE purchases ~1.9x Dec plan"
+      }
+    ],
+    "file": "morning-news/2026-09-02.html",
+    "sectors": [
+      "hardware",
+      "energy",
+      "software",
+      "integration",
+      "finance"
+    ],
+    "top_headlines": "DELL blowout ($95B AI backlog); NVDA-Hugging Face $14B; VRT-UIG $1.45B; AVGO+HPE prints tonight; bond rout resumes"
   }
 ]

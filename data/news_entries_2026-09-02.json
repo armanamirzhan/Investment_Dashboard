@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-09-02",
+    "headline": "Dell blows out Q2 FY27: revenue +58% to $47B, EPS $7.04 vs $4.92 est, AI backlog jumps to $95B from $51B; stock +9% after-hours",
+    "summary": "Dell reported Q2 FY27 after Tuesday's close: revenue $47.0B (+58% YoY, ~$2.16B above consensus), non-GAAP EPS $7.04 vs $4.92 est (+203% YoY). AI-Optimized Server revenue doubled YoY and orders drove the AI backlog to a record $95B, up from the $51.3B disclosed at Q1 - a $43.7B QoQ increase that is larger than the prior full-year revenue of the AI-server business. Non-GAAP operating margin expanded to 12.6% from 7.7%, defusing the DRAM-cost margin overhang that was Deutsche Bank's Hold-thesis pushback. Full-year FY27 revenue guide raised to $192B (from $165-169B); Q3 guide taken higher with AI-Optimized Servers carrying the lift. Returned a record $4.3B to shareholders in the quarter. Read-through: strongly positive for GPU demand (NVDA, AMD) and datacenter-power/cooling adjacencies (VRT, ETN, APH); confirms hyperscaler-plus-neocloud capex cycle still accelerating.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Dell Investor Relations",
+    "source_url": "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-second-quarter-fiscal-2027-financial"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Bloomberg: Nvidia nears $14B Hugging Face acquisition, could close this week; $1B retention pool for HF employees",
+    "summary": "Bloomberg reports Nvidia is in advanced talks to acquire open-source AI platform Hugging Face for ~$14B, with a deal possibly signed this week. Structure reportedly includes a $1B retention package. HF turned down a $500M NVDA investment 12 months ago that valued the company at $7B - the current price is a 2x re-mark and a 3x uplift versus HF's last primary round (2023 at $4.5B). Strategic read: gives Nvidia control of the leading distribution hub for open-source model weights, cementing CUDA's grip on the inference stack and pre-empting a Meta/Google acquisition. Would be Nvidia's largest-ever M&A (previous ARM attempt was $40B but terminated). Regulatory scrutiny expected on developer-ecosystem concentration.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-02/nvidia-nears-14-billion-hugging-face-deal-this-week"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Vertiv acquires UtilityInnovation Group for $1.45B cash + up to $1.15B earnout ($2.6B total) to accelerate 'time-to-power' at AI datacenters",
+    "summary": "Vertiv announced this morning it will acquire UtilityInnovation Group (UIG) for $1.45B cash upfront plus up to $1.15B in earnouts tied to 12- and 24-month EBITDA targets ($2.6B total potential). UIG adds microgrid controls, onsite generation orchestration, microgrid-specific switchgear, and behind-the-meter power architecture - i.e. the interconnection stack that currently constrains new AI datacenter builds while operators wait 4-7 years for utility service. Vertiv now offers customers a fully vertically-integrated stack from grid connection through to rack-level power/cooling. Deal closes Q4 2026, guided accretive to adjusted EPS in year one. Strategic read: doubles down on the 'power is the new bottleneck' thesis; positive read-through to ETN, APH, and merchant-power PPA arrangers (CEG, VST, NEE) as microgrid deployments accelerate the pace of hyperscaler bookings.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Vertiv (PR Newswire)",
+    "source_url": "http://www.prnewswire.com/news-releases/vertiv-announces-agreement-to-acquire-utilityinnovation-group-to-accelerate-time-to-power-for-ai-data-centers-302867612.html"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Broadcom Q3 FY26 tonight after close: consensus $29.4B revenue (+84% YoY), $3.22 EPS; AI-semi guide $16B (+200% YoY) is the key print",
+    "summary": "Broadcom reports Q3 FY26 today after market close (call 5:00pm ET). Consensus: $29.4B revenue (+84% YoY), $3.22 non-GAAP EPS (+90% YoY). Company's own prior guide had AI-semiconductor revenue at $16.0B (+200% YoY) - anything short of that will re-price the custom-ASIC narrative that has driven AVGO from ~$180 to ~$389 over the past year. Sell-side average PT is $525.97 (+35% upside per CNN Money data); RBC at $400 (Sector Perform, the low), BMO at $455 (Outperform), Wells at $545 (the high). Key items to watch: (i) OpenAI custom-silicon program timing, (ii) 3nm ramp commentary, (iii) VMware synergy pull-through, (iv) any signal on the fifth hyperscaler XPU customer widely rumored to be Meta. Setup is the mirror image of NVDA's print - buy-the-rumor is fully in and the company must beat plus raise plus give an incrementally bullish AI-semi trajectory.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/trading-ideas/previews/26/09/61557316/broadcom-q3-preview-nvidia-record-results-bring-added-pressure-has-to-prove"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "HPE Q3 FY26 tonight after close: guide $11.5-12.1B revenue (+32% YoY), $0.88-0.93 EPS; first full quarter of consolidated Juniper",
+    "summary": "HPE reports Q3 FY26 today after close (call 4:30pm ET). Company guide: $11.5-12.1B revenue (~+32% YoY), $0.88-0.93 non-GAAP EPS (Street $0.94, +114% YoY). This is the first fully-consolidated quarter for Juniper - management's focus will be on cost-synergy pace ($450M targeted) and networking margin trajectory as Juniper's higher-mix product portfolio blends into HPE's ISG-heavy P&L. Read-through: Deutsche Bank's Hold on DELL yesterday was margin-driven (DRAM headwind), and Dell's Q2 print rejected that thesis - HPE's margin story tonight will either confirm or deny that the AI-server margin cycle has bottomed. Consensus expects the Networking segment to be the standout. Watch also for any AI-infrastructure backlog disclosure (last reported $3.7B) - a step-function increase would be a positive read-through to ANET, and by extension AVGO's Silicon One.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance / Zacks",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/hpe-report-q3-earnings-whats-152700745.html"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Global bond rout resumes: US 30Y at 5.28% (highest since 2008), 10Y at 4.81%; Nikkei -2.85%, DAX -0.8%; Nasdaq futures -0.5% despite DELL blowout",
+    "summary": "Bond markets are re-pricing overnight - US 30Y yield hit 5.28% (highest since the 2008 GFC), 10Y at 4.81% (+2bp), 2Y at 4.42%. Nikkei closed -2.85% (-1,889 points to 64,325), Shanghai and Hang Seng lower, DAX -212 (-0.8%). Nasdaq futures -0.5% at the open despite DELL +9% after-hours - a classic tape where duration-sensitive high-multiple names cannot ride a positive individual print through a rising-yield macro. Kalshi/CME pricing continues to show ~60% odds of a 25bp Fed HIKE at the Sept 15-16 FOMC (Warsh's Jackson Hole speech remains the anchor). Middle East: WTI +5% overnight to above $90 (three-month high) on further US strikes; Brent above $91. Stagflationary macro (higher oil, higher long rates, hawkish Fed) is the worst possible setup for AI-infra multiples and explains the -6.5% Palantir move yesterday against sector-wide upgrades. Any AVGO/HPE beat tonight has to overcome this macro drag to trade higher tomorrow.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/pre-market-futures-lower-start-141700686.html"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Rubrik integrates CrowdStrike Falcon Next-Gen Identity Security for automated rollback of AD compromises at Fal.Con 2026",
+    "summary": "Announced at CrowdStrike's Fal.Con 2026 conference (Sept 1): Rubrik and CrowdStrike are combining Falcon Next-Gen Identity Security detection with Rubrik Identity Resilience to deliver a Charlotte-Agentic-SOAR-orchestrated identity-attack recovery workflow. Practical capability: automated rollback of unauthorized Active Directory changes, malicious file removal, and full forest recovery - collapsing identity RTO from days to hours. Read-through for CRWD: another module deepens the Falcon platform's stickiness with Rubrik's ~6,000 enterprise customers and reinforces Charlotte's positioning as the agentic-security-orchestration layer. Q2 FY27 print (Aug 26) already flagged Flex ARR at $2.29B (+101% YoY) and net-new ARR of $333M (+51%) - integrations like this are the pipeline mechanism behind that Flex-driven acceleration. Modestly positive but not stock-moving on its own.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Rubrik / CrowdStrike",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/rubrik-crowdstrike-bring-agentic-automation-200500114.html"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "Motley Fool / FPJ: Oklo and NuScale face 'datacenter backlash' headwind as community opposition to hyperscaler siting rises",
+    "summary": "Coverage in Motley Fool and Foreign Policy Journal frames a new risk for the SMR complex: rising community and municipal opposition to hyperscaler datacenter siting (grid draw, water, tax abatements, land use) is putting the datacenter buildout - and therefore the SMR demand pull that OKLO and SMR trade on - under political pressure. Not thesis-altering (Meta-Oklo 1.2 GW campus still progressing, NuScale's NRC-certified design still unique), but the narrative shift matters into a quarter where these names trade on 2028+ commercialization stories with no near-term revenue anchor. Read: watch for permitting/siting delays announced at hyperscaler capex updates as a leading indicator. OKLO and SMR both underperformed the utility complex over the past week.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/08/30/are-oklo-and-nuscale-power-still-a-buy-after-data/"
+  },
+  {
+    "date": "2026-09-02",
+    "headline": "TSMC quarterly chip-tool purchases run at ~1.9x prior-year plan as AI-driven capacity race extends WFE super-cycle",
+    "summary": "Industry data indicates TSMC's quarterly chipmaking-equipment purchases are now running at ~1.9x the levels projected at last December's capex plan, reflecting the AI-driven capacity race between the leading foundries and memory makers. TSMC has previously guided 2026 capex to the high end of $52-56B; the equipment-purchase pace implies an upward bias to that range on the next update. Direct positive read-through to ASML (EUV, high-NA), AMAT, LRCX, KLAC on order-book depth. Complements Bernstein's Sept 1 note naming ASML the top Q3 semi pick with $2,623 PT and SK Hynix's 19T won ($12.85B) advanced-packaging investment at Cheongju P&T7 - all pointing to a WFE super-cycle that extends through 2027-28. Next TSM data point: August monthly revenue release on Sept 10.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-02-2026/"
+  }
+]

@@ -4212,5 +4212,40 @@
     "signal_type": "momentum",
     "description": "Anthropic/Lambda $35B compute deal is a fresh incremental GPU demand signal on top of the ongoing hyperscaler capex cycle. Nvidia also holds the lease at Hut 8's Texas site (unusual structure - NVDA underwrites merchant-power datacenter risk to secure Lambda capacity). Sequential validation of the neocloud + merchant-power flywheel underpinning FY27/FY28 estimates.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DELL",
+    "signal_type": "earnings_beat",
+    "description": "Q2 FY27 blowout: revenue $47B (+58% YoY, $2.16B beat), EPS $7.04 vs $4.92 est, AI backlog jumps to $95B from $51B (+$43.7B QoQ), FY27 revenue guide raised to $192B; op margin expanded to 12.6% from 7.7%, negating the DRAM-margin bear case. Stock +9% after-hours.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Bloomberg reports advanced $14B talks to acquire Hugging Face this week ($1B retention pool). Would be largest-ever NVDA M&A and lock in the leading open-source-model distribution hub, extending CUDA's inference moat. Watch for confirmation/regulatory pushback.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Announced $1.45B cash + up to $1.15B earnout acquisition of UtilityInnovation Group for microgrid + behind-the-meter power stack. Closes Q4, guided year-one adj-EPS accretive. Vertically integrates 'time-to-power' story that has been the single most-cited bottleneck at hyperscaler capex updates.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "AVGO",
+    "signal_type": "earnings_beat",
+    "description": "Reports Q3 FY26 tonight after close. Consensus $29.4B revenue / $3.22 EPS; company's own AI-semi guide of $16B (+200% YoY) is the print's swing factor. Sell-side high $545 (Wells), low $400 (RBC). Multiple has priced in a beat-and-raise - the bar is materially higher than NVDA's was.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "HPE",
+    "signal_type": "earnings_beat",
+    "description": "Reports Q3 FY26 tonight after close. First fully-consolidated Juniper quarter - watch cost-synergy pace ($450M target) and networking margin trajectory. Any AI-infra backlog step-up would be a positive read-through to ANET.",
+    "severity": "medium"
   }
 ]

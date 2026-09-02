@@ -4867,5 +4867,14 @@
     "new_target": 2623,
     "old_rating": "Outperform",
     "old_target": 1971
+  },
+  {
+    "date": "2026-09-02",
+    "ticker": "DELL",
+    "firm": "Multiple (post-print)",
+    "new_rating": "Buy (reiterated)",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
   }
 ]

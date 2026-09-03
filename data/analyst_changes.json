@@ -4921,5 +4921,41 @@
     "new_target": 625,
     "old_rating": "Equal Weight",
     "old_target": null
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 460,
+    "old_rating": "Buy",
+    "old_target": 530
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 540,
+    "old_rating": "Buy",
+    "old_target": 525
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "DELL",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": "Buy",
+    "old_target": 515
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "DELL",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": "Buy",
+    "old_target": 505
   }
 ]

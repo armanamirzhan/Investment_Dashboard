@@ -4254,5 +4254,33 @@
     "signal_type": "earnings_miss",
     "description": "Q3 FY26 results: revenue fell 29% YoY to $33.0M (vs $38.78M consensus) on lower South Korean module deliveries and reduced Groton output; loss widened to $0.64/share (vs $0.40 est.) with gross loss of $24.5M including a $17M Fit Energy inventory/purchase-commitment charge. Stock fell ~17% to ~$14.18. First capacity reservation agreement with a datacenter operator (75MW Texas project) was a bright spot; Fit Energy deliveries (up to 380MW) still expected to begin fiscal Q4.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 revenue $29.6B (+86% YoY) and EPS $3.32 topped estimates; AI-semi $16.7B (+221% YoY) above company guide. Q4 AI-semi guide $21.7B (+236% YoY) implies sequential acceleration; FY26 AI raised to $58B. Ninth consecutive beat but thinnest print - stock -5% AH as positioning cleanses. Hock Tan: Anthropic largest XPU customer 2027-28.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "HPE",
+    "signal_type": "earnings_beat",
+    "description": "Q3 FY26 revenue $12.2B (+34% YoY) and EPS $1.11 vs $0.93 est; record 40% gross margin. Juniper synergies raised to $600M from $450M (ahead of schedule). FY26 EPS guide raised to $3.75-3.85; FY27 revenue growth 13-17%. Oracle gigawatt-scale AI collaboration expanded. Stock -4% pre-market on margin-moderation concerns; Barclays raised PT to $79.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Hugging Face acquisition formally confirmed at $12.93B ($11.9B cash + $1B retention). Extends NVDA moat to model-distribution layer; largest completed M&A ever. Regulatory close H1 2027. Jensen's 'no CUDA required' commitment is a pre-emptive antitrust concession.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "Fox Advisors upgrade to Outperform with Street-high $625 PT following Q2 blowout. AI backlog jumped to $95B from $51B QoQ. Consensus sell-side now capitulating to AI-server margin expansion thesis; Deutsche Bank's Hold is increasingly outlier position.",
+    "severity": "medium"
   }
 ]

@@ -4876,5 +4876,50 @@
     "new_target": null,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "firm": "Macquarie",
+    "new_rating": "Outperform",
+    "new_target": 490,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 575,
+    "old_rating": "Outperform",
+    "old_target": 550
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "AVGO",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 550,
+    "old_rating": "Buy",
+    "old_target": 500
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "HPE",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 79,
+    "old_rating": "Overweight",
+    "old_target": 67
+  },
+  {
+    "date": "2026-09-03",
+    "ticker": "DELL",
+    "firm": "Fox Advisors",
+    "new_rating": "Outperform",
+    "new_target": 625,
+    "old_rating": "Equal Weight",
+    "old_target": null
   }
 ]

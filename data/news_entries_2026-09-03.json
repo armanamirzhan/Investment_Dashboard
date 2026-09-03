@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-09-03",
+    "headline": "Broadcom Q3 FY26: revenue $29.6B (+86% YoY), AI-semi $16.7B (+221% YoY); Q4 AI guide $21.7B (+236% YoY) but Q4 total $34.8B just misses $35.0B consensus; stock -5% AH",
+    "summary": "Broadcom reported Q3 after Tuesday's close: revenue $29.6B (+86% YoY, +$230M above consensus), non-GAAP EPS $3.32 vs $3.24 est, operating income $20.1B (+92%), free cash flow $13.7B (46% of revenue). AI-Semiconductor revenue $16.7B (+221% YoY, +54% QoQ) - above the $16.0B company guide - driven by six XPU customers (Google, Anthropic, OpenAI + three others). Q4 guidance the pivot: AI-semi $21.7B (+236% YoY, sequential acceleration), FY26 AI raised to $58B (+186% YoY), but Q4 total revenue $34.8B vs $35.0B consensus - the ~0.5% revenue beat and 2.5% EPS beat were the thinnest in nine straight beat quarters. Shares dropped 5% in extended trade despite the ninth consecutive beat as buy-side positioning had already priced a raise-and-beat. CEO Hock Tan on the call: Anthropic is 'on track to become our largest XPU customer in 2027 and sustain that in 2028' - a de facto confirmation of the 1 GW 2026 + 3 GW 2027 Ironwood/TPU deliveries. Read-through: unambiguously positive for the custom-ASIC secular thesis; the price action is a positioning cleanse, not a fundamental disconfirmation. Positive read-through to TSM (advanced packaging), AMAT/LRCX/KLAC (WFE), VRT/ETN/APH (power/cooling).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Broadcom Investor Relations",
+    "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "HPE Q3 FY26: revenue $12.2B (+34% YoY), EPS $1.11 vs $0.93 est, gross margin 40%; Juniper synergies raised to $600M from $450M; FY27 rev growth guide 13-17%; stock -4% pre-market on margin moderation",
+    "summary": "HPE reported Q3 FY26 after Tuesday's close: revenue $12.21B (+34% YoY, above $11.91B consensus), non-GAAP EPS $1.11 vs $0.93 (+19% beat), record 40% gross margin. Juniper cost-synergy target raised to $600M by FY28 (from $450M), ahead of schedule, requires $800M investment. Networking segment posted record orders and revenue, cumulative 'Networks for AI' orders exceeded FY26 target, and management flagged a significant expansion of the Oracle collaboration for gigawatt-scale AI infrastructure. FY26 EPS guide raised to $3.75-3.85 (from $3.35-3.65), free-cash-flow target raised to at least $3.75B. FY27 initial guide: revenue growth 13-17%, networking 14-17%, cloud+AI 14-18%, EPS $4.40-4.60, FCF at least $5B. Despite the beat and raise, shares fell 4% pre-market as analysts flagged sequential gross-margin moderation (~40% is a peak print, mix expected to normalize down). Barclays raised its price target to $79 from $67. Read-through: confirms datacenter-networking capex cycle intact and positive for ANET, AVGO (Silicon One / Tomahawk), CSCO on the peer-comp; margin trajectory a reminder that hardware AI monetization still has variable-cost drag from DRAM/HBM.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Hewlett Packard Enterprise (Q3 FY26 press release)",
+    "source_url": "https://investors.hpe.com/"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Nvidia confirms $12.93B acquisition of Hugging Face - $11.9B cash + $1B retention equity; close H1 2027 subject to regulatory approval",
+    "summary": "Nvidia formally announced today its acquisition of open-source AI platform Hugging Face for $12.93B - $11.9B to shareholders plus $1B in equity for employee retention. The Bloomberg report from yesterday is now confirmed at a slightly lower headline number ($12.9B vs the ~$14B rumor). Deal targets close in H1 2027, subject to regulatory approval. Jensen Huang commit: HF continues to support open-source and open-weight models across the ecosystem; Nvidia compute is NOT required to build/deploy through the platform. Hugging Face hosts three million models, one million applications used by 18 million+ developers, and half a million datasets. Strategic implication: Nvidia now owns the model-distribution layer that sits above CUDA, functionally securing the inference stack from the developer down to the die. This is Nvidia's largest completed M&A ever (ARM was $40B but terminated). Antitrust review will focus on developer-ecosystem concentration; the 'no CUDA requirement' commitment is a pre-emptive concession likely designed to short-circuit EU/DOJ objections. Positive for NVDA (moat extension), modestly negative for AMD (open-source PyTorch/ROCm optionality reduced), and neutral-to-positive for hyperscalers that use HF as a distribution partner (GOOGL, MSFT, AMZN).",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "NVIDIA (official blog)",
+    "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Macquarie upgrades Broadcom to Outperform from Neutral with $490 PT; Bernstein to $575 (from $550), Jefferies to $550 (from $500) - sell-side pile-in on AI-semi acceleration",
+    "summary": "Sell-side reaction to Broadcom's Q3 has broken decisively positive despite the -5% AH move. Macquarie initiated an upgrade to Outperform from Neutral this morning with a $490 price target, citing that Google insourcing risk is now priced in with AVGO ~24% off its 2026 high. Bernstein raised its PT to $575 from $550 (Outperform), Jefferies to $550 from $500 (Buy). Consensus PT ($525.97 across 49 analysts) now implies ~35-42% upside from the pre-print close. Key call takeaway across desks: the FY26 AI-semi raise to $58B implies a $22-23B Q4 exit run-rate, which annualizes to ~$90B for FY27 - materially above the ~$80B consensus tracking prior to the print. Setup is: 'positioning cleanse, then re-rate' - historically the pattern after AVGO's Q4 2024 print. Modest positive read-through to MRVL as the smaller custom-ASIC peer.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/03/here-are-thursdays-top-wall-street-analyst-research-calls-broadcom-deere-company-dell-technologies-devon-energy-moderna-permian-resources-pge-thermo-fisher-viper-energy-and-more/"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Fox Advisors upgrades Dell to Outperform with $625 PT following Q2 FY27 blowout; Barclays raises HPE PT to $79 from $67",
+    "summary": "Following Dell's $47B/+58% Q2 print and $95B AI backlog (up from $51B) disclosed Tuesday evening, Fox Advisors upgraded DELL to Outperform from Equal Weight with a $625 price target - a fresh Street-high level implying substantial re-rating from current mid-cycle. Deutsche Bank's Hold-thesis (DRAM margin drag) is now the sole significant Hold on the name. Separately, Barclays raised its HPE price target to $79 from $67 following last night's beat, though maintained Overweight. Read-through: sell-side has capitulated to the AI-server margin-expansion thesis; the DELL/HPE margin cycle bottomed one quarter earlier than the June consensus assumed. Positive read-through: SMCI (small-cap AI-server pure-play should carry the read), CLS (Celestica ODM exposure), and the datacenter-power/cooling adjacencies (VRT, ETN, APH).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St. / Daily Political (Barclays)",
+    "source_url": "https://www.dailypolitical.com/2026/09/03/hewlett-packard-enterprise-nysehpe-price-target-raised-to-79-00.html"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Broadcom CEO Hock Tan on call: Anthropic 'on track to become our largest XPU customer in 2027' - de facto confirmation of 1 GW 2026 + 3 GW 2027 TPU/Ironwood commitments",
+    "summary": "On the Q3 earnings call, Broadcom CEO Hock Tan stated Anthropic is 'on track to become our largest XPU customer in 2027 and sustain that position in 2028' - effectively confirming the previously-reported 1 GW of Ironwood TPU deliveries to Anthropic in 2026 scaling to 3 GW in 2027, with commentary suggesting an additional 5 GW of TPU v8i in 2027. Google - historically the anchor customer - moves to second position in the XPU stack in 2027, and OpenAI (first-generation XPU shipping 2027 with 1 GW+ capacity, rising to 10 GW aggregate) becomes the third material customer. Structural read: the custom-ASIC business is diversifying from Google-only to a three-anchor structure, which materially reduces customer-concentration risk that had been the primary bear case. Positive for AVGO (obviously), TSM (all Ironwood and next-gen XPU produced on TSMC advanced nodes), and negative marginal read-through for NVDA at the inference layer as Anthropic scales in-house TPUs alongside H200/GB200 clusters.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Benzinga (transcript coverage)",
+    "source_url": "https://www.benzinga.com/markets/tech/26/09/61594615/broadcom-ceo-hock-tan-anthropic-largest-xpu-customer-google-tpu-orders"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Bond rout persists: US 10Y at 4.79%, 30Y at 5.26% (near GFC highs); Fed hike odds 60-66% for Sept 15-16 FOMC on hawkish Warsh Jackson Hole aftermath",
+    "summary": "The bond re-pricing that hit yesterday extended overnight. US 10Y Treasury yield sits at 4.79% (highest since Oct 2023), 30Y at 5.26% (near GFC highs), 2Y at ~4.42%. CME FedWatch shows 66% probability of a 25bp Fed HIKE at the Sept 15-16 FOMC (Kalshi at 48%, futures at ~60%) - the market has now internalized the Warsh Jackson Hole speech as a signal of near-term tightening, with the Fed Chair citing 3.7% PCE and 'labor at full employment' as justification. Nikkei closed -0.17% at 64,214 (stable after yesterday's -2.85%). WTI holding above $90/bbl on Middle East risk premium. For AI-infrastructure names, the setup remains adverse: rising real rates compress high-multiple names (PLTR, CRWD, SNOW, NOW), and cost-of-capital pressure hits capital-intensive utility/nuclear plays (VST, CEG, NEE, OKLO, SMR) even harder. AVGO/HPE/DELL beats will need to overcome this macro drag to hold gains into the open. FOMC decision is now the dominant near-term risk event.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC / Forbes (CME FedWatch)",
+    "source_url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "Truist downgrades PG&E to Hold from Buy, cuts PT to $17 from $21 - utility-side pressure as datacenter siting backlash spreads",
+    "summary": "Truist Securities downgraded PG&E to Hold from Buy this morning with a $17 price target (from $21). This is the second material negative utility datapoint in 48 hours, following the community-opposition narrative documented in Motley Fool/FPJ coverage of OKLO and SMR siting risk. Read-through: the utility complex is now trading with a two-sided risk profile - datacenter demand pull is real and unchanged, but regulatory/permitting friction is compressing near-term earnings pass-through. This is directly relevant to NEE (Florida datacenter load), CEG (fleet exposure to Meta/Microsoft PPAs), VST (Perry/Davis-Besse/Beaver Valley PPA with Meta), and AES (utility-scale renewables development). Marginally negative for datacenter developers (EQIX, DLR) if grid-connection queues extend further. Watch for follow-on downgrades at other IOUs (Duke, Southern Company, Xcel) as the sell-side digests the community/permitting risk framework.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/03/here-are-thursdays-top-wall-street-analyst-research-calls-broadcom-deere-company-dell-technologies-devon-energy-moderna-permian-resources-pge-thermo-fisher-viper-energy-and-more/"
+  },
+  {
+    "date": "2026-09-03",
+    "headline": "HPE-Oracle 'gigawatt-scale AI infrastructure' collaboration expanded - flagged on Q3 call as material driver of Networks-for-AI order acceleration",
+    "summary": "Buried in the HPE Q3 print: management disclosed a 'significant expansion' of the Oracle collaboration for gigawatt-scale AI infrastructure. HPE previously supplied networking and compute components to Oracle Cloud Infrastructure (OCI) but the scope was project-based. The new arrangement appears to be a multi-year strategic framework covering full-stack integration (Juniper networking + ProLiant compute + Aruba wireless) for OCI's AI-focused GW-scale datacenter footprint. Read-through: continues Oracle's rapid buildout to catch up to AWS/Azure/GCP in AI capacity - ORCL previously guided $25B+ RPO from OpenAI alone, and stated total AI-cloud RPO now exceeds $200B. Positive read-through: HPE Networking (Juniper) as anchor supplier, AVGO (Silicon One in the Juniper switches), VRT/ETN (power/cooling for the datacenter buildout), and ORCL directly. Marginally negative for ANET which had been positioned as Oracle's incumbent networking supplier prior to Juniper's platform maturation.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Hewlett Packard Enterprise (Q3 FY26 earnings call)",
+    "source_url": "https://investors.hpe.com/"
+  }
+]

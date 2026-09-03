@@ -6441,5 +6441,77 @@
       "finance"
     ],
     "top_headlines": "DELL blowout ($95B AI backlog); NVDA-Hugging Face $14B; VRT-UIG $1.45B; AVGO+HPE prints tonight; bond rout resumes"
+  },
+  {
+    "date": "2026-09-03",
+    "tickers": [
+      {
+        "ticker": "AVGO",
+        "direction": "down",
+        "note": "Q3 beat but Q4 total misses; -5% AH despite AI-semi $58B FY26 raise; Macquarie upgrade, Bernstein PT $575, Jefferies $550"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "down",
+        "note": "Q3 beat+raise; Juniper synergies to $600M ahead of schedule; -4% pre-market on margin moderation; Barclays PT $79"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "$12.93B Hugging Face acquisition formally confirmed; close H1 2027"
+      },
+      {
+        "ticker": "DELL",
+        "direction": "up",
+        "note": "Fox Advisors upgrade to Outperform, Street-high $625 PT following Q2 blowout"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "HPE flags 'significant expansion' of gigawatt-scale AI infra collaboration"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Positive read-through from AVGO AI-semi acceleration (all XPU on TSMC advanced nodes)"
+      },
+      {
+        "ticker": "VST",
+        "direction": "down",
+        "note": "Utility complex under pressure; Truist cuts PCG to Hold, community siting friction narrative extends"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "Datacenter-siting backlash overhang persists into hawkish-Fed macro"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "AVGO",
+        "signal": "earnings_beat but Q4 total guide misses - positioning cleanse"
+      },
+      {
+        "ticker": "HPE",
+        "signal": "earnings_beat and raise, Juniper synergies ahead"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Hugging Face $12.93B M&A confirmed"
+      },
+      {
+        "ticker": "DELL",
+        "signal": "momentum - Fox Advisors upgrade $625 PT"
+      },
+      {
+        "ticker": "macro",
+        "signal": "US 10Y 4.79%, 30Y 5.26%; Fed hike odds ~66% Sept 15-16 FOMC"
+      },
+      {
+        "ticker": "policy",
+        "signal": "Datacenter siting backlash + PCG downgrade extend utility overhang"
+      }
+    ],
+    "file": "morning-news/2026-09-03.html"
   }
 ]

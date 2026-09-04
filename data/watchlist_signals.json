@@ -4282,5 +4282,54 @@
     "signal_type": "momentum",
     "description": "Fox Advisors upgrade to Outperform with Street-high $625 PT following Q2 blowout. AI backlog jumped to $95B from $51B QoQ. Consensus sell-side now capitulating to AI-server margin expansion thesis; Deutsche Bank's Hold is increasingly outlier position.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Bernstein $575 + MS raise + Macquarie upgrade Thu; 8+ desks defending Wed AH -5%; setup is 'positioning cleanse then re-rate' after 24% pullback from 2026 high",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AGX",
+    "signal_type": "momentum",
+    "description": "Lake Street Buy upgrade; $3B AI-linked power-plant backlog; 4.1 GW gas-gen under construction incl 1.4 GW Texas CCGT NTP this Q; datacenter-power EPC re-rate",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung HBM share doubled to 33% Q2 (from 21%); $1B HBM revenue in first four months of HBM4 mass production; 50% memory capacity expansion 2026",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "PATH",
+    "signal_type": "overvalued",
+    "description": "Canaccord downgrade to Hold; AI-agent competition from Salesforce Agentforce, MSFT Copilot Studio compressing multiple ceiling for pure-play RPA",
+    "severity": "low"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AMBA",
+    "signal_type": "overvalued",
+    "description": "Craig-Hallum PT cut to $70 from $95; edge-AI/automotive vision demand normalizing; not a read-through to XPU/HBM AI-capex names",
+    "severity": "low"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "OKLO",
+    "signal_type": "overvalued",
+    "description": "Long-duration SMR cohort vulnerable as August jobs report drives Sept hike odds >60%; permitting/community-opposition overhang; -45% YTD",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SMR",
+    "signal_type": "undervalued",
+    "description": "NuScale at $4B mkt cap vs Oklo $40B - grid-approach hedge if AI-direct model faces regulatory friction; -37% YTD reset creates valuation setup",
+    "severity": "low"
   }
 ]

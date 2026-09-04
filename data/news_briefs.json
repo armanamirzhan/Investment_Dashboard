@@ -6513,5 +6513,91 @@
       }
     ],
     "file": "morning-news/2026-09-03.html"
+  },
+  {
+    "date": "2026-09-04",
+    "tickers": [
+      {
+        "ticker": "SPX",
+        "direction": "down",
+        "note": "August NFP +162K vs 53K consensus; Sept hike odds >60%; Dow -300, R2K -1.4%"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Bernstein $575 (from $550), MS raise; sell-side pile-in defending Wed -5% cleanse"
+      },
+      {
+        "ticker": "AGX",
+        "direction": "up",
+        "note": "Lake Street Buy upgrade; $3B AI-linked power-plant backlog; 4.1 GW gas-gen under construction"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung HBM share doubled to 33% Q2; $1B HBM rev in 4 months of HBM4 mass production"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "neutral",
+        "note": "SK Hynix HBM leadership intact but Samsung closing gap; both sold out through 2027"
+      },
+      {
+        "ticker": "N225",
+        "direction": "up",
+        "note": "Nikkei +1.3% to 65,020 on chip lead; KOSPI +1.7%; Hang Seng +1.8%"
+      },
+      {
+        "ticker": "BWXT",
+        "direction": "up",
+        "note": "Jefferies initiates Buy $181 - naval nuclear + HALEU SMR fuel-cycle vertical"
+      },
+      {
+        "ticker": "AMBA",
+        "direction": "down",
+        "note": "Craig-Hallum PT cut to $70 from $95, downgrade to Hold"
+      },
+      {
+        "ticker": "PATH",
+        "direction": "down",
+        "note": "Canaccord Hold; AI-agent competition compressing RPA multiple"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "Long-duration SMR vulnerable to Sept hike odds; -45% YTD"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Blowout NFP +162K vs 53K; Sept hike odds >60%; 2Y +4bp to 4.37%"
+      },
+      {
+        "ticker": "INFO SECTOR",
+        "signal": "Info jobs -23K, BLS cites AI displacement - narrative validated"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "PT raise wave: Bernstein $575, MS raise, Macquarie upgrade"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "Samsung HBM share doubles to 33%; capacity sold out through 2027"
+      },
+      {
+        "ticker": "POWER",
+        "signal": "Argan $3B AI-linked backlog + BWXT SMR fuel-cycle initiation"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "Rate-back-up hits long-duration SMR (OKLO/SMR) hard"
+      },
+      {
+        "ticker": "ASIA",
+        "signal": "Nikkei/KOSPI/HSI all +1.3-1.8% on chip-led rally"
+      }
+    ],
+    "file": "morning-news/2026-09-04.html"
   }
 ]

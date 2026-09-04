@@ -4957,5 +4957,59 @@
     "new_target": 600,
     "old_rating": "Buy",
     "old_target": 505
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AVGO",
+    "firm": "Bernstein SocGen",
+    "new_rating": "Outperform",
+    "new_target": 575,
+    "old_rating": "Outperform",
+    "old_target": 550
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AVGO",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AMBA",
+    "firm": "Craig-Hallum",
+    "new_rating": "Hold",
+    "new_target": 70,
+    "old_rating": "Buy",
+    "old_target": 95
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "PATH",
+    "firm": "Canaccord Genuity",
+    "new_rating": "Hold",
+    "new_target": 17,
+    "old_rating": "Buy",
+    "old_target": 15
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "AGX",
+    "firm": "Lake Street Capital",
+    "new_rating": "Buy",
+    "new_target": 600,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "BWXT",
+    "firm": "Jefferies",
+    "new_rating": "Buy",
+    "new_target": 181,
+    "old_rating": null,
+    "old_target": null
   }
 ]

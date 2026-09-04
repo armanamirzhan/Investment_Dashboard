@@ -5011,5 +5011,41 @@
     "new_target": 181,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SNOW",
+    "firm": "Raymond James",
+    "new_rating": "Outperform",
+    "new_target": 425,
+    "old_rating": "Outperform",
+    "old_target": 275
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SNOW",
+    "firm": "Argus",
+    "new_rating": "Buy",
+    "new_target": 450,
+    "old_rating": "Buy",
+    "old_target": 300
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SNOW",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 500,
+    "old_rating": "Buy",
+    "old_target": 425
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "SNOW",
+    "firm": "Deutsche Bank",
+    "new_rating": "Buy",
+    "new_target": 400,
+    "old_rating": "Buy",
+    "old_target": 350
   }
 ]

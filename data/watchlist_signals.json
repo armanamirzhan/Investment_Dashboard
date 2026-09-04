@@ -4331,5 +4331,12 @@
     "signal_type": "undervalued",
     "description": "NuScale at $4B mkt cap vs Oklo $40B - grid-approach hedge if AI-direct model faces regulatory friction; -37% YTD reset creates valuation setup",
     "severity": "low"
+  },
+  {
+    "date": "2026-09-04",
+    "ticker": "TSLA",
+    "signal_type": "legal_risk",
+    "description": "NHTSA opened an investigation into whether Tesla Cybercab complies with federal motor vehicle safety standards, one day after the Austin robotaxi launch; shares fell ~6.4% intraday Friday on the news.",
+    "severity": "high"
   }
 ]

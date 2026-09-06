@@ -4338,5 +4338,12 @@
     "signal_type": "legal_risk",
     "description": "NHTSA opened an investigation into whether Tesla Cybercab complies with federal motor vehicle safety standards, one day after the Austin robotaxi launch; shares fell ~6.4% intraday Friday on the news.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-06",
+    "ticker": "VST",
+    "signal_type": "insider_buy",
+    "description": "CEO James Burke bought 8,665 shares ($1.17M) via JAMEB LP in three open-market purchases on Aug 24, Aug 31, and Sep 1, 2026, after the stock pulled back roughly 29% from its 52-week high.",
+    "severity": "medium"
   }
 ]

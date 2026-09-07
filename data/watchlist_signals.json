@@ -4345,5 +4345,40 @@
     "signal_type": "insider_buy",
     "description": "CEO James Burke bought 8,665 shares ($1.17M) via JAMEB LP in three open-market purchases on Aug 24, Aug 31, and Sep 1, 2026, after the stock pulled back roughly 29% from its 52-week high.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung KOSPI leadership Monday session on HBM4 supply-drought validation; KOSPI +4.61%; DRAM inventory <10 days per KB Sec; HBM export price +9.5% MoM to $76.13 - track for Tuesday US ADR gap-open",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Micron key US-domiciled beneficiary of Samsung/SK Hynix HBM supply squeeze and 47% QoQ HBM ASP gain; earnings Sept 30 - setup positioning likely front-run into Wednesday CPI",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 print Wednesday Sept 10 pre-open; consensus $19.13B rev / $1.30 EPS; OCI guide 58-64% growth, Bloomberg forecast 92%; $638B RPO conversion cadence the key marginal signal; June print gapped +36% - asymmetric setup",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Anthropic IPO late-September confirms AVGO XPU customer concentration flip; positive positioning tailwind on Bernstein $575, MS raise, Macquarie Outperform $490 stack from last week; setup for post-cleanse re-rate as IPO news bakes",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "OKLO",
+    "signal_type": "undervalued",
+    "description": "SMR duration continues to sell into hawkish Fed hike odds (>60% Sept 15-16); Constellation Walmart PPA broadening corporate-nuclear demand base is positive medium-term read-through but not yet catalyzed for OKLO tape",
+    "severity": "medium"
   }
 ]

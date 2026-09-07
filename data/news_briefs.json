@@ -6599,5 +6599,101 @@
       }
     ],
     "file": "morning-news/2026-09-04.html"
+  },
+  {
+    "date": "2026-09-07",
+    "tickers": [
+      {
+        "ticker": "SPX",
+        "direction": "neutral",
+        "note": "US markets closed - Labor Day; equity/bond markets shut, only CME futures on modified hours"
+      },
+      {
+        "ticker": "KOSPI",
+        "direction": "up",
+        "note": "+4.61% blowout to 6,995 on Samsung/SK Hynix HBM squeeze - largest single-day gain in weeks"
+      },
+      {
+        "ticker": "N225",
+        "direction": "up",
+        "note": "Nikkei +2.12% to 66,400 fresh ATH on chip lead (Advantest/TEL/SoftBank)"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung parabolic on KB Sec HBM-supply drought report; DRAM inventory <10 days; HBM4 devours 3x wafer capacity"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix rallies with Samsung; HBM4 ramp since June selling out 2027 capacity"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "US-domiciled HBM tightness beneficiary; HBM ASP +9.5% MoM to $76.13/unit; earnings Sept 30"
+      },
+      {
+        "ticker": "ANTH-IPO",
+        "direction": "up",
+        "note": "Anthropic S-1 late-September, ~$2T val, $10.9B Q2 rev, first op profit $559M - largest AI IPO test"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Anthropic IPO validates XPU customer flip; sell-side raise wave continues"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "Q1 FY27 earnings Wed Sept 10 pre-open; consensus $19.13B rev; OCI 92% Bloomberg forecast"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "August monthly revenue Wed Sept 10; prior +45% YoY"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Walmart 176 MW Dresden PPA + 920 MW Q3 signed; corporate-PPA demand widens beyond hyperscalers"
+      },
+      {
+        "ticker": "HSI",
+        "direction": "down",
+        "note": "Hang Seng -0.93% on soft China trade data and property drag; ex-China Asia bid"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "US Labor Day close; Wednesday Sept 10 = double catalyst day (CPI + ORCL + TSM rev)"
+      },
+      {
+        "ticker": "MEMORY",
+        "signal": "HBM supply drought validated: DRAM inv <10d, HBM ASP +9.5% MoM, all 3 vendors sold out 2026"
+      },
+      {
+        "ticker": "ASIA",
+        "signal": "KOSPI +4.61% blowout on memory; Nikkei ATH; Hang Seng dislocates lower on China drag"
+      },
+      {
+        "ticker": "IPO",
+        "signal": "Anthropic prospectus late-Sept, ~$2T val - resets AI custom-ASIC + hyperscaler infra thesis"
+      },
+      {
+        "ticker": "NUCLEAR",
+        "signal": "Constellation Walmart PPA - corporate-PPA demand broadens beyond hyperscalers"
+      },
+      {
+        "ticker": "POLICY",
+        "signal": "G42 weighs US-majority structure to preserve chip access; Blue Owl DC REIT expands infra vehicle universe"
+      },
+      {
+        "ticker": "FED",
+        "signal": "September hike odds hold ~60-65%; Sept 15-16 FOMC = duration risk into next Monday"
+      }
+    ],
+    "file": "morning-news/2026-09-07.html"
   }
 ]

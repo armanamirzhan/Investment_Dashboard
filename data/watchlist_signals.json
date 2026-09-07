@@ -4380,5 +4380,12 @@
     "signal_type": "undervalued",
     "description": "SMR duration continues to sell into hawkish Fed hike odds (>60% Sept 15-16); Constellation Walmart PPA broadening corporate-nuclear demand base is positive medium-term read-through but not yet catalyzed for OKLO tape",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix up >7% in Seoul Monday session alongside Samsung KOSPI leadership on confirmed HBM4 supply drought; DB Securities raised target to KRW 2.3M same day, though flagged 2026 supply-expansion ceiling as capping factor beyond the immediate squeeze.",
+    "severity": "high"
   }
 ]

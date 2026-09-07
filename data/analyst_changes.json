@@ -5047,5 +5047,14 @@
     "new_target": 400,
     "old_rating": "Buy",
     "old_target": 350
+  },
+  {
+    "date": "2026-09-07",
+    "ticker": "000660.KS",
+    "firm": "DB Securities",
+    "new_rating": "BUY",
+    "new_target": 2300000.0,
+    "old_rating": "BUY",
+    "old_target": 2000000.0
   }
 ]

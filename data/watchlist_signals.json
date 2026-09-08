@@ -4415,5 +4415,12 @@
     "signal_type": "momentum",
     "description": "Samsung HBM4 wafer allocation squeezing handset DRAM supply; blended ASP tailwind but capex intensity rising into 2028 High-NA transition.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave rose ~2-3% intraday in sympathy with Oracle, after Morgan Stanley raised its Oracle price target to $210 (from $207) on improved GPUaaS margin trajectory, reigniting investor enthusiasm across GPU cloud peers. Oracle itself rallied ~5% on the note despite remaining down ~14% YTD.",
+    "severity": "low"
   }
 ]

@@ -5083,5 +5083,14 @@
     "new_target": null,
     "old_rating": "Overweight",
     "old_target": null
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "ORCL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal Weight",
+    "new_target": 210.0,
+    "old_rating": "Equal Weight",
+    "old_target": 207.0
   }
 ]

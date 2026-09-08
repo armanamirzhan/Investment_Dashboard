@@ -4387,5 +4387,33 @@
     "signal_type": "momentum",
     "description": "SK Hynix up >7% in Seoul Monday session alongside Samsung KOSPI leadership on confirmed HBM4 supply drought; DB Securities raised target to KRW 2.3M same day, though flagged 2026 supply-expansion ceiling as capping factor beyond the immediate squeeze.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "BE",
+    "signal_type": "momentum",
+    "description": "S&P 500 inclusion Sept 21 pop layered on +200% YTD; passive-fund forced buying window opens - watch for reversion risk after index-effect settles.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "TSMC + Samsung High-NA EUV commitments plus 12-inch photomask consortium removes overhang on longer-dated tool visibility; positive for '27-'28 backlog.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 print Wed Sept 10 post-close - options implying ~11% move. Focus: OCI growth vs >92% guide and $638B RPO conversion cadence.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Samsung HBM4 wafer allocation squeezing handset DRAM supply; blended ASP tailwind but capex intensity rising into 2028 High-NA transition.",
+    "severity": "medium"
   }
 ]

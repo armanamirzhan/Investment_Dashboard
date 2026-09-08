@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-09-08</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-09-08</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>ASML lands TSMC and Samsung as High-NA EUV customers; SK Hynix evaluating - $400M-per-tool orders unlock AI-node roadmaps</strong> &mdash; ASML disclosed that TSMC and Samsung have formally committed to its next-generation High-NA EUV lithography systems, joining Intel as the only three customers on the roadmap. Samsung targets 2028 for DRAM production on High-NA, TSMC 2030 for advanced logic used in AI accelerators. Each tool runs roughly $400M. SK Hynix is still evaluating. Barclays flagged the read-across as visibility-positive: 'Demand is clearly strong.' ASML shares up ~3% in Amsterdam trading.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>ASML, TSMC, Samsung and Intel form 12-inch photomask consortium; testing 2031, production 2033 - 40% throughput uplift targeted</strong> &mdash; Separate from the High-NA order news, ASML announced a joint initiative with TSMC, Samsung and Intel to move from the industry-standard 6-inch to 12-inch photomasks. Larger masks would remove stitching constraints on AI-era die sizes and lift fab productivity ~40%. SK Hynix is evaluating participation. Test fabs slated 2031, production 2033. Long-dated but structurally bullish for equipment intensity per wafer.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Bloom Energy surges ~8% ahead of S&P 500 inclusion Sept 21; UBS lifts target to $325 citing passive-fund absorption</strong> &mdash; Bloom Energy joins the S&P 500 before the open on Sept 21, replacing Trade Desk in the quarterly rebalance announced Sept 4. Shares climbed roughly 8% Tuesday on the first US session after Labor Day, extending a YTD run above 200% driven by fuel-cell demand from AI datacenter buildouts. UBS raised its price target to $325 from $300, estimating passive vehicles could ultimately hold 10-15% of shares outstanding. Trade Desk fell ~2% on the swap.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>SK Hynix jumps ~7% as AI accelerators divert DRAM capacity away from smartphones; HBM4 mix continues to lift blended ASPs</strong> &mdash; SK Hynix outperformed the KOSPI Tuesday as sell-side notes flagged tightening handset-DRAM supply from HBM4 wafer allocation. Micron held steady while Apple slipped on the mix-shift read. Follows Monday's KB Securities note showing Samsung and SK Hynix DRAM inventory below 10 days as HBM4 consumes 3x conventional wafer capacity per bit. Constructive for HBM leaders, cautionary for handset OEMs.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Micron reportedly targeting ~100K HBM wafers/month by year-end 2026, roughly doubling capacity for Nvidia Vera Rubin ramp</strong> &mdash; TrendForce and Digitimes report Micron plans to add ~60K wafers/month of HBM capacity to reach 100K/month by end-2026, with 12-high HBM4 slated for ~50% of the mix as it ramps into Nvidia's Vera Rubin platform. Samsung and SK Hynix remain 3-4x larger at 150-200K wafers/month each, but Micron is closing the gap. UBS projects SK Hynix retains ~70% of the Rubin HBM4 socket.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Vertiv commits up to $2.6B to build out grid-to-building electrical interconnection for AI datacenters</strong> &mdash; Vertiv is expanding beyond the datacenter shell into medium- and high-voltage electrical interconnection - substations, switchgear, transformers - to attack the interconnect-queue bottleneck now stretching 5-7 years in US ISO territories. The move slots Vertiv alongside Eaton, ABB and Schneider in the power-side of the AI stack rather than purely thermal/rack-power. Positive for revenue mix but capex-heavy in the near term.</div><span class="alert-tag tag-integration">INTEGRATION</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Oracle Q1 FY27 preview: Street models $19.13B / $1.30 EPS Wednesday post-close; options price ~11% move on OCI backlog conversion</strong> &mdash; Oracle reports fiscal Q1 2027 after the close Wednesday Sept 10. Consensus: $19.13B revenue (+~28% YoY) and $1.30 EPS. Focus items: OCI growth (guided >92% for FY27), conversion cadence on the record $638B RPO, Q2 guide, capex trajectory and any commentary on debt issuance to fund the buildout. Options markets pricing an ~11% post-print move - wide enough that positioning matters.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Snowflake price target raised 50% to $450 by Freedom Broker on AI-workload acceleration read-through</strong> &mdash; Freedom Broker lifted its Snowflake price target to $450 from $300 (+50%) on Sept 7, one of the widest single-firm revisions of the week. Note cites accelerating AI-workload attach and Cortex/Iceberg monetization. Places Freedom near the high end of the Street range. Watchlist item ahead of the next Snowflake print.</div><span class="alert-tag tag-software">SOFTWARE</span></div>
+<div class="alert negative"><div class="alert-text"><strong>US 10Y yield tops 4.8% on Labor Day reopen; CPI/PPI later this week set the tone for AI-infra multiples</strong> &mdash; Treasuries reopened weak after Labor Day, with 10Y yields printing above 4.8% intraday before easing - the highest since October 2023. Traders price ~58% odds of a 25bp hike at next week's FOMC after August payrolls came in at 162K (3x expectations). CPI and PPI on deck this week; core CPI expected to slow to 2.4%. Rate-sensitive long-duration AI-infrastructure names (utilities, hyperscaler capex plays) most exposed if yields keep climbing.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Bloom Energy surges ~8% ahead of S&P 500 inclusion Sept 21; UBS lifts target to $325 citing passive-fund absorption</h3><p>Bloom Energy joins the S&P 500 before the open on Sept 21, replacing Trade Desk in the quarterly rebalance announced Sept 4. Shares climbed roughly 8% Tuesday on the first US session after Labor Day, extending a YTD run above 200% driven by fuel-cell demand from AI datacenter buildouts. UBS raised its price target to $325 from $300, estimating passive vehicles could ultimately hold 10-15% of shares outstanding. Trade Desk fell ~2% on the swap.</p><div class="source"><a href="https://press.spglobal.com/2026-09-04-Bloom-Energy,-Illumina,-and-Everpure-Set-to-Join-S-P-500-Others-to-Join-S-P-100,-S-P-MidCap-400,-and-S-P-SmallCap-600">S&P Global</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>ASML lands TSMC and Samsung as High-NA EUV customers; SK Hynix evaluating - $400M-per-tool orders unlock AI-node roadmaps</h3><p>ASML disclosed that TSMC and Samsung have formally committed to its next-generation High-NA EUV lithography systems, joining Intel as the only three customers on the roadmap. Samsung targets 2028 for DRAM production on High-NA, TSMC 2030 for advanced logic used in AI accelerators. Each tool runs roughly $400M. SK Hynix is still evaluating. Barclays flagged the read-across as visibility-positive: 'Demand is clearly strong.' ASML shares up ~3% in Amsterdam trading.</p><div class="source"><a href="https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html">CNBC</a></div></div>
+<div class="card"><h3>ASML, TSMC, Samsung and Intel form 12-inch photomask consortium; testing 2031, production 2033 - 40% throughput uplift targeted</h3><p>Separate from the High-NA order news, ASML announced a joint initiative with TSMC, Samsung and Intel to move from the industry-standard 6-inch to 12-inch photomasks. Larger masks would remove stitching constraints on AI-era die sizes and lift fab productivity ~40%. SK Hynix is evaluating participation. Test fabs slated 2031, production 2033. Long-dated but structurally bullish for equipment intensity per wafer.</p><div class="source"><a href="https://www.bloomberg.com/news/articles/2026-09-08/asml-tsmc-samsung-intel-back-12-inch-masks-for-ai-chips">Bloomberg</a></div></div>
+<div class="card"><h3>SK Hynix jumps ~7% as AI accelerators divert DRAM capacity away from smartphones; HBM4 mix continues to lift blended ASPs</h3><p>SK Hynix outperformed the KOSPI Tuesday as sell-side notes flagged tightening handset-DRAM supply from HBM4 wafer allocation. Micron held steady while Apple slipped on the mix-shift read. Follows Monday's KB Securities note showing Samsung and SK Hynix DRAM inventory below 10 days as HBM4 consumes 3x conventional wafer capacity per bit. Constructive for HBM leaders, cautionary for handset OEMs.</p><div class="source"><a href="https://247wallst.com/investing/2026/09/08/sk-hynix-jumps-7-as-ai-diverts-memory-from-phones-micron-holds-steady-apple-slips/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>Micron reportedly targeting ~100K HBM wafers/month by year-end 2026, roughly doubling capacity for Nvidia Vera Rubin ramp</h3><p>TrendForce and Digitimes report Micron plans to add ~60K wafers/month of HBM capacity to reach 100K/month by end-2026, with 12-high HBM4 slated for ~50% of the mix as it ramps into Nvidia's Vera Rubin platform. Samsung and SK Hynix remain 3-4x larger at 150-200K wafers/month each, but Micron is closing the gap. UBS projects SK Hynix retains ~70% of the Rubin HBM4 socket.</p><div class="source"><a href="https://www.trendforce.com/news/2026/09/04/news-micron-reportedly-to-add-60k-hbm-wafersm-reaching-100k-by-year-end-to-narrow-gap-with-samsung-sk-hynix/">TrendForce</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Software & AI Models</div><div class="card-grid">
+<div class="card"><h3>Oracle Q1 FY27 preview: Street models $19.13B / $1.30 EPS Wednesday post-close; options price ~11% move on OCI backlog conversion</h3><p>Oracle reports fiscal Q1 2027 after the close Wednesday Sept 10. Consensus: $19.13B revenue (+~28% YoY) and $1.30 EPS. Focus items: OCI growth (guided >92% for FY27), conversion cadence on the record $638B RPO, Q2 guide, capex trajectory and any commentary on debt issuance to fund the buildout. Options markets pricing an ~11% post-print move - wide enough that positioning matters.</p><div class="source"><a href="https://www.investing.com/analysis/oracle-earnings-preview-results-to-test-if-ai-backlog-can-turn-into-cloud-revenue-200681903">Investing.com</a></div></div>
+<div class="card"><h3>Snowflake price target raised 50% to $450 by Freedom Broker on AI-workload acceleration read-through</h3><p>Freedom Broker lifted its Snowflake price target to $450 from $300 (+50%) on Sept 7, one of the widest single-firm revisions of the week. Note cites accelerating AI-workload attach and Cortex/Iceberg monetization. Places Freedom near the high end of the Street range. Watchlist item ahead of the next Snowflake print.</p><div class="source"><a href="https://www.everhint.com/analyst-ratings-september-07-2026-pre-market-last-24-hours-pacific-time/">EverHint</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Integration & Infrastructure</div><div class="card-grid">
+<div class="card"><h3>Vertiv commits up to $2.6B to build out grid-to-building electrical interconnection for AI datacenters</h3><p>Vertiv is expanding beyond the datacenter shell into medium- and high-voltage electrical interconnection - substations, switchgear, transformers - to attack the interconnect-queue bottleneck now stretching 5-7 years in US ISO territories. The move slots Vertiv alongside Eaton, ABB and Schneider in the power-side of the AI stack rather than purely thermal/rack-power. Positive for revenue mix but capex-heavy in the near term.</p><div class="source"><a href="https://www.fool.com/investing/2026/09/03/vertiv-just-made-an-up-to-usd2-6-billion-bet-to-solve-ai-data-centers-biggest-bottleneck/">The Motley Fool</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>US 10Y yield tops 4.8% on Labor Day reopen; CPI/PPI later this week set the tone for AI-infra multiples</h3><p>Treasuries reopened weak after Labor Day, with 10Y yields printing above 4.8% intraday before easing - the highest since October 2023. Traders price ~58% odds of a 25bp hike at next week's FOMC after August payrolls came in at 162K (3x expectations). CPI and PPI on deck this week; core CPI expected to slow to 2.4%. Rate-sensitive long-duration AI-infrastructure names (utilities, hyperscaler capex plays) most exposed if yields keep climbing.</p><div class="source"><a href="https://www.schwab.com/learn/story/stock-market-update-open">Charles Schwab</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">BE</span> UBS: Buy &rarr; <strong>Buy</strong> | PT: $300 &rarr; $325 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">SNOW</span> Freedom Broker: Buy &rarr; <strong>Buy</strong> | PT: $300 &rarr; $450 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">ASML</span> Barclays: Overweight &rarr; <strong>Overweight</strong> | PT: N/A &rarr; N/A </p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">BE</span> <span class="signal-badge signal-neutral">Momentum</span> S&P 500 inclusion Sept 21 pop layered on +200% YTD; passive-fund forced buying window opens - watch for reversion risk after index-effect settles.</p>
+<p><span class="ticker">ASML</span> <span class="signal-badge signal-neutral">Momentum</span> TSMC + Samsung High-NA EUV commitments plus 12-inch photomask consortium removes overhang on longer-dated tool visibility; positive for '27-'28 backlog.</p>
+<p><span class="ticker">ORCL</span> <span class="signal-badge signal-neutral">Earnings Beat</span> Q1 FY27 print Wed Sept 10 post-close - options implying ~11% move. Focus: OCI growth vs >92% guide and $638B RPO conversion cadence.</p>
+<p><span class="ticker">005930.KS</span> <span class="signal-badge signal-neutral">Momentum</span> Samsung HBM4 wafer allocation squeezing handset DRAM supply; blended ASP tailwind but capex intensity rising into 2028 High-NA transition.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">ASML</span></td><td>Up</td><td>TSMC + Samsung commit to High-NA EUV; $400M/tool; +3% Amsterdam session</td></tr>
+<tr><td><span class="ticker up">TSM</span></td><td>Up</td><td>High-NA EUV target 2030 for advanced logic; monthly revenue print Wed Sept 10</td></tr>
+<tr><td><span class="ticker up">005930.KS</span></td><td>Up</td><td>Samsung High-NA DRAM 2028; HBM4 wafer allocation squeezes handset supply</td></tr>
+<tr><td><span class="ticker up">000660.KS</span></td><td>Up</td><td>SK Hynix +7% intraday on phone-DRAM diversion narrative; evaluating photomask consortium</td></tr>
+<tr><td><span class="ticker up">MU</span></td><td>Up</td><td>TrendForce: doubling HBM to ~100K wafers/mo by YE; 12-hi HBM4 ~50% mix for Vera Rubin</td></tr>
+<tr><td><span class="ticker up">BE</span></td><td>Up</td><td>+~8% on S&P 500 inclusion setup (Sept 21); UBS PT to $325 from $300 (+~8%)</td></tr>
+<tr><td><span class="ticker down">TTD</span></td><td>Down</td><td>-~2% on S&P 500 removal (replaced by BE Sept 21)</td></tr>
+<tr><td><span class="ticker up">SNOW</span></td><td>Up</td><td>Freedom Broker PT to $450 from $300 (+50%) on Cortex/Iceberg AI-workload monetization</td></tr>
+<tr><td><span class="ticker up">VRT</span></td><td>Up</td><td>$2.6B commitment to grid-to-building electrical interconnection; enters Eaton/ABB/SU adjacency</td></tr>
+<tr><td><span class="ticker ">ORCL</span></td><td>Neutral</td><td>Q1 FY27 print Wed Sept 10 post-close; options price ~11% move; OCI >92% guide, $638B RPO</td></tr>
+<tr><td><span class="ticker down">AAPL</span></td><td>Down</td><td>Modest slip on smartphone-DRAM diversion read from HBM4 wafer squeeze</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-09-08 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

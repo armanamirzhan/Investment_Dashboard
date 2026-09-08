@@ -5056,5 +5056,32 @@
     "new_target": 2300000.0,
     "old_rating": "BUY",
     "old_target": 2000000.0
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "BE",
+    "firm": "UBS",
+    "new_rating": "Buy",
+    "new_target": 325.0,
+    "old_rating": "Buy",
+    "old_target": 300.0
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "SNOW",
+    "firm": "Freedom Broker",
+    "new_rating": "Buy",
+    "new_target": 450.0,
+    "old_rating": "Buy",
+    "old_target": 300.0
+  },
+  {
+    "date": "2026-09-08",
+    "ticker": "ASML",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": "Overweight",
+    "old_target": null
   }
 ]

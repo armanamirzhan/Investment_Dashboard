@@ -5092,5 +5092,41 @@
     "new_target": 210.0,
     "old_rating": "Equal Weight",
     "old_target": 207.0
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "VST",
+    "firm": "Barclays",
+    "new_rating": "Neutral (sector)",
+    "new_target": null,
+    "old_rating": "Positive (sector)",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "CEG",
+    "firm": "Barclays",
+    "new_rating": "Neutral (sector)",
+    "new_target": null,
+    "old_rating": "Positive (sector)",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "NEE",
+    "firm": "Barclays",
+    "new_rating": "Neutral (sector)",
+    "new_target": null,
+    "old_rating": "Positive (sector)",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "AES",
+    "firm": "Barclays",
+    "new_rating": "Neutral (sector)",
+    "new_target": null,
+    "old_rating": "Positive (sector)",
+    "old_target": null
   }
 ]

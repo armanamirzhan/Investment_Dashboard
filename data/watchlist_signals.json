@@ -4422,5 +4422,40 @@
     "signal_type": "momentum",
     "description": "CoreWeave rose ~2-3% intraday in sympathy with Oracle, after Morgan Stanley raised its Oracle price target to $210 (from $207) on improved GPUaaS margin trajectory, reigniting investor enthusiasm across GPU cloud peers. Oracle itself rallied ~5% on the note despite remaining down ~14% YTD.",
     "severity": "low"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "GOOGL",
+    "signal_type": "momentum",
+    "description": "€13B Finland investment + 22-year Loviisa nuclear PPA - single largest European AI-infra commitment; reinforces GOOGL as vertically integrated across compute, cloud, and dedicated baseload power.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "VST",
+    "signal_type": "overvalued",
+    "description": "Double whammy: Barclays sector downgrade to Neutral + fresh mixed shelf filing (common + preferred). Shelf overhang plus rotating-out sentiment near 200-day; watch for near-term supply.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "OKLO",
+    "signal_type": "short_squeeze",
+    "description": "Tuesday +7% on thin book / put-call 0.29 - short-covering rally, not fundamentals. YTD still -39%. Rate back-up (10Y 4.82%) and FOMC next week keep duration risk elevated.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "SMR",
+    "signal_type": "short_squeeze",
+    "description": "NuScale +13% Tuesday on options gamma / short-covering with no company news. Still only NRC design-certified SMR; TVA discussions ongoing. YTD -24%.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Google-Fortum nuclear-extension playbook is a positive read-through: hyperscalers underwriting reactor life-extensions is now the template CEG's US fleet is best positioned to monetize. Offsets Barclays sector-level Neutral.",
+    "severity": "medium"
   }
 ]

@@ -177,7 +177,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record \u20ac17.7B Q2 orders; FY26 guide raised"
+        "note": "Record €17.7B Q2 orders; FY26 guide raised"
       },
       {
         "ticker": "NVDA",
@@ -337,7 +337,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "Crossed KRW 2M intraday \u2014 near $1T cap"
+        "note": "Crossed KRW 2M intraday — near $1T cap"
       },
       {
         "ticker": "005930.KS",
@@ -676,7 +676,7 @@
       {
         "ticker": "005930.KS",
         "direction": "down",
-        "note": "Day 1 of 18-day strike \u2014 45k+ off"
+        "note": "Day 1 of 18-day strike — 45k+ off"
       },
       {
         "ticker": "000660.KS",
@@ -734,7 +734,7 @@
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Strike averted \u2014 10.5% profit-share deal; +7.6% Seoul"
+        "note": "Strike averted — 10.5% profit-share deal; +7.6% Seoul"
       },
       {
         "ticker": "MU",
@@ -744,7 +744,7 @@
       {
         "ticker": "000660.KS",
         "direction": "down",
-        "note": "Same \u2014 memory tightness tailwind eases"
+        "note": "Same — memory tightness tailwind eases"
       },
       {
         "ticker": "INTC",
@@ -769,7 +769,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Grid orders >\u20ac7B Q2; 2026 outlook raised"
+        "note": "Grid orders >€7B Q2; 2026 outlook raised"
       }
     ],
     "signals": [
@@ -853,7 +853,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "US markets closed \u2014 Memorial Day"
+        "signal": "US markets closed — Memorial Day"
       }
     ],
     "file": "morning-news/2026-05-25.html"
@@ -905,7 +905,7 @@
     "signals": [
       {
         "ticker": "OPENAI",
-        "signal": "Confidential IPO filing \u2014 AI capex validation"
+        "signal": "Confidential IPO filing — AI capex validation"
       },
       {
         "ticker": "MEMORY",
@@ -1214,7 +1214,7 @@
       {
         "ticker": "AVGO",
         "direction": "up",
-        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 \u2014 bar set high by HPE"
+        "note": "Earnings AMC tonight; Citi top pick $500, Wolfe $500, MS $485 — bar set high by HPE"
       },
       {
         "ticker": "CEG",
@@ -1255,7 +1255,7 @@
     "signals": [
       {
         "ticker": "CRWD",
-        "signal": "Earnings tonight + PT flurry \u2014 'sell the news' setup"
+        "signal": "Earnings tonight + PT flurry — 'sell the news' setup"
       },
       {
         "ticker": "AVGO",
@@ -1267,7 +1267,7 @@
       },
       {
         "ticker": "MEMORY",
-        "signal": "HBM4E samples + HBM4 2026 sold out \u2014 shortage extends to 2028"
+        "signal": "HBM4E samples + HBM4 2026 sold out — shortage extends to 2028"
       },
       {
         "ticker": "macro",
@@ -1312,7 +1312,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; \u20ac6B buyback accelerated; 5-for-1 split Jun 22"
+        "note": "Siemens Energy raises FY26 to 14-16% growth, 10-12% margin; €6B buyback accelerated; 5-for-1 split Jun 22"
       },
       {
         "ticker": "macro",
@@ -1323,7 +1323,7 @@
     "signals": [
       {
         "ticker": "AVGO",
-        "signal": "AI guidance bar reset \u2014 buy-side disappointment despite +143% AI"
+        "signal": "AI guidance bar reset — buy-side disappointment despite +143% AI"
       },
       {
         "ticker": "AVGO",
@@ -1377,7 +1377,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "SK Hynix ~60-70% Rubin HBM4 share \u2014 primary HBM4 supplier confirmed"
+        "note": "SK Hynix ~60-70% Rubin HBM4 share — primary HBM4 supplier confirmed"
       },
       {
         "ticker": "ASML",
@@ -1398,7 +1398,7 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "NFP +172K vs 80K \u2014 hot print pushes June cut out"
+        "signal": "NFP +172K vs 80K — hot print pushes June cut out"
       },
       {
         "ticker": "AVGO",
@@ -1414,7 +1414,7 @@
       },
       {
         "ticker": "ASML",
-        "signal": "European semi-cap re-rate \u2014 JPM PT EUR 1,900"
+        "signal": "European semi-cap re-rate — JPM PT EUR 1,900"
       }
     ],
     "file": "morning-news/2026-06-05.html",
@@ -1442,7 +1442,7 @@
       {
         "ticker": "AMZN",
         "direction": "up",
-        "note": "Locks in Corning fiber for AI buildout \u2014 third hyperscaler-scale optical pact for GLW in 2026"
+        "note": "Locks in Corning fiber for AI buildout — third hyperscaler-scale optical pact for GLW in 2026"
       },
       {
         "ticker": "005930.KS",
@@ -1457,7 +1457,7 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "+7.1% premarket \u2014 HBM4 qualification halo + US-domestic positioning vs Korea weakness"
+        "note": "+7.1% premarket — HBM4 qualification halo + US-domestic positioning vs Korea weakness"
       },
       {
         "ticker": "macro",
@@ -1472,15 +1472,15 @@
       },
       {
         "ticker": "GLW",
-        "signal": "Amazon multibillion fiber optic deal \u2014 pick-and-shovel optical re-rate"
+        "signal": "Amazon multibillion fiber optic deal — pick-and-shovel optical re-rate"
       },
       {
         "ticker": "KOREA",
-        "signal": "KOSPI 8.29% circuit breaker \u2014 concentration risk in Samsung/SK Hynix"
+        "signal": "KOSPI 8.29% circuit breaker — concentration risk in Samsung/SK Hynix"
       },
       {
         "ticker": "macro",
-        "signal": "Israel-Iran strikes \u2014 risk-off, oil bid, Hormuz premium back"
+        "signal": "Israel-Iran strikes — risk-off, oil bid, Hormuz premium back"
       },
       {
         "ticker": "CHIP",
@@ -1493,7 +1493,7 @@
       "hardware",
       "policy"
     ],
-    "top_headlines": "NVIDIA inks sweeping South Korea AI package (SK Hynix multi-year, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai). Corning +10% on multibillion Amazon fiber deal. KOSPI -8.29% triggers 9th-ever circuit breaker (Samsung -10%, SK Hynix -7.7%). Israel strikes Iran \u2014 oil bid, global risk-off."
+    "top_headlines": "NVIDIA inks sweeping South Korea AI package (SK Hynix multi-year, SK Telecom GW-scale cloud, Naver/Doosan/LG/Hyundai). Corning +10% on multibillion Amazon fiber deal. KOSPI -8.29% triggers 9th-ever circuit breaker (Samsung -10%, SK Hynix -7.7%). Israel strikes Iran — oil bid, global risk-off."
   },
   {
     "date": "2026-06-09",
@@ -1547,7 +1547,7 @@
     "signals": [
       {
         "ticker": "INTC",
-        "signal": "Google 3M TPU foundry order \u2014 largest 18A external validation"
+        "signal": "Google 3M TPU foundry order — largest 18A external validation"
       },
       {
         "ticker": "KOREA",
@@ -1555,7 +1555,7 @@
       },
       {
         "ticker": "OPENAI",
-        "signal": "Confidential S-1 at $852B \u2014 third frontier-AI IPO filing in two weeks"
+        "signal": "Confidential S-1 at $852B — third frontier-AI IPO filing in two weeks"
       },
       {
         "ticker": "GOOGL",
@@ -1664,12 +1664,12 @@
       {
         "ticker": "ORCL",
         "direction": "down",
-        "note": "-10-11% premarket below $180 on $70B FY27 capex + $20-25B prepayments + $20B capital raise \u2014 despite RPO $638B beat"
+        "note": "-10-11% premarket below $180 on $70B FY27 capex + $20-25B prepayments + $20B capital raise — despite RPO $638B beat"
       },
       {
         "ticker": "NVDA",
         "direction": "up",
-        "note": "+1-2% premarket on Oracle capex disclosure \u2014 anchored TAM signal for Blackwell/Rubin"
+        "note": "+1-2% premarket on Oracle capex disclosure — anchored TAM signal for Blackwell/Rubin"
       },
       {
         "ticker": "AMD",
@@ -1699,7 +1699,7 @@
       {
         "ticker": "GOOGL",
         "direction": "up",
-        "note": "Apple Intelligence + Siri lean on Gemini \u2014 distribution moat deepens"
+        "note": "Apple Intelligence + Siri lean on Gemini — distribution moat deepens"
       },
       {
         "ticker": "000660.KS",
@@ -1714,12 +1714,12 @@
       {
         "ticker": "8035.T",
         "direction": "up",
-        "note": "Tokyo Electron +2.54% \u2014 WFE pricing power confirmed"
+        "note": "Tokyo Electron +2.54% — WFE pricing power confirmed"
       },
       {
         "ticker": "ADBE",
         "direction": "neutral",
-        "note": "Q2 AMC tonight; -30% YTD \u2014 clean test of 'AI eats Photoshop'"
+        "note": "Q2 AMC tonight; -30% YTD — clean test of 'AI eats Photoshop'"
       },
       {
         "ticker": "macro",
@@ -1729,13 +1729,13 @@
       {
         "ticker": "macro",
         "direction": "neutral",
-        "note": "PPI + jobless claims at 8:30 ET \u2014 last macro data before June 17 FOMC blackout"
+        "note": "PPI + jobless claims at 8:30 ET — last macro data before June 17 FOMC blackout"
       }
     ],
     "signals": [
       {
         "ticker": "ORCL",
-        "signal": "$638B RPO beat \u2014 AI-cloud thesis vindicated; $70B+ FY27 capex shocks margins"
+        "signal": "$638B RPO beat — AI-cloud thesis vindicated; $70B+ FY27 capex shocks margins"
       },
       {
         "ticker": "NVDA",
@@ -1747,7 +1747,7 @@
       },
       {
         "ticker": "HBM",
-        "signal": "Hynix equipment vendors push 3-4% price hike \u2014 supercycle leaks upstream"
+        "signal": "Hynix equipment vendors push 3-4% price hike — supercycle leaks upstream"
       },
       {
         "ticker": "ADBE",
@@ -1770,12 +1770,12 @@
       {
         "ticker": "ORCL",
         "direction": "neutral",
-        "note": "Analyst tape split post-print: Stifel $250\u2192$350 Buy, TD Cowen $300, Oppenheimer $275, Goldman $228\u2192$239; Wedbush CUTS $275\u2192$240 on capital raise concern. Stock -13% Thu."
+        "note": "Analyst tape split post-print: Stifel $250→$350 Buy, TD Cowen $300, Oppenheimer $275, Goldman $228→$239; Wedbush CUTS $275→$240 on capital raise concern. Stock -13% Thu."
       },
       {
         "ticker": "ADBE",
         "direction": "down",
-        "note": "Q2 beat but -5.5% AH; CFO Dan Durn exits June 15 to Marvell on top of CEO search; FY26 organic ARR cut $500M. Stifel\u2192Hold, Evercore\u2192In Line, Goldman PT cut to $190."
+        "note": "Q2 beat but -5.5% AH; CFO Dan Durn exits June 15 to Marvell on top of CEO search; FY26 organic ARR cut $500M. Stifel→Hold, Evercore→In Line, Goldman PT cut to $190."
       },
       {
         "ticker": "AMD",
@@ -1790,7 +1790,7 @@
       {
         "ticker": "SPCX",
         "direction": "up",
-        "note": "SpaceX IPO debuts on Nasdaq today: $135 fixed, ~$1.77T valuation, $75-86B raised \u2014 largest IPO ever; perp markets pricing $150-200 open."
+        "note": "SpaceX IPO debuts on Nasdaq today: $135 fixed, ~$1.77T valuation, $75-86B raised — largest IPO ever; perp markets pricing $150-200 open."
       },
       {
         "ticker": "GEV",
@@ -1800,7 +1800,7 @@
       {
         "ticker": "macro",
         "direction": "neutral",
-        "note": "May PPI hot: +1.1% MoM (vs +0.7% est) / +6.5% YoY \u2014 largest since Nov 2022; jobless claims 229K (vs 219K est). Fed seen on hold June 17."
+        "note": "May PPI hot: +1.1% MoM (vs +0.7% est) / +6.5% YoY — largest since Nov 2022; jobless claims 229K (vs 219K est). Fed seen on hold June 17."
       },
       {
         "ticker": "macro",
@@ -1810,17 +1810,17 @@
       {
         "ticker": "macro",
         "direction": "down",
-        "note": "Hang Seng -0.7% to 24,249 \u2014 7th consecutive loss, lowest since July 2025."
+        "note": "Hang Seng -0.7% to 24,249 — 7th consecutive loss, lowest since July 2025."
       }
     ],
     "signals": [
       {
         "ticker": "ORCL",
-        "signal": "$70B FY27 capex shock vs $638B RPO beat \u2014 Street splits between bull (Stifel $350) and bear (Wedbush $240 cut on capital raise)"
+        "signal": "$70B FY27 capex shock vs $638B RPO beat — Street splits between bull (Stifel $350) and bear (Wedbush $240 cut on capital raise)"
       },
       {
         "ticker": "ADBE",
-        "signal": "C-suite vacancies (CFO + CEO) + organic ARR cut overwhelms AI-first ARR triple to >$500M \u2014 thesis-altering risk"
+        "signal": "C-suite vacancies (CFO + CEO) + organic ARR cut overwhelms AI-first ARR triple to >$500M — thesis-altering risk"
       },
       {
         "ticker": "AMD",
@@ -1828,11 +1828,11 @@
       },
       {
         "ticker": "NVDA",
-        "signal": "Sharon AI 40K GB300 deal \u2014 NVDA-underwritten neocloud capacity is the structural TAM-anchor pattern"
+        "signal": "Sharon AI 40K GB300 deal — NVDA-underwritten neocloud capacity is the structural TAM-anchor pattern"
       },
       {
         "ticker": "SPCX",
-        "signal": "Largest IPO in history opens today \u2014 broad risk-on signal; possible capital rotation from existing AI-infra longs"
+        "signal": "Largest IPO in history opens today — broad risk-on signal; possible capital rotation from existing AI-infra longs"
       },
       {
         "ticker": "macro",
@@ -1851,17 +1851,17 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "+15.97% Seoul close to KRW 2.215M record high \u2014 single largest 2026 session; Kospi ATH on Iran relief + HBM bid"
+        "note": "+15.97% Seoul close to KRW 2.215M record high — single largest 2026 session; Kospi ATH on Iran relief + HBM bid"
       },
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "+8.97% Seoul close to KRW 322k \u2014 second-largest 2026 session; Q1 semi op profit $36.1B / sold-out HBM ramp"
+        "note": "+8.97% Seoul close to KRW 322k — second-largest 2026 session; Q1 semi op profit $36.1B / sold-out HBM ramp"
       },
       {
         "ticker": "AVGO",
         "direction": "up",
-        "note": "Daiwa UPGRADES to Buy $225 PT \u2014 first major desk flip post-Q3 guide-down; four-driver thesis (ASIC/networking/VMware/core)"
+        "note": "Daiwa UPGRADES to Buy $225 PT — first major desk flip post-Q3 guide-down; four-driver thesis (ASIC/networking/VMware/core)"
       },
       {
         "ticker": "AMD",
@@ -1881,12 +1881,12 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "Memory complex rip into FQ3 print June 24; Goldman PT $400\u2192$900 last Friday"
+        "note": "Memory complex rip into FQ3 print June 24; Goldman PT $400→$900 last Friday"
       },
       {
         "ticker": "SPCX",
         "direction": "up",
-        "note": "+8.1% to $173.95 early; underwriter overallotment FULLY exercised \u2014 total raise $85.7B (largest IPO ever)"
+        "note": "+8.1% to $173.95 early; underwriter overallotment FULLY exercised — total raise $85.7B (largest IPO ever)"
       },
       {
         "ticker": "CEG",
@@ -1896,17 +1896,17 @@
       {
         "ticker": "META",
         "direction": "neutral",
-        "note": "Reliance India 168 MW DC lease + 1 GW renewables JV (CleanMax / Fourth Partner) \u2014 first major APAC footprint"
+        "note": "Reliance India 168 MW DC lease + 1 GW renewables JV (CleanMax / Fourth Partner) — first major APAC footprint"
       },
       {
         "ticker": "macro",
         "direction": "up",
-        "note": "Iran peace deal FORMALIZED Sun night \u2014 signing Fri Switzerland; WTI -4.77% to $80.83; Nikkei +5.5%, Kospi +5.7%"
+        "note": "Iran peace deal FORMALIZED Sun night — signing Fri Switzerland; WTI -4.77% to $80.83; Nikkei +5.5%, Kospi +5.7%"
       },
       {
         "ticker": "macro",
         "direction": "down",
-        "note": "Empire State June 5.7 vs +13.2 est \u2014 soft headline, internals OK (orders +3.5, shipments +8.6, employment +9.6 holds)"
+        "note": "Empire State June 5.7 vs +13.2 est — soft headline, internals OK (orders +3.5, shipments +8.6, employment +9.6 holds)"
       }
     ],
     "signals": [
@@ -1956,7 +1956,7 @@
       {
         "ticker": "SPCX",
         "direction": "up",
-        "note": "Acquires Anysphere/Cursor for $60B all-stock \u2014 first post-IPO deal, SPCX +8.9% pre-market"
+        "note": "Acquires Anysphere/Cursor for $60B all-stock — first post-IPO deal, SPCX +8.9% pre-market"
       },
       {
         "ticker": "000660.KS",
@@ -1976,7 +1976,7 @@
       {
         "ticker": "macro",
         "direction": "neutral",
-        "note": "FOMC Day 1; Warsh debut; 98.4% hold expected at 3.50-3.75% \u2014 decision + presser Weds 2:00/2:30 PM ET"
+        "note": "FOMC Day 1; Warsh debut; 98.4% hold expected at 3.50-3.75% — decision + presser Weds 2:00/2:30 PM ET"
       },
       {
         "ticker": "macro",
@@ -1986,7 +1986,7 @@
       {
         "ticker": "MU",
         "direction": "neutral",
-        "note": "8 trading days to June 24 FQ3 print \u2014 guide $33.5B vs $34.8B consensus; HBM ASP confirm is the swing"
+        "note": "8 trading days to June 24 FQ3 print — guide $33.5B vs $34.8B consensus; HBM ASP confirm is the swing"
       }
     ],
     "signals": [
@@ -1996,7 +1996,7 @@
       },
       {
         "ticker": "SPCX",
-        "signal": "M&A \u2014 $60B Cursor takeout"
+        "signal": "M&A — $60B Cursor takeout"
       },
       {
         "ticker": "ORCL",
@@ -2027,17 +2027,17 @@
       {
         "ticker": "JBL",
         "direction": "neutral",
-        "note": "Q3 FY26 BMO \u2014 AI-capex channel check"
+        "note": "Q3 FY26 BMO — AI-capex channel check"
       },
       {
         "ticker": "PLTR",
         "direction": "up",
-        "note": "Wolfe \u2192 Peer Perform from Underperform"
+        "note": "Wolfe → Peer Perform from Underperform"
       },
       {
         "ticker": "VRT",
         "direction": "up",
-        "note": "Three PT raises \u2014 cooling cycle"
+        "note": "Three PT raises — cooling cycle"
       },
       {
         "ticker": "CEG",
@@ -2068,7 +2068,7 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "FOMC decision day \u2014 Warsh's debut presser"
+        "signal": "FOMC decision day — Warsh's debut presser"
       },
       {
         "ticker": "SOX",
@@ -2076,7 +2076,7 @@
       },
       {
         "ticker": "VRT",
-        "signal": "momentum (3 PT raises \u2014 cooling cycle)"
+        "signal": "momentum (3 PT raises — cooling cycle)"
       },
       {
         "ticker": "CEG",
@@ -2084,7 +2084,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "Iran ceasefire holds \u2014 Brent sub-$70"
+        "signal": "Iran ceasefire holds — Brent sub-$70"
       }
     ],
     "file": "morning-news/2026-06-17.html"
@@ -2120,7 +2120,7 @@
       {
         "ticker": "VST",
         "direction": "down",
-        "note": "Same cross-current \u2014 fortress bid fades"
+        "note": "Same cross-current — fortress bid fades"
       },
       {
         "ticker": "ORCL",
@@ -2150,11 +2150,11 @@
       },
       {
         "ticker": "INTC",
-        "signal": "Apple foundry deal \u2014 3rd 18A validation in 2 weeks"
+        "signal": "Apple foundry deal — 3rd 18A validation in 2 weeks"
       },
       {
         "ticker": "JBL",
-        "signal": "AI-CM beat-and-raise \u2014 $13.6B AI rev"
+        "signal": "AI-CM beat-and-raise — $13.6B AI rev"
       },
       {
         "ticker": "KOSPI",
@@ -2162,7 +2162,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "US-Iran 14-point MoU signed \u2014 Hormuz reopen, $300B reconstruction"
+        "signal": "US-Iran 14-point MoU signed — Hormuz reopen, $300B reconstruction"
       },
       {
         "ticker": "NUCLEAR",
@@ -2174,7 +2174,7 @@
       },
       {
         "ticker": "MU",
-        "signal": "FQ3 print June 24 \u2014 HBM ASP swing"
+        "signal": "FQ3 print June 24 — HBM ASP swing"
       }
     ],
     "file": "morning-news/2026-06-18.html"
@@ -2205,7 +2205,7 @@
       {
         "ticker": "CRWV",
         "direction": "up",
-        "note": "NDX inclusion Monday \u2014 $800B passive bid"
+        "note": "NDX inclusion Monday — $800B passive bid"
       },
       {
         "ticker": "TSM",
@@ -2226,19 +2226,19 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "US markets CLOSED for Juneteenth \u2014 equity / bond reopen Mon June 22"
+        "signal": "US markets CLOSED for Juneteenth — equity / bond reopen Mon June 22"
       },
       {
         "ticker": "KOSPI",
-        "signal": "ATH 9,385.59 intraday, reversed to 9,052.42 (-0.13%) \u2014 breadth crack"
+        "signal": "ATH 9,385.59 intraday, reversed to 9,052.42 (-0.13%) — breadth crack"
       },
       {
         "ticker": "000660.KS",
-        "signal": "momentum (W2,000tr cap milestone \u2014 2nd Korean co ever)"
+        "signal": "momentum (W2,000tr cap milestone — 2nd Korean co ever)"
       },
       {
         "ticker": "ACN",
-        "signal": "earnings_miss \u2014 -16.8% on weak AI-bookings; global IT services rout"
+        "signal": "earnings_miss — -16.8% on weak AI-bookings; global IT services rout"
       },
       {
         "ticker": "MU",
@@ -2250,7 +2250,7 @@
       },
       {
         "ticker": "macro",
-        "signal": "Strait of Hormuz physically reopens today \u2014 Brent sub-$68 holds"
+        "signal": "Strait of Hormuz physically reopens today — Brent sub-$68 holds"
       },
       {
         "ticker": "TSM",
@@ -2258,7 +2258,7 @@
       },
       {
         "ticker": "NIKKEI",
-        "signal": "71,053 ATH (+1.65%) Thursday on Iran MoU \u2014 sustained AI-chip breadth"
+        "signal": "71,053 ATH (+1.65%) Thursday on Iran MoU — sustained AI-chip breadth"
       }
     ],
     "file": "morning-news/2026-06-19.html"
@@ -2269,7 +2269,7 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "+5.6% \u2014 overtakes Samsung as Korea's #1 listed company ($1.35T cap)"
+        "note": "+5.6% — overtakes Samsung as Korea's #1 listed company ($1.35T cap)"
       },
       {
         "ticker": "MU",
@@ -2284,7 +2284,7 @@
       {
         "ticker": "CRWV",
         "direction": "up",
-        "note": "Nasdaq-100 inclusion EFFECTIVE today \u2014 mechanical bid"
+        "note": "Nasdaq-100 inclusion EFFECTIVE today — mechanical bid"
       },
       {
         "ticker": "NBIS",
@@ -2310,27 +2310,27 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "US-Iran 60-day ROADMAP signed in Geneva \u2014 Hormuz toll-free, Iranian oil waiver issued"
+        "signal": "US-Iran 60-day ROADMAP signed in Geneva — Hormuz toll-free, Iranian oil waiver issued"
       },
       {
         "ticker": "macro",
-        "signal": "Brent ~$80, WTI ~$75 \u2014 energy-disinflation impulse intact into Thursday PCE"
+        "signal": "Brent ~$80, WTI ~$75 — energy-disinflation impulse intact into Thursday PCE"
       },
       {
         "ticker": "NDX",
-        "signal": "Quarterly rebalance EFFECTIVE \u2014 CRWV/NBIS/ALAB/RKLB/TER in; ZS/CTSH/CHTR/INSM/VRSK out"
+        "signal": "Quarterly rebalance EFFECTIVE — CRWV/NBIS/ALAB/RKLB/TER in; ZS/CTSH/CHTR/INSM/VRSK out"
       },
       {
         "ticker": "MU",
-        "signal": "earnings preview \u2014 7 PT raises into Wed print, $1,200-$1,625 range; gross margin ~81% is the test"
+        "signal": "earnings preview — 7 PT raises into Wed print, $1,200-$1,625 range; gross margin ~81% is the test"
       },
       {
         "ticker": "ACN",
-        "signal": "structural downgrade \u2014 AI compressing IT-services bookings curve (William Blair conviction-list cut)"
+        "signal": "structural downgrade — AI compressing IT-services bookings curve (William Blair conviction-list cut)"
       },
       {
         "ticker": "macro",
-        "signal": "AbbVie/Apogee $10.9B deal (+49% premium) \u2014 M&A pulse active"
+        "signal": "AbbVie/Apogee $10.9B deal (+49% premium) — M&A pulse active"
       }
     ],
     "file": "morning-news/2026-06-22.html"
@@ -2394,7 +2394,7 @@
       },
       {
         "ticker": "IBM",
-        "signal": "JPM Overweight upgrade \u2014 software AI-infra beneficiary"
+        "signal": "JPM Overweight upgrade — software AI-infra beneficiary"
       },
       {
         "ticker": "TSM",
@@ -2402,7 +2402,7 @@
       },
       {
         "ticker": "MU",
-        "signal": "Q3 FY26 print Wed AC \u2014 gross-margin acid test"
+        "signal": "Q3 FY26 print Wed AC — gross-margin acid test"
       }
     ],
     "file": "morning-news/2026-06-23.html"
@@ -2413,7 +2413,7 @@
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Samsung +6.3% Seoul; KRW 90T (~$58.6B) buyback per Yonhap \u2014 largest in Korean history"
+        "note": "Samsung +6.3% Seoul; KRW 90T (~$58.6B) buyback per Yonhap — largest in Korean history"
       },
       {
         "ticker": "000660.KS",
@@ -2423,7 +2423,7 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "+4.1% pre-mkt; Q3 FY26 print TONIGHT AC \u2014 81% GM and HBM4 Vera Rubin commentary are the binary tests"
+        "note": "+4.1% pre-mkt; Q3 FY26 print TONIGHT AC — 81% GM and HBM4 Vera Rubin commentary are the binary tests"
       },
       {
         "ticker": "FDX",
@@ -2443,7 +2443,7 @@
       {
         "ticker": "KOSPI",
         "direction": "up",
-        "note": "+3.26% close at 8,471.02 \u2014 recovers ~1/3 of Tuesday's -9.99% rout; intraday +4.14% faded"
+        "note": "+3.26% close at 8,471.02 — recovers ~1/3 of Tuesday's -9.99% rout; intraday +4.14% faded"
       },
       {
         "ticker": "macro",
@@ -2454,11 +2454,11 @@
     "signals": [
       {
         "ticker": "005930.KS",
-        "signal": "Largest Korean buyback in history (KRW 90T) \u2014 defensive response to SK Hynix capital edge"
+        "signal": "Largest Korean buyback in history (KRW 90T) — defensive response to SK Hynix capital edge"
       },
       {
         "ticker": "000660.KS",
-        "signal": "$29.4B Nasdaq ADR listing \u2014 permanent U.S.-flow re-rate setup"
+        "signal": "$29.4B Nasdaq ADR listing — permanent U.S.-flow re-rate setup"
       },
       {
         "ticker": "KOSPI",
@@ -2466,7 +2466,7 @@
       },
       {
         "ticker": "MU",
-        "signal": "earnings_beat watch \u2014 81% GM cliff and HBM4 capacity commentary tonight AC"
+        "signal": "earnings_beat watch — 81% GM cliff and HBM4 capacity commentary tonight AC"
       },
       {
         "ticker": "FDX",
@@ -2474,15 +2474,15 @@
       },
       {
         "ticker": "ORCL",
-        "signal": "Jefferies: 'industry is sold out for any capacity within 6 months' \u2014 positive read for VRT/ETN/GEV"
+        "signal": "Jefferies: 'industry is sold out for any capacity within 6 months' — positive read for VRT/ETN/GEV"
       },
       {
         "ticker": "macro",
-        "signal": "CME July-cut probability 18.8% (down from 22.7%) \u2014 modestly hawkish Powell setup"
+        "signal": "CME July-cut probability 18.8% (down from 22.7%) — modestly hawkish Powell setup"
       },
       {
         "ticker": "PAYX",
-        "signal": "SaaS AI-operating-leverage proof point \u2014 750bp op-margin expansion in one year"
+        "signal": "SaaS AI-operating-leverage proof point — 750bp op-margin expansion in one year"
       }
     ],
     "file": "morning-news/2026-06-24.html"
@@ -2493,7 +2493,7 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "Q3 BLOWOUT \u2014 rev $41.5B, GM 84.9%, $100B SCAs, +14.6% AH"
+        "note": "Q3 BLOWOUT — rev $41.5B, GM 84.9%, $100B SCAs, +14.6% AH"
       },
       {
         "ticker": "000660.KS",
@@ -2586,7 +2586,7 @@
       {
         "ticker": "ON",
         "direction": "down",
-        "note": "-15% pre on $7B all-stock Synaptics deal \u2014 dilution shock"
+        "note": "-15% pre on $7B all-stock Synaptics deal — dilution shock"
       },
       {
         "ticker": "PLTR",
@@ -2602,19 +2602,19 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "PCE +4.1% / core +3.4% \u2014 hottest since 2023; July cut probability collapses <10%"
+        "signal": "PCE +4.1% / core +3.4% — hottest since 2023; July cut probability collapses <10%"
       },
       {
         "ticker": "OPENAI",
-        "signal": "IPO POTENTIALLY DELAYED TO 2027 (NYT) \u2014 neocloud financing-overhang"
+        "signal": "IPO POTENTIALLY DELAYED TO 2027 (NYT) — neocloud financing-overhang"
       },
       {
         "ticker": "KOSPI",
-        "signal": "Second circuit breaker in 4 sessions \u2014 Korea memory volatility cycle"
+        "signal": "Second circuit breaker in 4 sessions — Korea memory volatility cycle"
       },
       {
         "ticker": "MU",
-        "signal": "PT scramble Day 2 \u2014 consensus avg rolls to ~$1,540, top-end $2,200"
+        "signal": "PT scramble Day 2 — consensus avg rolls to ~$1,540, top-end $2,200"
       },
       {
         "ticker": "ON/SYNA",
@@ -2622,7 +2622,7 @@
       },
       {
         "ticker": "PLTR",
-        "signal": "Fresh 52-wk low \u2014 duration squeeze on AI-software multiple complex"
+        "signal": "Fresh 52-wk low — duration squeeze on AI-software multiple complex"
       },
       {
         "ticker": "macro",
@@ -2637,7 +2637,7 @@
       {
         "ticker": "000660.KS",
         "direction": "down",
-        "note": "SK Hynix -3.4% to KRW 2,583,000 \u2014 sell-the-news despite W800T fab plan + ADR July 10"
+        "note": "SK Hynix -3.4% to KRW 2,583,000 — sell-the-news despite W800T fab plan + ADR July 10"
       },
       {
         "ticker": "005930.KS",
@@ -2710,7 +2710,7 @@
       {
         "ticker": "PLTR",
         "direction": "up",
-        "note": "NVDA strategic partnership for sovereign Nemotron AI in U.S. government / classified environments \u2014 sovereign moat re-rating"
+        "note": "NVDA strategic partnership for sovereign Nemotron AI in U.S. government / classified environments — sovereign moat re-rating"
       },
       {
         "ticker": "NVDA",
@@ -2720,7 +2720,7 @@
       {
         "ticker": "GLW",
         "direction": "up",
-        "note": "+15.67% Mon to record $255.69 (+192% YTD) on Glass Bridge CPO + FTSE Russell index inclusion \u2014 capital rotating from AI chips to infra materials"
+        "note": "+15.67% Mon to record $255.69 (+192% YTD) on Glass Bridge CPO + FTSE Russell index inclusion — capital rotating from AI chips to infra materials"
       },
       {
         "ticker": "META",
@@ -2751,23 +2751,23 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Quarter-end pension rebalancing \u2014 JPM models $165B equity sell / $165B bond buy; ~$15-20B US execution today"
+        "signal": "Quarter-end pension rebalancing — JPM models $165B equity sell / $165B bond buy; ~$15-20B US execution today"
       },
       {
         "ticker": "PLTR",
-        "signal": "momentum \u2014 sovereign AI partnership + Burry half-cover + ARK buying = short-squeeze fuel"
+        "signal": "momentum — sovereign AI partnership + Burry half-cover + ARK buying = short-squeeze fuel"
       },
       {
         "ticker": "GLW",
-        "signal": "momentum \u2014 +192% YTD; MS/Citi caution CPO commercial impact unlikely within 1-2 years"
+        "signal": "momentum — +192% YTD; MS/Citi caution CPO commercial impact unlikely within 1-2 years"
       },
       {
         "ticker": "ORCL",
-        "signal": "overvalued (HIGH) \u2014 $40B FY27 raise overhang unchanged by technical bounce"
+        "signal": "overvalued (HIGH) — $40B FY27 raise overhang unchanged by technical bounce"
       },
       {
         "ticker": "AMAT",
-        "signal": "momentum \u2014 Korean fab cycle structural; watch for QE rebalance profit-taking"
+        "signal": "momentum — Korean fab cycle structural; watch for QE rebalance profit-taking"
       },
       {
         "ticker": "macro",
@@ -2782,7 +2782,7 @@
       {
         "ticker": "CEG",
         "direction": "up",
-        "note": "Senate BBB preserves nuclear 45U PTC + FEOC tightening \u2014 20-year hyperscaler PPA economics locked in"
+        "note": "Senate BBB preserves nuclear 45U PTC + FEOC tightening — 20-year hyperscaler PPA economics locked in"
       },
       {
         "ticker": "VST",
@@ -2807,17 +2807,17 @@
       {
         "ticker": "TSM",
         "direction": "neutral",
-        "note": "ITC preliminary determination on 7nm Longitude/Marlin patent complaint expected this week \u2014 5-10% tape re-rate risk on adverse ALJ headline"
+        "note": "ITC preliminary determination on 7nm Longitude/Marlin patent complaint expected this week — 5-10% tape re-rate risk on adverse ALJ headline"
       },
       {
         "ticker": "AMD",
         "direction": "up",
-        "note": "Wells Fargo PT $505\u2192$615 Overweight; BofA raises server CPU TAM view"
+        "note": "Wells Fargo PT $505→$615 Overweight; BofA raises server CPU TAM view"
       },
       {
         "ticker": "TSLA",
         "direction": "neutral",
-        "note": "Q2 deliveries Thursday July 2 \u2014 consensus 406K; Barclays 418K / JPM 420K (cut from 430.5K) / RBC 405K"
+        "note": "Q2 deliveries Thursday July 2 — consensus 406K; Barclays 418K / JPM 420K (cut from 430.5K) / RBC 405K"
       },
       {
         "ticker": "GEV",
@@ -2828,7 +2828,7 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Senate 'Big Beautiful Bill' passes 50-50 with Vance tiebreaker \u2014 nuclear/SMR preserved; residential solar ends Dec 31 2025; utility wind/solar placed-in-service by 2027"
+        "signal": "Senate 'Big Beautiful Bill' passes 50-50 with Vance tiebreaker — nuclear/SMR preserved; residential solar ends Dec 31 2025; utility wind/solar placed-in-service by 2027"
       },
       {
         "ticker": "macro",
@@ -2836,27 +2836,27 @@
       },
       {
         "ticker": "NEE",
-        "signal": "legal_risk (HIGH) \u2014 utility-scale wind/solar 48E/45Y credit cliff"
+        "signal": "legal_risk (HIGH) — utility-scale wind/solar 48E/45Y credit cliff"
       },
       {
         "ticker": "CEG",
-        "signal": "momentum (HIGH) \u2014 nuclear PTC preservation + FEOC sourcing tighten"
+        "signal": "momentum (HIGH) — nuclear PTC preservation + FEOC sourcing tighten"
       },
       {
         "ticker": "CRWV",
-        "signal": "overvalued (HIGH) \u2014 neocloud unit-economics reset spreads to Nebius/IREN complex"
+        "signal": "overvalued (HIGH) — neocloud unit-economics reset spreads to Nebius/IREN complex"
       },
       {
         "ticker": "TSM",
-        "signal": "legal_risk \u2014 ITC ALJ preliminary determination on Longitude/Marlin 7nm patent complaint expected this week"
+        "signal": "legal_risk — ITC ALJ preliminary determination on Longitude/Marlin 7nm patent complaint expected this week"
       },
       {
         "ticker": "000660.KS",
-        "signal": "momentum \u2014 SK Hynix Nasdaq ADR $166 pricing / July 10 debut"
+        "signal": "momentum — SK Hynix Nasdaq ADR $166 pricing / July 10 debut"
       },
       {
         "ticker": "macro",
-        "signal": "Q2 2026 closes as best quarter since 2020 \u2014 S&P +0.79%, Nasdaq +1.52%, Dow +136pts to record 52,319 Tuesday"
+        "signal": "Q2 2026 closes as best quarter since 2020 — S&P +0.79%, Nasdaq +1.52%, Dow +136pts to record 52,319 Tuesday"
       }
     ],
     "file": "morning-news/2026-07-01.html"
@@ -2882,17 +2882,17 @@
       {
         "ticker": "TSLA",
         "direction": "up",
-        "note": "Q2 deliveries 480,126 (+25% YoY) vs 406K consensus \u2014 ~18% beat; 13.5 GWh storage; Q2 financial print July 22"
+        "note": "Q2 deliveries 480,126 (+25% YoY) vs 406K consensus — ~18% beat; 13.5 GWh storage; Q2 financial print July 22"
       },
       {
         "ticker": "CRM",
         "direction": "up",
-        "note": "Guggenheim/DiFucci Neutral\u2192Buy PT $228 (~40% upside); 'AI-cannibalization discount excessive'"
+        "note": "Guggenheim/DiFucci Neutral→Buy PT $228 (~40% upside); 'AI-cannibalization discount excessive'"
       },
       {
         "ticker": "NOW",
         "direction": "up",
-        "note": "Guggenheim/DiFucci Neutral\u2192Buy PT $125; +5% on 'Armageddon called off' SaaS re-rate call"
+        "note": "Guggenheim/DiFucci Neutral→Buy PT $125; +5% on 'Armageddon called off' SaaS re-rate call"
       },
       {
         "ticker": "MU",
@@ -2917,7 +2917,7 @@
       {
         "ticker": "OKLO",
         "direction": "neutral",
-        "note": "Binary event Friday July 4 \u2014 Groves Isotope Test Reactor first-criticality target aligned to DOE 250th-anniversary push"
+        "note": "Binary event Friday July 4 — Groves Isotope Test Reactor first-criticality target aligned to DOE 250th-anniversary push"
       },
       {
         "ticker": "NBIS",
@@ -2928,19 +2928,19 @@
     "signals": [
       {
         "ticker": "CRWV",
-        "signal": "concentration_risk high \u2014 Meta Compute puts $35B contract stack in doubt post-2032"
+        "signal": "concentration_risk high — Meta Compute puts $35B contract stack in doubt post-2032"
       },
       {
         "ticker": "META",
-        "signal": "momentum high \u2014 $145B capex line reframed as monetizable asset base"
+        "signal": "momentum high — $145B capex line reframed as monetizable asset base"
       },
       {
         "ticker": "MU",
-        "signal": "overvalued medium \u2014 BofA Bubble Risk 0.91 PHLX Semis tipping point"
+        "signal": "overvalued medium — BofA Bubble Risk 0.91 PHLX Semis tipping point"
       },
       {
         "ticker": "OKLO",
-        "signal": "momentum medium \u2014 Friday July 4 Groves criticality binary catalyst"
+        "signal": "momentum medium — Friday July 4 Groves criticality binary catalyst"
       }
     ],
     "file": "morning-news/2026-07-02.html",
@@ -2959,7 +2959,7 @@
       {
         "ticker": "OKLO",
         "direction": "up",
-        "note": "DOE Documented Safety Analysis approved July 1; first-criticality target July 4 \u2192 binary weekend event"
+        "note": "DOE Documented Safety Analysis approved July 1; first-criticality target July 4 → binary weekend event"
       },
       {
         "ticker": "CRWV",
@@ -2969,7 +2969,7 @@
       {
         "ticker": "NVDA",
         "direction": "neutral",
-        "note": "Twin policy overhangs \u2014 OpenAI 5% US-gov stake proposal named NVDA as potential participant; Section 232 report post-holiday"
+        "note": "Twin policy overhangs — OpenAI 5% US-gov stake proposal named NVDA as potential participant; Section 232 report post-holiday"
       },
       {
         "ticker": "MU",
@@ -2984,7 +2984,7 @@
       {
         "ticker": "TSM",
         "direction": "neutral",
-        "note": "June monthly revenue on deck around July 10 \u2014 first supply-side signal into Q3; Korea equipment race threatens sub-2nm timing"
+        "note": "June monthly revenue on deck around July 10 — first supply-side signal into Q3; Korea equipment race threatens sub-2nm timing"
       }
     ],
     "signals": [
@@ -3021,7 +3021,7 @@
       "integration",
       "finance"
     ],
-    "top_headlines": "US markets CLOSED July 3 for observed Independence Day. Overnight: (1) OpenAI proposes 5% US-government equity stake in a sovereign-wealth vehicle spanning leading US AI labs \u2014 potentially incl. NVDA/MU/AMD. (2) DOE approves Oklo Groves DSA July 1, pre-startup review begins with July 4 criticality target still live. (3) Neocloud selloff extends into day-2 as Meta Compute narrative sticks. (4) Korea commits $518B to 4 new memory fabs + HBM packaging hub. (5) Section 232 semi report due Trump July 1 \u2014 post-holiday decision window opens."
+    "top_headlines": "US markets CLOSED July 3 for observed Independence Day. Overnight: (1) OpenAI proposes 5% US-government equity stake in a sovereign-wealth vehicle spanning leading US AI labs — potentially incl. NVDA/MU/AMD. (2) DOE approves Oklo Groves DSA July 1, pre-startup review begins with July 4 criticality target still live. (3) Neocloud selloff extends into day-2 as Meta Compute narrative sticks. (4) Korea commits $518B to 4 new memory fabs + HBM packaging hub. (5) Section 232 semi report due Trump July 1 — post-holiday decision window opens."
   },
   {
     "date": "2026-07-06",
@@ -3069,7 +3069,7 @@
       {
         "ticker": "TSM",
         "direction": "up",
-        "note": "June revenue release Fri Jul 10 \u2014 first supply-side sustain check after May's +30% YoY record"
+        "note": "June revenue release Fri Jul 10 — first supply-side sustain check after May's +30% YoY record"
       },
       {
         "ticker": "BE",
@@ -3080,11 +3080,11 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Chip cohort snapback \u2014 Nasdaq futures +1.05%, SMH +2.7% at open"
+        "signal": "Chip cohort snapback — Nasdaq futures +1.05%, SMH +2.7% at open"
       },
       {
         "ticker": "SBK",
-        "signal": "SoftBank SB Neo 10-GW neocloud entry \u2014 negative for CRWV/NBIS, positive for NVDA/VRT/ETN/GEV"
+        "signal": "SoftBank SB Neo 10-GW neocloud entry — negative for CRWV/NBIS, positive for NVDA/VRT/ETN/GEV"
       },
       {
         "ticker": "005930.KS",
@@ -3092,7 +3092,7 @@
       },
       {
         "ticker": "SPCX",
-        "signal": "SpaceX Nasdaq-100 add pre-open Tue Jul 7 \u2014 up to $27B forced buy on 3-5% float"
+        "signal": "SpaceX Nasdaq-100 add pre-open Tue Jul 7 — up to $27B forced buy on 3-5% float"
       },
       {
         "ticker": "policy",
@@ -3100,7 +3100,7 @@
       },
       {
         "ticker": "OKLO",
-        "signal": "Groves criticality watch \u2014 DOE readiness review next binary"
+        "signal": "Groves criticality watch — DOE readiness review next binary"
       }
     ],
     "file": "morning-news/2026-07-06.html"
@@ -3121,17 +3121,17 @@
       {
         "ticker": "ASML",
         "direction": "up",
-        "note": "Bernstein PT $2,623 (from $1,971) Outperform; \u20ac80B 2030 rev vs \u20ac64B consensus"
+        "note": "Bernstein PT $2,623 (from $1,971) Outperform; €80B 2030 rev vs €64B consensus"
       },
       {
         "ticker": "LRCX",
         "direction": "up",
-        "note": "Morgan Stanley PT $404 (from $331) Overweight \u2014 semi-cap-eq re-rate cascade continues"
+        "note": "Morgan Stanley PT $404 (from $331) Overweight — semi-cap-eq re-rate cascade continues"
       },
       {
         "ticker": "SPCX",
         "direction": "up",
-        "note": "Nasdaq-100 add pre-open Tue Jul 7 \u2014 $4.3B QQQ forced buy on 3-5% float"
+        "note": "Nasdaq-100 add pre-open Tue Jul 7 — $4.3B QQQ forced buy on 3-5% float"
       },
       {
         "ticker": "000660.KS",
@@ -3141,7 +3141,7 @@
       {
         "ticker": "MU",
         "direction": "neutral",
-        "note": "Samsung Q2 template = 'record beat, stock sells' \u2014 key tell into fiscal-Q4 print"
+        "note": "Samsung Q2 template = 'record beat, stock sells' — key tell into fiscal-Q4 print"
       },
       {
         "ticker": "VRT",
@@ -3162,11 +3162,11 @@
     "signals": [
       {
         "ticker": "005930.KS",
-        "signal": "Samsung Q2 prelim KRW 89.4T OP beat but stock -7% \u2014 'peak-memory' worry template"
+        "signal": "Samsung Q2 prelim KRW 89.4T OP beat but stock -7% — 'peak-memory' worry template"
       },
       {
         "ticker": "sell-side",
-        "signal": "AMD $640, ASML $2,623, LRCX $404 all reset same day \u2014 semi-cap-eq capitulation continues"
+        "signal": "AMD $640, ASML $2,623, LRCX $404 all reset same day — semi-cap-eq capitulation continues"
       },
       {
         "ticker": "SPCX",
@@ -3174,15 +3174,15 @@
       },
       {
         "ticker": "000660.KS",
-        "signal": "SK Hynix Nasdaq ADR (SKHY) prices Thursday, debuts Friday July 10 \u2014 HBM-first re-rate"
+        "signal": "SK Hynix Nasdaq ADR (SKHY) prices Thursday, debuts Friday July 10 — HBM-first re-rate"
       },
       {
         "ticker": "policy",
-        "signal": "Section 232 semi report six days past July 1 deadline \u2014 binary overhang persists"
+        "signal": "Section 232 semi report six days past July 1 deadline — binary overhang persists"
       },
       {
         "ticker": "grid",
-        "signal": "Siemens Grid Tech + Schneider SoCal Edison SF6 rollout \u2014 AI DC power buildout intact"
+        "signal": "Siemens Grid Tech + Schneider SoCal Edison SF6 rollout — AI DC power buildout intact"
       }
     ],
     "file": "morning-news/2026-07-07.html"
@@ -3203,12 +3203,12 @@
       {
         "ticker": "INTC",
         "direction": "down",
-        "note": "-9.7% Tuesday to $110 \u2014 deepest cohort down day of Q3; Mizuho SPCX foundry framing adds new IFS competitor"
+        "note": "-9.7% Tuesday to $110 — deepest cohort down day of Q3; Mizuho SPCX foundry framing adds new IFS competitor"
       },
       {
         "ticker": "AMAT",
         "direction": "down",
-        "note": "-10% Tuesday to $532 \u2014 memory/AI-cap-ex exposure amplifies Samsung 'record beat but sell' template"
+        "note": "-10% Tuesday to $532 — memory/AI-cap-ex exposure amplifies Samsung 'record beat but sell' template"
       },
       {
         "ticker": "CRWV",
@@ -3218,7 +3218,7 @@
       {
         "ticker": "GOOGL",
         "direction": "up",
-        "note": "Joins RWE + XTX Ventures leading \u20ac411M Proxima Fusion round at \u20ac2.4B; 3rd named fusion/SMR bet after Kairos + TAE"
+        "note": "Joins RWE + XTX Ventures leading €411M Proxima Fusion round at €2.4B; 3rd named fusion/SMR bet after Kairos + TAE"
       },
       {
         "ticker": "AMZN",
@@ -3244,31 +3244,31 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Iran ceasefire 'over' \u2014 Brent +6.3%, WTI +6.4%; Dow futures -488 pts, Nasdaq -0.77%"
+        "signal": "Iran ceasefire 'over' — Brent +6.3%, WTI +6.4%; Dow futures -488 pts, Nasdaq -0.77%"
       },
       {
         "ticker": "semis",
-        "signal": "Tuesday chip-cohort selloff (INTC -9.7%, AMAT -10%, AMD -6.5%) \u2014 deepest single day of Q3"
+        "signal": "Tuesday chip-cohort selloff (INTC -9.7%, AMAT -10%, AMD -6.5%) — deepest single day of Q3"
       },
       {
         "ticker": "NVDA",
-        "signal": "BofA reiterates Buy \u2014 'enhanced Buy opp'ty at 7-yr low 18x forward PE'"
+        "signal": "BofA reiterates Buy — 'enhanced Buy opp'ty at 7-yr low 18x forward PE'"
       },
       {
         "ticker": "CRWV",
-        "signal": "Galaxy Helios Phase I on schedule \u2014 first counter-datapoint to construction-delay class action"
+        "signal": "Galaxy Helios Phase I on schedule — first counter-datapoint to construction-delay class action"
       },
       {
         "ticker": "GOOGL",
-        "signal": "Alphabet + RWE lead Proxima Fusion \u20ac411M \u2014 largest EU fusion round on record"
+        "signal": "Alphabet + RWE lead Proxima Fusion €411M — largest EU fusion round on record"
       },
       {
         "ticker": "SPCX",
-        "signal": "Mizuho reiterates Outperform on $55B Texas foundry plan \u2014 sovereignty + margin-stack"
+        "signal": "Mizuho reiterates Outperform on $55B Texas foundry plan — sovereignty + margin-stack"
       },
       {
         "ticker": "policy",
-        "signal": "Section 232 semi-DC report 7 days past July 1 deadline \u2014 binary overhang intact"
+        "signal": "Section 232 semi-DC report 7 days past July 1 deadline — binary overhang intact"
       }
     ],
     "file": "morning-news/2026-07-08.html"
@@ -3330,7 +3330,7 @@
     "signals": [
       {
         "ticker": "policy",
-        "signal": "China H200 approval for BABA/ByteDance/DeepSeek (~200k cap, training-only) \u2014 first major China-overhang positive since Jan BIS rule"
+        "signal": "China H200 approval for BABA/ByteDance/DeepSeek (~200k cap, training-only) — first major China-overhang positive since Jan BIS rule"
       },
       {
         "ticker": "semis",
@@ -3342,19 +3342,19 @@
       },
       {
         "ticker": "TSM",
-        "signal": "June monthly revenue Fri Jul 10 \u2014 first supply-side sustain check into Q2 earnings season"
+        "signal": "June monthly revenue Fri Jul 10 — first supply-side sustain check into Q2 earnings season"
       },
       {
         "ticker": "000660.KS",
-        "signal": "SKHY Nasdaq ADR Friday debut \u2014 largest foreign-issuer listing on record, resets HBM peer multiples"
+        "signal": "SKHY Nasdaq ADR Friday debut — largest foreign-issuer listing on record, resets HBM peer multiples"
       },
       {
         "ticker": "policy",
-        "signal": "Section 232 semi-DC report 8 days past July 1 deadline \u2014 binary tail-risk still intact"
+        "signal": "Section 232 semi-DC report 8 days past July 1 deadline — binary tail-risk still intact"
       },
       {
         "ticker": "MU",
-        "signal": "Fiscal Q4 print approaches; $50B guide vs $43.58B Street \u2014 15% upside gap, Samsung template the sentiment tell"
+        "signal": "Fiscal Q4 print approaches; $50B guide vs $43.58B Street — 15% upside gap, Samsung template the sentiment tell"
       }
     ],
     "file": "morning-news/2026-07-09.html"
@@ -3370,12 +3370,12 @@
       {
         "ticker": "META",
         "direction": "down",
-        "note": "Iris ASIC mass-production Sep confirmed; 14GW 2027, $145B FY26 AI infra \u2014 capex reset -2% Thu"
+        "note": "Iris ASIC mass-production Sep confirmed; 14GW 2027, $145B FY26 AI infra — capex reset -2% Thu"
       },
       {
         "ticker": "AVGO",
         "direction": "up",
-        "note": "Meta Iris design partner + Apple $30B/2031 deal \u2014 custom-silicon franchise across hyperscaler AI + premium consumer"
+        "note": "Meta Iris design partner + Apple $30B/2031 deal — custom-silicon franchise across hyperscaler AI + premium consumer"
       },
       {
         "ticker": "MU",
@@ -3400,7 +3400,7 @@
       {
         "ticker": "OKLO",
         "direction": "up",
-        "note": "Aalo-X experimental SMR targeting first criticality this month for AI DC co-location near INL \u2014 nearest real-world SMR reference"
+        "note": "Aalo-X experimental SMR targeting first criticality this month for AI DC co-location near INL — nearest real-world SMR reference"
       },
       {
         "ticker": "MSFT",
@@ -3416,7 +3416,7 @@
     "signals": [
       {
         "ticker": "000660.KS",
-        "signal": "SK Hynix Nasdaq ADR live at $149 = $26.51B raise \u2014 HBM pure-play resets MU/Samsung memory multiples"
+        "signal": "SK Hynix Nasdaq ADR live at $149 = $26.51B raise — HBM pure-play resets MU/Samsung memory multiples"
       },
       {
         "ticker": "META",
@@ -3428,7 +3428,7 @@
       },
       {
         "ticker": "TSM",
-        "signal": "June monthly revenue postponed to Jul 13 \u2014 Taiwan typhoon; earnings call Jul 16 unchanged"
+        "signal": "June monthly revenue postponed to Jul 13 — Taiwan typhoon; earnings call Jul 16 unchanged"
       },
       {
         "ticker": "grid",
@@ -3436,11 +3436,11 @@
       },
       {
         "ticker": "nuclear",
-        "signal": "Aalo-X SMR criticality attempt this month \u2014 first real-world hyperscaler-adjacent SMR reference"
+        "signal": "Aalo-X SMR criticality attempt this month — first real-world hyperscaler-adjacent SMR reference"
       },
       {
         "ticker": "software",
-        "signal": "SBUX in-house AI displacing MSFT + IBM tools \u2014 early template for enterprise SaaS budget re-route"
+        "signal": "SBUX in-house AI displacing MSFT + IBM tools — early template for enterprise SaaS budget re-route"
       }
     ],
     "file": "morning-news/2026-07-10.html"
@@ -3451,7 +3451,7 @@
       {
         "ticker": "TSM",
         "direction": "up",
-        "note": "June revenue NT$442.7B +67.9% YoY / +6.2% MoM \u2014 all-time monthly high; Q2 $39.6B beats top of $39-40.2B guide"
+        "note": "June revenue NT$442.7B +67.9% YoY / +6.2% MoM — all-time monthly high; Q2 $39.6B beats top of $39-40.2B guide"
       },
       {
         "ticker": "000660.KS",
@@ -3502,11 +3502,11 @@
     "signals": [
       {
         "ticker": "TSM",
-        "signal": "TSMC June revenue $14.6B all-time high; Q2 $39.6B beats top of guide \u2014 direct contradiction of Korea peak-earnings narrative"
+        "signal": "TSMC June revenue $14.6B all-time high; Q2 $39.6B beats top of guide — direct contradiction of Korea peak-earnings narrative"
       },
       {
         "ticker": "kospi",
-        "signal": "7th KOSPI circuit breaker of 2026 \u2014 SK Hynix -15%, Samsung -10.7%, Kioxia -12.9%; peak-earnings + Middle East + ADR arb"
+        "signal": "7th KOSPI circuit breaker of 2026 — SK Hynix -15%, Samsung -10.7%, Kioxia -12.9%; peak-earnings + Middle East + ADR arb"
       },
       {
         "ticker": "policy",
@@ -3514,19 +3514,19 @@
       },
       {
         "ticker": "META",
-        "signal": "SemiAnalysis 'Meta Compute' reset: 5GW H1 contracted, 2027 capex accelerating, ~$10B Anthropic Claude deal \u2014 refutes neocloud fear"
+        "signal": "SemiAnalysis 'Meta Compute' reset: 5GW H1 contracted, 2027 capex accelerating, ~$10B Anthropic Claude deal — refutes neocloud fear"
       },
       {
         "ticker": "earnings",
-        "signal": "Big-bank week: JPM/WFC/C/BLK Tue; ASML/GS/MS/BAC/UNH Wed; TSM/NFLX Thu \u2014 Q2 S&P 500 EPS +24% YoY expected"
+        "signal": "Big-bank week: JPM/WFC/C/BLK Tue; ASML/GS/MS/BAC/UNH Wed; TSM/NFLX Thu — Q2 S&P 500 EPS +24% YoY expected"
       },
       {
         "ticker": "fed",
-        "signal": "June CPI Tue Jul 14 + Warsh testimony (House Tue, Senate Wed) \u2014 headline 3.8% / core 2.8% projected; 2% target framed as defining priority"
+        "signal": "June CPI Tue Jul 14 + Warsh testimony (House Tue, Senate Wed) — headline 3.8% / core 2.8% projected; 2% target framed as defining priority"
       },
       {
         "ticker": "semi-cap",
-        "signal": "Goldman AMAT PT $645 (from $520) \u2014 order visibility to 2028; extends Jul 7 semi-cap re-rate (LRCX $404 MS, ASML EUR 2,623 Bernstein, AMD $640 GS)"
+        "signal": "Goldman AMAT PT $645 (from $520) — order visibility to 2028; extends Jul 7 semi-cap re-rate (LRCX $404 MS, ASML EUR 2,623 Bernstein, AMD $640 GS)"
       }
     ],
     "file": "morning-news/2026-07-13.html"
@@ -3572,7 +3572,7 @@
       {
         "ticker": "LEU",
         "direction": "up",
-        "note": "Centrus joins S&P SmallCap 600 today \u2014 passive-fund bid; $3.8B backlog to 2040 + $900M DOE HALEU order"
+        "note": "Centrus joins S&P SmallCap 600 today — passive-fund bid; $3.8B backlog to 2040 + $900M DOE HALEU order"
       },
       {
         "ticker": "AAPL",
@@ -3588,31 +3588,31 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "June CPI -0.4% MoM / +3.5% YoY (vs +3.8% consensus); core +2.6% YoY \u2014 softest print of 2026, energy -5.7%; rate-cut path reopens ahead of Warsh 10am"
+        "signal": "June CPI -0.4% MoM / +3.5% YoY (vs +3.8% consensus); core +2.6% YoY — softest print of 2026, energy -5.7%; rate-cut path reopens ahead of Warsh 10am"
       },
       {
         "ticker": "IBM",
-        "signal": "Preliminary Q2 miss \u2014 worst day since 1987 (-17-22%); mainframe -7%, software soft; software cohort read-across risk PLTR/SNOW/ORCL/CRWD"
+        "signal": "Preliminary Q2 miss — worst day since 1987 (-17-22%); mainframe -7%, software soft; software cohort read-across risk PLTR/SNOW/ORCL/CRWD"
       },
       {
         "ticker": "banks",
-        "signal": "JPM/WFC/C all beat on IB + trading (+28-45%); NII stable; expense creep the only pushback \u2014 sets up strong bar for GS/MS/BAC Wed"
+        "signal": "JPM/WFC/C all beat on IB + trading (+28-45%); NII stable; expense creep the only pushback — sets up strong bar for GS/MS/BAC Wed"
       },
       {
         "ticker": "kospi",
-        "signal": "V-shape reversal: KOSPI +0.7%, SK Hynix +3%, Samsung +3.3% \u2014 bargain-hunting closes Mon's peak-earnings gap ahead of ASML Wed + TSMC Thu"
+        "signal": "V-shape reversal: KOSPI +0.7%, SK Hynix +3%, Samsung +3.3% — bargain-hunting closes Mon's peak-earnings gap ahead of ASML Wed + TSMC Thu"
       },
       {
         "ticker": "AMAT",
-        "signal": "Semi-cap PT cluster resets to $645-900 (Susquehanna $900 Street-high) \u2014 DRAM WFE + High-NA + AI capex; read-across LRCX/KLAC/ASML"
+        "signal": "Semi-cap PT cluster resets to $645-900 (Susquehanna $900 Street-high) — DRAM WFE + High-NA + AI capex; read-across LRCX/KLAC/ASML"
       },
       {
         "ticker": "AAPL",
-        "signal": "KeyBanc rare Underweight \u2014 first material sell-side bear-print on AAPL since 2024; watch AVGO $30B 2031 deal, APH/GLW iPhone read-across"
+        "signal": "KeyBanc rare Underweight — first material sell-side bear-print on AAPL since 2024; watch AVGO $30B 2031 deal, APH/GLW iPhone read-across"
       },
       {
         "ticker": "LEU",
-        "signal": "Centrus S&P SmallCap 600 inclusion today \u2014 passive-fund technical demand; SMR/OKLO positive read-across on HALEU supply lock-in"
+        "signal": "Centrus S&P SmallCap 600 inclusion today — passive-fund technical demand; SMR/OKLO positive read-across on HALEU supply lock-in"
       }
     ],
     "file": "morning-news/2026-07-14.html"
@@ -3623,17 +3623,17 @@
       {
         "ticker": "ASML",
         "direction": "up",
-        "note": "+5-7% pre-open; FY26 guide slashed higher \u20ac43-45B (from \u20ac36-40B); 30% capacity add for 2027, another 30% investigated for 2028; Q2 \u20ac9.33B beat"
+        "note": "+5-7% pre-open; FY26 guide slashed higher €43-45B (from €36-40B); 30% capacity add for 2027, another 30% investigated for 2028; Q2 €9.33B beat"
       },
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "SK Hynix +8% Seoul close after +27% US ADR overnight \u2014 ASML + KeyBanc MU $1,750 + Micron pull-forward all light up HBM thesis in 24 hrs"
+        "note": "SK Hynix +8% Seoul close after +27% US ADR overnight — ASML + KeyBanc MU $1,750 + Micron pull-forward all light up HBM thesis in 24 hrs"
       },
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Samsung +6.3% Seoul close; Advantest/Lasertec rip in Tokyo \u2014 KOSPI V-shape extends"
+        "note": "Samsung +6.3% Seoul close; Advantest/Lasertec rip in Tokyo — KOSPI V-shape extends"
       },
       {
         "ticker": "MS",
@@ -3648,7 +3648,7 @@
       {
         "ticker": "CEG",
         "direction": "up",
-        "note": "PJM 2028-29 auction \u2014 all plants cleared; 9,800 MW COMED + 4,325 MW EMAAC nuclear at $325/MW-day"
+        "note": "PJM 2028-29 auction — all plants cleared; 9,800 MW COMED + 4,325 MW EMAAC nuclear at $325/MW-day"
       },
       {
         "ticker": "TSM",
@@ -3674,7 +3674,7 @@
     "signals": [
       {
         "ticker": "ASML",
-        "signal": "FY26 guide LIFTED to \u20ac43-45B (from \u20ac36-40B) \u2014 2nd raise this year; gross margin guide 54-56%; capacity +30% for 2027, investigating another +30% for 2028; order visibility into 2028"
+        "signal": "FY26 guide LIFTED to €43-45B (from €36-40B) — 2nd raise this year; gross margin guide 54-56%; capacity +30% for 2027, investigating another +30% for 2028; order visibility into 2028"
       },
       {
         "ticker": "hbm",
@@ -3682,19 +3682,19 @@
       },
       {
         "ticker": "banks",
-        "signal": "Big-bank Q2 sweep complete \u2014 JPM/WFC/C/GS/BAC/MS all beat on trading + IB (+28-69%); MS equities trading $6.3B a record; NII stable-to-higher across the board"
+        "signal": "Big-bank Q2 sweep complete — JPM/WFC/C/GS/BAC/MS all beat on trading + IB (+28-69%); MS equities trading $6.3B a record; NII stable-to-higher across the board"
       },
       {
         "ticker": "CEG",
-        "signal": "PJM 2028-29 nuclear cleared at $325/MW-day near record \u2014 locks incremental capacity revenue through 2029; reinforces AI-power scarcity premium"
+        "signal": "PJM 2028-29 nuclear cleared at $325/MW-day near record — locks incremental capacity revenue through 2029; reinforces AI-power scarcity premium"
       },
       {
         "ticker": "policy",
-        "signal": "H200 to China 'trivial' per BIS testimony despite $10B licensed; >2M unit Chinese demand vs ~700K Nvidia inventory; 25% offshore tariff caps upside \u2014 NVDA China opt-in remains theoretical"
+        "signal": "H200 to China 'trivial' per BIS testimony despite $10B licensed; >2M unit Chinese demand vs ~700K Nvidia inventory; 25% offshore tariff caps upside — NVDA China opt-in remains theoretical"
       },
       {
         "ticker": "macro",
-        "signal": "Warsh day 1: no rate-path signal, 3.5% 'a long way from 2%'; June CPI cool but not 'mission accomplished' \u2014 Sep cut still on table, July effectively off"
+        "signal": "Warsh day 1: no rate-path signal, 3.5% 'a long way from 2%'; June CPI cool but not 'mission accomplished' — Sep cut still on table, July effectively off"
       },
       {
         "ticker": "power",
@@ -3764,11 +3764,11 @@
       },
       {
         "ticker": "MEMORY",
-        "signal": "CXMT $9.8B Shanghai IPO Jul 27 \u2014 DRAM oligopoly threat"
+        "signal": "CXMT $9.8B Shanghai IPO Jul 27 — DRAM oligopoly threat"
       },
       {
         "ticker": "KOREA",
-        "signal": "SK Hynix -11.5%, Samsung -8.8% \u2014 memory profit-take + China fear"
+        "signal": "SK Hynix -11.5%, Samsung -8.8% — memory profit-take + China fear"
       },
       {
         "ticker": "NVDA",
@@ -3780,7 +3780,7 @@
       },
       {
         "ticker": "SMR",
-        "signal": "NuScale ENTRA1 legal probe \u2014 SMR-specific"
+        "signal": "NuScale ENTRA1 legal probe — SMR-specific"
       }
     ],
     "file": "morning-news/2026-07-16.html"
@@ -3850,7 +3850,7 @@
       },
       {
         "ticker": "hardware",
-        "signal": "TSMC 2nm ramp GM dilution -1.7pp Q3, deeper into Q4 \u2014 margin narrative flipping from tailwind to headwind"
+        "signal": "TSMC 2nm ramp GM dilution -1.7pp Q3, deeper into Q4 — margin narrative flipping from tailwind to headwind"
       },
       {
         "ticker": "memory",
@@ -3862,7 +3862,7 @@
       },
       {
         "ticker": "policy",
-        "signal": "H200 shipments to China resume under US license \u2014 first hard evidence of easing"
+        "signal": "H200 shipments to China resume under US license — first hard evidence of easing"
       }
     ],
     "file": "morning-news/2026-07-17.html"
@@ -3898,7 +3898,7 @@
       {
         "ticker": "GEV",
         "direction": "neutral",
-        "note": "Q2 pre-open Wed Jul 22 \u2014 cons EPS $3.17 / rev $10.77B (+18% YoY); gas/grid vs wind drag"
+        "note": "Q2 pre-open Wed Jul 22 — cons EPS $3.17 / rev $10.77B (+18% YoY); gas/grid vs wind drag"
       },
       {
         "ticker": "ENR.DE",
@@ -3924,15 +3924,15 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Nasdaq futures +0.68% / S&P +0.29% pre-open \u2014 semi rebound after -10% SOX week (biggest since Apr 2025)"
+        "signal": "Nasdaq futures +0.68% / S&P +0.29% pre-open — semi rebound after -10% SOX week (biggest since Apr 2025)"
       },
       {
         "ticker": "integration",
-        "signal": "Hut 8 fully commercializes 1 GW Beacon Point campus (2nd $9.8B lease Jul 20) \u2014 $19.6B campus / $26.6B portfolio / >$1.75B annual NOI; validates AI-power-first REIT thesis"
+        "signal": "Hut 8 fully commercializes 1 GW Beacon Point campus (2nd $9.8B lease Jul 20) — $19.6B campus / $26.6B portfolio / >$1.75B annual NOI; validates AI-power-first REIT thesis"
       },
       {
         "ticker": "software",
-        "signal": "Alibaba previews Qwen 3.8 Max (2.4T MoE multimodal) at WAIC Sat; follows Moonshot Kimi K3 (2.8T open-weight, Alibaba 36% stake) \u2014 China frontier stack advancing"
+        "signal": "Alibaba previews Qwen 3.8 Max (2.4T MoE multimodal) at WAIC Sat; follows Moonshot Kimi K3 (2.8T open-weight, Alibaba 36% stake) — China frontier stack advancing"
       },
       {
         "ticker": "policy",
@@ -3940,15 +3940,15 @@
       },
       {
         "ticker": "earnings",
-        "signal": "Big week: IBM/GEV Wed pre / TSLA/GOOG Wed AH / INTC Thu AH / VZ Thu / AXP Fri \u2014 AI monetization + capex guidance the market's fixation"
+        "signal": "Big week: IBM/GEV Wed pre / TSLA/GOOG Wed AH / INTC Thu AH / VZ Thu / AXP Fri — AI monetization + capex guidance the market's fixation"
       },
       {
         "ticker": "coverage",
-        "signal": "CLSA MSFT Outperform $535 vs ORCL Hold $145 \u2014 sell-side split on hyperscaler winners; Azure-Copilot arithmetic vs debt-funded OCI capex math"
+        "signal": "CLSA MSFT Outperform $535 vs ORCL Hold $145 — sell-side split on hyperscaler winners; Azure-Copilot arithmetic vs debt-funded OCI capex math"
       },
       {
         "ticker": "optics",
-        "signal": "Barclays LITE OW $1,000 (from EW) \u2014 AI-optical/photonic demand holding through SOX drawdown; ANET/GLW read-across"
+        "signal": "Barclays LITE OW $1,000 (from EW) — AI-optical/photonic demand holding through SOX drawdown; ANET/GLW read-across"
       }
     ],
     "file": "morning-news/2026-07-20.html"
@@ -3964,17 +3964,17 @@
       {
         "ticker": "TSM",
         "direction": "up",
-        "note": "Nikkei: 5-10% price hike Jan 2027 across advanced + mature; +10-15% HPC over-forecast premium \u2014 pricing power confirmed"
+        "note": "Nikkei: 5-10% price hike Jan 2027 across advanced + mature; +10-15% HPC over-forecast premium — pricing power confirmed"
       },
       {
         "ticker": "MSFT",
         "direction": "up",
-        "note": "Morgan Stanley assumes coverage Overweight PT $600 \u2014 sell-side crowds into the only 'safe' large-cap AI software"
+        "note": "Morgan Stanley assumes coverage Overweight PT $600 — sell-side crowds into the only 'safe' large-cap AI software"
       },
       {
         "ticker": "CRM",
         "direction": "down",
-        "note": "Morgan Stanley OW\u2192EW; PT $287\u2192$185; 'Agentforce KPIs strong but no organic-growth inflection'; -3.6% pre-market"
+        "note": "Morgan Stanley OW→EW; PT $287→$185; 'Agentforce KPIs strong but no organic-growth inflection'; -3.6% pre-market"
       },
       {
         "ticker": "005930.KS",
@@ -3989,7 +3989,7 @@
       {
         "ticker": "NBIS",
         "direction": "up",
-        "note": "Nvidia 9.3% stake disclosure; Freedom Capital Hold\u2192Buy PT $200 (from $150) Jul 20; +6.5% pre-market"
+        "note": "Nvidia 9.3% stake disclosure; Freedom Capital Hold→Buy PT $200 (from $150) Jul 20; +6.5% pre-market"
       },
       {
         "ticker": "GEV",
@@ -3999,7 +3999,7 @@
       {
         "ticker": "ADBE",
         "direction": "down",
-        "note": "Morgan Stanley EW\u2192UW; PT $365\u2192$240 on gen-AI displacement risk to Creative Cloud/Firefly"
+        "note": "Morgan Stanley EW→UW; PT $365→$240 on gen-AI displacement risk to Creative Cloud/Firefly"
       },
       {
         "ticker": "INTC",
@@ -4010,19 +4010,19 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Chip complex rebounds pre-open \u2014 Nasdaq futures +1.33% on Korea +181% semi exports + TSMC 10% 2027 pricing news; SOX/SMH set to reclaim last week's -10%"
+        "signal": "Chip complex rebounds pre-open — Nasdaq futures +1.33% on Korea +181% semi exports + TSMC 10% 2027 pricing news; SOX/SMH set to reclaim last week's -10%"
       },
       {
         "ticker": "hardware",
-        "signal": "TSMC 2027 pricing power confirmed (5-10% baseline, +10-15% HPC premium) \u2014 margin tailwind flows to NVDA/AMD/AAPL cost side but validates capex durability"
+        "signal": "TSMC 2027 pricing power confirmed (5-10% baseline, +10-15% HPC premium) — margin tailwind flows to NVDA/AMD/AAPL cost side but validates capex durability"
       },
       {
         "ticker": "software",
-        "signal": "Morgan Stanley reshuffles AI-software winners: MSFT OW $600 initiate, CRM/ADBE cut, FTNT upgrade \u2014 MSFT the only 'safe' large-cap AI-software long"
+        "signal": "Morgan Stanley reshuffles AI-software winners: MSFT OW $600 initiate, CRM/ADBE cut, FTNT upgrade — MSFT the only 'safe' large-cap AI-software long"
       },
       {
         "ticker": "integration",
-        "signal": "NVDA-Nebius 13G formalizes the 'preferred neocloud' playbook alongside CoreWeave \u2014 Jensen backstops capacity that consumes his GPUs"
+        "signal": "NVDA-Nebius 13G formalizes the 'preferred neocloud' playbook alongside CoreWeave — Jensen backstops capacity that consumes his GPUs"
       },
       {
         "ticker": "hardware",
@@ -4030,11 +4030,11 @@
       },
       {
         "ticker": "policy",
-        "signal": "Section 122 10% global tariff sunsets Thu Jul 24 \u2014 Section 301/232 pivot expected same-week; USTR 10-12.5% forced-labor tariff on 60 partners already proposed"
+        "signal": "Section 122 10% global tariff sunsets Thu Jul 24 — Section 301/232 pivot expected same-week; USTR 10-12.5% forced-labor tariff on 60 partners already proposed"
       },
       {
         "ticker": "earnings",
-        "signal": "Blockbuster earnings week: GEV/IBM Wed pre / GOOG+TSLA Wed AH / INTC+SAP Thu AH / AXP Fri \u2014 AI capex-vs-monetization the market's fixation"
+        "signal": "Blockbuster earnings week: GEV/IBM Wed pre / GOOG+TSLA Wed AH / INTC+SAP Thu AH / AXP Fri — AI capex-vs-monetization the market's fixation"
       }
     ],
     "file": "morning-news/2026-07-21.html"
@@ -4050,7 +4050,7 @@
       {
         "ticker": "GEV",
         "direction": "up",
-        "note": "Q2 rev $11.1B beat (+22% YoY); FY26 guide raised twice; Power orders +134% organic; backlog $176B; slot target 100\u2192125 GW; GAAP EPS $2.47 miss"
+        "note": "Q2 rev $11.1B beat (+22% YoY); FY26 guide raised twice; Power orders +134% organic; backlog $176B; slot target 100→125 GW; GAAP EPS $2.47 miss"
       },
       {
         "ticker": "AMD",
@@ -4096,31 +4096,31 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "SMCI pre-announce resets AI-server margin narrative \u2014 potential SOX/SMH re-ignition into US open after KOSPI open-high-close-low fade"
+        "signal": "SMCI pre-announce resets AI-server margin narrative — potential SOX/SMH re-ignition into US open after KOSPI open-high-close-low fade"
       },
       {
         "ticker": "hardware",
-        "signal": "SMCI $60B new orders + GM 15-17% (vs 8.2-8.4%) \u2014 visibility snap-back after months of margin-compression bear thesis"
+        "signal": "SMCI $60B new orders + GM 15-17% (vs 8.2-8.4%) — visibility snap-back after months of margin-compression bear thesis"
       },
       {
         "ticker": "energy",
-        "signal": "GEV Power orders +134% organic + gas turbine slot target 100\u2192125 GW (30 GW annual by 2030) \u2014 scarcity/pricing power intact"
+        "signal": "GEV Power orders +134% organic + gas turbine slot target 100→125 GW (30 GW annual by 2030) — scarcity/pricing power intact"
       },
       {
         "ticker": "hardware",
-        "signal": "AMD Advancing AI 2026: MI455X 432GB HBM4 + Helios rack + EPYC Venice on TSMC N2 GAA \u2014 Day-2 customer announcements the incremental catalyst"
+        "signal": "AMD Advancing AI 2026: MI455X 432GB HBM4 + Helios rack + EPYC Venice on TSMC N2 GAA — Day-2 customer announcements the incremental catalyst"
       },
       {
         "ticker": "earnings",
-        "signal": "Triple-header AH tonight: GOOG (Cloud/capex) + TSLA (robotaxi/Optimus) + IBM (post-warning software mix) \u2014 three distinct AI narratives"
+        "signal": "Triple-header AH tonight: GOOG (Cloud/capex) + TSLA (robotaxi/Optimus) + IBM (post-warning software mix) — three distinct AI narratives"
       },
       {
         "ticker": "policy",
-        "signal": "Section 122 10% global tariff sunsets midnight ET Thu Jul 24 by statute; Section 232 semi tariffs unaffected \u2014 2-day recalibration window for hardware supply chain"
+        "signal": "Section 122 10% global tariff sunsets midnight ET Thu Jul 24 by statute; Section 232 semi tariffs unaffected — 2-day recalibration window for hardware supply chain"
       },
       {
         "ticker": "neocloud",
-        "signal": "CoreWeave/Nebius pressure persists on Meta build-vs-buy risk; NVDA 13G Nebius stake (Mon) partial offset \u2014 neocloud unit economics under scrutiny"
+        "signal": "CoreWeave/Nebius pressure persists on Meta build-vs-buy risk; NVDA 13G Nebius stake (Mon) partial offset — neocloud unit economics under scrutiny"
       }
     ],
     "file": "morning-news/2026-07-22.html"
@@ -4131,12 +4131,12 @@
       {
         "ticker": "GOOGL",
         "direction": "down",
-        "note": "Q2 rev $119.8B beat + Cloud +82%, but FY26 capex hiked to $195-205B (from $180-190B); 2027 higher. Stock -5% AH, -4% pre-market. Pivotal PT $470\u2192$475 Buy."
+        "note": "Q2 rev $119.8B beat + Cloud +82%, but FY26 capex hiked to $195-205B (from $180-190B); 2027 higher. Stock -5% AH, -4% pre-market. Pivotal PT $470→$475 Buy."
       },
       {
         "ticker": "TSLA",
         "direction": "down",
-        "note": "Q2 adj EPS $0.33 miss (est $0.50); EBITDA $3.2B miss; FCF -$1.1B; FY26 capex >$25B confirmed. -8% pre-market. JPM $475\u2192$445, Cantor $510\u2192$485, Canaccord $450\u2192$410."
+        "note": "Q2 adj EPS $0.33 miss (est $0.50); EBITDA $3.2B miss; FCF -$1.1B; FY26 capex >$25B confirmed. -8% pre-market. JPM $475→$445, Cantor $510→$485, Canaccord $450→$410."
       },
       {
         "ticker": "IBM",
@@ -4146,7 +4146,7 @@
       {
         "ticker": "NOW",
         "direction": "up",
-        "note": "Q2 subs +23% $3.877B, op margin 29.5%, AI ACV >$1B, FY sub guide raised to $15.77B. Stock +5% \u2014 first clean AI-monetization print in enterprise SW."
+        "note": "Q2 subs +23% $3.877B, op margin 29.5%, AI ACV >$1B, FY sub guide raised to $15.77B. Stock +5% — first clean AI-monetization print in enterprise SW."
       },
       {
         "ticker": "NVDA",
@@ -4161,7 +4161,7 @@
       {
         "ticker": "GEV",
         "direction": "up",
-        "note": "GOOGL capex hike +15B reinforces GEV's slot-target 100\u2192125GW and +134% organic Power orders thesis from yesterday."
+        "note": "GOOGL capex hike +15B reinforces GEV's slot-target 100→125GW and +134% organic Power orders thesis from yesterday."
       },
       {
         "ticker": "ETN",
@@ -4176,37 +4176,37 @@
       {
         "ticker": "TSM",
         "direction": "up",
-        "note": "N3/CoWoS sold out through 2026, capex raised to $60-64B, FY rev growth guide >40%. Supply-scarce, demand-full \u2014 gating factor for NVDA/AMD 2027 deliveries."
+        "note": "N3/CoWoS sold out through 2026, capex raised to $60-64B, FY rev growth guide >40%. Supply-scarce, demand-full — gating factor for NVDA/AMD 2027 deliveries."
       }
     ],
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Hyperscaler combined FY26 capex now ~$725B (from ~$680B pre-GOOGL raise); FY27 tracking higher \u2014 multi-year AI-infra visibility extended, but hyperscaler FCF multiples under pressure."
+        "signal": "Hyperscaler combined FY26 capex now ~$725B (from ~$680B pre-GOOGL raise); FY27 tracking higher — multi-year AI-infra visibility extended, but hyperscaler FCF multiples under pressure."
       },
       {
         "ticker": "earnings",
-        "signal": "GOOGL beat / TSLA miss / IBM in-line-vs-pre-warning / NOW clean beat \u2014 divergence between infra-suppliers (benefiting) and platforms (paying) is the theme of the print"
+        "signal": "GOOGL beat / TSLA miss / IBM in-line-vs-pre-warning / NOW clean beat — divergence between infra-suppliers (benefiting) and platforms (paying) is the theme of the print"
       },
       {
         "ticker": "TSLA",
-        "signal": "HIGH-severity: Q2 profit miss + capex balloon + three PT cuts \u2014 margin/FCF trough thesis crystallizing before Robotaxi/Cybercab monetization"
+        "signal": "HIGH-severity: Q2 profit miss + capex balloon + three PT cuts — margin/FCF trough thesis crystallizing before Robotaxi/Cybercab monetization"
       },
       {
         "ticker": "policy",
-        "signal": "Section 122 10% global tariff sunsets midnight ET tonight; Section 232 semi tariffs unaffected \u2014 24-48hr recalibration window for VRT/ETN/SMCI/DELL/HPE input costs"
+        "signal": "Section 122 10% global tariff sunsets midnight ET tonight; Section 232 semi tariffs unaffected — 24-48hr recalibration window for VRT/ETN/SMCI/DELL/HPE input costs"
       },
       {
         "ticker": "hardware",
-        "signal": "TSMC N3 + CoWoS sold out through end-2026, capex raised to $60-64B \u2014 NVDA/AMD supply is the constraint, not demand; Chinese H200 orders 2M vs 700K NVDA inventory"
+        "signal": "TSMC N3 + CoWoS sold out through end-2026, capex raised to $60-64B — NVDA/AMD supply is the constraint, not demand; Chinese H200 orders 2M vs 700K NVDA inventory"
       },
       {
         "ticker": "software",
-        "signal": "NOW's clean beat (+23% subs, AI ACV >$1B, op margin +3pts vs guide) validates enterprise-SW AI monetization thesis \u2014 read-through to CRM, PLTR, SNOW"
+        "signal": "NOW's clean beat (+23% subs, AI ACV >$1B, op margin +3pts vs guide) validates enterprise-SW AI monetization thesis — read-through to CRM, PLTR, SNOW"
       },
       {
         "ticker": "next-week",
-        "signal": "Setup into MSFT (Jul 29 AH), META (Jul 29 AH), AMZN (Jul 30 AH), AAPL (Jul 30 AH) \u2014 capex trajectory the sole variable for hyperscaler multiples this cycle"
+        "signal": "Setup into MSFT (Jul 29 AH), META (Jul 29 AH), AMZN (Jul 30 AH), AAPL (Jul 30 AH) — capex trajectory the sole variable for hyperscaler multiples this cycle"
       }
     ],
     "file": "morning-news/2026-07-23.html"
@@ -4228,7 +4228,7 @@
       {
         "ticker": "NOW",
         "direction": "down",
-        "note": "-17.8% Wed post-Q2 despite beat + raised guide \u2014 enterprise AI-SKU monetization skepticism"
+        "note": "-17.8% Wed post-Q2 despite beat + raised guide — enterprise AI-SKU monetization skepticism"
       },
       {
         "ticker": "VRT",
@@ -4248,7 +4248,7 @@
       {
         "ticker": "005930.KS",
         "direction": "down",
-        "note": "Korea hit by 10-12.5% forced-labor tariffs at 12:01 AM ET Fri \u2014 Samsung memory + foundry exposed"
+        "note": "Korea hit by 10-12.5% forced-labor tariffs at 12:01 AM ET Fri — Samsung memory + foundry exposed"
       },
       {
         "ticker": "GOOGL",
@@ -4259,11 +4259,11 @@
     "signals": [
       {
         "ticker": "macro",
-        "signal": "Trump tariff wall reconstructed: 10-12.5% Section 301 forced-labor duties on ~60 partners (Taiwan/Korea/Japan/EU) live at 12:01 AM ET Fri \u2014 direct AI-hardware supply-chain cost step-up"
+        "signal": "Trump tariff wall reconstructed: 10-12.5% Section 301 forced-labor duties on ~60 partners (Taiwan/Korea/Japan/EU) live at 12:01 AM ET Fri — direct AI-hardware supply-chain cost step-up"
       },
       {
         "ticker": "hardware",
-        "signal": "Intel DCAI +59% + '10 signed long-term fixed-price/volume CPU contracts' validates server CPU cycle \u2014 competitive headwind for AMD EPYC share thesis"
+        "signal": "Intel DCAI +59% + '10 signed long-term fixed-price/volume CPU contracts' validates server CPU cycle — competitive headwind for AMD EPYC share thesis"
       },
       {
         "ticker": "software",
@@ -4271,11 +4271,11 @@
       },
       {
         "ticker": "integration",
-        "signal": "Meta-Anthropic $10B compute talks \u2014 hyperscalers pivoting to sell excess capacity; validates neocloud (CRWV/NBIS) TAM but adds supply-side competitor"
+        "signal": "Meta-Anthropic $10B compute talks — hyperscalers pivoting to sell excess capacity; validates neocloud (CRWV/NBIS) TAM but adds supply-side competitor"
       },
       {
         "ticker": "macro",
-        "signal": "Brent >$100 (Red Sea tanker strikes) + 10Y yield at YTD high \u2014 Fed-hike odds rising into fragile tape; futures -0.4% pre-open"
+        "signal": "Brent >$100 (Red Sea tanker strikes) + 10Y yield at YTD high — Fed-hike odds rising into fragile tape; futures -0.4% pre-open"
       }
     ],
     "sectors": [
@@ -4304,7 +4304,7 @@
       {
         "ticker": "005930.KS",
         "direction": "up",
-        "note": "Samsung +2% on $200B MOU with AVGO across HBM + 2nm foundry through 2030 \u2014 first anchor for Samsung Foundry comeback"
+        "note": "Samsung +2% on $200B MOU with AVGO across HBM + 2nm foundry through 2030 — first anchor for Samsung Foundry comeback"
       },
       {
         "ticker": "AVGO",
@@ -4314,12 +4314,12 @@
       {
         "ticker": "AMD",
         "direction": "up",
-        "note": "Wedbush PT $600 (from $450) Outperform \u2014 'no ceiling' on DC CPU/GPU into Aug 4 print"
+        "note": "Wedbush PT $600 (from $450) Outperform — 'no ceiling' on DC CPU/GPU into Aug 4 print"
       },
       {
         "ticker": "OKLO",
         "direction": "up",
-        "note": "DOE approved Aurora research reactor startup in Texas Sat Jul 26 \u2014 first non-legacy SMR cleared for fueled ops"
+        "note": "DOE approved Aurora research reactor startup in Texas Sat Jul 26 — first non-legacy SMR cleared for fueled ops"
       },
       {
         "ticker": "VRT",
@@ -4329,7 +4329,7 @@
       {
         "ticker": "GOOGL",
         "direction": "up",
-        "note": "Phillip upgrades to Buy (from Accumulate); PT $425 \u2014 Wed capex sell-off deemed overdone"
+        "note": "Phillip upgrades to Buy (from Accumulate); PT $425 — Wed capex sell-off deemed overdone"
       },
       {
         "ticker": "CRWV",
@@ -4340,7 +4340,7 @@
     "signals": [
       {
         "ticker": "integration",
-        "signal": "Korea-US $950B AI pact (SK-NVIDIA $500B + Samsung-AVGO $200B + smaller) reshapes chip supply chain \u2014 HBM4 locked for NVIDIA, 2nm foundry secured for Broadcom"
+        "signal": "Korea-US $950B AI pact (SK-NVIDIA $500B + Samsung-AVGO $200B + smaller) reshapes chip supply chain — HBM4 locked for NVIDIA, 2nm foundry secured for Broadcom"
       },
       {
         "ticker": "macro",
@@ -4348,15 +4348,15 @@
       },
       {
         "ticker": "software",
-        "signal": "MSFT (Wed AMC) is the earnings week setup print \u2014 Azure ~36% cc bogey vs. 39-40% guide; capex commentary re-rates the entire AI-infra chain (CRWV, VRT, ETN, GEV, CEG, VST)"
+        "signal": "MSFT (Wed AMC) is the earnings week setup print — Azure ~36% cc bogey vs. 39-40% guide; capex commentary re-rates the entire AI-infra chain (CRWV, VRT, ETN, GEV, CEG, VST)"
       },
       {
         "ticker": "energy",
-        "signal": "SMR sector catalyst: DOE greenlights Oklo Aurora Texas startup (Sat) + Trump ~$200M AI-nuclear accelerator (X-Energy, MSFT, NVDA) \u2014 positive read to SMR, XE, CCJ, LEU"
+        "signal": "SMR sector catalyst: DOE greenlights Oklo Aurora Texas startup (Sat) + Trump ~$200M AI-nuclear accelerator (X-Energy, MSFT, NVDA) — positive read to SMR, XE, CCJ, LEU"
       },
       {
         "ticker": "macro",
-        "signal": "FOMC Jul 28-29: 68.5% no-change priced, but 34% hike odds on sticky inflation \u2014 tail risk into MSFT/META/AAPL/AMZN prints"
+        "signal": "FOMC Jul 28-29: 68.5% no-change priced, but 34% hike odds on sticky inflation — tail risk into MSFT/META/AAPL/AMZN prints"
       }
     ],
     "file": "morning-news/2026-07-27.html"
@@ -4367,7 +4367,7 @@
       {
         "ticker": "000660.KS",
         "direction": "down",
-        "note": "SK hynix -14.7% overnight (worst on record) \u2014 China DUV + circular-financing fears; joins bear market"
+        "note": "SK hynix -14.7% overnight (worst on record) — China DUV + circular-financing fears; joins bear market"
       },
       {
         "ticker": "005930.KS",
@@ -4402,12 +4402,12 @@
       {
         "ticker": "CDNS",
         "direction": "up",
-        "note": "Q2 beat + FY26 guide raised to 19% growth; record $8.1B backlog; +3.5% AH \u2014 EDA insulated from memory rout"
+        "note": "Q2 beat + FY26 guide raised to 19% growth; record $8.1B backlog; +3.5% AH — EDA insulated from memory rout"
       },
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Siemens Energy record \u20ac17.7B orders; FY26 guide raised; Grid Technologies now 25\u201327% growth guide"
+        "note": "Siemens Energy record €17.7B orders; FY26 guide raised; Grid Technologies now 25–27% growth guide"
       },
       {
         "ticker": "CRWV",
@@ -4418,23 +4418,23 @@
     "signals": [
       {
         "ticker": "hardware",
-        "signal": "CHINA DUV BREAKTHROUGH: Shanghai Aishengna (state-backed) begins mass production of homegrown immersion DUV \u2014 5 units 2026, 20 in 2027 to SMIC/Hua Hong/CXMT. ASML -5.8% Mon; AMAT/LRCX/KLAC -3 to -4.5%. Long-term sovereign-substitution risk repriced across the whole equipment stack"
+        "signal": "CHINA DUV BREAKTHROUGH: Shanghai Aishengna (state-backed) begins mass production of homegrown immersion DUV — 5 units 2026, 20 in 2027 to SMIC/Hua Hong/CXMT. ASML -5.8% Mon; AMAT/LRCX/KLAC -3 to -4.5%. Long-term sovereign-substitution risk repriced across the whole equipment stack"
       },
       {
         "ticker": "finance",
-        "signal": "MEMORY BEAR MARKET: MU, SK hynix, Samsung, Roundhill Memory ETF all >20% off recent highs. Overnight KOSPI -10.8% (biggest since March US-Iran) \u2014 HBM/DRAM premium narrative resetting into MSFT/META/AAPL/AMZN prints"
+        "signal": "MEMORY BEAR MARKET: MU, SK hynix, Samsung, Roundhill Memory ETF all >20% off recent highs. Overnight KOSPI -10.8% (biggest since March US-Iran) — HBM/DRAM premium narrative resetting into MSFT/META/AAPL/AMZN prints"
       },
       {
         "ticker": "finance",
-        "signal": "AI CIRCULAR FINANCING: NVDA under scrutiny for $750B+ in new deal exposures (SK Group $500B + OpenAI $250B Ohio guarantee + $350B chip-purchase financing) \u2014 vendor-financing echo of 1999-2001 telco cycle now the dominant bear thesis"
+        "signal": "AI CIRCULAR FINANCING: NVDA under scrutiny for $750B+ in new deal exposures (SK Group $500B + OpenAI $250B Ohio guarantee + $350B chip-purchase financing) — vendor-financing echo of 1999-2001 telco cycle now the dominant bear thesis"
       },
       {
         "ticker": "macro",
-        "signal": "CATALYST WEEK: FOMC Wed (~68% no-change but 34% hike-risk on sticky inflation); MSFT/META AMC Wed; AAPL/AMZN AMC Thu. Alphabet made clear a beat alone won't hold multiples \u2014 need proof AI capex compounds revenue faster than debt"
+        "signal": "CATALYST WEEK: FOMC Wed (~68% no-change but 34% hike-risk on sticky inflation); MSFT/META AMC Wed; AAPL/AMZN AMC Thu. Alphabet made clear a beat alone won't hold multiples — need proof AI capex compounds revenue faster than debt"
       },
       {
         "ticker": "energy",
-        "signal": "GRID DEMAND HOLDING: Siemens Energy raises FY26 (Grid Tech now 25\u201327% growth guide); positive read to ETN (Aug 5), GEV (already printed $2.7B DC electrification orders). Grid remains the AI bottleneck \u2014 offsets partial risk from chip valuation reset"
+        "signal": "GRID DEMAND HOLDING: Siemens Energy raises FY26 (Grid Tech now 25–27% growth guide); positive read to ETN (Aug 5), GEV (already printed $2.7B DC electrification orders). Grid remains the AI bottleneck — offsets partial risk from chip valuation reset"
       }
     ],
     "file": "morning-news/2026-07-28.html"
@@ -4504,11 +4504,11 @@
       },
       {
         "ticker": "hardware",
-        "signal": "CORNING -18% (worst day since 2002) on Q2 miss + in-line Q3 guide \u2014 but announces multi-yr AMZN datacenter fiber deal + NVDA optical connectivity 10x manufacturing expansion"
+        "signal": "CORNING -18% (worst day since 2002) on Q2 miss + in-line Q3 guide — but announces multi-yr AMZN datacenter fiber deal + NVDA optical connectivity 10x manufacturing expansion"
       },
       {
         "ticker": "hardware",
-        "signal": "DATACENTER PLUMBING BEATS: APH pre-mkt +55% YoY, EPS +13% beat; BE first-ever $1B+ qtr (+166% YoY, EPS 0.78 vs 0.42 est) \u2014 offsets memory narrative with real fuel-cell/interconnect demand"
+        "signal": "DATACENTER PLUMBING BEATS: APH pre-mkt +55% YoY, EPS +13% beat; BE first-ever $1B+ qtr (+166% YoY, EPS 0.78 vs 0.42 est) — offsets memory narrative with real fuel-cell/interconnect demand"
       },
       {
         "ticker": "macro",
@@ -4548,7 +4548,7 @@
       {
         "ticker": "AMZN",
         "direction": "neutral",
-        "note": "Reports tonight AH; Q2 consensus rev ~$196.25B / EPS $1.82 \u2014 AWS growth vs Azure 43% in focus"
+        "note": "Reports tonight AH; Q2 consensus rev ~$196.25B / EPS $1.82 — AWS growth vs Azure 43% in focus"
       },
       {
         "ticker": "AAPL",
@@ -4558,7 +4558,7 @@
       {
         "ticker": "CEG",
         "direction": "up",
-        "note": "GS raised US DC power outlook to 41 GW 2026 / 66 GW 2027 \u2014 flags CEG as primary earnings-growth candidate"
+        "note": "GS raised US DC power outlook to 41 GW 2026 / 66 GW 2027 — flags CEG as primary earnings-growth candidate"
       },
       {
         "ticker": "000660.KS",
@@ -4574,7 +4574,7 @@
     "signals": [
       {
         "ticker": "software",
-        "signal": "AZURE BLOWOUT: MSFT Q4 rev $90.01B, Azure +43% (accelerating from 40%), crosses $100B ARR; FY27 capex $175B; +8% AH \u2014 cleanest hyperscaler print vs META"
+        "signal": "AZURE BLOWOUT: MSFT Q4 rev $90.01B, Azure +43% (accelerating from 40%), crosses $100B ARR; FY27 capex $175B; +8% AH — cleanest hyperscaler print vs META"
       },
       {
         "ticker": "integration",
@@ -4582,11 +4582,11 @@
       },
       {
         "ticker": "hardware",
-        "signal": "VRT REV TIMING: rev miss but FY guide raised to $14B / $6.70; adj op margin +410bps to 22.6% \u2014 datacenter thermal/power demand intact under the top-line noise"
+        "signal": "VRT REV TIMING: rev miss but FY guide raised to $14B / $6.70; adj op margin +410bps to 22.6% — datacenter thermal/power demand intact under the top-line noise"
       },
       {
         "ticker": "policy",
-        "signal": "HAWKISH HOLD: FOMC 9-3 with 3 dissenters wanting HIKE (most since Sep 2016); Warsh terser statement; no cut priced \u2014 rate-sensitive AI infra on watch"
+        "signal": "HAWKISH HOLD: FOMC 9-3 with 3 dissenters wanting HIKE (most since Sep 2016); Warsh terser statement; no cut priced — rate-sensitive AI infra on watch"
       },
       {
         "ticker": "finance",
@@ -4601,7 +4601,7 @@
         "signal": "ASIA CHIP TAPE: Kioxia +7.5% rebound overnight, SK hynix -~6% again, Samsung -1.2%; KOSPI avoids 3rd circuit-breaker; SMH still in bear-market territory (>-19% MTD)"
       }
     ],
-    "top_headlines": "MSFT Q4 blowout \u2014 Azure +43%, crosses $100B ARR, +8% AH \u00b7 META Q2 EPS miss + $130-145B capex raise, FCF $784M, -~10% AH \u00b7 VRT rev miss but FY guide raised \u00b7 FOMC holds 3.5-3.75% with 3 hawkish dissenters (most since 2016) \u00b7 AMZN/AAPL/RDDT report tonight \u00b7 NVDA CDS record on $750B customer-financing scrutiny",
+    "top_headlines": "MSFT Q4 blowout — Azure +43%, crosses $100B ARR, +8% AH · META Q2 EPS miss + $130-145B capex raise, FCF $784M, -~10% AH · VRT rev miss but FY guide raised · FOMC holds 3.5-3.75% with 3 hawkish dissenters (most since 2016) · AMZN/AAPL/RDDT report tonight · NVDA CDS record on $750B customer-financing scrutiny",
     "sectors": [
       "software",
       "hardware",
@@ -4622,12 +4622,12 @@
       {
         "ticker": "AAPL",
         "direction": "down",
-        "note": "-7.3% pre-mkt: beat Q3 but Q4 guide 9-11% vs 12% est on 'severe DRAM/NAND' + supply constraints + FX; JPM PT $345\u2192$340, MS $360"
+        "note": "-7.3% pre-mkt: beat Q3 but Q4 guide 9-11% vs 12% est on 'severe DRAM/NAND' + supply constraints + FX; JPM PT $345→$340, MS $360"
       },
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "SK hynix +29.95% daily limit \u2014 memory rout reverses on AAPL memory confirmation + AMZN AWS + Chey insider buy"
+        "note": "SK hynix +29.95% daily limit — memory rout reverses on AAPL memory confirmation + AMZN AWS + Chey insider buy"
       },
       {
         "ticker": "005930.KS",
@@ -4667,7 +4667,7 @@
       },
       {
         "ticker": "hardware",
-        "signal": "MEMORY REPRICING: AAPL CFO calls out 'severe DRAM/NAND price inflation' + supply constraints as Q4 headwind \u2014 validation of HBM/DRAM tightness that had been the memory-rout bear case reversed"
+        "signal": "MEMORY REPRICING: AAPL CFO calls out 'severe DRAM/NAND price inflation' + supply constraints as Q4 headwind — validation of HBM/DRAM tightness that had been the memory-rout bear case reversed"
       },
       {
         "ticker": "hardware",
@@ -4675,15 +4675,15 @@
       },
       {
         "ticker": "hardware",
-        "signal": "AI POWER SILICON: MPWR record Q2 rev $980.6M (+47.6% YoY), Enterprise Data +164% YoY, Q3 guide 16.5% above est \u2014 direct read-through to NVDA GB200/GB300 volumes"
+        "signal": "AI POWER SILICON: MPWR record Q2 rev $980.6M (+47.6% YoY), Enterprise Data +164% YoY, Q3 guide 16.5% above est — direct read-through to NVDA GB200/GB300 volumes"
       },
       {
         "ticker": "hardware",
-        "signal": "ETN BEAT/RAISE: record $8.5B rev, Electrical Global backlog +103% YoY, FY organic raised to 11-13% \u2014 datacenter electrification demand intact after mixed VRT/GEV week"
+        "signal": "ETN BEAT/RAISE: record $8.5B rev, Electrical Global backlog +103% YoY, FY organic raised to 11-13% — datacenter electrification demand intact after mixed VRT/GEV week"
       },
       {
         "ticker": "finance",
-        "signal": "SELL-SIDE STAMPEDE: AMZN PTs GS $335\u2192$375, BofA $310\u2192$320, Citi $325\u2192$350, Barclays $365, Bernstein $315\u2192$320; AAPL cuts JPM $345\u2192$340, MS $360 \u2014 bifurcated hyperscaler tape"
+        "signal": "SELL-SIDE STAMPEDE: AMZN PTs GS $335→$375, BofA $310→$320, Citi $325→$350, Barclays $365, Bernstein $315→$320; AAPL cuts JPM $345→$340, MS $360 — bifurcated hyperscaler tape"
       },
       {
         "ticker": "energy",
@@ -4757,7 +4757,7 @@
       },
       {
         "ticker": "AMZN",
-        "signal": "$220B capex \u2014 capacity through 2028"
+        "signal": "$220B capex — capacity through 2028"
       },
       {
         "ticker": "KOREA",
@@ -4828,38 +4828,38 @@
       {
         "ticker": "ENR.DE",
         "direction": "neutral",
-        "note": "\u20ac153.38 close ahead of fiscal Q3 print Wed; guide already raised on grid/gas services strength"
+        "note": "€153.38 close ahead of fiscal Q3 print Wed; guide already raised on grid/gas services strength"
       },
       {
         "ticker": "NVDA",
         "direction": "neutral",
-        "note": "H200 China sales still capped at 25% tariff / 50% volume ceiling; H20 requires license \u2014 margin drag intact"
+        "note": "H200 China sales still capped at 25% tariff / 50% volume ceiling; H20 requires license — margin drag intact"
       }
     ],
     "signals": [
       {
         "ticker": "software",
-        "signal": "PLTR BLOWOUT: Q2 rev +93%, US commercial +149%, FY guide raised $500M+, +15% pre-mkt; PT hikes to $245 (Citi), $230 (Wedbush), DB upgrade to Buy \u2014 'sovereign AI' thesis validated"
+        "signal": "PLTR BLOWOUT: Q2 rev +93%, US commercial +149%, FY guide raised $500M+, +15% pre-mkt; PT hikes to $245 (Citi), $230 (Wedbush), DB upgrade to Buy — 'sovereign AI' thesis validated"
       },
       {
         "ticker": "integration",
-        "signal": "CAT DATACENTER PRINT: EPS $8.17 vs $6.17 est, revenue +24%, backlog record $72B on standby/prime-power gensets \u2014 cleanest datacenter-buildout read-through of the season"
+        "signal": "CAT DATACENTER PRINT: EPS $8.17 vs $6.17 est, revenue +24%, backlog record $72B on standby/prime-power gensets — cleanest datacenter-buildout read-through of the season"
       },
       {
         "ticker": "hardware",
-        "signal": "AMD PRINT TONIGHT: guide $11.2B \u00b1$300M; MI350 volume + first Helios rack orders the swing factors after AMZN AWS +37% and MU/SK hynix memory tightness signal"
+        "signal": "AMD PRINT TONIGHT: guide $11.2B ±$300M; MI350 volume + first Helios rack orders the swing factors after AMZN AWS +37% and MU/SK hynix memory tightness signal"
       },
       {
         "ticker": "integration",
-        "signal": "AMZN CAPEX RAISE: 2026 cash capex to ~$220B on memory inflation; RPO $496B; capacity-constrained through 2028 \u2014 durable pull-through to hyperscaler power + electrical + memory"
+        "signal": "AMZN CAPEX RAISE: 2026 cash capex to ~$220B on memory inflation; RPO $496B; capacity-constrained through 2028 — durable pull-through to hyperscaler power + electrical + memory"
       },
       {
         "ticker": "energy",
-        "signal": "GEV TURBINE TAPE: backlog 116 GW (+16 GW QoQ), $2.7B Q2 datacenter Electrification, ~20% of turbine buyers now datacenter operators \u2014 'gas turbine as datacenter primary power' quantified"
+        "signal": "GEV TURBINE TAPE: backlog 116 GW (+16 GW QoQ), $2.7B Q2 datacenter Electrification, ~20% of turbine buyers now datacenter operators — 'gas turbine as datacenter primary power' quantified"
       },
       {
         "ticker": "policy",
-        "signal": "BIS H200/MI325X REGIME: case-by-case + 25% tariff + 50% volume cap holds; H20 still license-required \u2014 China rev capture faces ~25% margin drag and half-US volume ceiling"
+        "signal": "BIS H200/MI325X REGIME: case-by-case + 25% tariff + 50% volume cap holds; H20 still license-required — China rev capture faces ~25% margin drag and half-US volume ceiling"
       },
       {
         "ticker": "hardware",
@@ -4879,12 +4879,12 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Record fiscal Q3: EPS \u20ac1.28 vs \u20ac1.16 est, rev \u20ac11.4B (record), orders \u20ac17.9B (record), Gamesa first profit since FY22 Q4; FY26 14-16% growth reaffirmed"
+        "note": "Record fiscal Q3: EPS €1.28 vs €1.16 est, rev €11.4B (record), orders €17.9B (record), Gamesa first profit since FY22 Q4; FY26 14-16% growth reaffirmed"
       },
       {
         "ticker": "PLTR",
         "direction": "down",
-        "note": "-2% overnight after Tuesday's +29.5% pop; UBS PT $200\u2192$220, Citi/Wedbush/DA Davidson reiterate; 'weakens bear case on AI competition'"
+        "note": "-2% overnight after Tuesday's +29.5% pop; UBS PT $200→$220, Citi/Wedbush/DA Davidson reiterate; 'weakens bear case on AI competition'"
       },
       {
         "ticker": "005930.KS",
@@ -4915,15 +4915,15 @@
     "signals": [
       {
         "ticker": "hardware",
-        "signal": "AMD BEATS BUT SELLS OFF: Q2 rev $11.54B (+50%), DC $6.7B (+107%), Q3 guide $13B ahead of Street \u2014 but stock -8% AH as market priced bigger Helios; OpenAI 6GW / Anthropic 2GW / Meta / Oracle initial Helios customers, first ship this qtr"
+        "signal": "AMD BEATS BUT SELLS OFF: Q2 rev $11.54B (+50%), DC $6.7B (+107%), Q3 guide $13B ahead of Street — but stock -8% AH as market priced bigger Helios; OpenAI 6GW / Anthropic 2GW / Meta / Oracle initial Helios customers, first ship this qtr"
       },
       {
         "ticker": "energy",
-        "signal": "SIEMENS ENERGY RECORD Q3: EPS \u20ac1.28 vs \u20ac1.16 est, rev \u20ac11.4B (record), orders \u20ac17.9B (record), Gamesa first profit since Q4 FY22; FY26 14-16% comp rev growth reaffirmed \u2014 datacenter-power capex thesis validated"
+        "signal": "SIEMENS ENERGY RECORD Q3: EPS €1.28 vs €1.16 est, rev €11.4B (record), orders €17.9B (record), Gamesa first profit since Q4 FY22; FY26 14-16% comp rev growth reaffirmed — datacenter-power capex thesis validated"
       },
       {
         "ticker": "software",
-        "signal": "PLTR ANALYST PILE-ON: UBS PT $200\u2192$220, Citi $245 / Wedbush $230 / DA Davidson $200 reiterate post-blowout; -2% overnight retrace after Tue +29.5% pop; 'weakens bear case on AI competition'"
+        "signal": "PLTR ANALYST PILE-ON: UBS PT $200→$220, Citi $245 / Wedbush $230 / DA Davidson $200 reiterate post-blowout; -2% overnight retrace after Tue +29.5% pop; 'weakens bear case on AI competition'"
       },
       {
         "ticker": "hardware",
@@ -4935,7 +4935,7 @@
       },
       {
         "ticker": "policy",
-        "signal": "H200 CHINA UPTAKE UNDERWHELMS: Commerce told Congress July 14 that shipments to China 'very few' despite ~$10B in approved BIS licenses \u2014 CXMT DRAM share ~8% (from 3% YA), domestic accel picks up"
+        "signal": "H200 CHINA UPTAKE UNDERWHELMS: Commerce told Congress July 14 that shipments to China 'very few' despite ~$10B in approved BIS licenses — CXMT DRAM share ~8% (from 3% YA), domestic accel picks up"
       }
     ],
     "file": "morning-news/2026-08-05.html"
@@ -4956,12 +4956,12 @@
       {
         "ticker": "OKLO",
         "direction": "up",
-        "note": "Groves Isotope Test Reactor reached criticality (DOE Aug 6) \u2014 first operational advanced-reactor milestone; de-risks Aurora timeline"
+        "note": "Groves Isotope Test Reactor reached criticality (DOE Aug 6) — first operational advanced-reactor milestone; de-risks Aurora timeline"
       },
       {
         "ticker": "SNDK",
         "direction": "up",
-        "note": "Q4 rev $8.97B (+372% YoY), gross margin 84.6%, 2/3 of QoQ growth = pricing; Q1 FY27 guide $10.3-10.8B \u2014 memory pricing supercycle intact"
+        "note": "Q4 rev $8.97B (+372% YoY), gross margin 84.6%, 2/3 of QoQ growth = pricing; Q1 FY27 guide $10.3-10.8B — memory pricing supercycle intact"
       },
       {
         "ticker": "DDOG",
@@ -4971,12 +4971,12 @@
       {
         "ticker": "9984.T",
         "direction": "up",
-        "note": "SoftBank Q1 FY27: rev \u00a51.815T +9% YoY; ARM AGI CPU orders >$2B (vs orig ~$1B FY26+FY27); AI segment +30% CAGR guide"
+        "note": "SoftBank Q1 FY27: rev ¥1.815T +9% YoY; ARM AGI CPU orders >$2B (vs orig ~$1B FY26+FY27); AI segment +30% CAGR guide"
       },
       {
         "ticker": "PLTR",
         "direction": "neutral",
-        "note": "Analyst pile-on continues: Cantor $138\u2192$156 (Neutral); 20 analysts Buy consensus post +29.5% Tue"
+        "note": "Analyst pile-on continues: Cantor $138→$156 (Neutral); 20 analysts Buy consensus post +29.5% Tue"
       },
       {
         "ticker": "NVDA",
@@ -4997,23 +4997,23 @@
     "signals": [
       {
         "ticker": "energy",
-        "signal": "CEG BEAT + PPA BOOK: Q2 beat, FY26 EPS guide raised to $11.50-$12.50, +920 MW new long-term nuclear PPAs signed with investment-grade customers \u2014 nuclear-datacenter thesis compounds; +6.5% pre-mkt"
+        "signal": "CEG BEAT + PPA BOOK: Q2 beat, FY26 EPS guide raised to $11.50-$12.50, +920 MW new long-term nuclear PPAs signed with investment-grade customers — nuclear-datacenter thesis compounds; +6.5% pre-mkt"
       },
       {
         "ticker": "energy",
-        "signal": "TLN RAISES 26/27/28: $374M Q2 adj EBITDA, Cornerstone gas acquisition closes (+2.6 GW), AWS Susquehanna PPA ~$18B revenue thru 2042 \u2014 cleanest nuclear-scarcity-meets-datacenter pure-play read"
+        "signal": "TLN RAISES 26/27/28: $374M Q2 adj EBITDA, Cornerstone gas acquisition closes (+2.6 GW), AWS Susquehanna PPA ~$18B revenue thru 2042 — cleanest nuclear-scarcity-meets-datacenter pure-play read"
       },
       {
         "ticker": "energy",
-        "signal": "OKLO CRITICALITY: Groves Isotope Test Reactor reached self-sustaining chain reaction (DOE Aug 6) \u2014 first operational SMR/advanced-reactor milestone; de-risks commercialization timeline ahead of Aurora COLA review"
+        "signal": "OKLO CRITICALITY: Groves Isotope Test Reactor reached self-sustaining chain reaction (DOE Aug 6) — first operational SMR/advanced-reactor milestone; de-risks commercialization timeline ahead of Aurora COLA review"
       },
       {
         "ticker": "hardware",
-        "signal": "SNDK PRICING TELL: Q4 rev +372% YoY / +51% QoQ with 2/3 of sequential growth from pricing not volume, gross margin 84.6% record \u2014 NAND/DRAM/HBM supply-constrained-through-2028 framework intact; positive read-through MU/000660.KS/005930.KS"
+        "signal": "SNDK PRICING TELL: Q4 rev +372% YoY / +51% QoQ with 2/3 of sequential growth from pricing not volume, gross margin 84.6% record — NAND/DRAM/HBM supply-constrained-through-2028 framework intact; positive read-through MU/000660.KS/005930.KS"
       },
       {
         "ticker": "software",
-        "signal": "DDOG -20% DESPITE BEAT+RAISE: Q3 revenue guide implies decel; largest single-day drop on record \u2014 pocket software multiple compression, not a datacenter-demand read"
+        "signal": "DDOG -20% DESPITE BEAT+RAISE: Q3 revenue guide implies decel; largest single-day drop on record — pocket software multiple compression, not a datacenter-demand read"
       },
       {
         "ticker": "hardware",
@@ -5052,17 +5052,17 @@
       {
         "ticker": "PWR",
         "direction": "up",
-        "note": "Upgraded to Overweight at KeyBanc $807 PT \u2014 utility+datacenter EPC bellwether (record $48.5B backlog); positive read-through GEV/ETN/VRT"
+        "note": "Upgraded to Overweight at KeyBanc $807 PT — utility+datacenter EPC bellwether (record $48.5B backlog); positive read-through GEV/ETN/VRT"
       },
       {
         "ticker": "TSEM",
         "direction": "up",
-        "note": "Initiated Buy at BofA, $367 PT \u2014 specialty foundry re-rating; positive read GFS/UMC/AMKR/ASE"
+        "note": "Initiated Buy at BofA, $367 PT — specialty foundry re-rating; positive read GFS/UMC/AMKR/ASE"
       },
       {
         "ticker": "macro",
         "direction": "up",
-        "note": "July NFP -23k vs +80k cons; May+June -103k rev; unemp 4.1% \u2014 Sep Fed hike odds cut to 43.9% from 57%; futures S&P +0.3%, Nasdaq +0.9%"
+        "note": "July NFP -23k vs +80k cons; May+June -103k rev; unemp 4.1% — Sep Fed hike odds cut to 43.9% from 57%; futures S&P +0.3%, Nasdaq +0.9%"
       },
       {
         "ticker": "CEG",
@@ -5072,42 +5072,42 @@
       {
         "ticker": "TTWO",
         "direction": "neutral",
-        "note": "Q1 FY27 tonight AMC \u2014 first GTA VI pre-order window disclosure; not in tracked universe but signals broader consumer strength"
+        "note": "Q1 FY27 tonight AMC — first GTA VI pre-order window disclosure; not in tracked universe but signals broader consumer strength"
       },
       {
         "ticker": "CRWV",
         "direction": "neutral",
-        "note": "Q2 print Aug 11 AMC \u2014 cons rev $2.56B (+108% YoY); watch for margin trajectory + 1.7 GW year-end power target"
+        "note": "Q2 print Aug 11 AMC — cons rev $2.56B (+108% YoY); watch for margin trajectory + 1.7 GW year-end power target"
       }
     ],
     "signals": [
       {
         "ticker": "macro",
-        "signal": "JOBS SHOCK: NFP -23k vs +80k, May/Jun -103k rev, unemp 4.1% \u2014 Sep hike odds to 43.9% (from 57%), hold odds 60.4% (from 43.2%); futures S&P +0.3%, Nasdaq +0.9%, Dow +0.1%"
+        "signal": "JOBS SHOCK: NFP -23k vs +80k, May/Jun -103k rev, unemp 4.1% — Sep hike odds to 43.9% (from 57%), hold odds 60.4% (from 43.2%); futures S&P +0.3%, Nasdaq +0.9%, Dow +0.1%"
       },
       {
         "ticker": "software",
-        "signal": "NET BLOWOUT: Q2 rev $696M beat $665M cons, +36% YoY (ACCELERATION from 32%), DBNR 120% +6pt YoY, 986 record LTM net adds >$100k, Q3 guide +2.1% above cons; +14.9% AH \u2014 agentic-AI pivot delivering; contrasts sharply with DDOG -20% Wed"
+        "signal": "NET BLOWOUT: Q2 rev $696M beat $665M cons, +36% YoY (ACCELERATION from 32%), DBNR 120% +6pt YoY, 986 record LTM net adds >$100k, Q3 guide +2.1% above cons; +14.9% AH — agentic-AI pivot delivering; contrasts sharply with DDOG -20% Wed"
       },
       {
         "ticker": "energy",
-        "signal": "VST Q2 SPLIT: adj EBITDA $1.77B beat +31% YoY on realized power+capacity, but $4.0B rev miss $5.46B on $472M non-cash mark-to-market hedge loss; FY26 EBITDA guide $6.8-7.6B intact \u2014 sell-side PT tape mixed (MS $208\u2192$212, BofA $202\u2192$196, UBS $233\u2192$227)"
+        "signal": "VST Q2 SPLIT: adj EBITDA $1.77B beat +31% YoY on realized power+capacity, but $4.0B rev miss $5.46B on $472M non-cash mark-to-market hedge loss; FY26 EBITDA guide $6.8-7.6B intact — sell-side PT tape mixed (MS $208→$212, BofA $202→$196, UBS $233→$227)"
       },
       {
         "ticker": "energy",
-        "signal": "NUCLEAR SPLIT: OKLO Q2 first commercial rev + Aurora-INL PDC NRC-approved + Aurora-Ohio 1.2 GW PJM interconnection filed (execution wins) vs SMR pre-revenue print $0.08M -99% YoY after Fluor RoPower FEED completion \u2014 regulatory momentum favors OKLO for now"
+        "signal": "NUCLEAR SPLIT: OKLO Q2 first commercial rev + Aurora-INL PDC NRC-approved + Aurora-Ohio 1.2 GW PJM interconnection filed (execution wins) vs SMR pre-revenue print $0.08M -99% YoY after Fluor RoPower FEED completion — regulatory momentum favors OKLO for now"
       },
       {
         "ticker": "integration",
-        "signal": "PWR UPGRADE: KeyBanc Sector Weight \u2192 Overweight $807 PT \u2014 utility+datacenter EPC bellwether at record $48.5B backlog; direct read-through to GEV (turbines/HVDC), ETN (DC orders +240% Q1), VRT (liquid cooling +30% Q1)"
+        "signal": "PWR UPGRADE: KeyBanc Sector Weight → Overweight $807 PT — utility+datacenter EPC bellwether at record $48.5B backlog; direct read-through to GEV (turbines/HVDC), ETN (DC orders +240% Q1), VRT (liquid cooling +30% Q1)"
       },
       {
         "ticker": "hardware",
-        "signal": "TSEM BofA INIT: Buy $367 PT \u2014 specialty foundry re-rating on datacenter power-mgmt / RF / optical demand; positive read-through GFS/UMC/AMKR/ASE (OSAT)"
+        "signal": "TSEM BofA INIT: Buy $367 PT — specialty foundry re-rating on datacenter power-mgmt / RF / optical demand; positive read-through GFS/UMC/AMKR/ASE (OSAT)"
       },
       {
         "ticker": "geopolitics",
-        "signal": "HORMUZ REMAINS CLOSED: since July 30 after June US-Iran deal broke down; ~20% global oil / 20% LNG at risk \u2014 supports sustained power-price premium (validates VST realization beat) and long-dated PPA thesis for CEG/TLN"
+        "signal": "HORMUZ REMAINS CLOSED: since July 30 after June US-Iran deal broke down; ~20% global oil / 20% LNG at risk — supports sustained power-price premium (validates VST realization beat) and long-dated PPA thesis for CEG/TLN"
       }
     ],
     "file": "morning-news/2026-08-07.html"
@@ -5123,7 +5123,7 @@
       {
         "ticker": "HPE",
         "direction": "up",
-        "note": "+6% pre-mkt: MS upgrade Equal-Weight \u2192 Overweight, PT $69 (~30% upside); AlphaWise survey \u2014 refresh + AI + Juniper synergy"
+        "note": "+6% pre-mkt: MS upgrade Equal-Weight → Overweight, PT $69 (~30% upside); AlphaWise survey — refresh + AI + Juniper synergy"
       },
       {
         "ticker": "CRWV",
@@ -5169,11 +5169,11 @@
     "signals": [
       {
         "ticker": "hardware",
-        "signal": "TSMC JULY RECORD: NT$467.58B ($14.5B) +44.7% YoY, +5.6% MoM \u2014 running ahead of raised FY26 >40% USD guide; HPC = 66% of Q2 mix; the cleanest single-print AI-demand tell into NVDA Aug 26"
+        "signal": "TSMC JULY RECORD: NT$467.58B ($14.5B) +44.7% YoY, +5.6% MoM — running ahead of raised FY26 >40% USD guide; HPC = 66% of Q2 mix; the cleanest single-print AI-demand tell into NVDA Aug 26"
       },
       {
         "ticker": "hardware",
-        "signal": "HPE MS UPGRADE: Equal-Weight \u2192 Overweight, PT $69 (~30% upside), +6% pre-mkt; 'we admit to having been on the wrong side of enterprise hardware'; positive read-through DELL / SMCI Q4 tomorrow"
+        "signal": "HPE MS UPGRADE: Equal-Weight → Overweight, PT $69 (~30% upside), +6% pre-mkt; 'we admit to having been on the wrong side of enterprise hardware'; positive read-through DELL / SMCI Q4 tomorrow"
       },
       {
         "ticker": "hardware",
@@ -5189,7 +5189,7 @@
       },
       {
         "ticker": "hardware",
-        "signal": "KOREA CONSOLIDATES: 005930.KS -0.43% / 000660.KS -0.14%; KOSPI +0.65% recovers dip; HBM3E\u2192HBM4 mainstream 2H26 per TrendForce; MU 15k wafer/mo HBM4 end-26 target intact"
+        "signal": "KOREA CONSOLIDATES: 005930.KS -0.43% / 000660.KS -0.14%; KOSPI +0.65% recovers dip; HBM3E→HBM4 mainstream 2H26 per TrendForce; MU 15k wafer/mo HBM4 end-26 target intact"
       },
       {
         "ticker": "finance",
@@ -5239,17 +5239,17 @@
       {
         "ticker": "JBL",
         "direction": "up",
-        "note": "UBS upgrades to Buy from Neutral \u2014 AI-server EMS proxy, echoes MS's HPE upgrade Mon"
+        "note": "UBS upgrades to Buy from Neutral — AI-server EMS proxy, echoes MS's HPE upgrade Mon"
       }
     ],
     "signals": [
       {
         "ticker": "integration",
-        "signal": "ANTHROPIC $9.1B / 20-YR / 191 MW at Riot Rockdale TX \u2014 bitcoin-miner\u2192AI-neocloud pivot validated; RIOT +20% pre-mkt; IREN/APLD/WULF sympathy bid; delivery phased 2027-mid-2028"
+        "signal": "ANTHROPIC $9.1B / 20-YR / 191 MW at Riot Rockdale TX — bitcoin-miner→AI-neocloud pivot validated; RIOT +20% pre-mkt; IREN/APLD/WULF sympathy bid; delivery phased 2027-mid-2028"
       },
       {
         "ticker": "hardware",
-        "signal": "TSMC + SONY $4.69B JV in Kumamoto: 'Advanced Vision Semiconductor Manufacturing' (Sony 62% / TSMC 38%); vol prod 2029; image sensors \u2260 AI direct but JASM footprint deepens"
+        "signal": "TSMC + SONY $4.69B JV in Kumamoto: 'Advanced Vision Semiconductor Manufacturing' (Sony 62% / TSMC 38%); vol prod 2029; image sensors ≠ AI direct but JASM footprint deepens"
       },
       {
         "ticker": "hardware",
@@ -5261,15 +5261,15 @@
       },
       {
         "ticker": "macro",
-        "signal": "TOMORROW: NBIS Q2 pre-open (Q1 +841% YoY / $33.59B RPO) + July CPI 8:30 ET (cons core 2.5% YoY \u2014 softer than yday 2.6%); hot >2.6% flips Sep hold odds"
+        "signal": "TOMORROW: NBIS Q2 pre-open (Q1 +841% YoY / $33.59B RPO) + July CPI 8:30 ET (cons core 2.5% YoY — softer than yday 2.6%); hot >2.6% flips Sep hold odds"
       },
       {
         "ticker": "finance",
-        "signal": "ANALYST DAY: JBL upgrade UBS Neutral\u2192Buy, FSLR init OP Baird, PDFS init OP Bernstein, LECO init Buy UBS; APP down BofA Buy\u2192Neutral, MNDY double-downgrade"
+        "signal": "ANALYST DAY: JBL upgrade UBS Neutral→Buy, FSLR init OP Baird, PDFS init OP Bernstein, LECO init Buy UBS; APP down BofA Buy→Neutral, MNDY double-downgrade"
       },
       {
         "ticker": "integration",
-        "signal": "ROCKDALE TX EMERGES as ~241 MW AI-power hub (AMD 50 MW + Anthropic 191 MW); ERCOT-vs-PJM interconnect-queue arbitrage tell \u2014 modestly negative for CEG/TLN pure-PJM concentration"
+        "signal": "ROCKDALE TX EMERGES as ~241 MW AI-power hub (AMD 50 MW + Anthropic 191 MW); ERCOT-vs-PJM interconnect-queue arbitrage tell — modestly negative for CEG/TLN pure-PJM concentration"
       }
     ],
     "file": "morning-news/2026-08-11.html"
@@ -5367,7 +5367,7 @@
       {
         "ticker": "NVDA",
         "direction": "up",
-        "note": "RTX PRO 6000 Blackwell +21% price hike to $16k (+87% vs launch) \u2014 pricing power intact"
+        "note": "RTX PRO 6000 Blackwell +21% price hike to $16k (+87% vs launch) — pricing power intact"
       },
       {
         "ticker": "005930.KS",
@@ -5387,25 +5387,25 @@
       {
         "ticker": "COHR",
         "direction": "up",
-        "note": "Q4 FY26 beat: rev $2.05B (+34%), EPS $1.74 \u2014 optical AI read-through positive for ANET/AVGO"
+        "note": "Q4 FY26 beat: rev $2.05B (+34%), EPS $1.74 — optical AI read-through positive for ANET/AVGO"
       }
     ],
     "signals": [
       {
         "ticker": "CSCO",
-        "signal": "AI orders $9.3B FY26 (4.5x Y/Y); FY27 hyperscaler AI rev target $7.5B \u2014 networking supercycle validated"
+        "signal": "AI orders $9.3B FY26 (4.5x Y/Y); FY27 hyperscaler AI rev target $7.5B — networking supercycle validated"
       },
       {
         "ticker": "hardware",
-        "signal": "COHR + CSCO tandem beats validate copper\u2192optical migration in AI datacenters"
+        "signal": "COHR + CSCO tandem beats validate copper→optical migration in AI datacenters"
       },
       {
         "ticker": "AMAT",
-        "signal": "Q3 FY26 tonight AMC \u2014 key tell for HBM/logic capex trajectory + China exposure post-BIS Jan rules"
+        "signal": "Q3 FY26 tonight AMC — key tell for HBM/logic capex trajectory + China exposure post-BIS Jan rules"
       },
       {
         "ticker": "NVDA",
-        "signal": "Blackwell workstation +87% vs launch \u2014 cloud GPUs sold out, no near-term demand relief"
+        "signal": "Blackwell workstation +87% vs launch — cloud GPUs sold out, no near-term demand relief"
       },
       {
         "ticker": "hardware",
@@ -5417,7 +5417,7 @@
       },
       {
         "ticker": "CSCO",
-        "signal": "Margin guide 65-66% GM the pushback \u2014 hardware-heavy AI mix drags below consensus; watch AH read-through into VRT/APH open"
+        "signal": "Margin guide 65-66% GM the pushback — hardware-heavy AI mix drags below consensus; watch AH read-through into VRT/APH open"
       }
     ],
     "file": "morning-news/2026-08-13.html",
@@ -5454,7 +5454,7 @@
       {
         "ticker": "NVDA",
         "direction": "up",
-        "note": "Foxconn AI servers > iPhones \u2014 Blackwell rack ramp confirmed; SMIC hikes reinforce global fab pricing"
+        "note": "Foxconn AI servers > iPhones — Blackwell rack ramp confirmed; SMIC hikes reinforce global fab pricing"
       },
       {
         "ticker": "GOOGL",
@@ -5475,11 +5475,11 @@
     "signals": [
       {
         "ticker": "AMAT",
-        "signal": "record Q3 + Q4 guide $10.25B blows past $9.55B est; but China share 28% (from 35%) \u2014 stock -5% AH shows priced-for-perfection setup"
+        "signal": "record Q3 + Q4 guide $10.25B blows past $9.55B est; but China share 28% (from 35%) — stock -5% AH shows priced-for-perfection setup"
       },
       {
         "ticker": "hardware",
-        "signal": "SMIC Q2 tops $3B rev first time, raising Q3 wafer prices at 93.7% util \u2014 global fab pricing power intact, positive for TSM/UMC/GFS"
+        "signal": "SMIC Q2 tops $3B rev first time, raising Q3 wafer prices at 93.7% util — global fab pricing power intact, positive for TSM/UMC/GFS"
       },
       {
         "ticker": "integration",
@@ -5487,11 +5487,11 @@
       },
       {
         "ticker": "CSCO",
-        "signal": "5 PT raises, Rosenblatt Street-high $165 \u2014 networking supercycle framing intact after Q4 blowout"
+        "signal": "5 PT raises, Rosenblatt Street-high $165 — networking supercycle framing intact after Q4 blowout"
       },
       {
         "ticker": "software",
-        "signal": "Gemini 3.7 Flash live \u2014 cheaper coding; but 3.5 Pro delay means Google frontier cadence lags Anthropic/OpenAI"
+        "signal": "Gemini 3.7 Flash live — cheaper coding; but 3.5 Pro delay means Google frontier cadence lags Anthropic/OpenAI"
       },
       {
         "ticker": "macro",
@@ -5554,35 +5554,35 @@
     "signals": [
       {
         "ticker": "Anthropic",
-        "signal": "Q2 rev >$11.5B (14x Y/Y), first frontier lab with positive adj op income; $2T IPO target in October \u2014 MSFT/AMZN stakeholders benefit"
+        "signal": "Q2 rev >$11.5B (14x Y/Y), first frontier lab with positive adj op income; $2T IPO target in October — MSFT/AMZN stakeholders benefit"
       },
       {
         "ticker": "MU",
-        "signal": "New Street $1,250 Street-high PT (upgrade to Buy) \u2014 HBM 2027 capacity locked; pre-market cross of $1,000 first time since early July"
+        "signal": "New Street $1,250 Street-high PT (upgrade to Buy) — HBM 2027 capacity locked; pre-market cross of $1,000 first time since early July"
       },
       {
         "ticker": "AVGO",
-        "signal": "Off-balance-sheet AI lease guarantees flagged (up to $370B by mid-2029) + VMware vCenter CVE-2026-59310 actively exploited \u2014 twin negatives into Sept 2 print"
+        "signal": "Off-balance-sheet AI lease guarantees flagged (up to $370B by mid-2029) + VMware vCenter CVE-2026-59310 actively exploited — twin negatives into Sept 2 print"
       },
       {
         "ticker": "SNDK",
-        "signal": "+35% for the week on Investor Day FY28-30 targets + Kioxia Gen 9 flash \u2014 repricing as AI infra supplier"
+        "signal": "+35% for the week on Investor Day FY28-30 targets + Kioxia Gen 9 flash — repricing as AI infra supplier"
       },
       {
         "ticker": "hardware",
-        "signal": "Asia tech rallies \u2014 Hang Seng Tech +1.8%; Kospi CLOSED (Liberation Day), Samsung/SK Hynix untraded; China semis rotation extends"
+        "signal": "Asia tech rallies — Hang Seng Tech +1.8%; Kospi CLOSED (Liberation Day), Samsung/SK Hynix untraded; China semis rotation extends"
       },
       {
         "ticker": "finance",
-        "signal": "Powell Jackson Hole speech Fri Aug 22 \u2014 year's biggest macro pivot; FOMC minutes Wed; retail earnings week (WMT/TGT/HD/LOW)"
+        "signal": "Powell Jackson Hole speech Fri Aug 22 — year's biggest macro pivot; FOMC minutes Wed; retail earnings week (WMT/TGT/HD/LOW)"
       },
       {
         "ticker": "software",
-        "signal": "Stripe/OpenRouter $7B+ deal (Aug 16) \u2014 AI-gateway routing now payments-grade primitive; 5.4x markup in 3 months"
+        "signal": "Stripe/OpenRouter $7B+ deal (Aug 16) — AI-gateway routing now payments-grade primitive; 5.4x markup in 3 months"
       },
       {
         "ticker": "BE",
-        "signal": "FY26 rev guide raise + Nebius 300MW NJ fuel-cell win \u2014 fuel cells validated as primary datacenter power"
+        "signal": "FY26 rev guide raise + Nebius 300MW NJ fuel-cell win — fuel cells validated as primary datacenter power"
       }
     ],
     "file": "morning-news/2026-08-17.html"
@@ -5663,7 +5663,7 @@
       {
         "ticker": "ENR.DE",
         "direction": "up",
-        "note": "Grid backlog record 51B EUR; US datacenter transformer demand holds \u2014 GEV/ETN/ABB positive read"
+        "note": "Grid backlog record 51B EUR; US datacenter transformer demand holds — GEV/ETN/ABB positive read"
       },
       {
         "ticker": "MSFT",
@@ -5684,7 +5684,7 @@
     "signals": [
       {
         "ticker": "integration",
-        "signal": "Nvidia OpenAI Ohio guarantee $105B (scaled back from $250B) \u2014 circular-financing debate intact but visibility through 2028"
+        "signal": "Nvidia OpenAI Ohio guarantee $105B (scaled back from $250B) — circular-financing debate intact but visibility through 2028"
       },
       {
         "ticker": "hardware",
@@ -5700,7 +5700,7 @@
       },
       {
         "ticker": "software",
-        "signal": "Cantor PANW $425 PT \u2014 cyber platformization + identity via CyberArk is the sell-side thesis of the week"
+        "signal": "Cantor PANW $425 PT — cyber platformization + identity via CyberArk is the sell-side thesis of the week"
       }
     ],
     "file": "morning-news/2026-08-19.html"
@@ -5752,7 +5752,7 @@
     "signals": [
       {
         "ticker": "000660.KS/005930.KS",
-        "signal": "HBM cash-flow monetization \u2014 Korean incumbents both signal record capital returns"
+        "signal": "HBM cash-flow monetization — Korean incumbents both signal record capital returns"
       },
       {
         "ticker": "HD/TGT/WMT",
@@ -5764,7 +5764,7 @@
       },
       {
         "ticker": "NVDA",
-        "signal": "Countdown to Aug 26 \u2014 power/HBM/optical read-through mostly constructive"
+        "signal": "Countdown to Aug 26 — power/HBM/optical read-through mostly constructive"
       }
     ],
     "file": "morning-news/2026-08-20.html"
@@ -5780,12 +5780,12 @@
       {
         "ticker": "NVDA",
         "direction": "up",
-        "note": "Wolfe top pick into Aug 26 print; Oppenheimer PT $235\u2192$350"
+        "note": "Wolfe top pick into Aug 26 print; Oppenheimer PT $235→$350"
       },
       {
         "ticker": "AMD",
         "direction": "up",
-        "note": "Rosenblatt PT $490\u2192$665; UBS Buy PT $700"
+        "note": "Rosenblatt PT $490→$665; UBS Buy PT $700"
       },
       {
         "ticker": "ADI",
@@ -5795,7 +5795,7 @@
       {
         "ticker": "BABA",
         "direction": "down",
-        "note": "Profit -75% on capex surge (+75%) to CNY 67.7B \u2014 bullish signal for AI infra vendors"
+        "note": "Profit -75% on capex surge (+75%) to CNY 67.7B — bullish signal for AI infra vendors"
       },
       {
         "ticker": "INTC",
@@ -5810,7 +5810,7 @@
       {
         "ticker": "CRM",
         "direction": "neutral",
-        "note": "Citi PT $187\u2192$204 (Neutral) into Aug 26 print"
+        "note": "Citi PT $187→$204 (Neutral) into Aug 26 print"
       },
       {
         "ticker": "VRT",
@@ -5844,7 +5844,7 @@
       {
         "ticker": "NVDA",
         "direction": "up",
-        "note": "Fiscal Q2 print Wed 8/26; whisper $95\u201398B"
+        "note": "Fiscal Q2 print Wed 8/26; whisper $95–98B"
       },
       {
         "ticker": "AVGO",
@@ -5908,7 +5908,7 @@
       {
         "ticker": "MU",
         "direction": "up",
-        "note": "Stifel PT $145\u2192$173"
+        "note": "Stifel PT $145→$173"
       },
       {
         "ticker": "ASML",
@@ -5977,12 +5977,12 @@
       {
         "ticker": "000660.KS",
         "direction": "up",
-        "note": "+0.66% \u2014 HBM proxy bid"
+        "note": "+0.66% — HBM proxy bid"
       },
       {
         "ticker": "OKLO",
         "direction": "up",
-        "note": "Groves test reactor first criticality in Texas \u2014 SMR execution proof"
+        "note": "Groves test reactor first criticality in Texas — SMR execution proof"
       },
       {
         "ticker": "CEG",
@@ -6008,7 +6008,7 @@
     "signals": [
       {
         "ticker": "NVDA",
-        "signal": "AMC print is the day \u2014 Q3 guide gates AI-capex sentiment through FOMC"
+        "signal": "AMC print is the day — Q3 guide gates AI-capex sentiment through FOMC"
       },
       {
         "ticker": "INTU/software",
@@ -6016,11 +6016,11 @@
       },
       {
         "ticker": "memory",
-        "signal": "Kospi rebound (Samsung +2.53%) + Vera Rubin >15% price hike traces to HBM cost \u2014 MU/HBM proxies bid"
+        "signal": "Kospi rebound (Samsung +2.53%) + Vera Rubin >15% price hike traces to HBM cost — MU/HBM proxies bid"
       },
       {
         "ticker": "energy",
-        "signal": "Oklo Groves criticality + UBS SEDG upgrade \u2014 SMR + solar both find bid; GEV/gas backlog still supported"
+        "signal": "Oklo Groves criticality + UBS SEDG upgrade — SMR + solar both find bid; GEV/gas backlog still supported"
       },
       {
         "ticker": "macro",
@@ -6786,5 +6786,101 @@
       }
     ],
     "file": "morning-news/2026-09-08.html"
+  },
+  {
+    "date": "2026-09-09",
+    "tickers": [
+      {
+        "ticker": "GOOGL",
+        "direction": "up",
+        "note": "€13B ($15.1B) Finland AI-infra investment + 22-yr Loviisa nuclear PPA - largest ever EU commitment"
+      },
+      {
+        "ticker": "VST",
+        "direction": "down",
+        "note": "Mixed shelf offering filed (common + preferred) + Barclays sector downgrade double whammy"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "neutral",
+        "note": "Barclays utilities sector Neutral offsets Google-Fortum nuclear-extension precedent (US read-through positive)"
+      },
+      {
+        "ticker": "NEE",
+        "direction": "down",
+        "note": "Caught in Barclays utility sector downgrade to Neutral from Positive"
+      },
+      {
+        "ticker": "AES",
+        "direction": "down",
+        "note": "Barclays sector cut hits rate-regulated AI-power beneficiaries"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "+7% Tuesday on short-covering / options gamma; no company catalyst; YTD -39%"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "up",
+        "note": "NuScale +13% Tuesday on same nuclear sector rotation; YTD -24%"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "Q1 FY27 print Thursday Sept 10 post-close; consensus $19.13B rev, options price ~11% move"
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "neutral",
+        "note": "'Surprise and Shine' iPhone 18 Pro / iPhone Ultra event 1pm ET - first Ternus event"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "neutral",
+        "note": "August monthly revenue print due tomorrow (Sept 10); prior +45% YoY"
+      },
+      {
+        "ticker": "GEV",
+        "direction": "neutral",
+        "note": "Q2 backlog 116 GW gas turbines, targeting 125 GW by YE - unchanged tailwind but caught in utility sector rotation"
+      },
+      {
+        "ticker": "SPX",
+        "direction": "down",
+        "note": "S&P futures -0.32%, Nasdaq -0.47% on Iran tanker strikes; Brent $99+; 10Y yield 4.82% (highest since 2023)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "10Y at 4.82% (highest since Oct-2023); Brent ~$100 on Iran tanker strikes; CPI Fri Sept 11"
+      },
+      {
+        "ticker": "NUCLEAR EU",
+        "signal": "Google-Fortum 22-yr Loviisa PPA = first Big-Tech European nuclear-extension deal; template for EDF/Fortum/ENGIE"
+      },
+      {
+        "ticker": "UTILITIES",
+        "signal": "Barclays cuts sector to Neutral from Positive - hits VST/CEG/NEE/AES; year-end SPX target raised to 7,950"
+      },
+      {
+        "ticker": "VST",
+        "signal": "Fresh mixed shelf (common+preferred) - dilution risk overhang near 200-day"
+      },
+      {
+        "ticker": "NUCLEAR US",
+        "signal": "OKLO +7% / SMR +13% Tuesday on short-covering + options gamma, no company catalyst; both deeply negative YTD"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "Thursday post-close print is week's biggest single-name catalyst - OCI, RPO conversion, capex"
+      },
+      {
+        "ticker": "AAPL/TSM",
+        "signal": "iPhone 18 Pro event today + TSM August revenue tomorrow = Apple silicon cycle catalyst pair"
+      }
+    ],
+    "file": "morning-news/2026-09-09.html"
   }
 ]

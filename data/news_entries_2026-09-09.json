@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-09",
+    "headline": "Google commits €13B ($15.1B) to Finland AI infrastructure with 22-year Loviisa nuclear PPA - first ex-US Google nuclear contract",
+    "summary": "Google announced its single largest European investment: at least €13B ($15.1B) into AI-optimized datacenters in Hamina, Kajaani, Muhos and Vaala across 2027-2028. Anchor deal is a 22-year life-extension PPA with Fortum's 1,020 MW Loviisa nuclear plant - Google's first nuclear contract outside the US and the extension that keeps Loviisa (10% of Finnish power) operating past 2030. Bundled with 629 MW of new onshore wind PPAs (Valorem, Suomen Hyotytuuli) and a 94 MW battery at Kajaani. Construction phase estimated to add ~€3.6B/yr to Finnish GDP and support 37,000 jobs.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Google Cloud Press Corner",
+    "source_url": "https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Barclays cuts US utilities sector (XLU) to Neutral from Positive, citing crowded positioning after 2026 outperformance",
+    "summary": "Barclays' equity strategy team downgraded the S&P Utilities sector rating to Neutral from Positive Wednesday, arguing valuations have caught up after utilities rerated on AI-power tailwinds. The call directly impacts nuclear-levered independent power producers (VST, CEG) and rate-regulated AI-power beneficiaries (NEE, AES). Barclays also lifted its S&P 500 year-end target to 7,950 from 7,800 - a defensive rotation call rather than a broad de-risking. Utility ETF XLU indicated -1% pre-market.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-09-2026/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Vistra files mixed shelf offering for common and preferred stock; size undisclosed",
+    "summary": "Vistra Corp. filed an automatic mixed shelf covering common stock and preferred stock with no dollar amount specified, giving the company flexibility to raise equity capital opportunistically. Shelf follows a year of aggressive nuclear/gas capacity buildouts (Meta PPA >2,600 MW, corporate power deals) and comes as VST trades below its 200-day MA. Filing coincided with the Barclays utilities-sector downgrade - shelf overhang could pressure shares in the near term though management retains discretion to activate.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-09-2026/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "US 10Y yield hits 4.82%, highest since 2023; Brent crude tops $99 on Iran tanker strikes; rate-sensitive AI-infra names on watch",
+    "summary": "Treasury yields extended the Labor Day back-up, with the 10Y printing 4.82% intraday - the highest level since October 2023 - as the market digests strong August payrolls and awaits Friday's CPI (consensus 3.4% headline). Brent crude spiked toward $100/bbl after US strikes on five Iranian tankers near Kharg Island; Tehran retaliated with ballistic missiles toward Jordan and threats to Persian Gulf shipping. Nasdaq 100 futures -0.47%, S&P 500 futures -0.32%. Long-duration AI plays (OKLO, SMR, PLTR, SNOW) and hyperscaler capex names most exposed to duration and energy-cost pass-through.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-09-2026/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Oracle Q1 FY27 preview: Street $19.13B rev / $1.30 EPS Thursday post-close; RPO conversion and OCI cadence are the print",
+    "summary": "Oracle reports fiscal Q1 2027 after the close Thursday Sept 10 (not Wednesday - some outlets initially miscalendared). Consensus: $19.13B revenue (+~28% YoY), $1.30 EPS (+18%). Focus: OCI growth vs. management's >92% FY27 guide, conversion cadence on record $638B RPO, and any color on debt issuance funding the buildout. Guggenheim called ORCL its 'best idea' at $400 PT; options price ~11% post-print move. Polymarket implies 83.5% odds of a beat.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/top-analysts-raise-oracle-stock-orcl-price-target-ahead-of-q1-earnings"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Apple 'Surprise and Shine' iPhone 18 Pro / iPhone Ultra foldable event today at 1pm ET - first event under CEO John Ternus",
+    "summary": "Apple's fall product event kicks off 10am PT / 1pm ET today from Apple Park. First event helmed by new CEO John Ternus (took over Sept 1). Expected: iPhone 18 Pro / Pro Max, foldable 'iPhone Ultra', Watch Series 12 (ceramic option), two AirPods 5 SKUs. Standard iPhone 18 held for spring 2027. Read-through for tracked names: TSMC (A20 Pro node), SK Hynix / Samsung / Micron (mobile DRAM - the same HBM4-wafer-diversion narrative from this week's KB note applies), Broadcom (5G/WiFi silicon), Amphenol (interconnect).",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "MacRumors",
+    "source_url": "https://www.macrumors.com/guide/apple-september-2026-what-to-expect/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "NuScale +13%, Oklo +7% Tuesday on nuclear-sector short-covering with no company catalyst - options positioning drove the pop",
+    "summary": "Tuesday Sept 8 saw NuScale (SMR) jump 13% and Oklo (OKLO) climb 7% on a broad SMR rotation with URA uranium ETF up 4%. Neither company issued fresh news - move was short-covering into thin books carrying big options gamma (SMR put/call 0.20, OKLO 0.29). Structural: NuScale is still the only NRC design-certified SMR (ENTRA1/TVA discussions ongoing); Oklo carries a ~14 GW pipeline (Switch 12 GW, Equinix 500 MW LOI with $25M prepayment). Both remain deeply negative YTD (SMR -24%, OKLO -39%) and remain at elevated duration risk into next week's FOMC.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/08/nuscale-power-spikes-13-oklo-climbs-7-is-the-nuclear-selloff-finally-exhausted/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Qualcomm upgraded to Strong Buy at CFRA on Snapdragon AI PC momentum and edge-inference share; QCOM read-through for MediaTek and Arm",
+    "summary": "CFRA lifted Qualcomm to Strong Buy Wednesday citing accelerating Snapdragon X and X2 AI-PC design wins, edge-inference share gains, and improving auto SoC visibility. QCOM is not a house-tracked ticker but the call is read-across for the on-device AI theme (marginal negative for datacenter GPU/ASIC demand at the low end, marginal positive for memory bit-shipment demand). Coincides with today's Apple event which will showcase competing Apple Silicon inference.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/09/here-are-tuesdays-top-wall-street-analyst-research-calls-abercrombie-fitch-affirm-holdings-eagle-materials-klarna-group-martin-marietta-materials-oklo-qualcomm-robinhood-markets-ul/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Fortum-Google Loviisa PPA validates Big Tech buying European nuclear extensions - precedent for CEG, EDF, ENGIE playbook",
+    "summary": "Beyond the headline $ figure, the structural signal from Google's Fortum deal is that hyperscalers are willing to underwrite European reactor life-extensions the way Amazon (Talen), Meta (Constellation, Vistra) and Microsoft (Constellation Crane restart) have done in the US. Fortum-Loviisa keeps 1,020 MW online past 2030. Constructive read-through for CEG in the US (still the deepest existing-fleet portfolio), plus signal to EU utilities (Fortum, EDF, ENGIE, Iberdrola) that AI-driven PPAs unlock capex that ratepayer economics alone could not.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "ESG Dive",
+    "source_url": "https://www.esgdive.com/news/google-commits-over-15b-to-ai-infrastructure-in-finland/829937/"
+  },
+  {
+    "date": "2026-09-09",
+    "headline": "Galaxy Digital secures 4.2 GW of conditional ERCOT classifications across five Texas datacenter projects",
+    "summary": "Galaxy Digital (GLXY) received conditional ERCOT classifications on five Texas datacenter projects totaling ~4.2 GW of connection capacity. ERCOT classification is a critical early step in the Texas interconnection queue - conditional status locks a queue position while transmission studies advance. Signal: Texas is absorbing significant hyperscaler-adjacent capacity outside of ERCOT's most congested nodes; read-through to VRT (grid-to-building interconnect exposure announced this week) and GEV/Siemens Energy (gas turbine off-take for baseload).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-09-2026/"
+  }
+]

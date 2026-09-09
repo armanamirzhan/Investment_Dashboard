@@ -4457,5 +4457,19 @@
     "signal_type": "momentum",
     "description": "Google-Fortum nuclear-extension playbook is a positive read-through: hyperscalers underwriting reactor life-extensions is now the template CEG's US fleet is best positioned to monetize. Offsets Barclays sector-level Neutral.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "CFO Jean Hu reiterated at Citi Global TMT Conference that the AI chip TAM could reach $2-3T by 2030 (up from prior $2T framing) and that AMD datacenter revenue is expected to more than double next year, with wafer/packaging/HBM supply tight. Stock extended gains, +3-6% intraday Wednesday on top of Tuesday conference reaction.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "Evercore ISI (Daryanani) raised PT to $650 from $575, keeping DELL as top pick, and laid out a bull-case path to $1,000/share on FY28 EPS potential above $40 (vs. Street ~$31) driven by neocloud/enterprise AI server demand and supply-chain positioning. Shares hit an all-time high, +4% intraday.",
+    "severity": "medium"
   }
 ]

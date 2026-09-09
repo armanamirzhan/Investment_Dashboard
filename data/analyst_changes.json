@@ -5128,5 +5128,23 @@
     "new_target": null,
     "old_rating": "Positive (sector)",
     "old_target": null
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "DELL",
+    "firm": "Evercore ISI",
+    "new_rating": "Outperform",
+    "new_target": 650,
+    "old_rating": "Outperform",
+    "old_target": 575
+  },
+  {
+    "date": "2026-09-09",
+    "ticker": "OKLO",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 55,
+    "old_rating": null,
+    "old_target": null
   }
 ]

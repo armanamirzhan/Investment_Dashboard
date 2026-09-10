@@ -5191,5 +5191,14 @@
     "new_target": 165,
     "old_rating": "Buy",
     "old_target": 155
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "XE",
+    "firm": "Piper Sandler",
+    "new_rating": "Sell",
+    "new_target": 9,
+    "old_rating": null,
+    "old_target": null
   }
 ]

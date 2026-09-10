@@ -4499,5 +4499,19 @@
     "signal_type": "momentum",
     "description": "Piper Sandler Overweight $300 PT + GB300 large-scale shipments beginning this month + 129% Y/Y unit growth trajectory. HBM4/CoWoS supply-chain tightening supports pricing.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "XE",
+    "signal_type": "overvalued",
+    "description": "Piper Sandler initiated X-energy at Sell, $9 PT (vs $16.42 close) - first bearish call on the advanced-nuclear cohort. Thesis: asset-light reactor model leaves customers more exposed to technology/project risk than Oklo's build-own-operate approach. Stock -5% intraday alongside Oklo and NuScale despite Oklo getting an opposing Buy initiation from the same analyst (Dimple Gosai) - investors reading the bearish X-energy thesis as read-through for the group.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "SMR",
+    "signal_type": "momentum",
+    "description": "NuScale -5% intraday, dragged down with Oklo/X-energy on Piper Sandler's advanced-nuclear coverage initiation even though Piper did not assign SMR its own rating in the note. Sector ETF URA -3% vs SPY -0.5%, confirming nuclear-specific selling rather than broad market weakness. Contrasts with the +13% short-covering spike logged 2026-09-09 - no fresh company-specific news, purely sector-sentiment driven.",
+    "severity": "low"
   }
 ]

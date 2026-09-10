@@ -4471,5 +4471,33 @@
     "signal_type": "momentum",
     "description": "Evercore ISI (Daryanani) raised PT to $650 from $575, keeping DELL as top pick, and laid out a bull-case path to $1,000/share on FY28 EPS potential above $40 (vs. Street ~$31) driven by neocloud/enterprise AI server demand and supply-chain positioning. Shares hit an all-time high, +4% intraday.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 OCI +~55% beat both Street ($5.72B est vs $5.79B print) and top of mgmt's 58-64% guide; RPO/pipeline commentary implies $18B->$144B OCI trajectory across next 5 fiscal years. Options had priced 11% move; stock modestly higher after-hours.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "META",
+    "signal_type": "momentum",
+    "description": "JPMorgan Overweight upgrade + Muse AI agent hitting #3 in App Store at 10x training-cohort usage. >90% of sell-side now at Buy with 25% upside to $820 JPM PT.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Piper Sandler initiation with $600 PT sits materially above street; models 50% revenue CAGR and 65% EPS CAGR to FY30 ($53 EPS power). Combined with prior Samsung HBM4/MI455X deal, sets up positive re-rating catalyst.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Piper Sandler Overweight $300 PT + GB300 large-scale shipments beginning this month + 129% Y/Y unit growth trajectory. HBM4/CoWoS supply-chain tightening supports pricing.",
+    "severity": "medium"
   }
 ]

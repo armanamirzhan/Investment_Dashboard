@@ -5146,5 +5146,50 @@
     "new_target": 55,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "META",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 820,
+    "old_rating": "Neutral",
+    "old_target": 640
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "NVDA",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 300,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "AMD",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 600,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "005930.KS",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 245,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-10",
+    "ticker": "CRWV",
+    "firm": "Truist",
+    "new_rating": "Buy",
+    "new_target": 165,
+    "old_rating": "Buy",
+    "old_target": 155
   }
 ]

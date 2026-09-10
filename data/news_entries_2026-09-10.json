@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-10",
+    "headline": "Oracle Q1 FY27 crushes: OCI +55%, RPO reportedly north of $500B; stock jumps in after-hours after $19B+ revenue print",
+    "summary": "Oracle reported fiscal Q1 2027 results after the close Wednesday Sept 10. Cloud Infrastructure revenue printed $5.79B (Street $5.72B) with growth in the mid-50s%, above the top end of management's 58-64% USD guide, while total revenue landed in-line-to-slightly-ahead of the $19.13B consensus with EPS ~$1.74. The narrative print: RPO conversion and pipeline commentary from CEO Safra Catz that Oracle expects OCI to reach $18B this fiscal year and then scale to $32B, $73B, $114B, $144B over the following four years - much of it already booked into RPO. Multi-billion-dollar contracts signed in the quarter with OpenAI, xAI, Meta, Nvidia and AMD. Stock modestly higher after-hours despite the options-implied ~11% move; Guggenheim's $400 'best idea' PT looks vindicated on OCI cadence.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Investor.com / TipRanks",
+    "source_url": "https://www.tipranks.com/news/orcl-earnings-oracle-rises-after-beating-estimates"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "JPMorgan upgrades Meta to Overweight, PT $820 (from $640) - Muse AI agent hits #3 in App Store at 10x training-cohort usage",
+    "summary": "JPMorgan's Douglas Anmuth upgraded META to Overweight from Neutral and raised the price target to $820 (+25% upside from Wed close), citing Meta's improving AI position following the launch of the Muse consumer AI agent and expansion of the Meta Model API. Muse hit #3 in the US App Store on its second day with early usage running ~10x the training cohorts. Post-upgrade, >90% of sell-side analysts tracked by Bloomberg now rate Meta a Buy with none at Sell. The call reinforces the sell-side pivot toward Meta as the consumer-AI monetization leader, alongside its 6.6 GW nuclear PPA stack (Oklo, Vistra, TerraPower, Constellation).",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "CNBC / Bloomberg",
+    "source_url": "https://www.cnbc.com/2026/09/10/jpmorgan-upgrades-meta-after-companys-recent-ai-product-announcements.html"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Piper Sandler initiates NVDA Overweight $300 PT and AMD Overweight $600 PT, citing 'insatiable' AI compute demand through 2030",
+    "summary": "Piper Sandler launched coverage on the two AI-compute leaders with matching Overweight ratings. NVDA gets a $300 target on 47% revenue CAGR through fiscal 2030 and $30 EPS power, anchored on 80% AI compute share and 50% unit share. AMD gets a $600 target on 50% revenue CAGR / 65% EPS CAGR through fiscal 2030 to $53 EPS by 2030, with the target set at 24x FY28 estimated P/E. The initiation frames AI compute as a decade-long 'insatiable demand' cycle and positions both names as top picks - notable that Piper's AMD PT sits well above current sell-side consensus.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC / Investing.com",
+    "source_url": "https://www.cnbc.com/2026/09/10/piper-sandler-says-these-compute-stocks-will-benefit-from-high-demand.html"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "JPMorgan initiates SK Hynix Overweight, $245 PT on HBM4 leadership and NVIDIA Rubin ramp",
+    "summary": "JPMorgan launched coverage on SK Hynix (005930.KS US ADR / SKHY) with an Overweight rating and $245 price target. The call cites SK Hynix's HBM4 leadership - the company demonstrated HBM4 and HBM3E products at NVIDIA GTC 2026 alongside SOCAMM2 and liquid-cooled eSSD - and expected ramp into Vera Rubin platform shipments in H2 2026. HBM pricing remains firm as NVIDIA GB300 large-scale shipments accelerate this month, with GB300 unit shipments tracked to grow 129% Y/Y in 2026 per supply-chain checks. Read-through positive for Samsung (005930.KS) which is Samsung's HBM4 counterparty with AMD for MI455X.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St. / JPMorgan Research",
+    "source_url": "https://247wallst.com/investing/2026/09/10/here-are-thursdays-top-wall-street-analyst-research-calls-advanced-micro-devices-amgen-anglogold-ashanti-caterpillar-chewy-meta-platforms-novartis-nvidia-sk-hynix-and-more/"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "NVIDIA GB300 'Blackwell Ultra' rack-scale shipments begin at scale this month - 129% Y/Y unit growth tracked into 2026",
+    "summary": "Large-scale shipments of NVIDIA GB300 (Blackwell Ultra) AI servers are beginning this month per supply-chain checks, with design changes easing prior coolant-leak pressures that plagued GB200. Analysts model GB300 unit shipments up 129% Y/Y in 2026 as yields improve and hyperscaler demand accelerates. Positive read-through for the rack integrators (Foxconn, Wistron, plus tracked names DELL, HPE, SMCI, CLS), liquid cooling (VRT, custom cold plates), HBM4 memory (SK Hynix, Samsung), advanced packaging (TSM CoWoS), and networking (ANET). GB200 demand described as 'robust' through the transition despite prior leak reports.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Tom's Hardware",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/large-scale-shipments-of-nvidia-gb300-servers-tipped-to-start-in-september-gb200-demand-remains-robust-despite-widespread-coolant-leak-reports"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Apple unveils foldable iPhone Duo, iPhone 18 Pro / Pro Max at Ternus's debut keynote - no material AI-infrastructure catalyst, TSMC/Broadcom read-through only",
+    "summary": "Apple held its 'Surprise and Shine' event Tuesday Sept 9 - the first keynote under new CEO John Ternus, who succeeded Tim Cook on Sept 1. Announcements: foldable iPhone Duo (7.6-inch display, 80% larger than iPhone 18 Pro), iPhone 18 Pro / Pro Max with variable-aperture camera, AirPods 5, Apple Watch Series 12 and Ultra 4. Read-through for the tracked landscape is limited: modest incremental volumes for TSMC (Apple silicon 2nm ramp) and Broadcom (AVGO 5G/Wi-Fi content). No direct AI-datacenter capex catalyst. Apple Intelligence updates were incremental; no on-device model refresh disclosed.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "CNN Business",
+    "source_url": "https://www.cnn.com/2026/09/09/business/live-news/apple-event-foldable-iphone-ternus"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Broadcom targets $115B AI revenue in FY27, doubling to $230B in FY28; Google Ironwood TPU shipments to Anthropic ramp accelerates",
+    "summary": "Following AVGO's Q3 FY26 print last Thursday ($29.6B revenue, $16.7B AI segment +221% Y/Y), CEO Hock Tan's disclosure that Broadcom targets doubling AI revenue to ~$115B in FY27 and again to ~$230B in FY28 is reverberating through the sell-side this week. Custom silicon momentum: Broadcom will ship Google Ironwood TPUs to Anthropic and TPU 8i chips to Google - 'tens of billions of dollars of processors to Google each year for the next several years.' Custom OpenAI 'Jalapeno' chip disclosed as an incremental design win. Read-through: positive for AVGO custom-silicon narrative vs. NVDA merchant GPU, tightens the hyperscaler ASIC displacement thesis.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Broadcom Q3 FY26 call / 24/7 Wall St.",
+    "source_url": "https://247wallst.com/cards/broadcom-q3-2026-earnings-avgo-01m1hx207g9d64z38jwrpy5fdm"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Truist lifts CoreWeave (CRWV) PT to $165 from $155, reiterates Buy on Q2 pricing power and $104B backlog",
+    "summary": "Truist raised its CoreWeave price target to $165 (from $155) with a Buy rating, citing improved pricing and contract terms flowing through to margins in the back half of 2026. CRWV Q2 revenue was $2.58B vs $1.21B prior-year with a $104.2B contracted backlog - a figure that exceeds market cap and reflects multi-year take-or-pay arrangements with major AI/hyperscaler customers. Active datacenter capacity has scaled from ~70 MW at YE2023 to ~1.5 GW at mid-2026, with management targeting >1.8 GW by year-end and 3.2 GW by YE2027. Financing overhang remains the debate - $35B of debt makes duration/rate sensitivity material.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "StocksToTrade / Truist Research",
+    "source_url": "https://stockstotrade.com/news/coreweave-inc-crwv-news-2026_09_08/"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "Schneider Electric and Siemens ship September Patch Tuesday - critical Modicon M580 auth bypass (CVE-2026-3869, CVSS 9.2) and datacenter management bugs",
+    "summary": "Schneider Electric published four new advisories and updated four others in the September 2026 ICS Patch Tuesday. Most severe is CVE-2026-3869, a critical authentication vulnerability in Modicon M580 controllers (CVSS 9.2). Additional high-severity fixes shipped for PowerLogic T300 and the EcoStruxure IT Data Center Expert platform - the latter is directly relevant to hyperscaler and colo operations. Siemens shipped parallel patches. Operational-risk item for tracked datacenter operators (EQIX, DLR) rather than an equity catalyst for Schneider (SU.PA) or Siemens Energy (ENR.DE), but worth flagging for the DCIM footprint.",
+    "sector": "hardware",
+    "sentiment": "neutral",
+    "source_name": "SecurityWeek",
+    "source_url": "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/"
+  },
+  {
+    "date": "2026-09-10",
+    "headline": "10Y yield holds ~4.82%, Brent ~$99, CPI Friday - duration-sensitive AI names (OKLO, SMR, PLTR, SNOW) still on watch",
+    "summary": "Rate/energy backdrop unchanged from Wednesday: US 10Y at ~4.82% (highest since October 2023), Brent crude ~$99 after Iran/US tanker exchange, S&P futures modestly firm pre-Oracle-halo. Friday's August CPI print (consensus 3.4% headline) is the next macro catalyst. Duration-sensitive long-dated AI plays (Oklo, NuScale, Palantir, Snowflake) and hyperscaler capex names remain most exposed to a hot CPI. Utility sector still absorbing Wednesday's Barclays sector downgrade - VST/CEG remain the marginal price takers.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investrade Morning Preview",
+    "source_url": "https://investrade.com/morning-preview-september-10-2026/"
+  }
+]

@@ -6952,5 +6952,77 @@
       "finance"
     ],
     "top_headlines": "Oracle OCI beat + META upgrade + GB300 ramp begins"
+  },
+  {
+    "date": "2026-09-11",
+    "tickers": [
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "Sell-side flood post-Q1 FY27: Barclays $250 (OW), MS $210, TD Cowen $240, Bernstein $325, Guggenheim $400; +7% pre-market on $30B new AI cloud bookings, RPO $664B"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "Commerce closes offshore-subsidiary loophole for Rubin/Blackwell exports to Chinese-HQ entities"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "down",
+        "note": "MI350x also subject to closed offshore-subsidiary licensing loophole"
+      },
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "NYT: in talks to lease up to $10B of AI datacenter capacity to Anthropic over two years"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Sympathy lift with Oracle print \u2014 AI cloud pricing/backlog narrative reinforced"
+      },
+      {
+        "ticker": "ADBE",
+        "direction": "down",
+        "note": "-5% AH on soft Q4 guide; AI-first ARR $650M growing 150%+ Y/Y is the peer signal"
+      },
+      {
+        "ticker": "VST",
+        "direction": "down",
+        "note": "Duration-sensitive; hotter core CPI raises rate-hike odds to ~90% for next week"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "down",
+        "note": "Pre-revenue nuclear \u2014 discount rate sensitivity into a hotter core CPI print"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "ORCL",
+        "signal": "earnings beat"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "legal risk"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "legal risk"
+      },
+      {
+        "ticker": "OKLO",
+        "signal": "overvalued"
+      }
+    ],
+    "file": "morning-news/2026-09-11.html",
+    "sectors": [
+      "software",
+      "hardware",
+      "policy",
+      "finance",
+      "integration"
+    ],
+    "top_headlines": "Oracle rips on $30B AI bookings + hot core CPI + China chip-export loophole closed"
   }
 ]

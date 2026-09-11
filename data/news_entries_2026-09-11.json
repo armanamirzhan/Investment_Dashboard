@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-11",
+    "headline": "Oracle rips +7% pre-market as sell-side floods in with PT raises; RPO now $664B, $30B+ new AI cloud contracts in Q1",
+    "summary": "ORCL is indicated up ~7% pre-open Friday after Wednesday's after-hours Q1 FY27 print landed with cloud infrastructure +121% Y/Y and total cloud revenue at $11.6B ($7.4B OCI + $4.2B apps). The number that moved the tape overnight was remaining performance obligations: $664B — reflecting more than $30B of new AI cloud contracts booked in the quarter (OpenAI, xAI, Meta, Nvidia, AMD counterparties). Q2 cloud revenue guidance of +65-71% Y/Y also above the Street. Sell-side reaction: Barclays raised PT to $250 (Overweight), Morgan Stanley $210 Equal Weight (from $207), TD Cowen reiterated Buy $240, Bernstein reiterated Outperform $325, Guggenheim reiterated Buy $400. JPMorgan wrote the print 'addresses the key concerns weighing on shares.' Positive read-through across the AI compute stack (NVDA GPU allocations, CRWV/hyperscaler pricing power, TSM CoWoS backlog).",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "TipRanks / CNBC / Investrade",
+    "source_url": "https://www.tipranks.com/stocks/orcl/forecast"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "August CPI: headline in-line at 3.4% Y/Y (+0.4% M/M), core hotter at +0.3% M/M (2.4% Y/Y) — Fed hike odds jump to ~90% for next week",
+    "summary": "BLS 8:30 AM ET print: headline CPI +0.4% M/M / +3.4% Y/Y, both matching Dow Jones consensus. Core CPI accelerated to +0.3% M/M (vs +0.2% expected), keeping the annual core at 2.4%. Fed funds futures now imply near-90% odds of a 25 bp hike at next week's FOMC (up from ~70% pre-print). US 10Y traded ~4.82%; equity futures held gains (Nasdaq +0.62%, S&P +0.56%) as the Oracle halo and lower oil offset the hot core. Read-through: negative-marginal for duration-sensitive AI names (OKLO, SMR, PLTR, SNOW, FLNC), utilities (VST/CEG), and any capex-heavy hyperscaler multiple. Positive for banks / short-duration cash yielders.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC / BLS",
+    "source_url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Bloomberg: Altman tells OpenAI staff company is 'open to slowing' frontier AI development, hopes rivals follow",
+    "summary": "Bloomberg reports that in a company-wide meeting this week, Sam Altman told OpenAI employees the company is open to pacing its frontier AI development — potentially in coordination with several other labs, though not all may agree. Chief scientist Jakub Pachocki argued for 'voluntary slowdowns to become commonplace until shared safety bars are established.' OpenAI has also halted certain internal training runs and scaled back model development over safety concerns. Read-through: modest negative signal for merchant GPU demand narratives (NVDA), custom silicon backlogs (AVGO/GOOGL Ironwood), and pure-play neoclouds (CRWV, Lambda) — a coordinated frontier-lab slowdown, if real and widely adopted, would soften the training-compute leg of the trade. Reaction has been muted in pre-market as the Oracle print dominates flow and the Anthropic $517B compute-commitment number cuts the other way.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Commerce closes chip-export loophole: Nvidia Rubin/Blackwell and AMD MI350x now require license for Chinese-HQ entities anywhere in the world",
+    "summary": "US Department of Commerce issued weekend guidance enforcing license requirements for advanced AI chips shipped to entities headquartered in China even when those entities operate outside China (Malaysia, Singapore, UAE subsidiaries). Explicitly scoped to Nvidia Rubin and Blackwell processors and AMD MI350x. Closes a ~year-old opening that let Chinese AI firms procure top-tier US chips via offshore subs after the AI Diffusion rule was rolled back in May 2025. Direct exposure: NVDA (China revenue mix ~13% run-rate), AMD (China MI-series pipeline), plus indirect for hyperscalers renting capacity to Chinese-controlled entities. Neutral-to-modestly-negative — the workaround was already known and largely priced; enforcement teeth are the incremental item. Watch for retaliatory Chinese response over the weekend.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Investing.com / CNBC",
+    "source_url": "https://www.investing.com/news/stock-market-news/nvidia-and-amd-face-new-export-limits-on-china-subsidiaries-4717940"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Adobe Q3 beat but Q4 guide light — stock -5% AH; AI-first ARR $650M growing 150%+ Y/Y is the enterprise-AI peer signal",
+    "summary": "Adobe (not in tracked landscape but read-through peer) reported Q3 FY26 revenue $6.76B (+13% Y/Y), non-GAAP EPS $6.13, and raised full-year targets. Stock fell ~5% after-hours as Q4 revenue guidance of $6.8B-$6.85B fell short of expectations. The bright spot: AI-first ARR surged 150%+ Y/Y to $650M, total ARR $27.5B (+11%), MAUs crossed 1B, and incoming CEO Anil Chakravarthy emphasized an 'agentic AI' pivot. Peer read: enterprise SaaS with clear AI monetization (Palantir, ServiceNow, Salesforce, Snowflake) can grow AI-attach fast, but topline guides remain vulnerable when the mix shift is early — the setup echoes the CRM/NOW/SNOW pattern of AI narrative outpacing headline consumption growth.",
+    "sector": "software",
+    "sentiment": "neutral",
+    "source_name": "Vantage Markets / Seeking Alpha",
+    "source_url": "https://www.vantagemarkets.com/market-analysis/why-adbe-fell-beat-and-raise-soft-guidance-september-11-2026/"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "US futures firm into open despite hot core CPI — Nasdaq +0.62%, S&P +0.56% as Oracle halo and softer crude override rate-hike odds",
+    "summary": "Friday pre-market: Nasdaq futures +181 pts (+0.62%), S&P 500 futures +42 pts (+0.56%), Dow +298 pts (+0.57%) despite the hotter-than-expected core CPI print. The offset: Oracle's earnings halo lifted the entire AI infrastructure complex (ORCL +7%, CRWV +3%, NVDA/AMD indicated modestly higher), crude oil ticked back after topping $100/bbl on Middle East risk, and Treasury yields slipped modestly. On track for weekly losses despite the Friday bounce after four straight down sessions. Notable market-cap movers pre-open: ORCL, CRWV, ADBE (-5%), META (JPMorgan upgrade halo continues). Fed decision next Wednesday remains the pivotal event.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet / Investrade",
+    "source_url": "https://investrade.com/morning-preview-september-11-2026/"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Anthropic compute footprint keeps expanding: NYT reports Meta in talks to lease up to $10B of its AI datacenter capacity to Anthropic over two years",
+    "summary": "New York Times reporting circulating this week: Meta Platforms in advanced discussions to lease AI compute capacity from its own datacenters to Anthropic, potentially worth up to $10B over two years. Fits alongside Anthropic's previously disclosed $50B Fluidstack partnership (Texas/New York coming online through 2026) and the aggregated ~$517B in multi-year compute commitments Anthropic has accumulated across cloud/chip partners per this month's disclosures. Read-through: reinforces the compute-scarcity setup for merchant GPU (NVDA), hyperscaler capex (META, MSFT, AMZN, GOOGL), and neocloud tenants (CRWV) — offsets the Altman 'slowdown' signal above. Meta's shift toward being a compute reseller is a subtle margin-model change worth tracking.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "MarketWise / NYT",
+    "source_url": "https://marketwise.com/investing/meta-anthropic-possible-10-billion-compute-deal-what-it-signals-for-ai-trade/"
+  },
+  {
+    "date": "2026-09-11",
+    "headline": "Oracle's $30B new AI cloud bookings tighten the NVDA/AVGO/CRWV/VRT allocation math — RPO conversion cadence points to sustained GB300 pull",
+    "summary": "Follow-through analysis on the ORCL print: $30B+ in fresh AI cloud contracts signed in a single quarter accelerates the OCI capex trajectory and directly pulls GB300 (Blackwell Ultra) allocation, HBM4 (SK Hynix/Samsung), liquid cooling (VRT), 800G networking (ANET), custom cold plates, and CoWoS packaging (TSM). Bernstein and Guggenheim frame Oracle as the emerging third hyperscaler; the OCI $18B/$32B/$73B/$114B/$144B fiscal cadence guided at the call implies capex intensity that keeps the compute supply chain sold-out into 2027. Neutral-to-positive for the merchant GPU allocation debate — Oracle is a Nvidia buyer, not a custom-silicon builder like Google/Meta.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investor.com / TipRanks",
+    "source_url": "https://www.tipranks.com/news/orcl-earnings-oracle-rises-after-beating-estimates"
+  }
+]

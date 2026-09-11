@@ -4513,5 +4513,33 @@
     "signal_type": "momentum",
     "description": "NuScale -5% intraday, dragged down with Oklo/X-energy on Piper Sandler's advanced-nuclear coverage initiation even though Piper did not assign SMR its own rating in the note. Sector ETF URA -3% vs SPY -0.5%, confirming nuclear-specific selling rather than broad market weakness. Contrasts with the +13% short-covering spike logged 2026-09-09 - no fresh company-specific news, purely sector-sentiment driven.",
     "severity": "low"
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "signal_type": "earnings_beat",
+    "description": "Q1 FY27 beat with cloud infra +121% Y/Y, $30B+ new AI cloud bookings, RPO $664B; stock indicated +7% pre-market; multiple sell-side PT raises (Barclays $250, MS $210, Bernstein $325).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "NVDA",
+    "signal_type": "legal_risk",
+    "description": "Commerce Department weekend guidance closes offshore-subsidiary loophole for Rubin/Blackwell exports to Chinese-HQ entities; direct China revenue mix ~13% at risk of licensing friction.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "AMD",
+    "signal_type": "legal_risk",
+    "description": "Commerce Department guidance closes the offshore-subsidiary loophole for MI350x exports to Chinese-HQ entities; MI-series China pipeline exposed to renewed license drag.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "OKLO",
+    "signal_type": "overvalued",
+    "description": "Duration-sensitive; hotter core CPI (Fed hike odds now ~90% for next week) is negative for pre-revenue nuclear names. OKLO/SMR/FLNC most exposed on the discount-rate lever.",
+    "severity": "medium"
   }
 ]

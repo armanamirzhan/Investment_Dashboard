@@ -5200,5 +5200,50 @@
     "new_target": 9,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 250,
+    "old_rating": "Overweight",
+    "old_target": 221
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal Weight",
+    "new_target": 210,
+    "old_rating": "Equal Weight",
+    "old_target": 207
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 240,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 325,
+    "old_rating": "Outperform",
+    "old_target": 319
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "ORCL",
+    "firm": "Guggenheim",
+    "new_rating": "Buy",
+    "new_target": 400,
+    "old_rating": "Buy",
+    "old_target": 400
   }
 ]

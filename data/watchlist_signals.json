@@ -4541,5 +4541,12 @@
     "signal_type": "overvalued",
     "description": "Duration-sensitive; hotter core CPI (Fed hike odds now ~90% for next week) is negative for pre-revenue nuclear names. OKLO/SMR/FLNC most exposed on the discount-rate lever.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "DELL",
+    "signal_type": "momentum",
+    "description": "RBC Capital initiated coverage at Outperform with a $640 PT (~26% implied upside), citing enterprise AI/compute modernization demand, storage and PC-refresh tailwinds, ISG margin expansion from AI-server mix shift, and strong free cash flow supporting capital returns. Stock +11% intraday to a new all-time high, one of the largest single-session moves of 2026.",
+    "severity": "high"
   }
 ]

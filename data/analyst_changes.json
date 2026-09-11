@@ -5245,5 +5245,14 @@
     "new_target": 400,
     "old_rating": "Buy",
     "old_target": 400
+  },
+  {
+    "date": "2026-09-11",
+    "ticker": "DELL",
+    "firm": "RBC Capital",
+    "new_rating": "Outperform",
+    "new_target": 640,
+    "old_rating": null,
+    "old_target": null
   }
 ]

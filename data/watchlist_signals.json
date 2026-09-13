@@ -4548,5 +4548,12 @@
     "signal_type": "momentum",
     "description": "RBC Capital initiated coverage at Outperform with a $640 PT (~26% implied upside), citing enterprise AI/compute modernization demand, storage and PC-refresh tailwinds, ISG margin expansion from AI-server mix shift, and strong free cash flow supporting capital returns. Stock +11% intraday to a new all-time high, one of the largest single-session moves of 2026.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-13",
+    "ticker": "SMR",
+    "signal_type": "overvalued",
+    "description": "UBS (analyst Jon Windham) downgraded NuScale Power to Sell from Neutral, cutting PT to $6 from $10 (~41% implied downside), citing a 5+ year build timeline, lack of firm customer commitments, and an estimated $700M cumulative cash burn 2026-2028 with earnings staying negative through 2030. Stock fell ~13.5% Friday 9/11, one of the sharpest single-day moves in the advanced-nuclear cohort this year. Not previously logged.",
+    "severity": "high"
   }
 ]

@@ -4583,5 +4583,26 @@
     "signal_type": "momentum",
     "description": "GE Vernova hit by a sell call that dragged the entire power-equipment complex; Siemens Energy (ENR.DE) -8.1% to €132.24 (32% off April high). Watch for follow-through target cuts on ETN, VRT if the AI-slowdown narrative persists into FOMC week.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "ORCL",
+    "signal_type": "momentum",
+    "description": "Oracle -5% to $142.88 after Friday's 10-Q disclosure that the FY26 restructuring plan was supplemented by ~$700M (total now ~$2.8B), reflecting additional severance/exit costs tied to AI-deployment-driven workforce reductions. Larry Ellison separately canceled his Rule 10b5-1 plan to sell up to 50M shares (~$7.5B) adopted in June -- no shares sold, no other sale plans -- a bullish insider signal that was overshadowed by the cost overrun. Not previously logged.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "SMCI",
+    "signal_type": "momentum",
+    "description": "Super Micro -8% to $37.03 and Dell -5% to $539.57 in sympathy selling as the Evercore ISI/HPE valuation downgrade (logged this morning) triggers a broader repricing of the AI-server integrator trade. Confirms the AM signal's 'watch for cascading target cuts across DELL/SMCI' -- no fresh company-specific analyst action yet, pure sympathy/valuation reset.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "LRCX",
+    "signal_type": "momentum",
+    "description": "Lam Research -7% despite Q4 revenue +30% Y/Y, as the semiconductor-equipment sub-basket (LRCX, KLAC) sells off alongside merchant GPU/HBM names on the weekend AI-pacing commentary (Amodei/Altman/Musk). Distinct from the fab-tool fundamentals -- profit-taking/multiple-compression on capex-sensitivity into Sept 17 FOMC, not a results or guidance issue.",
+    "severity": "medium"
   }
 ]

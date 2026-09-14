@@ -4555,5 +4555,33 @@
     "signal_type": "overvalued",
     "description": "UBS (analyst Jon Windham) downgraded NuScale Power to Sell from Neutral, cutting PT to $6 from $10 (~41% implied downside), citing a 5+ year build timeline, lack of firm customer commitments, and an estimated $700M cumulative cash burn 2026-2028 with earnings staying negative through 2030. Stock fell ~13.5% Friday 9/11, one of the sharpest single-day moves in the advanced-nuclear cohort this year. Not previously logged.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "HPE",
+    "signal_type": "overvalued",
+    "description": "Evercore ISI downgrade to In Line (PT $65) explicitly on valuation after 184% six-month rally — ~13x FY27E vs 8x five-year average. Pre-open -9.6%. First high-profile sell-side pullback on the AI-server integrator trade; watch for cascading target cuts across DELL/SMCI.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave -9% to $81.25 pre-open as Anthropic's $13.7B commitment goes to Rumble/Maysville instead of a neocloud peer. Combined with weekend AI-pacing commentary, the neocloud backlog-quality narrative is under fresh pressure; still +24% YTD but momentum has flipped near-term.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "NVDA -3.1% pre-open to ~$211.6 on AI-pacing pushback (Amodei/Altman/Musk weekend). BTIG warns chip complex could drop another 15-20%. Setup into Sept 17 FOMC is negative — hawkish surprise would compound multiple compression. TSMC's Aug revenue print (+53% Y/Y) partial offset.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "GE Vernova hit by a sell call that dragged the entire power-equipment complex; Siemens Energy (ENR.DE) -8.1% to €132.24 (32% off April high). Watch for follow-through target cuts on ETN, VRT if the AI-slowdown narrative persists into FOMC week.",
+    "severity": "medium"
   }
 ]

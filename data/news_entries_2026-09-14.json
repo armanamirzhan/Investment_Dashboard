@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-14",
+    "headline": "AI 'pacing' pushback rattles chip complex — NVDA -3%, MRVL -7%, AVGO -4%, INTC -5% pre-open as Amodei/Altman/Musk essay wave lands over weekend",
+    "summary": "Anthropic CEO Dario Amodei published a 3,800-word essay 'We Must Pace the Frontier' Saturday arguing frontier AI is advancing faster than researchers can control it, warning 'swarms of rogue AI agents could take over the internet in as little as six months' and proposing coordinated slowdowns, third-party evaluators, and international governance. Sam Altman and Elon Musk both endorsed the message publicly on X over the weekend. Monday pre-market: NVDA -3.1% to ~$211.6, AVGO -4% to $346, MRVL -7% to $220, INTC -5%, MU/AMD/KLAC/LRCX all sharply lower. BTIG warned chips could drop an additional 15–20%. Software (NOW, CRM, ADBE, INTU) rotating up; cybersecurity (PANW +8%, S +14%, CRWD firm) is the clearest beneficiary as 'AI safety spend' becomes an explicit narrative. Read-through for the tracked landscape: near-term multiple compression risk for merchant GPU, HBM, custom silicon and networking (NVDA, AVGO, MRVL, ANET, SK Hynix, MU, TSM), offset partially by the Anthropic-Rumble $13.7B print showing compute commitments are still expanding.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Yahoo Finance / Axios / Ynetnews",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chip-stocks-fall-ai-114634380.html"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Anthropic signs $13.7B six-year compute deal with Rumble — new Maysville GA datacenter, 51M-share option at $0.01; RUM +27% pre-open, CRWV/NBIS both -9%",
+    "summary": "The Information reports Anthropic will lease AI compute capacity from Rum Group (parent of Rumble) at a datacenter under construction in Maysville, Georgia — 6-year term, $13.7B committed. Equipping the site with GPUs is expected to cost more than $10B on top of the lease. The agreement gives Anthropic an option to acquire up to 51M Rumble shares at $0.01 each. RUM +27% to $1.99 in pre-market. Neocloud peers sold off on read-through — CoreWeave -9% to $81.25, Nebius -9% to $205.28 — as the deal is interpreted as Anthropic diversifying compute away from the CRWV/NBIS/Fluidstack rotation. Reinforces the Anthropic compute-scarcity narrative (now ~$517B in aggregate multi-year commitments per company disclosures) and lifts near-term Rubin/Blackwell allocation math, but is a specific negative for CRWV/NBIS backlog quality. Trump-linked ownership adds a policy-risk dimension worth flagging.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "The Information / 24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/09/14/rumble-soars-10-on-report-anthropic-is-the-13-7b-compute-customer-coreweave-and-nebius-drop-9/"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Evercore ISI cuts HPE to In Line from Outperform, PT $65 — stock -9.6% pre-open after 184% six-month rip; Dell -5%, SMCI -8% on read-through",
+    "summary": "Evercore ISI's Amit Daryanani downgraded Hewlett Packard Enterprise to In Line on valuation, keeping the price target at $65. Note is not a fundamental thesis change — HPE now trades ~13x FY27E EPS vs a five-year average of ~8x after gaining 15% in the past five sessions and 184% over six months. HPE -9.57% pre-open. Read-through slammed the rest of the AI hardware complex: Dell -4-5% below $340, Super Micro (SMCI) -8%. Combined with the Amodei/Altman/Musk 'AI pacing' weekend commentary, the setup for AI server integrators has flipped from beat-and-raise momentum to profit-taking + multiple compression. Watch for follow-through desks trimming price targets across the AI server universe (VRT liquid cooling, ANET networking) if the sell-side pivots on valuation vs. narrative.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Seeking Alpha / 24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/09/14/hewlett-packard-enterprise-sinks-9-on-downgrade-after-triple-digit-run-dell-falls-5-super-micro-drops-8/"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Europe close: ASML -4.3% to €1,415.6 and Siemens Energy -8.1% to €132.24 as AI-pacing wave hits EUV / grid supply chain; SIE.DE now 32% off April high",
+    "summary": "Overseas trading Monday amplified the US AI selloff. ASML fell 4.3% to €1,415.6 with sell-side chatter around lower long-term EUV tool intensity (references to '110+ EUV tools by 2028' framed as a ceiling rather than a floor). Siemens Energy (ENR.DE) dropped 8.1% to €132.24, its worst session in months, on a GE Vernova sell call from the same desk plus generalized AI-slowdown fears across the power-equipment complex; SIE.DE now sits ~32% below its April 52-week high of €195.38. GE Vernova (GEV), Hitachi Energy, Schneider (SU.PA) and ABB all traded lower in sympathy. Direct read-through for tracked names: ASML, ENR.DE, GEV, ETN, VRT — the multi-year power/EUV order book remains intact, but positioning risk is rising into the Sept 17 FOMC.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Ad-hoc News / Tradingpedia",
+    "source_url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/siemens-energy-sinks-as-ge-vernova-downgrade-and-ai-jitters-converge-on/70100826"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Palo Alto Networks +8-13% pre-open as Citi lifts PT to $432 from $395 (Buy), RBC to $475 — 'AI safety spend' becomes the sell-side rotation trade",
+    "summary": "PANW rallied 12.99% intra-morning after Citi's Fatima Boolani raised the price target to $432 (from $395), reiterating Buy, and RBC lifted its target to $475. The upgrades are explicitly framed around Amodei's weekend essay: institutional customers are expected to accelerate cybersecurity/AI-governance spend as the 'agentic AI risk' theme moves from research to boardroom budget. SentinelOne (S) +14% to $22.51; CrowdStrike, Zscaler, Fortinet firm. Not a tracked ticker but the rotation is directly relevant to enterprise-software peers on our list — CRM, NOW, PLTR — which are also trading up as investors move out of hardware. Netflix (Evercore ISI PT raise) also participating in the flight-to-software bid.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "TipRanks / Timothy Sykes / Globe and Mail",
+    "source_url": "https://www.tipranks.com/news/the-fly/palo-alto-networks-price-target-raised-to-432-from-395-at-citi"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "Fed preview: Sept 16-17 FOMC lands mid-week — CME FedWatch pins 25 bp hike odds at 60%+ (Kalshi 57%, Polymarket 49%); JPM expects hike, GS says 'very unlikely'",
+    "summary": "Two-day FOMC concludes Wednesday 2:00 PM ET with an SEP release (fresh dot plot). CME FedWatch has 25 bp hike odds above 60% following last week's hot core CPI print (+0.3% M/M) and Chair Warsh's hawkish Jackson Hole speech emphasizing 'uncomfortably high' PCE. Prediction markets more skeptical: Kalshi 57%, Polymarket 49%. Sell-side split — J.P. Morgan Wealth Management now expects a hike, Goldman Sachs still calls a September move 'very unlikely' with a hold through year-end. Duration-sensitive AI names (OKLO, SMR, PLTR, SNOW, FLNC, BE, PLUG) most exposed to a hawkish surprise; hyperscaler capex multiples (MSFT, META, AMZN, GOOGL) at risk of compression. Utilities with regulated cost-of-capital (NEE, AES) modestly negative; merchant power (VST, CEG) more insulated given long-dated contracted PPAs.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Forbes / Yahoo Finance / DefiRate",
+    "source_url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "TSMC August revenue crosses NT$500B for first time — NT$514.8B (+53.3% Y/Y, +10.1% M/M), fourth consecutive monthly record; HPC 66% of Q2 mix at 67.7% GM",
+    "summary": "TSMC reported August 2026 consolidated net revenue of NT$514.81B (~US$16.35B), up 53.3% Y/Y and 10.1% M/M — first time crossing NT$500B and the fourth consecutive monthly record. YTD Jan-Aug revenue NT$3,386.87B (+39.3% Y/Y). Segment context from Q2: HPC/AI 66% of revenue growing 20% Q/Q at 67.7% gross margin. The print (released Sept 10, pre the AI-pacing selloff) underscores that near-term CoWoS/HBM/GPU demand remains supply-constrained regardless of the frontier-lab slowdown debate. Positive read-through for the tracked semi cap-eq chain — AMAT, LRCX, KLAC, ASML — even as spot sentiment turns cautious. Watch TSM ADR reaction; the August print is old news but re-enters the tape as a counterweight to today's downgrades.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TSMC IR / Tech-Insider",
+    "source_url": "https://pr.tsmc.com/english/news/3340"
+  },
+  {
+    "date": "2026-09-14",
+    "headline": "SoftBank ADR -11.4% to ¥5,797 in Tokyo after OpenAI CEO signals 'no 2026 IPO' — removes near-term catalyst, weighs on GPU capex narrative",
+    "summary": "SoftBank Group tumbled 11.4% in Tokyo to ¥5,797 after Sam Altman told employees OpenAI has no plans for a 2026 IPO. Removes the near-term monetization catalyst that had been driving SoftBank's AI-narrative premium after its Arm holding and Stargate stakes. Marginal negative signal for hyperscaler capex intensity in 2026 — an OpenAI IPO would have crystallized the compute-commitment backlog into fresh cash for GPU purchases (NVDA), colocation (DLR, EQIX), networking (ANET) and cooling (VRT). Anthropic IPO reportedly still on track for 2026 despite the safety controversy, creating what one desk called 'notable tension to monitor.' Not directly-tracked ticker impact but flow-through to Stargate-associated names (NVDA, ORCL, VST) is real.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Everhint / Bloomberg",
+    "source_url": "https://www.everhint.com/stock-market-news-september-14-2026-morning-update-last-12-hours-pacific-time/"
+  }
+]

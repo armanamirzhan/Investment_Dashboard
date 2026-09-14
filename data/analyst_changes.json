@@ -5263,5 +5263,14 @@
     "new_target": 6,
     "old_rating": "Neutral",
     "old_target": 10
+  },
+  {
+    "date": "2026-09-14",
+    "ticker": "HPE",
+    "firm": "Evercore ISI",
+    "new_rating": "In Line",
+    "new_target": 65,
+    "old_rating": "Outperform",
+    "old_target": 65
   }
 ]

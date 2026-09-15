@@ -7096,5 +7096,68 @@
         "signal": "momentum reversal"
       }
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "tickers": [
+      {
+        "ticker": "MU",
+        "direction": "down",
+        "note": "-5% pre-open extending Monday drop; sharpest drawdown in memory complex on Amodei/Altman AI-pace call ahead of Sep 30 earnings"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -7% as NVDA's primary HBM supplier; most exposed memory name to slower AI capex"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "down",
+        "note": "-3.4% Monday, extending lower pre-open; leading beta into any AI-capex derating"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "Samsung dragged with memory complex; 2028 High-NA EUV DRAM partnership with ASML confirmed"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "Disclosed +920 MW long-term nuclear PPAs to investment-grade offtakers (2029-2032 delivery)"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "neutral",
+        "note": "Broke ground on second Eindhoven campus; High-NA EUV DRAM partnerships with TSM/Samsung/Hynix targeting 2028"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "10Y yield tops 5% first time since 2007; Fed 25bp hike Wednesday priced ~92%"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "MU",
+        "signal": "momentum reversal"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "momentum reversal"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "momentum reversal"
+      },
+      {
+        "ticker": "CEG",
+        "signal": "positive catalyst"
+      },
+      {
+        "ticker": "macro",
+        "signal": "10Y >5% + Fed hike Wed; AI-pace call from Amodei/Altman/Musk/Hassabis; OpenAI shelves 2026 IPO"
+      }
+    ],
+    "file": "morning-news/2026-09-15.html"
   }
 ]

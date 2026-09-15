@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-09-15",
+    "headline": "Amodei essay calls for global AI slowdown; Altman, Musk, Hassabis cosign",
+    "summary": "Anthropic CEO Dario Amodei published \"We Must Pace the Frontier,\" urging AI labs to slow capability development citing loss-of-control, cyber and bio-misuse risks. OpenAI's Sam Altman, Google DeepMind's Demis Hassabis and xAI's Elon Musk cosigned the statement. The message triggered a broad AI-stock selloff Monday and pressured chip and memory names hardest into Tuesday's open.",
+    "sector": "integration",
+    "sentiment": "negative",
+    "source_name": "CNN Business",
+    "source_url": "https://www.cnn.com/2026/09/14/business/ai-stocks-slide-slowdown-development-amodei-altman-intl"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "OpenAI shelves 2026 IPO on AI safety concerns",
+    "summary": "Sam Altman told Fortune that an OpenAI public listing this year would be \"ill-advised\" as the company works through alignment and government-regulation frameworks. SoftBank, an OpenAI backer, closed nearly 11% lower in Tokyo overnight; the delay is another leg of the broader AI-pace debate driving Tuesday's futures lower.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2026/09/14/openai-ipo-wait-grows-longer-as-ai-safety-fears-mount-cfo/"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Memory chips lead AI selloff: SK Hynix -7%, Micron and SanDisk -6%",
+    "summary": "Memory names took the brunt of Monday's AI-pace selloff and continued weak into Tuesday's pre-market. SK Hynix fell 7% as NVIDIA's primary HBM supplier, Micron (MU) dropped ~5%, SanDisk ~6% and Western Digital ~4%. The Roundhill Memory ETF slid 7% - roughly 3x QQQ's 2% decline - confirming the pressure is concentrated in memory rather than broad tech. Micron reports earnings September 30.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/14/memory-stocks-lead-ai-selloff-as-anthropic-and-openai-chiefs-urge-slower-development-micron-and-sandisk-sink-6-sk-hynix-drops-7/"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Philadelphia Semiconductor Index -5.9%; NVDA -3.4%, INTC -5.6%",
+    "summary": "The SOX index tumbled 5.9% Monday on the Amodei/Altman AI-slowdown call, cutting its 2026 gain to 57%. NVIDIA fell 3.4% and Intel 5.6% in the session; Asian chip peers followed lower overnight. Futures point to further softness at Tuesday's US cash open with S&P 500 futures down ~0.6%.",
+    "sector": "hardware",
+    "sentiment": "negative",
+    "source_name": "Reuters via Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/ai-warnings-knock-nasdaq-futures-092329455.html"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "10-year Treasury yield tops 5% for first time since 2007 ahead of expected Fed hike",
+    "summary": "The US 10-year yield broke above 5% Tuesday for the fifth consecutive session of gains, driven by higher oil prices and sticky inflation. Fed funds futures price ~92% probability of a 25bp rate hike at Wednesday's FOMC - the first hike since July 2023. Long-duration growth names, including AI software and datacenter capex plays, are most exposed on the multiple.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "Constellation adds 920 MW of long-term nuclear PPAs with investment-grade offtakers",
+    "summary": "Constellation Energy disclosed an additional 920 MW of 15-20 year power-purchase agreements for nuclear generation with a diverse set of investment-grade customers, with contracted deliveries beginning between 2029 and 2032. The tranche extends CEG's visible nuclear cash-flow ladder and reinforces the datacenter-nuclear supply pipeline alongside Vistra's recent Meta and Amazon deals.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/energy/articles/constellations-long-term-nuclear-ppas-145400226.html"
+  },
+  {
+    "date": "2026-09-15",
+    "headline": "ASML breaks ground on second Netherlands campus; TSMC and Samsung target 2028 High-NA EUV DRAM",
+    "summary": "ASML broke ground on its second major industrial campus in Eindhoven to support High-NA EUV expansion, with each scanner priced around $380-$400M. TSMC and Samsung separately announced enhanced ASML partnerships targeting High-NA EUV for high-volume DRAM manufacturing by 2028; SK Hynix has confirmed the same 2028 target. CEO Christophe Fouquet tied the expansion directly to AI-driven demand.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Tech Times",
+    "source_url": "https://www.techtimes.com/articles/327533/20260915/tsmc-joins-all-four-chipmakers-asml-high-na-euv-eindhoven-campus-breaks-ground.htm"
+  }
+]

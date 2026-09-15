@@ -4604,5 +4604,33 @@
     "signal_type": "momentum",
     "description": "Lam Research -7% despite Q4 revenue +30% Y/Y, as the semiconductor-equipment sub-basket (LRCX, KLAC) sells off alongside merchant GPU/HBM names on the weekend AI-pacing commentary (Amodei/Altman/Musk). Distinct from the fab-tool fundamentals -- profit-taking/multiple-compression on capex-sensitivity into Sept 17 FOMC, not a results or guidance issue.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Micron -5% Monday and extending lower pre-market on AI-slowdown headlines; sharpest drawdown in memory complex ahead of Sept 30 earnings.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix -7% as NVIDIA's primary HBM supplier; most exposed of the memory names to slower AI capex commentary.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "NVDA -3.4% Monday on the Amodei/Altman AI-pace call; leading beta into any AI-capex derating.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Constellation disclosed additional 920 MW of long-term nuclear PPAs to investment-grade offtakers, extending the visible cash-flow ladder to 2029-2032.",
+    "severity": "medium"
   }
 ]

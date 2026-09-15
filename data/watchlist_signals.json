@@ -4632,5 +4632,33 @@
     "signal_type": "momentum",
     "description": "Constellation disclosed additional 920 MW of long-term nuclear PPAs to investment-grade offtakers, extending the visible cash-flow ladder to 2029-2032.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "GLW",
+    "signal_type": "momentum",
+    "description": "Corning -13.7% after disclosing an uncapped $2B at-the-market share sale with Goldman Sachs (no fixed price, size, or timetable); dilution fears erased a chunk of its 2026 rally built on optical-fiber/specialty-glass datacenter demand.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Intel -5.6%, underperforming the broader chip complex (Philadelphia Semiconductor Index -5.9%) as the Amodei/Altman AI-pacing selloff extends into a second session ahead of Wednesday's Fed decision.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "CoreWeave -7% after Bernstein flagged it as most exposed to a training-demand slowdown, estimating 74% of its contracted power sits in Tier 3/4 markets most vulnerable if hyperscaler AI training pace cools; Underperform/$74 target reiterated.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-15",
+    "ticker": "CRWD",
+    "signal_type": "momentum",
+    "description": "CrowdStrike +13-15% as investors rotate into cybersecurity as the 'other side' of the AI trade -- rising concern over AI-enabled cyber risk is seen as a demand tailwind for security vendors even as AI-infrastructure capex names sell off.",
+    "severity": "medium"
   }
 ]

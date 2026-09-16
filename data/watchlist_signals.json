@@ -4681,5 +4681,12 @@
     "signal_type": "momentum",
     "description": "Bloom Energy fuel cells anchor Aligned's 2 GW Project Phoenix Pennsylvania campus; RBC calls it another 'meaningful' datacenter proof point.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave +2.9% premarket after becoming first AI cloud provider to bring up a multi-rack NVIDIA Vera Rubin NVL72 cluster (72 Rubin GPUs + 36 Vera CPUs per rack) on CoreWeave Cloud; also signed a definitive 15-year anchor lease (plus two 5-year renewal options) with Blockfusion/North East Data for its hydro-powered Niagara Falls, NY campus, converting a June 2026 non-binding LOI into a firm deal.",
+    "severity": "medium"
   }
 ]

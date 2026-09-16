@@ -4660,5 +4660,26 @@
     "signal_type": "momentum",
     "description": "CrowdStrike +13-15% as investors rotate into cybersecurity as the 'other side' of the AI trade -- rising concern over AI-enabled cyber risk is seen as a demand tailwind for security vendors even as AI-infrastructure capex names sell off.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Intel +5% pre-market on report of Ohio memory-chip JV/lease talks with SK Hynix; ties into broader on-shoring narrative.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "000660.KS",
+    "signal_type": "momentum",
+    "description": "SK Hynix ADRs +2% overnight on Intel Ohio deal report; potential first-ever US memory chip production for the company.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "BE",
+    "signal_type": "momentum",
+    "description": "Bloom Energy fuel cells anchor Aligned's 2 GW Project Phoenix Pennsylvania campus; RBC calls it another 'meaningful' datacenter proof point.",
+    "severity": "medium"
   }
 ]

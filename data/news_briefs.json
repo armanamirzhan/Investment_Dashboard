@@ -7159,5 +7159,94 @@
       }
     ],
     "file": "morning-news/2026-09-15.html"
+  },
+  {
+    "date": "2026-09-16",
+    "tickers": [
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+5% pre-open on Reuters report of Ohio memory-chip lease/JV talks with SK Hynix"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix +2% on Intel Ohio deal report; potential first-ever US memory production"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Piper Sandler initiates Overweight, PT $300; 80% AI compute share cited"
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "up",
+        "note": "Piper Sandler Overweight adds to record close after Q3 AI rev +221% YoY / $21.7B Q4 guide"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Piper Sandler Overweight + Stifel reiterated Buy on EPYC durability"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "Fuel cells anchor Aligned's 2 GW Project Phoenix PA campus; RBC calls it 'meaningful' proof point"
+      },
+      {
+        "ticker": "UMC",
+        "direction": "up",
+        "note": "August revenue +30.7% YoY - strongest August since 2022 on AI power/networking demand"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "neutral",
+        "note": "HPE Juniper expansion supports OCI's stated $50B AI infra trajectory"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "FOMC decides 2 PM ET; ~93% odds of 25bp hike to 3.75-4.00% (first hike since 2023)"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "INTC",
+        "signal": "positive catalyst - Ohio memory JV report"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "positive catalyst - US on-shoring"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "Piper Sandler Overweight initiation, PT $300"
+      },
+      {
+        "ticker": "AVGO",
+        "signal": "Piper Sandler Overweight initiation"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "Piper Sandler + Stifel positive"
+      },
+      {
+        "ticker": "MRVL",
+        "signal": "Piper Sandler Overweight initiation"
+      },
+      {
+        "ticker": "ARM",
+        "signal": "Piper Sandler Overweight initiation"
+      },
+      {
+        "ticker": "BE",
+        "signal": "positive catalyst - 2 GW Project Phoenix proof point"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Fed 25bp hike expected 2 PM; watch dot plot"
+      }
+    ],
+    "file": "morning-news/2026-09-16.html"
   }
 ]

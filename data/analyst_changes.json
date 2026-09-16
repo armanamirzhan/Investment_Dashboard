@@ -5272,5 +5272,59 @@
     "new_target": 65,
     "old_rating": "Outperform",
     "old_target": 65
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "NVDA",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 300,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "AVGO",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "AMD",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "MRVL",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "ARM",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-16",
+    "ticker": "AMD",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

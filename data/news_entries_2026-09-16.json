@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-16",
+    "headline": "Intel and SK Hynix in talks to make memory chips in Ohio; both stocks jump",
+    "summary": "Reuters reports SK Hynix is in exploratory talks with Intel about producing memory chips at Intel's Ohio site - either by leasing part of the fab or forming a JV with Intel and hyperscaler cloud customers seeking to lock in HBM/DRAM supply. Both companies confirmed no final plans. Intel jumped ~5% and SK Hynix ADRs added ~2% on the report. Any HBM localization plan may require South Korean government sign-off given technology-sensitivity rules.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/16/intel-sk-hynix-us-memory-chips.html"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Fed expected to hike 25bp today; ~93% priced in on CME FedWatch",
+    "summary": "The FOMC concludes its September 15-16 meeting at 2 PM ET with markets pricing ~93% odds of a 25bp hike to 3.75-4.00%, which would be the first hike since 2023 as energy-driven inflation runs above target. Fed dot plot and Powell press conference at 2:30 PM ET. Long-duration AI software and datacenter capex plays remain most exposed to a hawkish dot shift.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CoinGape",
+    "source_url": "https://coingape.com/fomc-meeting-2026-live-updates-sep-16-fed-rate-hike-decision-today/"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Piper Sandler initiates NVDA, AVGO, AMD, MRVL, ARM at Overweight - sees 19-37% upside",
+    "summary": "Piper Sandler analysts David O'Connor and Zackary Altman launched coverage of the AI chip complex with Overweight on Nvidia (PT $300), Broadcom, AMD, Marvell and Arm, arguing 'AI is starving for more compute capacity' with 2027 order books full and 2028 largely booked. They peg the compute TAM at $2.2T by 2030 (5x from here). The call helps rebuild bid under the group after Monday's AI-pace-driven selloff.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seeking Alpha",
+    "source_url": "https://seekingalpha.com/news/4641672-piper-sandler-initiates-semi-stocks-with-high-ratings-as-market-is-starving-for-compute"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "UMC August revenue +30.7% YoY - strongest August in four years on AI power/networking demand",
+    "summary": "United Microelectronics reported August operating revenue up 30.7% YoY, its strongest August since 2022, driven by AI-related demand for power management ICs and networking chips. UMC ADRs traded up in Tuesday's pre-market as one of the few AI-adjacent semi names bucking Monday's selloff. Read-through positive for mature-node fab peers ASX and Amkor packaging.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/technology/ai/articles/ai-warnings-knock-nasdaq-futures-092329455.html"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Aligned Data Centers breaks ground on 2 GW Project Phoenix in Pennsylvania with Bloom fuel cells",
+    "summary": "Aligned Data Centers broke ground on a 2 GW, ~$10B datacenter campus in Shippingport, PA on the site of a retired coal plant, adjacent to a redeveloped natural-gas energy campus. The site will run on dedicated onsite generation using Bloom Energy natural-gas-fed fuel cells rather than the local grid, with excess power flowing back to PJM. RBC called it another 'meaningful' proof point for Bloom's datacenter thesis. 3,000 construction jobs and 640 permanent roles.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "GlobeNewswire",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359602/0/en/aligned-data-centers-and-shippingport-community-mark-revitalization-of-legacy-energy-site-with-groundbreaking-of-2-gw-project-phoenix-campus.html"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "HPE-Oracle expand networking pact to scale global AI datacenter capacity",
+    "summary": "Hewlett Packard Enterprise announced an expanded collaboration with Oracle to deploy HPE Juniper PTX/MX routing and QFX/EX switching across Oracle Cloud Infrastructure's global AI datacenters, along with multi-year support and financing. The tie-up follows Oracle's fiscal Q1 print showing OCI AI revenue more than doubling to $7.4B with 850 MW added in the quarter and $28.5B in capex. Positive for HPE's networking mix; supports Oracle's stated $50B AI infrastructure trajectory.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "TechAfrica News",
+    "source_url": "https://techafricanews.com/2026/09/03/hpe-oracle-expand-collaboration-global-ai-infrastructure/"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "Trump administration weighs fresh round of semiconductor tariffs",
+    "summary": "Bloomberg reports the administration is weighing an additional round of tariffs on imported semiconductors on top of the January 25% Section 232 duty on advanced chips (NVIDIA H200, AMD MI325X-class), with exemptions preserved for chips supporting US manufacturing buildout. Any escalation would pressure Asian foundry and packaging supply chains and could accelerate on-shoring conversations - consistent with the SK Hynix-Intel Ohio talks.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-02/trump-to-levy-more-chip-tariffs-exemptions-for-us-manufacturing"
+  },
+  {
+    "date": "2026-09-16",
+    "headline": "AI chip complex firms into US open as Piper call, Intel-Hynix news offset Monday rout",
+    "summary": "After Monday's Amodei/Altman AI-pace call knocked the SOX -5.9% and memory names 5-7%, the group is rebuilding overnight: NVDA, AMD, INTC and Asian memory peers indicated higher pre-market on the Piper Sandler initiation and the Intel-SK Hynix Ohio report. Traders remain cautious into the 2 PM Fed decision. Broadcom continues to trade at record levels post its 9% surge on fiscal Q3 (AI revenue +221% YoY) and a $21.7B Q4 guide.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-tumble-ai-pacing-132334555.html"
+  }
+]

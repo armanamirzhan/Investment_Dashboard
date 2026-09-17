@@ -4716,5 +4716,12 @@
     "signal_type": "concentration_risk",
     "description": "OpenAI/Anthropic weekend AI-pace calls + $300B OpenAI compute backlog dependency; ORCL down 55% from 2025 peak with $56B FY26 capex",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-17",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "CoreWeave -3% intraday as market digests Wednesday's proposed $3.0B convertible senior notes offering (due 2033, upsizable to $3.5B) announced after the close; proceeds partly fund capped-call transactions to limit dilution, remainder for general corporate purposes. Adds to the debt-funded AI-infra capex financing pattern (see CoreWeave/Meta precedent) but read as incremental dilution/leverage risk by investors this morning.",
+    "severity": "medium"
   }
 ]

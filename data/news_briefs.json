@@ -7248,5 +7248,81 @@
       }
     ],
     "file": "morning-news/2026-09-16.html"
+  },
+  {
+    "date": "2026-09-17",
+    "tickers": [
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+3% pre-open; Tigress raises PT to $145 (from $118), Northland upgrades to Outperform PT $120 on SK Hynix Ohio + Terafab traction"
+      },
+      {
+        "ticker": "GNRC",
+        "direction": "up",
+        "note": "+34% pre-market on up-to-$8B Amazon datacenter backup power deal ($2.4B firm 2027-28)"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "up",
+        "note": "+11% pre-open on GPU on-demand pricing hikes effective Oct 1 (H100 +17%, B300 +21%, EPYC +25%)"
+      },
+      {
+        "ticker": "ARM",
+        "direction": "up",
+        "note": "+5% pre-market on CEO Rene Haas AGI CPU revenue conversion commentary"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "neutral",
+        "note": "10-bank consortium arranges $22B TPU chip loan for Crux AI JV with Blackstone (500 MW 2027)"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "Neocloud pricing power read-through from Nebius October price increase"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "down",
+        "note": "-55% from Sept 2025 peak; Melius questions capex sustainability if OpenAI/Anthropic scale back compute demand"
+      },
+      {
+        "ticker": "macro",
+        "direction": "down",
+        "note": "Fed hiked 25bp to 3.75-4.00% (first since 2023); dot plot signals one more hike this year; Warsh hawkish presser rattled tape"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "INTC",
+        "signal": "Two PT hikes (Tigress $145, Northland Outperform $120)"
+      },
+      {
+        "ticker": "GNRC",
+        "signal": "Amazon $8B backup power deal - AI datacenter power thesis validation"
+      },
+      {
+        "ticker": "NBIS",
+        "signal": "Pricing power - Oct 1 GPU price hikes 17-25%"
+      },
+      {
+        "ticker": "GOOGL",
+        "signal": "$22B Crux AI TPU chip loan closed"
+      },
+      {
+        "ticker": "ARM",
+        "signal": "AGI CPU revenue confidence commentary"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "Capex sustainability concern flagged by Melius"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Fed 25bp hike + hawkish dot plot; one more hike expected in 2026"
+      }
+    ],
+    "file": "morning-news/2026-09-17.html"
   }
 ]

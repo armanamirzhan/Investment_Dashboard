@@ -4688,5 +4688,33 @@
     "signal_type": "momentum",
     "description": "CoreWeave +2.9% premarket after becoming first AI cloud provider to bring up a multi-rack NVIDIA Vera Rubin NVL72 cluster (72 Rubin GPUs + 36 Vera CPUs per rack) on CoreWeave Cloud; also signed a definitive 15-year anchor lease (plus two 5-year renewal options) with Blockfusion/North East Data for its hydro-powered Niagara Falls, NY campus, converting a June 2026 non-binding LOI into a firm deal.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-17",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Tigress raises PT to $145 from $118; Northland upgrades to Outperform PT $120; +8% cumulative on SK Hynix Ohio + Terafab traction",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-17",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "Nebius announces on-demand GPU price hikes (H100 +17%, B300 +21%) effective Oct 1 - positive pricing-power read-through for neoclouds",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-17",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Generac $8B Amazon backup power deal signals hyperscalers locking in decade-long datacenter power supply - supports VRT thesis",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-17",
+    "ticker": "ORCL",
+    "signal_type": "concentration_risk",
+    "description": "OpenAI/Anthropic weekend AI-pace calls + $300B OpenAI compute backlog dependency; ORCL down 55% from 2025 peak with $56B FY26 capex",
+    "severity": "medium"
   }
 ]

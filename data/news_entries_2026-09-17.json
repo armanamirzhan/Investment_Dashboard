@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-17",
+    "headline": "Fed hikes 25bp to 3.75-4.00% (first since 2023); Warsh dot plot signals one more hike in 2026",
+    "summary": "The FOMC unanimously (12-0) raised the fed funds range to 3.75-4.00%, the first hike since July 2023. The refreshed SEP dot plot skewed hawkish - median projection now shows two hikes in 2026 (one more after Wednesday), no moves in 2027, and one cut each in 2028-2029, lifting 2026 median to 4.1% from 3.8%. Chair Warsh struck a hawkish tone at the press conference, saying \"underlying inflation is not moving toward 2% clearly or quickly enough.\" Stocks turned lower during the presser (S&P -0.4%, Dow -631, Nasdaq flat); 10Y and 2Y yields both down ~2bp. Long-duration AI software/DC capex names remain most exposed to further hawkish shifts.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Generac +34% pre-market on landmark up-to-$8B Amazon datacenter backup power deal",
+    "summary": "Generac Holdings unveiled a long-term industrial backup power supply agreement with Amazon for AWS global datacenter network, including firm initial deliveries totaling $2.4B across 2027-2028 and total purchase potential of up to $8B over the life of the deal. Shares gapped up ~34% pre-market, the largest single-day catalyst in the stock in years. Read-through supports the broader AI datacenter power thesis for Vertiv, Eaton, GE Vernova and Siemens Energy - hyperscaler willingness to lock in decade-long generator supply reads as another proof point that behind-the-meter capacity constraints have persisted through 2026.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262172809-generac-amazon-8-billion-generator-deal-2-4-billion-initial-delivery-tradingkey"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Nebius +11% pre-market announces GPU on-demand price hikes: H100 +17%, B300 +21%, EPYC +25% effective Oct 1",
+    "summary": "Nebius Group notified customers of broad on-demand GPU cloud price increases effective October 1: ~17% for Nvidia H100 instances, ~21% for the newest Nvidia B300 GPU, and 25% for AMD EPYC Genoa CPU rates. Shares up 11% in pre-open. Positive pricing-power signal across neoclouds - watch for read-through to CoreWeave and second-order impact on hyperscaler AI margins as bare-metal GPU supply remains tight despite Piper Sandler noting 2027 order books full and 2028 largely booked.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/premarket-movers-generac-nebius-rally-bcb-bancorp-sinks-4905356"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Banks arrange $22B AI chip loan for Blackstone-Alphabet Crux AI JV backed by TPUs and customer contracts",
+    "summary": "A consortium of ten banks including Goldman Sachs, Sumitomo Mitsui, Barclays, BNP Paribas and Bank of Nova Scotia arranged a $22B loan to finance TPUs (Google-made tensor processing units) for Crux AI, the Blackstone-Alphabet cloud JV announced in May with an initial $5B Blackstone equity check and 500 MW of datacenter capacity targeted online in 2027. Debt is collateralized by chip value plus Crux customer contracts. One of the largest AI-infra financings on record and signals continued bank appetite to underwrite silicon-collateralized deals in the wake of the CoreWeave/Meta debt precedents.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Intel: Tigress raises PT to $145 from $118 (Buy); Northland upgrades to Outperform PT $120 on turnaround + Ohio",
+    "summary": "Two analyst desks bumped Intel Thursday morning as the SK Hynix Ohio memory JV story extends. Tigress Financial reiterated Buy and lifted its price target to $145 from $118, citing the AI-driven turnaround, Terafab (SpaceX/Tesla partnerships), stronger Xeon server-CPU demand, and better operating leverage. Northland upgraded to Outperform with a $120 PT on turnaround progress and server CPU shortage tailwinds. Intel gapped ~3% pre-open on top of Wednesday's ~5% move; the Ohio site's framing has shifted from single-customer fab to a multi-tenant chip hub.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StocksToTrade",
+    "source_url": "https://stockstotrade.com/news/intel-corporation-intc-news-2026_09_17-2/"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "Arm Holdings +5% pre-market as CEO Rene Haas reiterates AGI CPU revenue conversion confidence",
+    "summary": "Arm Holdings shares rose more than 5% pre-market with CEO Rene Haas commenting that the company's confidence in converting customer demand for AGI-class CPUs into revenue continues to strengthen. Follows the Piper Sandler Overweight initiation from Tuesday. Positive for the broader custom-silicon complex including Broadcom and Marvell as hyperscaler XPU/ASIC roadmaps accelerate.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262173053-us-pre-market-tradingkey"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "ASML tracking 60+ EUV shipments in 2026; 10 High-NA units now operating at four customers",
+    "summary": "ASML confirmed it is on pace to ship over 60 EUV lithography systems in 2026 (~48% Y/Y increase), split across Low-NA and High-NA. Ten High-NA EUV systems are now installed at four customers globally with three more in shipment/installation; ASML targets 90% fleet availability by Q4. Forward-looking 2027 slot plan shows 56 Low-NA (5 for Intel, 7 for Samsung, up to 20 for SK Hynix) and 10 High-NA ($380M/each) - memory-maker demand now anchors the tool roadmap.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TechPowerUp",
+    "source_url": "https://www.techpowerup.com/348239/asml-targets-60-euv-shipments-in-2026-as-memory-demand-surges"
+  },
+  {
+    "date": "2026-09-17",
+    "headline": "FedEx (FDX) reports fiscal Q1 after the close - macro tell for global shipping and industrial demand",
+    "summary": "FedEx is scheduled to report fiscal Q1 2027 results after the close today. Prior quarter (Q4 FY26) delivered strong Express margins for the sixth straight quarter but softer Freight; management guided FY26 revenue growth 6.0-6.5% and adjusted EPS $19.30-20.10. Not a direct AI-infra name, but the release is a key read on global industrial/e-commerce demand headed into Q4 - relevant to hyperscaler capex sustainability arguments.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Public.com",
+    "source_url": "https://public.com/stocks/fdx/earnings"
+  }
+]

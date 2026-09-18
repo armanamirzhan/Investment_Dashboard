@@ -4723,5 +4723,26 @@
     "signal_type": "momentum",
     "description": "CoreWeave -3% intraday as market digests Wednesday's proposed $3.0B convertible senior notes offering (due 2033, upsizable to $3.5B) announced after the close; proceeds partly fund capped-call transactions to limit dilution, remainder for general corporate purposes. Adds to the debt-funded AI-infra capex financing pattern (see CoreWeave/Meta precedent) but read as incremental dilution/leverage risk by investors this morning.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "$3B convertible notes due 2033 + up to $500M option + up to 35M-share ATM equity program (second major raise of 2026 after April's $3.5B); credit profile still sub-IG despite scale. Dilution risk from ATM should be monitored.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "OKLO",
+    "signal_type": "legal_risk",
+    "description": "Sentiment overhang after Holtec IPO cancellation; SMR sector capital-markets access softening as public deal windows narrow. Fundamentals (Ratepayer Protection Act passed 417-3) still supportive.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "SMR",
+    "signal_type": "legal_risk",
+    "description": "Sentiment overhang after Holtec IPO cancellation Sept 17; utility-anchored model less exposed than merchant hyperscaler-anchored peers, but sector re-rating risk still applies.",
+    "severity": "medium"
   }
 ]

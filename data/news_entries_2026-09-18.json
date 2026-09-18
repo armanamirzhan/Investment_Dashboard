@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-18",
+    "headline": "Wolfe Research names Nvidia top AI pick for 2026, adds to Alpha List (removes Micron)",
+    "summary": "Wolfe Research analyst Chris Caso added Nvidia to the firm's Alpha List as its favorite AI idea for 2026, removing Micron. Caso argued NVDA has 'only' been up 36% over the past year and lagged other AI-linked names, with concerns about the delayed Blackwell launch, AI spending sustainability, and custom-silicon share loss now fading as Blackwell ramps fully and Rubin stays on track for 2H26. Wolfe estimates Nvidia's latest outlook implies 'at least $40B upside' to consensus CY26 revenue estimates, citing Rubin's '5x inference improvement'. Micron loses the Alpha List slot but Wolfe remains constructive on the memory cycle.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/news/nvidia-nvda-added-wolfe-alpha-175339419.html"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "CoreWeave launches $3B convertible notes due 2033 plus up to 35M-share ATM equity program",
+    "summary": "CoreWeave (CRWV) announced a $3B private offering of convertible senior notes due April 2033 (initial purchasers granted an option for an additional $500M) alongside an at-the-market equity distribution agreement with Deutsche Bank, Goldman Sachs, JPMorgan and Morgan Stanley to sell up to 35M Class A shares. Proceeds will fund AI datacenter operations and provide financing flexibility to migrate the credit profile toward investment grade, plus a portion to protect against dilution. This is a sequel to CoreWeave's $3.5B convertible raise in April 2026. Shares closed -4.2% Wednesday on the dilution concern, though the print underscores continued lender/investor appetite to underwrite AI-infra debt at scale.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "FedEx (FDX) reports Q1 FY27 - first post-Freight-spinoff quarter, revenue ~$21.8B, low-single-digit growth",
+    "summary": "FedEx reported fiscal Q1 2027 results after Thursday's close - the first quarter reporting without the LTL segment that spun off as FedEx Freight Holding (FDXF) on June 1, 2026. Consensus was adjusted EPS of $3.65 on revenue of $21.78B (~1% Y/Y). Report follows JB Hunt's mid-quarter profit warning 24 hours earlier that ranked among JBHT's worst single-day trading losses in four decades. Read on global industrial/e-commerce demand headed into Q4 is a peripheral input to the hyperscaler capex sustainability debate, though direct AI-infra read-through remains limited.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Pomegra",
+    "source_url": "https://pomegra.io/news/fedex-q1-fy2027-can-fuel-surcharges-hold"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Chip stocks rebound Thursday - INTC +7.7%, AMD +6.4%, MU +5.5%, NVDA +2.5%, AVGO +2.3%",
+    "summary": "U.S. semiconductor stocks rallied broadly Thursday as the 10Y Treasury yield slipped below 5% and jobless claims fell to 196k, easing valuation pressure after the Fed's Wednesday 25bp hike. Intel led with +7.67% (extending Wednesday's Tigress/Northland target hikes and Ohio-fab story), AMD +6.36%, Micron +5.50% (HBM sold out through 2027), Nvidia +2.54%, and Broadcom +2.29%. SOX and semi-equipment names (AMAT, LRCX, KLAC) tracked higher. The tape reads as a relief rally after AI-executives-slowing-model-development comments earlier in the week - AI capex narrative remains intact heading into Micron's Sept 30 print.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262174168-chip-stocks-rebound-mu-rise-5-amd-rise-6-intel-rise-8-tradingkey"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Warren Buffett steps down as Berkshire Hathaway chairman; son Howard succeeds him, Greg Abel remains CEO",
+    "summary": "Berkshire Hathaway announced Warren Buffett is stepping down as chairman effective immediately after roughly six decades in leadership, becoming chairman emeritus and remaining on the board. His son Howard Buffett (a director since 1993) takes the chairman role while Greg Abel continues as CEO from the start of the year. Buffett framed the split as 'Greg runs the company; Howard will guard its culture and values'. Symbolic more than operationally material, but a durable market-tone item on a Friday - watch for tape reaction and any Berkshire portfolio-level commentary.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Goldman Sachs adds October Fed hike to base case after Wednesday's move to 3.75-4.00%",
+    "summary": "Goldman Sachs revised its Fed path following Wednesday's hawkish 25bp hike and Warsh dot-plot skew, and now expects another 25bp increase in October. That aligns with the refreshed SEP median showing two hikes in 2026 (one done, one more) and reinforces the hawkish tone from Chair Warsh's press conference. Rate-sensitive long-duration names in the AI capex complex (hyperscaler software, high-multiple neoclouds, unprofitable clean-energy) remain most exposed to a second hike; short-cycle industrials and cash-flow-positive semis less so.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262174168-chip-stocks-rebound-mu-rise-5-amd-rise-6-intel-rise-8-tradingkey"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "SMR developer Holtec cancels IPO - sentiment overhang for NuScale (SMR) and Oklo (OKLO)",
+    "summary": "Holtec International, an SMR developer, cancelled its planned IPO on Sept 17. The pull adds to a cooling sentiment backdrop for public small-modular-reactor names in H2 2026 after outsized 2025 gains - NuScale Power (SMR) and Oklo (OKLO) remain the primary pure-play listings tracked, alongside private peers TerraPower, Kairos Power and X-energy. Fundamental thesis (data-center anchor tenant demand + Ratepayer Protection Act passage 417-3 Sept 16) is intact; near-term risk is capital-markets access if IPO windows stay shut. Watch OKLO and SMR for read-through open Friday.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/09/17/smr-developer-holtec-just-cancelled-its-ipo-should-nuscale-power-and-oklo-investors-panic/"
+  },
+  {
+    "date": "2026-09-18",
+    "headline": "Wells Fargo cuts Netflix to Underweight (first Sell on the Street), PT $57 from $80 on engagement weakness",
+    "summary": "Wells Fargo analyst Steven Cahall downgraded Netflix from Equal Weight to Underweight and slashed his price target to $57 from $80 - the first Sell rating on the Street from a major desk, out of 51 total covering analysts (35 Buy, 16 Hold prior). Cahall cited a 21% Y/Y projected decline in hours on top-100 originals and a 'worrying' engagement trend. Not directly relevant to tracked AI-infra names, but flags rising analyst willingness to break consensus on mega-cap tech - a possible sentiment tell for other single-name high-multiple momentum stocks.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/18/netflix-is-in-the-doldrums-a-comeback-is-unlikely-wells-fargo-says.html"
+  }
+]

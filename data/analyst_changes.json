@@ -5344,5 +5344,32 @@
     "new_target": 120.0,
     "old_rating": "Market Perform",
     "old_target": null
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "NVDA",
+    "firm": "Wolfe Research",
+    "new_rating": "Alpha List (Top Pick)",
+    "new_target": null,
+    "old_rating": "Outperform",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "MU",
+    "firm": "Wolfe Research",
+    "new_rating": "Outperform (removed from Alpha List)",
+    "new_target": null,
+    "old_rating": "Alpha List (Top Pick)",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "NFLX",
+    "firm": "Wells Fargo",
+    "new_rating": "Underweight",
+    "new_target": 57.0,
+    "old_rating": "Equal Weight",
+    "old_target": 80.0
   }
 ]

@@ -4744,5 +4744,26 @@
     "signal_type": "legal_risk",
     "description": "Sentiment overhang after Holtec IPO cancellation Sept 17; utility-anchored model less exposed than merchant hyperscaler-anchored peers, but sector re-rating risk still applies.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "ORCL",
+    "signal_type": "concentration_risk",
+    "description": "London credit hedge fund Sona Asset Management mapped $3.6T of AI-related financing across 176 deals/202 entities, flagging ~120 as highly circular (same firms appearing as investors, customers and suppliers). Report names Oracle and CoreWeave as two of the most heavily leveraged companies relative to earnings, with Oracle, CoreWeave and Nvidia assessed as the weakest secondary nodes in the circular-financing web (Nvidia committed ~$100B to OpenAI, which has committed hundreds of billions to cloud providers including Oracle, itself a major Nvidia buyer). ORCL shares fell as much as 12% this week as the report circulated alongside Oracle's widening FY26 free cash flow deficit (-$23.7B).",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "CRWV",
+    "signal_type": "concentration_risk",
+    "description": "Same Sona Asset Management $3.6T circular AI-financing report (see ORCL) names CoreWeave alongside Oracle and Nvidia as one of the three weakest secondary nodes in the financing web. Compounds this week's $3B convertible notes + 35M-share ATM raise; CoreWeave carried $35.6B of debt as of June 30. Any slowdown in OpenAI spending/funding would ripple directly through CoreWeave given its position as both customer and financing counterparty.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-18",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Intel extends rally for a third straight session, +9% intraday Friday as the Nasdaq 100 posts its best single-day performance in six weeks; continuation of the SK Hynix Ohio JV/Terafab narrative plus Wednesday's Tigress ($145 PT) and Northland (Outperform, $120 PT) target hikes. Cumulative move now well past the +8% logged Thursday.",
+    "severity": "high"
   }
 ]

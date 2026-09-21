@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-21",
+    "headline": "Intel confirmed in talks with AUO for Micro LED glass-substrate advanced packaging targeting CPO — INTC pops in pre-market",
+    "summary": "Digitimes reports Intel and AU Optronics are collaborating on Micro LED substrate-based advanced packaging for co-packaged optics (CPO) and high-density AI compute, embedding Micro LEDs into glass substrates via through-glass vias. Intel shares rallied roughly 5-6% pre-market on the report, positioning the foundry business as a differentiated packaging player alongside its TSMC/NVIDIA tie-ups.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Digitimes",
+    "source_url": "https://www.digitimes.com/news/a20260921VL205/intel-packaging-auo-display-cpo.html"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Xi Jinping state visit to Washington confirmed for Sept 23-25; chip export controls and AI on the agenda",
+    "summary": "Beijing confirmed Xi Jinping's first US state visit since 2015. Trump is hosting a state dinner on Sept 24 with Sam Altman, Jensen Huang and Tim Cook attending, putting semiconductor licensing and AI diplomacy front-and-centre. Chinese customs is still blocking H200 shipments Washington previously licensed; markets are treating the visit as a potential catalyst for either a tariff/export-control thaw or escalation.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/china-confirms-xi-s-first-trip-to-the-us-in-nearly-three-years"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "House passes Ratepayer Protection Act 417-3, forcing datacenter loads >100 MW to bear their own grid costs",
+    "summary": "Sponsored by Reps. Castor (D-FL) and Evans (R-CO), the bill requires states to consider standards preventing large computational loads from shifting generation and transmission costs onto residential ratepayers. The 417-3 tally is the most lopsided AI-related vote in congressional history; only Reps. Lee, Ramirez and Tlaib opposed. The Senate has not yet acted. Structural tailwind for behind-the-meter power (Bloom, fuel cells, on-site SMR) and modest headwind for hyperscalers absorbing more of the interconnection tab.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Utility Dive",
+    "source_url": "https://www.utilitydive.com/news/house-passes-ratepayer-protection-bill-data-centers/830658/"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Nuclear stocks give back Ratepayer-Act rally on Friday — NuScale -7%, Oklo -5%, Centrus -3%",
+    "summary": "Friday's session saw SMR developers unwind Thursday's post-vote enthusiasm. NuScale (SMR) fell 7% to close a difficult week, Oklo -5% to $37.57, Centrus (LEU) -3%. Oklo is now down 45% YTD and NuScale -36% YTD. Analysts framed Thursday's spike as tactical positioning rather than a durable rerating.",
+    "sector": "energy",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/18/nuscale-power-drops-7-as-nuclear-stocks-hand-back-the-vote-rally-oklo-falls-5-centrus-energy-slides-3/"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "CoreWeave prices $3B convertibles plus 35M-share ATM as $3.6T AI-financing scrutiny intensifies",
+    "summary": "CoreWeave (CRWV) launched a $3B convertible notes offering due 2033 with a $500M greenshoe, alongside an up-to-35M-share at-the-market equity program. Shares fell >4% Thursday. New research mapping $3.6T of AI infrastructure exposure singles out CRWV and Oracle as the most leveraged names in the supply chain, raising concerns about how the buildout gets financed if hyperscaler capex outpaces cash flow.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/prediction-markets/26/09/61868516/oracle-coreweave-ai-financing-3-6-trillion"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "GE Vernova CEO says $200B backlog milestone likely to be hit early in 2027 on Q3 order strength",
+    "summary": "At the Morgan Stanley Laguna conference, CEO Scott Strazik said GEV exited Q2 at $176B backlog and Q3 order momentum has him confident the $200B mark comes 'very early in 2027' — ahead of schedule. Read-through supports the electrification bid: Eaton (ETN) +2% and Quanta Services +2% on the day. Reinforces the House Rating thesis on grid and turbine tightness through 2027.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/16/ge-vernova-climbs-5-as-ceo-sees-backlog-hitting-200b-early-eaton-and-quanta-services-edge-higher/"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Bloom Energy stacks $25B in datacenter backlog and financing as fuel cells win the on-site-power bid; Plug stays on the sidelines",
+    "summary": "Bloom (BE) and Brookfield have expanded their AI-infrastructure JV from $5B to $25B, funding on-site fuel-cell projects that let hyperscalers bypass interconnection queues. Bloom has already booked $7.65B of datacenter-linked contracts in early 2026. Plug Power's CEO reiterated Q2 that the company is not chasing the datacenter opportunity, staying focused on material handling, electrolyzers and green hydrogen, though a July 2026 Microsoft PEM-fuel-cell backup pilot remains active.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/09/19/bloom-energy-is-riding-the-data-center-boom-to-a-2/"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "AI server rotation lifts HPE +9%, SMCI +6%, DELL +3% as memory tightness and OEM allocation gains broaden the hardware bid",
+    "summary": "Thursday's session saw a targeted hardware rotation with HPE +9%, Super Micro +6%, Dell +3% on rising memory prices and OEM share gains as Supermicro's export-control overhang leaves NVIDIA GPU allocation available for DELL and HPE Vera Rubin platforms unveiled at GTC 2026. Higher DRAM/HBM ASPs are a net positive to server revenue but a squeeze on Supermicro's thin margins.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/17/ai-server-stocks-rally-as-the-hardware-bid-broadens-hewlett-packard-enterprise-jumps-9-super-micro-climbs-6-dell-rises-3/"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Fed hiked 25 bps to 3.75-4.00% Wednesday — first hike since 2023; tech shrugged it off with Nasdaq +1.6% Thursday",
+    "summary": "The FOMC delivered a unanimous 25 bps hike, its first tightening in three years, citing sticky inflation, resilient labor and rising oil. Nasdaq gained 1.59% Thursday and futures are up ~1.1% pre-open Monday as oil retreats and mega-cap tech cash flow absorbs the higher discount rate. Watch the 2027 dot plot — a further hike would pressure highly-levered names (CRWV, ORCL) more than the mega-caps.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-futures-slip-after-samsung-results-spark-chip-sell-off-223015294.html"
+  },
+  {
+    "date": "2026-09-21",
+    "headline": "Nasdaq futures +1.1% pre-open Monday as chipmakers rally into US-China talks and Intel-AUO packaging news",
+    "summary": "Dow futures +401 pts (+0.77%), S&P 500 futures +54.25 (+0.70%), Nasdaq futures +334.50 (+1.12%) heading into Monday's open. Oil retreated and chipmakers led the pre-bell bid, with Intel up ~5-6% on the AUO Micro LED CPO partnership scoop from Digitimes. Traders positioning ahead of Xi Jinping's state visit later in the week.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026"
+  }
+]

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Morning Brief - 2026-09-21</title>
+<style>
+:root{--bg-primary:#0f1117;--bg-card:#1a1d28;--bg-header:#0a0c12;--bg-hover:#252836;--text-primary:#e8eaed;--text-secondary:#9aa0a6;--text-on-dark:#ffffff;--border:#2d3140;--accent-blue:#4C8BF5;--accent-green:#34A853;--accent-orange:#F9AB00;--accent-red:#EA4335;--accent-purple:#A142F4;--accent-cyan:#24C1E0;--accent-pink:#E8548C;--accent-teal:#1DB9A0;--positive:#34A853;--negative:#EA4335;--gap:16px;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg-primary);color:var(--text-primary);line-height:1.6}
+.container{max-width:1200px;margin:0 auto;padding:var(--gap)}
+.header{background:linear-gradient(135deg,#1a1d28 0%,#0f1117 100%);border:1px solid var(--border);padding:28px 32px;border-radius:var(--radius);margin-bottom:var(--gap)}
+.header h1{font-size:24px;font-weight:700;color:var(--text-on-dark)}
+.header .date{font-size:14px;color:var(--accent-blue);margin-top:4px;font-weight:500}
+.header .subtitle{font-size:13px;color:var(--text-secondary);margin-top:8px}
+.back-link{display:inline-block;margin-bottom:var(--gap);color:var(--accent-blue);text-decoration:none;font-size:13px}
+.back-link:hover{text-decoration:underline}
+.alerts{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.alert{background:var(--bg-card);border:1px solid var(--border);border-left:4px solid var(--accent-orange);border-radius:var(--radius);padding:14px 18px;display:flex;align-items:center;gap:12px}
+.alert.bullish{border-left-color:var(--accent-green)}.alert.bearish{border-left-color:var(--accent-red)}.alert.neutral{border-left-color:var(--accent-blue)}
+.alert-text{font-size:13px;color:var(--text-primary);flex:1}
+.alert-tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.tag-energy{background:rgba(249,171,0,0.15);color:#F9AB00}
+.tag-hardware{background:rgba(161,66,244,0.15);color:#A142F4}
+.tag-software{background:rgba(76,139,245,0.15);color:#4C8BF5}
+.tag-policy{background:rgba(36,193,224,0.15);color:#24C1E0}
+.tag-finance{background:rgba(52,168,83,0.15);color:#34A853}
+.tag-integration{background:rgba(29,185,160,0.15);color:#1DB9A0}
+.tag-bubble{background:rgba(234,67,53,0.15);color:#EA4335}
+.section{margin-bottom:24px}
+.section-title{font-size:16px;font-weight:700;color:var(--text-on-dark);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:var(--gap)}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent-blue)}
+.card h3{font-size:14px;font-weight:600;color:var(--text-on-dark);margin-bottom:8px}
+.card p{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.card .source{font-size:11px;color:var(--text-secondary);margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.card .source a{color:var(--accent-blue);text-decoration:none}
+.ticker{display:inline-block;font-size:11px;font-weight:600;color:var(--accent-blue);background:rgba(76,139,245,0.1);padding:1px 6px;border-radius:4px;margin-right:4px}
+.ticker.up{color:var(--accent-green);background:rgba(52,168,83,0.1)}
+.ticker.down{color:var(--accent-red);background:rgba(234,67,53,0.1)}
+.ticker.warn{color:var(--accent-orange);background:rgba(249,171,0,0.1)}
+.watchlist{width:100%;border-collapse:collapse;font-size:13px;margin-top:12px}
+.watchlist th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);color:var(--text-secondary);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:0.5px}
+.watchlist td{padding:10px 12px;border-bottom:1px solid var(--border)}
+.watchlist tr:hover{background:var(--bg-hover)}
+.val-up{color:var(--accent-green)}.val-down{color:var(--accent-red)}.val-flat{color:var(--text-secondary)}
+.signal-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:500;margin-right:4px}
+.signal-bullish{background:rgba(52,168,83,0.15);color:#34A853}
+.signal-bearish{background:rgba(234,67,53,0.15);color:#EA4335}
+.signal-neutral{background:rgba(76,139,245,0.15);color:#4C8BF5}
+</style></head><body>
+<div class="container">
+<a href="../AI_Datacenter_Power_Landscape.html" class="back-link">&larr; Back to Dashboard</a>
+<div class="header">
+<h1>AI Industry Morning Brief</h1>
+<div class="date">2026-09-21</div>
+<div class="subtitle">Daily intelligence covering energy, hardware, software, policy, integration &amp; financing for AI datacenter infrastructure</div>
+</div>
+<div class="alerts">
+<div class="alert positive"><div class="alert-text"><strong>Intel confirmed in talks with AUO for Micro LED glass-substrate advanced packaging targeting CPO — INTC pops in pre-market</strong> &mdash; Digitimes reports Intel and AU Optronics are collaborating on Micro LED substrate-based advanced packaging for co-packaged optics (CPO) and high-density AI compute, embedding Micro LEDs into glass substrates via through-glass vias. Intel shares rallied roughly 5-6% pre-market on the report, positioning the foundry business as a differentiated packaging player alongside its TSMC/NVIDIA tie-ups.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Xi Jinping state visit to Washington confirmed for Sept 23-25; chip export controls and AI on the agenda</strong> &mdash; Beijing confirmed Xi Jinping's first US state visit since 2015. Trump is hosting a state dinner on Sept 24 with Sam Altman, Jensen Huang and Tim Cook attending, putting semiconductor licensing and AI diplomacy front-and-centre. Chinese customs is still blocking H200 shipments Washington previously licensed; markets are treating the visit as a potential catalyst for either a tariff/export-control thaw or escalation.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>House passes Ratepayer Protection Act 417-3, forcing datacenter loads >100 MW to bear their own grid costs</strong> &mdash; Sponsored by Reps. Castor (D-FL) and Evans (R-CO), the bill requires states to consider standards preventing large computational loads from shifting generation and transmission costs onto residential ratepayers. The 417-3 tally is the most lopsided AI-related vote in congressional history; only Reps. Lee, Ramirez and Tlaib opposed. The Senate has not yet acted. Structural tailwind for behind-the-meter power (Bloom, fuel cells, on-site SMR) and modest headwind for hyperscalers absorbing more of the interconnection tab.</div><span class="alert-tag tag-policy">POLICY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>Nuclear stocks give back Ratepayer-Act rally on Friday — NuScale -7%, Oklo -5%, Centrus -3%</strong> &mdash; Friday's session saw SMR developers unwind Thursday's post-vote enthusiasm. NuScale (SMR) fell 7% to close a difficult week, Oklo -5% to $37.57, Centrus (LEU) -3%. Oklo is now down 45% YTD and NuScale -36% YTD. Analysts framed Thursday's spike as tactical positioning rather than a durable rerating.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert negative"><div class="alert-text"><strong>CoreWeave prices $3B convertibles plus 35M-share ATM as $3.6T AI-financing scrutiny intensifies</strong> &mdash; CoreWeave (CRWV) launched a $3B convertible notes offering due 2033 with a $500M greenshoe, alongside an up-to-35M-share at-the-market equity program. Shares fell >4% Thursday. New research mapping $3.6T of AI infrastructure exposure singles out CRWV and Oracle as the most leveraged names in the supply chain, raising concerns about how the buildout gets financed if hyperscaler capex outpaces cash flow.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>GE Vernova CEO says $200B backlog milestone likely to be hit early in 2027 on Q3 order strength</strong> &mdash; At the Morgan Stanley Laguna conference, CEO Scott Strazik said GEV exited Q2 at $176B backlog and Q3 order momentum has him confident the $200B mark comes 'very early in 2027' — ahead of schedule. Read-through supports the electrification bid: Eaton (ETN) +2% and Quanta Services +2% on the day. Reinforces the House Rating thesis on grid and turbine tightness through 2027.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Bloom Energy stacks $25B in datacenter backlog and financing as fuel cells win the on-site-power bid; Plug stays on the sidelines</strong> &mdash; Bloom (BE) and Brookfield have expanded their AI-infrastructure JV from $5B to $25B, funding on-site fuel-cell projects that let hyperscalers bypass interconnection queues. Bloom has already booked $7.65B of datacenter-linked contracts in early 2026. Plug Power's CEO reiterated Q2 that the company is not chasing the datacenter opportunity, staying focused on material handling, electrolyzers and green hydrogen, though a July 2026 Microsoft PEM-fuel-cell backup pilot remains active.</div><span class="alert-tag tag-energy">ENERGY</span></div>
+<div class="alert positive"><div class="alert-text"><strong>AI server rotation lifts HPE +9%, SMCI +6%, DELL +3% as memory tightness and OEM allocation gains broaden the hardware bid</strong> &mdash; Thursday's session saw a targeted hardware rotation with HPE +9%, Super Micro +6%, Dell +3% on rising memory prices and OEM share gains as Supermicro's export-control overhang leaves NVIDIA GPU allocation available for DELL and HPE Vera Rubin platforms unveiled at GTC 2026. Higher DRAM/HBM ASPs are a net positive to server revenue but a squeeze on Supermicro's thin margins.</div><span class="alert-tag tag-hardware">HARDWARE</span></div>
+<div class="alert neutral"><div class="alert-text"><strong>Fed hiked 25 bps to 3.75-4.00% Wednesday — first hike since 2023; tech shrugged it off with Nasdaq +1.6% Thursday</strong> &mdash; The FOMC delivered a unanimous 25 bps hike, its first tightening in three years, citing sticky inflation, resilient labor and rising oil. Nasdaq gained 1.59% Thursday and futures are up ~1.1% pre-open Monday as oil retreats and mega-cap tech cash flow absorbs the higher discount rate. Watch the 2027 dot plot — a further hike would pressure highly-levered names (CRWV, ORCL) more than the mega-caps.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+<div class="alert positive"><div class="alert-text"><strong>Nasdaq futures +1.1% pre-open Monday as chipmakers rally into US-China talks and Intel-AUO packaging news</strong> &mdash; Dow futures +401 pts (+0.77%), S&P 500 futures +54.25 (+0.70%), Nasdaq futures +334.50 (+1.12%) heading into Monday's open. Oil retreated and chipmakers led the pre-bell bid, with Intel up ~5-6% on the AUO Micro LED CPO partnership scoop from Digitimes. Traders positioning ahead of Xi Jinping's state visit later in the week.</div><span class="alert-tag tag-finance">FINANCE</span></div>
+</div>
+<div class="section"><div class="section-title">Energy & Power</div><div class="card-grid">
+<div class="card"><h3>Nuclear stocks give back Ratepayer-Act rally on Friday — NuScale -7%, Oklo -5%, Centrus -3%</h3><p>Friday's session saw SMR developers unwind Thursday's post-vote enthusiasm. NuScale (SMR) fell 7% to close a difficult week, Oklo -5% to $37.57, Centrus (LEU) -3%. Oklo is now down 45% YTD and NuScale -36% YTD. Analysts framed Thursday's spike as tactical positioning rather than a durable rerating.</p><div class="source"><a href="https://247wallst.com/investing/2026/09/18/nuscale-power-drops-7-as-nuclear-stocks-hand-back-the-vote-rally-oklo-falls-5-centrus-energy-slides-3/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>Bloom Energy stacks $25B in datacenter backlog and financing as fuel cells win the on-site-power bid; Plug stays on the sidelines</h3><p>Bloom (BE) and Brookfield have expanded their AI-infrastructure JV from $5B to $25B, funding on-site fuel-cell projects that let hyperscalers bypass interconnection queues. Bloom has already booked $7.65B of datacenter-linked contracts in early 2026. Plug Power's CEO reiterated Q2 that the company is not chasing the datacenter opportunity, staying focused on material handling, electrolyzers and green hydrogen, though a July 2026 Microsoft PEM-fuel-cell backup pilot remains active.</p><div class="source"><a href="https://www.fool.com/investing/2026/09/19/bloom-energy-is-riding-the-data-center-boom-to-a-2/">The Motley Fool</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Hardware & Semiconductors</div><div class="card-grid">
+<div class="card"><h3>Intel confirmed in talks with AUO for Micro LED glass-substrate advanced packaging targeting CPO — INTC pops in pre-market</h3><p>Digitimes reports Intel and AU Optronics are collaborating on Micro LED substrate-based advanced packaging for co-packaged optics (CPO) and high-density AI compute, embedding Micro LEDs into glass substrates via through-glass vias. Intel shares rallied roughly 5-6% pre-market on the report, positioning the foundry business as a differentiated packaging player alongside its TSMC/NVIDIA tie-ups.</p><div class="source"><a href="https://www.digitimes.com/news/a20260921VL205/intel-packaging-auo-display-cpo.html">Digitimes</a></div></div>
+<div class="card"><h3>GE Vernova CEO says $200B backlog milestone likely to be hit early in 2027 on Q3 order strength</h3><p>At the Morgan Stanley Laguna conference, CEO Scott Strazik said GEV exited Q2 at $176B backlog and Q3 order momentum has him confident the $200B mark comes 'very early in 2027' — ahead of schedule. Read-through supports the electrification bid: Eaton (ETN) +2% and Quanta Services +2% on the day. Reinforces the House Rating thesis on grid and turbine tightness through 2027.</p><div class="source"><a href="https://247wallst.com/investing/2026/09/16/ge-vernova-climbs-5-as-ceo-sees-backlog-hitting-200b-early-eaton-and-quanta-services-edge-higher/">24/7 Wall St.</a></div></div>
+<div class="card"><h3>AI server rotation lifts HPE +9%, SMCI +6%, DELL +3% as memory tightness and OEM allocation gains broaden the hardware bid</h3><p>Thursday's session saw a targeted hardware rotation with HPE +9%, Super Micro +6%, Dell +3% on rising memory prices and OEM share gains as Supermicro's export-control overhang leaves NVIDIA GPU allocation available for DELL and HPE Vera Rubin platforms unveiled at GTC 2026. Higher DRAM/HBM ASPs are a net positive to server revenue but a squeeze on Supermicro's thin margins.</p><div class="source"><a href="https://247wallst.com/investing/2026/09/17/ai-server-stocks-rally-as-the-hardware-bid-broadens-hewlett-packard-enterprise-jumps-9-super-micro-climbs-6-dell-rises-3/">24/7 Wall St.</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Policy & Regulation</div><div class="card-grid">
+<div class="card"><h3>Xi Jinping state visit to Washington confirmed for Sept 23-25; chip export controls and AI on the agenda</h3><p>Beijing confirmed Xi Jinping's first US state visit since 2015. Trump is hosting a state dinner on Sept 24 with Sam Altman, Jensen Huang and Tim Cook attending, putting semiconductor licensing and AI diplomacy front-and-centre. Chinese customs is still blocking H200 shipments Washington previously licensed; markets are treating the visit as a potential catalyst for either a tariff/export-control thaw or escalation.</p><div class="source"><a href="https://www.bloomberg.com/news/articles/2026-09-21/china-confirms-xi-s-first-trip-to-the-us-in-nearly-three-years">Bloomberg</a></div></div>
+<div class="card"><h3>House passes Ratepayer Protection Act 417-3, forcing datacenter loads >100 MW to bear their own grid costs</h3><p>Sponsored by Reps. Castor (D-FL) and Evans (R-CO), the bill requires states to consider standards preventing large computational loads from shifting generation and transmission costs onto residential ratepayers. The 417-3 tally is the most lopsided AI-related vote in congressional history; only Reps. Lee, Ramirez and Tlaib opposed. The Senate has not yet acted. Structural tailwind for behind-the-meter power (Bloom, fuel cells, on-site SMR) and modest headwind for hyperscalers absorbing more of the interconnection tab.</p><div class="source"><a href="https://www.utilitydive.com/news/house-passes-ratepayer-protection-bill-data-centers/830658/">Utility Dive</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Financing & Markets</div><div class="card-grid">
+<div class="card"><h3>CoreWeave prices $3B convertibles plus 35M-share ATM as $3.6T AI-financing scrutiny intensifies</h3><p>CoreWeave (CRWV) launched a $3B convertible notes offering due 2033 with a $500M greenshoe, alongside an up-to-35M-share at-the-market equity program. Shares fell >4% Thursday. New research mapping $3.6T of AI infrastructure exposure singles out CRWV and Oracle as the most leveraged names in the supply chain, raising concerns about how the buildout gets financed if hyperscaler capex outpaces cash flow.</p><div class="source"><a href="https://www.benzinga.com/markets/prediction-markets/26/09/61868516/oracle-coreweave-ai-financing-3-6-trillion">Benzinga</a></div></div>
+<div class="card"><h3>Fed hiked 25 bps to 3.75-4.00% Wednesday — first hike since 2023; tech shrugged it off with Nasdaq +1.6% Thursday</h3><p>The FOMC delivered a unanimous 25 bps hike, its first tightening in three years, citing sticky inflation, resilient labor and rising oil. Nasdaq gained 1.59% Thursday and futures are up ~1.1% pre-open Monday as oil retreats and mega-cap tech cash flow absorbs the higher discount rate. Watch the 2027 dot plot — a further hike would pressure highly-levered names (CRWV, ORCL) more than the mega-caps.</p><div class="source"><a href="https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-futures-slip-after-samsung-results-spark-chip-sell-off-223015294.html">Yahoo Finance</a></div></div>
+<div class="card"><h3>Nasdaq futures +1.1% pre-open Monday as chipmakers rally into US-China talks and Intel-AUO packaging news</h3><p>Dow futures +401 pts (+0.77%), S&P 500 futures +54.25 (+0.70%), Nasdaq futures +334.50 (+1.12%) heading into Monday's open. Oil retreated and chipmakers led the pre-bell bid, with Intel up ~5-6% on the AUO Micro LED CPO partnership scoop from Digitimes. Traders positioning ahead of Xi Jinping's state visit later in the week.</p><div class="source"><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026">TheStreet</a></div></div>
+</div></div>
+<div class="section"><div class="section-title">Sentiment &amp; Momentum Signals</div><div class="card-grid">
+<div class="card"><h3>Analyst Rating Changes</h3>
+<p><span class="ticker">PLTR</span> Citi: Neutral &rarr; <strong>Buy</strong> | PT: $210 &rarr; $235 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">FDX</span> Wolfe Research: Outperform &rarr; <strong>Outperform</strong> | PT: $244 &rarr; $254 <span class="val-up">&#9650;</span></p>
+<p><span class="ticker">TSM</span> Stifel: Buy &rarr; <strong>Buy</strong> | PT: N/A &rarr; $515 </p>
+<p><span class="ticker">AMD</span> Stifel: Buy &rarr; <strong>Buy</strong> | PT: N/A &rarr; $635 </p>
+<p><span class="ticker">NOW</span> Goldman Sachs: Buy &rarr; <strong>Buy</strong> | PT: $145 &rarr; $152 <span class="val-up">&#9650;</span></p>
+</div>
+<div class="card"><h3>Watchlist Signals</h3>
+<p><span class="ticker">INTC</span> <span class="signal-badge signal-neutral">Momentum</span> Pre-market rally ~5-6% on Digitimes scoop that Intel is co-developing Micro LED glass-substrate CPO packaging with AUO Optronics — differentiates foundry roadmap for AI interconnect.</p>
+<p><span class="ticker">CRWV</span> <span class="signal-badge signal-neutral">Legal Risk</span> Newly-launched $3B convertibles + $500M greenshoe + 35M-share ATM. External research now flags CRWV as one of the most leveraged names inside the $3.6T AI-infrastructure financing chain — refinancing risk if Fed stays tighter for longer.</p>
+<p><span class="ticker">OKLO</span> <span class="signal-badge signal-bearish">Overvalued</span> OKLO -5% Friday, now -45% YTD; SMR -36% YTD. Ratepayer Protection Act tailwind faded within a day, suggesting the SMR-benefit-from-behind-the-meter thesis is being priced skeptically ahead of first revenues.</p>
+<p><span class="ticker">GEV</span> <span class="signal-badge signal-neutral">Momentum</span> CEO Strazik guided $200B backlog milestone to hit early 2027 (vs. later expectations). Positive read-through to ETN and turbine supply chain.</p>
+</div>
+</div></div>
+<div class="section"><div class="section-title">Watchlist</div>
+<div class="card"><table class="watchlist"><thead><tr><th>Ticker</th><th>Direction</th><th>Signal</th></tr></thead><tbody>
+<tr><td><span class="ticker up">INTC</span></td><td>Up</td><td>Pre-market +5-6% on Digitimes scoop: Intel co-developing Micro LED glass-substrate CPO packaging with AUO Optronics</td></tr>
+<tr><td><span class="ticker down">CRWV</span></td><td>Down</td><td>$3B convert + up-to-$500M greenshoe + 35M-share ATM; flagged as one of the most leveraged names in $3.6T AI-infra financing chain</td></tr>
+<tr><td><span class="ticker up">GEV</span></td><td>Up</td><td>CEO guides $200B backlog milestone to hit early 2027, ahead of schedule; ETN +2% on read-through</td></tr>
+<tr><td><span class="ticker up">BE</span></td><td>Up</td><td>$25B Brookfield JV + $7.65B datacenter contracts already booked in early 2026; behind-the-meter fuel-cell demand accelerating</td></tr>
+<tr><td><span class="ticker down">SMR</span></td><td>Down</td><td>-7% Friday, giving back Thursday's Ratepayer-Act rally; -36% YTD</td></tr>
+<tr><td><span class="ticker down">OKLO</span></td><td>Down</td><td>-5% Friday to $37.57; -45% YTD; SMR sector-wide re-rating stalling</td></tr>
+<tr><td><span class="ticker up">PLTR</span></td><td>Up</td><td>Citi upgrade to Buy from Neutral, PT $235 from $210 - sees materially higher 2026 consensus</td></tr>
+<tr><td><span class="ticker up">TSM</span></td><td>Up</td><td>Stifel reiterates Buy, $515 PT; 3nm/2nm/CoWoS remain tight through 2027</td></tr>
+<tr><td><span class="ticker ">macro</span></td><td>Neutral</td><td>Xi state visit Sept 23-25 with Altman/Huang/Cook at state dinner; Nasdaq futures +1.1% pre-open</td></tr>
+</tbody></table></div></div>
+<div style="text-align:center;padding:16px;color:var(--text-secondary);font-size:11px;border-top:1px solid var(--border);margin-top:24px">
+AI Morning Brief &bull; 2026-09-21 &bull; Generated from investment landscape data store<br>
+Sources cited per item. Not investment advice.</div>
+</div></body></html>

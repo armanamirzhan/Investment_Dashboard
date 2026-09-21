@@ -5371,5 +5371,50 @@
     "new_target": 57.0,
     "old_rating": "Equal Weight",
     "old_target": 80.0
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "PLTR",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 235,
+    "old_rating": "Neutral",
+    "old_target": 210
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "FDX",
+    "firm": "Wolfe Research",
+    "new_rating": "Outperform",
+    "new_target": 254,
+    "old_rating": "Outperform",
+    "old_target": 244
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "TSM",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 515,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "AMD",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 635,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "NOW",
+    "firm": "Goldman Sachs",
+    "new_rating": "Buy",
+    "new_target": 152,
+    "old_rating": "Buy",
+    "old_target": 145
   }
 ]

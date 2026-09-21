@@ -4765,5 +4765,33 @@
     "signal_type": "momentum",
     "description": "Intel extends rally for a third straight session, +9% intraday Friday as the Nasdaq 100 posts its best single-day performance in six weeks; continuation of the SK Hynix Ohio JV/Terafab narrative plus Wednesday's Tigress ($145 PT) and Northland (Outperform, $120 PT) target hikes. Cumulative move now well past the +8% logged Thursday.",
     "severity": "high"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Pre-market rally ~5-6% on Digitimes scoop that Intel is co-developing Micro LED glass-substrate CPO packaging with AUO Optronics — differentiates foundry roadmap for AI interconnect.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "CRWV",
+    "signal_type": "legal_risk",
+    "description": "Newly-launched $3B convertibles + $500M greenshoe + 35M-share ATM. External research now flags CRWV as one of the most leveraged names inside the $3.6T AI-infrastructure financing chain — refinancing risk if Fed stays tighter for longer.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "OKLO",
+    "signal_type": "overvalued",
+    "description": "OKLO -5% Friday, now -45% YTD; SMR -36% YTD. Ratepayer Protection Act tailwind faded within a day, suggesting the SMR-benefit-from-behind-the-meter thesis is being priced skeptically ahead of first revenues.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "GEV",
+    "signal_type": "momentum",
+    "description": "CEO Strazik guided $200B backlog milestone to hit early 2027 (vs. later expectations). Positive read-through to ETN and turbine supply chain.",
+    "severity": "medium"
   }
 ]

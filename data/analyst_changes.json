@@ -5416,5 +5416,32 @@
     "new_target": 152,
     "old_rating": "Buy",
     "old_target": 145
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "CRWV",
+    "firm": "Rothschild & Co Redburn",
+    "new_rating": "Sell",
+    "new_target": 54,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "EQIX",
+    "firm": "Rothschild & Co Redburn",
+    "new_rating": "Buy",
+    "new_target": 1261,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-21",
+    "ticker": "DLR",
+    "firm": "Rothschild & Co Redburn",
+    "new_rating": "Buy",
+    "new_target": 227,
+    "old_rating": null,
+    "old_target": null
   }
 ]

@@ -77200,12 +77200,12 @@
     "ticker": "CDNS",
     "price": 294.9,
     "pe_ratio": 58.511906,
-    "ps_ratio": 13.9120655,
+    "ps_ratio": 13.933435,
     "ev_ebitda": 36.656,
-    "market_cap": 81213390848.0,
+    "market_cap": 81338138624.0,
     "short_interest": 0.0212,
-    "avg_analyst_target": 402.11606,
-    "upside_pct": 36.35675144116651
+    "avg_analyst_target": 403.37964,
+    "upside_pct": 36.78522889114955
   },
   {
     "date": "2026-09-21",
@@ -77216,8 +77216,8 @@
     "ev_ebitda": 2238.256,
     "market_cap": 255318163456.0,
     "short_interest": 0.0241,
-    "avg_analyst_target": 235.35,
-    "upside_pct": -5.614597954682174
+    "avg_analyst_target": 235.67,
+    "upside_pct": -5.486264287146584
   },
   {
     "date": "2026-09-21",
@@ -77252,8 +77252,8 @@
     "ev_ebitda": 24.088,
     "market_cap": 4341260091392.0,
     "short_interest": 0.013200001,
-    "avg_analyst_target": 428.15927,
-    "upside_pct": 20.618438177874175
+    "avg_analyst_target": 429.45557,
+    "upside_pct": 20.983623968222666
   },
   {
     "date": "2026-09-21",
@@ -77270,14 +77270,14 @@
   {
     "date": "2026-09-21",
     "ticker": "ORCL",
-    "price": 148.6,
-    "pe_ratio": 23.291536,
-    "ps_ratio": 6.2601314,
+    "price": 148.56,
+    "pe_ratio": 23.285265,
+    "ps_ratio": 6.2584457,
     "ev_ebitda": 16.954,
-    "market_cap": 449327202304.0,
+    "market_cap": 449206222848.0,
     "short_interest": 0.025999999,
     "avg_analyst_target": 237.97415,
-    "upside_pct": 60.14411170928668
+    "upside_pct": 60.18723074851911
   },
   {
     "date": "2026-09-21",
@@ -77300,8 +77300,8 @@
     "ev_ebitda": 27.13,
     "market_cap": 104321630208.0,
     "short_interest": 0.0191,
-    "avg_analyst_target": 1233.2333,
-    "upside_pct": 16.644278606965184
+    "avg_analyst_target": 1234.129,
+    "upside_pct": 16.728997597563506
   },
   {
     "date": "2026-09-21",
@@ -77312,8 +77312,8 @@
     "ev_ebitda": 27.537,
     "market_cap": 70370082816.0,
     "short_interest": 0.0,
-    "avg_analyst_target": 223.48387,
-    "upside_pct": 19.93982182149948
+    "avg_analyst_target": 223.59375,
+    "upside_pct": 19.998792464981477
   },
   {
     "date": "2026-09-21",
@@ -77344,9 +77344,9 @@
     "ticker": "NEE",
     "price": 79.63,
     "pe_ratio": 17.894382,
-    "ps_ratio": 5.787681,
+    "ps_ratio": 5.786646,
     "ev_ebitda": 19.613,
-    "market_cap": 166106447872.0,
+    "market_cap": 166076743680.0,
     "short_interest": 0.0,
     "avg_analyst_target": 98.22222,
     "upside_pct": 23.348260705764158
@@ -77356,9 +77356,9 @@
     "ticker": "AES",
     "price": 14.83,
     "pe_ratio": 5.554307,
-    "ps_ratio": 0.8105022,
+    "ps_ratio": 0.810183,
     "ev_ebitda": 12.175,
-    "market_cap": 10580295680.0,
+    "market_cap": 10576129024.0,
     "short_interest": 0.024600001,
     "avg_analyst_target": 15.0,
     "upside_pct": 1.1463250168577204
@@ -77378,23 +77378,23 @@
   {
     "date": "2026-09-21",
     "ticker": "ENR.DE",
-    "price": 164.17432755599998,
+    "price": 164.230818492,
     "pe_ratio": 46.480522,
     "ps_ratio": 2.9109907,
     "ev_ebitda": 24.167,
-    "market_cap": 139687498362.46875,
+    "market_cap": 139735563596.8295,
     "short_interest": null,
-    "avg_analyst_target": 225.13350767123995,
-    "upside_pct": 37.13076278290024
+    "avg_analyst_target": 225.21097412268,
+    "upside_pct": 37.130762782900256
   },
   {
     "date": "2026-09-21",
     "ticker": "ETN",
     "price": 435.43,
     "pe_ratio": 44.386337,
-    "ps_ratio": 5.6324854,
+    "ps_ratio": 5.6310353,
     "ev_ebitda": 27.965,
-    "market_cap": 169121005568.0,
+    "market_cap": 169077473280.0,
     "short_interest": 0.0186,
     "avg_analyst_target": 479.5708,
     "upside_pct": 10.137289575821605
@@ -77444,20 +77444,20 @@
     "ev_ebitda": 50.113,
     "market_cap": 40604741632.0,
     "short_interest": null,
-    "avg_analyst_target": 128.36592,
-    "upside_pct": 37.6873538560549
+    "avg_analyst_target": 128.43913,
+    "upside_pct": 37.76588008151883
   },
   {
     "date": "2026-09-21",
     "ticker": "SMR",
-    "price": 8.8,
+    "price": 8.79,
     "pe_ratio": null,
-    "ps_ratio": 337.83237,
+    "ps_ratio": 337.44846,
     "ev_ebitda": -10.178,
-    "market_cap": 3611428096.0,
+    "market_cap": 3607323904.0,
     "short_interest": 0.176,
     "avg_analyst_target": 11.96667,
-    "upside_pct": 35.984886363636356
+    "upside_pct": 36.139590443686025
   },
   {
     "date": "2026-09-21",
@@ -77534,26 +77534,26 @@
   {
     "date": "2026-09-21",
     "ticker": "000660.KS",
-    "price": 1359.148394,
+    "price": 1358.486188,
     "pe_ratio": null,
     "ps_ratio": 7.009593,
     "ev_ebitda": 8.787,
-    "market_cap": 964798188513.1724,
+    "market_cap": 964328118319.187,
     "short_interest": null,
-    "avg_analyst_target": 2316.68262568525,
+    "avg_analyst_target": 2315.5538886455,
     "upside_pct": 70.45104389721627
   },
   {
     "date": "2026-09-21",
     "ticker": "005930.KS",
-    "price": 199.361167,
+    "price": 199.264034,
     "pe_ratio": null,
     "ps_ratio": 3.70769,
     "ev_ebitda": 7.247,
-    "market_cap": 1309117693708.6045,
+    "market_cap": 1308479863729.695,
     "short_interest": null,
-    "avg_analyst_target": 346.22639143455,
-    "upside_pct": 73.6679197080292
+    "avg_analyst_target": 346.0577025741,
+    "upside_pct": 73.66791970802919
   },
   {
     "date": "2026-09-21",
@@ -77564,8 +77564,8 @@
     "ev_ebitda": 51.326,
     "market_cap": 259080781824.0,
     "short_interest": 0.0139,
-    "avg_analyst_target": 241.03607,
-    "upside_pct": 17.338170577353722
+    "avg_analyst_target": 241.92892,
+    "upside_pct": 17.77281666828937
   },
   {
     "date": "2026-09-21",
@@ -77594,23 +77594,23 @@
   {
     "date": "2026-09-21",
     "ticker": "GLW",
-    "price": 159.02,
-    "pe_ratio": 72.944954,
-    "ps_ratio": 8.074628,
+    "price": 158.98,
+    "pe_ratio": 72.9266,
+    "ps_ratio": 8.0561905,
     "ev_ebitda": 33.479,
-    "market_cap": 136977981440.0,
+    "market_cap": 136665219072.0,
     "short_interest": 0.026300002,
     "avg_analyst_target": 192.4375,
-    "upside_pct": 21.01465224500062
+    "upside_pct": 21.045100012580207
   },
   {
     "date": "2026-09-21",
     "ticker": "SMCI",
     "price": 41.2,
     "pe_ratio": 12.638037,
-    "ps_ratio": 0.69290435,
+    "ps_ratio": 0.6822599,
     "ev_ebitda": 11.197,
-    "market_cap": 27066974208.0,
+    "market_cap": 26651168768.0,
     "short_interest": 0.1848,
     "avg_analyst_target": 42.375,
     "upside_pct": 2.851941747572808
@@ -77618,38 +77618,38 @@
   {
     "date": "2026-09-21",
     "ticker": "DELL",
-    "price": 575.2,
-    "pe_ratio": 33.422432,
-    "ps_ratio": 2.4188275,
+    "price": 575.31,
+    "pe_ratio": 33.42882,
+    "ps_ratio": 2.41929,
     "ev_ebitda": 21.714,
-    "market_cap": 365719486464.0,
+    "market_cap": 365789413376.0,
     "short_interest": 0.048800003,
-    "avg_analyst_target": 576.88,
-    "upside_pct": 0.2920723226703668
+    "avg_analyst_target": 577.36,
+    "upside_pct": 0.35632963098156967
   },
   {
     "date": "2026-09-21",
     "ticker": "HPE",
-    "price": 61.76,
-    "pe_ratio": 31.83505,
-    "ps_ratio": 1.9580193,
+    "price": 61.75,
+    "pe_ratio": 31.829895,
+    "ps_ratio": 1.9577024,
     "ev_ebitda": 13.763,
-    "market_cap": 81984225280.0,
+    "market_cap": 81970954240.0,
     "short_interest": 0.047399998,
     "avg_analyst_target": 67.4295,
-    "upside_pct": 9.179889896373068
+    "upside_pct": 9.197570850202437
   },
   {
     "date": "2026-09-21",
     "ticker": "CLS",
-    "price": 344.31,
-    "pe_ratio": 35.828304,
-    "ps_ratio": 2.7843995,
+    "price": 344.4,
+    "pe_ratio": 35.83767,
+    "ps_ratio": 2.7851274,
     "ev_ebitda": 24.775,
-    "market_cap": 43421319168.0,
+    "market_cap": 43432669184.0,
     "short_interest": 0.032,
     "avg_analyst_target": 471.2034,
-    "upside_pct": 36.8544044610961
+    "upside_pct": 36.81864111498258
   },
   {
     "date": "2026-09-21",
@@ -77720,8 +77720,8 @@
     "ev_ebitda": 2657.248,
     "market_cap": 657318019072.0,
     "short_interest": 0.004,
-    "avg_analyst_target": 2133.4644,
-    "upside_pct": 24.667765233854563
+    "avg_analyst_target": 2134.4434,
+    "upside_pct": 24.724972535820314
   },
   {
     "date": "2026-09-21",
@@ -77762,14 +77762,14 @@
   {
     "date": "2026-09-21",
     "ticker": "8035.T",
-    "price": 337.349871057,
+    "price": 337.720987804,
     "pe_ratio": 42.372746,
     "ps_ratio": 9.186835,
     "ev_ebitda": 30.497,
-    "market_cap": 153256988809.49326,
+    "market_cap": 153425585984.18253,
     "short_interest": null,
-    "avg_analyst_target": 487.88181800614655,
-    "upside_pct": 44.62190736207873
+    "avg_analyst_target": 488.41853412419806,
+    "upside_pct": 44.62190736207872
   },
   {
     "date": "2026-09-21",
@@ -77788,9 +77788,9 @@
     "ticker": "AMKR",
     "price": 52.19,
     "pe_ratio": 23.403587,
-    "ps_ratio": 1.738709,
+    "ps_ratio": 1.7346503,
     "ev_ebitda": 9.589,
-    "market_cap": 12966734848.0,
+    "market_cap": 12936466432.0,
     "short_interest": 0.1525,
     "avg_analyst_target": 76.4,
     "upside_pct": 46.388196972600134
@@ -77800,9 +77800,9 @@
     "ticker": "ENTG",
     "price": 143.14,
     "pe_ratio": 71.21393,
-    "ps_ratio": 6.575807,
+    "ps_ratio": 6.55429,
     "ev_ebitda": 27.268,
-    "market_cap": 21871792128.0,
+    "market_cap": 21800222720.0,
     "short_interest": 0.0664,
     "avg_analyst_target": 173.36365,
     "upside_pct": 21.11474779935729
@@ -77810,13 +77810,13 @@
   {
     "date": "2026-09-21",
     "ticker": "4063.T",
-    "price": 37.1205544428,
+    "price": 37.1613905616,
     "pe_ratio": 23.14822,
     "ps_ratio": 4.067436,
     "ev_ebitda": 10.909,
-    "market_cap": 67376211007.69176,
+    "market_cap": 67450331208.70449,
     "short_interest": null,
-    "avg_analyst_target": 49.3842226813422,
+    "avg_analyst_target": 49.438549994458405,
     "upside_pct": 33.037405886379204
   },
   {
@@ -77846,23 +77846,23 @@
   {
     "date": "2026-09-21",
     "ticker": "IFX.DE",
-    "price": 66.84633663899999,
+    "price": 66.869337873,
     "pe_ratio": 71.085365,
     "ps_ratio": 4.8584332,
-    "ev_ebitda": 18.718,
-    "market_cap": 86866792563.29584,
+    "ev_ebitda": 19.474,
+    "market_cap": 86896682659.34357,
     "short_interest": null,
-    "avg_analyst_target": 99.30151174708098,
-    "upside_pct": 48.551912849545374
+    "avg_analyst_target": 99.33568052016699,
+    "upside_pct": 48.551912849545346
   },
   {
     "date": "2026-09-21",
     "ticker": "STM",
     "price": 51.63,
     "pe_ratio": null,
-    "ps_ratio": 3.5155547,
+    "ps_ratio": 3.516063,
     "ev_ebitda": 15.576,
-    "market_cap": 46050250752.0,
+    "market_cap": 46056906752.0,
     "short_interest": 0.0219,
     "avg_analyst_target": 75.04167,
     "upside_pct": 45.34509006391632

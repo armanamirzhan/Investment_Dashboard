@@ -5479,5 +5479,14 @@
     "new_target": 1300,
     "old_rating": "Market-Perform",
     "old_target": 800
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "CRWD",
+    "firm": "Morgan Stanley",
+    "new_rating": "Overweight",
+    "new_target": 254,
+    "old_rating": "Overweight",
+    "old_target": 238
   }
 ]

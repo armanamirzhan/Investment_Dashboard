@@ -7499,5 +7499,104 @@
       "finance"
     ],
     "top_headlines": "Intel-AUO Micro LED CPO packaging (INTC pre-mkt +5-6%); Xi state visit Sep 23-25; House passes Ratepayer Protection Act 417-3; GEV $200B backlog early 2027; nuclear stocks give back Fri; CoreWeave $3B convert + AI-leverage scrutiny"
+  },
+  {
+    "date": "2026-09-22",
+    "tickers": [
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "+11% Monday close ($741) on Muse AI-agent traction; Wells Fargo PT $796 (from $640); Connect keynote Wed 7pm ET"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "Crossed $1T market cap for first time on +10% Monday session; $610+ close"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+12% Monday on SK Hynix Ohio memory JV report + AUO Micro LED CPO tailwind"
+      },
+      {
+        "ticker": "ARM",
+        "direction": "up",
+        "note": "+17% Monday despite Goldman Sept 16 double-downgrade to Sell — market shrugging off the call"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "Samsung +5% Monday session; KOSPI +2.2% at Tuesday open on chip strength"
+      },
+      {
+        "ticker": "ASML",
+        "direction": "up",
+        "note": "Bernstein upgrade to Outperform, PT €1,300 from €800 — top European semis pick 2026"
+      },
+      {
+        "ticker": "TXN",
+        "direction": "down",
+        "note": "Goldman double-downgrade Buy → Sell, PT $200 → $156 on margin/inventory drag"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "neutral",
+        "note": "Nscale contracts ~$14B / 200,000 NVIDIA GB300 GPUs across TX/PT/UK/NO — Azure capacity add"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+2.3% Monday; AI Energy Management Alliance with Google/Emerald AI launched last week"
+      },
+      {
+        "ticker": "TSM",
+        "direction": "up",
+        "note": "Aug revenue +53% YoY to $16.3B; Q3 guide $44.6-45.8B in play; Arizona plan now $265B"
+      },
+      {
+        "ticker": "macro",
+        "direction": "positive",
+        "note": "Nasdaq +2.26% record close Monday; futures +0.1-0.3% pre-open Tuesday; oil and yields lower"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "META",
+        "signal": "Muse #1 on US App Store; Connect keynote Wed — agentic AI thesis reset higher"
+      },
+      {
+        "ticker": "AMD",
+        "signal": "$1T market-cap milestone crossed intraday for first time"
+      },
+      {
+        "ticker": "INTC",
+        "signal": "SK Hynix Ohio US memory JV in exploratory talks (Reuters)"
+      },
+      {
+        "ticker": "ARM",
+        "signal": "Squeeze dynamics — +17% despite fresh Goldman Sell rating"
+      },
+      {
+        "ticker": "MSFT",
+        "signal": "Nscale $14B GB300 deal — 200k GPUs across 4 hyperscale sites"
+      },
+      {
+        "ticker": "ASML",
+        "signal": "Bernstein top 2026 semis pick; PT €1,300"
+      },
+      {
+        "ticker": "TXN",
+        "signal": "Goldman double-downgrade Sell PT $156 — analog laggard flagged"
+      },
+      {
+        "ticker": "TSM",
+        "signal": "August revenue +53% YoY — AI demand still outstrips supply"
+      },
+      {
+        "ticker": "macro",
+        "signal": "AI chip rally 5th straight day; Xi state visit Sep 23-25 in focus"
+      }
+    ],
+    "file": "morning-news/2026-09-22.html"
   }
 ]

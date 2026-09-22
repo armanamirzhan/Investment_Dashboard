@@ -4814,5 +4814,47 @@
     "signal_type": "momentum",
     "description": "New Era Energy & Digital signed a 20-year PPA (min 200MW, up to 207MW) with Vistra subsidiary Luminant ET Services to power Phase 1 of the Texas Critical Data Center (Permian Basin, scaling toward 1.4GW), sourced from Vistra's adjacent 1,180MW Odessa gas plant. Vistra also gets a 5% non-voting interest in the powered portion of the project once delivery starts (Q3 2027).",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "META",
+    "signal_type": "momentum",
+    "description": "Closed +11% Monday to ~$741 on Muse AI-agent traction (#1 US App Store); Wells Fargo PT lifted to $796 from $640 on 25x '27 EPS. Meta Connect keynote Wed 7pm ET with new smart-glasses tease — watch for follow-through / sell-the-news post-keynote.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "AMD",
+    "signal_type": "momentum",
+    "description": "Crossed $1T market cap intraday for the first time on Monday's Meta-driven AI chip rally, closing +10% above $610. 5th consecutive up-day for the PHLX Semi Index — extended near-term, but MI400 ramp and $500B AI-cluster commentary still on track.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "+12% Monday on the SK Hynix Ohio US memory JV report (Reuters), Meta rally follow-through, and lingering AUO Micro LED CPO packaging tailwind. SK Hynix confirmed 'exploring various options' — deal terms still fluid; Korean trade-ministry review would trigger if HBM/DRAM tech is in scope.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ARM",
+    "signal_type": "momentum",
+    "description": "+17% Monday defying Goldman's Sept 16 double-downgrade to Sell. Market is prioritising the AI-agent CPU tailwind over Goldman's smartphone-royalty-concentration thesis. Elevated squeeze risk if Muse / agentic use cases continue to headline into Meta Connect.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "TXN",
+    "signal_type": "overvalued",
+    "description": "Goldman double-downgrade to Sell from Buy, PT $156 from $200. Cites record inventories, lackluster margin execution through the cycle, and 'idiosyncratic drag' relative to peers. Analog/industrial has been a laggard vs AI compute; watch for follow-on downgrades.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ASML",
+    "signal_type": "momentum",
+    "description": "Bernstein upgrade to Outperform, PT lifted to €1,300 from €800 (+62.5%), naming ASML top European semis pick for 2026 on memory-capex acceleration and High-NA EUV / 12-inch photomask consortium traction with TSMC, Samsung, SK Hynix.",
+    "severity": "medium"
   }
 ]

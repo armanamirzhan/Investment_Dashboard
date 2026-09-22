@@ -5443,5 +5443,41 @@
     "new_target": 227,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "META",
+    "firm": "Wells Fargo",
+    "new_rating": "Overweight",
+    "new_target": 796,
+    "old_rating": "Overweight",
+    "old_target": 640
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "TXN",
+    "firm": "Goldman Sachs",
+    "new_rating": "Sell",
+    "new_target": 156,
+    "old_rating": "Buy",
+    "old_target": 200
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ARM",
+    "firm": "Goldman Sachs",
+    "new_rating": "Sell",
+    "new_target": null,
+    "old_rating": "Neutral",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-22",
+    "ticker": "ASML",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 1300,
+    "old_rating": "Market-Perform",
+    "old_target": 800
   }
 ]

@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-22",
+    "headline": "Meta closes +11% Monday on Muse AI agent traction; Connect keynote tomorrow with new smart-glasses tease drives Tuesday follow-through bid",
+    "summary": "META closed +11.2% Monday to ~$741 after Wells Fargo raised its PT to $796 (from $640, 25x '27 EPS vs prior 20x) citing Muse — Meta's new personal AI agent — hitting #1 on the US App Store within its first week, ahead of ChatGPT. Meta Connect 2026 keynote is Wednesday Sept 23 at 7pm ET, with Zuckerberg expected to unveil new Ray-Ban Meta glasses plus ambient-AI features. META ticked higher again in Tuesday pre-market. The Muse launch is being read across the sector as the first mainstream 'agentic' consumer product — bullish for GPU demand (NVDA, AMD) and hyperscaler AI capex.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/why-meta-stock-jumped-over-11-today-september-21-2026"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "AMD crosses $1T market cap for first time as chip rally rips — AMD +10%, INTC +12%, ARM +17%, SOX +4.3% (5th straight up day)",
+    "summary": "AMD closed above $610/share Monday, briefly joining the $1T market-cap club for the first time on the Meta-Muse-driven AI chip bid. Intel +12.14% (also lifted by SK Hynix-Ohio memory JV report and Intel-AUO Micro LED CPO packaging scoop), Arm +17.16% (shrugging off Goldman's Sept 16 downgrade to Sell). NVDA +2.3%. Nasdaq closed at a record 27,125 (+2.26%), fifth straight session of PHLX Semi Index gains. The rally reinforces the House Rating BUY thesis on NVDA/AMD/AVGO into Q3 earnings.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "KOSPI +2.2% at Tuesday open on chip strength; Samsung +5% Monday follow-through, SK Hynix jumps on Intel US memory JV report",
+    "summary": "Kospi opened +2.2% to 7,161.61 Tuesday on the overnight SOX +4.3% carry. Samsung Electronics led with +5.0% Monday session gains. SK Hynix confirmed it is 'exploring various options' after Reuters reported it's in exploratory talks with Intel to manufacture memory chips in the US — two structures under discussion (leasing Intel's Ohio fab capacity, or a JV with a cloud hyperscaler). Korean trade-ministry review under the Industrial Technology Protection Act would trigger if the deal touches sensitive DRAM/HBM tech. Hang Seng +1.2% to 25,042.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/article/sk-hynix-stock-jumps-as-memory-maker-responds-to-report-of-potential-deal-with-intel-125828355.html"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Nscale contracts ~200,000 NVIDIA GB300 GPUs with Microsoft in ~$14B AI infrastructure deal spanning Texas, Portugal, UK, Norway",
+    "summary": "Nscale expanded its Microsoft partnership to deliver approximately 200,000 NVIDIA GB300 GPUs across four hyperscale sites: ~104,000 in a 240 MW Texas campus (phased from Q3 2026), ~12,600 at Start Campus in Sines, Portugal (from Q1 2026), ~23,000 at a 50-90 MW UK facility (from Q1 2027) for Azure, and ~52,000 via the Aker-Nscale JV in Narvik, Norway. FT estimates the total deal value at ~$14B — one of the largest AI infrastructure contracts ever signed. Work involves Dell Technologies collaboration on rack integration. Meaningful positive read for NVDA, MSFT allocation, and DELL server-OEM share.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "HPCwire",
+    "source_url": "https://www.hpcwire.com/off-the-wire/nscale-expands-microsoft-partnership-to-deliver-200000-nvidia-gb300-gpus-across-europe-and-us/"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Wells Fargo raises META price target to $796 from $640 on AI-agent traction — highest Street target implies 7% additional upside from Monday close",
+    "summary": "Wells Fargo analyst Ken Gawrelski kept an Overweight/Buy on Meta and lifted the PT to $796 from $640 (+24.4%) on the back of the Muse launch and pre-Connect momentum. The new PT is based on 25x FY27 EPS vs a prior 20x multiple, reflecting a re-rating of the AI-monetization story. Meta traded 48.3M shares Monday, 157% above its 18.8M three-month average.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/wells-fargo-raises-meta-stock-price-target-to-796-on-ai-progress-93CH-4908756"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Goldman double-downgrades Texas Instruments to Sell PT $156 (from Buy $200); cuts Arm to Sell citing smartphone royalty concentration",
+    "summary": "Goldman analyst James Schneider double-downgraded TXN to Sell from Buy, cutting the PT to $156 from $200 on 'lackluster' execution through the cycle, record-high inventories, and 'idiosyncratic' capacity/capital choices that will weigh on margin recovery relative to peers. Same note downgraded Arm to Sell from Neutral flagging ~60% royalty exposure to smartphones and locked-in royalty rates capping near-term upside. Goldman kept a constructive stance on Digital, Memory, Storage and SPE names into 2026. Arm nonetheless ripped +17% Monday on the Meta-driven AI bid, suggesting the market is discounting the Goldman thesis for now.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/goldman-sachs-doubledowngrades-texas-instruments-cuts-arm-despite-ai-tailwinds-4408100"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Bernstein names ASML top European semis pick for 2026, upgrades to Outperform and lifts PT to €1,300 from €800",
+    "summary": "Bernstein upgraded ASML shares to Outperform and named it its top pick among European semiconductor stocks for 2026, pointing to accelerating memory investment (HBM4/HBM4E), firmer logic demand into Vera Rubin / MI400 nodes, and a more supportive valuation backdrop. PT lift to €1,300 from €800 (+62.5%) is one of the most aggressive on the Street. ASML also has active High-NA EUV / 12-inch photomask consortiums with TSMC, Samsung and (evaluating) SK Hynix, plus ten High-NA systems live at four chipmakers with a Q4 2026 90% fleet availability target.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-asml-top-semis-pick-for-2026-adobe-downgraded-4440579"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "NVIDIA + Google (with Emerald AI) launch AI Energy Management Alliance to push faster grid interconnects for flexible AI datacenter loads",
+    "summary": "Mid-September, NVIDIA and Google Cloud — with Emerald AI — launched the AI Energy Management Alliance to advocate for faster grid connections in exchange for datacenter loads that flex down during peak demand. The group is targeting utilities and regulators, arguing flexible datacenter operating profiles reduce the need for taxpayer-funded grid upgrades and let AI capacity queue-jump. Ties directly into the Ratepayer Protection Act (House 417-3 vote last week) — the alliance is trying to shape the emerging rulebook. Constructive read for behind-the-meter / demand-response tech (BE, VRT, ETN) if flexible-load standards are codified.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "TechBriefly",
+    "source_url": "https://techbriefly.com/2026/09/18/nvidia-and-google-push-new-power-deal-for-ai-data-centers/"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "Nasdaq futures +0.1%, S&P +0.1%, Dow +0.3% pre-open Tuesday as chip rally digests; oil and yields lower",
+    "summary": "After Monday's record Nasdaq close, futures are modestly higher Tuesday with Dow futures +0.3%, S&P +0.1%, Nasdaq +0.1%. Arm and Western Digital both up more than 2% in pre-market. Meta ticked higher after Monday's 11% gain. Oil retreats modestly and Treasury yields ease, reinforcing a supportive discount-rate backdrop for tech. Traders positioning ahead of Xi Jinping's state visit Sept 23-25 (state dinner Sept 24 with Altman, Huang, Cook) and the Meta Connect keynote Wednesday evening.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-104115670.html"
+  },
+  {
+    "date": "2026-09-22",
+    "headline": "TSMC August revenue +53% YoY to NT$514.8B ($16.3B); Q3 guide $44.6-45.8B in play as AI demand outstrips supply",
+    "summary": "TSMC's August monthly revenue rose 53.3% YoY to NT$514.8B ($16.3B), keeping the top of the Q3 guidance range ($44.6-45.8B) in play. Analysts expect ~46.8% sales growth for Q3. Company continues to flag it cannot meet current AI demand levels — 3nm/2nm/CoWoS remain tight through 2027. 2026 capex budget lifted to $60-64B; total planned Arizona investment now $265B. Stifel reiterated Buy with $515 PT last week. September monthly figure due mid-October is the next catalyst.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-10/tsmc-revenue-rises-53-as-ai-chip-demand-outstrips-supply"
+  }
+]

@@ -4856,5 +4856,26 @@
     "signal_type": "momentum",
     "description": "Bernstein upgrade to Outperform, PT lifted to €1,300 from €800 (+62.5%), naming ASML top European semis pick for 2026 on memory-capex acceleration and High-NA EUV / 12-inch photomask consortium traction with TSMC, Samsung, SK Hynix.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-23",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Six-day SOX rally, ten+ sell-side target hikes into Sept 30 fiscal Q4 print; HBM3E/HBM4 sold out through 2027 and DRAM spot +52% YTD. Susquehanna $200, Stifel $173, New Street floating $2–3T long-term cap.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-23",
+    "ticker": "CRWV",
+    "signal_type": "undervalued",
+    "description": "UBS initiation at Buy $120 flags P/S ~5.96 vs historical median 8.19 despite AI compute demand acceleration. Stock -40% from May highs positions it as an oversold high-beta AI infra rerating candidate.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-23",
+    "ticker": "PLTR",
+    "signal_type": "momentum",
+    "description": "Third UBS target hike this year to $250 plus DA Davidson to $250, both citing AI sovereignty thesis, 157% NDR, record bookings. Positioned as top sovereign-AI long into Sept 24 Trump–Xi summit.",
+    "severity": "medium"
   }
 ]

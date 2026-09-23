@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-23",
+    "headline": "Nasdaq closes at record 27,244 Tuesday on 6th straight SOX rally; Micron +5% into Sept 30 print, SanDisk +6.8% on Rosenblatt initiation",
+    "summary": "Nasdaq Composite gained 0.45% to 27,244.28 for a fresh record close as the Philadelphia Semiconductor Index (SOX) climbed for a sixth straight session. Micron rose ~5% after Susquehanna's Mehdi Hosseini raised his target to $200 from $160 and Stifel lifted to $173 from $145 ahead of the Sept 30 fiscal Q4 print; New Street's Pierre Ferragu argued the stock could command a $2–3T market cap by 2030. SanDisk jumped 6.8% after Rosenblatt initiated at Buy with a $2,400 target, citing NAND repositioning from commodity to system-critical AI infrastructure. Nvidia +0.7%. S&P 500 flat at 7,764.64; Dow -0.36% to 51,863.69 as oil unwound geopolitical premium on renewed US-Iran talks.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "TradingKey / CNBC",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262181552-nasdaq-memorystocks-sandisk-micron-tradingkey"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Susquehanna hikes Micron target to $200; Stifel to $173 ahead of Sept 30 Q4 print — HBM3E/HBM4 sold out through 2027",
+    "summary": "At least ten sell-side desks have raised Micron price targets in the run-up to fiscal Q4 earnings on September 30. Susquehanna's Mehdi Hosseini took his target to $200 (from $160) with a positive rating; Stifel raised to $173 (from $145). The setup: management guided Q4 revenue of $50B at the midpoint (vs consensus ~$43.5B) and non-GAAP EPS of $31, with ~86% gross margin. HBM3E and HBM4 capacity is fully booked through calendar 2027 and HBM4 is shipping to Nvidia's Vera Rubin platform. DRAM spot prices are up 52% YTD.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks / TheFly",
+    "source_url": "https://www.tipranks.com/news/the-fly/heres-what-wall-street-is-saying-about-micron-ahead-of-earnings-thefly-2"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "SanDisk +6.8% after Rosenblatt starts at Buy with $2,400 target — NAND flagged as 'system-critical' for AI",
+    "summary": "Rosenblatt's Kevin Cassidy initiated SNDK at Buy with a $2,400 price target (~35% upside from Monday's $1,766.64 close), arguing new AI compute platforms are repositioning NAND flash from commodity to system-critical infrastructure, with density, endurance and supply certainty mattering more than $/bit. Cassidy flagged new SanDisk customer agreements covering an estimated 65% of FY28 production as the key to breaking NAND's boom-bust cycle. The call also lifted Micron ~3% in sympathy and pulled Seagate up modestly.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / 24/7 Wall St",
+    "source_url": "https://247wallst.com/investing/2026/09/22/sandisk-jumps-6-as-rosenblatt-starts-coverage-at-buy-with-2400-target-micron-rises-3-seagate-ticks-up/"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "UBS initiates CoreWeave at Buy with $120 target on AI compute demand; stock off 40% from May highs",
+    "summary": "UBS commenced coverage on CoreWeave (CRWV) with a Buy rating and $120 price target, citing strong AI training/inference demand and rising revenue-per-gigawatt economics. Current P/S ~5.96 sits below the historical median of 8.19 and below the peer group median, framing valuation as a rerating opportunity even as the stock is down ~40% from May highs. Institutional desks flagged CRWV as a top oversold high-beta AI infrastructure name into today's session.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/9092423/ubs-initiates-buy-on-coreweave-crwv-amid-ai-demand-despite-low-revenue-multiple"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "UBS and DA Davidson each lift Palantir target to $250 on AI 'sovereignty' thesis; PLTR flagged as top pre-summit long",
+    "summary": "UBS's Karl Keirstead raised Palantir's target to $250 from $220 (third UBS hike this year), reiterating Buy after AIPCon and citing 157% net dollar retention plus record bookings. DA Davidson's Gil Luria matched at $250 (from $200), also Buy. Both cite Karp's 'AI sovereignty' thesis — enterprises and governments demanding on-prem/dedicated AI stacks rather than public cloud — with defense and intelligence budgets shielding enterprise AI demand. Trading desks flagged PLTR as a preferred long ahead of the Sept 24 Trump–Xi summit given US sovereign-AI positioning.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "TheStreet / Investing.com",
+    "source_url": "https://www.thestreet.com/investing/stocks/ubs-raises-palantir-stock-price-target-for-rest-of-2026"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "ASML executive warns Europe bought zero lithography systems in Q2 as fab spend concentrates in US, Korea, Taiwan, China",
+    "summary": "ASML EVP Frank Heemskerk said at an Amsterdam event that the company sold no lithography systems into Europe in Q2 as regional chip investment stalls while the US, South Korea, Taiwan, China and India continue to expand fab footprint. The comments underscore that ASML's near-term book remains driven by hyperscaler-fed capacity in Asia and America. No change to shipping guidance — the warning is directed at European industrial policy — but reinforces the concentration of AI-linked capex outside the EU.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-22/asml-executive-says-europe-s-biggest-firm-has-no-sales-in-europe"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Trump–Xi summit convenes Sept 24 in Washington; chip export controls off table but AI hotline reportedly in play",
+    "summary": "Xi Jinping arrives in Washington today (Sept 23) for tomorrow's one-day summit with President Trump. Pre-summit Treasury–MOFCOM talks at JPM headquarters covered AI, tariffs and rare earths, with the US proposing an 'AI safety notification' hotline. Advanced chip export controls are reportedly off the immediate agenda but the Nov 10 expiry of the 90-day tariff truce sets a hard deadline. Bloomberg framed the agenda as AI, tariffs, critical minerals, Iran and Taiwan. Nvidia, AMD, ASML and TSMC are the primary listed proxies for any deal outcome.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-22/xi-trump-summit-agenda-ai-tariffs-critical-minerals-iran-war-taiwan"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Nuclear names rebound: NuScale (SMR) +13%, Oklo +7% as post-vote selloff exhausts; Centrus in sympathy",
+    "summary": "Small-modular-reactor developers recovered sharply Tuesday after last week's policy-trade unwind. NuScale Power (SMR) climbed ~13% to $8.63; Oklo advanced ~7%; Centrus Energy (LEU) firmed alongside. The move traces back to a House vote last week on datacenter power cost provisions that rallied the group before a sharp Friday give-back. No name-specific catalyst — no NRC updates, no customer contracts overnight from either developer — pure policy-beta bounce. SMR is still -24% YTD and OKLO -39% YTD despite the rebound.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance / Foreign Policy Journal",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-spikes-13-oklo-151349633.html"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "New Era Energy signs 20-year, up-to-207 MW PPA with Vistra's Luminant for Texas Critical Data Center Phase 1",
+    "summary": "New Era Energy & Digital subsidiary TCDC PowerCo entered a 20-year power purchase agreement with Vistra (VST) affiliate Luminant to supply a minimum of 200 MW — up to 207 MW — for Phase 1 of the Texas Critical Data Center project. Adds to Vistra's rapidly stacking datacenter book: prior 2025–2026 deals include AWS Camanche Park nuclear, Meta 2,609 MW PJM nuclear PPA and the Helix Digital Infrastructure JV with KKR/Nvidia/KIA. Firm, contracted long-tenor demand for existing gen fleet.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "GlobeNewswire (New Era Energy)",
+    "source_url": "https://www.globenewswire.com/news-release/2026/09/21/3365358/0/en/new-era-energy-digital-secures-20-year-207-mw-ppa-with-vistra.html"
+  },
+  {
+    "date": "2026-09-23",
+    "headline": "Meta Connect keynote today at 4 PM PT — Ray-Ban Meta 3, 'Luna' AI glasses and 'Phoenix' MR headset expected",
+    "summary": "Meta's Connect developer conference runs Sept 23–24 with Zuckerberg's keynote at 4 PM PT / 7 PM ET today. Expected: next-gen Ray-Ban Meta glasses, camera-free 'Luna' AI glasses with six-microphone array, and a premium 'Phoenix' mixed-reality headset priced $1,000–$2,000. Software focus expected on Meta AI on-device inference — relevant to hardware supply chain (memory, edge silicon) as much as to META itself. META closed +11% Monday on Muse AI agent traction; today's keynote is the immediate catalyst for follow-through.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Engadget",
+    "source_url": "https://www.engadget.com/2262932/what-to-expect-at-meta-connect-2026-new-ai-glasses-a-mixed-reality-headset-and-more/"
+  }
+]

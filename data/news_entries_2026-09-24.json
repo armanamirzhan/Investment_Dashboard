@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-09-24",
+    "headline": "US-China extend tariff truce through Jan 10 as Xi begins state visit",
+    "summary": "Treasury Secretary Bessent said Washington and Beijing agreed to extend the trade truce by two months to Jan. 10, 2027, giving negotiators more time to work on a broader deal. Xi Jinping arrived for a state visit on Sept 23; NVIDIA's Jensen Huang and OpenAI's Sam Altman are expected at the White House state dinner. The extension keeps current chip and tariff exclusions in place and reduces near-term escalation risk for semiconductor and hardware supply chains.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Alibaba unveils Zhenwu V900 chip and 20 GW global datacenter buildout by 2032",
+    "summary": "At the Apsara conference Alibaba Cloud detailed a six-year push to 20 GW of global datacenter capacity by 2032, tied to a $53B three-year AI and cloud investment plan. First new regions in Turkey, Finland and the Netherlands over the next 12 months, with Malaysia, Germany, UAE, France and Hong Kong to follow. The buildout will lean on Alibaba's proprietary T-Head Zhenwu V900 AI processor, signalling a further step toward domestic silicon and away from NVIDIA in China. Citi estimates the 20 GW footprint could drive $160B in external cloud revenue.",
+    "sector": "integration",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-23/alibaba-to-add-data-centers-in-europe-middle-east-in-ai-push"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "AMD downgraded to Hold after 165% YTD rally; upside seen capped",
+    "summary": "A sell-side downgrade cut AMD to Hold, arguing that after a 165% year-to-date rally the stock's forward valuation already prices in most of the AI-driven growth. The analyst flagged 2027 consensus as potentially too high and modeled only 14-15% upside over two years. Chip peers softened in sympathy in Wednesday pre-market trade despite continued strong datacenter demand (Q2 datacenter revenue +107% y/y).",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-4915282"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Bernstein initiates Amphenol at Outperform, $99 target on AI connector demand",
+    "summary": "Bernstein launched coverage of Amphenol with an Outperform rating and a $99 price target, implying roughly 20% upside from the Sept 22 close. Shares rose about 3% after the close on Sept 23. Bernstein flagged Amphenol's exposure to AI backplane and high-speed interconnect content as a durable growth driver, sitting alongside similar upgrades of optical peers on rising datacenter capex.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/9093301/aph-initiates-coverage-on-bernstein-rating-set-to-outperform"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Morgan Stanley lifts Marvell price target to $268 on optical / AI ASIC strength",
+    "summary": "Morgan Stanley's Joseph Moore raised his Marvell target to $268 from $246 while maintaining Equal-Weight, citing continued momentum in the company's optical interconnect and custom AI silicon franchises. The revision follows several sell-side price-target increases across AI networking names as hyperscalers commit to multi-year buildouts.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Yahoo Finance",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/intel-downgraded-marvell-upgraded-wall-133448639.html"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "Micron sets up for Sept 30 Q4 print; Street targets creep toward $2,000",
+    "summary": "Micron reports fiscal Q4 after the close on Sept 30. June guidance was for revenue of ~$50B and non-GAAP EPS of ~$31 (vs. ~$3 a year earlier), driven by HBM tightness. Shares are up ~277% YTD; the Street's highest published price target has crept toward $2,000 heading into the release. Fiscal Q1 2027 gross margin guide is the decisive tell — flat-to-up on Q4's ~86% would validate the supply-constraint thesis, while a step-down would revive mean-reversion fears.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago"
+  },
+  {
+    "date": "2026-09-24",
+    "headline": "NVIDIA, Google and Oracle headline Data Center World 2026 on AI power crunch",
+    "summary": "NVIDIA, Google and Oracle took center stage at Data Center World 2026, framing the next infrastructure cycle around AI-driven capacity and power demand. Top-5 hyperscalers are on track for roughly $800B of capex in 2026, with U.S. datacenter electricity demand having climbed from 23 GW in 2023 to 42 GW in 2026 per industry trackers — reinforcing the buy case for power-gear and cooling suppliers (GEV, ETN, VRT) and independent generators (CEG, VST).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Data Center World",
+    "source_url": "https://datacenterworld.com/article/press-release-nvidia-google-and-oracle-take-center-stage-at-data-center-world-2026-as-ai-drives-unprecedented-demands/"
+  }
+]

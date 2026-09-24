@@ -5533,5 +5533,32 @@
     "new_target": 250,
     "old_rating": "Buy",
     "old_target": 200
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "AMD",
+    "firm": "Seeking Alpha (sell-side desk cited)",
+    "new_rating": "Hold",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "MRVL",
+    "firm": "Morgan Stanley",
+    "new_rating": "Equal-Weight",
+    "new_target": 268,
+    "old_rating": "Equal-Weight",
+    "old_target": 246
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "APH",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": 99,
+    "old_rating": null,
+    "old_target": null
   }
 ]

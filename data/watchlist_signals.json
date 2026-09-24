@@ -4877,5 +4877,26 @@
     "signal_type": "momentum",
     "description": "Third UBS target hike this year to $250 plus DA Davidson to $250, both citing AI sovereignty thesis, 157% NDR, record bookings. Positioned as top sovereign-AI long into Sept 24 Trump–Xi summit.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "AMD",
+    "signal_type": "overvalued",
+    "description": "Sell-side downgrade to Hold after +165% YTD rally, citing capped upside and 2027 consensus estimates set too high. Chip peers slipped in sympathy.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Fiscal Q4 print Sept 30 after close. Consensus EPS ~$31 vs ~$3 y/y on HBM tightness; Street targets creeping toward $2,000. Fiscal Q1'27 GM guide is the key swing factor into the release.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "NVDA",
+    "signal_type": "concentration_risk",
+    "description": "Alibaba unveiled T-Head Zhenwu V900 AI processor as backbone of its 20 GW datacenter buildout, another step toward domestic Chinese silicon and reduced reliance on NVIDIA in China.",
+    "severity": "low"
   }
 ]

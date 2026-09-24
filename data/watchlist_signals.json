@@ -4898,5 +4898,12 @@
     "signal_type": "concentration_risk",
     "description": "Alibaba unveiled T-Head Zhenwu V900 AI processor as backbone of its 20 GW datacenter buildout, another step toward domestic Chinese silicon and reduced reliance on NVIDIA in China.",
     "severity": "low"
+  },
+  {
+    "date": "2026-09-24",
+    "ticker": "ORCL",
+    "signal_type": "momentum",
+    "description": "Oracle fell 6% to ~$136.73 (YTD -29%) in a company-specific repricing, decoupled from the broader cloud group (SKYY flat, Nasdaq -0.75%). Despite 121% cloud infra growth and $30B+ new AI contracts booked, investors remain focused on the cash math: $23.1B operating cash flow vs. negative $5.4B free cash flow on $28.5B of capex. Extends the circular-AI-financing overhang flagged 9/17-9/18. No new analyst rating/target changes accompanied the move.",
+    "severity": "medium"
   }
 ]

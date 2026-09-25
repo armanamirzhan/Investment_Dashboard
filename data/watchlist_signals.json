@@ -4919,5 +4919,12 @@
     "signal_type": "momentum",
     "description": "JPMorgan Overweight upgrade + Nebius +17-21% Oct 1 price hikes confirm neocloud pricing power. Stock flat despite upgrade — dilution overhang keeps setup coiled. Micron print next week is the industry read-through.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "ORCL",
+    "signal_type": "legal_risk",
+    "description": "Oracle sent a force majeure notice to developer Blue Owl on Project Jupiter, its 2.45GW Stargate campus in New Mexico, citing energy-supply delays: an Energy Transfer gas pipeline slipped ~6 months to Feb 2027 and a Bloom Energy fuel-cell air-quality permit is pending a Nov 23 state decision. Notice extends the lower development-stage rent Oracle pays rather than signaling an exit; Oracle says the project remains on schedule.",
+    "severity": "medium"
   }
 ]

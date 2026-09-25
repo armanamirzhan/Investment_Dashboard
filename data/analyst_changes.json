@@ -5578,5 +5578,14 @@
     "new_target": 125.0,
     "old_rating": "Neutral",
     "old_target": 120.0
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "MU",
+    "firm": "Citi",
+    "new_rating": "Buy",
+    "new_target": 1300,
+    "old_rating": "Buy",
+    "old_target": 1150
   }
 ]

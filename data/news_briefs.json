@@ -7773,5 +7773,76 @@
       }
     ],
     "file": "morning-news/2026-09-24.html"
+  },
+  {
+    "date": "2026-09-25",
+    "tickers": [
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Stifel Buy, $575 PT — last holdout turns"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "JPM Overweight, $125; pricing tight"
+      },
+      {
+        "ticker": "MU",
+        "direction": "neutral",
+        "note": "FQ4 print Sept 30 — margin guide is the tell"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "HBM4 yields 80%, Q3 rev ~3x seq"
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "up",
+        "note": "Stargate expands to ~7 GW, five new sites"
+      },
+      {
+        "ticker": "BE",
+        "direction": "up",
+        "note": "Backlog crosses $25B; 2 GW capacity plan"
+      },
+      {
+        "ticker": "INTC",
+        "direction": "down",
+        "note": "-3% profit taking; Apple Mac exit"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "macro",
+        "signal": "Trump-Xi truce extended; tariff cut 57%->47%, rare-earth curbs paused — chip controls unresolved"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "JPM Overweight upgrade + Nebius Oct 1 +17-21% GPU price hikes confirm neocloud pricing power"
+      },
+      {
+        "ticker": "MU",
+        "signal": "FQ4 print Sept 30 AMC — FQ1'27 GM guide is the swing (86% flat = supply-tight, step-down = mean reversion)"
+      },
+      {
+        "ticker": "005930.KS",
+        "signal": "HBM4 yields at 80% golden range; Q3 revenue seen ~3x sequential — SK Hynix gap narrows to 17 pts"
+      },
+      {
+        "ticker": "ORCL",
+        "signal": "Stargate adds 5 sites, ~7 GW planned, $400B+ committed — hyperscaler PPA / gas turbine / cooling read-through"
+      },
+      {
+        "ticker": "MSFT",
+        "signal": "Stifel to Buy $575 — one of last major sell-side holdouts turns bullish"
+      },
+      {
+        "ticker": "BE",
+        "signal": "Backlog crosses $25B; doubling manufacturing to 2 GW annually by end-26"
+      }
+    ],
+    "file": "morning-news/2026-09-25.html"
   }
 ]

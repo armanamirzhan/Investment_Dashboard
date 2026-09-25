@@ -4905,5 +4905,19 @@
     "signal_type": "momentum",
     "description": "Oracle fell 6% to ~$136.73 (YTD -29%) in a company-specific repricing, decoupled from the broader cloud group (SKYY flat, Nasdaq -0.75%). Despite 121% cloud infra growth and $30B+ new AI contracts booked, investors remain focused on the cash math: $23.1B operating cash flow vs. negative $5.4B free cash flow on $28.5B of capex. Extends the circular-AI-financing overhang flagged 9/17-9/18. No new analyst rating/target changes accompanied the move.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "FQ4 print Wed Sept 30 AMC. ~$50B rev / $31 EPS / 86% GM guide already baked in; options price ~10% move. FQ1 27 margin guide is the swing — flat-to-up validates supply-tight thesis, step-down triggers mean-reversion re-rate. Shares +275% YTD.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "CRWV",
+    "signal_type": "momentum",
+    "description": "JPMorgan Overweight upgrade + Nebius +17-21% Oct 1 price hikes confirm neocloud pricing power. Stock flat despite upgrade — dilution overhang keeps setup coiled. Micron print next week is the industry read-through.",
+    "severity": "medium"
   }
 ]

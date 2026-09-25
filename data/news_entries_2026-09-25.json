@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-09-25",
+    "headline": "Trump-Xi summit trims tariff, pauses rare-earth curbs — chip export controls unresolved",
+    "summary": "At the Sept 24 White House summit, the two sides confirmed a one-year mutual suspension of new rare-earth and high-tech export controls and a reduction in the average US tariff on Chinese imports from 57% to 47%. A new AI-incident hotline was floated. Chip export controls remain unaddressed — the semiconductor track is where the two sides stayed furthest apart — but the truce extension to Jan 10, 2027 and the rare-earth pause remove near-term tail risk for hardware and fab supply chains. Jensen Huang, Lisa Su, Tim Cook, Sam Altman, Sundar Pichai, Elon Musk and Jeff Bezos attended the state dinner.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "CSIS",
+    "source_url": "https://www.csis.org/analysis/what-trump-xi-summit-revealed-and-left-unsaid-about-us-china-tech-competition"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Nebius announces 17-21% GPU price hikes Oct 1 — second increase in three months",
+    "summary": "Nebius said it will raise on-demand pricing across H100 through B300 GPU capacity by 17-21% effective October 1, its second increase in three months. Shares jumped ~6% to $240.86 on Sept 24. The move ratifies the tight compute market flagged by JPMorgan and reinforces pricing power at the neocloud tier, with read-across to CoreWeave (which is close to sold out through 2026) and hyperscaler GPU-hour pricing. Neocloud pricing typically leads hyperscaler list-price adjustments by 1-2 quarters.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/24/nebius-surges-6-coreweave-treads-water-as-jpmorgan-upgrade-flags-rising-compute-pricing-iren-slides-4/"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "JPMorgan lifts CoreWeave to Overweight, $125 target on compute pricing tailwind",
+    "summary": "JPMorgan upgraded CoreWeave to Overweight from Neutral and raised its price target to $125 from $120, citing the tight GPU rental market and rising per-hour pricing across the neocloud complex. Shares were roughly flat at $86.34 despite the upgrade, as investor concerns about capital intensity and equity dilution capped the reaction. Contracted backlog stands at ~$104B with another ~$25B added early in Q3; the Meta contract alone is up to $21B.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/24/nebius-surges-6-coreweave-treads-water-as-jpmorgan-upgrade-flags-rising-compute-pricing-iren-slides-4/"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Stifel turns bullish on Microsoft: Buy, $575 target on Azure and Copilot durability",
+    "summary": "Stifel's Brad Reback moved Microsoft from Hold to Buy on Sept 23 and lifted his target to $575 from $530, ~15% upside from the Sept 22 close near $498. The upgrade cites accelerating Azure growth despite capacity constraints, OpenAI contribution ramping, reduced LLM research spend intensity, and Copilot engagement crossing the threshold where it survives customer budget reviews. Stifel was one of the last major bulge-bracket holdouts still at Hold. Shares rose ~2% on the day.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/stifel-upgrades-microsoft-stock-rating-to-buy-on-ai-growth-outlook-93CH-4912234"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Micron Q4 print Sept 30 — FQ1 guide, not the beat, is the tell for HBM cycle",
+    "summary": "Micron reports fiscal Q4 after the close Wednesday Sept 30. Guide is a record ~$50B revenue, ~$31 EPS, ~86% gross margin. Options price a ~10% move. Management said HBM4 12-high is ramping ~2x faster than HBM3E and has already shipped >$1B; 16 Strategic Customer Agreements carry ~$100B of minimum-price revenue. The FQ1 2027 gross margin guide is the swing variable — flat-to-up on ~86% validates the supply-constraint thesis; a step-down revives mean-reversion fears. Shares +275% YTD.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Samsung HBM4 yields reach 80% golden range; Q3 revenue seen tripling from Q2",
+    "summary": "Samsung Electronics' HBM4 yields have climbed from below 60% in early mass production to a stable 80% golden-yield range, with Q3 HBM4 revenue expected to more than triple sequentially and approach 14 trillion won by year-end. That narrows the HBM gap versus SK Hynix to ~17 points, per Seoul Economic Daily. Samsung Q3 operating profit consensus stands at 105.6 trillion won; SK Hynix at 74.1 trillion won. Foreign investors net-sold 5.98 trillion won of SK Hynix shares over the past month.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seoul Economic Daily",
+    "source_url": "https://en.sedaily.com/finance/2026/09/21/samsung-narrows-hbm-gap-with-sk-hynix-to-17-points"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "OpenAI-Oracle-SoftBank add five new Stargate sites, near 7 GW planned capacity",
+    "summary": "Stargate partners OpenAI, Oracle and SoftBank announced five additional US datacenter sites on Sept 23-24, bringing planned capacity to nearly 7 GW and total committed investment above $400B over three years. Combined with the flagship Abilene, Texas campus and ongoing CoreWeave-hosted capacity, the buildout underpins Oracle's $300B five-year OpenAI cloud contract that starts flowing revenue in 2027. The scale keeps pressure on transmission, gas turbines (GEV), switchgear (ETN, ABB), and liquid cooling (VRT).",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "OpenAI",
+    "source_url": "https://openai.com/index/five-new-stargate-sites/"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Bloom Energy backlog crosses $25B on fuel-cell demand from AI datacenters",
+    "summary": "Bloom Energy's contracted backlog has crossed $25B, driven by fuel-cell orders for AI datacenters. The company signed $7.65B of contracts in a recent 90-day stretch across hyperscaler and utility counterparties (Oracle direct-supply, Equinix multi-site, AEP up to 1 GW off-grid) and is targeting a doubling of manufacturing capacity from 1 GW to 2 GW annually by end-2026 for ~$100M of capex. Plug Power has notably not participated in the datacenter fuel-cell surge.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "The Motley Fool",
+    "source_url": "https://www.fool.com/investing/2026/09/19/bloom-energy-is-riding-the-data-center-boom-to-a-2/"
+  },
+  {
+    "date": "2026-09-25",
+    "headline": "Intel pulls back 3% as profit-taking hits +223% YTD run; Apple flags Mac exit",
+    "summary": "Intel shares fell ~3% to $119.04 in Thursday trade on continued profit-taking after a 223% YTD rally. A second consecutive down day was compounded by Apple notifying Mac App Store developers they may drop support for Intel-based Macs in apps requiring macOS 13+, shrinking Intel's install base in that ecosystem. No fundamental catalyst — the pullback looks technical ahead of October earnings.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/09/24/intel-drops-3-as-profit-taking-follows-223-ytd-run-amd-falls-3-nvidia-slips/"
+  }
+]

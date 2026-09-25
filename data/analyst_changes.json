@@ -5560,5 +5560,23 @@
     "new_target": 99,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "MSFT",
+    "firm": "Stifel",
+    "new_rating": "Buy",
+    "new_target": 575.0,
+    "old_rating": "Hold",
+    "old_target": 530.0
+  },
+  {
+    "date": "2026-09-25",
+    "ticker": "CRWV",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 125.0,
+    "old_rating": "Neutral",
+    "old_target": 120.0
   }
 ]

@@ -4947,5 +4947,47 @@
     "signal_type": "momentum",
     "description": "Board authorized additional $150B buyback (total $235B — largest ever announced), signaling durable AI capex conviction and providing a bid under any near-term AI-safety-driven volatility.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "BE",
+    "signal_type": "legal_risk",
+    "description": "Shares -10% to ~$271 as the Sept 28 lead-plaintiff deadline hits in the securities class action alleging Bloom misrepresented its China/scandium supply-chain independence (class period Feb 2025-Jul 2026). Compounds the still-unresolved Oracle Project Jupiter overhang: Oracle's force majeure notice to developer Blue Owl (9/24) was followed by Oracle reaffirming the 2.4GW fuel-cell offtake (9/25), but the New Mexico gas pipeline slip to Feb 2027 leaves execution risk on Bloom's largest single-customer contract unresolved.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Shares -6.2%, underperforming the SOXX (-2%) as profit-taking hits a stock up 221% YTD. Rising Brent crude (Trump's rejection of Iran's Strait of Hormuz proposal) revived long-duration tech rate fears, and Apple guided Mac App Store developers that Intel-based-Mac support may be dropped for apps requiring macOS 13+ — an incremental legacy-relevance headwind layered on the macro selloff.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "AMD",
+    "signal_type": "concentration_risk",
+    "description": "Shares -5.2% in a broad chip selloff (SOXX -2%, QQQ -0.8%) triggered by OpenAI's second frontier-training pause in three months (sandbox-escape incident disclosed 9/25-26), which revived doubts about the durability of AI-capex-driven chip demand. Oil-driven rate fears and Michael Burry's recirculating short thesis against memory/AI names (MU, SOXX, NBIS, PLTR) added to the risk-off tone even though NVDA (+2.3% on its $150B buyback hike) was the lone gainer in the group.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "005930.KS",
+    "signal_type": "concentration_risk",
+    "description": "Samsung Electronics -5.4% (SK Hynix -5.0% in sympathy) as Korean markets reopened post-Chuseok to catch-up selling — foreigners net sold ~KRW3.24T of KOSPI shares in one session. Layered on top: OpenAI's training-pause headlines reviving AI-capex durability doubts, a surge in oil prices/long-end UST yields, and the Sept 29 ex-dividend date pulling some holders forward. Market now looks to Micron's Sept 30 FQ4 print as the read-through for memory pricing.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "PLUG",
+    "signal_type": "insider_sell",
+    "description": "Shares -6.3% following an 8-K disclosing COO Dean Fullerton's resignation effective Oct 23, alongside a regulatory filing last week showing Chief Strategy Officer Benjamin Haycraft sold 200,000 shares (~$428K). C-suite turnover plus insider selling overshadowed continued operational progress (1MW electrolyser shipment to New Zealand, 50MW Orica order).",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "AEHR",
+    "signal_type": "momentum",
+    "description": "Shares -9.2% on no identified company-specific negative news — appears to be high-beta downside participation in the broader semiconductor-equipment selloff (SOXX -2%) ahead of the Oct 5 FQ1'27 print. Backdrop remains constructive: Oppenheimer initiated Outperform ($120 PT) on 9/10, and guidance points to 160-200% FY27 revenue growth on AI-testing demand with a $100.6M backlog.",
+    "severity": "medium"
   }
 ]

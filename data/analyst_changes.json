@@ -5623,5 +5623,14 @@
     "new_target": 900,
     "old_rating": "Overweight",
     "old_target": 780
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "SNOW",
+    "firm": "Phillip Securities",
+    "new_rating": "Buy",
+    "new_target": 423,
+    "old_rating": null,
+    "old_target": null
   }
 ]

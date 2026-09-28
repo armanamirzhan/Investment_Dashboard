@@ -5587,5 +5587,41 @@
     "new_target": 1300,
     "old_rating": "Buy",
     "old_target": 1150
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "MU",
+    "firm": "Robert W. Baird",
+    "new_rating": "Outperform",
+    "new_target": 1520,
+    "old_rating": "Outperform",
+    "old_target": 1280
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "MU",
+    "firm": "JPMorgan",
+    "new_rating": "Overweight",
+    "new_target": 1540,
+    "old_rating": "Overweight",
+    "old_target": 1540
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "MSFT",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 608,
+    "old_rating": "Overweight",
+    "old_target": 522
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "META",
+    "firm": "KeyBanc",
+    "new_rating": "Overweight",
+    "new_target": 900,
+    "old_rating": "Overweight",
+    "old_target": 780
   }
 ]

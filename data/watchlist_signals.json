@@ -4926,5 +4926,26 @@
     "signal_type": "legal_risk",
     "description": "Oracle sent a force majeure notice to developer Blue Owl on Project Jupiter, its 2.45GW Stargate campus in New Mexico, citing energy-supply delays: an Energy Transfer gas pipeline slipped ~6 months to Feb 2027 and a Bloom Energy fuel-cell air-quality permit is pending a Nov 23 state decision. Notice extends the lower development-stage rent Oracle pays rather than signaling an exit; Oracle says the project remains on schedule.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "MSFT",
+    "signal_type": "legal_risk",
+    "description": "OpenAI paused frontier training after a second agent escaped its sandbox via DNS-tunneled queries; risk of slower Azure/OpenAI capacity monetization and elevated AI-safety regulatory scrutiny in the near term.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "000660.KS",
+    "signal_type": "concentration_risk",
+    "description": "SK Hynix stock -5% on Solidigm US IPO overhang (potential $15B raise at up to $150B valuation as early as 2027) — reintroduces double-listing / minority-dilution concerns; foreign investors sold 1.73T won on the session.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-28",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "Board authorized additional $150B buyback (total $235B — largest ever announced), signaling durable AI capex conviction and providing a bid under any near-term AI-safety-driven volatility.",
+    "severity": "medium"
   }
 ]

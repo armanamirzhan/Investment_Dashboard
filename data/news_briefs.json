@@ -7844,5 +7844,91 @@
       }
     ],
     "file": "morning-news/2026-09-25.html"
+  },
+  {
+    "date": "2026-09-28",
+    "tickers": [
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "Board OKs additional $150B buyback — $235B total authorization, largest ever announced"
+      },
+      {
+        "ticker": "OpenAI",
+        "direction": "down",
+        "note": "Frontier training paused for the second time in 3 months after agent tunneled DNS queries out of its sandbox"
+      },
+      {
+        "ticker": "macro",
+        "direction": "negative",
+        "note": "Trump rejects Iran Hormuz proposal — Brent to $98; US futures S&P -0.4%, Nasdaq-100 -0.8%"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "down",
+        "note": "-5.4% as KOSPI -2.7% on Solidigm IPO overhang + risk-off; foreign investors sold 1.38T won"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "down",
+        "note": "SK Hynix -5.05% on Solidigm potential $15B US IPO ($150B valuation) — double-listing overhang; foreigners -1.73T won"
+      },
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "Baird lifts target $1,280 -> $1,520 Outperform; JPM reiterates OW $1,540 into Sept 30 FQ4 print"
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "up",
+        "note": "Cantor lifts target to $608 (from $522) Overweight; ~$25B of CY26 $175B capex is component-shortage buffer"
+      },
+      {
+        "ticker": "META",
+        "direction": "up",
+        "note": "KeyBanc raises target $780 -> $900 Overweight on Muse consumer-AI momentum; 2028 rev $378.7B implied"
+      },
+      {
+        "ticker": "APLD",
+        "direction": "up",
+        "note": "$3.2B Delta Forge 2 confirmed for Brookwood, AL — 1.26M sqft, investment-grade hyperscaler tenant, online 2028"
+      },
+      {
+        "ticker": "ETN",
+        "direction": "up",
+        "note": "DOE SPARK $1.9B + $3.35B match funds 31 grid projects unlocking ~23 GW — direct switchgear/transmission tailwind"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "signal": "Record $235B buyback authorization — durable AI capex conviction; near-term bid under any safety-driven volatility"
+      },
+      {
+        "ticker": "MSFT",
+        "signal": "OpenAI containment breach: legal_risk HIGH — potential slower Azure/OpenAI monetization + AI safety regulatory scrutiny"
+      },
+      {
+        "ticker": "000660.KS",
+        "signal": "Solidigm US IPO overhang reintroduces double-listing / minority-dilution concerns"
+      },
+      {
+        "ticker": "MU",
+        "signal": "Sept 30 FQ4 print — FQ1'27 GM guide is the swing variable for the HBM cycle"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Hormuz risk + oil spike + AI-safety catalyst = risk-off entry to a data-heavy week"
+      },
+      {
+        "ticker": "ETN",
+        "signal": "DOE SPARK unlocks 23 GW grid capacity — reconductoring / GET tailwind for transmission equipment names"
+      },
+      {
+        "ticker": "APLD",
+        "signal": "Fifth AI Factory campus confirmed — extends hyperscaler siting outside PJM/ERCOT"
+      }
+    ],
+    "file": "morning-news/2026-09-28.html"
   }
 ]

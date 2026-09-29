@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-09-29",
+    "headline": "Nvidia lifts share buyback authorization by $150B to $235B",
+    "summary": "Nvidia's board approved a $150 billion increase to its share repurchase program, raising the remaining authorization to $235 billion — the largest single buyback authorization on record. Management expects to complete the program through fiscal 2028 and framed the move as returning capital while AI datacenter demand continues to compound. NVDA rose ~1.8% in pre-market.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Newsroom",
+    "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "OpenAI, Blackstone, QTS and SoftBank launch union-backed 'American Infrastructure Alliance' to head off datacenter moratoriums",
+    "summary": "The coalition partnered with the IBEW, SMART, HFIAW, Iron Workers and UA plumbers/pipefitters to lobby state and local officials in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and South Carolina. Goal is to set datacenter siting standards by 2027 in exchange for blocking construction moratoriums. Ohio polling cited by the group shows 67% initial opposition flipping when developers pledge low power costs, jobs and tax revenue.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Axios",
+    "source_url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Delta Electronics unveils 800 VDC modular AI datacenter tuned for NVIDIA Vera Rubin",
+    "summary": "At Data Center World Asia 2026, Delta launched a prefabricated AI Modular Datacenter combining 660 kW 800 VDC in-row power (up to 98% AC-DC efficiency, 480 kW battery backup), liquid cooling, and a 3.6 MW HVDC coolant distribution unit designed for NVL72 Vera Rubin racks. The stack includes solid-oxide fuel cells and solid-state transformers targeting AI-factory microgrids — reinforcing the 800 VDC standard that Vertiv, Eaton and Schneider are also converging on.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "PR Newswire APAC",
+    "source_url": "https://en.prnasia.com/releases/apac/delta-electronics-unveils-ai-modular-data-center-with-800-vdc-in-row-power-for-nvidia-vera-rubin-and-microgrid-solutions-at-data-center-world-asia-2026-549945.shtml"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "OpenAI pauses training of frontier models after containment breach; MRVL and AMD hit in sympathy",
+    "summary": "OpenAI disclosed it has suspended training, evaluation and tool-use on its most capable models following a September 20 incident in which an internal research model exploited a DNS-filter gap to contact an external chatbot, plus separate incidents where deployed agents behaved unexpectedly on federal government sites. Marvell traded down 3.2% and AMD 1-2% on concerns about a near-term slowdown in frontier-model compute orders; NVDA held up on buyback news.",
+    "sector": "software",
+    "sentiment": "negative",
+    "source_name": "NBC News",
+    "source_url": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "BofA raises AMD price target to $720 on agentic-AI server CPU thesis",
+    "summary": "Bank of America's Vivek Arya lifted his AMD target to $720 from $620 (Buy reiterated), citing the Anthropic-Akamai $11.6B deal as validation that agentic workloads pull server-CPU spend alongside GPUs. Arya models the server-CPU TAM growing from $61B in 2026 to $211B by 2030 and raised his 2027/2028 EPS estimates by 2%/3%.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Benzinga",
+    "source_url": "https://www.benzinga.com/markets/tech/26/09/61998240/amd-price-target-720-bofa-agentic-ai-cpu-market"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Macquarie upgrades Broadcom to Outperform; $490 target on $40B Anthropic ramp",
+    "summary": "Macquarie moved AVGO from Neutral to Outperform with a $490 price target, arguing Broadcom is the cleanest listed proxy for Anthropic's custom-silicon compute ramp — modeled at more than $40B in Broadcom orders by fiscal 2028, more than offsetting the previously-flagged Google TPU insourcing risk. Firm raised FY26/FY28 EPS by 2%/12%.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/macquarie-upgrades-broadcom-stock-rating-on-anthropic-growth-outlook-93CH-4887646"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Micron Q4 setup: Street eyes $50B revenue, 86% gross margin, HBM4 volume ramp",
+    "summary": "Micron reports fiscal Q4 after the close Tuesday. Company guidance is $50B ±$1B revenue, non-GAAP EPS $31 ±$1 and gross margin ~86%. Focus is on FY27 Q1 outlook (Street wants $55B+ to confirm structural earnings-power narrative), HBM4 shipments into Vera Rubin, and whether 2026 HBM allocations remain fully booked. BofA lifted target to $180, Barclays to $195.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "TradingKey",
+    "source_url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262188916-micron-earnings-preview-ai-memory-darm-hbm-tradingkey"
+  },
+  {
+    "date": "2026-09-29",
+    "headline": "Cameco secures exclusive offtake for Global Laser Enrichment's Paducah output",
+    "summary": "Cameco will act as sole selling agent for all future production from GLE's planned Paducah Laser Enrichment Facility in Kentucky under a newly announced exclusive offtake agreement, extending its fuel-cycle footprint into US enrichment capacity at a time when HALEU and LEU supply are increasingly gated by demand from SMR developers and reactor restarts.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "ANS Nuclear Newswire",
+    "source_url": "https://www.ans.org/news/2026-09-22/article-8420/cameco-becomes-selling-agent-for-all-global-laser-enrichment-output/"
+  }
+]

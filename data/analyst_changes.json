@@ -5632,5 +5632,41 @@
     "new_target": 423,
     "old_rating": null,
     "old_target": null
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "AMD",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 720,
+    "old_rating": "Buy",
+    "old_target": 620
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "AVGO",
+    "firm": "Macquarie",
+    "new_rating": "Outperform",
+    "new_target": 490,
+    "old_rating": "Neutral",
+    "old_target": 438
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "MU",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 180,
+    "old_rating": "Buy",
+    "old_target": 140
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "MU",
+    "firm": "Barclays",
+    "new_rating": "Overweight",
+    "new_target": 195,
+    "old_rating": "Overweight",
+    "old_target": 175
   }
 ]

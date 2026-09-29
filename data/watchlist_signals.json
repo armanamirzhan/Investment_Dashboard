@@ -4989,5 +4989,26 @@
     "signal_type": "momentum",
     "description": "Shares -9.2% on no identified company-specific negative news — appears to be high-beta downside participation in the broader semiconductor-equipment selloff (SOXX -2%) ahead of the Oct 5 FQ1'27 print. Backdrop remains constructive: Oppenheimer initiated Outperform ($120 PT) on 9/10, and guidance points to 160-200% FY27 revenue growth on AI-testing demand with a $100.6M backlog.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "NVDA",
+    "signal_type": "momentum",
+    "description": "$150B buyback authorization increase (largest ever) takes remaining program to $235B through FY28; combined with strategic Vera Rubin ramp this reinforces the compounding-cash-flow thesis.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "AVGO",
+    "signal_type": "momentum",
+    "description": "Macquarie upgrade to Outperform with $490 PT flags Anthropic custom-silicon ramp (~$40B FY28) more than offsetting Google TPU insourcing risk.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-29",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "Fiscal Q4 after close Sep 30; watch FY27 Q1 guide (>$55B) to confirm structural HBM cycle, plus HBM4 volume and 2027 allocation commentary.",
+    "severity": "medium"
   }
 ]

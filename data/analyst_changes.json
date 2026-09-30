@@ -5668,5 +5668,77 @@
     "new_target": 195,
     "old_rating": "Overweight",
     "old_target": 175
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "NVDA",
+    "firm": "Cantor Fitzgerald",
+    "new_rating": "Overweight",
+    "new_target": 300.0,
+    "old_rating": "Overweight",
+    "old_target": 240.0
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "NVDA",
+    "firm": "Rosenblatt",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "AMD",
+    "firm": "Piper Sandler",
+    "new_rating": "Overweight",
+    "new_target": 240.0,
+    "old_rating": "Overweight",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "MU",
+    "firm": "TD Cowen",
+    "new_rating": "Buy",
+    "new_target": 1600.0,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "MU",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": 2000.0,
+    "old_rating": "Buy",
+    "old_target": 180.0
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "VRT",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "INTC",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "LRCX",
+    "firm": "Bank of America",
+    "new_rating": "Buy",
+    "new_target": null,
+    "old_rating": "Buy",
+    "old_target": null
   }
 ]

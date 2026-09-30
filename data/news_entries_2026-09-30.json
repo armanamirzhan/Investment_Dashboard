@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-09-30",
+    "headline": "Micron reports Q4 FY26 after the close today; Street focus is on FY27-Q1 guidance >$55B",
+    "summary": "Micron will release fiscal Q4 results after Wednesday's close. Guidance is $50B ±$1B revenue, ~86% GM and $31 ±$1 non-GAAP EPS; the make-or-break number is FY27-Q1 outlook (Street modeling $56.85B / $34.95 EPS). HBM3E/HBM4 booked through 2027 with demand extending into 2028 and DRAM spot up 52% YTD. TD Cowen holds a $1,600 target, BofA a $2,000 bull case; consensus average sits near $1,515.",
+    "sector": "finance",
+    "sentiment": "neutral",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Samsung and SK Hynix up 1%+ in Seoul; Samsung takes $500M stake in AWS-alum Selipsky's 'Helix' AI infra venture",
+    "summary": "Samsung Electronics rose 1.4% to KRW 276,500 and SK Hynix 1.2% to KRW 1.787M in Seoul pre-market. SK Hynix ADRs added 2.62% overnight in New York. Separately, Samsung and affiliates committed $1B (Samsung Electronics $500M) to Helix — the AI infrastructure company led by former AWS CEO Adam Selipsky — with KB Securities framing the move as Samsung stepping into AI datacenter demand directly rather than only via memory supply. KB projects DRAM ASPs up 15–20% q/q through year-end with capacity sold out through 2028.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Seoul Economic Daily",
+    "source_url": "https://en.sedaily.com/finance/2026/09/30/samsung-sk-hynix-gain-over-1-percent-in-premarket-despite"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Long-end Treasury yields spike to multi-decade highs on datacenter-debt supply and sticky inflation",
+    "summary": "The 30-year Treasury yield closed above 5.60% Tuesday — highest since 2002 — and the 10-year touched 5.265%, highest since 2007. Traders cited an estimated ~$400B of 2026 datacenter-related debt issuance plus persistent inflation as drivers. Rate-sensitive datacenter developers and hyperscaler REITs (EQIX, DLR) are the most exposed; higher discount rates also compress long-duration AI infra valuations, though memory and power names held up on strong pricing.",
+    "sector": "finance",
+    "sentiment": "negative",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Bank of America adds Vertiv to its US 1 priority list; datacenter power gear demand called 'unabated'",
+    "summary": "BofA moved Vertiv onto its high-conviction US 1 List, reiterating Buy and highlighting speed-to-market as the binding constraint for hyperscale AI datacenter build-outs. The desk waved off quality concerns raised by a competitor, calling Vertiv's execution 'premier' and noting no divergence from broader industry issues. VRT rose ~1.8% on the note; Constellation was up 1.6% in sympathy on the AI-power read-across.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TheStreet",
+    "source_url": "https://www.thestreet.com/investing/stocks/bank-of-america-says-ai-data-center-demand-strong"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Anthropic S-1 leak: $2T valuation target, $518B in compute obligations, $42B 2025 net loss",
+    "summary": "Leaked details from Anthropic's IPO prospectus show revenue up ~12x to ~$4.6B in 2025 against a $42B net loss and an $8B+ operating loss; compute and infrastructure commitments total $518B. Compute spend alone hit $7.33B (up 3x YoY) — more than half of total opex. A public debut is expected after the November US midterms at a valuation potentially north of $2T, more than double the May $965B mark. Read-through is bullish for GPU supply chain (NVDA/AMD/AVGO/MU/TSM) and hyperscale power partners.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "OpenAI, Blackstone-led 'American Infrastructure Alliance' teams with building-trades unions to fight datacenter moratoriums",
+    "summary": "Follow-up to Monday's launch: the coalition (OpenAI, Blackstone, QTS, SoftBank + IBEW, SMART, HFIAW, Iron Workers, UA plumbers/pipefitters) filed initial lobbying pushes in Texas, Georgia, Ohio, Iowa, Pennsylvania, Indiana and South Carolina. Ohio polling cited by the group shows 67% initial opposition to datacenter build-outs flips positive when developers commit to low power costs, jobs and tax revenue. Goal is state-level siting standards by 2027 in exchange for blocking construction moratoriums.",
+    "sector": "policy",
+    "sentiment": "positive",
+    "source_name": "Axios",
+    "source_url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "Bank of America top-picks NVDA, INTC, MRVL, MU and LRCX into Q4; Cantor lifts NVDA target to $300",
+    "summary": "BofA's semiconductor team named NVDA, INTC, MRVL, MU and LRCX as top picks into year-end, reiterating Buy on all five. Separately, Cantor Fitzgerald lifted its NVIDIA price target by $60 to $300 (Overweight) and Piper Sandler raised AMD to $240. Rosenblatt initiated NVDA at Buy overnight. Setup into Micron's post-close print is constructive for the memory complex.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2026/09/30/here-are-wednesdays-biggest-analyst-calls-nvidia-spacex-target-amazon-microsoft.html"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "China rare-earth suspension countdown: curbs set to re-impose Nov 10 absent extension",
+    "summary": "China's one-year suspension of the October 2025 rare-earth export controls expires November 10, 2026 — six weeks out. The paused controls cover rare-earth oxides, metals and permanent-magnet materials, including components used in datacenter cooling motors and semiconductor sputtering targets. US-side Section 301 tariff exclusions expire the same day. Semiconductor and power-equipment desks are flagging renewed supply-chain risk if the truce isn't extended; watch ETN, VRT, ABB (via Siemens/Schneider peers) and EV/motor supply chains.",
+    "sector": "policy",
+    "sentiment": "negative",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2025/11/01/china-rare-earth-export-curbs-suspension-probes-us-chip-firms/"
+  },
+  {
+    "date": "2026-09-30",
+    "headline": "NVIDIA Vera Rubin ramps into 'full production' for hyperscale agentic-AI factories",
+    "summary": "NVIDIA confirmed Vera Rubin has entered full production and is shipping to hyperscalers and neoclouds in H2 CY26. Analysts see 2026 Rubin output capped at ~200k–300k units on HBM4 supply, keeping the memory (MU, 000660.KS, 005930.KS) and CoWoS (TSM, 8035.T) bottleneck theses intact. Blackwell remains the volume shipper into year-end. Read-through supports the Anthropic S-1 compute-commitment math and the 800 VDC racks unveiled by Delta at Data Center World Asia this week.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "NVIDIA Newsroom",
+    "source_url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory"
+  }
+]

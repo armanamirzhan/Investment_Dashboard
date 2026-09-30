@@ -5010,5 +5010,40 @@
     "signal_type": "earnings_beat",
     "description": "Fiscal Q4 after close Sep 30; watch FY27 Q1 guide (>$55B) to confirm structural HBM cycle, plus HBM4 volume and 2027 allocation commentary.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "Micron reports fiscal Q4 after Wednesday's close — HBM4 fully booked through 2027, DRAM spot +52% YTD; guidance for FY27-Q1 above $55B is the read-through the memory complex is pricing.",
+    "severity": "high"
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "VRT",
+    "signal_type": "momentum",
+    "description": "Added to BofA US 1 List with reiterated Buy; datacenter power-gear demand called 'unabated' and speed-to-market the binding constraint.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "EQIX",
+    "signal_type": "overvalued",
+    "description": "30-year Treasury above 5.60% (highest since 2002) plus ~$400B of 2026 datacenter-related debt supply pressures long-duration REIT valuations and financing costs.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "DLR",
+    "signal_type": "overvalued",
+    "description": "Same rate-shock and debt-supply setup as EQIX — long-duration datacenter REIT exposed to rising discount rates.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "ETN",
+    "signal_type": "legal_risk",
+    "description": "China rare-earth export-control suspension expires Nov 10, 2026 — permanent-magnet motor supply chain most exposed if not extended.",
+    "severity": "medium"
   }
 ]

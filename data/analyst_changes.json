@@ -5740,5 +5740,23 @@
     "new_target": null,
     "old_rating": "Buy",
     "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "CRWV",
+    "firm": "William Blair",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-09-30",
+    "ticker": "ANET",
+    "firm": "Bernstein",
+    "new_rating": "Outperform",
+    "new_target": null,
+    "old_rating": null,
+    "old_target": null
   }
 ]

@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-10-01",
+    "headline": "Micron blows out FQ4: $54.2B revenue (+379% YoY), guides FQ1'27 to $61.5B vs Street $57B",
+    "summary": "Micron reported fiscal Q4 revenue of $54.2B (up 379% YoY, 31% sequential) and non-GAAP EPS of $33.42 vs $31.61 consensus, with record DRAM revenue of $39.8B and Core Datacenter BU revenue of $18.0B at 90% gross margins. HBM revenue grew faster than total company revenue and the vast majority of calendar 2027 HBM bit supply is now booked at significant year-over-year price increases. FQ1'27 guide: revenue $61.5B (vs $57B Street) and non-GAAP EPS $38.15 (vs $35.40). Management flagged sequential revenue growth each quarter in FY27 with AI demand and supply tightness extending through calendar 2027 and 2028. Semiconductor complex (NVDA, AMD, AVGO, INTC) up 0.8–1.3% in premarket on the read-through.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "SEC Form 8-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "HPE lands first Helios order: $1.2B Vultr deal for AMD MI455X AI racks",
+    "summary": "HPE announced a $1.2B agreement to supply Vultr — the world's largest privately held cloud infra company — with AI racks built on AMD's new Helios platform. Each rack integrates 72 AMD Instinct MI455X GPUs, EPYC 'Venice' CPUs, Pensando Vulcano AI NICs and ROCm software, deployed at Vultr's US datacenter footprint for training and inference workloads. Shares surged ~3.9% pre-market; this is HPE's first Helios order and a meaningful validation of AMD's hyperscaler-adjacent AI roadmap heading into the MI450 ramp.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-30/hpe-gets-1-2-billion-amd-gear-order-from-vultr-in-latest-ai-win"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Vicor raises FQ3'26 sequential revenue growth guide to 30%+ on second VPD license royalty",
+    "summary": "Vicor Corporation raised Q3 sequential revenue growth guidance from >20% to >30%, citing accelerating royalties from its first non-exclusive Vertical Power Delivery (VPD) license — the second guide-up this month. CEO Patrizio Vinciarelli said four OEMs/hyperscalers have now secured VPD licenses; licensees can source modules elsewhere but pay royalties to Vicor (discounted if they buy the most demanding parts). VPD mounts current multipliers directly beneath AI processors to cut power loss. Stock jumped +12% in after-hours. Read-through to power delivery incumbents (ETN, VRT) as hyperscalers adopt new vertical architectures.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "Alpha Spread",
+    "source_url": "https://www.alphaspread.com/market-news/earnings/vicor-raises-q3-2026-revenue-growth-guidance-on-new-licensing-royalties"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "US federal government enters shutdown as fiscal year begins; markets shrug but data releases at risk",
+    "summary": "The US federal government shut down at 12:01 AM ET October 1 after Congress failed to pass a continuing resolution. Historical precedent is for limited and short-lived market impact — this is the 22nd shutdown since 1976 — but near-term risks are elevated for: delayed BLS/BEA data (NFP, CPI), slower federal AI/datacenter procurement actions, and paused agency work. S&P 500 futures nudged higher at the open as rate-cut hopes offset the headline. Tech leadership intact on Micron, HPE, and Vicor catalysts.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Congressional Research Service",
+    "source_url": "https://www.congress.gov/crs-product/R48832"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Accenture Q4 bookings record $22.17B, FY27 revenue guide 3–6% with AI subsumed into core consulting",
+    "summary": "Accenture reported Q4 FY26 revenue of $18.7B and EPS of $3.29 — both above the high end of guidance — with full-year bookings a record $84.5B. Q4 operating margin expanded to 15.3% from 11.6% a year earlier, and operating income rose 40% to $2.86B. For FY27 management guided revenue growth of 3–6% and EPS of $14.39–$14.81. Notably Accenture stopped breaking out advanced-AI bookings, saying AI work is now embedded in larger engagements rather than sold stand-alone — bearish read for pure-play AI consultancies but confirms enterprise AI demand is sticky and scaling. ACN +16% premarket.",
+    "sector": "software",
+    "sentiment": "positive",
+    "source_name": "SEC Form 8-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000037/q4fy26earnings8-kexhibit.htm"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Nebius: BNP Paribas upgrades to Outperform, PT $260 → $399 ahead of Oct 1 GPU rate hike",
+    "summary": "BNP Paribas moved Nebius (NBIS) to Outperform from Neutral with a $399 price target (from $260), citing 454% expected growth in AI infrastructure revenue. Separately Nebius told customers of a 17–21% rate increase on H100/H200/B200/B300 GPU instances and ~25% increase on AMD EPYC Genoa CPU rates effective today, October 1. The rate action is being read as a direct demand/pricing-power signal across the neocloud group (CRWV, APLD) and bolsters Micron/NVDA/AMD read-throughs on sold-out GPU supply.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "Street Insider",
+    "source_url": "https://www.streetinsider.com/Investing/Nebius+stock+jumps+after+BNP+Paribas+upgrade+to+Outperform/27100066.html"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Mizuho raises Micron PT to $1,400; D.A. Davidson sets Street-high $2,100 — Goldman stays Hold at $1,100",
+    "summary": "Mizuho (Vijay Rakesh) lifted MU to $1,400 from $1,300 (Outperform) citing Q4 beat and FY27-Q1 guide materially above consensus. D.A. Davidson's Gil Luria raised MU to a new Street-high $2,100 (Buy), implying 97% upside, on durable HBM pricing through 2028. Goldman's James Schneider held at $1,100 (Neutral) flagging cycle risk and capex intensity. 49-analyst consensus now sits at 'Strong Buy' with $1,533.80 average target vs ~$1,065 current.",
+    "sector": "finance",
+    "sentiment": "positive",
+    "source_name": "Investing.com",
+    "source_url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-micron-stock-price-target-to-1400-on-ai-strength-93CH-4926467"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "Samsung Electronics +2.8% in Seoul to KRW 276,500 on HBM4 ramp read-through from Micron",
+    "summary": "Samsung Electronics (005930.KS) closed +2.8% at KRW 276,500 in Seoul, with SK Hynix (000660.KS) also higher, both reacting to Micron's FY27-Q1 guide confirming HBM supply is fully booked into 2027 at double-digit price increases. Samsung's HBM4 (11.7 Gbps) passed Nvidia and AMD qualification earlier in September and the company's entire 2026 HBM capacity is sold out. Vera Rubin confirmed Samsung HBM4 for H2 CY26 shipments — the thesis for Samsung's foundry/memory re-rate stays intact into the KRX close.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "StockAnalysis",
+    "source_url": "https://stockanalysis.com/quote/krx/005930/"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "China rare-earth suspension extended to Jan 10 2027 post Xi–Trump summit; magnet exports still down 21% in August",
+    "summary": "Follow-up to the September 30 cliff risk: the Xi–Trump summit extended China's rare-earth export control suspension to January 10, 2027, delaying the November 10 snap-back scenario. However there is no jointly documented settlement on critical minerals, and August magnet exports to the US fell 21% MoM to 512 tons, raising concerns on the actual flow. Watch ETN, VRT, ABB and EV motor supply chains — the policy risk is deferred not resolved, and processors remain weaponizable.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-09-21/china-rare-earth-magnet-exports-to-us-drop-before-xi-trump-meet"
+  },
+  {
+    "date": "2026-10-01",
+    "headline": "AI chip stocks (NVDA, AMD, AVGO, INTC) up 0.8–1.3% premarket on Micron demand validation",
+    "summary": "Semiconductor peers rallied on the Micron FQ4 beat/raise. NVDA, AMD and AVGO each up over 1% premarket; INTC +0.77%. Street takeaway: Micron's $38B+ EPS guide for FQ1'27 is a direct demand validation for the HBM/CoWoS/GPU stack and lifts earnings-power scenarios for CY27 across NVDA (Blackwell + Rubin), AMD (MI450) and AVGO (ASIC + Ethernet networking). Setup remains constructive into Oct 15 catalysts (TSMC Sept monthly, early earnings prints).",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "TipRanks",
+    "source_url": "https://www.tipranks.com/news/why-are-ai-chip-stocks-intel-nvidia-broadcom-rising-in-premarket-today-october-1"
+  }
+]

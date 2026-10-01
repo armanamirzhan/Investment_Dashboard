@@ -5045,5 +5045,33 @@
     "signal_type": "legal_risk",
     "description": "China rare-earth export-control suspension expires Nov 10, 2026 — permanent-magnet motor supply chain most exposed if not extended.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "MU",
+    "signal_type": "earnings_beat",
+    "description": "FQ4 blowout: $54.2B rev (+379% YoY), $33.42 EPS vs $31.61; FQ1'27 guide $61.5B vs $57B Street; HBM 2027 bits booked at significant YoY price increases",
+    "severity": "high"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "HPE",
+    "signal_type": "momentum",
+    "description": "First Helios AI rack order lands at $1.2B from Vultr — AMD MI455X ramp validation, +3.9% premarket",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "MU",
+    "signal_type": "momentum",
+    "description": "Multiple PT raises post-earnings; D.A. Davidson sets Street-high $2,100 implying 97% upside",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "005930.KS",
+    "signal_type": "momentum",
+    "description": "Micron HBM demand validation lifts Samsung +2.8% in Seoul; HBM4 shipping into Vera Rubin H2 CY26",
+    "severity": "medium"
   }
 ]

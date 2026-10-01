@@ -8069,5 +8069,87 @@
       }
     ],
     "file": "morning-news/2026-09-30.html"
+  },
+  {
+    "date": "2026-10-01",
+    "tickers": [
+      {
+        "ticker": "MU",
+        "direction": "up",
+        "note": "FQ4 blowout; FQ1'27 guide $61.5B vs $57B Street; HBM 2027 booked"
+      },
+      {
+        "ticker": "HPE",
+        "direction": "up",
+        "note": "+3.9% on first Helios order — $1.2B Vultr deal for AMD MI455X racks"
+      },
+      {
+        "ticker": "VICR",
+        "direction": "up",
+        "note": "+12% after-hours; FQ3 sequential guide raised to >30% on second VPD royalty"
+      },
+      {
+        "ticker": "NBIS",
+        "direction": "up",
+        "note": "BNP Paribas Outperform, PT $260 → $399; 17–21% GPU rate hike live today"
+      },
+      {
+        "ticker": "ACN",
+        "direction": "up",
+        "note": "+16% premarket on Q4 beat, record $84.5B FY26 bookings"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+1%+ premarket on Micron HBM validation"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "+1%+ premarket on HPE Helios ramp + Micron demand"
+      },
+      {
+        "ticker": "005930.KS",
+        "direction": "up",
+        "note": "+2.8% Seoul close; HBM4 ramp validated by Micron FY27 guide"
+      },
+      {
+        "ticker": "000660.KS",
+        "direction": "up",
+        "note": "SK Hynix higher on HBM supply/pricing read-through"
+      },
+      {
+        "ticker": "macro",
+        "direction": "neutral",
+        "note": "US federal shutdown begins Oct 1; markets shrug, BLS/BEA data releases at risk"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "MU",
+        "signal": "earnings_beat HIGH — HBM supercycle extended through 2028, massive guide-up"
+      },
+      {
+        "ticker": "HPE",
+        "signal": "First AMD Helios order books — AI server share-shift beneficiary"
+      },
+      {
+        "ticker": "VICR",
+        "signal": "VPD royalty engine confirmed — second guide-up in two weeks"
+      },
+      {
+        "ticker": "NBIS",
+        "signal": "GPU pricing power signal — rate hikes going live, consistent with sold-out supply"
+      },
+      {
+        "ticker": "ACN",
+        "signal": "AI consulting now embedded, not standalone — enterprise AI demand is sticky"
+      },
+      {
+        "ticker": "macro",
+        "signal": "Shutdown + rare-earth suspension to Jan 10 2027 — policy risk deferred not resolved"
+      }
+    ],
+    "file": "morning-news/2026-10-01.html"
   }
 ]

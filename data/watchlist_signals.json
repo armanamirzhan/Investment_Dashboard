@@ -5073,5 +5073,19 @@
     "signal_type": "momentum",
     "description": "Micron HBM demand validation lifts Samsung +2.8% in Seoul; HBM4 shipping into Vera Rubin H2 CY26",
     "severity": "medium"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "SNPS",
+    "signal_type": "momentum",
+    "description": "SNPS up ~12% intraday after conference announcements; multiple analyst upgrades/target raises (HSBC Street-high $700, Rosenblatt $620).",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "HPE",
+    "signal_type": "momentum",
+    "description": "HPE up ~3.9% on $1.2B Vultr deal.",
+    "severity": "low"
   }
 ]

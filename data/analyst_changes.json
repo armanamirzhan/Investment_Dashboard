@@ -5794,5 +5794,23 @@
     "new_target": 399,
     "old_rating": "Neutral",
     "old_target": 260
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "MU",
+    "firm": "D.A. Davidson",
+    "new_rating": "Buy",
+    "new_target": 2100,
+    "old_rating": null,
+    "old_target": null
+  },
+  {
+    "date": "2026-10-01",
+    "ticker": "SNPS",
+    "firm": "Rosenblatt Securities",
+    "new_rating": null,
+    "new_target": 620,
+    "old_rating": null,
+    "old_target": 575
   }
 ]

@@ -5101,5 +5101,19 @@
     "signal_type": "momentum",
     "description": "Fresh 20-year 690 MW Amazon PPA at Calvert Cliffs extends hyperscaler nuclear contract run and unlocks $3B site reinvestment plus 190 MW of 2030-2032 uprates.",
     "severity": "medium"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "TSLA",
+    "signal_type": "momentum",
+    "description": "Up ~5% midday after Q3 deliveries of 486,532 vehicles beat the ~461,100 consensus.",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "ON",
+    "signal_type": "momentum",
+    "description": "Up >5% midday after revising its buyout offer for Synaptics to $123/share (~$5.7B); deal could be dilutive/leveraging.",
+    "severity": "medium"
   }
 ]

@@ -8151,5 +8151,95 @@
       }
     ],
     "file": "morning-news/2026-10-01.html"
+  },
+  {
+    "date": "2026-10-02",
+    "tickers": [
+      {
+        "ticker": "INTC",
+        "direction": "up",
+        "note": "+11% on Muse server-CPU revival; Tigress $145, Northland Outperform $120"
+      },
+      {
+        "ticker": "ON",
+        "direction": "up",
+        "note": "+~5% on $5.7B all-cash Synaptics restructure at $123/share"
+      },
+      {
+        "ticker": "SYNA",
+        "direction": "up",
+        "note": "+~14% on cash takeout bump after rival bid"
+      },
+      {
+        "ticker": "CEG",
+        "direction": "up",
+        "note": "20-year 690 MW Amazon PPA at Calvert Cliffs, $3B site reinvestment"
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "neutral",
+        "note": "Locks 690 MW nuclear for AWS AI buildout"
+      },
+      {
+        "ticker": "SMR",
+        "direction": "up",
+        "note": "+4% as TVA PPA talks progress; $750M ATM overhang persists"
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "up",
+        "note": "+2% on sector sympathy; still pre-NRC approval"
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "up",
+        "note": "+2% in broad chip rally; $300M smuggling arrest highlights China enforcement"
+      },
+      {
+        "ticker": "AMD",
+        "direction": "up",
+        "note": "+3% as Muse 40:1 CPU:GPU ratio aids EPYC thesis"
+      },
+      {
+        "ticker": "CRWV",
+        "direction": "up",
+        "note": "UBS flags GPU rate hikes as AI compute pricing-power signal"
+      },
+      {
+        "ticker": "IFX.DE",
+        "direction": "neutral",
+        "note": "Opens Thailand backend hub to diversify packaging capacity"
+      }
+    ],
+    "signals": [
+      {
+        "ticker": "INTC",
+        "signal": "momentum MEDIUM — Muse server-CPU demand revival + two analyst upgrades"
+      },
+      {
+        "ticker": "CEG",
+        "signal": "momentum MEDIUM — 20-year Amazon PPA extends hyperscaler nuclear contract run"
+      },
+      {
+        "ticker": "ON",
+        "signal": "M&A restructured — $5.7B all-cash Synaptics takeout immediately accretive"
+      },
+      {
+        "ticker": "NVDA",
+        "signal": "policy risk — $300M Earthmade smuggling arrest signals tightening enforcement"
+      },
+      {
+        "ticker": "CRWV",
+        "signal": "pricing power — GPU rate hikes continuing across neoclouds (CRWV, NBIS)"
+      }
+    ],
+    "file": "morning-news/2026-10-02.html",
+    "top_headlines": "onsemi restructures Synaptics takeover to $5.7B all-cash; Intel +11% on Muse server-CPU thesis + Tigress/Northland upgrades; Amazon-Constellation 20-yr 690 MW Calvert Cliffs PPA; DOJ arrests Earthmade CEO in $300M Nvidia smuggling case; SMR/OKLO rally; UBS flags neocloud GPU pricing power.",
+    "sectors": [
+      "hardware",
+      "energy",
+      "policy",
+      "integration"
+    ]
   }
 ]

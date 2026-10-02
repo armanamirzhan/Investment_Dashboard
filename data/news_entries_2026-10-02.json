@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-10-02",
+    "headline": "onsemi restructures Synaptics takeover to $5.7B all-cash at $123/share after rival bid",
+    "summary": "onsemi and Synaptics amended their June 25 merger agreement to an all-cash deal at $123 per share for an aggregate $5.7B, down from the ~$7B stock-and-cash original. The revision follows an unsolicited competing proposal; onsemi says the restructured deal is immediately accretive to non-GAAP EPS and is being financed with cash on hand plus committed debt from Morgan Stanley. Closing still targeted mid-2027. ON +~5% / SYNA +~14% on the print. Positive signal that AI edge/sensing M&A appetite is strong enough to attract rival bidders.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "SEC Form 8-K",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001097864/000114036126038294/ef20083030_8k.htm"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "California CEO arrested over alleged $300M scheme to smuggle Nvidia AI servers to China",
+    "summary": "DOJ arrested Greg Lui, CEO of Earthmade Computer Inc., on charges of conspiracy, outbound smuggling and money laundering tied to a 2023–2024 scheme that moved ~$300M of restricted Nvidia H100-equipped servers from Los Angeles to Kuala Lumpur and onward to buyers in China. Earthmade allegedly received >$176M from Malaysia-based transshippers. Reinforces that enforcement, not loopholes, is now the binding constraint on China access; incrementally bearish for grey-market H200/B200 availability but confirms strong Chinese demand that policy continues to suppress.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Bloomberg",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-10-02/man-charged-by-us-with-illegally-shipping-nvidia-chips-to-china"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Amazon-Constellation sign 20-year PPA for 690 MW from Calvert Cliffs nuclear station",
+    "summary": "Amazon and Constellation Energy signed a 20-year power purchase agreement under which AWS will take 690 MW from the Calvert Cliffs nuclear station, enabling >$3B of infrastructure investment at the site and ~190 MW of incremental generating capacity coming online 2030–2032 via uprates. The deal follows the Three Mile Island (Crane Clean Energy Center) and TMI restart template and extends Constellation's run of long-duration hyperscaler nuclear contracts. Positive for CEG on fleet valuation and for AMZN on firm 24/7 clean-power supply for AI datacenter buildout.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "NucNet",
+    "source_url": "https://www.nucnet.org/news/amazon-and-constellation-sign-20-year-ppa-in-boost-for-us-nuclear-station-10-4-2026"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Intel +11% as Meta Muse agent revives server-CPU thesis; Tigress $145, Northland upgrade",
+    "summary": "Intel shares surged ~11–12% as Meta's Muse agentic AI framework — reported to require two CPU cores + 8GB RAM per sandbox and ratios approaching 40:1 CPU:GPU — reignites the datacenter server-CPU demand thesis. Tigress Financial lifted its INTC price target to $145 from $118 citing Xeon demand, Intel 18A progress and operating leverage. Northland upgraded to Outperform with a $120 target on turnaround progress and server CPU supply tightness. Broader chip rally: AMD +3%, Nvidia +2%, Arm +8% into the Trump-Xi summit setup.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "24/7 Wall St.",
+    "source_url": "https://247wallst.com/investing/2026/10/02/amd-climbs-3-as-chip-stocks-extend-their-run-arm-jumps-8-nvidia-rises-2/"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "SMR and Oklo extend nuclear rally; NuScale +4% as TVA PPA talks progress",
+    "summary": "NuScale (SMR) +4% to $8.07 and Oklo (OKLO) +2% to $37.94 as the nuclear complex extends gains on the back of the Amazon-Constellation PPA. NuScale CFO said the company is targeting a Tennessee Valley Authority PPA by year-end 2026, which would be its first commercial-scale commitment. Overhang remains NuScale's $750M ATM program announced in August and the fact Oklo still lacks NRC design approval, though Oklo's Groves isotope test reactor achieved first criticality in August. Positive sector read-through for CEG, VST, LEU and uranium names.",
+    "sector": "energy",
+    "sentiment": "positive",
+    "source_name": "Foreign Policy Journal",
+    "source_url": "https://www.foreignpolicyjournal.com/2026/10/02/nuscale-power-nyse-smr-climbs-4-as-750-million-share-program-stokes-dilution-fears-oklo-nyse-oklo-and-uranium-energy-nyse-uec-also-advance/"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "UBS flags CoreWeave GPU rate hikes as evidence of AI compute pricing power",
+    "summary": "UBS highlighted CoreWeave's ongoing GPU rate increases — Nebius followed yesterday with a 17–21% hike across H100/H200/B200/B300 — as a sign that neocloud pricing is accelerating despite capacity additions. CoreWeave disclosed late-Q3 pricing of ~$40M per MW on short-dated contracts and $25B+ of net new commitments early in Q3. Confirms the hyperscaler-adjacent compute market remains supply-constrained and extends the read-through to NVDA, MU HBM pricing and AMD's MI400 ramp.",
+    "sector": "integration",
+    "sentiment": "positive",
+    "source_name": "GuruFocus",
+    "source_url": "https://www.gurufocus.com/news/9107890/coreweave-crwv-gains-spotlight-as-ubs-highlights-ai-infrastructure-pricing-surge"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Infineon opens Thailand backend manufacturing hub to add AI-era packaging capacity",
+    "summary": "Infineon (IFX.DE) inaugurated a new backend assembly and test hub in Thailand aimed at expanding capacity for power semiconductors and automotive/AI datacenter chips. The site diversifies IFX's footprint outside Malaysia and China amid customer demand for geographically resilient supply chains, and supports the company's longer-term capacity plan for 48V and server-rack power delivery parts. Incremental positive for datacenter power ecosystem including read-through to ETN, VRT and ON.",
+    "sector": "hardware",
+    "sentiment": "positive",
+    "source_name": "DigiTimes",
+    "source_url": "https://www.digitimes.com/"
+  },
+  {
+    "date": "2026-10-02",
+    "headline": "Chip complex rallies into Trump-Xi summit setup; export-control status quo intact",
+    "summary": "Semiconductor leaders broadly higher pre-open as investors position into expected Trump-Xi meeting; reporting suggests advanced-chip export controls will not be loosened materially even if negotiations advance on EVs, rare earths and agricultural goods. Policy desks continue to flag Nvidia H200/B200 China access as the key swing factor. Combined with the Earthmade smuggling arrest, the backdrop reinforces that enforcement is tightening even as diplomacy continues — bearish for China revenue reinstatement scenarios, neutral for NVDA/AMD base cases.",
+    "sector": "policy",
+    "sentiment": "neutral",
+    "source_name": "Rest of World",
+    "source_url": "https://restofworld.org/2026/trump-xi-meeting-tech/"
+  }
+]

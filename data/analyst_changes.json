@@ -5812,5 +5812,23 @@
     "new_target": 620,
     "old_rating": null,
     "old_target": 575
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "INTC",
+    "firm": "Tigress Financial",
+    "new_rating": "Buy",
+    "new_target": 145,
+    "old_rating": "Buy",
+    "old_target": 118
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "INTC",
+    "firm": "Northland",
+    "new_rating": "Outperform",
+    "new_target": 120,
+    "old_rating": "Market Perform",
+    "old_target": null
   }
 ]

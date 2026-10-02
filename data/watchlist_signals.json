@@ -5087,5 +5087,19 @@
     "signal_type": "momentum",
     "description": "HPE up ~3.9% on $1.2B Vultr deal.",
     "severity": "low"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "INTC",
+    "signal_type": "momentum",
+    "description": "Up ~11% pre-market as Meta Muse agentic framework revives server-CPU demand thesis; two analyst upgrades (Tigress $145, Northland Outperform $120).",
+    "severity": "medium"
+  },
+  {
+    "date": "2026-10-02",
+    "ticker": "CEG",
+    "signal_type": "momentum",
+    "description": "Fresh 20-year 690 MW Amazon PPA at Calvert Cliffs extends hyperscaler nuclear contract run and unlocks $3B site reinvestment plus 190 MW of 2030-2032 uprates.",
+    "severity": "medium"
   }
 ]
